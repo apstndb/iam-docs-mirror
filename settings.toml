@@ -1,0 +1,29 @@
+# settings.toml: Configuration for the IAM documentation mirror
+
+# Discovery entry points
+seeds = [
+    "https://docs.cloud.google.com/iam/docs",
+    "https://docs.cloud.google.com/iam",
+    "https://docs.cloud.google.com/policy-intelligence/docs",
+    "https://docs.cloud.google.com/sdk/gcloud/reference/iam",
+]
+
+# Path prefixes to mirror. Includes IAM proper, Policy Intelligence
+# (Policy Troubleshooter, Policy Analyzer, Recommender etc.), and the
+# gcloud iam CLI reference (GA, alpha, beta).
+prefixes = [
+    "/iam/",
+    "/policy-intelligence/",
+    "/sdk/gcloud/reference/iam/",
+    "/sdk/gcloud/reference/alpha/iam/",
+    "/sdk/gcloud/reference/beta/iam/",
+]
+
+# Recursive discovery from Markdown content
+recursive = true
+
+# Rate limiting: requests per minute (default: 50.0)
+# qpm = 50.0
+
+# Wait duration when quota is exceeded (default: 1m10s)
+# qw = "1m10s"
