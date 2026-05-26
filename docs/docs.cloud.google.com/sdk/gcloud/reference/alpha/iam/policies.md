@@ -1,0 +1,50 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/policies
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/policies
+title: gcloud alpha iam policies
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud alpha iam policies - manage IAM deny policies
+
+SYNOPSIS
+
+`gcloud alpha iam policies` `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(ALPHA)` Commands for managing Google Cloud IAM deny policies.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create  `  
+    `(ALPHA)` Create a policy on the given attachment point with the given name.
+  - `  delete  `  
+    `(ALPHA)` Delete a policy on the given attachment point with the given name.
+  - `  get  `  
+    `(ALPHA)` Get a policy on the given attachment point with the given name.
+  - `  lint-condition  `  
+    `(ALPHA)` Lint an IAM condition.
+  - `  list  `  
+    `(ALPHA)` List the policies on the given attachment point.
+  - `  update  `  
+    `(ALPHA)` Update the policy on the given attachment point with the given name.
+
+NOTES
+
+This command is currently in alpha and might change without notice. If this command fails with API permission errors despite specifying the correct project, you might be trying to access an API with an invitation-only early access allowlist. These variants are also available:
+
+    gcloud iam policies
+
+    gcloud beta iam policies

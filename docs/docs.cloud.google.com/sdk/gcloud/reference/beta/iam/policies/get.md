@@ -1,0 +1,51 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/beta/iam/policies/get
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/beta/iam/policies/get
+title: gcloud beta iam policies get
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud beta iam policies get - get a policy on the given attachment point with the given name
+
+SYNOPSIS
+
+`gcloud beta iam policies get` `  POLICY_ID  ` `  --attachment-point  ` = `  ATTACHMENT_POINT  ` `  --kind  ` = `  KIND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(BETA)` Get a policy on the given attachment point with the given name.
+
+EXAMPLES
+
+The following command gets the IAM policy defined at the resource project `  123  ` of kind `  denypolicies  ` and id `  my-deny-policy  ` :
+
+    gcloud beta iam policies get my-deny-policy --attachment-point=cloudresourcemanager.googleapis.com/projects/123 --kind=denypolicies
+
+POSITIONAL ARGUMENTS
+
+  - `  POLICY_ID  `  
+    Policy ID that is unique for the resource to which the policy is attached.
+
+REQUIRED FLAGS
+
+  - `--attachment-point` = `  ATTACHMENT_POINT  `  
+    Resource to which the policy is attached. For valid formats, see <https://cloud.google.com/iam/help/deny/attachment-point> .
+  - `--kind` = `  KIND  `  
+    Policy type. Use `denypolicies` for deny policies.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+
+Run ` $ gcloud help  ` for details.
+
+NOTES
+
+This command is currently in beta and might change without notice. These variants are also available:
+
+    gcloud iam policies get
+
+    gcloud alpha iam policies get

@@ -1,0 +1,81 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools
+title: gcloud iam workload-identity-pools
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud iam workload-identity-pools - manage IAM workload identity pools
+
+SYNOPSIS
+
+`gcloud iam workload-identity-pools` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+Commands for managing IAM workload identity pools.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  managed-identities  `  
+    Manage IAM workload identity pool managed identities.
+  - `  namespaces  `  
+    Manage IAM workload identity pool namespaces.
+  - `  operations  `  
+    Manage IAM workload identity pool long running operations.
+  - `  providers  `  
+    Manage IAM workload identity pool providers.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  add-attestation-rule  `  
+    Add an attestation rule on a workload identity pool.
+  - `  add-iam-policy-binding  `  
+    Add IAM policy binding for a workload identity pool.
+  - `  create  `  
+    Create a new workload identity pool.
+  - `  create-cred-config  `  
+    Create a configuration file for generated credentials.
+  - `  delete  `  
+    Delete a workload identity pool.
+  - `  describe  `  
+    Describe a workload identity pool.
+  - `  get-iam-policy  `  
+    Get the IAM policy for a workload identity pool.
+  - `  list  `  
+    List workload identity pools.
+  - `  list-attestation-rules  `  
+    List the attestation rules on a workload identity pool.
+  - `  remove-attestation-rule  `  
+    Remove an attestation rule on a workload identity pool.
+  - `  remove-iam-policy-binding  `  
+    Remove IAM policy binding from a workload identity pool.
+  - `  set-attestation-rules  `  
+    Set attestation rules on a workload identity pool.
+  - `  set-iam-policy  `  
+    Set the IAM policy for a workload identity pool.
+  - `  undelete  `  
+    Undelete a workload identity pool.
+  - `  update  `  
+    Update a workload identity pool.
+
+NOTES
+
+These variants are also available:
+
+    gcloud alpha iam workload-identity-pools
+
+    gcloud beta iam workload-identity-pools

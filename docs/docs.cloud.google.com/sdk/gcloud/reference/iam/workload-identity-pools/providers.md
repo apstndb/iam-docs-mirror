@@ -1,0 +1,71 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/providers
+title: gcloud iam workload-identity-pools providers
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud iam workload-identity-pools providers - manage IAM workload identity pool providers
+
+SYNOPSIS
+
+`gcloud iam workload-identity-pools providers` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+Commands for managing IAM workload identity pool providers.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  keys  `  
+    Manage IAM workload identity pool provider keys.
+  - `  operations  `  
+    Manage IAM workload identity pool provider long running operations.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create-aws  `  
+    Create a new AWS workload identity pool provider.
+  - `  create-oidc  `  
+    Create a new OIDC workload identity pool provider.
+  - `  create-saml  `  
+    Create a new SAML workload identity pool provider.
+  - `  create-x509  `  
+    Create a new X.509 workload identity pool provider.
+  - `  delete  `  
+    Delete a workload identity pool provider.
+  - `  describe  `  
+    Describe a workload identity pool provider.
+  - `  list  `  
+    List workload identity pool providers.
+  - `  undelete  `  
+    Undelete a workload identity pool provider.
+  - `  update-aws  `  
+    Update an AWS workload identity pool provider.
+  - `  update-oidc  `  
+    Update an OIDC workload identity pool provider.
+  - `  update-saml  `  
+    Update a SAML workload identity pool provider.
+  - `  update-x509  `  
+    Update an X.509 workload identity pool provider.
+
+NOTES
+
+These variants are also available:
+
+    gcloud alpha iam workload-identity-pools providers
+
+    gcloud beta iam workload-identity-pools providers

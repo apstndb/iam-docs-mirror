@@ -1,0 +1,49 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/namespaces
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/namespaces
+title: gcloud iam workload-identity-pools namespaces
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud iam workload-identity-pools namespaces - manage IAM workload identity pool namespaces
+
+SYNOPSIS
+
+`gcloud iam workload-identity-pools namespaces` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+Commands for managing IAM workload identity pool namespaces.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  operations  `  
+    Manage IAM workload identity pool namespace long running operations.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create  `  
+    Create a workload identity pool namespace.
+  - `  delete  `  
+    Delete a workload identity pool namespace.
+  - `  describe  `  
+    Describe a workload identity pool namespace.
+  - `  list  `  
+    List workload identity pool namespaces.
+  - `  undelete  `  
+    Undelete a workload identity pool namespace.
+  - `  update  `  
+    Update workload identity pool namespace.

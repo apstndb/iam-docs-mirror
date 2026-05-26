@@ -1,0 +1,59 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/service-accounts/keys
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/service-accounts/keys
+title: gcloud alpha iam service-accounts keys
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud alpha iam service-accounts keys - manage service account keys
+
+SYNOPSIS
+
+`gcloud alpha iam service-accounts keys` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(ALPHA)` Manage service account keys.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  config  `  
+    `(ALPHA)` Manage Iam key configurations.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create  `  
+    `(ALPHA)` Create a service account key.
+  - `  delete  `  
+    `(ALPHA)` Delete a service account key.
+  - `  disable  `  
+    `(ALPHA)` Disable a service account key.
+  - `  enable  `  
+    `(ALPHA)` Enable a service account key.
+  - `  get-public-key  `  
+    `(ALPHA)` Get the public key for a service account key pair.
+  - `  list  `  
+    `(ALPHA)` List the keys for a service account.
+  - `  upload  `  
+    `(ALPHA)` Upload a public key for an IAM service account.
+
+NOTES
+
+This command is currently in alpha and might change without notice. If this command fails with API permission errors despite specifying the correct project, you might be trying to access an API with an invitation-only early access allowlist. These variants are also available:
+
+    gcloud iam service-accounts keys
+
+    gcloud beta iam service-accounts keys

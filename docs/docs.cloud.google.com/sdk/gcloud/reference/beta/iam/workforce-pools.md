@@ -1,0 +1,63 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/beta/iam/workforce-pools
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/beta/iam/workforce-pools
+title: gcloud beta iam workforce-pools
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud beta iam workforce-pools - create and manage workforce pools
+
+SYNOPSIS
+
+`gcloud beta iam workforce-pools` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(BETA)` The gcloud beta iam workforce-pools group lets you create and manage workforce pools for organizations on the Google Cloud Platform.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  operations  `  
+    `(BETA)` Manage IAM workforce pool long-running operations.
+  - `  providers  `  
+    `(BETA)` Create and manage workforce pool providers.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create  `  
+    `(BETA)` Create a new workforce pool under an organization.
+  - `  create-cred-config  `  
+    `(BETA)` Create a configuration file for generated credentials.
+  - `  create-login-config  `  
+    `(BETA)` Create a login configuration file to enable sign-in via a web-based authorization flow using Workforce Identity Federation.
+  - `  delete  `  
+    `(BETA)` Delete a workforce pool.
+  - `  describe  `  
+    `(BETA)` Describe a workforce pool.
+  - `  list  `  
+    `(BETA)` List the workforce pools for an organization.
+  - `  undelete  `  
+    `(BETA)` Undelete a workforce pool.
+  - `  update  `  
+    `(BETA)` Update a workforce pool.
+
+NOTES
+
+This command is currently in beta and might change without notice. These variants are also available:
+
+    gcloud iam workforce-pools
+
+    gcloud alpha iam workforce-pools

@@ -1,0 +1,52 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/beta/iam/service-accounts/keys
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/beta/iam/service-accounts/keys
+title: gcloud beta iam service-accounts keys
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud beta iam service-accounts keys - manage service account keys
+
+SYNOPSIS
+
+`gcloud beta iam service-accounts keys` `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(BETA)` Manage service account keys.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create  `  
+    `(BETA)` Create a service account key.
+  - `  delete  `  
+    `(BETA)` Delete a service account key.
+  - `  disable  `  
+    `(BETA)` Disable a service account key.
+  - `  enable  `  
+    `(BETA)` Enable a service account key.
+  - `  get-public-key  `  
+    `(BETA)` Get the public key for a service account key pair.
+  - `  list  `  
+    `(BETA)` List the keys for a service account.
+  - `  upload  `  
+    `(BETA)` Upload a public key for an IAM service account.
+
+NOTES
+
+This command is currently in beta and might change without notice. These variants are also available:
+
+    gcloud iam service-accounts keys
+
+    gcloud alpha iam service-accounts keys

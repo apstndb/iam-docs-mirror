@@ -1,0 +1,67 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/beta/iam
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/beta/iam
+title: gcloud beta iam
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud beta iam - manage IAM service accounts and keys
+
+SYNOPSIS
+
+`gcloud beta iam` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(BETA)` The gcloud iam command group lets you manage Google Cloud Identity & Access Management (IAM) service accounts and keys.
+
+Cloud IAM authorizes who can take action on specific resources, giving you full control and visibility to manage cloud resources centrally. For established enterprises with complex organizational structures, hundreds of workgroups and potentially many more projects, Cloud IAM provides a unified view into security policy across your entire organization, with built-in auditing to ease compliance processes.
+
+More information on Cloud IAM can be found here: <https://cloud.google.com/iam> and detailed documentation can be found here: <https://cloud.google.com/iam/docs/> .
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  access-policies  `  
+    `(BETA)` Manage Access Policy resources.
+  - `  policies  `  
+    `(BETA)` Manage IAM deny policies.
+  - `  policy-bindings  `  
+    `(BETA)` Manage PolicyBinding instances.
+  - `  principal-access-boundary-policies  `  
+    `(BETA)` Manage PrincipalAccessBoundaryPolicy instances.
+  - `  roles  `  
+    `(BETA)` Create and manipulate roles.
+  - `  service-accounts  `  
+    `(BETA)` Create and manipulate service accounts.
+  - `  workforce-pools  `  
+    `(BETA)` Create and manage workforce pools.
+  - `  workload-identity-pools  `  
+    `(BETA)` Manage IAM workload identity pools.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  list-grantable-roles  `  
+    `(BETA)` List IAM grantable roles for a resource.
+  - `  list-testable-permissions  `  
+    `(BETA)` List IAM testable permissions for a resource.
+
+NOTES
+
+This command is currently in beta and might change without notice. These variants are also available:
+
+    gcloud iam
+
+    gcloud alpha iam

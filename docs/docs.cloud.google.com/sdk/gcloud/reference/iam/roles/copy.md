@@ -1,0 +1,60 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/iam/roles/copy
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/iam/roles/copy
+title: gcloud iam roles copy
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud iam roles copy - create a role from an existing role
+
+SYNOPSIS
+
+`gcloud iam roles copy` \[ `  --dest-organization  ` = `  DEST_ORGANIZATION  ` \] \[ `  --dest-project  ` = `  DEST_PROJECT  ` \] \[ `  --destination  ` = `  DESTINATION  ` \] \[ `  --source  ` = `  SOURCE  ` \] \[ `  --source-organization  ` = `  SOURCE_ORGANIZATION  ` \] \[ `  --source-project  ` = `  SOURCE_PROJECT  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+This command creates a role from an existing role.
+
+EXAMPLES
+
+To create a copy of an existing role `  spanner.databaseAdmin  ` into an organization with `  1234567  ` , run:
+
+    gcloud iam roles copy --source="roles/spanner.databaseAdmin" --destination=CustomViewer --dest-organization=1234567
+
+To create a copy of an existing role `  spanner.databaseAdmin  ` into a project with `  PROJECT_ID  ` , run:
+
+    gcloud iam roles copy --source="roles/spanner.databaseAdmin" --destination=CustomSpannerDbAdmin --dest-project=PROJECT_ID
+
+To modify the newly created role see the roles update command.
+
+FLAGS
+
+  - `--dest-organization` = `  DEST_ORGANIZATION  `  
+    The organization of the destination role.
+  - `--dest-project` = `  DEST_PROJECT  `  
+    The project of the destination role.
+  - `--destination` = `  DESTINATION  `  
+    The destination role ID for the new custom role. For example: viewer.
+  - `--source` = `  SOURCE  `  
+    The source role ID. For predefined roles, for example: roles/viewer. For custom roles, for example: myCompanyAdmin.
+  - `--source-organization` = `  SOURCE_ORGANIZATION  `  
+    The organization of the source role if it is an custom role.
+  - `--source-project` = `  SOURCE_PROJECT  `  
+    The project of the source role if it is an custom role.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+
+Run ` $ gcloud help  ` for details.
+
+NOTES
+
+These variants are also available:
+
+    gcloud alpha iam roles copy
+
+    gcloud beta iam roles copy

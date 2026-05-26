@@ -1,0 +1,65 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/providers
+title: gcloud iam workforce-pools providers
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud iam workforce-pools providers - create and manage workforce pool providers
+
+SYNOPSIS
+
+`gcloud iam workforce-pools providers` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+The gcloud iam workforce-pools providers group lets you create and manage workforce pool providers.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  keys  `  
+    Create and manage IAM workforce pool provider keys.
+  - `  operations  `  
+    Manage IAM workforce pool provider long-running operations.
+  - `  scim-tenants  `  
+    Manage IAM workforce identity pool provider SCIM tenants.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create-oidc  `  
+    Create a new OIDC workforce pool provider.
+  - `  create-saml  `  
+    Create a new SAML workforce pool provider.
+  - `  delete  `  
+    Delete a workforce pool provider.
+  - `  describe  `  
+    Describe a workforce pool provider.
+  - `  list  `  
+    List workforce pool providers.
+  - `  undelete  `  
+    Undelete a workforce pool provider.
+  - `  update-oidc  `  
+    Update an OIDC workforce pool provider.
+  - `  update-saml  `  
+    Update a new SAML workforce pool provider.
+
+NOTES
+
+These variants are also available:
+
+    gcloud alpha iam workforce-pools providers
+
+    gcloud beta iam workforce-pools providers

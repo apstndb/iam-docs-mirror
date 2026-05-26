@@ -1,0 +1,53 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/create
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/iam/service-accounts/create
+title: gcloud iam service-accounts create
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud iam service-accounts create - create a service account for a project
+
+SYNOPSIS
+
+`gcloud iam service-accounts create` `  NAME  ` \[ `  --description  ` = `  DESCRIPTION  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+This command creates a service account with the provided name. For subsequent commands regarding service accounts, this service account should be referred to by the email account in the response.
+
+EXAMPLES
+
+To create a service account for your project, run:
+
+    gcloud iam service-accounts create some-account-name --display-name="My Service Account"
+
+To work with this service account in subsequent IAM commands, use the email resulting from this call as the IAM\_ACCOUNT argument.
+
+POSITIONAL ARGUMENTS
+
+  - `  NAME  `  
+    The internal name of the new service account. Used to generate an IAM\_ACCOUNT (an IAM internal email address used as an identifier of service account), which must be passed to subsequent commands.
+
+FLAGS
+
+  - `--description` = `  DESCRIPTION  `  
+    A textual description for the account.
+  - `--display-name` = `  DISPLAY_NAME  `  
+    A textual name to display for the account.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --access-token-file  ` , `  --account  ` , `  --billing-project  ` , `  --configuration  ` , `  --flags-file  ` , `  --flatten  ` , `  --format  ` , `  --help  ` , `  --impersonate-service-account  ` , `  --log-http  ` , `  --project  ` , `  --quiet  ` , `  --trace-token  ` , `  --user-output-enabled  ` , `  --verbosity  ` .
+
+Run ` $ gcloud help  ` for details.
+
+NOTES
+
+These variants are also available:
+
+    gcloud alpha iam service-accounts create
+
+    gcloud beta iam service-accounts create

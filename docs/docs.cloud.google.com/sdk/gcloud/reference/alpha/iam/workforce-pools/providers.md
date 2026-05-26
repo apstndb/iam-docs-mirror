@@ -1,0 +1,61 @@
+---
+name: documents/docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/workforce-pools/providers
+uri: https://docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/workforce-pools/providers
+title: gcloud alpha iam workforce-pools providers
+description: Offers tools and libraries that allow you to create and manage resources across Google Cloud.
+data_source: docs.cloud.google.com
+---
+
+NAME
+
+gcloud alpha iam workforce-pools providers - create and manage workforce pool providers
+
+SYNOPSIS
+
+`gcloud alpha iam workforce-pools providers` `  GROUP  ` | `  COMMAND  ` \[ `  GCLOUD_WIDE_FLAG …  ` \]
+
+DESCRIPTION
+
+`(ALPHA)` The gcloud alpha iam workforce-pools providers group lets you create and manage workforce pool providers.
+
+GCLOUD WIDE FLAGS
+
+These flags are available to all commands: `  --help  ` .
+
+Run ` $ gcloud help  ` for details.
+
+GROUPS
+
+`  GROUP  ` is one of the following:
+
+  - `  keys  `  
+    `(ALPHA)` Create and manage IAM workforce pool provider keys.
+  - `  operations  `  
+    `(ALPHA)` Manage IAM workforce pool provider long-running operations.
+  - `  scim-tenants  `  
+    `(ALPHA)` Manage IAM workforce identity pool provider SCIM tenants.
+
+COMMANDS
+
+`  COMMAND  ` is one of the following:
+
+  - `  create-oidc  `  
+    `(ALPHA)` Create a new OIDC workforce pool provider.
+  - `  delete  `  
+    `(ALPHA)` Delete a workforce pool provider.
+  - `  describe  `  
+    `(ALPHA)` Describe a workforce pool provider.
+  - `  list  `  
+    `(ALPHA)` List workforce pool providers.
+  - `  undelete  `  
+    `(ALPHA)` Undelete a workforce pool provider.
+  - `  update-oidc  `  
+    `(ALPHA)` Update an OIDC workforce pool provider.
+
+NOTES
+
+This command is currently in alpha and might change without notice. If this command fails with API permission errors despite specifying the correct project, you might be trying to access an API with an invitation-only early access allowlist. These variants are also available:
+
+    gcloud iam workforce-pools providers
+
+    gcloud beta iam workforce-pools providers
