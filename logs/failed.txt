@@ -1,10 +1,1 @@
-200 https://docs.cloud.google.com/iam/docs
-200 https://docs.cloud.google.com/iam/docs/apis
-200 https://docs.cloud.google.com/iam/docs/overview
-200 https://docs.cloud.google.com/iam/docs/resources
-200 https://docs.cloud.google.com/iam/docs/samples
-200 https://docs.cloud.google.com/policy-intelligence/docs
-200 https://docs.cloud.google.com/policy-intelligence/docs/apis
-200 https://docs.cloud.google.com/policy-intelligence/docs/overview
-200 https://docs.cloud.google.com/policy-intelligence/docs/resources
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam
+
