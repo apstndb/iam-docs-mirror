@@ -166,6 +166,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.instances.use</code></p>
 <p><code dir="ltr" translate="no">compute.machineTypes.get</code></p>
 <p><code dir="ltr" translate="no">compute.networks.get</code></p>
+<p><code dir="ltr" translate="no">compute.networks.updatePolicy</code></p>
 <p><code dir="ltr" translate="no">compute.networks.use</code></p>
 <p><code dir="ltr" translate="no">compute.projects.get</code></p>
 <p><code dir="ltr" translate="no">compute.  projects.  setCommonInstanceMetadata</code></p>

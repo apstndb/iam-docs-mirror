@@ -138,6 +138,11 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUse</code></li>
 </ul>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
+<p><code dir="ltr" translate="no">consumerprocurement.  entitlements.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">consumerprocurement.  entitlements.  get</code></li>
+<li><code dir="ltr" translate="no">consumerprocurement.  entitlements.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">discoveryengine.aclConfigs.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">discoveryengine.aclConfigs.get</code></li>
@@ -1168,6 +1173,11 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsUse</code></li>
 </ul>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
+<p><code dir="ltr" translate="no">consumerprocurement.  entitlements.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">consumerprocurement.  entitlements.  get</code></li>
+<li><code dir="ltr" translate="no">consumerprocurement.  entitlements.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">discoveryengine.aclConfigs.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">discoveryengine.aclConfigs.get</code></li>

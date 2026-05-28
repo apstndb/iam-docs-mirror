@@ -656,6 +656,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">backupdr.operations.get</code></p>
 <p><code dir="ltr" translate="no">backupdr.operations.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  serviceConfig.  initialize</code></p>
+<p><code dir="ltr" translate="no">biglake.catalogs.get</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></p>
 <p><code dir="ltr" translate="no">compute.acceleratorTypes.*</code></p>
 <ul>
@@ -722,6 +723,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
 <p><code dir="ltr" translate="no">compute.globalOperations.list</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.images.get</code></p>
 <p><code dir="ltr" translate="no">compute.images.getFromFamily</code></p>
 <p><code dir="ltr" translate="no">compute.images.list</code></p>

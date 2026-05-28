@@ -78,6 +78,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <p><code dir="ltr" translate="no">biglake.catalogs.get</code></p>
 <p><code dir="ltr" translate="no">biglake.catalogs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">biglake.catalogs.list</code></p>
+<p><code dir="ltr" translate="no">biglake.catalogs.update</code></p>
 <p><code dir="ltr" translate="no">biglake.namespaces.create</code></p>
 <p><code dir="ltr" translate="no">biglake.namespaces.delete</code></p>
 <p><code dir="ltr" translate="no">biglake.namespaces.get</code></p>
@@ -187,6 +188,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.serviceAgent">Dataproc Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -231,6 +233,7 @@ This page lists the IAM roles and permissions for BigLake. To search through all
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.admin">BigLake Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  biglake.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/biglake#biglake.editor">BigLake Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  biglake.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="even">

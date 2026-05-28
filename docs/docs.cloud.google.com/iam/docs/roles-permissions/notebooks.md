@@ -128,6 +128,12 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -636,6 +642,12 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -1146,6 +1158,12 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -1776,6 +1794,9 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code dir="ltr" translate="no">compute.healthChecks.update</code></li>
 <li><code dir="ltr" translate="no">compute.healthChecks.use</code></li>
 <li><code dir="ltr" translate="no">compute.  healthChecks.  useReadOnly</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  delete</code></li>
@@ -2765,6 +2786,12 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -3250,6 +3277,12 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -3828,6 +3861,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>

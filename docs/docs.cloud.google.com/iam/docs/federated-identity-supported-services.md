@@ -1667,7 +1667,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>Exploration of related <a href="https://docs.cloud.google.com/dataplex/docs/reference/rest/v1/projects.locations.lakes.environments">environments</a> and <a href="https://docs.cloud.google.com/dataplex/docs/reference/rest/v1/projects.locations.lakes.environments.sessions">sessions</a> APIs on Knowledge Catalog aren't supported by identity federation.</td>
+<td>No known limitations</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>

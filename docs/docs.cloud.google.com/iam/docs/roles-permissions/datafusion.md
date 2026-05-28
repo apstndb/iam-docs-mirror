@@ -918,6 +918,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">networkservices.  endpointPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.gateways.get</code></p>
 <p><code dir="ltr" translate="no">networkservices.gateways.list</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.grpcRoutes.get</code></p>
 <p><code dir="ltr" translate="no">networkservices.  grpcRoutes.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  get</code></p>

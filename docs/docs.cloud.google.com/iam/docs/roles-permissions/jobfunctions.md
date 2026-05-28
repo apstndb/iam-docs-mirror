@@ -1934,6 +1934,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></li>
 <li><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></li>
 <li><code dir="ltr" translate="no">cloudsql.backupRuns.update</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  create</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  delete</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  switchover</code></li>
 <li><code dir="ltr" translate="no">cloudsql.databases.create</code></li>
 <li><code dir="ltr" translate="no">cloudsql.databases.delete</code></li>
 <li><code dir="ltr" translate="no">cloudsql.databases.get</code></li>
@@ -2073,6 +2078,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -3451,6 +3462,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.update</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  create</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.create</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
@@ -4448,6 +4462,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.healthChecks.update</code></li>
 <li><code dir="ltr" translate="no">compute.healthChecks.use</code></li>
 <li><code dir="ltr" translate="no">compute.  healthChecks.  useReadOnly</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  delete</code></li>
@@ -6167,6 +6184,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">networkservices.  gateways.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networkservices.  gateways.  update</code></li>
 <li><code dir="ltr" translate="no">networkservices.gateways.use</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networkservices.  grpcRoutes.  create</code></li>
 <li><code dir="ltr" translate="no">networkservices.  grpcRoutes.  delete</code></li>
 <li><code dir="ltr" translate="no">networkservices.grpcRoutes.get</code></li>
@@ -8313,6 +8335,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.healthChecks.update</code></li>
 <li><code dir="ltr" translate="no">compute.healthChecks.use</code></li>
 <li><code dir="ltr" translate="no">compute.  healthChecks.  useReadOnly</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.  httpHealthChecks.  delete</code></li>
@@ -9788,6 +9813,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">networkservices.  gateways.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networkservices.  gateways.  update</code></li>
 <li><code dir="ltr" translate="no">networkservices.gateways.use</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networkservices.  grpcRoutes.  create</code></li>
 <li><code dir="ltr" translate="no">networkservices.  grpcRoutes.  delete</code></li>
 <li><code dir="ltr" translate="no">networkservices.grpcRoutes.get</code></li>
@@ -11339,6 +11369,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
@@ -11503,6 +11535,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -13158,6 +13196,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networkservices.gateways.list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  gateways.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  gateways.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.grpcRoutes.get</code></p>
 <p><code dir="ltr" translate="no">networkservices.  grpcRoutes.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  get</code></p>
@@ -14726,6 +14766,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
@@ -14887,6 +14929,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -17082,6 +17130,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">ces.evaluationResults.list</code></p>
 <p><code dir="ltr" translate="no">ces.evaluationRuns.get</code></p>
 <p><code dir="ltr" translate="no">ces.evaluationRuns.list</code></p>
+<p><code dir="ltr" translate="no">ces.evaluations.export</code></p>
 <p><code dir="ltr" translate="no">ces.evaluations.get</code></p>
 <p><code dir="ltr" translate="no">ces.evaluations.list</code></p>
 <p><code dir="ltr" translate="no">ces.examples.get</code></p>
@@ -18315,6 +18364,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></p>
@@ -18606,6 +18657,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  useReadOnly</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  httpHealthChecks.  listEffectiveTags</code></p>
@@ -21625,6 +21682,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networkservices.gateways.list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  gateways.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  gateways.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.grpcRoutes.get</code></p>
 <p><code dir="ltr" translate="no">networkservices.  grpcRoutes.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  get</code></p>

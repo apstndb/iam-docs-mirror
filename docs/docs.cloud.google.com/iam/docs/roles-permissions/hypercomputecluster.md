@@ -354,6 +354,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">storage.buckets.list</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.update</code></p>
+<p><code dir="ltr" translate="no">storage.folders.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.create</code></p>
 <p><code dir="ltr" translate="no">storage.objects.delete</code></p>
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>

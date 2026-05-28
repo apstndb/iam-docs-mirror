@@ -1212,6 +1212,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></li>
 <li><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></li>
 <li><code dir="ltr" translate="no">cloudsql.backupRuns.update</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  create</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  delete</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  switchover</code></li>
 <li><code dir="ltr" translate="no">cloudsql.databases.create</code></li>
 <li><code dir="ltr" translate="no">cloudsql.databases.delete</code></li>
 <li><code dir="ltr" translate="no">cloudsql.databases.get</code></li>
@@ -1483,6 +1488,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.healthChecks.update</code></li>
 <li><code dir="ltr" translate="no">compute.healthChecks.use</code></li>
 <li><code dir="ltr" translate="no">compute.  healthChecks.  useReadOnly</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.hosts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.hosts.get</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.getVersion</code></li>
+<li><code dir="ltr" translate="no">compute.hosts.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.*</code></p>
 <ul>
@@ -3223,6 +3234,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">networkservices.  gateways.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networkservices.  gateways.  update</code></li>
 <li><code dir="ltr" translate="no">networkservices.gateways.use</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networkservices.  grpcRoutes.  create</code></li>
 <li><code dir="ltr" translate="no">networkservices.  grpcRoutes.  delete</code></li>
 <li><code dir="ltr" translate="no">networkservices.grpcRoutes.get</code></li>

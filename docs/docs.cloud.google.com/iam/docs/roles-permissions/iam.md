@@ -1078,6 +1078,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">cloudsecurityscanner.  scanruns.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsecurityscanner.  scans.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.sslCerts.list</code></p>
@@ -1180,6 +1181,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.  globalOperations.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  globalPublicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.list</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.httpsHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.images.getIamPolicy</code></p>
@@ -2471,6 +2473,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">networkservices.  authzExtensions.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  endpointPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.gateways.list</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  grpcRoutes.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpRoutes.  list</code></p>
@@ -3808,6 +3811,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">cloudsecurityscanner.  scanruns.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsecurityscanner.  scans.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.sslCerts.list</code></p>
@@ -3902,6 +3906,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.globalOperations.list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalPublicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
+<p><code dir="ltr" translate="no">compute.hosts.list</code></p>
 <p><code dir="ltr" translate="no">compute.httpHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.httpsHealthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.images.getIamPolicy</code></p>
@@ -5022,6 +5027,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">networkservices.  authzExtensions.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  endpointPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.gateways.list</code></p>
+<p><code dir="ltr" translate="no">networkservices.  googleTagGatewayPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  grpcRoutes.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  list</code></p>
 <p><code dir="ltr" translate="no">networkservices.  httpRoutes.  list</code></p>
@@ -7350,6 +7356,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.orgServiceAgent">Chronicle Organization Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.orgServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.managementServiceAgent">Firebase Service Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.managementServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.organizationServiceAgent">Privileged Access Manager Organization Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.organizationServiceAgent</code> )</li>

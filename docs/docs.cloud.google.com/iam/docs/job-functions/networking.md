@@ -72,16 +72,24 @@ The first allow policy, which needs to be attached at the organization level, gr
       "bindings": [
         {
           "role": "roles/compute.xpnAdmin",
-          "members&quobal/workforcePools/example-pool/group/sec-net"
+          "members": [
+            "group:sec-net@example.com"
           ]
         },
         {
-          "role":"roles/compute.netalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/sec-net"
+          "role":"roles/compute.networkAdmin",
+          "members": [
+            "group:sec-net@example.com"
           ]
         },
         {
-          &q  "group:sec-net@example.comprincipalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/sec-net"
-          ]    }  ]}
+          "role": "roles/compute.securityAdmin",
+          "members": [
+            "group:sec-net@example.com"
+          ]
+        }
+      ]
+    }
 
 The second allow policy needs to be associated with the host project and enables the developers in the organization the ability to use the shared networks in the shared VPC host project.
 
@@ -89,8 +97,12 @@ The second allow policy needs to be associated with the host project and enables
       "bindings": [
         {
           "role": "roles/compute.networkUser",
-          "members":/workforcePools/example-pool/group/developers"
-          ]    }  ]}
+          "members": [
+            "group:developers@example.com"
+          ]
+        }
+      ]
+    }
 
 The third allow policy needs to be associated with each service project. This enables the developers using the project to manage instances in the service project and the ability to use the shared subnets in the host project.
 
@@ -104,12 +116,18 @@ You also need to grant the developers the Network User role in the service proje
       "bindings": [
         {
           "role": "roles/compute.networkUser",
-          "members":/workforcePools/example-pool/group/developers"
+          "members": [
+            "group:developers@example.com"
           ]
         },
         {
-          "role": "roles/compute.instancet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/developers"
-          ]    }  ]}
+          "role": "roles/compute.instanceAdmin",
+          "members": [
+            "group:developers@example.com"
+          ]
+        }
+      ]
+    }
 
 The best practice is to use groups to manage principals. In the example above, you would add the user IDs of the users who manage the security & network controls to the `sec-net` group, and developers into the `developers` group. When you need to modify who is able to carry out the function, you simply need to adjust the group membership, negating the need to update the allow policy.
 
@@ -185,17 +203,30 @@ The first allow policy, which needs to be attached at the organization level, gr
       "bindings": [
         {
           "role": "roles/compute.xpnAdmin",
-          "members&quotal/workforcePools/example-pool/group/networks"
+          "members": [
+            "group:networks@example.com"
           ]
         },
         {
-          "role": "roles/compute.netwlSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/networks"
+          "role": "roles/compute.networkAdmin",
+          "members": [
+            "group:networks@example.com"
           ]
         },
         {
-          &qu"group:security@example.comprincipalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/security"
-      ;,
-          "members": [        "group:security@example.comprincipalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/security"      ]    }  ]}
+          "role": "roles/compute.securityAdmin",
+          "members": [
+            "group:security@example.com"
+          ]
+        },
+        {
+          "role": "roles/resourcemanager.organizationAdmin",
+          "members": [
+            "group:security@example.com"
+          ]
+        }
+      ]
+    }
 
 The second allow policy needs to be associated with the host project. This allow policy enables the developers in the organization to use the shared networks in the shared VPC host project.
 
@@ -203,8 +234,12 @@ The second allow policy needs to be associated with the host project. This allow
       "bindings": [
         {
           "role": "roles/compute.networkUser",
-          "members":/workforcePools/example-pool/group/developers"
-          ]    }  ]}
+          "members": [
+            "group:developers@example.com"
+          ]
+        }
+      ]
+    }
 
 The third allow policy needs to be associated with each service project. This enables the developers using the project to manage instances in the service project and the ability to use the shared subnets in the host project.
 
@@ -216,12 +251,18 @@ You could place all service projects in a folder and set this particular allow p
       "bindings": [
         {
           "role": "roles/compute.networkUser",
-          "members":/workforcePools/example-pool/group/developers"
+          "members": [
+            "group:developers@example.com"
           ]
         },
         {
-          "role": "roles/compute.instancet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/developers"
-          ]    }  ]}
+          "role": "roles/compute.instanceAdmin",
+          "members": [
+            "group:developers@example.com"
+          ]
+        }
+      ]
+    }
 
 ## Each team can manage its own network
 
@@ -289,20 +330,40 @@ This requires an allow policy bound at each team's allocated folder.
         {
           "role": "roles/resourcemanager.foldersAdmin",
           "members": [
-     kforcePools/example-pool/group/devteamleads01",
-            "serviam.gserviceaccount.comiceAccount:dev01-project-creator@shared-resources-proj."
+            "group:devteamleads01@example.com",
+            "serviceAccount:dev01-project-creator@shared-resources-proj.iam.gserviceaccount.com"
           ]
         },
         {
-          "role":"roles/resourcemanager.prcipalSet://iam.googleapis.com/locations/global/workforcePools/example-piam.gserviceaccount.comool/group/devteamleads01",
-            "serviceAccount:dev01-project-creator@shared-resources-proj."
+          "role":"roles/resourcemanager.projectCreator",
+          "members": [
+            "group:devteamleads01@example.com",
+            "serviceAccount:dev01-project-creator@shared-resources-proj.iam.gserviceaccount.com"
           ]
         },
-    [
-            "group:net-sec-dev01@example.comprincipalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/Admin",
+        {
+          "role": "roles/compute.securityAdmin",
           "members": [
-            "group:net-sec-dev01@example.comprincipalSet://iam.googleapis.co  {
+            "group:net-sec-dev01@example.com"
+          ]
+        },
+        {
+          "role": "roles/compute.networkAdmin",
+          "members": [
+            "group:net-sec-dev01@example.com"
+          ]
+        },
+        {
           "role": "roles/compute.instanceAdmin",
           "members": [
-            "xample-pool/group/dev01"
-          ]    },    {      "role": "roles/bigquery.admin",      "members": [        "group:dev01@example.comprincipalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/dev01"      ]    }  ]}
+            "group:dev01@example.com"
+          ]
+        },
+        {
+          "role": "roles/bigquery.admin",
+          "members": [
+            "group:dev01@example.com"
+          ]
+        }
+      ]
+    }

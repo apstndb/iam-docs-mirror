@@ -3261,6 +3261,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="chronicle.orgServiceAgent" class="role-title add-link" data-text="Chronicle Organization Service Agent" tabindex="-1">Chronicle Organization Service Agent</h4>
+<p>( <code dir="ltr" translate="no">roles/  chronicle.orgServiceAgent</code> )</p>
+<p>Gives Secops Service Agent access to organization level resources like CAI.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code dir="ltr" translate="no">cloudasset.  assets.  analyzeIamPolicy</code></p>
+<p><code dir="ltr" translate="no">cloudasset.  assets.  listIamPolicy</code></p>
+<p><code dir="ltr" translate="no">cloudasset.  assets.  listOSInventories</code></p>
+<p><code dir="ltr" translate="no">cloudasset.  assets.  listOrgPolicy</code></p>
+<p><code dir="ltr" translate="no">cloudasset.assets.listResource</code></p>
+<p><code dir="ltr" translate="no">cloudasset.  assets.  searchAllIamPolicies</code></p>
+<p><code dir="ltr" translate="no">cloudasset.  assets.  searchAllResources</code></p>
+<p><code dir="ltr" translate="no">iam.roles.get</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="chronicle.serviceAgent" class="role-title add-link" data-text="Chronicle Service Agent" tabindex="-1">Chronicle Service Agent</h4>
 <p>( <code dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</p>
 <p>Grants Chronicle global data access to customer project</p>
@@ -3354,7 +3370,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="chronicle.soarServiceAgent" class="role-title add-link" data-text="Chronicle SOAR Service Agent" tabindex="-1">Chronicle SOAR Service Agent</h4>
 <p>( <code dir="ltr" translate="no">roles/  chronicle.soarServiceAgent</code> )</p>
 <p>Gives Chronicle SOAR the ability to perform remediation on Cloud Platform resources.</p>
