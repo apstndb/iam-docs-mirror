@@ -98,7 +98,7 @@ https://docs.cloud.google.com/iam/docs/pam-view-grants	2026-05-27T14:02:06Z
 https://docs.cloud.google.com/iam/docs/pam-view-update-delete-entitlements	2026-05-27T14:02:06Z
 https://docs.cloud.google.com/iam/docs/pam-withdraw-grants	2026-05-27T14:02:06Z
 https://docs.cloud.google.com/iam/docs/permission-error-messages	2026-05-27T14:02:06Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-05-27T14:02:06Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-05-30T05:40:07Z
 https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-05-27T14:02:06Z
 https://docs.cloud.google.com/iam/docs/policy-intelligence-tools	2026-05-27T13:59:54Z
 https://docs.cloud.google.com/iam/docs/policy-types	2026-05-27T13:59:54Z

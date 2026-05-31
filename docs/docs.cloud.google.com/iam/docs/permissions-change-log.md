@@ -16,6 +16,145 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-05-27
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BigLake</td>
+<td><p>The following permissions have been added to the BigLake Editor role ( <code dir="ltr" translate="no">roles/biglake.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">biglake.catalogs.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery Data Transfer Service</td>
+<td><p>The following permissions have been added to the BigQuery Data Transfer Service Agent role ( <code dir="ltr" translate="no">roles/bigquerydatatransfer.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Admin role ( <code dir="ltr" translate="no">roles/ces.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.export</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The Chronicle Organization Service Agent role ( <code dir="ltr" translate="no">roles/chronicle.orgServiceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Managed Service for Apache Spark</td>
+<td><p>The following permissions have been added to the Dataproc Service Agent role ( <code dir="ltr" translate="no">roles/dataproc.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">biglake.catalogs.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine Admin role ( <code dir="ltr" translate="no">roles/discoveryengine.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">consumerprocurement.entitlements.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">consumerprocurement.entitlements.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Gemini Enterprise Admin role ( <code dir="ltr" translate="no">roles/discoveryengine.agentspaceAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">consumerprocurement.entitlements.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">consumerprocurement.entitlements.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">storage.folders.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Serverless VPC Access</td>
+<td><p>The following permissions have been added to the Serverless VPC Access Service Agent role ( <code dir="ltr" translate="no">roles/vpcaccess.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.networks.updatePolicy</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.export</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.export</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud SQL</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.switchover</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud SQL</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.blueGreenDeployments.switchover</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.hosts.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.hosts.getVersion</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.hosts.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.hosts.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.hosts.getVersion</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.hosts.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Network Services</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Network Services</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.googleTagGatewayPolicies.update</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-05-19
 
 <table>
