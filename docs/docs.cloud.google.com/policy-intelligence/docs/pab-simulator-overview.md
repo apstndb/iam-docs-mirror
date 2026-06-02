@@ -103,6 +103,20 @@ Policy Simulator for principal access boundary policies only reviews access logs
 
 When simulating principal access boundary policies and bindings, Policy Simulator doesn't review access logs for any other principal types. As a result, it doesn't report whether the proposed changes to your policies or bindings will affect those principals' access.
 
+### Simulating Credential Access Boundaries
+
+You can use Credential Access Boundaries to *downscope* , or restrict, the IAM permissions that a short-lived credential can use to access Cloud Storage resources. To downscope permissions, a user or service account (the token broker) defines the available permissions on a set of resources in a downscoped access token and then provides the access token to another user or service account (the token consumer).
+
+The token broker must have a role that includes the permissions granted to the token consumer with a downscoped access token. Blocking the user from accessing that resource using a principal access boundary also blocks access for the token consumer. However, Policy Simulator doesn't evaluate how changes to the token broker's permissions affect the token consumer's access.
+
+For example, consider a user who has been granted the **Storage Legacy Bucket Reader** ( `roles/storage.legacyBucketReader` ) role on a resource using a downscoped access token created with a Credential Access Boundary.
+
+  - If you simulate blocking the **Storage Legacy Bucket Reader** role from that user using a principal access boundary, Policy Simulator fails to report a loss of access.
+
+  - If you simulate blocking the **Storage Legacy Bucket Reader** role from the token broker using a principal access boundary, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
+
+For more information, see [Credential Access Boundaries for Cloud Storage](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) .
+
 ## What's next
 
   - Learn how to [simulate a change to a principal access boundary policy or binding](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies) .

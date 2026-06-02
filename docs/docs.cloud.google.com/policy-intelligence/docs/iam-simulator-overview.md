@@ -238,6 +238,20 @@ Policy Simulator supports **only** the following resource types:
 </tbody>
 </table>
 
+### Simulating Credential Access Boundaries
+
+You can use Credential Access Boundaries to *downscope* , or restrict, the IAM permissions that a short-lived credential can use to access Cloud Storage resources. To downscope permissions, a user or service account (the token broker) defines the available permissions on a set of resources in a downscoped access token and then provides the access token to another user or service account (the token consumer).
+
+The token broker must have a role that includes the permissions granted to the token consumer with a downscoped access token. Removing that role from the token broker also removes access from the token consumer. However, Policy Simulator doesn't evaluate how changes to the token broker's permissions affect the token consumer's access.
+
+For example, consider a user who has been granted the **Storage Legacy Bucket Reader** ( `roles/storage.legacyBucketReader` ) role on a resource using a downscoped access token created with a Credential Access Boundary.
+
+  - If you simulate removing the **Storage Legacy Bucket Reader** role from that user, Policy Simulator fails to report a loss of access.
+
+  - If you simulate removing the **Storage Legacy Bucket Reader** role from the token broker, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
+
+For more information, see [Credential Access Boundaries for Cloud Storage](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) .
+
 ### Unsupported resource types
 
 Unsupported resource types are resource types that Policy Simulator cannot retrieve access logs for. If Policy Simulator cannot retrieve access logs for a resource, it cannot evaluate how the proposed allow policy could affect those access attempts.
