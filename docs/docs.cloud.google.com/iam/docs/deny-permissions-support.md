@@ -2070,6 +2070,10 @@ Chrome Enterprise Premium
 
 `beyondcorp.googleapis.com/sgApplications.update`
 
+BigLake
+
+`biglake.googleapis.com/namespaces.create`
+
 BigQuery
 
 `bigquery.googleapis.com/bireservations.*`
@@ -3023,6 +3027,8 @@ Gemini Enterprise for Customer Experience
 `ces.googleapis.com/evaluations.create`
 
 `ces.googleapis.com/evaluations.delete`
+
+`ces.googleapis.com/evaluations.export`
 
 `ces.googleapis.com/evaluations.get`
 
@@ -7024,6 +7030,18 @@ Cloud SQL
 
 `cloudsql.googleapis.com/backupRuns.update`
 
+`cloudsql.googleapis.com/blueGreenDeployments.*`
+
+`cloudsql.googleapis.com/blueGreenDeployments.create`
+
+`cloudsql.googleapis.com/blueGreenDeployments.delete`
+
+`cloudsql.googleapis.com/blueGreenDeployments.get`
+
+`cloudsql.googleapis.com/blueGreenDeployments.list`
+
+`cloudsql.googleapis.com/blueGreenDeployments.switchover`
+
 `cloudsql.googleapis.com/databases.*`
 
 `cloudsql.googleapis.com/databases.create`
@@ -7795,6 +7813,14 @@ Compute Engine
 `compute.googleapis.com/healthChecks.use`
 
 `compute.googleapis.com/healthChecks.useReadOnly`
+
+`compute.googleapis.com/hosts.*`
+
+`compute.googleapis.com/hosts.get`
+
+`compute.googleapis.com/hosts.getVersion`
+
+`compute.googleapis.com/hosts.list`
 
 `compute.googleapis.com/httpHealthChecks.*`
 
@@ -14530,6 +14556,154 @@ Google Health
 
 `health.googleapis.com/subscriptions.update`
 
+Cloud Healthcare API
+
+`healthcare.googleapis.com/datasets.*`
+
+`healthcare.googleapis.com/datasets.create`
+
+`healthcare.googleapis.com/datasets.deidentify`
+
+`healthcare.googleapis.com/datasets.delete`
+
+`healthcare.googleapis.com/datasets.get`
+
+`healthcare.googleapis.com/datasets.getIamPolicy`
+
+`healthcare.googleapis.com/datasets.list`
+
+`healthcare.googleapis.com/datasets.setIamPolicy`
+
+`healthcare.googleapis.com/datasets.update`
+
+`healthcare.googleapis.com/dicomStores.*`
+
+`healthcare.googleapis.com/dicomStores.create`
+
+`healthcare.googleapis.com/dicomStores.deidentify`
+
+`healthcare.googleapis.com/dicomStores.delete`
+
+`healthcare.googleapis.com/dicomStores.dicomWebDelete`
+
+`healthcare.googleapis.com/dicomStores.dicomWebRead`
+
+`healthcare.googleapis.com/dicomStores.dicomWebUpdate`
+
+`healthcare.googleapis.com/dicomStores.dicomWebWrite`
+
+`healthcare.googleapis.com/dicomStores.export`
+
+`healthcare.googleapis.com/dicomStores.get`
+
+`healthcare.googleapis.com/dicomStores.getIamPolicy`
+
+`healthcare.googleapis.com/dicomStores.import`
+
+`healthcare.googleapis.com/dicomStores.list`
+
+`healthcare.googleapis.com/dicomStores.setIamPolicy`
+
+`healthcare.googleapis.com/dicomStores.update`
+
+`healthcare.googleapis.com/fhirResources.*`
+
+`healthcare.googleapis.com/fhirResources.create`
+
+`healthcare.googleapis.com/fhirResources.delete`
+
+`healthcare.googleapis.com/fhirResources.get`
+
+`healthcare.googleapis.com/fhirResources.patch`
+
+`healthcare.googleapis.com/fhirResources.purge`
+
+`healthcare.googleapis.com/fhirResources.translateConceptMap`
+
+`healthcare.googleapis.com/fhirResources.update`
+
+`healthcare.googleapis.com/fhirStores.applyConsents`
+
+`healthcare.googleapis.com/fhirStores.configureSearch`
+
+`healthcare.googleapis.com/fhirStores.create`
+
+`healthcare.googleapis.com/fhirStores.deidentify`
+
+`healthcare.googleapis.com/fhirStores.delete`
+
+`healthcare.googleapis.com/fhirStores.executeBundle`
+
+`healthcare.googleapis.com/fhirStores.explainDataAccess`
+
+`healthcare.googleapis.com/fhirStores.export`
+
+`healthcare.googleapis.com/fhirStores.get`
+
+`healthcare.googleapis.com/fhirStores.getIamPolicy`
+
+`healthcare.googleapis.com/fhirStores.import`
+
+`healthcare.googleapis.com/fhirStores.list`
+
+`healthcare.googleapis.com/fhirStores.rollback`
+
+`healthcare.googleapis.com/fhirStores.searchResources`
+
+`healthcare.googleapis.com/fhirStores.setIamPolicy`
+
+`healthcare.googleapis.com/fhirStores.update`
+
+`healthcare.googleapis.com/hl7V2Messages.*`
+
+`healthcare.googleapis.com/hl7V2Messages.create`
+
+`healthcare.googleapis.com/hl7V2Messages.delete`
+
+`healthcare.googleapis.com/hl7V2Messages.get`
+
+`healthcare.googleapis.com/hl7V2Messages.ingest`
+
+`healthcare.googleapis.com/hl7V2Messages.list`
+
+`healthcare.googleapis.com/hl7V2Messages.update`
+
+`healthcare.googleapis.com/hl7V2Stores.*`
+
+`healthcare.googleapis.com/hl7V2Stores.create`
+
+`healthcare.googleapis.com/hl7V2Stores.delete`
+
+`healthcare.googleapis.com/hl7V2Stores.export`
+
+`healthcare.googleapis.com/hl7V2Stores.get`
+
+`healthcare.googleapis.com/hl7V2Stores.getIamPolicy`
+
+`healthcare.googleapis.com/hl7V2Stores.import`
+
+`healthcare.googleapis.com/hl7V2Stores.list`
+
+`healthcare.googleapis.com/hl7V2Stores.rollback`
+
+`healthcare.googleapis.com/hl7V2Stores.setIamPolicy`
+
+`healthcare.googleapis.com/hl7V2Stores.update`
+
+`healthcare.googleapis.com/locations.*`
+
+`healthcare.googleapis.com/locations.get`
+
+`healthcare.googleapis.com/locations.list`
+
+`healthcare.googleapis.com/operations.*`
+
+`healthcare.googleapis.com/operations.cancel`
+
+`healthcare.googleapis.com/operations.get`
+
+`healthcare.googleapis.com/operations.list`
+
 Cluster Director
 
 `hypercomputecluster.googleapis.com/*.*`
@@ -15041,6 +15215,24 @@ Identity-Aware Proxy
 `iap.googleapis.com/webTypes.setIamPolicy`
 
 `iap.googleapis.com/webTypes.updateSettings`
+
+Identity Toolkit
+
+`identitytoolkit.googleapis.com/tenants.*`
+
+`identitytoolkit.googleapis.com/tenants.create`
+
+`identitytoolkit.googleapis.com/tenants.delete`
+
+`identitytoolkit.googleapis.com/tenants.get`
+
+`identitytoolkit.googleapis.com/tenants.getIamPolicy`
+
+`identitytoolkit.googleapis.com/tenants.list`
+
+`identitytoolkit.googleapis.com/tenants.setIamPolicy`
+
+`identitytoolkit.googleapis.com/tenants.update`
 
 Cloud Integrations
 
@@ -16088,9 +16280,15 @@ Google Cloud NetApp Volumes
 
 `netapp.googleapis.com/storagePools.list`
 
+`netapp.googleapis.com/storagePools.listBackupConfigs`
+
+`netapp.googleapis.com/storagePools.restoreVolume`
+
 `netapp.googleapis.com/storagePools.switch`
 
 `netapp.googleapis.com/storagePools.update`
+
+`netapp.googleapis.com/storagePools.updateBackupConfig`
 
 `netapp.googleapis.com/storagePools.validateDirectoryService`
 
@@ -16559,6 +16757,16 @@ Network Services
 `networkservices.googleapis.com/gateways.update`
 
 `networkservices.googleapis.com/gateways.use`
+
+`networkservices.googleapis.com/googleTagGatewayPolicies.create`
+
+`networkservices.googleapis.com/googleTagGatewayPolicies.delete`
+
+`networkservices.googleapis.com/googleTagGatewayPolicies.get`
+
+`networkservices.googleapis.com/googleTagGatewayPolicies.list`
+
+`networkservices.googleapis.com/googleTagGatewayPolicies.update`
 
 `networkservices.googleapis.com/grpcRoutes.*`
 

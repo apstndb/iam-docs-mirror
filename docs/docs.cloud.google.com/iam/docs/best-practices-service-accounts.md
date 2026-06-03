@@ -138,10 +138,10 @@ If you delete a service account and then create a new service account with the s
 
 To avoid inadvertently losing IAM bindings, it's best to not delete service accounts immediately. Instead, disable a service account if it isn't needed anymore and delete it only after a certain period has elapsed. By waiting to delete the service account, you are ensuring that you can safely remove it without affecting any of your IAM bindings.
 
-You can delete default service accounts such as the [App Engine default service account](https://docs.cloud.google.com/appengine/docs/standard/python3/service-account) or the [Compute Engine default service account](https://docs.cloud.google.com/compute/docs/access/service-accounts#default_service_account) . However, keep the following things in mind when deciding on whether to delete a default service account:
+You can delete default service accounts such as the [App Engine default service account](https://docs.cloud.google.com/appengine/docs/standard/python3/service-account) or the [Compute Engine default service account](https://docs.cloud.google.com/compute/docs/access/service-accounts#default_service_account) . However, keep the following things in mind when deciding whether to delete a default service account:
 
-  - When you delete a default service account, you're improving the security of your deployment. However, without a default service account, the corresponding service can't automatically deploy jobs that access other Google Cloud unless you manually configure a new service account and grant it the appropriate roles.
-  - To recreate default service accounts, you must disable and reenable the respective API, which might break your existing deployment. If you don't use the default service accounts, we recommend disabling them instead.
+  - Deleting a default service account can improve the security of your deployment. However, without a default service account, the corresponding service can't automatically deploy jobs that access other Google Cloud unless you manually configure a new service account and grant it the appropriate roles.
+  - You can't recreate default service accounts after deleting them. If there's a chance that you might use the default service accounts in the future, we recommend leaving them disabled instead of deleting them.
 
 Before you delete a default service account, we recommend verifying whether you use it in your deployment. For more information about the tools you can use to verify service account usage, see [Tools to understand service account usage](https://docs.cloud.google.com/iam/docs/service-account-usage-tools) .
 

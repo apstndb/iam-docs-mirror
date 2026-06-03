@@ -515,7 +515,9 @@ Service agent for <code dir="ltr" translate="no">bigquery.googleapis.com</code> 
 <td><h4 id="bigquery-migration-service-agent" class="service-agent-name add-link" data-text="BigQuery Migration Service Agent" tabindex="-1">BigQuery Migration Service Agent</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">bigquerymigration.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-bqms.iam.gserviceaccount.com</code></p></td>
-<td>None</td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerymigration#bigquerymigration.serviceAgent">BigQuery Migration Service Agent</a><br />
+( <code dir="ltr" translate="no">roles/bigquerymigration.serviceAgent</code> )</p>
+<p>Granted on the project.</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="bigquery-omni-service-agent" class="service-agent-name add-link" data-text="BigQuery Omni Service Agent" tabindex="-1">BigQuery Omni Service Agent</h4>
@@ -994,7 +996,14 @@ Service agent for <code dir="ltr" translate="no">securitycenter.googleapis.com</
 <tr class="even">
 <td><h4 id="cloud-security-command-center-service-agent" class="service-agent-name add-link" data-text="Cloud Security Command Center Service Agent" tabindex="-1">Cloud Security Command Center Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">securitycenter.googleapis.com</code> .
-<p><code dir="ltr" translate="no">service-org-           ORGANIZATION_NUMBER          @security-center-api.iam.gserviceaccount.com</code></p></td>
+<p>For the project:</p>
+<ul>
+<li><code dir="ltr" translate="no">service-            PROJECT_NUMBER           @security-center-api.iam.gserviceaccount.com</code></li>
+</ul>
+<p>For the organization:</p>
+<ul>
+<li><code dir="ltr" translate="no">service-org-            ORGANIZATION_NUMBER           @security-center-api.iam.gserviceaccount.com</code></li>
+</ul></td>
 <td>None</td>
 </tr>
 <tr class="odd">
@@ -1382,7 +1391,7 @@ Service agent for <code dir="ltr" translate="no">edgecontainer.googleapis.com</c
 <td><h4 id="firebase-ai-logic-service-account" class="service-agent-name add-link" data-text="Firebase AI Logic Service Account" tabindex="-1">Firebase AI Logic Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">firebasevertexai.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-firebasevertexai.iam.gserviceaccount.com</code></p></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase Machine Learning Service Agent</a><br />
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a><br />
 ( <code dir="ltr" translate="no">roles/firebaseml.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
@@ -1430,7 +1439,7 @@ Service agent for <code dir="ltr" translate="no">edgecontainer.googleapis.com</c
 <td><h4 id="firebase-machine-learning-service-account" class="service-agent-name add-link" data-text="Firebase Machine Learning Service Account" tabindex="-1">Firebase Machine Learning Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">firebaseml.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-firebaseml.iam.gserviceaccount.com</code></p></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase Machine Learning Service Agent</a><br />
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a><br />
 ( <code dir="ltr" translate="no">roles/firebaseml.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
