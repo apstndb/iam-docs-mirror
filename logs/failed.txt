@@ -7,6 +7,8 @@
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.operations/delete
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.operations/get
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.operations/list
+200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.serviceProducers
+200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.serviceProducers/generateServiceAgents
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations/get
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations/list
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations
@@ -15,6 +17,8 @@
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.operations/delete
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.operations/get
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.operations/list
+200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.serviceProducers
+200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.serviceProducers/generateServiceAgents
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations/get
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations/list
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations
@@ -23,11 +27,7 @@
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.operations/delete
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.operations/get
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.operations/list
+200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers
+200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers/generateServiceAgents
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/get
 200 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/list
-404 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.serviceProducers
-404 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/folders.locations.serviceProducers/generateServiceAgents
-404 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.serviceProducers
-404 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/organizations.locations.serviceProducers/generateServiceAgents
-404 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers
-404 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers/generateServiceAgents
