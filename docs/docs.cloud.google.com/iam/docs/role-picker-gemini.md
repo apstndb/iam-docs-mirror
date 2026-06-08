@@ -6,9 +6,9 @@ description: Ask Gemini for IAM role suggestions that adhere to the principal of
 data_source: docs.cloud.google.com
 ---
 
-This page describes how you can find and grant the least permissive Identity and Access Management (IAM) predefined roles to your principals with Gemini assistance.
+This page describes how you can find and grant Identity and Access Management (IAM) predefined roles to your principals with Gemini assistance.
 
-The IAM role picker lets you ask Gemini which roles you should grant to your principals. Typically, to find the right predefined roles to grant, you would need to search through the [IAM roles and permissions index](https://docs.cloud.google.com/iam/docs/roles-permissions) or the [**Roles** page in the Google Cloud console](https://console.cloud.google.com/iam-admin/roles) . With the IAM role picker, you can describe the actions you want the principal to perform and the resources that they need to perform them on. Based on your input, Gemini suggests the least permissive predefined roles that it considers appropriate.
+The IAM role picker lets you ask Gemini which roles you should grant to your principals. Typically, to find the right predefined roles to grant, you need to search through the [IAM roles and permissions index](https://docs.cloud.google.com/iam/docs/roles-permissions) or the [**Roles** page in the Google Cloud console](https://console.cloud.google.com/iam-admin/roles) . With the IAM role picker, you can describe the actions you want the principal to perform and the resources that they need to perform them on. Based on your input, Gemini suggests the predefined roles that it considers appropriate.
 
 Gemini can suggest predefined roles for individual principals. If Gemini suggests granting a role at the project level, then you can use the IAM role picker to grant that role.
 
@@ -68,7 +68,7 @@ The following procedure uses the **IAM** page as the primary entry point.
 
 5.  In your own words, describe the action you want the principal to perform and the resource in the project that they need to perform it on.
 
-6.  Click **Suggest roles** . Based on your input, Gemini suggests the least permissive predefined roles that it considers appropriate.
+6.  Click **Suggest roles** . Based on your input, Gemini suggests the predefined roles that it considers appropriate.
     
     To get more information about the roles and why Gemini suggested them, click **Show reasoning** . We also recommend using the [roles and permissions reference](https://docs.cloud.google.com/iam/docs/roles-permissions) to validate Gemini's suggested roles before granting them to the principal.
 
@@ -89,7 +89,9 @@ If you don't have the permissions to grant the roles at the organization, folder
 
 ## Sample use cases
 
-The following table illustrates some example use cases where Gemini can help you identify the least permissive roles for your principals.
+The following table illustrates some example use cases for the IAM role picker. By default, Gemini suggests roles that are designed to cover common user journeys within a service. For example, Gemini often suggests a service's Admin, Editor, or Viewer roles.
+
+If you want Gemini to suggest the most granular, least privileged roles, you must specify this preference in your prompt using specific keywords. For a list of keywords you can use, see [Keywords for least privileged roles](https://docs.cloud.google.com/iam/docs/role-picker-gemini#keywords) . However, be aware that least privileged roles might not be sufficient for a user's future needs.
 
 <table>
 <colgroup>
@@ -104,29 +106,56 @@ The following table illustrates some example use cases where Gemini can help you
 </thead>
 <tbody>
 <tr class="odd">
-<td>Identifying least-permissive roles necessary to perform a specific task</td>
+<td>Identifying roles for general service management</td>
 <td><ul>
-<li>"What role is required to create, start, and stop VMs?"</li>
-<li>"What are the least-privileged IAM roles required to create IAM policies?"</li>
-<li>"I need to allow a user to create and manage BigQuery datasets and tables. What role should I assign?"</li>
-<li>"I need to grant a service account access to invoke Cloud Run functions. What's the minimal role required?"</li>
-<li>"Which role allows a service account to read data from Cloud Storage but not write or delete objects?"</li>
+<li>"What permissions do I need to manage our AlloyDB for PostgreSQL setup?"</li>
+<li>"What roles do I need to work with BigQuery?"</li>
+<li>"How do I give someone access to run and debug Cloud Run services?"</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Identifying least-permissive roles necessary to run Google Cloud CLI commands</td>
+<td>Identifying the roles necessary to perform specific tasks</td>
 <td><ul>
-<li>"What IAM role is required to run the following command: <code dir="ltr" translate="no">gcloud compute instances create instance-1 --zone=us-central1-a</code> "</li>
-<li>"I would like to identify the necessary roles for a service account to execute the following command: <code dir="ltr" translate="no">gcloud datastore instances describe</code> "</li>
+<li>"What role is required to create, start, and stop VMs?"</li>
+<li>"I need to allow a user to create and manage BigQuery datasets and tables."</li>
+<li>"I need to grant a service account access to invoke Cloud Run functions."</li>
+</ul>
+<p>Prompts that yield least privileged role suggestions:</p>
+<ul>
+<li>"What is the <em>minimal role</em> required to create, start, and stop VMs?"</li>
+<li>"What are the <em>least-privileged</em> IAM roles required to create IAM policies?"</li>
+<li>"I need to grant a service account access to invoke Cloud Run functions. What's the <em>narrowest access</em> required?"</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Identifying roles for a task that includes transitive dependencies</td>
-<td>"I need to configure a Compute Engine instance to automatically scale based on CPU utilization. Which IAM role(s) should be granted to the service account used by the instance autoscaler?"</td>
+<td>Identifying roles necessary to run Google Cloud CLI commands</td>
+<td><ul>
+<li>"What IAM role is required to run: <code dir="ltr" translate="no">gcloud compute instances create instance-1</code> ?"</li>
+</ul>
+<p>Prompt that yields least privileged role suggestions:</p>
+<ul>
+<li>"What is the <em>smallest role</em> a service account needs to execute: <code dir="ltr" translate="no">gcloud datastore instances describe</code> ?"</li>
+</ul></td>
 </tr>
 <tr class="even">
+<td>Identifying roles for a task that includes transitive dependencies</td>
+<td><ul>
+<li>"I need to configure a Compute Engine instance to automatically scale based on CPU utilization. Which IAM roles should I grant to the service account?"</li>
+</ul>
+<p>Prompt that yields least privileged role suggestions:</p>
+<ul>
+<li>"I need to configure a Compute Engine instance to automatically scale based on CPU utilization. What are the <em>minimum permissions</em> I need to grant to a service account used by a Compute Engine instance autoscaler?"</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td>Identifying roles for a task that might require a combination of multiple granular roles</td>
-<td>"Provide users access only to a particular dataset. We don't want to share the access to all datasets, and we only allow users to access a particular dataset within BigQuery. They shouldn't be able to create new datasets or delete it"</td>
+<td><ul>
+<li>"Provide users access only to a particular dataset in BigQuery. They shouldn't be able to create or delete datasets."</li>
+</ul>
+<p>Prompt that yields least privileged role suggestions:</p>
+<ul>
+<li>"What is the <em>most secure role</em> to give users read-only access to a single dataset in BigQuery, without allowing create or delete actions on any dataset?"</li>
+</ul></td>
 </tr>
 </tbody>
 </table>
@@ -135,13 +164,14 @@ The following table illustrates some example use cases where Gemini can help you
 
 To help Gemini provide the most accurate suggestions for your use case, we recommend that you adhere to the following best practices when drafting your prompt.
 
-  - **Clearly describe your use case.** Avoid using vague language in your prompts. Be as clear as possible about what actions you want the principal to perform on which services and resource types.
+  - **Clearly describe your use case.** Avoid using vague language in your prompts. Be as clear as possible about what actions you want the principal to perform on which services and resource types. If you want Gemini to suggest the least privileged roles, be sure to create your prompt with [specific keywords](https://docs.cloud.google.com/iam/docs/role-picker-gemini#keywords) that describe your intent to adhere to the principle of least privilege.
     
     | Do                                                                                            | Don't                                              | Details                                                                                                                                                                                                                                                                                                                                                                |
     | --------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | "What role is required to execute SQL queries on a BigQuery table and read the data from it?" | "What role is required to execute SQL statements?" | SQL is a generic language used across multiple Google Cloud services. Without specifying the service or actions, Gemini can't suggest a precise role.                                                                                                                                                                                                                  |
     | "I need roles to start, stop, and reboot Compute Engine virtual machine instances."           | "I need to manage my virtual machines."            | The term *manage* is too vague. Manage could mean creating, deleting, updating, or viewing VMs. Clearly listing the specific actions to be performed (start, stop, reboot) and the exact resource type (Compute Engine virtual machine instances) yields more accurate suggestions.                                                                                    |
     | "I need to upload and download objects from a Cloud Storage bucket named `example-bucket` ."  | "Give me access to storage."                       | The term *Storage* alone could refer to various services like Cloud Storage, Filestore, or Persistent Disk. In addition, there are no actions specified. Without specifying the service (Cloud Storage), the resource type name ( `example-bucket` ), or the actions (upload and download objects), Gemini doesn't have enough information to suggest the right roles. |
+    | "I need the least permissive role that provides list-only access to Secret Manager."          | "I need limited access to manage my secrets."      | The phrase *limited access* doesn't clearly define the required restrictions. *Manage my secrets* covers a broad range of actions (create, list, update, delete, access versions). Without using explicit keywords like *least privilege* , Gemini defaults to suggesting more general service-specific Admin, Editor, or Viewer roles.                                |
     
 
   - **Use official names.** Use the official names of Google Cloud services, resource types, and API operations in your prompt. If you are unsure about the official names of services, resource types, or API operations, we recommend consulting the official product documentation.
@@ -151,6 +181,20 @@ To help Gemini provide the most accurate suggestions for your use case, we recom
     | "What role do I need to update BigQuery datasets?"                      | "What role do I need to update Big query datasets?                | *BigQuery* is the official name of the product—not *Big query* .                                                                                                                                                             |
     | "What role is required to create a Cloud Storage bucket in my project?" | "What role is required to create a Storage bucket in my project?" | *Storage bucket* could refer to different resource types from services like Cloud Storage, Filestore, or Persistent Disk. Specifying the product name and the associated resource type will yield more accurate suggestions. |
     
+
+### Keywords for least privileged roles
+
+If you need role suggestions from Gemini that adhere to the principle of least privilege, you must use specific keywords in your prompt. The following is a non-exhaustive list of keywords that you can use to request least privileged roles:
+
+  - *least permissive*
+  - *most secure*
+  - *smallest role*
+  - *least privileged*
+  - *minimum permissions*
+  - *strictly granular*
+  - *narrowest access*
+  - *only the absolute minimum*
+  - *only with the exact permissions*
 
 ## Troubleshooting
 

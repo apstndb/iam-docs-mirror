@@ -85,6 +85,16 @@ VPC Service Controls doesn't support adding folder-level or organization-level r
 
 For more details about how VPC Service Controls works with Privileged Access Manager, see the [Privileged Access Manager entry in the VPC Service Controls supported products table](https://docs.cloud.google.com/vpc-service-controls/docs/supported-products#table_pam) .
 
+## Help secure the Workload Identity API
+
+You can help secure the Workload Identity API by using VPC Service Controls.
+
+The Workload Identity API lets you trigger the creation of [service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) for a specified service in a specified project, folder, or organization. When you restrict the Workload Identity API with a perimeter, you can't trigger service agent creation for projects inside the perimeter. This is true regardless of the service specified in the request.
+
+VPC Service Controls doesn't support adding folder-level or organization-level resources into a service perimeter. As a result, you can't use a perimeter to prevent users from triggering the creation of service agents for folders or organizations.
+
+For more details about how VPC Service Controls works with Workload Identity API, see the [Workload Identity API entry in the VPC Service Controls supported products table](https://docs.cloud.google.com/vpc-service-controls/docs/supported-products#table_workloadidentity) .
+
 ## What's next
 
   - Learn how to [create a service perimeter](https://docs.cloud.google.com/vpc-service-controls/docs/create-service-perimeters) .

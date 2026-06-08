@@ -195,6 +195,18 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
+<td><h4 id="beyondcorp.serviceDiscoveryUser" class="role-title add-link" data-text="Cloud BeyondCorp SecurityGateway Service Discovery User Beta" tabindex="-1">Cloud BeyondCorp SecurityGateway Service Discovery User <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  beyondcorp.serviceDiscoveryUser</code> )</p>
+<p>Security Gateway Service Discovery User</p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h4 id="beyondcorp.sgApplicationUser" class="role-title add-link" data-text="Cloud BeyondCorp SecurityGateway Application resource User Beta" tabindex="-1">Cloud BeyondCorp SecurityGateway Application resource User <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  beyondcorp.sgApplicationUser</code> )</p>
+<p>Access SecurityGateway Application resource</p></td>
+<td></td>
+</tr>
+<tr class="even">
 <td><h4 id="beyondcorp.subscriptionAdmin" class="role-title add-link" data-text="Cloud BeyondCorp Subscription Admin Beta" tabindex="-1">Cloud BeyondCorp Subscription Admin <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p>
 <p>Full access to all BeyondCorp Subscription resources.</p></td>
@@ -215,6 +227,12 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <td><p><code dir="ltr" translate="no">beyondcorp.subscriptions.get</code></p>
 <p><code dir="ltr" translate="no">beyondcorp.subscriptions.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="beyondcorp.upstreamAccess" class="role-title add-link" data-text="Cloud BeyondCorp SecurityGateway Upstream Access Beta" tabindex="-1">Cloud BeyondCorp SecurityGateway Upstream Access <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  beyondcorp.upstreamAccess</code> )</p>
+<p>Access Security Gateway upstreams</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>

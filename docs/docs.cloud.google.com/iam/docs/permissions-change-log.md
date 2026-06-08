@@ -16,6 +16,206 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-06-02
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Vertex AI Service Agent role ( <code dir="ltr" translate="no">roles/aiplatform.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigquery.tables.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.links.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.links.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.links.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.links.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery Migration API</td>
+<td><p>The BigQuery Migration Service Agent role ( <code dir="ltr" translate="no">roles/bigquerymigration.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle Service Agent role ( <code dir="ltr" translate="no">roles/chronicle.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettingsProperties.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions have been added to the Cloud KMS Viewer role ( <code dir="ltr" translate="no">roles/cloudkms.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Connectors</td>
+<td><p>The Connectors Editor role ( <code dir="ltr" translate="no">roles/connectors.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Data Fusion</td>
+<td><p>The following permissions have been added to the Cloud Data Fusion API Service Agent role ( <code dir="ltr" translate="no">roles/datafusion.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>ML Kit for Firebase</td>
+<td><p>The following permissions have been added to the Firebase AI Logic Service Agent role ( <code dir="ltr" translate="no">roles/firebaseml.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">serviceusage.services.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>FleetEngine</td>
+<td><p>The Fleetengine Viewer role ( <code dir="ltr" translate="no">roles/fleetengine.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Data Analytics</td>
+<td><p>The Gemini Data Analytics Admin role ( <code dir="ltr" translate="no">roles/geminidataanalytics.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Data Analytics</td>
+<td><p>The Gemini Data Analytics Viewer role ( <code dir="ltr" translate="no">roles/geminidataanalytics.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.storagePools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.storagePools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.storagePools.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Data Scientist role ( <code dir="ltr" translate="no">roles/iam.dataScientist</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Auditor role ( <code dir="ltr" translate="no">roles/iam.securityAuditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Multi-Cluster Ingress</td>
+<td><p>The following permissions have been added to the Multi Cluster Ingress Service Agent role ( <code dir="ltr" translate="no">roles/multiclusteringress.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkservices.tlsRoutes.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.tlsRoutes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.tlsRoutes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.tlsRoutes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.tlsRoutes.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Network Management API</td>
+<td><p>The Cloud Network Insights Admin role ( <code dir="ltr" translate="no">roles/networkmanagement.CloudNetworkInsightsAdmin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Network Management API</td>
+<td><p>The Cloud Network Insights Editor role ( <code dir="ltr" translate="no">roles/networkmanagement.CloudNetworkInsightsEditor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Network Management API</td>
+<td><p>The Cloud Network Insights Viewer role ( <code dir="ltr" translate="no">roles/networkmanagement.CloudNetworkInsightsViewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Spanner</td>
+<td><p>The following permissions have been added to the Cloud Spanner Database Reader role ( <code dir="ltr" translate="no">roles/spanner.databaseReader</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Spanner</td>
+<td><p>The following permissions have been added to the Cloud Spanner Database Reader with DataBoost role ( <code dir="ltr" translate="no">roles/spanner.databaseReaderWithDataBoost</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Spanner</td>
+<td><p>The following permissions have been added to the Cloud Spanner Database User role ( <code dir="ltr" translate="no">roles/spanner.databaseUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Spanner</td>
+<td><p>The following permissions have been added to the Cloud Spanner Database Graph Intelligence features user role ( <code dir="ltr" translate="no">roles/spanner.graphIntelligenceUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Cloud NetApp Volumes</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">netapp.storagePools.listBackupConfigs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">netapp.storagePools.restoreVolume</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">netapp.storagePools.updateBackupConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Cloud NetApp Volumes</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">netapp.storagePools.listBackupConfigs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">netapp.storagePools.restoreVolume</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">netapp.storagePools.updateBackupConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Network Management API</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.monitoringpoints.downloadConfig</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.monitoringpoints.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.monitoringpoints.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.networkpaths.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.networkpaths.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.providers.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.providers.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.providers.generateProviderAccessToken</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.providers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.providers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.webpaths.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkmanagement.webpaths.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Network Security</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.submitVerdictChangeRequest</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.useWildfire</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-05-27
 
 <table>

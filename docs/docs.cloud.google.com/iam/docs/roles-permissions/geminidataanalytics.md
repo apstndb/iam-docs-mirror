@@ -23,6 +23,52 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="geminidataanalytics.admin" class="role-title add-link" data-text="Gemini Data Analytics Admin" tabindex="-1">Gemini Data Analytics Admin</h4>
+<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p>Admin role for Gemini Data Analytics</p></td>
+<td><p><code dir="ltr" translate="no">geminidataanalytics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  create</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  delete</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  update</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  get</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  list</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  cancel</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  delete</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  operations.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="geminidataanalytics.viewer" class="role-title add-link" data-text="Gemini Data Analytics Viewer" tabindex="-1">Gemini Data Analytics Viewer</h4>
+<p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
+<p>Viewer role for Gemini Data Analytics</p></td>
+<td><p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  chat</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  get</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  list</code></li>
+<li><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></li>
+</ul>
+<p><code dir="ltr" translate="no">geminidataanalytics.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="geminidataanalytics.dataAgentCreator" class="role-title add-link" data-text="Gemini Data Analytics Data Agent Creator" tabindex="-1">Gemini Data Analytics Data Agent Creator</h4>
 <p>( <code dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
 <p>Create access to Gemini Data Analytics resources.</p></td>
@@ -111,6 +157,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentUser</code> )</p>
@@ -120,12 +168,14 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><h4 id="geminidataanalytics.dataAgents.create" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.create" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="geminidataanalytics.dataAgents.delete" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.delete" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p></td>
 </tr>
 <tr class="even">
@@ -133,6 +183,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentUser">Gemini Data Analytics Data Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentUser</code> )</p>
@@ -144,6 +196,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
@@ -155,6 +209,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
@@ -167,6 +223,7 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <tr class="odd">
 <td><h4 id="geminidataanalytics.dataAgents.setIamPolicy" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p></td>
 </tr>
@@ -174,6 +231,7 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><h4 id="geminidataanalytics.dataAgents.update" class="permission-name add-link" data-text="geminidataanalytics.dataAgents.update" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p></td>
 </tr>
@@ -182,6 +240,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentStatelessUser">Gemini Data Analytics Stateless Chat User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentStatelessUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
@@ -191,6 +251,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -199,6 +261,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
@@ -212,6 +276,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioUser">BigQuery Studio User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentStatelessUser">Gemini Data Analytics Stateless Chat User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentStatelessUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
@@ -220,12 +286,14 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><h4 id="geminidataanalytics.operations.cancel" class="permission-name add-link" data-text="geminidataanalytics.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="geminidataanalytics.operations.delete" class="permission-name add-link" data-text="geminidataanalytics.operations.delete" tabindex="-1"><code dir="ltr" translate="no">geminidataanalytics.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -233,6 +301,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentCreator">Gemini Data Analytics Data Agent Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentEditor">Gemini Data Analytics Data Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>
@@ -243,6 +313,8 @@ This page lists the IAM roles and permissions for Gemini Data Analytics. To sear
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.admin">Gemini Data Analytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.viewer">Gemini Data Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminidataanalytics#geminidataanalytics.dataAgentOwner">Gemini Data Analytics Data Agent Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminidataanalytics.dataAgentOwner</code> )</p>

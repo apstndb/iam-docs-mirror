@@ -544,6 +544,8 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <td>Cloud NGFW</td>
 <td><ul>
 <li>Address groups</li>
+<li>Firewall Endpoint Associations</li>
+<li>Firewall Endpoints</li>
 <li>Security Profile Groups</li>
 <li>Security Profiles</li>
 </ul></td>
@@ -915,6 +917,8 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <td>Cloud NGFW</td>
 <td><ul>
 <li>Address groups</li>
+<li>Firewall Endpoint Associations</li>
+<li>Firewall Endpoints</li>
 <li>Security Profile Groups</li>
 <li>Security Profiles</li>
 </ul></td>

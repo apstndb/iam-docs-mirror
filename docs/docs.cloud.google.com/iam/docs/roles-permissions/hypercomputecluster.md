@@ -229,6 +229,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.routers.get</code></p>
 <p><code dir="ltr" translate="no">compute.routers.list</code></p>
 <p><code dir="ltr" translate="no">compute.routers.update</code></p>
+<p><code dir="ltr" translate="no">compute.storagePools.get</code></p>
+<p><code dir="ltr" translate="no">compute.storagePools.list</code></p>
+<p><code dir="ltr" translate="no">compute.storagePools.use</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.create</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.delete</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>

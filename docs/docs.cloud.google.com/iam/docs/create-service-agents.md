@@ -6,10 +6,6 @@ description: How to create a service agent and grant it IAM roles.
 data_source: docs.cloud.google.com
 ---
 
-> **Preview — triggering service agent creation**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 In Google Cloud, project-level, folder-level, and organization-level [service agents](https://docs.cloud.google.com/iam/docs/service-account-types#service-agents) are created automatically as you enable and use Google Cloud services. Sometimes, these service agents are also automatically granted roles that allow them to create and access resources on your behalf.
 
 If necessary, you can also ask Google Cloud to create project-level, folder-level, and organization-level service agents for a service before you use the service. Asking Google Cloud to create service agents lets you grant roles to service agents before you use a service. If a service agent hasn't been created yet, then you can't grant roles to the service agent.
@@ -25,7 +21,7 @@ After you trigger service agent creation, you must grant the service agents the 
 
 ## Before you begin
 
-  - Enable the Resource Manager API.
+  - Enable the Resource Manager and Workload Identity APIs.
     
     **Roles required to enable APIs**
     
@@ -35,43 +31,40 @@ After you trigger service agent creation, you must grant the service agents the 
 
 ### Required roles
 
-Triggering service agent creation doesn't require any IAM permissions. However, you need specific IAM permissions for other tasks on this page:
+To get the permissions that you need to create and grant access to service agents, ask your administrator to grant you the following IAM roles on the projects, folders, and organizations that you're creating service agents for and granting access to:
 
-  - To get the permission that you need to list available services and their endpoints, ask your administrator to grant you the [Service Usage Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageViewer) ( `roles/serviceusage.serviceUsageViewer` ) IAM role on the project, folder, or organization that you want to list available services for. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
-    
-    This predefined role contains the `serviceusage.services.list` permission, which is required to list available services and their endpoints.
-    
-    You might also be able to get this permission with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+  - List available services and their endpoints: [Service Usage Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageViewer) ( `roles/serviceusage.serviceUsageViewer` )
+  - Enable service agents: [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/workloadidentity.admin` )
+  - Grant service agents access to a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
+  - Grant service agents access to a folder: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` )
+  - Grant service agents access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
 
-  - To get the permissions that you need to grant the service agents access, ask your administrator to grant you the following IAM roles on the project, folder, or organization that you're granting access to:
-    
-      - Grant service agents access to a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
-      - Grant service agents access to a folder: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` )
-      - Grant service agents access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
-    
-    For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
-    
-    These predefined roles contain the permissions required to grant the service agents access. To see the exact permissions that are required, expand the **Required permissions** section:
-    
-    #### Required permissions
-    
-    The following permissions are required to grant the service agents access:
-    
-      - Grant service agents access to a project:
-          - `resourcemanager.projects.getIamPolicy`
-          - `resourcemanager.projects.setIamPolicy`
-      - Grant service agents access to a folder:
-          - `resourcemanager.folders.getIamPolicy`
-          - `resourcemanager.folders.setIamPolicy`
-      - Grant service agents access to an organization:
-          - `resourcemanager.organizations.getIamPolicy`
-          - `resourcemanager.organizations.setIamPolicy`
-    
-    You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+These predefined roles contain the permissions required to create and grant access to service agents. To see the exact permissions that are required, expand the **Required permissions** section:
+
+#### Required permissions
+
+The following permissions are required to create and grant access to service agents:
+
+  - List available services and their endpoints: `serviceusage.services.list`
+  - Enable service agents: `workloadidentity.serviceAgents.create`
+  - View long-running operations: `workloadidentity.operations.get`
+  - Grant service agents access to a project:
+      - `resourcemanager.projects.getIamPolicy`
+      - `resourcemanager.projects.setIamPolicy`
+  - Grant service agents access to a folder:
+      - `resourcemanager.folders.getIamPolicy`
+      - `resourcemanager.folders.setIamPolicy`
+  - Grant service agents access to an organization:
+      - `resourcemanager.organizations.getIamPolicy`
+      - `resourcemanager.organizations.setIamPolicy`
+
+You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
 ## Identify service agents to create
 
-To identify the project-level, folder-level, and organization-level service agents that you need to ask Google Cloud to create, do the following:
+To identify the service agents that you need to create and the resources that you need to create them for, do the following:
 
 1.  Make a list of the services that you use and their API endpoints. To view all available services and their endpoints, use one of the following methods:
     
@@ -158,14 +151,24 @@ To identify the project-level, folder-level, and organization-level service agen
     
     The API endpoint is the value in the `name` field.
 
-2.  On the [service agent reference](https://docs.cloud.google.com/iam/docs/service-agents) page, search for each API endpoint.
+2.  For each API endpoint that you will use, make a list of the resources where you need to create that endpoint's service agents:
     
-    If the endpoint is listed in the table, find all service agents for that endpoint. Ignore any service agents whose email address contains the `  IDENTIFIER  ` placeholder—those service agents are for service-specific resources, not projects, folders, or organizations.
+    1.  On the [service agent reference](https://docs.cloud.google.com/iam/docs/service-agents) page, search for each API endpoint to find all service agents for that endpoint.
+        
+        Some endpoints might not have associated service agents—you can skip triggering service agent creation for these endpoints.
     
-    For each project-level, folder-level, and organization-level service agent, record the following:
-    
-      - The format of the service agent's email address.
-      - The role that the service agent is granted, if any.
+    2.  For each of the endpoint's service agents, use the service agent's email address to determine where you need to create the service agent.
+        
+        The placeholder in a service agent's email address indicates where you need to create the service agent:
+        
+        | Placeholder                                    | Where to create the service agent                |
+        | ---------------------------------------------- | ------------------------------------------------ |
+        | `             PROJECT_NUMBER            `      | Each project where you will use the service      |
+        | `             FOLDER_NUMBER            `       | Each folder where you will use the service       |
+        | `             ORGANIZATION_NUMBER            ` | Each organization where you will use the service |
+        
+
+    3.  For each endpoint, record each unique resource where you need to create service agents for that endpoint.
 
 ## Trigger service agent creation
 
@@ -173,116 +176,98 @@ After you know which service agents you need to create, you can ask Google Cloud
 
 When you ask Google Cloud to create service agents, you provide it with a service and a resource. Then, Google Cloud creates all service agents for that service and that resource.
 
+During this step, if you're using the gcloud CLI or the REST API, you can also create a list of the roles that need to be granted to each service agent. You'll use this information to [grant roles to the service agents](https://docs.cloud.google.com/iam/docs/create-service-agents#grant-roles) . If you're using Terraform, then you don't need to manually keep track of the required roles because you can reference the roles programmatically.
+
 ### gcloud
 
-For each service that you need to create service agents for, do the following:
+Use the [`gcloud workload-identity service-agents generate`](https://docs.cloud.google.com/sdk/gcloud/reference/workload-identity/service-agents/generate) command to create service agents for each endpoint and resource that you identified in [Identify service agents to create](https://docs.cloud.google.com/iam/docs/create-service-agents#identify-agents) .
 
-1.  Review the service agent email addresses for the service. Use the placeholders in the email addresses to determine which resources you need to create service agents for:
-    
-    | Placeholder                                    | Where to create service agents                   |
-    | ---------------------------------------------- | ------------------------------------------------ |
-    | `             PROJECT_NUMBER            `      | Each project where you will use the service      |
-    | `             FOLDER_NUMBER            `       | Each folder where you will use the service       |
-    | `             ORGANIZATION_NUMBER            ` | Each organization where you will use the service |
-    
+Each time you run the command, review the response. For each role in the response, record the email address of the service agent that the role should be granted to. You will use this information to [grant roles to the service agents](https://docs.cloud.google.com/iam/docs/create-service-agents#grant-roles) .
 
-2.  Create service agents for each resource.
-    
-    The `  gcloud beta services identity create  ` command creates all service agents for the specified API and resource.
-    
-    Before using any of the command data below, make the following replacements:
-    
-      - `  ENDPOINT  ` : The endpoint of the API that you want to create a service agent for—for example, `aiplatform.googleapis.com` .
-    
-      - `  RESOURCE_TYPE  ` : The type of resource that you want to create a service agent for. Use `project` , `folder` , or `organization` .
-    
-      - `  RESOURCE_ID  ` : The ID of the Google Cloud project, folder, or organization that you want to create a service agent for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
-        
-        You can create service agents for one resource at a time. If you need to create service agents for multiple resources, run the command once for each resource.
-    
-    Execute the following command:
-    
-    #### Linux, macOS, or Cloud Shell
-    
-        gcloud beta services identity create --service=ENDPOINT \
-            --RESOURCE_TYPE=RESOURCE_ID
-    
-    #### Windows (PowerShell)
-    
-        gcloud beta services identity create --service=ENDPOINT `
-            --RESOURCE_TYPE=RESOURCE_ID
-    
-    #### Windows (cmd.exe)
-    
-        gcloud beta services identity create --service=ENDPOINT ^
-            --RESOURCE_TYPE=RESOURCE_ID
-    
-    The response contains the email address of the service's primary service agent. This email address includes the numeric ID of the project, folder, or organization that you created service agents for.
-    
-    If the service doesn't have a primary service agent, the response doesn't contain an email address.
-    
-    The following is an example of a response for a service that has a primary service agent.
-    
-        Service identity created: service-232332569935@gcp-sa-aiplatform.iam.gserviceaccount.com
+Before using any of the command data below, make the following replacements:
 
-3.  Optional: Record the service agent email address in the response, if any. This email address identifies the service's [primary service agent](https://docs.cloud.google.com/iam/docs/service-account-types#primary) . You can use this identifier to grant roles to the primary service agent.
+  - `  ENDPOINT  ` : The endpoint of the API that you want to create service agents for—for example, `aiplatform.googleapis.com` .
+
+  - `  RESOURCE_TYPE  ` : The type of resource that you want to create service agents for. Use `project` , `folder` , or `organization` .
+
+  - `  RESOURCE_ID  ` : The numeric ID of the Google Cloud project, folder, or organization that you want to create service agents for. For example, `123456789012` .
+    
+    You can create service agents for one resource at a time. If you need to create service agents for multiple resources, run the command once for each resource.
+
+Execute the following command:
+
+#### Linux, macOS, or Cloud Shell
+
+    gcloud workload-identity service-agents generate --service="ENDPOINT" \
+        --location="global" --RESOURCE_TYPE="RESOURCE_ID"
+
+#### Windows (PowerShell)
+
+    gcloud workload-identity service-agents generate --service="ENDPOINT" `
+        --location="global" --RESOURCE_TYPE="RESOURCE_ID"
+
+#### Windows (cmd.exe)
+
+    gcloud workload-identity service-agents generate --service="ENDPOINT" ^
+        --location="global" --RESOURCE_TYPE="RESOURCE_ID"
+
+The response contains a list of all of the service agents that were created. For each service agent, the response lists the resource it was created for, the email address of the service agent, the service that the service agent is associated with, and the state of the service agent. If the service agent is typically granted a specific role, the response also lists that role.
+
+The listed role is *not* automatically granted to the service agent. For each role in the response, record the email address of the service agent that the role should be granted to. You will use this information to [grant roles to the service agents](https://docs.cloud.google.com/iam/docs/create-service-agents#grant-roles) .
+
+The following is a truncated example of the response for creating service agents for `aiplatform.googleapis.com` .
+
+    Provisioned service agents for aiplatform.googleapis.com under projects/123456789012:
+    
+    container: projects/123456789012
+    principal: serviceAccount:service-123456789012@gcp-sa-aiplatform.iam.gserviceaccount.com
+    role: roles/aiplatform.serviceAgent
+    serviceProducer: aiplatform.googleapis.com
+    state: ACTIVE
+    ----
+    container: projects/123456789012
+    principal: serviceAccount:service-123456789012@gcp-ri-aiplatform.iam.gserviceaccount.com
+    serviceProducer: aiplatform.googleapis.com
+    state: ACTIVE
+    ----
+    ...
+    ----
+    container: projects/123456789012
+    principal: serviceAccount:service-123456789012@gcp-sa-vertex-vtc.iam.gserviceaccount.com
+    role: roles/aiplatform.trainingClusterServiceAgent
+    serviceProducer: aiplatform.googleapis.com
+    state: ACTIVE
+    ----
 
 ### Terraform
 
 To learn how to apply or remove a Terraform configuration, see [Basic Terraform commands](https://docs.cloud.google.com/docs/terraform/basic-commands) . For more information, see the [Terraform provider reference documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs) .
 
-For each service that you need to create service agents for, do the following:
+Use the `google_workload_identity_service_agent` resource to trigger service agent creation for each endpoint and resource that you identified in [Identify service agents to create](https://docs.cloud.google.com/iam/docs/create-service-agents#identify-agents) .
 
-1.  Review the service agent email addresses for the service. Use the placeholders in the email addresses to determine which resources you need to create service agents for:
-    
-    | Placeholder                                    | Where to create service agents                   |
-    | ---------------------------------------------- | ------------------------------------------------ |
-    | `             PROJECT_NUMBER            `      | Each project where you will use the service      |
-    | `             FOLDER_NUMBER            `       | Each folder where you will use the service       |
-    | `             ORGANIZATION_NUMBER            ` | Each organization where you will use the service |
-    
-
-2.  Create service agents for each resource. For example, the following code creates all project-level service agents for AI Platform:
-    
-    > **Note:** Terraform only supports triggering the creation of project-level service agents. To trigger the creation of folder-level and organization-level service agents, use the Google Cloud CLI or REST API.
-
-<!-- end list -->
+For example, if you wanted to create all project-level service agents for BigQuery for the default project, you could add the following code to your Terraform configuration:
 
 ```terraform
 data "google_project" "default" {
 }
 
-# Create all project-level aiplatform.googleapis.com service agents
-resource "google_project_service_identity" "default" {
-  provider = google-beta
-
-  project = data.google_project.default.project_id
-  service = "aiplatform.googleapis.com"
+# Create all project-level bigquery.googleapis.com service agents
+resource "google_workload_identity_service_agent" "primary" {
+  parent = "projects/${data.google_project.default.number}/locations/global/serviceProducers/bigquery.googleapis.com"
 }
 ```
 
 ### REST
 
-For each service that you need to create service agents for, do the following:
+For each endpoint that you need to create service agents for, do the following:
 
-1.  Review the service agent email addresses for the service. Use the placeholders in the email addresses to determine which resources you need to create service agents for:
-    
-    | Placeholder                                    | Where to create service agents                   |
-    | ---------------------------------------------- | ------------------------------------------------ |
-    | `             PROJECT_NUMBER            `      | Each project where you will use the service      |
-    | `             FOLDER_NUMBER            `       | Each folder where you will use the service       |
-    | `             ORGANIZATION_NUMBER            ` | Each organization where you will use the service |
-    
-
-2.  Create service agents for each resource.
-    
-    The Service Usage API's `  services.generateServiceIdentity  ` method creates all service agents for the specified API and resource.
+1.  Create service agents for each resource that you identified in [Identify service agents to create](https://docs.cloud.google.com/iam/docs/create-service-agents#identify-agents) :
     
     Before using any of the request data, make the following replacements:
     
-      - `  RESOURCE_TYPE  ` : The type of resource that you want to create a service agent for. Use `projects` , `folders` , or `organizations` .
+      - `  RESOURCE_TYPE  ` : The type of resource that you want to create service agents for. Use `projects` , `folders` , or `organizations` .
     
-      - `  RESOURCE_ID  ` : The ID of the Google Cloud project, folder, or organization that you want to create service agents for. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
+      - `  RESOURCE_NUMERIC_ID  ` : The numeric ID of the Google Cloud project, folder, or organization that you want to create service agents for. For example, `123456789012` .
         
         You can create service agents for one resource at a time. If you need to create service agents for multiple resources, send one request for each resource.
     
@@ -290,7 +275,7 @@ For each service that you need to create service agents for, do the following:
     
     HTTP method and URL:
     
-        POST https://serviceusage.googleapis.com/v1beta1/RESOURCE_TYPE/RESOURCE_ID/services/ENDPOINT:generateServiceIdentity
+        POST https://workloadidentity.googleapis.com/v1/RESOURCE_TYPE/RESOURCE_NUMERIC_ID/locations/global/serviceProducers/ENDPOINT:generateServiceAgents
     
     To send your request, expand one of these options:
     
@@ -304,7 +289,7 @@ For each service that you need to create service agents for, do the following:
              -H "Authorization: Bearer $(gcloud auth print-access-token)" \
              -H "Content-Type: application/json; charset=utf-8" \
              -d "" \
-             "https://serviceusage.googleapis.com/v1beta1/RESOURCE_TYPE/RESOURCE_ID/services/ENDPOINT:generateServiceIdentity"
+             "https://workloadidentity.googleapis.com/v1/RESOURCE_TYPE/RESOURCE_NUMERIC_ID/locations/global/serviceProducers/ENDPOINT:generateServiceAgents"
     
     #### PowerShell (Windows)
     
@@ -318,27 +303,124 @@ For each service that you need to create service agents for, do the following:
         Invoke-WebRequest `
             -Method POST `
             -Headers $headers `
-            -Uri "https://serviceusage.googleapis.com/v1beta1/RESOURCE_TYPE/RESOURCE_ID/services/ENDPOINT:generateServiceIdentity" | Select-Object -Expand Content
+            -Uri "https://workloadidentity.googleapis.com/v1/RESOURCE_TYPE/RESOURCE_NUMERIC_ID/locations/global/serviceProducers/ENDPOINT:generateServiceAgents" | Select-Object -Expand Content
     
-    The response contains an [`Operation`](https://docs.cloud.google.com/service-usage/docs/reference/rest/Shared.Types/ListOperationsResponse#Operation) indicting the status of your request. To check the status of the operation, use the [`operations.get`](https://docs.cloud.google.com/service-usage/docs/reference/rest/v1/operations/get) method.
-    
-    Finished operations contain the email address of the service's primary service agent. This email address includes the numeric ID of the project, folder, or organization that you created service agents for.
-    
-    If the service doesn't have a primary service agent, the response doesn't contain an email address.
-    
-    The following is an example of a finished operation for a service that has a primary service agent.
+    The response contains an [`Operation`](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.operations) indicting the status of your request. For example:
     
         {
-          "name": "operations/finished.DONE_OPERATION",
-          "done": true,
-          "response": {
-            "@type": "type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity",
-            "email": "service-232332569935@gcp-sa-aiplatform.iam.gserviceaccount.com",
-            "uniqueId": "112245693826560101651"
-          }
+          "name": "projects/123456789012/locations/global/operations/operation-1775250941060-64e94d1baa76d-1aa958f3-07b2ea9c",
+          "metadata": {
+            "@type": "type.googleapis.com/google.cloud.workloadidentity.v1.OperationMetadata",
+            "createTime": "2026-04-03T21:15:41.367155118Z",
+            "target": "projects/123456789012/locations/global/serviceProducers/bigquery.googleapis.com",
+            "verb": "passthroughLro",
+            "requestedCancellation": false,
+            "apiVersion": "v1"
+          },
+          "done": false
         }
 
-3.  Optional: Record the service agent email address in the response, if any. This email address identifies the service's [primary service agent](https://docs.cloud.google.com/iam/docs/service-account-types#primary) . You can use this identifier to grant roles to the primary service agent.
+2.  Get the response from the completed operation. For each role in the response, record the email address of the service agent that the role should be granted to. You will use this information to [grant roles to the service agents](https://docs.cloud.google.com/iam/docs/create-service-agents#grant-roles) .
+    
+    Before using any of the request data, make the following replacements:
+    
+      - `  OPERATION_NAME  ` : The name of a generateServiceAgents operation. Copy this value from the `name` field of a `serviceProducers.generateServiceAgents` response. For example: `projects/123456789012/locations/global/operations/operation-1775250941060-64e94d1baa76d-1aa958f3-07b2ea9c`
+      - `  PROJECT_ID  ` : Your Google Cloud project ID. Project IDs are alphanumeric strings, like `my-project` .
+    
+    HTTP method and URL:
+    
+        GET https://workloadidentity.googleapis.com/v1/OPERATION_NAME
+    
+    To send your request, expand one of these options:
+    
+    #### curl (Linux, macOS, or Cloud Shell)
+    
+    > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) , or by using [Cloud Shell](https://docs.cloud.google.com/shell/docs) , which automatically logs you into the `gcloud` CLI . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+    
+    Execute the following command:
+    
+        curl -X GET \
+             -H "Authorization: Bearer $(gcloud auth print-access-token)" \
+             "https://workloadidentity.googleapis.com/v1/OPERATION_NAME"
+    
+    #### PowerShell (Windows)
+    
+    > **Note:** The following command assumes that you have logged in to the `gcloud` CLI with your user account by running [`gcloud init`](https://docs.cloud.google.com/sdk/gcloud/reference/init) or [`gcloud auth login`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) . You can check the currently active account by running [`gcloud auth list`](https://docs.cloud.google.com/sdk/gcloud/reference/auth/list) .
+    
+    Execute the following command:
+    
+        $cred = gcloud auth print-access-token
+        $headers = @{ "Authorization" = "Bearer $cred" }
+        
+        Invoke-WebRequest `
+            -Method GET `
+            -Headers $headers `
+            -Uri "https://workloadidentity.googleapis.com/v1/OPERATION_NAME" | Select-Object -Expand Content
+    
+    #### APIs Explorer (browser)
+    
+    Open the [method reference page](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.operations/get) . The APIs Explorer panel opens on the right side of the page. You can interact with this tool to send requests. Complete any required fields and click **Execute** .
+    
+    Ongoing operations return a response like the following:
+    
+        {
+          "name": "projects/123456789012/locations/global/operations/operation-1775258415970-64e968f44b91a-28fcf2f5-38367cfe",
+          "metadata": {
+            "@type": "type.googleapis.com/google.cloud.workloadidentity.v1.OperationMetadata",
+            "createTime": "2026-04-03T23:20:15.982631253Z",
+            "target": "projects/123456789012/locations/global/serviceProducers/aiplatform.googleapis.com",
+            "verb": "passthroughLro",
+            "requestedCancellation": false,
+            "apiVersion": "v1"
+          },
+          "done": false
+        }
+    
+    Completed operations return a response containing a list of service agents that were created. For each service agent, the response lists the resource it was created for, the email address of the service agent, the service that the service agent is associated with, and the state of the service agent. If the service agent is typically granted a specific role, the response also lists that role.
+    
+    The listed role is *not* automatically granted to the service agent. For each role in the response, record the email address of the service agent that the role should be granted to. You will use this information to [grant roles to the service agents](https://docs.cloud.google.com/iam/docs/create-service-agents#grant-roles) .
+    
+    The following is a truncated example of the response for creating service agents for `aiplatform.googleapis.com` .
+    
+        {
+          "name": "projects/123456789012/locations/global/operations/operation-1775258415970-64e968f44b91a-28fcf2f5-38367cfe",
+          "metadata": {
+            "@type": "type.googleapis.com/google.cloud.workloadidentity.v1.OperationMetadata",
+            "createTime": "2026-04-03T23:20:15.982631253Z",
+            "endTime": "2026-04-03T23:20:17.315225515Z",
+            "target": "projects/123456789012/locations/global/serviceProducers/aiplatform.googleapis.com",
+            "verb": "passthroughLro",
+            "requestedCancellation": false,
+            "apiVersion": "v1"
+          },
+          "done": true,
+          "response": {
+            "@type": "type.googleapis.com/google.cloud.workloadidentity.v1.GenerateServiceAgentsResponse",
+            "serviceAgents": [
+              {
+                "container": "projects/123456789012",
+                "serviceProducer": "aiplatform.googleapis.com",
+                "principal": "serviceAccount:service-123456789012@gcp-sa-aiplatform.iam.gserviceaccount.com",
+                "role": "roles/aiplatform.serviceAgent",
+                "state": "ACTIVE"
+              },
+              {
+                "container": "projects/123456789012",
+                "serviceProducer": "aiplatform.googleapis.com",
+                "principal": "serviceAccount:service-123456789012@gcp-ri-aiplatform.iam.gserviceaccount.com",
+                "state": "ACTIVE"
+              },
+              ...
+              {
+                "container": "projects/123456789012",
+                "serviceProducer": "aiplatform.googleapis.com",
+                "principal": "serviceAccount:service-123456789012@gcp-sa-vertex-vtc.iam.gserviceaccount.com",
+                "role": "roles/aiplatform.trainingClusterServiceAgent",
+                "state": "ACTIVE"
+              }
+            ]
+          }
+        }
 
 ## Grant roles to service agents
 
@@ -346,60 +428,13 @@ After Google Cloud creates the necessary service agents for your projects, folde
 
 If you asked Google Cloud to create service agents, you must grant those service agents the roles that they are typically granted automatically. If you don't, some services might not function properly. This is because service agents that are created at a user's request aren't automatically granted roles.
 
-To learn how to identify automatically granted roles, see [Identify service agents to create](https://docs.cloud.google.com/iam/docs/create-service-agents#identify-agents) .
-
-### Find the service agent's email address
-
-To find a service agent's email address, do the following:
-
-### gcloud
-
-1.  If you have not already, find the service agent's email address format. This format is documented in the [service agent reference](https://docs.cloud.google.com/iam/docs/service-agents) .
-
-2.  Replace any placeholders in the email address with the corresponding project, folder, or organization number.
-
-Alternatively, if the service agent is a [primary service agent](https://docs.cloud.google.com/iam/docs/service-account-types#primary) , you can get its email address by [triggering service agent creation](https://docs.cloud.google.com/iam/docs/create-service-agents#create) for the service. The command to trigger service agent creation returns the primary service agent's email address.
-
-### Terraform
-
-To learn how to apply or remove a Terraform configuration, see [Basic Terraform commands](https://docs.cloud.google.com/docs/terraform/basic-commands) . For more information, see the [Terraform provider reference documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs) .
-
-1.  If you have not already, find the service agent's email address format. This format is documented in the [service agent reference](https://docs.cloud.google.com/iam/docs/service-agents) .
-
-2.  Replace any placeholders in the email address with expressions that reference the appropriate project, folder, or organization number.
-    
-    For example, consider the following situation:
-    
-      - The email address format is `service- PROJECT_NUMBER @gcp-sa-aiplatform-cc.iam.gserviceaccount.com`
-      - The service agent is for a project labeled `default`
-    
-    In this case, the service agent's email address is as follows:
-    
-        service-${data.google_project.default.number}@gcp-sa-aiplatform-cc.iam.gserviceaccount.com
-
-Alternatively, if a service agent is the primary service agent for a service, you can get its email address from the `email` attribute of the `google_project_service_identity` resource.
-
-For example, if you have a `google_project_service_identity` block labeled `default` , you can get the email address of the service's primary service agent by using the following expression:
-
-    ${google_project_service_identity.default.email}
-
-### REST
-
-1.  If you have not already, find the service agent's email address format. This format is documented in the [service agent reference](https://docs.cloud.google.com/iam/docs/service-agents) .
-
-2.  Replace any placeholders in the email address with the corresponding project, folder, or organization number.
-
-Alternatively, if the service agent is a [primary service agent](https://docs.cloud.google.com/iam/docs/service-account-types#primary) , you can get its email address by [triggering service agent creation](https://docs.cloud.google.com/iam/docs/create-service-agents#create) for the service. The command to trigger service agent creation returns the primary service agent's email address.
-
-### Grant a role to the service agent
-
-After you find the service agent's email address, you can grant it a role just like you would grant a role to any other principal.
-
 ### Console
+
+Use the list of roles and service agents that you created in [Trigger service agent creation](https://docs.cloud.google.com/iam/docs/create-service-agents#create) to identify which service agents need to be granted roles. For each service agent that needs a role, do the following:
 
 1.  In the Google Cloud console, go to the **IAM** page.
 
-2.  Select a project, folder, or organization.
+2.  Select a project, folder, or organization that you created the service agent for.
 
 3.  Click person\_add **Grant Access** , then enter the service agent's email address.
 
@@ -412,13 +447,13 @@ After you find the service agent's email address, you can grant it a role just l
     
     To follow the principle of least privilege, [choose a role](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) that includes only the permissions that your principal needs.
 
-5.  Optional: Add a [condition](https://docs.cloud.google.com/iam/docs/conditions-overview) to the role.
-
-6.  Click **Save** . The service agent is granted the role on the resource.
+5.  Click **Save** . The service agent is granted the role on the resource.
 
 ### gcloud
 
-The `  add-iam-policy-binding  ` command lets you quickly grant a role to a principal.
+Use the list of roles and service agents that you created in [Trigger service agent creation](https://docs.cloud.google.com/iam/docs/create-service-agents#create) to identify which service agents need to be granted roles. For each service agent that needs a role, use the [`add-iam-policy-binding`](https://docs.cloud.google.com/sdk/gcloud/reference/projects/add-iam-policy-binding) command to grant the role to the service agent.
+
+> **Note:** To grant roles to multiple service agents at a time, use the [read, modify, write](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access#multiple-roles-programmatic) pattern instead of the `add-iam-policy-binding` command.
 
 Before using any of the command data below, make the following replacements:
 
@@ -426,19 +461,9 @@ Before using any of the command data below, make the following replacements:
 
   - `  RESOURCE_ID  ` : Your Google Cloud project, folder, or organization ID. Project IDs are alphanumeric, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  PRINCIPAL  ` : An identifier for the principal, or member, which usually has the following form: `  PRINCIPAL_TYPE : ID  ` . For example, `user:my-user@example.com` or `principalSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/example-group@example.com` . For a full list of the values that `  PRINCIPAL  ` can have, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
-    
-    For the principal type `user` , the domain name in the identifier must be a Google Workspace domain or a Cloud Identity domain. To learn how to set up a Cloud Identity domain, see the [overview of Cloud Identity](https://docs.cloud.google.com/identity/docs/overview) .
+  - `  PRINCIPAL  ` : The email address of the service agent that you want to grant access to, prefaced by `serviceAccount:` . For example, `serviceAccount:service-0123456789012@gcp-sa-aiplatform-cc.iam.gserviceaccount.com` .
 
-  - `  ROLE_NAME  ` : The name of the role that you want to grant. Use one of the following formats:
-    
-      - Predefined roles: ` roles/ SERVICE . IDENTIFIER  `
-      - Project-level custom roles: ` projects/ PROJECT_ID /roles/ IDENTIFIER  `
-      - Organization-level custom roles: ` organizations/ ORG_ID /roles/ IDENTIFIER  `
-    
-    For a list of predefined roles, see [Understanding roles](https://docs.cloud.google.com/iam/docs/understanding-roles) .
-
-  - `  CONDITION  ` : The condition to add to the role binding. If you don't want to add a condition, use the value `None` . For more information about conditions, see the [conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+  - `  ROLE_NAME  ` : The name of the role that you want to grant to the service agent.
 
 Execute the following command:
 
@@ -466,32 +491,40 @@ The response contains the updated IAM allow policy.
 
 To learn how to apply or remove a Terraform configuration, see [Basic Terraform commands](https://docs.cloud.google.com/docs/terraform/basic-commands) . For more information, see the [Terraform provider reference documentation](https://registry.terraform.io/providers/hashicorp/google/latest/docs) .
 
-```terraform
-# Grant the AI Platform Custom Code Service Account the Vertex AI Custom
-# Code Service Agent role (roles/aiplatform.customCodeServiceAgent)
-resource "google_project_iam_member" "custom_code" {
-  project = data.google_project.default.project_id
-  role    = "roles/aiplatform.customCodeServiceAgent"
-  member  = "serviceAccount:service-${data.google_project.default.number}@gcp-sa-aiplatform-cc.iam.gserviceaccount.com"
-}
+To grant roles to service agents, do the following:
 
-# Grant the primary aiplatform.googleapis.com service agent (AI Platform
-# Service Agent) the Vertex AI Service Agent role
-# (roles/aiplatform.serviceAgent)
-resource "google_project_iam_member" "primary" {
-  project = data.google_project.default.project_id
-  role    = "roles/aiplatform.serviceAgent"
-  member  = "serviceAccount:${google_project_service_identity.default.email}"
-}
-```
+1.  For each `google_workload_identity_service_agent` resource, grant any roles that are associated with the service agents.
+    
+    For example, if you wanted to grant roles to all service agents for the `google_workload_identity_service_agent.primary` resource, you could add the following code to your Terraform configuration:
+    
+    ```terraform
+    # Grant roles to BigQuery service agents for project
+    resource "google_project_iam_member" "service_agents" {
+      for_each = {
+        for i, agent in google_workload_identity_service_agent.primary.service_agents :
+        i => agent if try(agent.role, "") != ""
+      }
+      project = data.google_project.default.project_id
+      role    = each.value.role
+      member  = each.value.principal
+    }
+    ```
+
+2.  Run a targeted `terraform apply` command for the `google_workload_identity_service_agent` resource that you added in the [Trigger service agent creation](https://docs.cloud.google.com/iam/docs/create-service-agents#create) section of this page.
+    
+    For example, if you added a resource named `google_workload_identity_service_agent.primary` , you would run the following command:
+    
+        terraform apply target="google_workload_identity_service_agent.primary"
+    
+    Running this command ensures that the `google_project_iam_member` resource can reference service agent resources without getting `Known After Apply` errors.
+
+3.  Run the `terraform plan` command for your Terraform configuration. This command shows the execution plan for granting roles to service agents. If the execution plan looks good, run `terraform apply` to apply the plan.
 
 ### REST
 
-To grant a role with the REST API, use the read-modify-write pattern:
+Use the list of roles and service agents that you created in [Trigger service agent creation](https://docs.cloud.google.com/iam/docs/create-service-agents#create) to identify which service agents need to be granted roles. To grant roles to the service agents, use the read-modify-write pattern to update the resource's allow policy:
 
-1.  Read the current allow policy by calling `getIamPolicy()` .
-    
-    The Resource Manager API's `  get-iam-policy  ` method gets a project's, folder's, or organization's allow policy.
+1.  Read the current allow policy by calling [`getIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/getIamPolicy) .
     
     Before using any of the request data, make the following replacements:
     
@@ -561,11 +594,20 @@ To grant a role with the REST API, use the read-modify-write pattern:
           ]
         }
 
-2.  Edit the resource's allow policy, either by using a text editor or programmatically, to add or remove any principals or role bindings. For example, you could add a new role binding, remove an existing role binding, or add or remove principals from an existing role binding.
-
-3.  Write the updated allow policy by calling `setIamPolicy()` .
+2.  For each service agent that you want to grant a role to, create a role binding granting the service agent the required role. For example, the following role binding grants the AI Platform Custom Code Service Agent the Vertex AI Custom Code Service Agent role ( `roles/aiplatform.customCodeServiceAgent` ):
     
-    The Resource Manager API's `  set-iam-policy  ` method sets the policy in the request as the new allow policy for the project, folder, or organization.
+    ``` 
+      {
+        "role": "roles/aiplatform.customCodeServiceAgent",
+        "members": [
+          "serviceAccount:service-PROJECT_NUMBER@gcp-sa-aiplatform-cc.iam.gserviceaccount.com",
+        ]
+      }
+    ```
+    
+    If the allow policy already has a role binding for the required role, then add the service agent to the `members` list for that role binding.
+
+3.  Write the updated allow policy by calling [`setIamPolicy`](https://docs.cloud.google.com/resource-manager/reference/rest/v1/projects/setIamPolicy) .
     
     Before using any of the request data, make the following replacements:
     

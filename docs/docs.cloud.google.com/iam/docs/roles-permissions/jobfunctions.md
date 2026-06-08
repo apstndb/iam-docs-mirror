@@ -918,6 +918,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.datascans.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.run</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
@@ -6057,8 +6062,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  useWildfire</code></li>
 </ul>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.*</code></p>
 <ul>
@@ -9686,8 +9693,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  useWildfire</code></li>
 </ul>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.*</code></p>
 <ul>
@@ -11282,6 +11291,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.locations.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.locations.list</code></p>
 <p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  protectableResources.  list</code></p>
 <p><code dir="ltr" translate="no">cloudkms.retiredResources.*</code></p>
 <ul>
@@ -21516,6 +21526,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">netapp.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">netapp.storagePools.get</code></p>
 <p><code dir="ltr" translate="no">netapp.storagePools.list</code></p>
+<p><code dir="ltr" translate="no">netapp.  storagePools.  listBackupConfigs</code></p>
 <p><code dir="ltr" translate="no">netapp.  volumes.  findValidCRRRegions</code></p>
 <p><code dir="ltr" translate="no">netapp.volumes.get</code></p>
 <p><code dir="ltr" translate="no">netapp.volumes.list</code></p>
@@ -21628,6 +21639,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  useWildfire</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  get</code></p>

@@ -6,7 +6,15 @@ description: Instructions for using Policy Analyzer to find out which principals
 data_source: docs.cloud.google.com
 ---
 
-This page shows how to use Policy Analyzer for allow policies to find out which principals (users, service accounts, groups, and domains), have what access to which Google Cloud resources.
+This page shows how to use Policy Analyzer for allow policies to find out which principals have what access to which Google Cloud resources.
+
+Principals can include the following:
+
+  - Users, groups, or domains
+  - Service accounts
+  - Agent identities
+  - Workload identities
+  - Workforce identities
 
 The examples on this page show how to run a Policy Analysis query and immediately view the results. If you want to export the results for further analysis, you can use [`AnalyzeIamPolicyLongrunning`](https://docs.cloud.google.com/asset-inventory/docs/reference/rest/v1/TopLevel/analyzeIamPolicyLongrunning) to write query results to [BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) or [Cloud Storage](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-gcs) .
 
@@ -87,7 +95,9 @@ You can use Policy Analyzer to check which principals have certain roles or perm
 
 6.  In the **Custom query** pane, click **Analyze \> Run query** . The report page shows the query parameters you entered, and a results table of all principals with the specified roles or permissions on the specified resource.
     
-    Policy analysis queries in the Google Cloud console run for up to one minute. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    Policy analysis queries in the Google Cloud console can take one minute to run. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    
+    You can generate a visualization of your query by clicking **Visualize results** . For more information, see [Visualize results](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#visualize-results) ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ).
 
 ### gcloud
 
@@ -294,7 +304,9 @@ You can use Policy Analyzer to check which principals have specific roles or per
 
 8.  In the **Custom query** pane, click **Analyze \> Run query** . The report page shows the query parameters you entered, and a results table of all principals with the specified roles or permissions on any in-scope resource.
     
-    Policy analysis queries in the Google Cloud console run for up to one minute. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    Policy analysis queries in the Google Cloud console can take one minute to run. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    
+    You can generate a visualization of your query by clicking **Visualize results** . For more information, see [Visualize results](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#visualize-results) ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ).
 
 ### gcloud
 
@@ -501,7 +513,9 @@ You can use Policy Analyzer to check what roles or permissions a principal has o
 
 6.  In the **Custom query** pane, click **Analyze \> Run query** . The report page shows the query parameters you entered, and a results table of all roles that the specified principal has on the specified resource.
     
-    Policy analysis queries in the Google Cloud console run for up to one minute. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    Policy analysis queries in the Google Cloud console can take one minute to run. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    
+    You can generate a visualization of your query by clicking **Visualize results** . For more information, see [Visualize results](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#visualize-results) ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ).
 
 ### gcloud
 
@@ -696,7 +710,9 @@ You can use Policy Analyzer to check which resources within your organization a 
 
 6.  In the **Custom query** pane, click **Analyze \> Run query** . The report page shows the query parameters you entered, and a results table of all the resources on which the specified principal has the specified roles or permissions.
     
-    Policy analysis queries in the Google Cloud console run for up to one minute. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    Policy analysis queries in the Google Cloud console can take one minute to run. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+    
+    You can generate a visualization of your query by clicking **Visualize results** . For more information, see [Visualize results](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#visualize-results) ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ).
 
 ### gcloud
 
@@ -1246,6 +1262,98 @@ Replace `  OPTIONS  ` with the options that you want to enable, in the form `" O
 </tr>
 </tbody>
 </table>
+
+## Visualize results
+
+> **Preview — visualizing Policy Analyzer for allow policies query results**
+> 
+> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
+
+You can use Policy Analyzer to visualize an allow policy query. This can help you understand the relationship between identities, roles, permissions, and resources within your resource hierarchy. You can also use these visualizations to assess what permissions are unused or excessive for your principals.
+
+Policy Analyzer visualizes relationships based on the roles that grant permissions. Queries scoped to a specific permission show allow policy bindings for the role that provides that permission.
+
+Queries scoped to a folder or organization resource show allow policy bindings at the specified scope if no resource is specified in the query. To see allow policy bindings on resources within projects when the query is scoped to an organization or folder, specify a resource in the query and select **Show bindings within the scope** .
+
+Queries scoped to a project resource show allow policy bindings on project resources and resources within projects by default. To only see allow policy bindings on project resources, clear **Show bindings within the scope** .
+
+The number next to a project resource indicates how many resources within that project can be accessed using the granted role. Click **Expand** on a project resource with a number to see the resources that can be accessed using the granted role within that project, aggregated by service. For example, BigQuery tables and datasets are collected under BigQuery.
+
+Direct principal bindings are displayed first. Nested bindings from group memberships are loaded afterwards. If access is granted through a nested group, the link to the specific group with the binding is displayed if you have the [required permissions](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#gsuite-permissions) . To see more group memberships, click **Load more** .
+
+The following example demonstrates visualizing a query to [determine which principals can access a resource](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#access-query) , but other query types can be visualized using the same process.
+
+> **Note:** Policy Analyzer only supports [IAM allow policies](https://docs.cloud.google.com/iam/docs/policies) . Results do not account for other access control mechanisms, like IAM deny policies. For more information, see [Supported policy types](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-overview#supported-policy-types) .
+
+1.  In the Google Cloud console, go to the **Policy analyzer** page.
+
+2.  In the **Analyze policies** section, find the pane labeled **Custom query** and click **Create custom query** in that pane.
+
+3.  In the **Select query scope** field, select the project, folder, or organization that you want to scope the query to. Policy Analyzer will analyze access for that project, folder, or organization, as well as any resources within that project, folder, or organization.
+
+4.  Choose the principal to check and the role or permission to check for:
+    
+    1.  In the **Parameter 1** field, select **Principal** from the drop-down menu.
+    2.  In the **Principal** field, start to enter the name of a principal, service account, or group. Then, select the principal, service account, or group whose access that you want to analyze from the list of principals provided.
+    3.  Click add **Add selector** .
+    4.  In the **Parameter 2** field, select either **Role** or **Permission** .
+    5.  In the **Select a role** or **Select a permission** field, select the role or permission that you want to check for.
+    6.  Optional: To check for additional roles and permissions, continue adding **Role** and **Permission** selectors until all the roles and permissions that you want to check for are listed. You can select up to a combination of 10 roles and permissions.
+
+5.  In the **Custom query** pane, click **Analyze \> Run query** . The report page shows the query parameters you entered, and a results table of all the resources that the specified principal has the specified roles or permissions on.
+    
+    Policy analysis queries in the Google Cloud console can take one minute to run. After one minute, the Google Cloud console stops the query and displays all available results. If the query didn't finish in that time, the Google Cloud console displays a banner indicating that the results are incomplete. To get more results for these queries, [export the results to BigQuery](https://docs.cloud.google.com/policy-intelligence/docs/policy-analyzer-write-to-bigquery) .
+
+6.  On the report page, click **Visualize Results** .
+    
+    ![](https://docs.cloud.google.com/static/policy-intelligence/img/analyzer-visualization-insights.png "Visualization of Policy Analyzer query")
+    
+    The visualization is organized from left to right in up to four columns. The lines in the visualization connect principals to groups, principals or groups to role, and role to resource.
+    
+    1.  On the left are principals returned by the query.
+    2.  If the principal has a role because that role was granted to a group, a line labeled "member of" connects that principal to the group. If the principal was directly granted the role, this column doesn't appear.
+    3.  A line labeled "has" connects each principal or group to a role.
+    4.  A line labeled "with access to" connects each role to the resource that it's granted on.
+    5.  The number of resources that are affected by the granted role is represented as a number next to the resource.
+    6.  If there is an existing [role recommendation or policy insight](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) , the role is circled and has a lightbulb lightbulb icon. You can click the role to get more information about the recommendation, and use the link to review and apply it.
+
+7.  To adjust the query, click **Toggle panel "Visualize results"** .
+    
+    ![](https://docs.cloud.google.com/static/policy-intelligence/img/analyzer-visualization-expand.png "Toggle visualization results panel")
+    
+    1.  In the **Scope** field, click **Browse** to change the project, folder, or organization that you want to scope the query to.
+    2.  In the **Principal** field, start typing the name of a principal, service account, or group. Then, select the principal, service account, or group whose access you want to analyze from the list of principals provided.
+    3.  To change the role for your query, in the **Select a role** or **Permission** field, select the role or permission that you want to check for.
+    4.  To change the resource for your query, in the **Resource** field, enter the full resource name of the resource that you want to analyze access for. If you don't know the full resource name, start typing the display name of the resource, then select the resource from the list of resources provided.
+    5.  Click **Search** to update the visualization.
+
+## Limitations
+
+Policy Analyzer has the following limitations when you analyze access for specific types of principals:
+
+  - **Agent principals:** When you search for what roles and resources an agent identity can access, the search results are limited to direct bindings to agent identities and the following principal sets:
+    
+      - All agent identities in a trust domain, using the format `principalSet://<var>TRUST_DOMAIN</var>/*` . For example, `principalSet://agents.global.org-123456789012.system.id.goog/*` .
+    
+      - All agent identities with the `platformContainer` attribute, using the format `principalSet://<var>TRUST_DOMAIN</var>/attribute.platformContainer/aiplatform/projects/<var>PROJECT_NUMBER</var>` . For example, `principalSet://agents.global.org-123456789012.system.id.goog/attribute.platformContainer/aiplatform/projects/9876543210` .
+    
+      - All agent identities with the `platform` attribute, using the format `principalSet://<var>TRUST_DOMAIN</var>/attribute.platform/aiplatform` . For example, `principalSet://agents.global.org-123456789012.system.id.goog/attribute.platform/aiplatform` .
+    
+      - All agent identities with the `container` attribute, using the format `principalSet://<var>TRUST_DOMAIN</var>/attribute.container/projects/<var>PROJECT_NUMBER</var>` . For example, `principalSet://agents.global.org-123456789012.system.id.goog/attribute.container/projects/9876543210` .
+
+  - **Workload identity or workforce principals** : When you search for what roles and resources a single identity in a workload or workforce pool can access, the search results are limited to the following principal sets:
+    
+      - All identities in the respective workload identity pool, using the format `principalSet://iam.googleapis.com/projects/<var>PROJECT_NUMBER</var>/locations/global/workloadIdentityPools/<var>POOL_ID</var>/*` . For example, `principalSet://iam.googleapis.com/projects/9876543210/locations/global/workloadIdentityPools/altostrat-contractors/*`
+    
+      - All identities in the respective workforce pool, using the format `principalSet://iam.googleapis.com/locations/global/workforcePools/<var>POOL_ID</var>/*` . For example, `principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/*` .
+
+Policy Analyzer visualizations have the following limitations:
+
+  - When creating a query, selections made in [advanced options](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies#options) might not be reflected in the visualization.
+
+  - If the query results in a visualization that is too large or complex to render effectively, a warning message is displayed. To resolve this issue, refine your query parameters to narrow the set of results displayed.
+
+  - Up to 1,000 groups can be displayed in a visualization.
 
 ## What's next
 

@@ -76,6 +76,43 @@ This page lists the IAM roles and permissions for Audit Manager. To search throu
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
+<td><h4 id="auditmanager.viewer" class="role-title add-link" data-text="Auditmanager Viewer Beta" tabindex="-1">Auditmanager Viewer <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
+<p>Viewer role for auditmanager</p></td>
+<td><p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  customComplianceFrameworks.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  customComplianceFrameworks.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.findings.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.findings.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="auditmanager.auditor" class="role-title add-link" data-text="Audit Manager Auditor Beta" tabindex="-1">Audit Manager Auditor <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  auditmanager.auditor</code> )</p>
 <p>Allows creating and viewing an audit report.</p></td>
@@ -124,7 +161,7 @@ This page lists the IAM roles and permissions for Audit Manager. To search throu
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="auditmanager.ccfAdmin" class="role-title add-link" data-text="Custom Compliance Framework Admin Beta" tabindex="-1">Custom Compliance Framework Admin <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  auditmanager.ccfAdmin</code> )</p>
 <p>Full access to Custom Compliance Framework resources.</p></td>
@@ -146,7 +183,7 @@ This page lists the IAM roles and permissions for Audit Manager. To search throu
 </ul>
 <p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="auditmanager.ccfViewer" class="role-title add-link" data-text="Custom Compliance Framework Viewer Beta" tabindex="-1">Custom Compliance Framework Viewer <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  auditmanager.ccfViewer</code> )</p>
 <p>Allows viewing Custom Compliance Framework resources.</p></td>
@@ -881,6 +918,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -897,6 +935,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -924,6 +963,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -940,6 +980,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -976,6 +1017,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -994,6 +1036,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -1010,6 +1053,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -1028,6 +1072,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -1057,6 +1102,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.ccfAdmin">Custom Compliance Framework Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.ccfAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.ccfViewer">Custom Compliance Framework Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.ccfViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
@@ -1066,6 +1112,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.ccfAdmin">Custom Compliance Framework Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.ccfAdmin</code> )</p>
@@ -1085,6 +1132,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.auditor">Audit Manager Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -1094,6 +1142,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -1120,6 +1169,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -1138,6 +1188,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -1158,6 +1209,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -1176,6 +1228,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -1196,6 +1249,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
@@ -1212,6 +1266,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.admin">Audit Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.viewer">Auditmanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.admin">Compliance Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.viewer">Compliance Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>

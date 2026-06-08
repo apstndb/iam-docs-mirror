@@ -98,6 +98,34 @@ This page lists the IAM roles and permissions for BigQuery Migration API. To sea
 </tbody>
 </table>
 
+### Service agent roles
+
+Service agent roles should only be granted to [service agents](https://docs.cloud.google.com/iam/docs/service-agents) .
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h4 id="bigquerymigration.serviceAgent" class="role-title add-link" data-text="BigQuery Migration Service Agent" tabindex="-1">BigQuery Migration Service Agent</h4>
+<p>( <code dir="ltr" translate="no">roles/  bigquerymigration.serviceAgent</code> )</p>
+<p>Access required for the BigQuery Migration Service to perform data discovery, metadata registration, and manage data transfers.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
+</tr>
+</tbody>
+</table>
+
 ## BigQuery Migration API permissions
 
 <table>

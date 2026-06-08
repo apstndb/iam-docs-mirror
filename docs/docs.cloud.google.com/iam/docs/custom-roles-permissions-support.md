@@ -2257,6 +2257,7 @@ Enter the desired permission name or support level in the text box below:
 | `ces.evaluationRuns.list`                                                      | `SUPPORTED`                |
 | `ces.evaluations.create`                                                       | `SUPPORTED`                |
 | `ces.evaluations.delete`                                                       | `SUPPORTED`                |
+| `ces.evaluations.export`                                                       | `SUPPORTED`                |
 | `ces.evaluations.get`                                                          | `SUPPORTED`                |
 | `ces.evaluations.list`                                                         | `SUPPORTED`                |
 | `ces.evaluations.update`                                                       | `SUPPORTED`                |
@@ -4090,6 +4091,11 @@ Enter the desired permission name or support level in the text box below:
 | `cloudsql.backupRuns.get`                                                      | `SUPPORTED`                |
 | `cloudsql.backupRuns.list`                                                     | `SUPPORTED`                |
 | `cloudsql.backupRuns.update`                                                   | `SUPPORTED`                |
+| `cloudsql.blueGreenDeployments.create`                                         | `SUPPORTED`                |
+| `cloudsql.blueGreenDeployments.delete`                                         | `SUPPORTED`                |
+| `cloudsql.blueGreenDeployments.get`                                            | `SUPPORTED`                |
+| `cloudsql.blueGreenDeployments.list`                                           | `SUPPORTED`                |
+| `cloudsql.blueGreenDeployments.switchover`                                     | `SUPPORTED`                |
 | `cloudsql.databases.create`                                                    | `SUPPORTED`                |
 | `cloudsql.databases.delete`                                                    | `SUPPORTED`                |
 | `cloudsql.databases.get`                                                       | `SUPPORTED`                |
@@ -4655,6 +4661,9 @@ Enter the desired permission name or support level in the text box below:
 | `compute.healthChecks.update`                                                  | `SUPPORTED`                |
 | `compute.healthChecks.use`                                                     | `SUPPORTED`                |
 | `compute.healthChecks.useReadOnly`                                             | `SUPPORTED`                |
+| `compute.hosts.get`                                                            | `SUPPORTED`                |
+| `compute.hosts.getVersion`                                                     | `SUPPORTED`                |
+| `compute.hosts.list`                                                           | `SUPPORTED`                |
 | `compute.httpHealthChecks.create`                                              | `SUPPORTED`                |
 | `compute.httpHealthChecks.createTagBinding`                                    | `SUPPORTED`                |
 | `compute.httpHealthChecks.delete`                                              | `SUPPORTED`                |
@@ -10423,8 +10432,11 @@ Enter the desired permission name or support level in the text box below:
 | `netapp.storagePools.delete`                                                   | `SUPPORTED`                |
 | `netapp.storagePools.get`                                                      | `SUPPORTED`                |
 | `netapp.storagePools.list`                                                     | `SUPPORTED`                |
+| `netapp.storagePools.listBackupConfigs`                                        | `SUPPORTED`                |
+| `netapp.storagePools.restoreVolume`                                            | `SUPPORTED`                |
 | `netapp.storagePools.switch`                                                   | `SUPPORTED`                |
 | `netapp.storagePools.update`                                                   | `SUPPORTED`                |
+| `netapp.storagePools.updateBackupConfig`                                       | `SUPPORTED`                |
 | `netapp.storagePools.validateDirectoryService`                                 | `SUPPORTED`                |
 | `netapp.volumes.create`                                                        | `SUPPORTED`                |
 | `netapp.volumes.delete`                                                        | `SUPPORTED`                |
@@ -10626,8 +10638,10 @@ Enter the desired permission name or support level in the text box below:
 | `networksecurity.firewallEndpoints.delete`                                     | `SUPPORTED`                |
 | `networksecurity.firewallEndpoints.get`                                        | `SUPPORTED`                |
 | `networksecurity.firewallEndpoints.list`                                       | `SUPPORTED`                |
+| `networksecurity.firewallEndpoints.submitVerdictChangeRequest`                 | `SUPPORTED`                |
 | `networksecurity.firewallEndpoints.update`                                     | `SUPPORTED`                |
 | `networksecurity.firewallEndpoints.use`                                        | `SUPPORTED`                |
+| `networksecurity.firewallEndpoints.useWildfire`                                | `SUPPORTED`                |
 | `networksecurity.gatewaySecurityPolicies.create`                               | `SUPPORTED`                |
 | `networksecurity.gatewaySecurityPolicies.delete`                               | `SUPPORTED`                |
 | `networksecurity.gatewaySecurityPolicies.get`                                  | `SUPPORTED`                |
@@ -10761,6 +10775,11 @@ Enter the desired permission name or support level in the text box below:
 | `networkservices.gateways.listTagBindings`                                     | `SUPPORTED`                |
 | `networkservices.gateways.update`                                              | `SUPPORTED`                |
 | `networkservices.gateways.use`                                                 | `SUPPORTED`                |
+| `networkservices.googleTagGatewayPolicies.create`                              | `SUPPORTED`                |
+| `networkservices.googleTagGatewayPolicies.delete`                              | `SUPPORTED`                |
+| `networkservices.googleTagGatewayPolicies.get`                                 | `SUPPORTED`                |
+| `networkservices.googleTagGatewayPolicies.list`                                | `SUPPORTED`                |
+| `networkservices.googleTagGatewayPolicies.update`                              | `SUPPORTED`                |
 | `networkservices.grpcRoutes.create`                                            | `SUPPORTED`                |
 | `networkservices.grpcRoutes.delete`                                            | `SUPPORTED`                |
 | `networkservices.grpcRoutes.get`                                               | `SUPPORTED`                |

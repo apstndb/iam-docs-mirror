@@ -151,6 +151,117 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <p><code dir="ltr" translate="no">secretmanager.  secrets.  getIamPolicy</code></p></td>
 </tr>
 <tr class="even">
+<td><h4 id="connectors.editor" class="role-title add-link" data-text="Connectors Editor" tabindex="-1">Connectors Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
+<p>Editor role for connectors</p></td>
+<td><p><code dir="ltr" translate="no">connectors.actions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.actions.execute</code></li>
+<li><code dir="ltr" translate="no">connectors.actions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.connections.create</code></p>
+<p><code dir="ltr" translate="no">connectors.connections.delete</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  executeSqlQuery</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  generateOpenAPISpec</code></p>
+<p><code dir="ltr" translate="no">connectors.connections.get</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  getConnectionSchemaMetadata</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  getRuntimeActionSchema</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  getRuntimeEntitySchema</code></p>
+<p><code dir="ltr" translate="no">connectors.connections.list</code></p>
+<p><code dir="ltr" translate="no">connectors.  connections.  listenEvent</code></p>
+<p><code dir="ltr" translate="no">connectors.connections.update</code></p>
+<p><code dir="ltr" translate="no">connectors.connectors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.connectors.get</code></li>
+<li><code dir="ltr" translate="no">connectors.connectors.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.  customConnectorVersions.  create</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectorVersions.  delete</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectorVersions.  get</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectorVersions.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectorVersions.  list</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectorVersions.  update</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectors.  create</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectors.  delete</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectors.  get</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectors.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectors.  list</code></p>
+<p><code dir="ltr" translate="no">connectors.  customConnectors.  update</code></p>
+<p><code dir="ltr" translate="no">connectors.  endpointAttachments.  create</code></p>
+<p><code dir="ltr" translate="no">connectors.  endpointAttachments.  delete</code></p>
+<p><code dir="ltr" translate="no">connectors.  endpointAttachments.  get</code></p>
+<p><code dir="ltr" translate="no">connectors.  endpointAttachments.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">connectors.  endpointAttachments.  list</code></p>
+<p><code dir="ltr" translate="no">connectors.  endpointAttachments.  update</code></p>
+<p><code dir="ltr" translate="no">connectors.entities.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.entities.create</code></li>
+<li><code dir="ltr" translate="no">connectors.entities.delete</code></li>
+<li><code dir="ltr" translate="no">connectors.  entities.  deleteEntitiesWithConditions</code></li>
+<li><code dir="ltr" translate="no">connectors.entities.get</code></li>
+<li><code dir="ltr" translate="no">connectors.entities.list</code></li>
+<li><code dir="ltr" translate="no">connectors.entities.update</code></li>
+<li><code dir="ltr" translate="no">connectors.  entities.  updateEntitiesWithConditions</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.entityTypes.list</code></p>
+<p><code dir="ltr" translate="no">connectors.  eventSubscriptions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.  eventSubscriptions.  create</code></li>
+<li><code dir="ltr" translate="no">connectors.  eventSubscriptions.  delete</code></li>
+<li><code dir="ltr" translate="no">connectors.  eventSubscriptions.  get</code></li>
+<li><code dir="ltr" translate="no">connectors.  eventSubscriptions.  list</code></li>
+<li><code dir="ltr" translate="no">connectors.  eventSubscriptions.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.eventtypes.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.eventtypes.get</code></li>
+<li><code dir="ltr" translate="no">connectors.eventtypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.locations.get</code></li>
+<li><code dir="ltr" translate="no">connectors.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.managedZones.create</code></p>
+<p><code dir="ltr" translate="no">connectors.managedZones.delete</code></p>
+<p><code dir="ltr" translate="no">connectors.managedZones.get</code></p>
+<p><code dir="ltr" translate="no">connectors.  managedZones.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">connectors.managedZones.list</code></p>
+<p><code dir="ltr" translate="no">connectors.managedZones.update</code></p>
+<p><code dir="ltr" translate="no">connectors.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">connectors.operations.delete</code></li>
+<li><code dir="ltr" translate="no">connectors.operations.get</code></li>
+<li><code dir="ltr" translate="no">connectors.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.providers.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.providers.get</code></li>
+<li><code dir="ltr" translate="no">connectors.providers.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.regionalSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.  regionalSettings.  get</code></li>
+<li><code dir="ltr" translate="no">connectors.  regionalSettings.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.runtimeconfig.get</code></p>
+<p><code dir="ltr" translate="no">connectors.  schemaMetadata.  refresh</code></p>
+<p><code dir="ltr" translate="no">connectors.settings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.settings.get</code></li>
+<li><code dir="ltr" translate="no">connectors.settings.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">connectors.versions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">connectors.versions.get</code></li>
+<li><code dir="ltr" translate="no">connectors.versions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="connectors.viewer" class="role-title add-link" data-text="Connectors Viewer" tabindex="-1">Connectors Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p>Read-only access to Connectors all resources.</p></td>
@@ -208,7 +319,7 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="connectors.customConnectorAdmin" class="role-title add-link" data-text="Custom Connectors Admin" tabindex="-1">Custom Connectors Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p>
 <p>Custom Connector is a global resource which creates custom connector within the given target project. This role grants Admin access to Custom Connector resources</p></td>
@@ -238,7 +349,7 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <li><code dir="ltr" translate="no">connectors.locations.list</code></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="connectors.customConnectorViewer" class="role-title add-link" data-text="Custom Connector Viewer" tabindex="-1">Custom Connector Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.customConnectorViewer</code> )</p>
 <p>Custom Connector is a global resource which creates custom connector within the given target project. This role grants Read-only access to Custom Connector &amp; Custom Connector Version resources.</p></td>
@@ -254,7 +365,7 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <li><code dir="ltr" translate="no">connectors.locations.list</code></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="connectors.endpointAttachmentAdmin" class="role-title add-link" data-text="Connectors Endpoint Attachment Admin" tabindex="-1">Connectors Endpoint Attachment Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.endpointAttachmentAdmin</code> )</p>
 <p>Endpoint Attachment is a regional resource which creates PSC connection endpoint for the given PSC Service Attachment. This role grants Admin access to Connectors Endpoint Attachment resources.</p></td>
@@ -274,7 +385,7 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <li><code dir="ltr" translate="no">connectors.locations.list</code></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="connectors.endpointAttachmentViewer" class="role-title add-link" data-text="Connectors Endpoint Attachment Viewer" tabindex="-1">Connectors Endpoint Attachment Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.endpointAttachmentViewer</code> )</p>
 <p>Endpoint Attachment is a regional resource which creates PSC connection endpoint for the given PSC Service Attachment. This role grants Read-only access to Connectors Endpoint Attachment resources</p></td>
@@ -287,7 +398,7 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <li><code dir="ltr" translate="no">connectors.locations.list</code></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="connectors.eventSubscriptionAdmin" class="role-title add-link" data-text="Connectors Event Subscriptions Admin" tabindex="-1">Connectors Event Subscriptions Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.eventSubscriptionAdmin</code> )</p>
 <p>Event Subscription is a regional resource which creates subscriptions on events for a given connection within the given target project. This role grants Admin access to Connectors Subscription resources</p></td>
@@ -300,14 +411,14 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <li><code dir="ltr" translate="no">connectors.  eventSubscriptions.  update</code></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="connectors.eventSubscriptionViewer" class="role-title add-link" data-text="Connectors Event Subscriptions Viewer" tabindex="-1">Connectors Event Subscriptions Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.eventSubscriptionViewer</code> )</p>
 <p>Event Subscription is a regional resource which creates subscriptions on events for a given connection within the given target project. This role grants Read-only access to Event Subscription resources.</p></td>
 <td><p><code dir="ltr" translate="no">connectors.  eventSubscriptions.  get</code></p>
 <p><code dir="ltr" translate="no">connectors.  eventSubscriptions.  list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="connectors.invoker" class="role-title add-link" data-text="Connector Invoker" tabindex="-1">Connector Invoker</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p>Full Access to invoke all operations on Connections.</p></td>
@@ -329,13 +440,13 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 </ul>
 <p><code dir="ltr" translate="no">connectors.entityTypes.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="connectors.listener" class="role-title add-link" data-text="Connector Event Listener" tabindex="-1">Connector Event Listener</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.listener</code> )</p>
 <p>Full Access to listen events by connections.</p></td>
 <td><p><code dir="ltr" translate="no">connectors.  connections.  listenEvent</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="connectors.managedZoneAdmin" class="role-title add-link" data-text="Connectors Managed Zone Admin" tabindex="-1">Connectors Managed Zone Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.managedZoneAdmin</code> )</p>
 <p>Managed Zone is a global resource which creates Cloud DNS Peering Zone with the given target project. This role grants Admin access to Connectors Managed Zone resources</p></td>
@@ -355,7 +466,7 @@ This page lists the IAM roles and permissions for Connectors. To search through 
 <li><code dir="ltr" translate="no">connectors.managedZones.update</code></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="connectors.managedZoneViewer" class="role-title add-link" data-text="Connectors Managed Zone Viewer" tabindex="-1">Connectors Managed Zone Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  connectors.managedZoneViewer</code> )</p>
 <p>Managed Zone is a global resource which creates Cloud DNS Peering Zone with the given target project. This role grants Read-only access to Connectors Managed Zone resources.</p></td>
@@ -470,6 +581,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -491,6 +603,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
@@ -514,19 +627,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="connectors.connections.create" class="permission-name add-link" data-text="connectors.connections.create" tabindex="-1"><code dir="ltr" translate="no">connectors.connections.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="connectors.connections.delete" class="permission-name add-link" data-text="connectors.connections.delete" tabindex="-1"><code dir="ltr" translate="no">connectors.connections.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="connectors.connections.executeSqlQuery" class="permission-name add-link" data-text="connectors.connections.executeSqlQuery" tabindex="-1"><code dir="ltr" translate="no">connectors.  connections.  executeSqlQuery</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -547,6 +663,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -564,6 +681,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -583,6 +701,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -599,6 +718,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -611,6 +731,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -620,6 +741,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -629,6 +751,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -646,6 +769,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="connectors.connections.listenEvent" class="permission-name add-link" data-text="connectors.connections.listenEvent" tabindex="-1"><code dir="ltr" translate="no">connectors.  connections.  listenEvent</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.listener">Connector Event Listener</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.listener</code> )</p></td>
 </tr>
 <tr class="even">
@@ -658,7 +782,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="connectors.connections.update" class="permission-name add-link" data-text="connectors.connections.update" tabindex="-1"><code dir="ltr" translate="no">connectors.connections.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="connectors.connectors.get" class="permission-name add-link" data-text="connectors.connectors.get" tabindex="-1"><code dir="ltr" translate="no">connectors.connectors.get</code></h4></td>
@@ -666,6 +791,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -682,6 +808,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -700,6 +827,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -707,6 +835,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -715,6 +844,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorViewer">Custom Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorViewer</code> )</p>
@@ -733,6 +863,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -747,6 +878,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -774,6 +906,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -781,6 +914,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -788,6 +922,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -796,6 +931,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorViewer">Custom Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorViewer</code> )</p>
@@ -814,6 +950,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -828,6 +965,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -855,6 +993,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -862,6 +1001,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.endpointAttachmentAdmin">Connectors Endpoint Attachment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.endpointAttachmentAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -869,6 +1009,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.endpointAttachmentAdmin">Connectors Endpoint Attachment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.endpointAttachmentAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -877,6 +1018,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.endpointAttachmentAdmin">Connectors Endpoint Attachment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.endpointAttachmentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.endpointAttachmentViewer">Connectors Endpoint Attachment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.endpointAttachmentViewer</code> )</p>
@@ -895,6 +1037,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -909,6 +1052,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -936,6 +1080,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.endpointAttachmentAdmin">Connectors Endpoint Attachment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.endpointAttachmentAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -943,6 +1088,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -962,6 +1108,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -981,6 +1128,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -1001,6 +1149,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1023,6 +1172,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
@@ -1046,6 +1196,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -1065,6 +1216,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -1085,6 +1237,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.invoker">Connector Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.invoker</code> )</p>
@@ -1109,6 +1262,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.eventSubscriptionAdmin">Connectors Event Subscriptions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.eventSubscriptionAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -1116,6 +1270,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.eventSubscriptionAdmin">Connectors Event Subscriptions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.eventSubscriptionAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -1124,6 +1279,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.eventSubscriptionAdmin">Connectors Event Subscriptions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.eventSubscriptionAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.eventSubscriptionViewer">Connectors Event Subscriptions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.eventSubscriptionViewer</code> )</p>
@@ -1142,6 +1298,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1162,6 +1319,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.eventSubscriptionAdmin">Connectors Event Subscriptions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.eventSubscriptionAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -1170,6 +1328,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1186,6 +1345,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1205,6 +1365,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorAdmin">Custom Connectors Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.customConnectorViewer">Custom Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.customConnectorViewer</code> )</p>
@@ -1227,6 +1388,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1251,6 +1413,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.managedZoneAdmin">Connectors Managed Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.managedZoneAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -1258,6 +1421,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.managedZoneAdmin">Connectors Managed Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.managedZoneAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -1266,6 +1430,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.managedZoneAdmin">Connectors Managed Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.managedZoneAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.managedZoneViewer">Connectors Managed Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.managedZoneViewer</code> )</p>
@@ -1284,6 +1449,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1298,6 +1464,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1325,19 +1492,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.managedZoneAdmin">Connectors Managed Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.managedZoneAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="connectors.operations.cancel" class="permission-name add-link" data-text="connectors.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">connectors.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="connectors.operations.delete" class="permission-name add-link" data-text="connectors.operations.delete" tabindex="-1"><code dir="ltr" translate="no">connectors.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="connectors.operations.get" class="permission-name add-link" data-text="connectors.operations.get" tabindex="-1"><code dir="ltr" translate="no">connectors.operations.get</code></h4></td>
@@ -1345,6 +1515,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1362,6 +1533,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1374,6 +1546,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1390,6 +1563,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1409,6 +1583,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -1416,7 +1591,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="connectors.regionalSettings.update" class="permission-name add-link" data-text="connectors.regionalSettings.update" tabindex="-1"><code dir="ltr" translate="no">connectors.  regionalSettings.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="connectors.runtimeconfig.get" class="permission-name add-link" data-text="connectors.runtimeconfig.get" tabindex="-1"><code dir="ltr" translate="no">connectors.runtimeconfig.get</code></h4></td>
@@ -1424,6 +1600,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1438,7 +1615,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="connectors.schemaMetadata.refresh" class="permission-name add-link" data-text="connectors.schemaMetadata.refresh" tabindex="-1"><code dir="ltr" translate="no">connectors.  schemaMetadata.  refresh</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="connectors.settings.get" class="permission-name add-link" data-text="connectors.settings.get" tabindex="-1"><code dir="ltr" translate="no">connectors.settings.get</code></h4></td>
@@ -1446,6 +1624,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -1453,7 +1632,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="connectors.settings.update" class="permission-name add-link" data-text="connectors.settings.update" tabindex="-1"><code dir="ltr" translate="no">connectors.settings.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="connectors.versions.get" class="permission-name add-link" data-text="connectors.versions.get" tabindex="-1"><code dir="ltr" translate="no">connectors.versions.get</code></h4></td>
@@ -1461,6 +1641,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1478,6 +1659,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.editor">Connectors Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/connectors#connectors.viewer">Connectors Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  connectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>

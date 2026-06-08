@@ -167,7 +167,7 @@ This page lists the IAM roles and permissions for Network Management API. To sea
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="networkmanagement.CloudNetworkInsightsAdmin" class="role-title add-link" data-text="Cloud Network Insights Admin Beta" tabindex="-1">Cloud Network Insights Admin <sup>Beta</sup></h4>
+<td><h4 id="networkmanagement.CloudNetworkInsightsAdmin" class="role-title add-link" data-text="Cloud Network Insights Admin" tabindex="-1">Cloud Network Insights Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  networkmanagement.CloudNetworkInsightsAdmin</code> )</p>
 <p>Full access to Cloud Network Insights resources.</p></td>
 <td><p><code dir="ltr" translate="no">networkmanagement.locations.*</code></p>
@@ -206,7 +206,7 @@ This page lists the IAM roles and permissions for Network Management API. To sea
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="networkmanagement.CloudNetworkInsightsEditor" class="role-title add-link" data-text="Cloud Network Insights Editor Beta" tabindex="-1">Cloud Network Insights Editor <sup>Beta</sup></h4>
+<td><h4 id="networkmanagement.CloudNetworkInsightsEditor" class="role-title add-link" data-text="Cloud Network Insights Editor" tabindex="-1">Cloud Network Insights Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  networkmanagement.CloudNetworkInsightsEditor</code> )</p>
 <p>Editor access to Cloud Network Insights resources.</p></td>
 <td><p><code dir="ltr" translate="no">networkmanagement.locations.*</code></p>
@@ -245,7 +245,7 @@ This page lists the IAM roles and permissions for Network Management API. To sea
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="networkmanagement.CloudNetworkInsightsViewer" class="role-title add-link" data-text="Cloud Network Insights Viewer Beta" tabindex="-1">Cloud Network Insights Viewer <sup>Beta</sup></h4>
+<td><h4 id="networkmanagement.CloudNetworkInsightsViewer" class="role-title add-link" data-text="Cloud Network Insights Viewer" tabindex="-1">Cloud Network Insights Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  networkmanagement.CloudNetworkInsightsViewer</code> )</p>
 <p>Read-only access to Cloud Network Insights resources.</p></td>
 <td><p><code dir="ltr" translate="no">networkmanagement.  monitoringpoints.  get</code></p>

@@ -32,7 +32,7 @@ To learn how to use Policy Analyzer for allow policies, see [Analyzing IAM polic
 
 ### Analyze organization policies
 
-> **Preview — Securing the Policy Troubleshooter API with VPC Service Controls**
+> **Preview — visualizing Policy Analyzer for allow policies query results**
 > 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 

@@ -60,6 +60,12 @@ data_source: docs.cloud.google.com
     
     Create short-lived, limited-privilege credentials for service accounts.
 
+  - [](https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest)
+    
+    ### Workload Identity API REST API
+    
+    Trigger service agent creation.
+
 <!-- end list -->
 
   - [](https://docs.cloud.google.com/iam/docs/reference/rpc)

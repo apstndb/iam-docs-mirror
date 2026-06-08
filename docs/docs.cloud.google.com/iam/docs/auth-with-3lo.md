@@ -24,7 +24,7 @@ If you want your agent to access external tools and services (for example, Jira 
 
 ## Before you begin
 
-1.  \[Verify that you have chosen the correct authentication method\](/iam/docs/agent-identity-overview\#auth-models).
+1.  [Verify that you have chosen the correct authentication method](https://docs.cloud.google.com/iam/docs/agent-identity-overview#auth-models) .
 
 2.  Enable the Agent Identity Connector API.
     

@@ -18,6 +18,8 @@ The following summarizes our recommendations for choosing which type of role to 
 
 Generally, we recommend that you [use predefined roles](https://docs.cloud.google.com/iam/docs/choose-predefined-roles) instead of basic or custom roles. [Predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) give granular access to specific Google Cloud resources, are maintained by Google, and are updated automatically when new permissions, features, or services are added to Google Cloud.
 
+We recommend prioritizing predefined roles that contain all of the permissions that a user is likely to need for a given use case. Most services provide broad Admin, Editor, and Viewer roles that serve this purpose. For example, the Bigtable Admin role provides administrative permissions to create new instances and access to all table data in a project, and the Bigtable Viewer role provides view-only access to the Bigtable in the Google Cloud console.
+
 However, there are some cases where you might want to use custom or basic roles. The following sections describe these cases.
 
 ## When to use custom roles

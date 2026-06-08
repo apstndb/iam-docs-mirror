@@ -23,6 +23,25 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="fleetengine.viewer" class="role-title add-link" data-text="Fleetengine Viewer" tabindex="-1">Fleetengine Viewer</h4>
+<p>( <code dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
+<p>Viewer role for fleetengine</p></td>
+<td><p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  get</code></p>
+<p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  list</code></p>
+<p><code dir="ltr" translate="no">fleetengine.tasks.get</code></p>
+<p><code dir="ltr" translate="no">fleetengine.tasks.list</code></p>
+<p><code dir="ltr" translate="no">fleetengine.  tasks.  searchWithTrackingId</code></p>
+<p><code dir="ltr" translate="no">fleetengine.  tasktrackinginfo.  get</code></p>
+<p><code dir="ltr" translate="no">fleetengine.trips.get</code></p>
+<p><code dir="ltr" translate="no">fleetengine.trips.search</code></p>
+<p><code dir="ltr" translate="no">fleetengine.vehicles.get</code></p>
+<p><code dir="ltr" translate="no">fleetengine.vehicles.list</code></p>
+<p><code dir="ltr" translate="no">fleetengine.vehicles.search</code></p>
+<p><code dir="ltr" translate="no">fleetengine.  vehicles.  searchFuzzed</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="fleetengine.consumerSdkUser" class="role-title add-link" data-text="Fleet Engine Consumer SDK User" tabindex="-1">Fleet Engine Consumer SDK User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.consumerSdkUser</code> )</p>
 <p>Limited read access to Fleet Engine resources</p></td>
@@ -31,7 +50,7 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">fleetengine.vehicles.search</code></p>
 <p><code dir="ltr" translate="no">fleetengine.  vehicles.  searchFuzzed</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="fleetengine.deliveryAdmin" class="role-title add-link" data-text="Fleet Engine Delivery Admin" tabindex="-1">Fleet Engine Delivery Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
 <p>Full access to Fleet Engine Delivery resources.</p></td>
@@ -65,14 +84,14 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="fleetengine.deliveryConsumer" class="role-title add-link" data-text="Fleet Engine Delivery Consumer User" tabindex="-1">Fleet Engine Delivery Consumer User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.deliveryConsumer</code> )</p>
 <p>Limited read access to Fleet Engine Delivery resources</p></td>
 <td><p><code dir="ltr" translate="no">fleetengine.  tasks.  searchWithTrackingId</code></p>
 <p><code dir="ltr" translate="no">fleetengine.  tasktrackinginfo.  get</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="fleetengine.deliveryFleetReader" class="role-title add-link" data-text="Fleet Engine Delivery Fleet Reader User" tabindex="-1">Fleet Engine Delivery Fleet Reader User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.deliveryFleetReader</code> )</p>
 <p>Grants read access to all Fleet Engine Delivery resources</p></td>
@@ -83,7 +102,7 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">fleetengine.  tasks.  searchWithTrackingId</code></p>
 <p><code dir="ltr" translate="no">fleetengine.  tasktrackinginfo.  get</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="fleetengine.deliverySuperUser" class="role-title add-link" data-text="Fleet Engine Delivery Super User" tabindex="-1">Fleet Engine Delivery Super User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.deliverySuperUser</code> )</p>
 <p>Full access to Fleet Engine DeliveryVehicles and Tasks resources.</p></td>
@@ -104,7 +123,7 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="fleetengine.deliveryTrustedDriver" class="role-title add-link" data-text="Fleet Engine Delivery Trusted Driver User" tabindex="-1">Fleet Engine Delivery Trusted Driver User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.deliveryTrustedDriver</code> )</p>
 <p>Read and write access to Fleet Engine Delivery resources</p></td>
@@ -116,14 +135,14 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">fleetengine.tasks.create</code></p>
 <p><code dir="ltr" translate="no">fleetengine.tasks.update</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="fleetengine.deliveryUntrustedDriver" class="role-title add-link" data-text="Fleet Engine Delivery Untrusted Driver User" tabindex="-1">Fleet Engine Delivery Untrusted Driver User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.deliveryUntrustedDriver</code> )</p>
 <p>Limited write access to Fleet Engine Delivery Vehicle resources</p></td>
 <td><p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  get</code></p>
 <p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  updateLocation</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="fleetengine.driverSdkUser" class="role-title add-link" data-text="Fleet Engine Driver SDK User" tabindex="-1">Fleet Engine Driver SDK User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.driverSdkUser</code> )</p>
 <p>Read and limited update access to Fleet Engine resources</p></td>
@@ -133,7 +152,7 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">fleetengine.vehicles.get</code></p>
 <p><code dir="ltr" translate="no">fleetengine.  vehicles.  updateLocation</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="fleetengine.ondemandAdmin" class="role-title add-link" data-text="Fleet Engine On-Demand Admin" tabindex="-1">Fleet Engine On-Demand Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
 <p>Full access to Vehicle and Trip resources.</p></td>
@@ -163,7 +182,7 @@ This page lists the IAM roles and permissions for FleetEngine. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="fleetengine.serviceSuperUser" class="role-title add-link" data-text="Fleet Engine Service Super User" tabindex="-1">Fleet Engine Service Super User</h4>
 <p>( <code dir="ltr" translate="no">roles/  fleetengine.serviceSuperUser</code> )</p>
 <p>Full access to all Fleet Engine resources.</p></td>
@@ -270,6 +289,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryAdmin">Fleet Engine Delivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryFleetReader">Fleet Engine Delivery Fleet Reader User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryFleetReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliverySuperUser">Fleet Engine Delivery Super User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliverySuperUser</code> )</p>
@@ -282,6 +302,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryAdmin">Fleet Engine Delivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
@@ -341,6 +362,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryAdmin">Fleet Engine Delivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryFleetReader">Fleet Engine Delivery Fleet Reader User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryFleetReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliverySuperUser">Fleet Engine Delivery Super User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliverySuperUser</code> )</p>
@@ -351,6 +373,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryAdmin">Fleet Engine Delivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
@@ -364,6 +387,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryAdmin">Fleet Engine Delivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryConsumer">Fleet Engine Delivery Consumer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryConsumer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryFleetReader">Fleet Engine Delivery Fleet Reader User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryFleetReader</code> )</p>
@@ -389,6 +413,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryAdmin">Fleet Engine Delivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryConsumer">Fleet Engine Delivery Consumer User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryConsumer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.deliveryFleetReader">Fleet Engine Delivery Fleet Reader User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.deliveryFleetReader</code> )</p>
@@ -420,6 +445,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.consumerSdkUser">Fleet Engine Consumer SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.consumerSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.driverSdkUser">Fleet Engine Driver SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.driverSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.ondemandAdmin">Fleet Engine On-Demand Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
@@ -431,6 +457,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.driverSdkUser">Fleet Engine Driver SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.driverSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.ondemandAdmin">Fleet Engine On-Demand Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.serviceSuperUser">Fleet Engine Service Super User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.serviceSuperUser</code> )</p>
@@ -476,6 +503,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.consumerSdkUser">Fleet Engine Consumer SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.consumerSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.driverSdkUser">Fleet Engine Driver SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.driverSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.ondemandAdmin">Fleet Engine On-Demand Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
@@ -487,6 +515,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.ondemandAdmin">Fleet Engine On-Demand Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
@@ -499,6 +528,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.consumerSdkUser">Fleet Engine Consumer SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.consumerSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.ondemandAdmin">Fleet Engine On-Demand Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.serviceSuperUser">Fleet Engine Service Super User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.serviceSuperUser</code> )</p>
@@ -509,6 +539,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.consumerSdkUser">Fleet Engine Consumer SDK User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.consumerSdkUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.ondemandAdmin">Fleet Engine On-Demand Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.ondemandAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.serviceSuperUser">Fleet Engine Service Super User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.serviceSuperUser</code> )</p>

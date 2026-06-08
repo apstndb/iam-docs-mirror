@@ -553,6 +553,14 @@ n/a
 
 [Read more](https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/projects.locations.addressGroups)
 
+`networksecurity.googleapis.com/FirewallEndpoint`
+
+[Read more](https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/organizations.locations.firewallEndpoints)
+
+`networksecurity.googleapis.com/FirewallEndpointAssociation`
+
+[Read more](https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/projects.locations.firewallEndpointAssociations)
+
 `networksecurity.googleapis.com/InterceptDeployment`
 
 [Read more](https://docs.cloud.google.com/network-security-integration/docs/reference/rest/v1/projects.locations.interceptDeployments)
@@ -917,6 +925,15 @@ The following table lists the format of each type of resource name attribute.
 <td>Cloud NGFW <a href="https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/projects.locations.addressGroups">address groups</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /addressGroups/         address-group-name       </code><br />
 <code dir="ltr" translate="no">organizations/         organization-id        /locations/         location        /addressGroups/         address-group-name       </code></td>
+</tr>
+<tr class="odd">
+<td>Cloud NGFW <a href="https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/organizations.locations.firewallEndpoints">firewall endpoints</a></td>
+<td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /firewallEndpoints/         firewall-endpoint-id       </code><br />
+<code dir="ltr" translate="no">organizations/         organization-id        /locations/         location        /firewallEndpoints/         firewall-endpoint-id       </code></td>
+</tr>
+<tr class="even">
+<td>Cloud NGFW <a href="https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/projects.locations.firewallEndpointAssociations">firewall endpoint associations</a></td>
+<td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /firewallEndpointAssociations/         firewall-endpoint-association-id       </code></td>
 </tr>
 <tr class="odd">
 <td>Cloud NGFW <a href="https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1/projects.locations.securityProfileGroups">security profile groups</a> <sup>1</sup></td>

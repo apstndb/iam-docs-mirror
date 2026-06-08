@@ -85,9 +85,11 @@ Start by eliminating the following types of roles:
     
     These roles are intended for [service agents](https://docs.cloud.google.com/iam/docs/service-agents) , which are a special type of service account that a Google Cloud service uses to access your resources. Service agent roles tend to contain permissions for multiple services, which might include services that your principal doesn't need to access.
 
-Next, use the [predefined roles reference](https://docs.cloud.google.com/iam/docs/roles-permissions) or the [**Roles** page in the Google Cloud console](https://console.cloud.google.com/iam-admin/roles) to list the permissions that each role contains. Check each role for permissions that you don't want the principal to have, and eliminate any roles that contain unwanted permissions.
+Next, use the [predefined roles reference](https://docs.cloud.google.com/iam/docs/roles-permissions) or the [**Roles** page in the Google Cloud console](https://console.cloud.google.com/iam-admin/roles) to list the permissions that each role contains. We recommend choosing predefined roles that contain all of the permissions that a user is likely to need for a given use case. Each service provides broad Admin, Editor, and Viewer roles that serve this purpose. For example, the Bigtable Admin role provides administrative permissions to create new instances and access to all table data in a project, and the Bigtable Viewer role provides view-only access to the Bigtable in the Google Cloud console.
 
-If this process eliminates all of the predefined roles, consider creating a [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) to fit your use case. Otherwise, choose the role or roles that contain the fewest number of permissions, while still meeting your needs.
+Optionally, check each role for permissions that you don't want the principal to have, and eliminate any roles that contain unwanted permissions. If this process eliminates all of the predefined roles, consider creating a [custom role](https://docs.cloud.google.com/iam/docs/understanding-custom-roles) to fit your use case.
+
+Choosing roles based on the permissions that a user is likely to need balances the principle of least privilege with the need to anticipate users' future access requirements. However, if you want to strictly adhere to least privilege, select the role or roles that contain the fewest permissions.
 
 ## Decide where to grant the roles
 

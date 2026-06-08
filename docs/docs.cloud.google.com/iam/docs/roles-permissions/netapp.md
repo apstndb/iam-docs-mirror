@@ -100,8 +100,11 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <li><code dir="ltr" translate="no">netapp.storagePools.delete</code></li>
 <li><code dir="ltr" translate="no">netapp.storagePools.get</code></li>
 <li><code dir="ltr" translate="no">netapp.storagePools.list</code></li>
+<li><code dir="ltr" translate="no">netapp.  storagePools.  listBackupConfigs</code></li>
+<li><code dir="ltr" translate="no">netapp.  storagePools.  restoreVolume</code></li>
 <li><code dir="ltr" translate="no">netapp.storagePools.switch</code></li>
 <li><code dir="ltr" translate="no">netapp.storagePools.update</code></li>
+<li><code dir="ltr" translate="no">netapp.  storagePools.  updateBackupConfig</code></li>
 <li><code dir="ltr" translate="no">netapp.  storagePools.  validateDirectoryService</code></li>
 <li><code dir="ltr" translate="no">netapp.volumes.create</code></li>
 <li><code dir="ltr" translate="no">netapp.volumes.delete</code></li>
@@ -147,6 +150,7 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <p><code dir="ltr" translate="no">netapp.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">netapp.storagePools.get</code></p>
 <p><code dir="ltr" translate="no">netapp.storagePools.list</code></p>
+<p><code dir="ltr" translate="no">netapp.  storagePools.  listBackupConfigs</code></p>
 <p><code dir="ltr" translate="no">netapp.volumes.get</code></p>
 <p><code dir="ltr" translate="no">netapp.volumes.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -683,6 +687,21 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="netapp.storagePools.listBackupConfigs" class="permission-name add-link" data-text="netapp.storagePools.listBackupConfigs" tabindex="-1"><code dir="ltr" translate="no">netapp.  storagePools.  listBackupConfigs</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.viewer">Google Cloud NetApp Volumes Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="netapp.storagePools.restoreVolume" class="permission-name add-link" data-text="netapp.storagePools.restoreVolume" tabindex="-1"><code dir="ltr" translate="no">netapp.  storagePools.  restoreVolume</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="netapp.storagePools.switch" class="permission-name add-link" data-text="netapp.storagePools.switch" tabindex="-1"><code dir="ltr" translate="no">netapp.storagePools.switch</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -695,31 +714,37 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="netapp.storagePools.updateBackupConfig" class="permission-name add-link" data-text="netapp.storagePools.updateBackupConfig" tabindex="-1"><code dir="ltr" translate="no">netapp.  storagePools.  updateBackupConfig</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="netapp.storagePools.validateDirectoryService" class="permission-name add-link" data-text="netapp.storagePools.validateDirectoryService" tabindex="-1"><code dir="ltr" translate="no">netapp.  storagePools.  validateDirectoryService</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="netapp.volumes.create" class="permission-name add-link" data-text="netapp.volumes.create" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="netapp.volumes.delete" class="permission-name add-link" data-text="netapp.volumes.delete" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="netapp.volumes.export" class="permission-name add-link" data-text="netapp.volumes.export" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.export</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.dataExporter">Google Cloud NetApp Volumes Data Exporter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.dataExporter</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="netapp.volumes.findValidCRRRegions" class="permission-name add-link" data-text="netapp.volumes.findValidCRRRegions" tabindex="-1"><code dir="ltr" translate="no">netapp.  volumes.  findValidCRRRegions</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -727,7 +752,7 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="netapp.volumes.get" class="permission-name add-link" data-text="netapp.volumes.get" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -744,7 +769,7 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.serviceAgent">VMware Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vmwareengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="netapp.volumes.list" class="permission-name add-link" data-text="netapp.volumes.list" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -763,19 +788,19 @@ This page lists the IAM roles and permissions for Google Cloud NetApp Volumes. T
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vmwareengine#vmwareengine.serviceAgent">VMware Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vmwareengine.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="netapp.volumes.restore" class="permission-name add-link" data-text="netapp.volumes.restore" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.restore</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="netapp.volumes.revert" class="permission-name add-link" data-text="netapp.volumes.revert" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.revert</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/netapp#netapp.admin">Google Cloud NetApp Volumes Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  netapp.admin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="netapp.volumes.update" class="permission-name add-link" data-text="netapp.volumes.update" tabindex="-1"><code dir="ltr" translate="no">netapp.volumes.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
