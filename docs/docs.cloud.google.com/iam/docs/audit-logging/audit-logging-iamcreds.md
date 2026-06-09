@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document describes audit logging for Service Account Credentials. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+This document lists the audited methods for Service Account Credentials. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
 
   - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
   - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -16,12 +16,16 @@ This document describes audit logging for Service Account Credentials. Google Cl
 
 ## Service name
 
-Service Account Credentials audit logs use the service name `iamcredentials.googleapis.com` . Filter for this service:
+To view the Service Account Credentials audit logs, do the following:
 
-``` 
-    protoPayload.serviceName="iamcredentials.googleapis.com"
-  
-```
+1.  In the Google Cloud console, go to the Logs Explorer page:
+
+2.  Copy and paste the following query into the **Query** field of the Logs Explorer, and then click **Run query** .
+    
+    ``` 
+        protoPayload.serviceName="iamcredentials.googleapis.com"
+      
+    ```
 
 ## Methods by permission type
 
@@ -43,6 +47,10 @@ API methods in the following list that are marked with (LRO) are long-running op
 <tbody>
 <tr class="odd">
 <td><code dir="ltr" translate="no">ADMIN_READ</code></td>
+<td><code dir="ltr" translate="no">SignJwt</code> (LRO)</td>
+</tr>
+<tr class="even">
+<td><code dir="ltr" translate="no">DATA_READ</code></td>
 <td><code dir="ltr" translate="no">GenerateAccessToken</code> (LRO)<br />
 <code dir="ltr" translate="no">GenerateIdToken</code> (LRO)<br />
 <code dir="ltr" translate="no">SignBlob</code> (LRO)<br />
@@ -64,7 +72,7 @@ The following audit logs are associated with methods belonging to `google.iam.cr
   - **Method** : `GenerateAccessToken`  
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
-      - `iam.serviceAccounts.getAccessToken - ADMIN_READ`
+      - `iam.serviceAccounts.getAccessToken - DATA_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="GenerateAccessToken"`  
 
@@ -73,6 +81,7 @@ The following audit logs are associated with methods belonging to `google.iam.cr
   - **Method** : `GenerateIdToken`  
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
+      - `iam.serviceAccounts.getAccessToken - DATA_READ`
       - `iam.serviceAccounts.getOpenIdToken - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="GenerateIdToken"`  
@@ -82,6 +91,7 @@ The following audit logs are associated with methods belonging to `google.iam.cr
   - **Method** : `SignBlob`  
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
+      - `iam.serviceAccounts.getAccessToken - DATA_READ`
       - `iam.serviceAccounts.signBlob - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="SignBlob"`  
@@ -91,7 +101,7 @@ The following audit logs are associated with methods belonging to `google.iam.cr
   - **Method** : `SignJwt`  
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
-      - `iam.serviceAccounts.implicitDelegation - ADMIN_READ`
+      - `iam.serviceAccounts.getAccessToken - DATA_READ`
       - `iam.serviceAccounts.signJwt - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="SignJwt"`

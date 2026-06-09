@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document describes audit logging for Privileged Access Manager. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+This document lists the audited methods for Privileged Access Manager. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
 
   - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
   - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -16,12 +16,16 @@ This document describes audit logging for Privileged Access Manager. Google Clou
 
 ## Service name
 
-Privileged Access Manager audit logs use the service name `privilegedaccessmanager.googleapis.com` . Filter for this service:
+To view the Privileged Access Manager audit logs, do the following:
 
-``` 
-    protoPayload.serviceName="privilegedaccessmanager.googleapis.com"
-  
-```
+1.  In the Google Cloud console, go to the Logs Explorer page:
+
+2.  Copy and paste the following query into the **Query** field of the Logs Explorer, and then click **Run query** .
+    
+    ``` 
+        protoPayload.serviceName="privilegedaccessmanager.googleapis.com"
+      
+    ```
 
 ## Methods by permission type
 
@@ -49,13 +53,17 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.ListEntitlements</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1.PrivilegedAccessManager.ListGrants</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.CheckOnboardingStatus</code><br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.FetchEffectiveSettings</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetEntitlement</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetGrant</code><br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetSettings</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.ListEntitlements</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.ListGrants</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.CheckOnboardingStatus</code><br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.FetchEffectiveSettings</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetEntitlement</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetGrant</code><br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetSettings</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.ListEntitlements</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.ListGrants</code></td>
 </tr>
@@ -75,13 +83,17 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.DenyGrant</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.RevokeGrant</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateEntitlement</code> (LRO)<br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateSettings</code> (LRO)<br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.WithdrawGrant</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.ApproveGrant</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.CreateEntitlement</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.CreateGrant</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.DeleteEntitlement</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.DenyGrant</code><br />
 <code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.RevokeGrant</code> (LRO)<br />
-<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateEntitlement</code> (LRO)</td>
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateEntitlement</code> (LRO)<br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateSettings</code> (LRO)<br />
+<code dir="ltr" translate="no">google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.WithdrawGrant</code> (LRO)</td>
 </tr>
 </tbody>
 </table>
@@ -260,6 +272,15 @@ The following audit logs are associated with methods belonging to `google.cloud.
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.DenyGrant"`  
 
+#### `FetchEffectiveSettings`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.FetchEffectiveSettings  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `privilegedaccessmanager.settings.fetchEffective - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.FetchEffectiveSettings"`  
+
 #### `GetEntitlement`
 
   - **Method** : `  google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetEntitlement  `  
@@ -277,6 +298,15 @@ The following audit logs are associated with methods belonging to `google.cloud.
       - `privilegedaccessmanager.grants.get - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetGrant"`  
+
+#### `GetSettings`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetSettings  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `privilegedaccessmanager.settings.get - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.GetSettings"`  
 
 #### `ListEntitlements`
 
@@ -313,6 +343,24 @@ The following audit logs are associated with methods belonging to `google.cloud.
       - `privilegedaccessmanager.entitlements.update - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateEntitlement"`  
+
+#### `UpdateSettings`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateSettings  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `privilegedaccessmanager.settings.update - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.UpdateSettings"`  
+
+#### `WithdrawGrant`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.WithdrawGrant  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `privilegedaccessmanager.grants.withdraw - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1alpha.PrivilegedAccessManager.WithdrawGrant"`  
 
 ### `google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager`
 
@@ -372,6 +420,15 @@ The following audit logs are associated with methods belonging to `google.cloud.
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.DenyGrant"`  
 
+#### `FetchEffectiveSettings`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.FetchEffectiveSettings  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `privilegedaccessmanager.settings.fetchEffective - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.FetchEffectiveSettings"`  
+
 #### `GetEntitlement`
 
   - **Method** : `  google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetEntitlement  `  
@@ -389,6 +446,15 @@ The following audit logs are associated with methods belonging to `google.cloud.
       - `privilegedaccessmanager.grants.get - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetGrant"`  
+
+#### `GetSettings`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetSettings  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `privilegedaccessmanager.settings.get - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.GetSettings"`  
 
 #### `ListEntitlements`
 
@@ -425,6 +491,24 @@ The following audit logs are associated with methods belonging to `google.cloud.
       - `privilegedaccessmanager.entitlements.update - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateEntitlement"`  
+
+#### `UpdateSettings`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateSettings  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `privilegedaccessmanager.settings.update - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.UpdateSettings"`  
+
+#### `WithdrawGrant`
+
+  - **Method** : `  google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.WithdrawGrant  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `privilegedaccessmanager.grants.withdraw - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.privilegedaccessmanager.v1beta.PrivilegedAccessManager.WithdrawGrant"`  
 
 ## System events
 

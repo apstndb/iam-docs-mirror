@@ -151,9 +151,9 @@ The Azure DevOps ID token includes a `sub` claim that contains the subject ident
 
 The length of this subject identifier exceeds 127 characters, which is the maximum permitted length for `google.subject` . To work around this limitation, use the following attribute mapping:
 
-    google.subject=assertion.sub.extract('/sc/{service_connection}')
+    google.subject=assertion.sub.split('/sc/')[1]
 
-This mapping uses the part of the `sub` claim following `/sc/` as subject, which uniquely identifies the service connection within the Entra tenant.
+This mapping uses the part of the `sub` claim following `/sc/` as the subject, which uniquely identifies the service connection. When you grant roles to the external identity, use the part of the **Subject identifier** that follows `/sc/` (as shown in your service connection details) as the subject.
 
 ### GitHub Actions
 
@@ -221,7 +221,11 @@ This mapping lets you control access to Google Cloud resources by workspace.
 
 ### Azure DevOps
 
-You don't need to configure an attribute condition because Azure DevOps uses a tenant-specific issuer URL.
+To restrict access to your Azure DevOps application (service principal), use the following attribute condition:
+
+    assertion.oid=='APPLICATION_OBJECT_ID'
+
+Replace `  APPLICATION_OBJECT_ID  ` with the Entra object ID of the Azure DevOps application.
 
 ### GitHub Actions
 
@@ -345,7 +349,7 @@ You've now collected all the information you need to create a workload identity 
             --location="global" \
             --workload-identity-pool="POOL_ID" \
             --issuer-uri="ISSUER" \
-            --allowed-audiences="api://AzureADTokenExchange" \
+            --allowed-audiences="AUDIENCE" \
             --attribute-mapping="MAPPINGS" \
             --attribute-condition="CONDITIONS"
     
@@ -354,6 +358,7 @@ You've now collected all the information you need to create a workload identity 
       - `  PROVIDER_ID  ` : the name of the Azure DevOps project, or a custom ID for the provider.
       - `  POOL_ID  ` : the ID of the pool
       - `  ISSUER  ` : the service connection issuer that [you've looked up previously](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#prepare) .
+      - `  AUDIENCE  ` : the allowed audience. For new connections, enter the fixed application ID: `fb60f99c-7a34-4190-8149-302f77469936` .
       - `  MAPPINGS  ` : a comma-separated list of [attribute mappings that you've identified previously](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#mappings-and-conditions)
       - `  CONDITIONS  ` : the [attribute condition that you identified previously](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines#mappings-and-conditions)
     

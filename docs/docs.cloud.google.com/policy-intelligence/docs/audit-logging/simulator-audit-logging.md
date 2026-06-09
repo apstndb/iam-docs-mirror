@@ -6,7 +6,7 @@ description: A suite of tools to help you understand and manage your policies to
 data_source: docs.cloud.google.com
 ---
 
-This document describes audit logging for Policy Simulator. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+This document lists the audited methods for Policy Simulator. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
 
   - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
   - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -16,12 +16,16 @@ This document describes audit logging for Policy Simulator. Google Cloud service
 
 ## Service name
 
-Policy Simulator audit logs use the service name `policysimulator.googleapis.com` . Filter for this service:
+To view the Policy Simulator audit logs, do the following:
 
-``` 
-    protoPayload.serviceName="policysimulator.googleapis.com"
-  
-```
+1.  In the Google Cloud console, go to the Logs Explorer page:
+
+2.  Copy and paste the following query into the **Query** field of the Logs Explorer, and then click **Run query** .
+    
+    ``` 
+        protoPayload.serviceName="policysimulator.googleapis.com"
+      
+    ```
 
 ## Methods by permission type
 
@@ -43,13 +47,13 @@ API methods in the following list that are marked with (LRO) are long-running op
 <tbody>
 <tr class="odd">
 <td><code dir="ltr" translate="no">ADMIN_READ</code></td>
-<td><code dir="ltr" translate="no">google.cloud.policysimulator.v1.OrgPolicyViolationsPreviewService.GetOrgPolicyViolationsPreview</code><br />
+<td><code dir="ltr" translate="no">google.cloud.policysimulator.v1.AccessPolicySimulator.ListAccessPolicySimulationResults</code><br />
+<code dir="ltr" translate="no">google.cloud.policysimulator.v1.OrgPolicyViolationsPreviewService.GetOrgPolicyViolationsPreview</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.OrgPolicyViolationsPreviewService.ListOrgPolicyViolationsPreviews</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.Simulator.GetReplay</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.Simulator.ListReplayResults</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.AccessPolicySimulator.ListAccessPolicySimulationResults</code><br />
-<code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.Simulator.GetReplay</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.Simulator.ListReplayResults</code></td>
 </tr>
@@ -65,6 +69,19 @@ API methods in the following list that are marked with (LRO) are long-running op
 </table>
 
 ## Audit logs for each API interface
+
+### `google.cloud.policysimulator.v1.AccessPolicySimulator`
+
+The following audit logs are associated with methods belonging to `google.cloud.policysimulator.v1.AccessPolicySimulator` .
+
+#### `ListAccessPolicySimulationResults`
+
+  - **Method** : `google.cloud.policysimulator.v1.AccessPolicySimulator.ListAccessPolicySimulationResults`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `policysimulator.accessPolicySimulationResults.list - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1.AccessPolicySimulator.ListAccessPolicySimulationResults"`  
 
 ### `google.cloud.policysimulator.v1.OrgPolicyViolationsPreviewService`
 
@@ -171,15 +188,6 @@ The following audit logs are associated with methods belonging to `google.cloud.
       - `policysimulator.orgPolicyViolationsPreviews.create - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GenerateOrgPolicyViolationsPreview"`  
-
-#### `ListOrgPolicyViolations`
-
-  - **Method** : `google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations`  
-  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
-  - **Permissions** :
-      - `policysimulator.orgPolicyViolations.list - ADMIN_READ`
-  - **Method is a long-running or streaming operation** : No.  
-  - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations"`  
 
 ### `google.cloud.policysimulator.v1beta.Simulator`
 
