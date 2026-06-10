@@ -104,10 +104,10 @@ To use the gcloud CLI to grant IAM roles on a resource in a project, do the foll
       - `  BUCKET_ID  ` : the bucket on which to grant access
       - `  PROJECT_NUMBER  ` : the [project number](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects) . of the project that contains the workload identity pool
       - `  POOL_ID  ` : the pool ID of the workload identity pool
-      - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access#mappings-and-conditions) to `google.subject`
-      - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access#mappings-and-conditions) to `google.groups`
-      - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access#mappings-and-conditions)
-      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+      - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping) to `google.subject`
+      - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping) to `google.groups`
+      - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping)
+      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping)
     
     You can grant roles on any Google Cloud resource that supports IAM allow policies.
     
@@ -242,10 +242,10 @@ Replace the following:
   - `  SERVICE_ACCOUNT_EMAIL  ` : the email address of the service account
   - `  PROJECT_NUMBER  ` : the [project number](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects) . of the project that contains the workload identity pool
   - `  POOL_ID  ` : the pool ID of the workload identity pool
-  - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access#mappings-and-conditions) to `google.subject`
-  - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access#mappings-and-conditions) to `google.groups`
-  - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access#mappings-and-conditions)
-  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+  - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping) to `google.subject`
+  - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping) to `google.groups`
+  - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping)
+  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation#mapping)
 
 > **Note:** You must use the project number, not the project ID, in the member identifier.
 

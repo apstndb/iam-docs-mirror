@@ -10,6 +10,18 @@ This page documents production updates to Policy Intelligence. Check this page f
 
 You can see the latest product updates for all of Google Cloud on the [Google Cloud](https://docs.cloud.google.com/release-notes) page, browse and filter all release notes in the [Google Cloud console](https://console.cloud.google.com/release-notes) , or programmatically access release notes in [BigQuery](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=google_cloud_release_notes&t=release_notes&page=table) .
 
+## June 03, 2026
+
+Feature
+
+You can use Policy Analyzer to visualize allow policy queries. This can help you understand the relationship between identities, roles, permissions, and resources within your resource hierarchy.
+
+Policy Analyzer supports queries about agent identities. You can see who can access an agent or what resources and agents a specific agent can reach.
+
+These features are available in in [Preview](https://cloud.google.com/products#product-launch-stages) .
+
+For more information, see [Analyze allow policies](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies) .
+
 ## May 08, 2026
 
 Feature

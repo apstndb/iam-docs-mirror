@@ -61,7 +61,15 @@ You only need to perform these steps once for each Microsoft Entra ID tenant or 
 
 ### AWS
 
-You don't need to make any configuration changes in your AWS account.
+Google Cloud supports two mechanisms for federating with AWS workloads:
+
+  - **AWS outbound identity federation** : AWS acts as an OpenID Connect (OIDC) identity provider and issues short-lived JSON Web Tokens (JWTs) to your workloads.
+    
+      - If you're using AWS outbound identity federation, to set up Workload Identity Federation, first follow the instructions in the [AWS Identity and Access Management User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound_getting_started.html) to configure permissions and obtain your account's OIDC issuer URL. Then, follow the instructions in [Configure Workload Identity Federation with other providers (OIDC)](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers) to set up your pool, provider, and credential configuration.
+
+  - **AWS IAM Credentials** : Your workloads use AWS temporary security credentials (IAM roles or instance profiles), and Google Cloud verifies them using the AWS `GetCallerIdentity` API. You don't need to make any configuration changes in your AWS account for this option.
+
+The remainder of this page describes how to configure federation using the **AWS IAM Credentials** mechanism.
 
 After you [configure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#configure) a workload identity pool to trust your AWS account, you can let [AWS users](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users) and [AWS roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles) use permanent or temporary AWS security credentials to obtain short-lived Google Cloud credentials.
 
@@ -429,7 +437,7 @@ To use the gcloud CLI to grant IAM roles on a resource in a project, do the foll
       - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) to `google.subject`
       - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) to `google.groups`
       - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions)
-      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions)
     
     You can grant roles on any Google Cloud resource that supports IAM allow policies.
     
@@ -567,7 +575,7 @@ Replace the following:
   - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) to `google.subject`
   - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) to `google.groups`
   - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions)
-  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions)
 
 > **Note:** You must use the project number, not the project ID, in the member identifier.
 

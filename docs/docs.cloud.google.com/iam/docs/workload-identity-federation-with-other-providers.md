@@ -20,7 +20,7 @@ Using Workload Identity Federation can help you [reduce the number of credential
 
 The following sections describe how you can use Workload Identity Federation with IdPs that support either OpenID Connect (OIDC) or SAML authentication protocols.
 
-> **Note:** If your workloads run on AWS or Azure, see [Configure Workload Identity Federation with AWS or Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) instead. If you're using Active Directory Federation Services (AD FS) as IdP, see [Configure Workload Identity Federation with Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) .
+> **Note:** If your workloads run on AWS or Azure, see [Configure Workload Identity Federation with AWS or Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds) instead. If you're using Active Directory Federation Services (AD FS) as IdP, see [Configure Workload Identity Federation with Active Directory](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory) . If you've configured AWS with [outbound identity federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound_getting_started.html) , continue with the following OIDC instructions on this page.
 
 ## Prepare your external IdP
 
@@ -41,6 +41,12 @@ Before you begin, verify that your external IdP meets the following requirements
         Google Cloud uses these endpoint URLs to download your IdP's JSON web keys (JWKs) and uses these keys to validate tokens. Google Cloud doesn't limit the number of keys that it can download.
     
       - You can upload an OIDC JWKS file directly to Google Cloud when you create or update the OIDC workload identity pool provider. To do this, you use the `--jwk-json-path` to provide a path to your JWKS file. You can use this method when the IdP's OIDC metadata endpoint URL isn't publicly accessible. A maximum of 8 keys can be uploaded to Google Cloud. As a best practice, we recommend that you rotate your JWKS keys regularly by [updating the JWKS file](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#manage-oidc-keys) .
+
+  - If you're federating workloads from AWS using [AWS Outbound Identity Federation](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound.html) , AWS acts as your OIDC IdP. To prepare your AWS environment, follow these steps:
+    
+    1.  Enable outbound identity federation in your AWS account settings to generate your unique OIDC issuer URL.
+    
+    2.  Ensure your AWS workloads (such as EC2 instance profiles or ECS task roles) have the required AWS IAM policy granting permission to get JSON Web Tokens (JWTs).
 
 ### SAML
 
@@ -536,7 +542,7 @@ To use the gcloud CLI to grant IAM roles on a resource in a project, do the foll
       - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) to `google.subject`
       - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) to `google.groups`
       - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions)
-      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions)
     
     You can grant roles on any Google Cloud resource that supports IAM allow policies.
     
@@ -674,7 +680,7 @@ Replace the following:
   - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) to `google.subject`
   - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) to `google.groups`
   - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions)
-  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions)
 
 > **Note:** You must use the project number, not the project ID, in the member identifier.
 

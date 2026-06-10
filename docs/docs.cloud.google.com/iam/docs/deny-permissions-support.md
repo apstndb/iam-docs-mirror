@@ -194,6 +194,16 @@ Gemini Enterprise Agent Platform
 
 `aiplatform.googleapis.com/*.*`
 
+`aiplatform.googleapis.com/agentAnomalyDetectionScopes.*`
+
+`aiplatform.googleapis.com/agentAnomalyDetectionScopes.create`
+
+`aiplatform.googleapis.com/agentAnomalyDetectionScopes.delete`
+
+`aiplatform.googleapis.com/agentAnomalyDetectionScopes.get`
+
+`aiplatform.googleapis.com/agentAnomalyDetectionScopes.list`
+
 `aiplatform.googleapis.com/agentExamples.*`
 
 `aiplatform.googleapis.com/agentExamples.create`
@@ -217,6 +227,14 @@ Gemini Enterprise Agent Platform
 `aiplatform.googleapis.com/agents.list`
 
 `aiplatform.googleapis.com/agents.update`
+
+`aiplatform.googleapis.com/analyzedSessions.*`
+
+`aiplatform.googleapis.com/analyzedSessions.aggregate`
+
+`aiplatform.googleapis.com/analyzedSessions.get`
+
+`aiplatform.googleapis.com/analyzedSessions.list`
 
 `aiplatform.googleapis.com/annotationSpecs.*`
 
@@ -881,6 +899,16 @@ Gemini Enterprise Agent Platform
 `aiplatform.googleapis.com/models.update`
 
 `aiplatform.googleapis.com/models.upload`
+
+`aiplatform.googleapis.com/monitoredAgents.*`
+
+`aiplatform.googleapis.com/monitoredAgents.disable`
+
+`aiplatform.googleapis.com/monitoredAgents.enable`
+
+`aiplatform.googleapis.com/monitoredAgents.get`
+
+`aiplatform.googleapis.com/monitoredAgents.list`
 
 `aiplatform.googleapis.com/nasJobs.*`
 
@@ -2189,6 +2217,18 @@ Aliases:
 `bigquery.googleapis.com/objectRefs.read`
 
 `bigquery.googleapis.com/objectRefs.write`
+
+`bigquery.googleapis.com/propertyGraphs.*`
+
+`bigquery.googleapis.com/propertyGraphs.create`
+
+`bigquery.googleapis.com/propertyGraphs.delete`
+
+`bigquery.googleapis.com/propertyGraphs.get`
+
+`bigquery.googleapis.com/propertyGraphs.list`
+
+`bigquery.googleapis.com/propertyGraphs.update`
 
 `bigquery.googleapis.com/reservationAssignments.*`
 
@@ -3947,12 +3987,6 @@ Google Security Operations
 `chronicle.googleapis.com/iocAssociations.fetchRelated`
 
 `chronicle.googleapis.com/iocAssociations.get`
-
-`chronicle.googleapis.com/iocMatches.*`
-
-`chronicle.googleapis.com/iocMatches.get`
-
-`chronicle.googleapis.com/iocMatches.list`
 
 `chronicle.googleapis.com/iocState.*`
 
@@ -10272,6 +10306,16 @@ Customer Experience Insights
 
 `contactcenterinsights.googleapis.com/datasets.update`
 
+`contactcenterinsights.googleapis.com/diagnostics.*`
+
+`contactcenterinsights.googleapis.com/diagnostics.create`
+
+`contactcenterinsights.googleapis.com/diagnostics.delete`
+
+`contactcenterinsights.googleapis.com/diagnostics.get`
+
+`contactcenterinsights.googleapis.com/diagnostics.list`
+
 `contactcenterinsights.googleapis.com/discoveries.*`
 
 `contactcenterinsights.googleapis.com/discoveries.delete`
@@ -15901,6 +15945,14 @@ Memorystore for Memcached
 `memcache.googleapis.com/instances.listEffectiveTags`
 
 `memcache.googleapis.com/instances.listTagBindings`
+
+Memorystore
+
+`memorystore.googleapis.com/backupCollections.get`
+
+`memorystore.googleapis.com/backups.export`
+
+`memorystore.googleapis.com/instances.backup`
 
 Cloud Service Mesh
 

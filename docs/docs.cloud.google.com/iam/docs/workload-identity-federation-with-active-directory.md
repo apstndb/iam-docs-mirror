@@ -682,7 +682,7 @@ To use the gcloud CLI to grant IAM roles on a resource in a project, do the foll
       - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions) to `google.subject`
       - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions) to `google.groups`
       - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions)
-      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+      - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions)
     
     You can grant roles on any Google Cloud resource that supports IAM allow policies.
     
@@ -820,7 +820,7 @@ Replace the following:
   - `  SUBJECT  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions) to `google.subject`
   - `  GROUP  ` : the expected value for the attribute that [you've mapped](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions) to `google.groups`
   - `  ATTRIBUTE_NAME  ` : the name of a custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions)
-  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in your attribute mapping
+  - `  ATTRIBUTE_VALUE  ` : the value of the custom attribute in [your attribute mapping](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory#mappings-and-conditions)
 
 > **Note:** You must use the project number, not the project ID, in the member identifier.
 

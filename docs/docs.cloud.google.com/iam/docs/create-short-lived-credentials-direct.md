@@ -668,7 +668,7 @@ Generate an OAuth 2.0 access token for a service account:
 
 ### gcloud
 
-1.  Ensure that you are [signed into the gcloud CLI](https://docs.cloud.google.com/docs/authentication/gcloud#local) with the caller user account.
+1.  Ensure that you are [signed into the gcloud CLI](https://docs.cloud.google.com/sdk/docs/authenticate) with the caller user account.
 
 2.  Generate a token for the service account by using the `gcloud auth print-access-token` command.
     

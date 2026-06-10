@@ -44,7 +44,7 @@ You can address these requests in the following ways:
 
   - **View additional details in Policy Troubleshooter** : Access requests contain a link to Policy Troubleshooter, which lets you see which policies are blocking the user's access. You can use this information to decide how to resolve the user's access issue. For more information, see [Identify policies causing permission errors](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#identify-policies) on this page.
 
-  - **Remediate access issues with Policy Troubleshooter** ( [Preview](https://cloud.google.com/products#product-launch-stages) ): Access requests also contain a link to a policy remediation summary, which describes the request details, including the requesting principal, resource, and permission. From the policy remediation summary, you can directly resolve access requests involving allow policies, and get more information about the policies that are blocking user access.
+  - **Remediate access issues with Policy Troubleshooter** : Access requests also contain a link to a policy remediation summary, which describes the request details, including the requesting principal, resource, and permission. From the policy remediation summary, you can directly resolve access requests involving allow policies, and get more information about the policies that are blocking user access.
     
     For more information about resolving access requests using the policy remediation summary, see [Remediate access issues](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests) .
 
