@@ -94,3 +94,23 @@ The following limits apply to IAM recommendations:
 <sup>1</sup> If your organization contains more than 100 custom roles, you will continue to receive role recommendations from Recommender. However, none of the recommendations will suggest that you [create a new custom role](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#custom-roles) .
 
 <sup>2</sup> If your project contains more than 25 custom roles, you will continue to receive role recommendations from Recommender. However, none of the recommendations for that project will suggest that you [create a new custom role](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview#custom-roles) .
+
+## Policy Simulator limits
+
+Policy Simulator limits the number of queries you can run at one time.
+
+| Limit                                                                                                                                            | Value |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----- |
+| Maximum concurrent [allow policy](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview) simulations                     | 50    |
+| Maximum concurrent [deny policy](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview) simulations                     | 50    |
+| Maximum concurrent [principal access boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) simulations | 50    |
+| Maximum concurrent [organization policy](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) simulations              | 50    |
+
+## Policy Simulator quotas
+
+Policy Simulator enforces the rate of incoming requests based on the consumer project. Default quotas are listed below:
+
+| Quota                                                                     | Value |
+| ------------------------------------------------------------------------- | ----- |
+| Policy Simulator for deny policies queries per project per minute         | 1     |
+| Policy Simulator for organization policies queries per project per minute | 60    |

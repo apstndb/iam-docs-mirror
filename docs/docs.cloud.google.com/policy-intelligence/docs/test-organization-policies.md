@@ -342,6 +342,14 @@ Policy Simulator reports the results of a change in a custom constraint or organ
 
 To view simulation results, go to the **Simulation history** page.
 
+For each simulation, the page lists the organization policy that the simulation is for, the date that you started the simulation, and the status of the simulation.
+
+Simulations can have the following statuses:
+
+  - **In progress** : The simulation is running, but hasn't completed yet. You can have up to 50 in-progress simulations.
+  - **Completed** : The simulation is complete.
+  - **Error** : The simulation failed to complete due to an error.
+
 Select a simulation to see details. On the **Simulation report** page, you can see the preview of violations, which lists the number of total violations caused by the new custom constraint or organization policy, the number of resources that were checked in the scope of the simulation, and the time at which the simulation completed.
 
 If you simulated a custom constraint, you can click **Constraint details** to see the specific configuration that was simulated. If you simulated an organization policy, the **Policy details** tab shows the configuration that was simulated.
@@ -409,6 +417,15 @@ To save a test result as a JSON file, add the following flag to the `simulate or
     --format=json > FILENAME
 
 Replace `  FILENAME  ` with a name for the output file.
+
+## Errors
+
+The following errors can cause a simulation to fail:
+
+  - **Maximum concurrent simulations exceeded** : The user already has 50 in-progress simulations, which is the maximum number of in-progress simulations that a user can have. To resolve, wait for one of the in-progress simulations to complete, then try running the simulation again.
+  - **Timeout** : The simulation took too long to run and timed out. Any simulation that takes more than 4 hours times out automatically. To resolve, try running the simulation again or reducing the size of the simulation.
+  - **Invalid simulation construction** : The proposed organization policy is invalid. For example, the proposed policy has an invalid condition expression. To resolve, correct the policy and try again.
+  - **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies#required-roles) and try again.
 
 ## What's next
 

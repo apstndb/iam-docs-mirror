@@ -10,6 +10,12 @@ This page documents production updates to Policy Intelligence. Check this page f
 
 You can see the latest product updates for all of Google Cloud on the [Google Cloud](https://docs.cloud.google.com/release-notes) page, browse and filter all release notes in the [Google Cloud console](https://console.cloud.google.com/release-notes) , or programmatically access release notes in [BigQuery](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=google_cloud_release_notes&t=release_notes&page=table) .
 
+## June 09, 2026
+
+Feature
+
+[Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview) is [generally available](https://cloud.google.com/products#product-launch-stages) .
+
 ## June 03, 2026
 
 Feature

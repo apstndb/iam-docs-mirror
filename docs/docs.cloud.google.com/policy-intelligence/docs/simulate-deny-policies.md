@@ -6,10 +6,6 @@ description: Instructions for using Policy Simulator to see how a change to a de
 data_source: docs.cloud.google.com
 ---
 
-> **Preview — Policy insights for BigQuery datasets**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 This page describes how to simulate a change to an IAM [deny policy](https://docs.cloud.google.com/iam/docs/deny-overview) using Policy Simulator. It also explains how to interpret the results of the simulation, and how to apply the simulated deny policy if you choose to.
 
 This feature only evaluates access based on deny policies.
@@ -83,9 +79,11 @@ When you click **Test policy** or **Test changes** , Policy Simulator starts the
 
 After you start a simulation, the Google Cloud console generates a notification that the simulation is running.
 
+> **Caution:** If a simulation takes longer than 24 hours to complete, it fails with a timeout error. To resolve, try running the simulation again or reducing the size of the simulation.
+
 After the simulation finishes, the Google Cloud console generates another notification that the simulation is complete. When you receive this notification, you can [view the simulation report](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies#view-report) .
 
-Each user can have up to 10 in-progress simulations.
+Each user can have up to 50 in-progress simulations.
 
 ### View a simulation report
 
@@ -133,7 +131,7 @@ For each simulation, the page lists the policy that the simulation is for, the d
 
 Simulations can have the following statuses:
 
-  - **In progress** : The simulation is running, but hasn't completed yet. You can have up to 10 in-progress simulations.
+  - **In progress** : The simulation is running, but hasn't completed yet. You can have up to 50 in-progress simulations.
   - **Completed** : The simulation is complete.
   - **Error** : The simulation couldn't be completed due to an error.
 

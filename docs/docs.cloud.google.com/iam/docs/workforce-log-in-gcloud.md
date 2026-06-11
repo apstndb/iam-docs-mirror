@@ -12,7 +12,7 @@ This document describes how to sign in to the Google Cloud CLI with your federat
 
 1.  Ensure that your administrator has set up and configured [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) .
 
-2.  Ensure that you have information that supports one of the following options. Your administrator can provide this information.
+2.  Ensure that you have information that supports one of the following options. Your administrator can provide this information. If you are an administrator, you can [list workforce pools and providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#list-pools) to find these IDs.
     
       - **Workforce identity pool and provider IDs** : a workforce identity pool ID and a workforce identity pool provider ID that you can use to [create a login configuration file](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud#use-pool-provider-ids) .
     
@@ -26,7 +26,7 @@ This section describes how you can obtain a login configuration file that you ca
 
 ### Create a login configuration file
 
-You can use the workforce identity pool ID and workforce identity pool provider ID to create a login configuration file.
+You can use the workforce identity pool ID and workforce identity pool provider ID to create a login configuration file. If you are an administrator, you can [list workforce pools and providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#list-pools) to find these IDs.
 
 Run the following command to create a login configuration file:
 

@@ -25,7 +25,7 @@ The default enforcement version is used for the following principal access bound
   - New policies that don't specify a version number
   - Policies that use the value `latest` for the version
 
-The current default enforcement version is version `3` .
+The current default enforcement version is `4` .
 
 ## Enforcement version `4`
 

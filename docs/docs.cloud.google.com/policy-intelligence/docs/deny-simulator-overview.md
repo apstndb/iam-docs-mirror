@@ -6,10 +6,6 @@ description: Overview of Policy Simulator for deny policies, which lets you see 
 data_source: docs.cloud.google.com
 ---
 
-> **Preview — Policy insights for BigQuery datasets**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 Policy Simulator for deny policies lets you see how a change to an IAM [deny policy](https://docs.cloud.google.com/iam/docs/deny-overview) might affect a principal's access before you commit to making the change. You can use Policy Simulator to ensure that the changes you're making won't cause a principal to lose access that they need.
 
 This feature only evaluates deny policies. To learn how to simulate other policy types, see the following:
@@ -38,13 +34,7 @@ When you run a simulation for a deny policy, Policy Simulator does the following
 
 ### Replay period
 
-The replay period is the time period that Policy Simulator gets access logs for when running a simulation. Access logs that occur before the first day of the replay period or after the last day of the replay period aren't included in the simulation.
-
-Typically, the last day of the replay period is 1 day prior to the simulation. However, in some cases, the last day of the replay period can be up to 10 days prior to the simulation. Access logs that occur after the last day of the replay period aren't included in the simulation.
-
-The replay period is 90 days. If the organization has not existed for more than 90 days, then Policy Simulator retrieves all access attempts since the organization was created.
-
-The replay window is also [eventually consistent](https://en.wikipedia.org/wiki/Eventual_consistency) . This means that, when you run a simulation, some data might be fresher than other data. However, eventually, all the data will have the same freshness.
+The replay period is the time that Policy Simulator gets access logs for when running a simulation. Access logs that occur before the first day of the replay period or after the last day of the replay period aren't included in the simulation. The replay period is 90 days. If the organization resource has existed for less than that amount of time, Policy Simulator retrieves all access attempts since the organization was created. The replay window is also [eventually consistent](https://en.wikipedia.org/wiki/Eventual_consistency) . This means that, when you run a simulation, some data might be fresher than other data. However, eventually, all the data will have the same freshness. With eventual consistency, the replay period typically ends in a few days but can end up to up to 15 days earlier. The simulation results show the exact replay window. Access logs from after this period aren't included.
 
 ## Policy Simulator results
 
@@ -65,8 +55,8 @@ For each access change, Policy Simulator also reports the following information:
 
 The following errors can cause a simulation to fail:
 
-  - **Maximum concurrent simulations exceeded** : The user already has 10 in-progress simulations, which is the maximum number of in-progress simulations that a user can have. To resolve, wait for one of the in-progress simulations to complete, then try running the simulation again.
-  - **Timeout** : The simulation took too long to run and timed out. To resolve, try running the simulation again.
+  - **Maximum concurrent simulations exceeded** : The user already has 50 in-progress simulations, which is the maximum number of in-progress simulations that a user can have. To resolve, wait for one of the in-progress simulations to complete, then try running the simulation again.
+  - **Timeout** : The simulation took too long to run and timed out. Any simulation that takes more than 24 hours times out automatically. To resolve, try running the simulation again or reducing the size of the simulation.
   - **Invalid simulation construction** : The proposed deny policy is invalid or contains unsupported deny rules. An example of an invalid policy is one that contains an invalid condition expression. An example of an unsupported deny rule is one that uses workforce identity principal identifiers. To resolve, correct the policy and try again.
   - **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies#required-roles) and try again.
 

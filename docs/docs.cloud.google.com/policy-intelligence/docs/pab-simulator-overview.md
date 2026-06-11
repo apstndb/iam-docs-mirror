@@ -34,13 +34,7 @@ To learn more about the access changes that Policy Simulator returns, see [Polic
 
 ### Replay period
 
-The replay period is the time period that Policy Simulator gets access logs for when running a simulation. Access logs that occur before the first day of the replay period or after the last day of the replay period aren't included in the simulation.
-
-Typically, the last day of the replay period is 1 day prior to the simulation. However, in some cases, the last day of the replay period can be up to 10 days prior to the simulation. Access logs that occur after the last day of the replay period aren't included in the simulation.
-
-The replay period is 90 days. If the organization has not existed for more than 90 days, then Policy Simulator retrieves all access attempts since the organization was created.
-
-The replay window is also [eventually consistent](https://en.wikipedia.org/wiki/Eventual_consistency) . This means that, when you run a simulation, some data might be fresher than other data. However, eventually, all the data will have the same freshness.
+The replay period is the time that Policy Simulator gets access logs for when running a simulation. Access logs that occur before the first day of the replay period or after the last day of the replay period aren't included in the simulation. The replay period is 90 days. If the organization resource has existed for less than that amount of time, Policy Simulator retrieves all access attempts since the organization was created. The replay window is also [eventually consistent](https://en.wikipedia.org/wiki/Eventual_consistency) . This means that, when you run a simulation, some data might be fresher than other data. However, eventually, all the data will have the same freshness. With eventual consistency, the replay period typically ends in a few days but can end up to up to 15 days earlier. The simulation results show the exact replay window. Access logs from after this period aren't included.
 
 ## Policy Simulator results
 

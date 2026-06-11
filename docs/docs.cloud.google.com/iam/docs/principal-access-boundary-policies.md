@@ -79,7 +79,7 @@ The default enforcement version is used for the following principal access bound
   - New policies that don't specify a version number
   - Policies that use the value `latest` for the version
 
-To learn which enforcement version is the default, see [Permissions that principal access boundary policies block](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions) .
+The current default enforcement version is `4` . To learn which permissions are blocked in this enforcement version, see [Permissions that principal access boundary policies block](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions) .
 
 ## Bind principal access boundary policies to principal sets
 

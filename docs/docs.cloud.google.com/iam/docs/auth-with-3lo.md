@@ -301,7 +301,7 @@ To handle user sign-in and redirection for 3-legged OAuth, your client-side appl
   - [Implement a user validation endpoint](https://docs.cloud.google.com/iam/docs/auth-with-3lo#validation-endpoint)
   - [Resume the agent conversation](https://docs.cloud.google.com/iam/docs/auth-with-3lo#resume-conversation)
 
-For a full implementation example, see the [ValidateUserId frontend sample](https://github.com/google/adk-python/tree/main/contributing/samples/gcp_auth) .
+For a full implementation example, see the [ValidateUserId frontend sample on GitHub](https://github.com/google/adk-python/tree/main/contributing/samples/integrations/gcp_auth) .
 
 ### Handle the authorization trigger
 
