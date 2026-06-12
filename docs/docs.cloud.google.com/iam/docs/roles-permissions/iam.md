@@ -394,8 +394,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.apps.list</code></p>
@@ -455,6 +457,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  modelMonitoringJobs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.modelMonitors.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  nasTrialDetails.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  notebookExecutionJobs.  list</code></p>
@@ -659,6 +662,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">assuredoss.locations.list</code></p>
 <p><code dir="ltr" translate="no">assuredoss.metadata.list</code></p>
 <p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.updates.list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.  violations.  list</code></p>
@@ -774,6 +780,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">bigquery.datasets.setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">bigquery.jobs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.list</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservationAssignments.  list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservationGroups.  list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservations.  getIamPolicy</code></p>
@@ -916,7 +923,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.  investigationComments.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  investigationSteps.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.investigations.list</code></p>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  labsExperimentExecutions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.labsExperiments.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  list</code></p>
@@ -1034,6 +1040,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">cloudkms.  singleTenantHsmInstances.  list</code></p>
 <p><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  list</code></p>
 <p><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  customRanges.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  discoveredRanges.  list</code></p>
@@ -1388,6 +1395,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryRevisions.  list</code></p>
@@ -3196,8 +3204,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.apps.list</code></p>
@@ -3251,6 +3261,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  modelMonitoringJobs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.modelMonitors.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  nasTrialDetails.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  notebookExecutionJobs.  list</code></p>
@@ -3439,6 +3450,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">assuredoss.locations.list</code></p>
 <p><code dir="ltr" translate="no">assuredoss.metadata.list</code></p>
 <p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.updates.list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.  violations.  list</code></p>
@@ -3538,6 +3552,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">bigquery.datasets.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">bigquery.jobs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.list</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservationAssignments.  list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservationGroups.  list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservations.  getIamPolicy</code></p>
@@ -3666,7 +3681,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.  investigationComments.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  investigationSteps.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.investigations.list</code></p>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  labsExperimentExecutions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.labsExperiments.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  list</code></p>
@@ -3770,6 +3784,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">cloudkms.  singleTenantHsmInstances.  list</code></p>
 <p><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  list</code></p>
 <p><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  customRanges.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  discoveredRanges.  list</code></p>
@@ -4084,6 +4099,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryRevisions.  list</code></p>

@@ -246,6 +246,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">aiplatform.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  agentExamples.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  agentExamples.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></li>
@@ -256,6 +260,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.agents.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.annotationSpecs.get</code></li>
@@ -541,6 +548,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.models.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.upload</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></li>
+<li><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.cancel</code></li>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.delete</code></li>

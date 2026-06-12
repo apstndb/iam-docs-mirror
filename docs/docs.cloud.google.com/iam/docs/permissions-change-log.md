@@ -16,6 +16,417 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-06-09
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Agent Platform Administrator role ( <code dir="ltr" translate="no">roles/aiplatform.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Vertex AI Custom Code Service Agent role ( <code dir="ltr" translate="no">roles/aiplatform.customCodeServiceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Vertex AI Service Agent role ( <code dir="ltr" translate="no">roles/aiplatform.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">storage.folders.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">storage.folders.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">storage.folders.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">storage.folders.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Agent Platform User role ( <code dir="ltr" translate="no">roles/aiplatform.user</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Agent Platform Viewer role ( <code dir="ltr" translate="no">roles/aiplatform.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>AlloyDB for PostgreSQL</td>
+<td><p>The following permissions have been added to the AlloyDB Admin role ( <code dir="ltr" translate="no">roles/alloydb.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>AlloyDB for PostgreSQL</td>
+<td><p>The following permissions have been added to the AlloyDB Database User role ( <code dir="ltr" translate="no">roles/alloydb.databaseUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Backup and Disaster Recovery</td>
+<td><p>The following permissions have been added to the Backup and DR Compute Engine Operator role ( <code dir="ltr" translate="no">roles/backupdr.computeEngineOperator</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.disks.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Admin role ( <code dir="ltr" translate="no">roles/ces.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Agent Editor role ( <code dir="ltr" translate="no">roles/ces.agentEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience App Editor role ( <code dir="ltr" translate="no">roles/ces.appEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Deployment Editor role ( <code dir="ltr" translate="no">roles/ces.deploymentEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Evals Editor role ( <code dir="ltr" translate="no">roles/ces.evalsEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Guardrails Editor role ( <code dir="ltr" translate="no">roles/ces.guardrailsEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Security Settings Editor role ( <code dir="ltr" translate="no">roles/ces.securitySettingsEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Tools Editor role ( <code dir="ltr" translate="no">roles/ces.toolsEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Gemini Enterprise for Customer Experience Viewer role ( <code dir="ltr" translate="no">roles/ces.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Customer Experience Insights</td>
+<td><p>The following permissions have been added to the Contact Center AI Insights Admin role ( <code dir="ltr" translate="no">roles/contactcenterinsights.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Customer Experience Insights</td>
+<td><p>The following permissions have been added to the Contact Center AI Insights editor role ( <code dir="ltr" translate="no">roles/contactcenterinsights.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Customer Experience Insights</td>
+<td><p>The following permissions have been added to the Contact Center AI Insights viewer role ( <code dir="ltr" translate="no">roles/contactcenterinsights.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Data Studio</td>
+<td><p>The following permissions have been added to the Data Studio Service Agent role ( <code dir="ltr" translate="no">roles/datastudio.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">serviceusage.services.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The following permissions have been added to the Developer Connect Service Agent role ( <code dir="ltr" translate="no">roles/developerconnect.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.httpProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.httpProxyWrite</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Sensitive Data Protection</td>
+<td><p>The following permissions have been added to the DLP Organization Data Profiles Driver role ( <code dir="ltr" translate="no">roles/dlp.orgdriver</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Sensitive Data Protection</td>
+<td><p>The following permissions have been added to the DLP Project Data Profiles Driver role ( <code dir="ltr" translate="no">roles/dlp.projectdriver</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Editor role ( <code dir="ltr" translate="no">roles/editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Cloud Messaging</td>
+<td><p>The Firebase Cloud Messaging API Viewer role ( <code dir="ltr" translate="no">roles/firebasecloudmessaging.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Databases Admin role ( <code dir="ltr" translate="no">roles/iam.databasesAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Data Scientist role ( <code dir="ltr" translate="no">roles/iam.dataScientist</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the ML Engineer role ( <code dir="ltr" translate="no">roles/iam.mlEngineer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Admin role ( <code dir="ltr" translate="no">roles/iam.securityAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Auditor role ( <code dir="ltr" translate="no">roles/iam.securityAuditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Reviewer role ( <code dir="ltr" translate="no">roles/iam.securityReviewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Support User role ( <code dir="ltr" translate="no">roles/iam.supportUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Owner role ( <code dir="ltr" translate="no">roles/owner</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Viewer role ( <code dir="ltr" translate="no">roles/viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Visual Inspection AI</td>
+<td><p>The following permissions have been added to the Visual Inspection AI Service Agent role ( <code dir="ltr" translate="no">roles/visualinspection.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.agentAnomalyDetectionScopes.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.agentAnomalyDetectionScopes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.agentAnomalyDetectionScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.agentAnomalyDetectionScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedSessions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.monitoredAgents.disable</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.monitoredAgents.enable</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.monitoredAgents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.monitoredAgents.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Assured Workloads</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbControlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFindingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFrameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFrameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFrameworkComplianceSummaries.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Assured Workloads</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbControlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFindingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFrameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFrameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">assuredworkloads.dbFrameworkComplianceSummaries.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.propertyGraphs.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Cloud Messaging</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Cloud Messaging</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudmessaging.topicSubscriptions.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Customer Experience Insights</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">contactcenterinsights.diagnostics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Cloud Messaging</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Cloud Messaging</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasecloudmessaging.topicSubscriptions.update</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-06-02
 
 <table>

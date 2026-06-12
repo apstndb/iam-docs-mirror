@@ -1397,6 +1397,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">bigquery.objectRefs.read</code></li>
 <li><code dir="ltr" translate="no">bigquery.objectRefs.write</code></li>
 </ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">bigquery.readsessions.create</code></li>
@@ -4192,8 +4200,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseReader">Cloud Spanner Database Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseReaderWithDataBoost">Cloud Spanner Database Reader with DataBoost</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseReaderWithDataBoost</code> )</p>
@@ -4212,10 +4225,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseReader">Cloud Spanner Database Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseReader</code> )</p>
@@ -4336,8 +4354,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="dataplex.operations.cancel" class="permission-name add-link" data-text="dataplex.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">dataplex.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseUser">Cloud Spanner Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseUser</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -4351,8 +4375,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="dataplex.operations.delete" class="permission-name add-link" data-text="dataplex.operations.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseUser">Cloud Spanner Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseUser</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -4367,6 +4397,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.admin">BigQuery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.dataEditor">BigQuery Data Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.dataEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.dataOwner">BigQuery Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.dataOwner</code> )</p>
@@ -4376,6 +4407,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataScanAdmin">Dataplex DataScan Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataScanAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.viewer">Dataplex Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryGroupOwner">DataCatalog EntryGroup Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.tagTemplateOwner">Data Catalog TagTemplate Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.tagTemplateOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.aspectTypeOwner">Dataplex Aspect Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.aspectTypeOwner</code> )</p>
@@ -4419,6 +4451,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.admin">BigQuery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.dataEditor">BigQuery Data Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.dataEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.dataOwner">BigQuery Data Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.dataOwner</code> )</p>
@@ -4429,6 +4462,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.viewer">Dataplex Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataScanEditor">Dataplex DataScan Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataScanEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.encryptionAdmin">Dataplex Encryption Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.encryptionAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>

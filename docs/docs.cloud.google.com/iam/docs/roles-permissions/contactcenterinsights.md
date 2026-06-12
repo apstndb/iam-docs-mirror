@@ -124,6 +124,10 @@ This page lists the IAM roles and permissions for Customer Experience Insights. 
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  update</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  create</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  delete</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  delete</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  generate</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></li>
@@ -363,6 +367,13 @@ This page lists the IAM roles and permissions for Customer Experience Insights. 
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  create</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  delete</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  delete</code></li>
@@ -555,6 +566,8 @@ This page lists the IAM roles and permissions for Customer Experience Insights. 
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -2148,6 +2161,63 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="contactcenterinsights.diagnostics.create" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="contactcenterinsights.diagnostics.delete" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="contactcenterinsights.diagnostics.get" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.viewer">Gemini Enterprise for Customer Experience Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="contactcenterinsights.diagnostics.list" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.viewer">Gemini Enterprise for Customer Experience Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.discoveries.delete" class="permission-name add-link" data-text="contactcenterinsights.discoveries.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  delete</code></h4></td>

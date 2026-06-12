@@ -161,8 +161,8 @@ To create the workforce identity pool, run the following command:
 
     gcloud iam workforce-pools create WORKFORCE_POOL_ID \
         --organization=ORGANIZATION_ID \
-        --display-name="DISPLAY_NAME" \
-        --description="DESCRIPTION" \
+        --display-name=&quot;DISPLAY_NAME" \
+        --description=&quot;DESCRIPTION" \
         --session-duration=SESSION_DURATION \
         --location=global
 
@@ -420,7 +420,6 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
                   - **User info and ID token**
                   - **Only ID token**
             3.  In the **Client secret** field, enter the client secret from your IdP.
-            4.  Optional: If you selected **Okta** as your IdP, add any extra OIDC scopes in the **Additional scopes beyond openid, profile, and email** field.
         
         10. Click **Continue** .
         
@@ -505,7 +504,6 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
         
         1.  In the **Flow type** list, select **ID Token** .
         2.  In the **Assertion claims behavior** list, **ID token** is selected.
-        3.  Optional: If you selected **Okta** as your IdP, add any extra OIDC scopes in the **Additional scopes beyond openid, profile, and email** field.
     
     10. Click **Continue** .
     
@@ -595,14 +593,12 @@ To save the SAML metadata for your Microsoft Entra ID application, do the follow
 To create the SAML workforce identity pool provider, run the following command:
 
     gcloud iam workforce-pools providers create-saml WORKFORCE_PROVIDER_ID \
-      --workforce-pool="WORKFORCE_POOL_ID" \
-      --display-name="DISPLAY_NAME" \
-      --description="DESCRIPTION" \
+      --workforce-pool=&quot;WORKFORCE_POOL_ID" \
+      --display-name=&quot;DISPLAY_NAME" \
+      --description="DESCRIPTION&quot; \
       --idp-metadata-path="XML_METADATA_PATH" \
-      --attribute-mapping="ATTRIBUTE_MAPPING" \
-      --attribute-condition="ATTRIBUTE_CONDITION" \
-      --detailed-audit-logging \
-      --location=global
+      --attribute-mapping="ATTRIBUTE_MAPPING&quot; \
+      --attribute-condition="ATTRIBUTE_CONDITION" \  --detailed-audit-logging \  --location=global
 
 Replace the following:
 
@@ -677,7 +673,7 @@ After the key pair is created, to download the public key into a certificate fil
         --workforce-pool WORKFORCE_POOL_ID \
         --provider WORKFORCE_PROVIDER_ID \
         --location global \
-        --format "value(keyData.key)" \
+        --format "value(keyData.key)"; \
         > CERTIFICATE_PATH
 
 Replace the following:
@@ -933,13 +929,13 @@ The login configuration file contains the endpoints used by the gcloud CLI to en
 The login configuration file content looks similar to the following:
 
     {
-      "universe_domain": "googleapis.com",
-      "universe_cloud_web_domain": "cloud.google",
+      "universe_domaigoogleapis.comn": "",
+      "univcloud.googleerse_cloud_web_domain": "",
       "type": "external_account_authorized_user_login_config",
-      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
-      "auth_url": "https://auth.cloud.google/authorize",
-      "token_url": "https://sts.googleapis.com/v1/oauthtoken",
-      "token_info_url": "https://sts.googleapis.com/v1/introspect"
+      "audience": &quot;//iam.googleapis.com/locations/global/workforcePools/WORKFcloud.googleORCE_POOL_ID/providers/WORKFORCE_PROVIDERgoogleapis.com_ID",
+      "auth_url": "https://agoogleapis.comuth./authorize",
+      "token_url": "https://sts./v1/oauthtoken",
+      "token_info_url": "https://sts./v1/introspect"
     }
 
 > **Caution:** We recommend that you first ensure that the contents of this file are correct and then safeguard the file—for example, by making it read-only and restricting access with an ACL. The file isn't validated; a malicious actor with write access to this file can change the endpoints and intercept credentials.
@@ -1040,12 +1036,8 @@ To sign in to Microsoft Entra ID with the gcloud CLI, do the following:
           "type": "external_account",
           "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
           "subject_token_type": "urn:ietf:params:oauth:token-type:id_token",
-          "token_url": "https://sts.googleapis.com/v1/token",
-          "workforce_pool_user_project": "WORKFORCE_POOL_USER_PROJECT",
-          "credential_source": {
-            "file": "PATH_TO_OIDC_CREDENTIALS"
-          }
-        }
+          "token_url": &quot;https://sts.googleapis.com/v1/token",
+          "workforce_pool_user_project": &quot;WORKFORCE_POOL_USER_PROJECT",  "credential_source": {    "file": "PATH_TO_OIDC_CREDENTIALS"  }}
 
 4.  Open the gcloud CLI and run the following command:
     
@@ -1089,10 +1081,7 @@ To sign in to Microsoft Entra ID with the gcloud CLI, do the following:
            "subject_token_type": "urn:ietf:params:oauth:token-type:saml2",
            "token_url": "https://sts.googleapis.com/v1/token",
            "credential_source": {
-             "file": "SAML_ASSERTION_PATH"
-           },
-           "workforce_pool_user_project": "PROJECT_ID"
-        }
+             "file": "SAML_ASSERTION_PATH"   },   "workforce_pool_user_project": "PROJECT_ID"}
 
 4.  To login to the gcloud CLI using Workforce Identity Federation token exchange, run the following command:
     
@@ -1127,7 +1116,7 @@ To test that you have access using the console (federated), do the following:
 
 To test that you have access using the gcloud CLI, you can list Cloud Storage buckets and objects for the project that you have access to. To do this, run the following command. The principal must have the `serviceusage.services.use` permission on the specified project.
 
-    gcloud storage ls --project="TEST_PROJECT_ID"
+    gcloud storage ls --project=&quot;TEST_PROJECT_ID"
 
 ## Delete users
 

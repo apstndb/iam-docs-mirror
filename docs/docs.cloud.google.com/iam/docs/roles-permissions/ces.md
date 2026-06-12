@@ -211,6 +211,10 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  datasets.  update</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  create</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  delete</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></li>
+<li><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  delete</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  generate</code></li>
 <li><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></li>
@@ -392,6 +396,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -540,6 +546,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -685,6 +693,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -832,6 +842,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -996,6 +1008,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -1138,6 +1152,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -1272,6 +1288,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
@@ -1420,6 +1438,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise for Customer
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>

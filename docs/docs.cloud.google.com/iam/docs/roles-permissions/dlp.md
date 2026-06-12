@@ -497,10 +497,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <ul>
 <li>Folder</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></p>
+<td><p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.annotationSpecs.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.get</code></p>
@@ -611,6 +619,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  modelMonitors.  searchModelMonitoringStats</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasTrialDetails.*</code></p>
@@ -785,6 +795,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">bigquery.models.updateData</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateMetadata</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateTag</code></li>
+</ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
@@ -1783,8 +1801,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.update</code></p>
-<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
-<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  deleteTagBinding</code></p>
@@ -2150,10 +2178,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <td><h4 id="dlp.projectdriver" class="role-title add-link" data-text="DLP Project Data Profiles Driver" tabindex="-1">DLP Project Data Profiles Driver</h4>
 <p>( <code dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p>Permissions needed by the DLP service account to generate data profiles within a project.</p></td>
-<td><p><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></p>
+<td><p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.annotationSpecs.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.get</code></p>
@@ -2264,6 +2300,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  modelMonitors.  searchModelMonitoringStats</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasTrialDetails.*</code></p>
@@ -2438,6 +2476,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">bigquery.models.updateData</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateMetadata</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateTag</code></li>
+</ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
@@ -3436,8 +3482,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.update</code></p>
-<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
-<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  deleteTagBinding</code></p>
@@ -3938,6 +3994,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">bigquery.models.updateData</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateMetadata</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateTag</code></li>
+</ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>

@@ -111,6 +111,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">bigquery.models.updateMetadata</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateTag</code></li>
 </ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">bigquery.readsessions.create</code></li>

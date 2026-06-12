@@ -190,7 +190,15 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 </ul>
 <p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
-<p><code dir="ltr" translate="no">cloudmessaging.messages.create</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudmessaging.messages.create</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  create</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  delete</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudtestservice.  environmentcatalog.  get</code></p>
 <p><code dir="ltr" translate="no">cloudtestservice.matrices.*</code></p>
@@ -2896,7 +2904,15 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">cloudconfig.configs.get</code></li>
 <li><code dir="ltr" translate="no">cloudconfig.configs.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">cloudmessaging.messages.create</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudmessaging.messages.create</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  create</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  delete</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">fcmdata.deliverydata.list</code></p>
 <p><code dir="ltr" translate="no">firebase.billingPlans.get</code></p>
@@ -3699,6 +3715,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.admin">Firebase Authentication Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.editor">Firebase Authentication editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.viewer">Firebase Authentication Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.viewer">Firebase Cloud Messaging API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash#firebasecrashlytics.admin">Firebase Crashlytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecrashlytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash#firebasecrashlytics.viewer">Firebase Crashlytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecrashlytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedatabase#firebasedatabase.admin">Firebase Realtime Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasedatabase.admin</code> )</p>
@@ -3765,6 +3782,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.admin">Firebase Authentication Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.editor">Firebase Authentication editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.viewer">Firebase Authentication Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.viewer">Firebase Cloud Messaging API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash#firebasecrashlytics.admin">Firebase Crashlytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecrashlytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash#firebasecrashlytics.viewer">Firebase Crashlytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecrashlytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedatabase#firebasedatabase.admin">Firebase Realtime Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasedatabase.admin</code> )</p>
@@ -3958,6 +3976,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.admin">Firebase Authentication Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.editor">Firebase Authentication editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth#firebaseauth.viewer">Firebase Authentication Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseauth.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.viewer">Firebase Cloud Messaging API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash#firebasecrashlytics.admin">Firebase Crashlytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecrashlytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash#firebasecrashlytics.viewer">Firebase Crashlytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecrashlytics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedatabase#firebasedatabase.admin">Firebase Realtime Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasedatabase.admin</code> )</p>

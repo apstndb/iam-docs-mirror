@@ -577,11 +577,6 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  iocAssociations.  fetchRelated</code></li>
 <li><code dir="ltr" translate="no">chronicle.iocAssociations.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.get</code></li>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.list</code></li>
-</ul>
 <p><code dir="ltr" translate="no">chronicle.iocState.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.iocState.get</code></li>
@@ -1581,11 +1576,6 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  iocAssociations.  fetchRelated</code></li>
 <li><code dir="ltr" translate="no">chronicle.iocAssociations.get</code></li>
 </ul>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.get</code></li>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.list</code></li>
-</ul>
 <p><code dir="ltr" translate="no">chronicle.iocState.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.iocState.get</code></li>
@@ -2138,11 +2128,6 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  iocAssociations.  batchGet</code></li>
 <li><code dir="ltr" translate="no">chronicle.  iocAssociations.  fetchRelated</code></li>
 <li><code dir="ltr" translate="no">chronicle.iocAssociations.get</code></li>
-</ul>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.get</code></li>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">chronicle.iocState.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.iocs.*</code></p>
@@ -6586,29 +6571,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.limitedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="chronicle.iocMatches.get" class="permission-name add-link" data-text="chronicle.iocMatches.get" tabindex="-1"><code dir="ltr" translate="no">chronicle.iocMatches.get</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="chronicle.iocMatches.list" class="permission-name add-link" data-text="chronicle.iocMatches.list" tabindex="-1"><code dir="ltr" translate="no">chronicle.iocMatches.list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">

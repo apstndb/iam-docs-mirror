@@ -667,6 +667,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code dir="ltr" translate="no">compute.disks.createSnapshot</code></p>
 <p><code dir="ltr" translate="no">compute.disks.delete</code></p>
 <p><code dir="ltr" translate="no">compute.disks.get</code></p>
+<p><code dir="ltr" translate="no">compute.disks.list</code></p>
 <p><code dir="ltr" translate="no">compute.disks.setLabels</code></p>
 <p><code dir="ltr" translate="no">compute.disks.use</code></p>
 <p><code dir="ltr" translate="no">compute.disks.useReadOnly</code></p>

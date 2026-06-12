@@ -28,6 +28,11 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <p>Grants full access to Assured Workloads resources, CRM resources - project/folder and Organization Policy administration</p></td>
 <td><p><code dir="ltr" translate="no">assuredworkloads.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  get</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.updates.list</code></li>
@@ -70,6 +75,11 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <p>Grants read, write access to Assured Workloads resources, CRM resources - project/folder and Organization Policy administration</p></td>
 <td><p><code dir="ltr" translate="no">assuredworkloads.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  get</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.updates.list</code></li>
@@ -110,7 +120,15 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <td><h4 id="assuredworkloads.viewer" class="role-title add-link" data-text="Assuredworkloads Viewer" tabindex="-1">Assuredworkloads Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  assuredworkloads.viewer</code> )</p>
 <p>Viewer role for assuredworkloads</p></td>
-<td><p><code dir="ltr" translate="no">assuredworkloads.operations.*</code></p>
+<td><p><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></li>
@@ -132,7 +150,15 @@ This page lists the IAM roles and permissions for Assured Workloads. To search t
 <td><h4 id="assuredworkloads.reader" class="role-title add-link" data-text="Assured Workloads Reader" tabindex="-1">Assured Workloads Reader</h4>
 <p>( <code dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
 <p>Grants read access to all Assured Workloads resources and CRM resources - project/folder</p></td>
-<td><p><code dir="ltr" translate="no">assuredworkloads.operations.*</code></p>
+<td><p><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></li>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></li>
@@ -229,7 +255,35 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="assuredworkloads.operations.get" class="permission-name add-link" data-text="assuredworkloads.operations.get" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></h4></td>
+<td><h4 id="assuredworkloads.dbControlComplianceSummaries.list" class="permission-name add-link" data-text="assuredworkloads.dbControlComplianceSummaries.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.viewer">Assuredworkloads Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.reader">Assured Workloads Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="assuredworkloads.dbFindingSummaries.list" class="permission-name add-link" data-text="assuredworkloads.dbFindingSummaries.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.viewer">Assuredworkloads Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.reader">Assured Workloads Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="assuredworkloads.dbFrameworkComplianceReports.aggregate" class="permission-name add-link" data-text="assuredworkloads.dbFrameworkComplianceReports.aggregate" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  aggregate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
@@ -240,6 +294,42 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="assuredworkloads.dbFrameworkComplianceReports.get" class="permission-name add-link" data-text="assuredworkloads.dbFrameworkComplianceReports.get" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.viewer">Assuredworkloads Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.reader">Assured Workloads Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="assuredworkloads.dbFrameworkComplianceSummaries.list" class="permission-name add-link" data-text="assuredworkloads.dbFrameworkComplianceSummaries.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.viewer">Assuredworkloads Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.reader">Assured Workloads Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="assuredworkloads.operations.get" class="permission-name add-link" data-text="assuredworkloads.operations.get" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.viewer">Assuredworkloads Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.reader">Assured Workloads Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="assuredworkloads.operations.list" class="permission-name add-link" data-text="assuredworkloads.operations.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -253,7 +343,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="assuredworkloads.updates.list" class="permission-name add-link" data-text="assuredworkloads.updates.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.updates.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -267,14 +357,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="assuredworkloads.updates.update" class="permission-name add-link" data-text="assuredworkloads.updates.update" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  updates.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="assuredworkloads.violations.get" class="permission-name add-link" data-text="assuredworkloads.violations.get" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  violations.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -292,7 +382,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringServiceAgent">Cloud Controls Partner Monitoring Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="assuredworkloads.violations.list" class="permission-name add-link" data-text="assuredworkloads.violations.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  violations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -313,26 +403,26 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudcontrolspartner#cloudcontrolspartner.monitoringServiceAgent">Cloud Controls Partner Monitoring Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudcontrolspartner.monitoringServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="assuredworkloads.violations.update" class="permission-name add-link" data-text="assuredworkloads.violations.update" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  violations.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="assuredworkloads.workload.create" class="permission-name add-link" data-text="assuredworkloads.workload.create" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  workload.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="assuredworkloads.workload.delete" class="permission-name add-link" data-text="assuredworkloads.workload.delete" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  workload.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="assuredworkloads.workload.get" class="permission-name add-link" data-text="assuredworkloads.workload.get" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.workload.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -343,7 +433,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.reader">Assured Workloads Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="assuredworkloads.workload.list" class="permission-name add-link" data-text="assuredworkloads.workload.list" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.workload.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -357,7 +447,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="assuredworkloads.workload.update" class="permission-name add-link" data-text="assuredworkloads.workload.update" tabindex="-1"><code dir="ltr" translate="no">assuredworkloads.  workload.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

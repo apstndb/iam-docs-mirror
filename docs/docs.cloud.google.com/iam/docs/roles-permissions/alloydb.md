@@ -122,6 +122,18 @@ This page lists the IAM roles and permissions for AlloyDB for PostgreSQL. To sea
 <li><code dir="ltr" translate="no">databasesconsole.  studioQueries.  search</code></li>
 <li><code dir="ltr" translate="no">databasesconsole.  studioQueries.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">recommender.  alloydbClusterPerformanceInsights.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">recommender.  alloydbClusterPerformanceInsights.  get</code></li>
@@ -344,6 +356,18 @@ This page lists the IAM roles and permissions for AlloyDB for PostgreSQL. To sea
 <li><code dir="ltr" translate="no">databasesconsole.  locations.  list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">databasesconsole.  studioQueries.  search</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>

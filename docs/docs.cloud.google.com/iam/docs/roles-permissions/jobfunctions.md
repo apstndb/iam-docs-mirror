@@ -24,7 +24,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <td><h4 id="iam.dataScientist" class="role-title add-link" data-text="Data Scientist" tabindex="-1">Data Scientist</h4>
 <p>( <code dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
 <p>Designed for a data scientist power user to manage data platform services and associated Compute services for analyzing data and building data processing, transformation and analysis pipelines.</p></td>
-<td><p><code dir="ltr" translate="no">aiplatform.agentExamples.*</code></p>
+<td><p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">aiplatform.agentExamples.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  agentExamples.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  agentExamples.  delete</code></li>
@@ -39,6 +46,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.agents.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">aiplatform.annotationSpecs.*</code></p>
 <ul>
@@ -432,6 +445,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.models.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.upload</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.monitoredAgents.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></li>
+<li><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.cancel</code></li>
@@ -743,6 +763,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">bigquery.models.updateMetadata</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateTag</code></li>
 </ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">bigquery.readsessions.create</code></li>
@@ -923,8 +951,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
 <li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
-<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  list</code></p>
@@ -1704,6 +1737,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">bigquery.objectRefs.read</code></li>
 <li><code dir="ltr" translate="no">bigquery.objectRefs.write</code></li>
+</ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
@@ -2562,8 +2603,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">dataplex.  datascans.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.datascans.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
-<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">datastore.backupSchedules.*</code></p>
 <ul>
@@ -6514,6 +6565,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p>Enables an ML engineer as a power user for using GCP for building and deploying AI based applications.</p></td>
 <td><p><code dir="ltr" translate="no">aiplatform.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  agentExamples.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  agentExamples.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></li>
@@ -6524,6 +6579,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.agents.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.annotationSpecs.get</code></li>
@@ -6809,6 +6867,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.models.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.upload</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></li>
+<li><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.cancel</code></li>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.delete</code></li>
@@ -7000,6 +7062,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">bigquery.models.updateData</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateMetadata</code></li>
 <li><code dir="ltr" translate="no">bigquery.models.updateTag</code></li>
+</ul>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.create</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.delete</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></li>
+<li><code dir="ltr" translate="no">bigquery.propertyGraphs.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.routines.*</code></p>
 <ul>
@@ -10006,8 +10076,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.apps.list</code></p>
@@ -10068,6 +10140,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.modelMonitors.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  nasTrialDetails.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  notebookExecutionJobs.  list</code></p>
@@ -10332,6 +10405,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">assuredoss.operations.get</code></p>
 <p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.updates.list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.  violations.  list</code></p>
@@ -10461,6 +10537,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">bigquery.jobs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.getMetadata</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.list</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservationAssignments.  list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservationGroups.  list</code></p>
 <p><code dir="ltr" translate="no">bigquery.  reservations.  getIamPolicy</code></p>
@@ -10609,7 +10687,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.  investigationComments.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  investigationSteps.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.investigations.list</code></p>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  labsExperimentExecutions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.labsExperiments.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  list</code></p>
@@ -11304,6 +11381,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.  singleTenantHsmInstances.  list</code></p>
 <p><code dir="ltr" translate="no">cloudlocationfinder.  cloudLocations.  list</code></p>
 <p><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  customRanges.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  discoveredRanges.  list</code></p>
@@ -11963,6 +12041,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryRevisions.  list</code></p>
@@ -14119,6 +14198,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">bigquery.models.getData</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.getMetadata</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.list</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.routines.get</code></p>
 <p><code dir="ltr" translate="no">bigquery.routines.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.createSnapshot</code></p>
@@ -16000,10 +16081,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.get</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.annotationSpecs.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.get</code></p>
@@ -16134,6 +16223,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.  modelMonitors.  searchModelMonitoringStats</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.models.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasTrialDetails.*</code></p>
@@ -16646,6 +16737,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">assuredoss.operations.get</code></p>
 <p><code dir="ltr" translate="no">assuredoss.operations.list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbControlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFindingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">assuredworkloads.  dbFrameworkComplianceSummaries.  list</code></p>
 <p><code dir="ltr" translate="no">assuredworkloads.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">assuredworkloads.  operations.  get</code></li>
@@ -16911,6 +17010,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">bigquery.models.getMetadata</code></p>
 <p><code dir="ltr" translate="no">bigquery.models.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.objectRefs.read</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.get</code></p>
+<p><code dir="ltr" translate="no">bigquery.propertyGraphs.list</code></p>
 <p><code dir="ltr" translate="no">bigquery.readsessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">bigquery.readsessions.create</code></li>
@@ -17343,11 +17444,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">chronicle.  iocAssociations.  batchGet</code></li>
 <li><code dir="ltr" translate="no">chronicle.  iocAssociations.  fetchRelated</code></li>
 <li><code dir="ltr" translate="no">chronicle.iocAssociations.get</code></li>
-</ul>
-<p><code dir="ltr" translate="no">chronicle.iocMatches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.get</code></li>
-<li><code dir="ltr" translate="no">chronicle.iocMatches.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">chronicle.iocState.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.iocs.*</code></p>
@@ -18280,6 +18376,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">cloudlocationfinder.  locations.  get</code></li>
 <li><code dir="ltr" translate="no">cloudlocationfinder.  locations.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  customRanges.  get</code></p>
 <p><code dir="ltr" translate="no">cloudnumberregistry.  customRanges.  list</code></p>
@@ -19195,6 +19293,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></p>
+<p><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  get</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  list</code></p>
 <p><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.*</code></p>
