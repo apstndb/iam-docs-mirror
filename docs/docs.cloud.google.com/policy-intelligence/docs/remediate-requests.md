@@ -12,7 +12,7 @@ The Google Cloud console, Google Cloud CLI, and REST API all display [error mess
 
 When the administrator clicks the link in the generated email, they're directed to the Google Cloud console, where they can choose to reject the request or proceed to remediation.
 
-If they choose to proceed to remediation, then the Google Cloud console shows a policy remediation summary. Administrators can also access the policy remediation summary by clicking **View troubleshooting details** on a permission error message and then clicking **Policy Troubleshooter** .
+If they choose to proceed to remediation, then the Google Cloud console shows a policy remediation summary. Administrators can also access the policy remediation summary by clicking **View troubleshooting details** on a permission error message and then clicking **Policy Troubleshooter** , or by going to the **Policy Troubleshooter** page and entering an error ID.
 
 The remediation summary page describes the request details, including the requesting principal, resource, and the permissions that the principal is requesting.
 

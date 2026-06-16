@@ -47,11 +47,11 @@ To request the required permissions, do the following:
 
 ### gcloud
 
-Copy the list of missing permissions from the error message, then use your preferred request management system to ask an administrator to give you these permissions.
+Copy the `error_info_id` , if available, and the list of missing permissions from the error message, then use your preferred request management system to ask an administrator to give you these permissions.
 
 ### REST
 
-Copy the list of missing permissions from the error message, then use your preferred request management system to ask an administrator to give you these permissions.
+Copy the `error_info_id` , if available, and the list of missing permissions from the error message, then use your preferred request management system to ask an administrator to give you these permissions.
 
 ### Request a grant against a Privileged Access Manager entitlement
 

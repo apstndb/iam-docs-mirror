@@ -111,6 +111,7 @@ If you want Gemini to suggest the most granular, least privileged roles, you mus
 <li>"What permissions do I need to manage our AlloyDB for PostgreSQL setup?"</li>
 <li>"What roles do I need to work with BigQuery?"</li>
 <li>"How do I give someone access to run and debug Cloud Run services?"</li>
+<li>"I need to provision a Vertex AI Agent identity to execute basic tool calls."</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -119,12 +120,14 @@ If you want Gemini to suggest the most granular, least privileged roles, you mus
 <li>"What role is required to create, start, and stop VMs?"</li>
 <li>"I need to allow a user to create and manage BigQuery datasets and tables."</li>
 <li>"I need to grant a service account access to invoke Cloud Run functions."</li>
+<li>"I want my agent to trigger a local MCP server that I have deployed on Cloud Run."</li>
 </ul>
 <p>Prompts that yield least privileged role suggestions:</p>
 <ul>
 <li>"What is the <em>minimal role</em> required to create, start, and stop VMs?"</li>
 <li>"What are the <em>least-privileged</em> IAM roles required to create IAM policies?"</li>
 <li>"I need to grant a service account access to invoke Cloud Run functions. What's the <em>narrowest access</em> required?"</li>
+<li>"What is the <em>least permissive</em> role my agent needs to trigger a local MCP server I have deployed on Cloud Run?"</li>
 </ul></td>
 </tr>
 <tr class="odd">

@@ -39,9 +39,9 @@ Dataset-level policy insights are sometimes linked to [role recommendations](htt
 
 To get the permissions that you need to manage dataset-level policy insights, ask your administrator to grant you the following IAM roles on your project:
 
-  - BigQuery Data Owner (\`roles/bigquery.dataOwner\`)
-  - IAM Recommender Admin (\`roles/recommender.iamAdmin\`)
-  - Manage dataset-level policy insights with the gcloud CLI or REST API: Service Usage Consumer (\`roles/serviceusage.serviceUsageConsumer\`)
+  - [BigQuery Data Owner](https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.dataOwner) ( `roles/bigquery.dataOwner` )
+  - [IAM Recommender Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.iamAdmin) ( `roles/recommender.iamAdmin` )
+  - Manage dataset-level policy insights with the gcloud CLI or REST API: [Service Usage Consumer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageConsumer) ( `roles/serviceusage.serviceUsageConsumer` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 

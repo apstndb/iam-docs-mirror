@@ -36,7 +36,7 @@ Bucket-level policy insights are sometimes linked to [role recommendations](http
 To get the permissions that you need to manage bucket-level policy insights, ask your administrator to grant you the following IAM roles on your project:
 
   - [Storage Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/storage#storage.admin) ( `roles/storage.admin` )
-  - Manage bucket-level policy insights with the gcloud CLI or REST API: Service Usage Consumer (\`roles/serviceusage.serviceUsageConsumer\`)
+  - Manage bucket-level policy insights with the gcloud CLI or REST API: [Service Usage Consumer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageConsumer) ( `roles/serviceusage.serviceUsageConsumer` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 

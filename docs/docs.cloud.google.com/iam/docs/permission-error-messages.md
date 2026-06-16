@@ -59,6 +59,8 @@ These error messages contain the following information:
     
     You can click a role to learn more about the role and request that the role be granted to you. If you have the permissions required to grant roles, then you can grant yourself the role instead of requesting it.
 
+  - **A Policy Troubleshooter URL:** You can use this link to navigate to the Policy Troubleshooter summary for this access request.
+
 ### Google Cloud CLI and REST API error messages
 
 The exact wording of the error message depends on the command that you run. However, it typically contains the following information:
@@ -66,29 +68,41 @@ The exact wording of the error message depends on the command that you run. Howe
   - The required permission
   - The resource you tried to perform an action on
   - The authenticating account
+  - A unique identifier for the error
+  - A link to a Policy Troubleshooter summary for this error
 
 For example, if you don't have permission to list buckets in a project, you see an error message like the following:
 
 ### gcloud
 
-    ERROR: (gcloud.storage.buckets.list) HTTPError 403:
+    ERROR: (gcloud.storage.buckets.list) PERMISSION_DENIED:
     EMAIL_ADDRESS does not have
     storage.buckets.list access to the Google Cloud project. Permission
     'storage.buckets.list' denied on resource (or it may not exist). This command
     is authenticated as EMAIL_ADDRESS which
     is the active account specified by the [core/account] property.
+    - '@type': type.googleapis.com/google.rpc.ErrorInfo
+      domain: storage.googleapis.com
+      metadata:
+        permission: storage.buckets.list
+        error_info_id: ERROR_ID
+      reason: IAM_PERMISSION_DENIED
 
 ### REST
 
     {
       "error": {
         "code": 403,
-        "message": "EMAIL_ADDRESS does not have storage.buckets.list access to the Google Cloud project. Permission 'storage.buckets.list' denied on resource (or it may not exist).",
-        "errors": [
+        "message": "Permission 'storage.buckets.list' denied on resource (or it may not exist). Remediate access with this Troubleshooter URL or share it with your administrator - https://console.cloud.google.com/iam-admin/troubleshooter;errorId=ERROR_ID .",
+        "details": [
           {
-            "message": "EMAIL_ADDRESS does not have storage.buckets.list access to the Google Cloud project. Permission 'storage.buckets.list' denied on resource (or it may not exist).",
+            "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+            "reason": "forbidden",
             "domain": "global",
-            "reason": "forbidden"
+            "metadata": {
+              "error_info_id": "ERROR_ID",
+              "permission": "storage.buckets.list"
+            }
           }
         ]
       }

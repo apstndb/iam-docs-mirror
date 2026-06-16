@@ -89,7 +89,13 @@ If you don't have these permissions, role bindings and deny rules that contain g
 
 ## Troubleshoot access
 
-To troubleshoot access, you need the following information:
+To troubleshoot access, you need the principal, resource, and permission you want to check. This information can be provided by an error ID:
+
+  - **Error ID:** A unique identifier for a [permission error message](https://docs.cloud.google.com/iam/docs/permission-error-messages) . The error ID provides context for the error, including the principal, resource, permission, and supported IAM conditions.
+    
+    Supported IAM conditions include `principal.type` and `principal.subject` .
+
+If you don't have an error ID, you can troubleshoot access with the following information:
 
   - **Principal:** The email address to check. The email address must refer to a user, a single service account, or a [service account principal set](https://docs.cloud.google.com/iam/docs/principal-identifiers#allow-service-account-principal-sets) .
     
@@ -111,29 +117,33 @@ To troubleshoot access, do the following:
 
 1.  In the Google Cloud console, go to the **Policy Troubleshooter** page.
 
-2.  Enter the email of the principal whose access you want to check.
+2.  If you have an error ID, select **Error ID** and enter it.
 
-3.  Enter the full resource name of the resource to check.
+3.  If you don't have an error ID, select **Manual** .
     
-    If you don't know the full resource name, do one of the following:
+    1.  Enter the email of the principal whose access you want to check.
     
-      - If you're troubleshooting access for a project, folder, or organization, start typing to see autocomplete options.
-    
-      - If you're troubleshooting access for another resource type, click **Browse** to open the resource search dialog, then search for the resource:
+    2.  Enter the full resource name of the resource to check.
         
-        1.  In the **Select scope** box, select a project, folder, or organization to search within.
-        2.  In the **Resource type** box, select the resource types you want to search for.
-        3.  In the **Search for resources** box, enter a portion of the resource name.
-        4.  In the results section, select the resource you want to check.
-        5.  Click **Select** to choose the resource and close the dialog.
-
-4.  Enter the permission to check.
+        If you don't know the full resource name, do one of the following:
+        
+          - If you're troubleshooting access for a project, folder, or organization, start typing to see autocomplete options.
+        
+          - If you're troubleshooting access for another resource type, click **Browse** to open the resource search dialog, then search for the resource:
+            
+            1.  In the **Select scope** box, select a project, folder, or organization to search within.
+            2.  In the **Resource type** box, select the resource types you want to search for.
+            3.  In the **Search for resources** box, enter a portion of the resource name.
+            4.  In the results section, select the resource you want to check.
+            5.  Click **Select** to choose the resource and close the dialog.
     
-    If you don't know the full permission name, start typing to see autocomplete options.
+    3.  Enter the permission to check.
+        
+        If you don't know the full permission name, start typing to see autocomplete options.
+    
+    4.  Optional: To check multiple resources and permissions, select **Add Another Pair** and repeat the previous step.
 
-5.  Optional: To check multiple resources and permissions, select **Add Another Pair** and repeat the previous step.
-
-6.  Click **Check access** .
+4.  Click **Check access** .
 
 ### gcloud
 

@@ -726,7 +726,7 @@ The following table lists limits.
 <tr class="even">
 <td>Maximum leaf certificate lifetime</td>
 <td>390 days.</td>
-<td>Leaf certificate issued longer than 390 days will be rejected.</td>
+<td>Certificates with a validity period that's more than 390 days will stop working after they've been valid for more than 390 days.</td>
 </tr>
 </tbody>
 </table>
