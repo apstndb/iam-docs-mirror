@@ -35,12 +35,17 @@ After you enable audit logs for Data Access activity, IAM generates an audit log
 
   - `protoPayload.resourceName` : The workload identity pool provider that the token is associated with.
 
+  - `protoPayload.status` : The status of the token exchange request. For a successful token exchange, this field is empty ( `{}` ) or omitted. If the token exchange fails due to a server error, this field contains an error code and message. Failures caused by client errors, such as invalid credentials or arguments, are not logged.
+
+  - `protoPayload.authorizationInfo` : Information about the permissions evaluated during the request. For token exchange requests, this field always contains an entry for the `sts.identityProviders.checkLogging` permission with `granted` set to `false` . The Security Token Service checks this permission to determine whether Data Access audit logging is enabled for the provider. Because calling workloads don't have this permission, `granted` is always `false` . This check doesn't cause the token exchange to fail.
+
 The following example shows an audit log entry for a request to exchange a token. In this example, a Microsoft Azure token was exchanged for a federated token:
 
     {
       "logName": "projects/my-project/logs/cloudaudit.googleapis.com%2Fdata_access",
       "protoPayload": {
         "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+        "status": {},
         "authenticationInfo": {
           "principalSubject": "b6112abb-5791-4507-adb5-7e8cc306eb2e"
         },
@@ -52,7 +57,14 @@ The following example shows an audit log entry for a request to exchange a token
         "request": {
           "@type": "type.googleapis.com/google.identity.sts.v1.ExchangeTokenRequest",
           "grantType": "urn:ietf:params:oauth:grant-type:token-exchange"
-        }
+        },
+        "authorizationInfo": [
+          {
+            "permission": "sts.identityProviders.checkLogging",
+            "granted": false,
+            "permissionType": "ADMIN_READ"
+          }
+        ]
       },
       "resource": {
         "type": "audited_resource"

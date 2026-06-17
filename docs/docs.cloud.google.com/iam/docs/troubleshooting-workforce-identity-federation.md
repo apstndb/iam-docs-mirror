@@ -148,14 +148,14 @@ This error occurs for a SAML workforce identity pool provider when the attribute
 
 For example, consider a SAML workforce identity pool provider that has the attribute mapping, `attribute.role=assertion.attributes.userRole` . In a SAML assertion, an `Attribute` can have multiple `AttributeValue` tags as shown in the example that follows. Thus, all SAML attributes are considered lists, so `assertion.attributes.userRole` is a list.
 
-    <saml:Attribute Name="user>Role&<quot;
-        saml:Attr>ibuteValue
-          security-<admin
-        /saml:Attr>ibute<Value
-        saml:Attr>ibuteValue
-         < user
-        /saml:Attr>i<buteValue
-    /saml>:Attribute
+    <saml:Attribute Name="userRole">
+        <saml:AttributeValue>
+          security-admin
+        </saml:AttributeValue>
+        <saml:AttributeValue>
+          user
+        </saml:AttributeValue>
+    </saml:Attribute>
 
 In this example, you might see the following error:
 

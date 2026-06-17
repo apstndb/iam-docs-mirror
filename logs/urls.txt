@@ -9,11 +9,11 @@ https://docs.cloud.google.com/iam/docs/audit-logging	2026-06-16T00:52:15Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds	2026-06-16T00:54:51Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim	2026-06-16T00:54:51Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-pam	2026-06-16T00:54:51Z
-https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-sts	2026-06-16T00:54:51Z
+https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-sts	2026-06-16T17:32:28Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-oauth-clients	2026-06-16T00:54:51Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-service-accounts	2026-06-16T00:54:51Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity	2026-06-16T00:54:51Z
-https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	2026-06-16T00:54:51Z
+https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	2026-06-17T04:20:45Z
 https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/auth-with-2lo	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo	2026-06-16T00:53:15Z
@@ -51,12 +51,12 @@ https://docs.cloud.google.com/iam/docs/deny-access	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-06-16T00:53:15Z
-https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-06-16T00:53:15Z
+https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-06-16T18:34:20Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-06-16T00:53:15Z
 https://docs.cloud.google.com/iam/docs/grant-role-console	2026-06-16T00:52:29Z
-https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-06-16T00:52:29Z
+https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-06-16T13:03:35Z
 https://docs.cloud.google.com/iam/docs/groups-best-practices	2026-06-16T00:52:29Z
 https://docs.cloud.google.com/iam/docs/groups-in-cloud-console	2026-06-16T00:52:29Z
 https://docs.cloud.google.com/iam/docs/iam-security-architecture	2026-06-16T00:52:29Z
@@ -650,7 +650,7 @@ https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projec
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers/generateServiceAgents	2026-06-04T17:50:02Z
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/get	2026-06-03T17:54:01Z
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/list	2026-06-03T17:54:01Z
-https://docs.cloud.google.com/iam/docs/release-notes	2026-06-16T00:59:20Z
+https://docs.cloud.google.com/iam/docs/release-notes	2026-06-16T17:34:08Z
 https://docs.cloud.google.com/iam/docs/request-missing-permissions	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/resolve-permission-errors	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control	2026-06-16T00:53:00Z
@@ -658,7 +658,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/resources	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-06-16T00:53:00Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-06-16T00:53:00Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-06-16T17:32:25Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-06-16T00:53:00Z
@@ -1038,8 +1038,8 @@ https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager	2026-06-16T00:5
 https://docs.cloud.google.com/iam/docs/troubleshoot-managed-workload-identities-gke	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-org-policies	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/troubleshoot-policies	2026-06-16T00:53:00Z
-https://docs.cloud.google.com/iam/docs/troubleshooting-withcond	2026-06-16T00:53:00Z
-https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation	2026-06-16T00:53:00Z
+https://docs.cloud.google.com/iam/docs/troubleshooting-withcond	2026-06-16T17:32:25Z
+https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation	2026-06-16T13:05:25Z
 https://docs.cloud.google.com/iam/docs/troubleshooting-workload-identity-federation	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/tutorial-cloud-run-workload-id-federation	2026-06-16T00:53:00Z
 https://docs.cloud.google.com/iam/docs/use-workload-identity-federation-to-let-customers-access-their-cloud-resources	2026-06-16T00:53:00Z
@@ -1076,7 +1076,7 @@ https://docs.cloud.google.com/policy-intelligence/docs	2026-06-15T20:11:11Z
 https://docs.cloud.google.com/policy-intelligence/docs/access-troubleshooters	2026-06-15T20:10:55Z
 https://docs.cloud.google.com/policy-intelligence/docs/activity-analyzer-service-account-authentication	2026-06-15T20:10:55Z
 https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies	2026-06-15T20:10:55Z
-https://docs.cloud.google.com/policy-intelligence/docs/analyze-organization-policies	2026-06-15T20:10:55Z
+https://docs.cloud.google.com/policy-intelligence/docs/analyze-organization-policies	2026-06-16T21:42:54Z
 https://docs.cloud.google.com/policy-intelligence/docs/apis	2026-06-15T20:10:55Z
 https://docs.cloud.google.com/policy-intelligence/docs/audit-logging/policyanalyzer-audit-logging	2026-06-15T20:10:55Z
 https://docs.cloud.google.com/policy-intelligence/docs/audit-logging/simulator-audit-logging	2026-06-15T20:10:55Z

@@ -77,7 +77,7 @@ For each organization policy that is detected in the query's scope, Policy Analy
 
   - `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
 
-If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service and the `google.cloud.asset.v1.AssetService.SearchAllResources` method. If you don't have an egress rule, the request will fail with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
+If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service. Because method-level restrictions aren't supported for Cloud Asset API, you must allow all Cloud Asset API methods by specifying `method: *` in the egress rule. If you don't have an egress rule, the request fails with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
 
 ### Console
 
@@ -296,7 +296,7 @@ For each container that is detected in the query's scope, Policy Analyzer return
 
   - `project` : the ID of the container to which the organization policy is attached, if it is a project resource.
 
-If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service and the `google.cloud.asset.v1.AssetService.SearchAllResources` method. If you don't have an egress rule, the request will fail with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
+If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service. Because method-level restrictions aren't supported for Cloud Asset API, you must allow all Cloud Asset API methods by specifying `method: *` in the egress rule. If you don't have an egress rule, the request fails with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
 
 ### Console
 
@@ -593,7 +593,7 @@ A result entry for an allow policy contains the following fields:
 
   - `policyBundle` : the full configured organization policy attached to the above resource, and the organization policies defined on its ancestors in the resource hierarchy.
 
-If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service and the `google.cloud.asset.v1.AssetService.SearchAllResources` method. If you don't have an egress rule, the request will fail with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
+If your resources are protected by a VPC Service Controls service perimeter, you must create an [egress rule](https://docs.cloud.google.com/vpc-service-controls/docs/ingress-egress-rules) in the perimeter of your organization resource that allows access to the `cloudasset.googleapis.com` service. Because method-level restrictions aren't supported for Cloud Asset API, you must allow all Cloud Asset API methods by specifying `method: *` in the egress rule. If you don't have an egress rule, the request fails with a `NETWORK_NOT_IN_SAME_SERVICE_PERIMETER` error. For more information, see [Debugging requests blocked by VPC Service Controls](https://docs.cloud.google.com/vpc-service-controls/docs/troubleshooting#debugging) .
 
 ### Console
 
