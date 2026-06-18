@@ -72,12 +72,12 @@ For access to be *revoked* , all of the following must be true:
 
 A set of principal access boundary policies and bindings block a principal's access if *all* of the following are true:
 
-  - principal access boundary policies do affect the principal's access. In other words, the principal is subject to at least one principal access boundary policy that has an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
+  - Principal access boundary policies do affect the principal's access. In other words, the principal is subject to at least one principal access boundary policy that has an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
   - None of the principal access boundary policies that the principal is subject to include the resource.
 
 A set of principal access boundary policies and bindings don't block principal's access if *any* of the following are true:
 
-  - principal access boundary policies don't affect the principal's access. In other words, the principal isn't subject to any principal access boundary policies that that have an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
+  - Principal access boundary policies don't affect the principal's access. In other words, the principal isn't subject to any principal access boundary policies that that have an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
   - At least one of the principal access boundary policies that the principal is subject to includes the resource.
 
 ## Errors

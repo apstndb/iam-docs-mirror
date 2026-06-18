@@ -207,9 +207,9 @@ Replace the following:
     
     To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
 
-## Create IAM policies
+## Create allow policies
 
-In this section, you create an IAM allow policy that grants the role BigQuery Data Viewer ( `roles/bigquery.dataViewer` ) to the mapped group on the project where your BigQuery data is stored. The policy lets all identities that are in the group view data from BigQuery tables and views that are stored in the project.
+In this section, you create an allow policy that grants the role BigQuery Data Viewer ( `roles/bigquery.dataViewer` ) to the mapped group on the project where your BigQuery data is stored. The policy lets all identities that are in the group view data from BigQuery tables and views that are stored in the project.
 
 To create the policy, run the following command:
 

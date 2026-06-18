@@ -826,7 +826,7 @@ In this example, you grant an Identity and Access Management (IAM) role on a sam
 
 > **Note:** The sample project used here can be different from the project you used to set up Workforce Identity Federation.
 
-You can manage IAM roles for single identities, group of identities, or an entire pool. For more information, see [Represent workforce identity pool users in IAM policies](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation#representing-workforce-users) .
+You can manage IAM roles for single identities, group of identities, or an entire pool. For more information, see [Workforce principal identifiers for allow policies](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation#representing-workforce-users) .
 
 > **Note:** You must grant the Browser role ( `roles/browser` ) to all Workforce Identity Federation users that access the Google Cloud Workforce Identity Federation console, also known as the console (federated). You don't need to grant the role if the user accesses Google Cloud resources through the Google Cloud CLI.
 

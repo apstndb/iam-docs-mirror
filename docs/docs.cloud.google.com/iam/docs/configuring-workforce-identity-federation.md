@@ -703,7 +703,7 @@ To correct any errors, you can edit the configuration:
 2.  Make the necessary changes.
 3.  To start a new test and see the updated results, click **Save and refetch token** .
 
-## Workforce principal identifiers for IAM policies
+## Workforce principal identifiers for allow policies
 
 The following table shows the principal identifiers that you can use to grant roles to individual users and groups of users.
 

@@ -145,7 +145,7 @@ This section shows how to manage access to Google Cloud resources for PingFedera
 
 The sample project that's used in this guide can be different from the project you used to set up Workforce Identity Federation.
 
-You can manage roles for single identities, a group of identities, or an entire pool. For more information, see [Represent workforce identity pool users in IAM policies](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation#representing-workforce-users) .
+You can manage roles for single identities, a group of identities, or an entire pool. For more information, see [Workforce principal identifiers for allow policies](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation#representing-workforce-users) .
 
 ### Use mapped department attributes
 
@@ -195,23 +195,35 @@ To sign in to the Google Cloud Workforce Identity Federation console, also known
 
 To sign in to gcloud CLI using a browser-based sign-in flow:
 
-To create the login configuration file, run the following command. You can optionally activate the file as the default for the gcloud CLI by adding the [`--activate` flag](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/create-login-config) . You can then run `gcloud auth login` without specifying the configuration file path each time.
+Run the following command to create a login configuration file:
+
+### Linux and macOS
 
     gcloud iam workforce-pools create-login-config \
-        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/PROVIDER_ID \
-        --output-file=LOGIN_CONFIG_FILE_PATH
+        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID \
+        --output-file=LOGIN_CONFIG_PATH
+
+### Windows (PowerShell)
+
+    gcloud iam workforce-pools create-login-config `
+        locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID `
+        --output-file=LOGIN_CONFIG_PATH
+
+> **Note:** You can optionally activate the login configuration file as the default for the gcloud CLI by adding the [`--activate`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workforce-pools/create-login-config#--activate) flag. You can then run `gcloud auth login` to authorize the gcloud CLI without specifying the login configuration file path each time.
 
 Replace the following:
 
-  - `  WORKFORCE_POOL_ID  ` : the workforce pool ID
-  - `  PROVIDER_ID  ` : the provider ID
-  - `  LOGIN_CONFIG_FILE_PATH  ` : the path to a configuration file that you specify—for example, `login.json`
+  - `  WORKFORCE_POOL_ID  ` : The Workforce Identity Federation pool ID.
+  - `  WORKFORCE_PROVIDER_ID  ` : The Workforce Identity Federation provider ID.
+  - `  LOGIN_CONFIG_PATH  ` : The path to write the login configuration file to. For example, `login-config.json` .
 
-The file contains the endpoints used by the gcloud CLI to enable the browser-based authentication flow and set the audience to the IdP that was configured in the workforce identity pool provider. The file doesn't contain confidential information.
+The login configuration file contains the endpoints used by the gcloud CLI to enable the browser-based authentication flow and set the audience to the IdP that was configured in the workforce identity pool provider. The file doesn't contain confidential information.
 
-The output looks similar to the following:
+The login configuration file content looks similar to the following:
 
     {
+      "universe_domain": "googleapis.com",
+      "universe_cloud_web_domain": "cloud.google",
       "type": "external_account_authorized_user_login_config",
       "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
       "auth_url": "https://auth.cloud.google/authorize",
@@ -221,27 +233,67 @@ The output looks similar to the following:
 
 > **Caution:** We recommend that you first ensure that the contents of this file are correct and then safeguard the file—for example, by making it read-only and restricting access with an ACL. The file isn't validated; a malicious actor with write access to this file can change the endpoints and intercept credentials.
 
-To stop `gcloud auth login` from using this configuration file automatically, you can unset it by running `gcloud config unset auth/login_config_file` .
+Point to the login configuration file with an environment variable, a property in the active gcloud CLI configuration, or use it directly with the `gcloud auth login` command:
 
-To authenticate using browser-based sign-in authentication, you can use one of the following methods:
+### Environment variable
 
-  - If you used the `--activate` flag when you created the configuration file, or if you activated the configuration file with `gcloud config set auth/login_config_file` , the gcloud CLI uses your configuration file automatically:
+To use the login configuration file with an environment variable, complete the following instructions:
+
+1.  Set the `CLOUDSDK_AUTH_LOGIN_CONFIG_FILE` environment variable to the path of the login configuration file.
+
+2.  Run the following command:
     
         gcloud auth login
 
-  - To sign in by specifying the location of the configuration file, run the following command:
+3.  The gcloud CLI references the environment variable to find the login configuration file, and then starts the authentication process. Follow the browser-based flow to authenticate and authorize the gcloud CLI to access resources on your behalf for future commands.
+
+To stop using the login configuration file for `gcloud auth login` commands, clear the `CLOUDSDK_AUTH_LOGIN_CONFIG_FILE` environment variable.
+
+### gcloud CLI configuration
+
+To use the login configuration file with a gcloud CLI configuration property, complete the following instructions:
+
+1.  Set the active gcloud CLI configuration's `auth/login_config_file` property to the login configuration file's path with the following command:
     
-        gcloud auth login --login-config=LOGIN_CONFIG_FILE_PATH
+        gcloud config set auth/login_config_file LOGIN_CONFIG_PATH
 
-  - To use an environment variable to specify the location of the configuration file, set `CLOUDSDK_AUTH_LOGIN_CONFIG_FILE` to the configuration path.
-
-To discontinue using the login configuration file, do the following:
-
-  - If you used the `--activate` flag when you created the configuration file, or if you activated the configuration file with `gcloud config set auth/login_config_file` , you must run the following command to unset it:
+2.  Run the following command:
     
-        gcloud config unset auth/login_config_file
+        gcloud auth login
 
-  - Clear the `CLOUDSDK_AUTH_LOGIN_CONFIG_FILE` environment variable, if it is set.
+3.  The gcloud CLI references the configuration property to find the login configuration file, and then starts the authentication process. Follow the browser-based flow to authenticate and authorize the gcloud CLI to access resources on your behalf for future commands.
+
+To stop using the login configuration file for `gcloud auth login` commands, unset the property with the following command:
+
+    gcloud config unset auth/login_config_file
+
+### gcloud auth login
+
+To use the login configuration file directly with the `gcloud auth login` command, complete the following instructions:
+
+  - If you used the `--activate` flag when you created the login configuration file, run the following command:
+    
+        gcloud auth login
+
+  - If you didn't use the `--activate` flag when you created the login configuration file, run the following command:
+    
+    ### Linux and macOS
+    
+        gcloud auth login \
+            --login-config=LOGIN_CONFIG_PATH
+    
+    ### Windows (PowerShell)
+    
+        gcloud auth login `
+            --login-config=LOGIN_CONFIG_PATH
+    
+    Replace LOGIN\_CONFIG\_PATH with the path of your login configuration file.
+
+The [gcloud auth login](https://docs.cloud.google.com/sdk/gcloud/reference/auth/login) command stores access credentials in your home directory. The authenticated principal becomes the active principal in your active gcloud CLI configuration. Unless overridden, the gcloud CLI uses these stored credentials to access Google Cloud.
+
+> **Caution** : Any user with access to your file system can use the stored access credentials created by `gcloud auth login` . To reduce the consequences of a system being compromised, strictly separate human and workload use, and don't use `gcloud auth login` for automated workloads on remote systems with persistent storage. Where possible, use a secret manager in combination with environment variables instead.
+> 
+> For more guidance on hardening remote systems, see [Mitigating compromised OAuth tokens for Google Cloud CLI](https://docs.cloud.google.com/architecture/bps-for-mitigating-gcloud-oauth-tokens) .
 
 ### gcloud CLI headless sign-in
 

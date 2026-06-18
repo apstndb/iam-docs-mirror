@@ -186,7 +186,7 @@ If your identity provider (IdP) supports the [System for Cross-domain Identity M
 
 For more information, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
 
-## Workforce principal identifiers for IAM policies
+## Workforce principal identifiers for allow policies
 
 The following table shows the principal identifiers that you can use to grant roles to individual users and groups of users.
 
@@ -252,7 +252,7 @@ Partner Example Organization's administrator can now configure the `example-orga
 
 In large enterprises, IT administrators often create security groups as part of a best-practices access-control model. Security groups govern access to internal resources. Further, companies often create additional groups for employees and other groups for partners to extend this access-control model to cloud resources. This can result in proliferation of deeply nested groups that can become very difficult to manage.
 
-Your organization might also have policies that limit the number of groups that you can create so as to keep the user directory hierarchy reasonably flat. A better solution to prevent misconfiguration of IAM policies and limit growth of groups is to use multiple pools to create a broader separation of users from different organizational units and business units, and partner organizations. You can then reference these pools and groups contained within these pools to define IAM policies (see examples in the Configuring IAM step).
+Your organization might also have policies that limit the number of groups that you can create so as to keep the user directory hierarchy reasonably flat. A better solution to prevent misconfiguration of allow policies and limit growth of groups is to use multiple pools to create a broader separation of users from different organizational units and business units, and partner organizations. You can then reference these pools and groups contained within these pools to define allow policies (see examples in the Configuring IAM step).
 
 ### VPC Service Controls limitations
 
