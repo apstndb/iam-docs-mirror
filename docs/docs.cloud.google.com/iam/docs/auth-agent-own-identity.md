@@ -15,7 +15,7 @@ When an agent acts on its own authority, it uses its primary [SPIFFE identity](h
 ## Before you begin
 
 1.  [Verify that you have chosen the correct authentication method](https://docs.cloud.google.com/iam/docs/agent-identity-overview#auth-models) .
-2.  [Create and deploy an agent](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/runtime/quickstart-adk) with Agent Identity enabled.
+2.  [Create and deploy an agent](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent) with Agent Identity enabled.
 3.  [Verify that you have the roles required to complete this task](https://docs.cloud.google.com/iam/docs/auth-agent-own-identity#req-roles) .
 
 ### Required roles

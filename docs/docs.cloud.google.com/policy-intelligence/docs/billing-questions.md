@@ -6,6 +6,8 @@ description: Get help with billing questions.
 data_source: docs.cloud.google.com
 ---
 
+> The Security Command Center Enterprise service tier will shut down on May 21, 2027. If your organization uses the Enterprise service tier, then the organization will automatically move to the Premium service tier on or after May 21, 2027. Contact your account representative or a [Google Cloud sales specialist](https://cloud.google.com/contact) if you have questions.
+
 ## Pricing
 
 The following advanced IAM recommender features are available with project-level or organization-level activations of [the Premium or Enterprise tier of Security Command Center](https://cloud.google.com/security-command-center/pricing#security-command-center-pricing) :
