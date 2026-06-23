@@ -43,6 +43,14 @@ This page lists the IAM roles and permissions for Filestore. To search through a
 <p><code dir="ltr" translate="no">backupdr.locations.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.operations.get</code></p>
 <p><code dir="ltr" translate="no">backupdr.  serviceConfig.  initialize</code></p>
+<p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">file.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">file.backups.create</code></li>
@@ -102,6 +110,14 @@ This page lists the IAM roles and permissions for Filestore. To search through a
 <p><code dir="ltr" translate="no">backupdr.locations.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.operations.get</code></p>
 <p><code dir="ltr" translate="no">backupdr.  serviceConfig.  initialize</code></p>
+<p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">file.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">file.backups.create</code></li>

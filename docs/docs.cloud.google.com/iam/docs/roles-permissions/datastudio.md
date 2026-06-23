@@ -273,6 +273,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="datastudio.managedStorageServiceAgent" class="role-title add-link" data-text="Data Studio Managed Storage Service Agent" tabindex="-1">Data Studio Managed Storage Service Agent</h4>
+<p>( <code dir="ltr" translate="no">roles/  datastudio.managedStorageServiceAgent</code> )</p>
+<p>Grants Data Studio Service Account access to manage resources in the user project.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code dir="ltr" translate="no">bigquery.datasets.get</code></p>
+<p><code dir="ltr" translate="no">bigquery.tables.create</code></p>
+<p><code dir="ltr" translate="no">bigquery.tables.delete</code></p>
+<p><code dir="ltr" translate="no">bigquery.tables.getData</code></p>
+<p><code dir="ltr" translate="no">bigquery.tables.list</code></p>
+<p><code dir="ltr" translate="no">bigquery.tables.updateData</code></p>
+<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
+<p><code dir="ltr" translate="no">storage.objects.create</code></p>
+<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
+<p><code dir="ltr" translate="no">storage.objects.get</code></p>
+<p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="datastudio.serviceAgent" class="role-title add-link" data-text="Data Studio Service Agent" tabindex="-1">Data Studio Service Agent</h4>
 <p>( <code dir="ltr" translate="no">roles/  datastudio.serviceAgent</code> )</p>
 <p>Grants Data Studio Service Account access to manage resources.</p>

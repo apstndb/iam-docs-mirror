@@ -78,6 +78,18 @@ This page lists the IAM roles and permissions for Google Cloud Support. To searc
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="cloudsupport.supportSubscriptionEditor" class="role-title add-link" data-text="Support Subscription Editor" tabindex="-1">Support Subscription Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  cloudsupport.supportSubscriptionEditor</code> )</p>
+<p>Full read-write access to support event subscriptions.</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="cloudsupport.supportSubscriptionViewer" class="role-title add-link" data-text="Support Subscription Viewer" tabindex="-1">Support Subscription Viewer</h4>
+<p>( <code dir="ltr" translate="no">roles/  cloudsupport.supportSubscriptionViewer</code> )</p>
+<p>Read-only access to support event subscriptions.</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="cloudsupport.techSupportEditor" class="role-title add-link" data-text="Tech Support Editor" tabindex="-1">Tech Support Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  cloudsupport.techSupportEditor</code> )</p>
 <p>Full read-write access to technical support cases (applicable for GCP Customer Care and Maps support). See the <a href="https://docs.cloud.google.com/support/docs/access-control#tech_support_editor">Cloud Support documentation</a> for more information.</p></td>

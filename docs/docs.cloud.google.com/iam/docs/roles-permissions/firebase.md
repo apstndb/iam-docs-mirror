@@ -1039,6 +1039,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">cloudfunctions.operations.get</code></li>
 <li><code dir="ltr" translate="no">cloudfunctions.operations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudtestservice.*</code></p>
 <ul>
@@ -1488,6 +1490,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">cloudfunctions.operations.get</code></li>
 <li><code dir="ltr" translate="no">cloudfunctions.operations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">cloudtestservice.  environmentcatalog.  get</code></p>
 <p><code dir="ltr" translate="no">cloudtestservice.matrices.get</code></p>
@@ -3008,6 +3012,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <td><p><code dir="ltr" translate="no">apikeys.keys.get</code></p>
 <p><code dir="ltr" translate="no">apikeys.keys.list</code></p>
 <p><code dir="ltr" translate="no">cloudconfig.configs.get</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
 <p><code dir="ltr" translate="no">fcmdata.deliverydata.list</code></p>
 <p><code dir="ltr" translate="no">firebase.billingPlans.get</code></p>
@@ -3278,6 +3284,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">firebaseappcheck.  recaptchaEnterpriseConfig.  get</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.  recaptchaEnterpriseConfig.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">firebaseappcheck.  recaptchaV3Config.  get</code></p>
 <p><code dir="ltr" translate="no">firebaseappcheck.services.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">firebaseappcheck.services.get</code></li>

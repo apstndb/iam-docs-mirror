@@ -323,6 +323,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <li><code dir="ltr" translate="no">dspm.operations.get</code></li>
 <li><code dir="ltr" translate="no">dspm.operations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">externalexposure.  scanMetrics.  get</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccountKeys.create</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.create</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
@@ -800,6 +801,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 </ul>
 <p><code dir="ltr" translate="no">dspm.operations.get</code></p>
 <p><code dir="ltr" translate="no">dspm.operations.list</code></p>
+<p><code dir="ltr" translate="no">externalexposure.  scanMetrics.  get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
@@ -1238,6 +1240,7 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 </ul>
 <p><code dir="ltr" translate="no">dspm.operations.get</code></p>
 <p><code dir="ltr" translate="no">dspm.operations.list</code></p>
+<p><code dir="ltr" translate="no">externalexposure.  scanMetrics.  get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>

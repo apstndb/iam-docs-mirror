@@ -12335,6 +12335,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.assetActions.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  changeRequests.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataAssets.list</code></p>
@@ -12695,6 +12697,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">eventarc.  triggers.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">externalexposure.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">externalexposure.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">externalexposure.  scanMetrics.  get</code></p>
 <p><code dir="ltr" translate="no">faulttesting.  affectedResources.  list</code></p>
 <p><code dir="ltr" translate="no">faulttesting.  experimentTemplates.  list</code></p>
 <p><code dir="ltr" translate="no">faulttesting.experiments.list</code></p>
@@ -19765,6 +19768,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.assets.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.readData</code></p>
+<p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  changeRequests.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.list</code></p>
@@ -19797,6 +19803,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
@@ -19807,6 +19814,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.glossaries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaries.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaries.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  glossaries.  requestChanges</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.get</code></p>
@@ -21597,6 +21605,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">navigationconnect.trips.get</code></p>
 <p><code dir="ltr" translate="no">nestconsole.  smarthomeProjects.  get</code></p>
 <p><code dir="ltr" translate="no">nestconsole.  smarthomeVersions.  get</code></p>
 <p><code dir="ltr" translate="no">netapp.activeDirectories.get</code></p>
@@ -21709,6 +21718,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">networkmanagement.  operations.  get</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">networkmanagement.  providers.  generateProviderAccessToken</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  providers.  get</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  providers.  list</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  topologygraphs.  read</code></p>

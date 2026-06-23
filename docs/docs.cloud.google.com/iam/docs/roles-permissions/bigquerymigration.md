@@ -75,6 +75,18 @@ This page lists the IAM roles and permissions for BigQuery Migration API. To sea
 <p><code dir="ltr" translate="no">bigquerymigration.  workflows.  list</code></p></td>
 </tr>
 <tr class="even">
+<td><h4 id="bigquerymigration.migrationEditor" class="role-title add-link" data-text="Migration Management Editor Beta" tabindex="-1">Migration Management Editor <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  bigquerymigration.migrationEditor</code> )</p>
+<p>Admin of EDW migrations.</p></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><h4 id="bigquerymigration.migrationViewer" class="role-title add-link" data-text="Migration Management Viewer Beta" tabindex="-1">Migration Management Viewer <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  bigquerymigration.migrationViewer</code> )</p>
+<p>Viewer of EDW migrations.</p></td>
+<td></td>
+</tr>
+<tr class="even">
 <td><h4 id="bigquerymigration.orchestrator" class="role-title add-link" data-text="Task Orchestrator" tabindex="-1">Task Orchestrator</h4>
 <p>( <code dir="ltr" translate="no">roles/  bigquerymigration.orchestrator</code> )</p>
 <p>Orchestrator of EDW migration tasks.</p></td>

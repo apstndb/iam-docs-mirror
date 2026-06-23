@@ -6,10 +6,6 @@ description: Learn how to authenticate to Identity and Access Management.
 data_source: docs.cloud.google.com
 ---
 
-> **Alpha — Identity and Access Management**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 This document describes how to authenticate to Identity and Access Management programmatically. How you authenticate to Identity and Access Management depends on the interface you use to access the API and the environment where your code is running.
 
 For more information about Google Cloud authentication, see the [Authentication methods](https://docs.cloud.google.com/docs/authentication) .

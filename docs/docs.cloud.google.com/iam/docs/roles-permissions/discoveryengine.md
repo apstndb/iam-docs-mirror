@@ -2450,6 +2450,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">aiplatform.  reasoningEngines.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  reasoningEngines.  query</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  reasoningEngines.  update</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  sandboxEnvironments.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  sandboxEnvironments.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  sandboxEnvironments.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  sandboxEnvironments.  execute</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  sandboxEnvironments.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  sandboxEnvironments.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">alloydb.clusters.export</code></p>
 <p><code dir="ltr" translate="no">alloydb.databases.list</code></p>
 <p><code dir="ltr" translate="no">alloydb.instances.get</code></p>

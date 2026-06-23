@@ -105,6 +105,7 @@ This page lists the IAM roles and permissions for Network Management API. To sea
 <li><code dir="ltr" translate="no">networkmanagement.  operations.  get</code></li>
 <li><code dir="ltr" translate="no">networkmanagement.  operations.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">networkmanagement.  providers.  generateProviderAccessToken</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  providers.  get</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  providers.  list</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  topologygraphs.  read</code></p>
@@ -152,6 +153,7 @@ This page lists the IAM roles and permissions for Network Management API. To sea
 </ul>
 <p><code dir="ltr" translate="no">networkmanagement.  operations.  get</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">networkmanagement.  providers.  generateProviderAccessToken</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  providers.  get</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  providers.  list</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  topologygraphs.  read</code></p>
@@ -720,8 +722,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><h4 id="networkmanagement.providers.generateProviderAccessToken" class="permission-name add-link" data-text="networkmanagement.providers.generateProviderAccessToken" tabindex="-1"><code dir="ltr" translate="no">networkmanagement.  providers.  generateProviderAccessToken</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.admin">Network Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.editor">Networkmanagement Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.viewer">Network Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.CloudNetworkInsightsAdmin">Cloud Network Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.CloudNetworkInsightsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.CloudNetworkInsightsEditor">Cloud Network Insights Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.CloudNetworkInsightsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.CloudNetworkInsightsViewer">Cloud Network Insights Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.CloudNetworkInsightsViewer</code> )</p></td>

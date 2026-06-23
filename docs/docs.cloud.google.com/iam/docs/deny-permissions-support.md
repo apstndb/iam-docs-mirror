@@ -11212,6 +11212,24 @@ Knowledge Catalog
 
 `dataplex.googleapis.com/aspectTypes.use`
 
+`dataplex.googleapis.com/changeRequests.*`
+
+`dataplex.googleapis.com/changeRequests.adminDelete`
+
+`dataplex.googleapis.com/changeRequests.delete`
+
+`dataplex.googleapis.com/changeRequests.get`
+
+`dataplex.googleapis.com/changeRequests.getIamPolicy`
+
+`dataplex.googleapis.com/changeRequests.list`
+
+`dataplex.googleapis.com/changeRequests.setIamPolicy`
+
+`dataplex.googleapis.com/changeRequests.update`
+
+`dataplex.googleapis.com/changeRequests.use`
+
 `dataplex.googleapis.com/dataAssets.*`
 
 `dataplex.googleapis.com/dataAssets.create`
@@ -11225,6 +11243,8 @@ Knowledge Catalog
 `dataplex.googleapis.com/dataAssets.update`
 
 `dataplex.googleapis.com/dataProducts.*`
+
+`dataplex.googleapis.com/dataProducts.approve`
 
 `dataplex.googleapis.com/dataProducts.create`
 
@@ -11289,6 +11309,8 @@ Knowledge Catalog
 `dataplex.googleapis.com/entryGroups.import`
 
 `dataplex.googleapis.com/entryGroups.list`
+
+`dataplex.googleapis.com/entryGroups.requestChanges`
 
 `dataplex.googleapis.com/entryGroups.setIamPolicy`
 
@@ -11393,6 +11415,8 @@ Knowledge Catalog
 `dataplex.googleapis.com/glossaries.import`
 
 `dataplex.googleapis.com/glossaries.list`
+
+`dataplex.googleapis.com/glossaries.requestChanges`
 
 `dataplex.googleapis.com/glossaries.setIamPolicy`
 
@@ -15964,27 +15988,83 @@ Cloud Service Mesh
 
 Dataproc Metastore
 
+`metastore.googleapis.com/backups.getIamPolicy`
+
+`metastore.googleapis.com/backups.setIamPolicy`
+
 `metastore.googleapis.com/databases.delete`
+
+`metastore.googleapis.com/databases.getIamPolicy`
+
+`metastore.googleapis.com/databases.setIamPolicy`
 
 `metastore.googleapis.com/databases.update`
 
+`metastore.googleapis.com/federations.create`
+
 `metastore.googleapis.com/federations.createTagBinding`
 
+`metastore.googleapis.com/federations.delete`
+
 `metastore.googleapis.com/federations.deleteTagBinding`
+
+`metastore.googleapis.com/federations.get`
+
+`metastore.googleapis.com/federations.getIamPolicy`
+
+`metastore.googleapis.com/federations.list`
 
 `metastore.googleapis.com/federations.listEffectiveTags`
 
 `metastore.googleapis.com/federations.listTagBindings`
 
+`metastore.googleapis.com/federations.setIamPolicy`
+
+`metastore.googleapis.com/federations.update`
+
+`metastore.googleapis.com/imports.*`
+
+`metastore.googleapis.com/imports.create`
+
+`metastore.googleapis.com/imports.get`
+
+`metastore.googleapis.com/imports.list`
+
+`metastore.googleapis.com/imports.update`
+
+`metastore.googleapis.com/locations.*`
+
+`metastore.googleapis.com/locations.get`
+
+`metastore.googleapis.com/locations.list`
+
+`metastore.googleapis.com/operations.*`
+
+`metastore.googleapis.com/operations.cancel`
+
+`metastore.googleapis.com/operations.delete`
+
+`metastore.googleapis.com/operations.get`
+
+`metastore.googleapis.com/operations.list`
+
 `metastore.googleapis.com/services.createTagBinding`
 
 `metastore.googleapis.com/services.deleteTagBinding`
+
+`metastore.googleapis.com/services.getIamPolicy`
 
 `metastore.googleapis.com/services.listEffectiveTags`
 
 `metastore.googleapis.com/services.listTagBindings`
 
+`metastore.googleapis.com/services.setIamPolicy`
+
 `metastore.googleapis.com/tables.delete`
+
+`metastore.googleapis.com/tables.getIamPolicy`
+
+`metastore.googleapis.com/tables.setIamPolicy`
 
 `metastore.googleapis.com/tables.update`
 
@@ -16173,6 +16253,18 @@ Cloud Monitoring
 `monitoring.googleapis.com/uptimeCheckConfigs.list`
 
 `monitoring.googleapis.com/uptimeCheckConfigs.update`
+
+Navigation Connect
+
+`navigationconnect.googleapis.com/*.*`
+
+`navigationconnect.googleapis.com/trips.*`
+
+`navigationconnect.googleapis.com/trips.cancel`
+
+`navigationconnect.googleapis.com/trips.create`
+
+`navigationconnect.googleapis.com/trips.get`
 
 Google Cloud NetApp Volumes
 

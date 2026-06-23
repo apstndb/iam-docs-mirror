@@ -1601,6 +1601,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">dataplex.assets.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.  changeRequests.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  changeRequests.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.setIamPolicy</code></p>
@@ -4283,6 +4286,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">dataplex.assetActions.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.assets.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  changeRequests.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.content.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataAssets.list</code></p>
