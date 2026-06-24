@@ -3348,6 +3348,10 @@ Google Security Operations
 
 `chronicle.googleapis.com/collectors.update`
 
+`chronicle.googleapis.com/connectorEvents.*`
+
+`chronicle.googleapis.com/connectorEvents.get`
+
 `chronicle.googleapis.com/connectorInstanceLogs.*`
 
 `chronicle.googleapis.com/connectorInstanceLogs.get`
@@ -3735,6 +3739,14 @@ Google Security Operations
 `chronicle.googleapis.com/featuredContentNativeDashboards.install`
 
 `chronicle.googleapis.com/featuredContentNativeDashboards.list`
+
+`chronicle.googleapis.com/featuredContentPlaybooks.*`
+
+`chronicle.googleapis.com/featuredContentPlaybooks.get`
+
+`chronicle.googleapis.com/featuredContentPlaybooks.install`
+
+`chronicle.googleapis.com/featuredContentPlaybooks.list`
 
 `chronicle.googleapis.com/featuredContentRules.*`
 
@@ -4385,6 +4397,8 @@ Google Security Operations
 `chronicle.googleapis.com/moduleSettings.*`
 
 `chronicle.googleapis.com/moduleSettings.get`
+
+`chronicle.googleapis.com/moduleSettings.modifyCaseList`
 
 `chronicle.googleapis.com/moduleSettings.rebranding`
 

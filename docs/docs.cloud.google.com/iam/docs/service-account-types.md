@@ -89,9 +89,17 @@ You can determine which type of resource a service agent is associated with by l
 
 Your project's allow policy is likely to refer to a service account named the Google APIs Service Agent, with an email address that uses the following format: `  project-number @cloudservices.gserviceaccount.com ` .
 
-This service account runs internal Google Cloud processes on your behalf. It is automatically granted the Editor role ( `roles/editor` ) on the project.
+This service account runs internal processes on your behalf, primarily for Compute Engine features. By default, the Google APIs Service Agent is granted the Instance Group Manager Service Agent role ( `roles/compute.instanceGroupManagerServiceAgent` ).
 
-> **Warning:** Unless a [role recommendation](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) suggests it, don't revoke the roles that are granted to the Google APIs Service Agent. If you revoke these roles in a way that is not suggested by a role recommendation, some Google Cloud services will no longer work.
+However, in some cases, the Google APIs Service Agent might automatically be granted a different role:
+
+  - **Dataproc Service Agent role ( `roles/dataproc.serviceAgent` )** : Granted if you enable the Dataproc API
+
+  - **Cloud Scheduler Service Agent role ( `roles/cloudscheduler.serviceAgent` )** : Granted if you enable the Cloud Scheduler API
+
+  - **Editor role ( `roles/editor` )** : Granted if your project was created before April 2026 or if you enable the Cloud Deployment Manager API
+    
+    The Editor role is highly permissive. If the Google APIs Service Agent is granted the Editor role, then we recommend using the [Role Recommender](https://docs.cloud.google.com/policy-intelligence/docs/role-recommendations-overview) to determine if you can safely reduce its permissions.
 
 ### Role manager for service agents
 

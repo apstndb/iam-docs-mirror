@@ -20,7 +20,7 @@ https://docs.cloud.google.com/iam/docs/auth-with-2lo	2026-06-22T15:51:51Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo	2026-06-22T15:52:13Z
 https://docs.cloud.google.com/iam/docs/auth-with-api-key	2026-06-22T15:51:51Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-06-22T15:52:02Z
-https://docs.cloud.google.com/iam/docs/authentication	2026-06-22T15:52:02Z
+https://docs.cloud.google.com/iam/docs/authentication	2026-06-23T13:48:01Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-06-22T15:52:13Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines	2026-06-22T15:52:02Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation	2026-06-22T15:52:13Z
@@ -51,7 +51,7 @@ https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-06-
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-06-22T15:51:51Z
 https://docs.cloud.google.com/iam/docs/deny-access	2026-06-22T15:52:02Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-06-22T15:52:25Z
-https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-06-22T22:45:33Z
+https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-06-23T20:18:07Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-06-22T15:52:13Z
 https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-06-22T15:52:13Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-06-22T15:51:51Z
@@ -1023,7 +1023,7 @@ https://docs.cloud.google.com/iam/docs/service-account-impersonation	2026-06-22T
 https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-06-22T15:52:02Z
 https://docs.cloud.google.com/iam/docs/service-account-overview	2026-06-22T15:52:13Z
 https://docs.cloud.google.com/iam/docs/service-account-permissions	2026-06-22T15:52:02Z
-https://docs.cloud.google.com/iam/docs/service-account-types	2026-06-22T15:52:02Z
+https://docs.cloud.google.com/iam/docs/service-account-types	2026-06-23T16:22:39Z
 https://docs.cloud.google.com/iam/docs/service-account-usage-tools	2026-06-22T15:52:13Z
 https://docs.cloud.google.com/iam/docs/service-accounts-create	2026-06-22T15:52:02Z
 https://docs.cloud.google.com/iam/docs/service-accounts-custom-constraints	2026-06-22T15:52:13Z
