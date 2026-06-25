@@ -94,6 +94,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -106,6 +108,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.jobs.run</code></li>
 <li><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></li>
 <li><code dir="ltr" translate="no">run.jobs.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -128,6 +132,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.services.listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">run.services.listTagBindings</code></li>
 <li><code dir="ltr" translate="no">run.services.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.services.update</code></li>
 <li><code dir="ltr" translate="no">run.tasks.get</code></li>
 <li><code dir="ltr" translate="no">run.tasks.list</code></li>
@@ -137,6 +143,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.list</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.update</code></li>
 </ul></td>
 </tr>
@@ -227,6 +235,11 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -236,6 +249,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -264,6 +279,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -275,6 +292,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p></td>
 </tr>
 <tr class="even">
@@ -348,6 +367,11 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -357,6 +381,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -385,6 +411,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -396,6 +424,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p></td>
 </tr>
 <tr class="odd">
@@ -762,6 +792,11 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -771,6 +806,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -799,6 +836,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -810,6 +849,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
@@ -998,6 +1039,24 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="run.sshReader" class="role-title add-link" data-text="Cloud Run SSH Read Only Beta" tabindex="-1">Cloud Run SSH Read Only <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  run.sshReader</code> )</p>
+<p>Can SSH into Cloud Run instances and read data.</p></td>
+<td><p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="run.sshRoot" class="role-title add-link" data-text="Cloud Run SSH Root Access Beta" tabindex="-1">Cloud Run SSH Root Access <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  run.sshRoot</code> )</p>
+<p>Can SSH into Cloud Run instances and run commands as root.</p></td>
+<td><p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -1318,6 +1377,58 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="run.instances.sshRead" class="permission-name add-link" data-text="run.instances.sshRead" tabindex="-1"><code dir="ltr" translate="no">run.instances.sshRead</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshReader">Cloud Run SSH Read Only</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshReader</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="run.instances.sshRoot" class="permission-name add-link" data-text="run.instances.sshRoot" tabindex="-1"><code dir="ltr" translate="no">run.instances.sshRoot</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshRoot">Cloud Run SSH Root Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshRoot</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1650,6 +1761,58 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="run.jobs.sshRead" class="permission-name add-link" data-text="run.jobs.sshRead" tabindex="-1"><code dir="ltr" translate="no">run.jobs.sshRead</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshReader">Cloud Run SSH Read Only</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshReader</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="run.jobs.sshRoot" class="permission-name add-link" data-text="run.jobs.sshRoot" tabindex="-1"><code dir="ltr" translate="no">run.jobs.sshRoot</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshRoot">Cloud Run SSH Root Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshRoot</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="run.jobs.update" class="permission-name add-link" data-text="run.jobs.update" tabindex="-1"><code dir="ltr" translate="no">run.jobs.update</code></h4></td>
@@ -2326,6 +2489,58 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="run.services.sshRead" class="permission-name add-link" data-text="run.services.sshRead" tabindex="-1"><code dir="ltr" translate="no">run.services.sshRead</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshReader">Cloud Run SSH Read Only</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshReader</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="run.services.sshRoot" class="permission-name add-link" data-text="run.services.sshRoot" tabindex="-1"><code dir="ltr" translate="no">run.services.sshRoot</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshRoot">Cloud Run SSH Root Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshRoot</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><h4 id="run.services.update" class="permission-name add-link" data-text="run.services.update" tabindex="-1"><code dir="ltr" translate="no">run.services.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2582,6 +2797,58 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="run.workerpools.sshRead" class="permission-name add-link" data-text="run.workerpools.sshRead" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.sshRead</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshReader">Cloud Run SSH Read Only</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshReader</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="run.workerpools.sshRoot" class="permission-name add-link" data-text="run.workerpools.sshRoot" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.sshRoot</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sshRoot">Cloud Run SSH Root Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sshRoot</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="run.workerpools.update" class="permission-name add-link" data-text="run.workerpools.update" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.update</code></h4></td>

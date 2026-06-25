@@ -268,6 +268,7 @@ This page lists the IAM roles and permissions for Access Context Manager. To sea
 <p><code dir="ltr" translate="no">accesscontextmanager.  policies.  list</code></p>
 <p><code dir="ltr" translate="no">accesscontextmanager.  servicePerimeters.  get</code></p>
 <p><code dir="ltr" translate="no">accesscontextmanager.  servicePerimeters.  list</code></p>
+<p><code dir="ltr" translate="no">iam.roles.get</code></p>
 <p><code dir="ltr" translate="no">logging.exclusions.get</code></p>
 <p><code dir="ltr" translate="no">logging.exclusions.list</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.list</code></p>

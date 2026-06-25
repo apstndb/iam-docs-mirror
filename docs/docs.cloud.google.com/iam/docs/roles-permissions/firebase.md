@@ -791,6 +791,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -803,6 +805,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.jobs.run</code></li>
 <li><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></li>
 <li><code dir="ltr" translate="no">run.jobs.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -825,6 +829,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.services.listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">run.services.listTagBindings</code></li>
 <li><code dir="ltr" translate="no">run.services.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.services.update</code></li>
 <li><code dir="ltr" translate="no">run.tasks.get</code></li>
 <li><code dir="ltr" translate="no">run.tasks.list</code></li>
@@ -834,6 +840,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.list</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">runtimeconfig.configs.create</code></p>
@@ -2421,6 +2429,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -2433,6 +2443,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.jobs.run</code></li>
 <li><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></li>
 <li><code dir="ltr" translate="no">run.jobs.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -2455,6 +2467,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.services.listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">run.services.listTagBindings</code></li>
 <li><code dir="ltr" translate="no">run.services.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.services.update</code></li>
 <li><code dir="ltr" translate="no">run.tasks.get</code></li>
 <li><code dir="ltr" translate="no">run.tasks.list</code></li>
@@ -2464,6 +2478,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.list</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">runtimeconfig.configs.create</code></p>

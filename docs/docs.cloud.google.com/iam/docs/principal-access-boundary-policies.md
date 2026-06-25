@@ -117,19 +117,19 @@ The following table lists the types of principal sets that you can bind principa
 <tr class="odd">
 <td>Workforce identity pool</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-identity-pools">workforce identity pool</a> .</p>
-<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/locations/global/workforcePools/          WORKFORCE_POOL_ID        </code></p></td>
+<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/locations/global/  workforcePools/           WORKFORCE_POOL_ID        </code></p></td>
 <td>The organization that contains the workforce identity pool</td>
 </tr>
 <tr class="even">
 <td>Workload identity pool</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/workload-identity-federation#pools">workload identity pool</a> .</p>
-<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/projects/          PROJECT_NUMBER         /locations/global/workloadIdentityPools/          WORKLOAD_POOL_ID        </code></p></td>
+<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/projects/           PROJECT_NUMBER         /  locations/  global/  workloadIdentityPools/           WORKLOAD_POOL_ID        </code></p></td>
 <td>The project that contains the workload identity pool</td>
 </tr>
 <tr class="odd">
 <td>Google Workspace domain</td>
 <td><p>Contains all identities in the specified <a href="https://docs.cloud.google.com/iam/docs/principals-overview#domains">Google Workspace domain</a> .</p>
-<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/locations/global/workspace/          CUSTOMER_ID        </code></p>
+<p>Format: <code dir="ltr" translate="no">//iam.googleapis.com/locations/  global/  workspace/           CUSTOMER_ID        </code></p>
 <p>You can find your customer ID by using the following methods:</p>
 <ul>
 <li>Use the <a href="https://docs.cloud.google.com/sdk/gcloud/reference/organizations/describe"><code dir="ltr" translate="no">gcloud organizations describe</code> command</a> . Your workspace ID is in the <code dir="ltr" translate="no">directoryCustomerId</code> field in the response.</li>
@@ -160,6 +160,16 @@ The following table lists the types of principal sets that you can bind principa
 </ul>
 <p>Format: <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/  organizations/           ORGANIZATION_ID        </code></p></td>
 <td>The organization</td>
+</tr>
+<tr class="odd">
+<td>Agent identities</td>
+<td><p>All agent identities in the specified project's trust domain. By default, a project's trust domain contains all <a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">agent identities</a> in the project.</p>
+<p>Formats:</p>
+<ul>
+<li><code dir="ltr" translate="no">//agents.global.org-           ORGANIZATION_ID          .system.id.goog/  attribute.container/  projects/            PROJECT_NUMBER         </code></li>
+<li><code dir="ltr" translate="no">//agents.global.proj-           PROJECT_NUMBER          .system.id.goog/  attribute.container/  projects/            PROJECT_NUMBER         </code></li>
+</ul></td>
+<td>The project</td>
 </tr>
 </tbody>
 </table>

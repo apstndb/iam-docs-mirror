@@ -200,14 +200,17 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul></td>
 </tr>
 <tr class="odd">
-<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#workforce">A single identity in a workforce identity pool</a></td>
+<td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#workforce">A single principal in a workforce identity pool</a></td>
 <td>A human user with an identity that is managed by an external IdP and federated by using Workforce Identity Federation.</td>
 <td>Single principal</td>
 <td>Federated</td>
-<td><p>The following policy types support a single identity in a workforce identity pool:</p>
+<td><p>The following policy types support a single principal in a workforce identity pool:</p>
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+</ul>
+<p>The following policy types don't support a single principal in a workforce identity pool:</p>
+<ul>
 <li><strong>Principal access boundary</strong></li>
 </ul></td>
 </tr>
@@ -232,6 +235,9 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+</ul>
+<p>The following policy types don't support a single principal in a workload identity pool:</p>
+<ul>
 <li><strong>Principal access boundary</strong></li>
 </ul></td>
 </tr>
@@ -271,16 +277,24 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
+</ul>
+<p>The following policy types don't support individual agent identities:</p>
+<ul>
+<li><strong>Principal access boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">A set of agent identities</a></td>
-<td>All agent identities in an agent identity pool.</td>
+<td>All agent identities in a project, folder, or organization.</td>
 <td>Principal set that contains agent identities.</td>
 <td>Google-managed</td>
 <td><p>The following policy types support a set of agent identities:</p>
 <ul>
 <li><strong>Allow</strong></li>
+<li><strong>Principal access boundary</strong> (only for agent identities in a project)</li>
+</ul>
+<p>The following policy types don't support sets of agent identities:</p>
+<ul>
 <li><strong>Deny</strong></li>
 </ul></td>
 </tr>
@@ -497,11 +511,15 @@ To learn more about principal identifier formats, see [Principal identifiers](ht
 
 An agent identity is a Google-managed identity for agentic workloads. An agent identity is attested and tied to the lifecycle of the agent, which provides a more secure way to manage agent access to Google Cloud resources than using service accounts.
 
-Each agent is automatically provisioned with an agent identity. You can grant or deny access to Google Cloud resources using IAM policies.
+Each agent is automatically provisioned with an agent identity. You can grant or deny access to Google Cloud resources using IAM allow and deny policies. You can also manage access for all agent identities in a project, folder, or organization using allow, deny, and principal access boundary policies.
 
-The following example shows how you can identify an agent identity in an allow policy or deny policy:
+Agent identities can also be grouped into *agent identity pools* .
 
-`principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+The following examples show how you can identify agent identities in various types of policies:
+
+  - **A single agent identity in an allow policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+  - **All agent identities in a project in a deny policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210`
+  - **All agent identities in a project in a principal access boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.containier/projects/9876543210`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 

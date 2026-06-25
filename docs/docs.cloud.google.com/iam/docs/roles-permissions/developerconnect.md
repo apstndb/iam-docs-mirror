@@ -282,6 +282,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">apphub.services.list</code></p>
 <p><code dir="ltr" translate="no">apphub.workloads.get</code></p>
 <p><code dir="ltr" translate="no">apphub.workloads.list</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  connections.  get</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  connections.  httpProxyRead</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  connections.  httpProxyWrite</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  get</code></p>
@@ -433,6 +434,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.serviceAgent">Gemini for Google Cloud Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/developerconnect#developerconnect.serviceAgent">Developer Connect Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  developerconnect.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicodeassistmanagement#geminicodeassistmanagement.serviceAgent">Gemini Code Assist Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicodeassistmanagement.serviceAgent</code> )</li>
 </ul></td>

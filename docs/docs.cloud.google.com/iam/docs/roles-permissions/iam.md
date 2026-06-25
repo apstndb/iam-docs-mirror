@@ -908,6 +908,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.entities.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  extensionValidationReports.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentNativeDashboards.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  featuredContentPlaybooks.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentRules.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentSearchQueries.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.features.list</code></p>
@@ -3170,6 +3171,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">workloadmanager.  discoveredprofiles.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  evaluations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></p>
+<p><code dir="ltr" translate="no">workloadmanager.findings.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.locations.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.results.list</code></p>
@@ -3669,6 +3671,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.entities.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  extensionValidationReports.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentNativeDashboards.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  featuredContentPlaybooks.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentRules.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentSearchQueries.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.features.list</code></p>
@@ -5668,6 +5671,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">workloadmanager.  discoveredprofiles.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  evaluations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></p>
+<p><code dir="ltr" translate="no">workloadmanager.findings.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.locations.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.results.list</code></p>
@@ -7366,6 +7370,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.viewer">Iam Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.vpcScTroubleshooterViewer">VPC Service Controls Troubleshooter Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accesscontextmanager.vpcScTroubleshooterViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/artifactregistry#artifactregistry.containerRegistryMigrationAdmin">Container Registry -&gt; Artifact Registry Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  artifactregistry.containerRegistryMigrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleAdmin">Organization Role Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.organizationRoleAdmin</code> )</p>

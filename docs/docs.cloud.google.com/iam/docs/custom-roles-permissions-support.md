@@ -1631,6 +1631,7 @@ Enter the desired permission name or support level in the text box below:
 | `baremetalsolution.luns.evict`                                                 | `SUPPORTED`                |
 | `baremetalsolution.luns.get`                                                   | `SUPPORTED`                |
 | `baremetalsolution.luns.list`                                                  | `SUPPORTED`                |
+| `baremetalsolution.luns.onDemandEvict`                                         | `SUPPORTED`                |
 | `baremetalsolution.luns.update`                                                | `SUPPORTED`                |
 | `baremetalsolution.maintenanceevents.addProposal`                              | `SUPPORTED`                |
 | `baremetalsolution.maintenanceevents.approve`                                  | `SUPPORTED`                |
@@ -1671,6 +1672,7 @@ Enter the desired permission name or support level in the text box below:
 | `baremetalsolution.volumes.evict`                                              | `SUPPORTED`                |
 | `baremetalsolution.volumes.get`                                                | `SUPPORTED`                |
 | `baremetalsolution.volumes.list`                                               | `SUPPORTED`                |
+| `baremetalsolution.volumes.onDemandEvict`                                      | `SUPPORTED`                |
 | `baremetalsolution.volumes.rename`                                             | `SUPPORTED`                |
 | `baremetalsolution.volumes.resize`                                             | `SUPPORTED`                |
 | `baremetalsolution.volumes.update`                                             | `SUPPORTED`                |
@@ -2385,6 +2387,7 @@ Enter the desired permission name or support level in the text box below:
 | `chronicle.collectors.get`                                                     | `SUPPORTED`                |
 | `chronicle.collectors.list`                                                    | `SUPPORTED`                |
 | `chronicle.collectors.update`                                                  | `SUPPORTED`                |
+| `chronicle.connectorEvents.get`                                                | `SUPPORTED`                |
 | `chronicle.connectorInstanceLogs.get`                                          | `SUPPORTED`                |
 | `chronicle.connectorInstances.delete`                                          | `SUPPORTED`                |
 | `chronicle.connectorInstances.get`                                             | `SUPPORTED`                |
@@ -2546,6 +2549,9 @@ Enter the desired permission name or support level in the text box below:
 | `chronicle.featuredContentNativeDashboards.get`                                | `SUPPORTED`                |
 | `chronicle.featuredContentNativeDashboards.install`                            | `SUPPORTED`                |
 | `chronicle.featuredContentNativeDashboards.list`                               | `SUPPORTED`                |
+| `chronicle.featuredContentPlaybooks.get`                                       | `SUPPORTED`                |
+| `chronicle.featuredContentPlaybooks.install`                                   | `SUPPORTED`                |
+| `chronicle.featuredContentPlaybooks.list`                                      | `SUPPORTED`                |
 | `chronicle.featuredContentRules.list`                                          | `SUPPORTED`                |
 | `chronicle.featuredContentSearchQueries.get`                                   | `SUPPORTED`                |
 | `chronicle.featuredContentSearchQueries.install`                               | `SUPPORTED`                |
@@ -2811,6 +2817,7 @@ Enter the desired permission name or support level in the text box below:
 | `chronicle.messages.list`                                                      | `SUPPORTED`                |
 | `chronicle.messages.update`                                                    | `SUPPORTED`                |
 | `chronicle.moduleSettings.get`                                                 | `SUPPORTED`                |
+| `chronicle.moduleSettings.modifyCaseList`                                      | `SUPPORTED`                |
 | `chronicle.moduleSettings.rebranding`                                          | `SUPPORTED`                |
 | `chronicle.moduleSettingsProperties.get`                                       | `SUPPORTED`                |
 | `chronicle.moduleSettingsProperties.testSettings`                              | `SUPPORTED`                |
@@ -6826,6 +6833,14 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.assets.setIamPolicy`                                                 | `SUPPORTED`                |
 | `dataplex.assets.update`                                                       | `SUPPORTED`                |
 | `dataplex.assets.writeData`                                                    | `NOT_SUPPORTED`            |
+| `dataplex.changeRequests.adminDelete`                                          | `SUPPORTED`                |
+| `dataplex.changeRequests.delete`                                               | `SUPPORTED`                |
+| `dataplex.changeRequests.get`                                                  | `SUPPORTED`                |
+| `dataplex.changeRequests.getIamPolicy`                                         | `SUPPORTED`                |
+| `dataplex.changeRequests.list`                                                 | `SUPPORTED`                |
+| `dataplex.changeRequests.setIamPolicy`                                         | `SUPPORTED`                |
+| `dataplex.changeRequests.update`                                               | `SUPPORTED`                |
+| `dataplex.changeRequests.use`                                                  | `SUPPORTED`                |
 | `dataplex.content.create`                                                      | `SUPPORTED`                |
 | `dataplex.content.delete`                                                      | `SUPPORTED`                |
 | `dataplex.content.get`                                                         | `SUPPORTED`                |
@@ -6853,6 +6868,7 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.dataAttributes.list`                                                 | `SUPPORTED`                |
 | `dataplex.dataAttributes.setIamPolicy`                                         | `SUPPORTED`                |
 | `dataplex.dataAttributes.update`                                               | `SUPPORTED`                |
+| `dataplex.dataProducts.approve`                                                | `SUPPORTED`                |
 | `dataplex.dataProducts.create`                                                 | `SUPPORTED`                |
 | `dataplex.dataProducts.delete`                                                 | `SUPPORTED`                |
 | `dataplex.dataProducts.get`                                                    | `SUPPORTED`                |
@@ -6903,6 +6919,7 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.entryGroups.getIamPolicy`                                            | `SUPPORTED`                |
 | `dataplex.entryGroups.import`                                                  | `SUPPORTED`                |
 | `dataplex.entryGroups.list`                                                    | `SUPPORTED`                |
+| `dataplex.entryGroups.requestChanges`                                          | `SUPPORTED`                |
 | `dataplex.entryGroups.setIamPolicy`                                            | `SUPPORTED`                |
 | `dataplex.entryGroups.update`                                                  | `SUPPORTED`                |
 | `dataplex.entryGroups.useContactsAspect`                                       | `SUPPORTED`                |
@@ -6960,6 +6977,7 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.glossaries.getIamPolicy`                                             | `SUPPORTED`                |
 | `dataplex.glossaries.import`                                                   | `SUPPORTED`                |
 | `dataplex.glossaries.list`                                                     | `SUPPORTED`                |
+| `dataplex.glossaries.requestChanges`                                           | `SUPPORTED`                |
 | `dataplex.glossaries.setIamPolicy`                                             | `SUPPORTED`                |
 | `dataplex.glossaries.update`                                                   | `SUPPORTED`                |
 | `dataplex.glossaryCategories.create`                                           | `SUPPORTED`                |
@@ -10392,6 +10410,9 @@ Enter the desired permission name or support level in the text box below:
 | `monitoring.uptimeCheckConfigs.get`                                            | `SUPPORTED`                |
 | `monitoring.uptimeCheckConfigs.list`                                           | `SUPPORTED`                |
 | `monitoring.uptimeCheckConfigs.update`                                         | `SUPPORTED`                |
+| `navigationconnect.trips.cancel`                                               | `SUPPORTED`                |
+| `navigationconnect.trips.create`                                               | `SUPPORTED`                |
+| `navigationconnect.trips.get`                                                  | `SUPPORTED`                |
 | `nestconsole.smarthomePreviews.update`                                         | `SUPPORTED`                |
 | `nestconsole.smarthomeProjects.create`                                         | `SUPPORTED`                |
 | `nestconsole.smarthomeProjects.delete`                                         | `SUPPORTED`                |
@@ -12149,6 +12170,8 @@ Enter the desired permission name or support level in the text box below:
 | `run.executions.delete`                                                        | `SUPPORTED`                |
 | `run.executions.get`                                                           | `SUPPORTED`                |
 | `run.executions.list`                                                          | `SUPPORTED`                |
+| `run.instances.sshRead`                                                        | `SUPPORTED`                |
+| `run.instances.sshRoot`                                                        | `SUPPORTED`                |
 | `run.jobs.create`                                                              | `SUPPORTED`                |
 | `run.jobs.createTagBinding`                                                    | `SUPPORTED`                |
 | `run.jobs.delete`                                                              | `SUPPORTED`                |
@@ -12161,6 +12184,8 @@ Enter the desired permission name or support level in the text box below:
 | `run.jobs.run`                                                                 | `SUPPORTED`                |
 | `run.jobs.runWithOverrides`                                                    | `SUPPORTED`                |
 | `run.jobs.setIamPolicy`                                                        | `SUPPORTED`                |
+| `run.jobs.sshRead`                                                             | `SUPPORTED`                |
+| `run.jobs.sshRoot`                                                             | `SUPPORTED`                |
 | `run.jobs.update`                                                              | `SUPPORTED`                |
 | `run.locations.list`                                                           | `SUPPORTED`                |
 | `run.operations.delete`                                                        | `SUPPORTED`                |
@@ -12183,6 +12208,8 @@ Enter the desired permission name or support level in the text box below:
 | `run.services.listEffectiveTags`                                               | `SUPPORTED`                |
 | `run.services.listTagBindings`                                                 | `SUPPORTED`                |
 | `run.services.setIamPolicy`                                                    | `SUPPORTED`                |
+| `run.services.sshRead`                                                         | `SUPPORTED`                |
+| `run.services.sshRoot`                                                         | `SUPPORTED`                |
 | `run.services.update`                                                          | `SUPPORTED`                |
 | `run.tasks.get`                                                                | `SUPPORTED`                |
 | `run.tasks.list`                                                               | `SUPPORTED`                |
@@ -12192,6 +12219,8 @@ Enter the desired permission name or support level in the text box below:
 | `run.workerpools.getIamPolicy`                                                 | `SUPPORTED`                |
 | `run.workerpools.list`                                                         | `SUPPORTED`                |
 | `run.workerpools.setIamPolicy`                                                 | `SUPPORTED`                |
+| `run.workerpools.sshRead`                                                      | `SUPPORTED`                |
+| `run.workerpools.sshRoot`                                                      | `SUPPORTED`                |
 | `run.workerpools.update`                                                       | `SUPPORTED`                |
 | `runapps.applications.create`                                                  | `SUPPORTED`                |
 | `runapps.applications.delete`                                                  | `SUPPORTED`                |
@@ -13584,6 +13613,8 @@ Enter the desired permission name or support level in the text box below:
 | `workloadmanager.executions.delete`                                            | `SUPPORTED`                |
 | `workloadmanager.executions.get`                                               | `SUPPORTED`                |
 | `workloadmanager.executions.list`                                              | `SUPPORTED`                |
+| `workloadmanager.findings.create`                                              | `SUPPORTED`                |
+| `workloadmanager.findings.list`                                                | `SUPPORTED`                |
 | `workloadmanager.insights.delete`                                              | `SUPPORTED`                |
 | `workloadmanager.insights.export`                                              | `SUPPORTED`                |
 | `workloadmanager.insights.listSapSystems`                                      | `SUPPORTED`                |

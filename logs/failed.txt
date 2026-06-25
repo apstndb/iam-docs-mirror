@@ -1,1 +1,2 @@
-
+200 https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation
+200 https://docs.cloud.google.com/iam/docs/federated-identity-architectures

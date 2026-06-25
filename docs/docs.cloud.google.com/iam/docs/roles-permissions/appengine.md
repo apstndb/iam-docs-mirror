@@ -23,6 +23,44 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="appengine.admin" class="role-title add-link" data-text="Appengine Admin" tabindex="-1">Appengine Admin</h4>
+<p>( <code dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
+<p>Admin role for appengine</p></td>
+<td><p><code dir="ltr" translate="no">appengine.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">appengine.applications.create</code></li>
+<li><code dir="ltr" translate="no">appengine.applications.get</code></li>
+<li><code dir="ltr" translate="no">appengine.  applications.  listRuntimes</code></li>
+<li><code dir="ltr" translate="no">appengine.applications.update</code></li>
+<li><code dir="ltr" translate="no">appengine.instances.delete</code></li>
+<li><code dir="ltr" translate="no">appengine.  instances.  enableDebug</code></li>
+<li><code dir="ltr" translate="no">appengine.instances.get</code></li>
+<li><code dir="ltr" translate="no">appengine.instances.list</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.addKey</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.flush</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.get</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.getKey</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.list</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.update</code></li>
+<li><code dir="ltr" translate="no">appengine.operations.get</code></li>
+<li><code dir="ltr" translate="no">appengine.operations.list</code></li>
+<li><code dir="ltr" translate="no">appengine.runtimes.actAsAdmin</code></li>
+<li><code dir="ltr" translate="no">appengine.services.delete</code></li>
+<li><code dir="ltr" translate="no">appengine.services.get</code></li>
+<li><code dir="ltr" translate="no">appengine.services.list</code></li>
+<li><code dir="ltr" translate="no">appengine.services.update</code></li>
+<li><code dir="ltr" translate="no">appengine.versions.create</code></li>
+<li><code dir="ltr" translate="no">appengine.versions.delete</code></li>
+<li><code dir="ltr" translate="no">appengine.  versions.  exportAppImage</code></li>
+<li><code dir="ltr" translate="no">appengine.versions.get</code></li>
+<li><code dir="ltr" translate="no">appengine.  versions.  getFileContents</code></li>
+<li><code dir="ltr" translate="no">appengine.versions.list</code></li>
+<li><code dir="ltr" translate="no">appengine.versions.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="appengine.appAdmin" class="role-title add-link" data-text="App Engine Admin" tabindex="-1">App Engine Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
 <p>Read/Write/Modify access to all application configuration and settings.</p>
@@ -88,7 +126,76 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
+<tr class="odd">
+<td><h4 id="appengine.editor" class="role-title add-link" data-text="Appengine Editor" tabindex="-1">Appengine Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p>Editor role for appengine</p></td>
+<td><p><code dir="ltr" translate="no">appengine.applications.get</code></p>
+<p><code dir="ltr" translate="no">appengine.  applications.  listRuntimes</code></p>
+<p><code dir="ltr" translate="no">appengine.applications.update</code></p>
+<p><code dir="ltr" translate="no">appengine.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">appengine.instances.delete</code></li>
+<li><code dir="ltr" translate="no">appengine.  instances.  enableDebug</code></li>
+<li><code dir="ltr" translate="no">appengine.instances.get</code></li>
+<li><code dir="ltr" translate="no">appengine.instances.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">appengine.memcache.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">appengine.memcache.addKey</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.flush</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.get</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.getKey</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.list</code></li>
+<li><code dir="ltr" translate="no">appengine.memcache.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">appengine.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">appengine.operations.get</code></li>
+<li><code dir="ltr" translate="no">appengine.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">appengine.runtimes.actAsAdmin</code></p>
+<p><code dir="ltr" translate="no">appengine.services.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">appengine.services.delete</code></li>
+<li><code dir="ltr" translate="no">appengine.services.get</code></li>
+<li><code dir="ltr" translate="no">appengine.services.list</code></li>
+<li><code dir="ltr" translate="no">appengine.services.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">appengine.versions.create</code></p>
+<p><code dir="ltr" translate="no">appengine.versions.delete</code></p>
+<p><code dir="ltr" translate="no">appengine.  versions.  exportAppImage</code></p>
+<p><code dir="ltr" translate="no">appengine.versions.get</code></p>
+<p><code dir="ltr" translate="no">appengine.versions.list</code></p>
+<p><code dir="ltr" translate="no">appengine.versions.update</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
 <tr class="even">
+<td><h4 id="appengine.viewer" class="role-title add-link" data-text="Appengine Viewer" tabindex="-1">Appengine Viewer</h4>
+<p>( <code dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
+<p>Viewer role for appengine</p></td>
+<td><p><code dir="ltr" translate="no">appengine.applications.get</code></p>
+<p><code dir="ltr" translate="no">appengine.  applications.  listRuntimes</code></p>
+<p><code dir="ltr" translate="no">appengine.instances.get</code></p>
+<p><code dir="ltr" translate="no">appengine.instances.list</code></p>
+<p><code dir="ltr" translate="no">appengine.memcache.get</code></p>
+<p><code dir="ltr" translate="no">appengine.memcache.getKey</code></p>
+<p><code dir="ltr" translate="no">appengine.memcache.list</code></p>
+<p><code dir="ltr" translate="no">appengine.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">appengine.operations.get</code></li>
+<li><code dir="ltr" translate="no">appengine.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">appengine.runtimes.actAsAdmin</code></p>
+<p><code dir="ltr" translate="no">appengine.services.get</code></p>
+<p><code dir="ltr" translate="no">appengine.services.list</code></p>
+<p><code dir="ltr" translate="no">appengine.versions.get</code></p>
+<p><code dir="ltr" translate="no">appengine.versions.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="appengine.appCreator" class="role-title add-link" data-text="App Engine Creator" tabindex="-1">App Engine Creator</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.appCreator</code> )</p>
 <p>Ability to create the App Engine resource for the project.</p>
@@ -100,7 +207,7 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="appengine.appViewer" class="role-title add-link" data-text="App Engine Viewer" tabindex="-1">App Engine Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
 <p>Read-only access to all application configuration and settings.</p>
@@ -134,7 +241,7 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="appengine.codeViewer" class="role-title add-link" data-text="App Engine Code Viewer" tabindex="-1">App Engine Code Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p>
 <p>Read-only access to all application configuration, settings, and deployed source code.</p>
@@ -160,7 +267,7 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="appengine.debugger" class="role-title add-link" data-text="App Engine Managed VM Debug Access" tabindex="-1">App Engine Managed VM Debug Access</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
 <p>Ability to read or manage v2 instances.</p></td>
@@ -185,7 +292,7 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="appengine.deployer" class="role-title add-link" data-text="App Engine Deployer" tabindex="-1">App Engine Deployer</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.deployer</code> )</p>
 <p>Read-only access to all application configuration and settings.</p>
@@ -235,7 +342,7 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="appengine.memcacheDataAdmin" class="role-title add-link" data-text="App Engine Memcache Data Admin" tabindex="-1">App Engine Memcache Data Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.memcacheDataAdmin</code> )</p>
 <p>Can get, set, delete, and flush App Engine Memcache items.</p></td>
@@ -247,7 +354,7 @@ This page lists the IAM roles and permissions for App Engine. To search through 
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="appengine.serviceAdmin" class="role-title add-link" data-text="App Engine Service Admin" tabindex="-1">App Engine Service Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  appengine.serviceAdmin</code> )</p>
 <p>Read-only access to all application configuration and settings.</p>
@@ -447,6 +554,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><h4 id="appengine.applications.create" class="permission-name add-link" data-text="appengine.applications.create" tabindex="-1"><code dir="ltr" translate="no">appengine.applications.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appCreator">App Engine Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appCreator</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -461,7 +569,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudscheduler#cloudscheduler.admin">Cloud Scheduler Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudscheduler.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudscheduler#cloudscheduler.viewer">Cloud Scheduler Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudscheduler.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecurityscanner#cloudsecurityscanner.admin">Web Security Scanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecurityscanner.admin</code> )</p>
@@ -507,7 +618,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.codeViewer">App Engine Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
@@ -526,7 +640,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.applications.update" class="permission-name add-link" data-text="appengine.applications.update" tabindex="-1"><code dir="ltr" translate="no">appengine.applications.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -540,7 +656,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.instances.delete" class="permission-name add-link" data-text="appengine.instances.delete" tabindex="-1"><code dir="ltr" translate="no">appengine.instances.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAdmin">App Engine Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -555,7 +673,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.instances.enableDebug" class="permission-name add-link" data-text="appengine.instances.enableDebug" tabindex="-1"><code dir="ltr" translate="no">appengine.  instances.  enableDebug</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -570,7 +690,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.codeViewer">App Engine Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
@@ -590,7 +713,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
@@ -612,7 +738,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.memcache.addKey" class="permission-name add-link" data-text="appengine.memcache.addKey" tabindex="-1"><code dir="ltr" translate="no">appengine.memcache.addKey</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.memcacheDataAdmin">App Engine Memcache Data Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.memcacheDataAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -626,7 +754,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.memcache.flush" class="permission-name add-link" data-text="appengine.memcache.flush" tabindex="-1"><code dir="ltr" translate="no">appengine.memcache.flush</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.memcacheDataAdmin">App Engine Memcache Data Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.memcacheDataAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -641,7 +771,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.memcacheDataAdmin">App Engine Memcache Data Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.memcacheDataAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -657,6 +790,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -664,6 +800,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -673,7 +812,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.memcache.update" class="permission-name add-link" data-text="appengine.memcache.update" tabindex="-1"><code dir="ltr" translate="no">appengine.memcache.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.memcacheDataAdmin">App Engine Memcache Data Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.memcacheDataAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -688,7 +829,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.codeViewer">App Engine Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
@@ -710,7 +854,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
@@ -733,7 +880,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -747,7 +897,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.services.delete" class="permission-name add-link" data-text="appengine.services.delete" tabindex="-1"><code dir="ltr" translate="no">appengine.services.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAdmin">App Engine Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -762,7 +914,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.codeViewer">App Engine Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
@@ -782,7 +937,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
@@ -805,7 +963,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.services.update" class="permission-name add-link" data-text="appengine.services.update" tabindex="-1"><code dir="ltr" translate="no">appengine.services.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAdmin">App Engine Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -820,7 +980,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.versions.create" class="permission-name add-link" data-text="appengine.versions.create" tabindex="-1"><code dir="ltr" translate="no">appengine.versions.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.deployer">App Engine Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.deployer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -835,7 +997,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.versions.delete" class="permission-name add-link" data-text="appengine.versions.delete" tabindex="-1"><code dir="ltr" translate="no">appengine.versions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.deployer">App Engine Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.deployer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAdmin">App Engine Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -852,7 +1016,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.versions.exportAppImage" class="permission-name add-link" data-text="appengine.versions.exportAppImage" tabindex="-1"><code dir="ltr" translate="no">appengine.  versions.  exportAppImage</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.deployer">App Engine Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.deployer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -867,7 +1033,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.codeViewer">App Engine Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.debugger">App Engine Managed VM Debug Access</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.debugger</code> )</p>
@@ -887,6 +1056,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="even">
 <td><h4 id="appengine.versions.getFileContents" class="permission-name add-link" data-text="appengine.versions.getFileContents" tabindex="-1"><code dir="ltr" translate="no">appengine.  versions.  getFileContents</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.codeViewer">App Engine Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.codeViewer</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -894,7 +1064,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.viewer">Appengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appViewer">App Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appViewer</code> )</p>
@@ -918,7 +1091,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="appengine.versions.update" class="permission-name add-link" data-text="appengine.versions.update" tabindex="-1"><code dir="ltr" translate="no">appengine.versions.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.admin">Appengine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.editor">Appengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAdmin">App Engine Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>

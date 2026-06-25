@@ -1398,6 +1398,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -1407,6 +1412,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -1435,6 +1442,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -1446,6 +1455,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.consumerpolicy.*</code></p>
 <ul>
@@ -4145,6 +4156,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -4154,6 +4170,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -4182,6 +4200,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -4193,6 +4213,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.consumerpolicy.*</code></p>
 <ul>
@@ -8076,6 +8098,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -8085,6 +8112,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -8113,6 +8142,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -8124,6 +8155,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
 <p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p>
@@ -10672,6 +10705,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.entities.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  extensionValidationReports.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentNativeDashboards.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  featuredContentPlaybooks.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentRules.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentSearchQueries.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.features.list</code></p>
@@ -14143,6 +14177,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">workloadmanager.  discoveredprofiles.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  evaluations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></p>
+<p><code dir="ltr" translate="no">workloadmanager.findings.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.locations.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.results.list</code></p>
@@ -17293,6 +17328,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.chatSessions.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.collectors.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.collectors.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.connectorEvents.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  connectorInstanceLogs.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  connectorInstances.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  connectorRevisions.  get</code></p>
@@ -17385,6 +17421,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.events.validateQuery</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentNativeDashboards.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentNativeDashboards.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  featuredContentPlaybooks.  get</code></p>
+<p><code dir="ltr" translate="no">chronicle.  featuredContentPlaybooks.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentRules.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentSearchQueries.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  featuredContentSearchQueries.  list</code></p>
@@ -17529,6 +17567,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.moduleSettings.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.moduleSettings.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.  moduleSettings.  modifyCaseList</code></li>
 <li><code dir="ltr" translate="no">chronicle.  moduleSettings.  rebranding</code></li>
 </ul>
 <p><code dir="ltr" translate="no">chronicle.  moduleSettingsProperties.  get</code></p>
@@ -22588,11 +22627,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.get</code></p>
 <p><code dir="ltr" translate="no">run.operations.list</code></p>
@@ -22606,6 +22647,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.tasks.get</code></li>
@@ -22614,6 +22656,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
 <p><code dir="ltr" translate="no">runapps.applications.get</code></p>
 <p><code dir="ltr" translate="no">runapps.applications.getStatus</code></p>
 <p><code dir="ltr" translate="no">runapps.applications.list</code></p>
@@ -23444,6 +23487,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">workloadmanager.  evaluations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.executions.get</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></p>
+<p><code dir="ltr" translate="no">workloadmanager.findings.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  insights.  export</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  insights.  listSapSystems</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.locations.*</code></p>

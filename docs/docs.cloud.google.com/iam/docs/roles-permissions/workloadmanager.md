@@ -77,6 +77,8 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <li><code dir="ltr" translate="no">workloadmanager.  executions.  delete</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.executions.get</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></li>
+<li><code dir="ltr" translate="no">workloadmanager.  findings.  create</code></li>
+<li><code dir="ltr" translate="no">workloadmanager.findings.list</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.  insights.  delete</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.  insights.  export</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.  insights.  listSapSystems</code></li>
@@ -112,6 +114,7 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <p><code dir="ltr" translate="no">workloadmanager.  evaluations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.executions.get</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></p>
+<p><code dir="ltr" translate="no">workloadmanager.findings.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.results.list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.rules.list</code></p></td>
 </tr>
@@ -207,6 +210,11 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <li><code dir="ltr" translate="no">workloadmanager.executions.get</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">workloadmanager.findings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">workloadmanager.  findings.  create</code></li>
+<li><code dir="ltr" translate="no">workloadmanager.findings.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">workloadmanager.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">workloadmanager.locations.get</code></li>
@@ -284,6 +292,11 @@ This page lists the IAM roles and permissions for Workload Manager. To search th
 <li><code dir="ltr" translate="no">workloadmanager.  executions.  delete</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.executions.get</code></li>
 <li><code dir="ltr" translate="no">workloadmanager.  executions.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">workloadmanager.findings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">workloadmanager.  findings.  create</code></li>
+<li><code dir="ltr" translate="no">workloadmanager.findings.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">workloadmanager.insights.write</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.results.list</code></p>
@@ -614,6 +627,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.evaluationAdmin">Workload Manager Evaluation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.evaluationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.evaluationViewer">Workload Manager Evaluation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.evaluationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.worker">Workload Manager Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.worker</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="workloadmanager.findings.create" class="permission-name add-link" data-text="workloadmanager.findings.create" tabindex="-1"><code dir="ltr" translate="no">workloadmanager.  findings.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.admin">Workload Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.evaluationAdmin">Workload Manager Evaluation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.evaluationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.worker">Workload Manager Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.worker</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="workloadmanager.findings.list" class="permission-name add-link" data-text="workloadmanager.findings.list" tabindex="-1"><code dir="ltr" translate="no">workloadmanager.findings.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.admin">Workload Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.viewer">Workload Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.evaluationAdmin">Workload Manager Evaluation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.evaluationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.worker">Workload Manager Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.worker</code> )</p></td>
 </tr>
 <tr class="odd">

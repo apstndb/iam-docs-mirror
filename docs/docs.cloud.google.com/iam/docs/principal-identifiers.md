@@ -350,21 +350,26 @@ To learn which principals are included in each of these principal sets, see [Sup
 <p><strong>Example:</strong> <code dir="ltr" translate="no">//iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/example-workload-pool</code></p></td>
 </tr>
 <tr class="odd">
+<td>All <a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">agent identities</a> in a project's trust domain</td>
+<td><p><code dir="ltr" translate="no">         PROJECT_TRUST_DOMAIN         /  attribute.container/  projects/           PROJECT_NUMBER        </code></p>
+<p><strong>Example:</strong> <code dir="ltr" translate="no">//agents.global.proj-9876543210.system.id.goog/attribute.containier/projects/9876543210</code></p></td>
+</tr>
+<tr class="even">
 <td>Google Workspace domain</td>
 <td><p><code dir="ltr" translate="no">//iam.googleapis.com/locations/global/workspace/          CUSTOMER_ID                  1        </code></p>
 <p><strong>Example:</strong> <code dir="ltr" translate="no">//iam.googleapis.com/locations/global/workspace/C01Abc35</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Project's principal set</td>
 <td><p><code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/projects/          PROJECT_ID        </code></p>
 <p><strong>Example:</strong> <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/projects/example-project</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Folder's principal set</td>
 <td><p><code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/folders/          FOLDER_ID        </code></p>
 <p><strong>Example:</strong> <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/folders/0123456789012</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Organization's principal set</td>
 <td><p><code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/organizations/          ORGANIZATION_ID        </code></p>
 <p><strong>Example:</strong> <code dir="ltr" translate="no">//cloudresourcemanager.googleapis.com/organizations/0123456789012</code></p></td>

@@ -4691,6 +4691,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.disks.use</code></p>
 <p><code dir="ltr" translate="no">compute.disks.useReadOnly</code></p>
 <p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
+<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  update</code></p>
 <p><code dir="ltr" translate="no">compute.instances.attachDisk</code></p>
 <p><code dir="ltr" translate="no">compute.instances.create</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  createTagBinding</code></p>
@@ -4773,6 +4774,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
+<p><code dir="ltr" translate="no">logging.operations.get</code></p>
+<p><code dir="ltr" translate="no">logging.operations.list</code></p>
 <p><code dir="ltr" translate="no">logging.views.access</code></p>
 <p><code dir="ltr" translate="no">logging.views.get</code></p>
 <p><code dir="ltr" translate="no">ml.models.list</code></p>
@@ -4799,6 +4802,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">observability.links.delete</code></p>
 <p><code dir="ltr" translate="no">observability.links.get</code></p>
 <p><code dir="ltr" translate="no">observability.links.list</code></p>
+<p><code dir="ltr" translate="no">observability.operations.get</code></p>
+<p><code dir="ltr" translate="no">observability.operations.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">run.executions.delete</code></p>

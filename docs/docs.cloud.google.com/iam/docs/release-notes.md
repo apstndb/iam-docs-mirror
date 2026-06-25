@@ -14,6 +14,14 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## June 18, 2026
+
+Feature
+
+The Agent Identity API ( `agentidentity.googleapis.com` ) is available in [Preview](https://cloud.google.com/products#product-launch-stages) . This new API replaces the legacy IAM Connectors API ( `iamconnectors.googleapis.com` ) for managing auth providers and agent identities.
+
+During the preview migration period, both APIs operate side-by-side. Existing auth providers are automatically mirrored to the new V2 resource hierarchy ( `authProviders/` ), allowing you to migrate your IAM policies, agent code, and client applications without downtime.
+
 ## June 15, 2026
 
 Feature

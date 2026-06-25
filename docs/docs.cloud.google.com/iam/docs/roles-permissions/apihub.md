@@ -143,6 +143,14 @@ This page lists the IAM roles and permissions for API Hub. To search through all
 <li><code dir="ltr" translate="no">apihub.versions.listAll</code></li>
 <li><code dir="ltr" translate="no">apihub.versions.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
@@ -475,6 +483,14 @@ This page lists the IAM roles and permissions for API Hub. To search through all
 <li><code dir="ltr" translate="no">apihub.  runTimeProjectAttachments.  list</code></li>
 <li><code dir="ltr" translate="no">apihub.  runTimeProjectAttachments.  lookup</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>

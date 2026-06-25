@@ -2,13 +2,13 @@
 name: documents/docs.cloud.google.com/iam/docs/google-identities
 uri: https://docs.cloud.google.com/iam/docs/google-identities
 title: Identity management for Google Cloud
-description: Overview of identity management strategies for Google Cloud.
+description: Overview of identity management strategies for {{dynamic_data.site_values.cloud_name}}.
 data_source: docs.cloud.google.com
 ---
 
-To use Google Cloud, users and workloads need an identity that Google Cloud can recognize.
+To use Google Cloud, users, workloads, and agents need an identity that Google Cloud can recognize.
 
-This page outlines the methods that you can use to configure identities for users and workloads.
+This page outlines the methods that you can use to configure identities for users, workloads, and agents.
 
 ## User identities
 
@@ -41,11 +41,11 @@ The methods that you can use depend on where your workloads are running.
 
 If you're running workloads on Google Cloud, you can use the following methods to configure workload identities:
 
-  - **Workload Identity Federation for GKE** : Grant IAM access to GKE clusters and Kubernetes service accounts. Doing so lets the clusters' workloads access most Google Cloud services directly, without using IAM service account impersonation.
+  - **Workload Identity Federation for GKE** : Grant Identity and Access Management (IAM) access to GKE clusters and Kubernetes service accounts. Doing so lets the clusters' workloads access most Google Cloud services directly, without using IAM service account impersonation.
 
   - **Attached service accounts** : Attach a service account to a resource so that the service account acts as the resource's default identity. Any workloads running on the resource use the service account's identity when accessing Google Cloud services.
 
-  - **Short-lived service account credentials** : Generate and use short-lived service account credentials whenever your resources need to access to Google Cloud services. The most common types of credentials are OAuth 2.0 access tokens and OpenID Connect (OIDC) ID tokens.
+  - **Short-lived service account credentials** : Generate and use short-lived service account credentials whenever your resources need to access Google Cloud services. The most common types of credentials are OAuth 2.0 access tokens and OpenID Connect (OIDC) ID tokens.
 
 If you're running workloads outside of Google Cloud, you can use the following methods to configure workload identities:
 
@@ -58,3 +58,9 @@ If you're running workloads outside of Google Cloud, you can use the following m
     > If you acquired the service account key from an external source, you must validate it before use. For more information, see [Security requirements for externally sourced credentials](https://docs.cloud.google.com/docs/authentication/external/externally-sourced-credentials) .
 
 To learn more about these methods for setting up workload identities, see [Workload identities overview](https://docs.cloud.google.com/iam/docs/workload-identities) .
+
+## Agent identities
+
+Google Cloud provides [**agent identities**](https://docs.cloud.google.com/iam/docs/agent-identity-overview) for generative AI agents. An agent identity is a SPIFFE-based identity that is tied to an agent's lifecycle and mapped directly to the resource URI where the agent is hosted. The agent uses this identity to authenticate to Google Cloud services or retrieve external credentials from the Agent Identity auth manager.
+
+To learn more about setting up agent identities, see [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview) .

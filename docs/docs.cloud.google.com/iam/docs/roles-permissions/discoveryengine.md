@@ -867,6 +867,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code dir="ltr" translate="no">discoveryengine.  assistants.  assist</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  authorizations.  storeUserAuthorization</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cannedQueries.  listActiveCannedQueryUserViews</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  completeQuery</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  removeSuggestion</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  acquireAccessToken</code></p>
@@ -875,6 +876,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  checkRefreshToken</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  executeAction</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  queryAvailableActions</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  createEngineUserData</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  generateMemories</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  generatePersonalContext</code></p>
@@ -1904,6 +1906,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code dir="ltr" translate="no">discoveryengine.  assistants.  assist</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  authorizations.  storeUserAuthorization</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cannedQueries.  listActiveCannedQueryUserViews</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  completeQuery</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  removeSuggestion</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  acquireAccessToken</code></p>
@@ -1912,6 +1915,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  checkRefreshToken</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  executeAction</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  queryAvailableActions</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  createEngineUserData</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  generateMemories</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  generatePersonalContext</code></p>
@@ -2310,6 +2314,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code dir="ltr" translate="no">discoveryengine.  assistants.  assist</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  authorizations.  storeUserAuthorization</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cannedQueries.  listActiveCannedQueryUserViews</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  completeQuery</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  removeSuggestion</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  acquireAccessToken</code></p>
@@ -2318,6 +2323,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  checkRefreshToken</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  executeAction</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  queryAvailableActions</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  createEngineUserData</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  generateMemories</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  generatePersonalContext</code></p>
@@ -3331,10 +3337,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.editor">Discovery Engine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.viewer">Discovery Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceEditor">Gemini Enterprise Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceViewer">Gemini Enterprise Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -3757,10 +3766,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.editor">Discovery Engine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.user">Discovery Engine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.viewer">Discovery Engine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceEditor">Gemini Enterprise Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceViewer">Gemini Enterprise Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
 <blockquote>

@@ -271,6 +271,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -283,6 +285,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.jobs.run</code></li>
 <li><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></li>
 <li><code dir="ltr" translate="no">run.jobs.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -305,6 +309,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.services.listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">run.services.listTagBindings</code></li>
 <li><code dir="ltr" translate="no">run.services.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.services.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.services.update</code></li>
 <li><code dir="ltr" translate="no">run.tasks.get</code></li>
 <li><code dir="ltr" translate="no">run.tasks.list</code></li>
@@ -314,6 +320,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.list</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.workerpools.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.workerpools.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
@@ -570,6 +578,11 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -579,6 +592,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -607,6 +622,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -618,6 +635,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
@@ -1027,6 +1046,11 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -1036,6 +1060,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -1064,6 +1090,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -1075,6 +1103,8 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  analyze</code></p>
 <p><code dir="ltr" translate="no">serviceusage.  consumerpolicy.  get</code></p>
@@ -1405,6 +1435,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">run.instances.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
+<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -1414,6 +1449,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">run.jobs.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
 <p><code dir="ltr" translate="no">run.jobs.runWithOverrides</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
@@ -1442,6 +1479,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">run.services.list</code></p>
 <p><code dir="ltr" translate="no">run.services.listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">run.services.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.services.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.update</code></p>
 <p><code dir="ltr" translate="no">run.tasks.*</code></p>
 <ul>
@@ -1453,6 +1492,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">run.workerpools.get</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.list</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.workerpools.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.workerpools.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.consumerpolicy.*</code></p>
 <ul>

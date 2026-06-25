@@ -30,7 +30,15 @@ This page lists the IAM roles and permissions for Workflows. To search through a
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">workflows.*</code></p>
 <ul>
@@ -67,7 +75,15 @@ This page lists the IAM roles and permissions for Workflows. To search through a
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">workflows.*</code></p>
 <ul>

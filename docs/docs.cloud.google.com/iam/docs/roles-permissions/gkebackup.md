@@ -26,7 +26,15 @@ This page lists the IAM roles and permissions for Backup for GKE. To search thro
 <td><h4 id="gkebackup.admin" class="role-title add-link" data-text="Backup for GKE Admin" tabindex="-1">Backup for GKE Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  gkebackup.admin</code> )</p>
 <p>Full access to all Backup for GKE resources.</p></td>
-<td><p><code dir="ltr" translate="no">gkebackup.*</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">gkebackup.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">gkebackup.  backupChannels.  create</code></li>
 <li><code dir="ltr" translate="no">gkebackup.  backupChannels.  delete</code></li>
