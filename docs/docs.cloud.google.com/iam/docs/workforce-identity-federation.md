@@ -10,11 +10,13 @@ With Workforce Identity Federation, users in your external identity provider (Id
 
 ## What is Workforce Identity Federation?
 
-Workforce Identity Federation lets you use your external identity provider (IdP) to authenticate your workforce— *users* and *groups* of users, such as employees, partners, and contractors. Your users can then access Google Cloud using single sign-on (SSO), through your IdP. You can use Identity and Access Management (IAM) policies to [authorize your workforce users to access Google Cloud services](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-principal-identifiers) .
+Workforce Identity Federation lets you use your external identity provider (IdP) to authenticate your workforce— *users* and *groups* of users, such as employees, partners, and contractors. Users can then access Google Cloud using single sign-on (SSO), through your IdP. Use allow policies to [authorize your workforce users to access Google Cloud services](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-principal-identifiers) .
 
 ### Federation versus synchronization
 
-Workforce Identity Federation federates identities from your IdP, so it doesn't store user accounts in Google Cloud. Because of this, Workforce Identity Federation is syncless, meaning that you don't need to use tools to synchronize user identities from your IdP to Google-managed identities that require Google Accounts. For example, by using Workforce Identity Federation, you don't need to use Cloud Identity's [Google Cloud Directory Sync (GCDS)](https://tools.google.com/dlpage/dirsync/) .
+Workforce Identity Federation federates identities from your IdP, so it doesn't store user accounts in Google Cloud. Because of this, Workforce Identity Federation is sync-less, meaning that you don't need to use tools to synchronize user identities from your IdP to Google-managed identities that require Google Accounts. For example, by using Workforce Identity Federation, you don't need to use Cloud Identity's [Google Cloud Directory Sync (GCDS)](https://tools.google.com/dlpage/dirsync/) .
+
+To compare this approach with other federation architectures, see [Architecture patterns for identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures) .
 
 ### Workforce Identity Federation versus Workload Identity Federation
 
@@ -26,7 +28,7 @@ For more information, see [Workload Identity Federation](https://docs.cloud.goog
 
 Workforce Identity Federation extends Google Cloud's identity capabilities to support attribute-based access. In some IdPs, attributes are also known as *claims* or *assertions* .
 
-After user authentication, attributes that are received from the IdP are used to determine the scope of access to the Google Cloud resources.
+After user authentication, attributes that are received from the IdP are used to determine the scope of access to Google Cloud resources.
 
 ### Supported protocols
 
@@ -43,7 +45,7 @@ Workforce identity pools let you manage groups of workforce identities and their
 Pools let you do the following:
 
   - Group user identities; for example, `employees` or `partners`
-  - Grant IAM access to an entire pool or a subset thereof.
+  - Grant IAM access to an entire pool or a subset of the pool.
   - Federate identities from one or more IdPs.
   - Define policies on a group of users that require similar access permissions.
   - Specify IdP-specific configuration information, including [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) and [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) .
@@ -83,7 +85,7 @@ You can map these attributes for use by Google Cloud using [Common Expression La
 
 This section describes the set of required and optional attributes that Google Cloud provides.
 
-You can also define custom attributes in your IdP that can then be used by specific Google Cloud products; for example in IAM allow policies.
+You can also define custom attributes in your IdP that can then be used by specific Google Cloud products—for example, in IAM allow policies.
 
 The maximum size for attribute mappings is 16 KB. If the size of attribute mappings exceeds the 16 KB limit, the sign-in attempt will fail.
 
@@ -139,11 +141,11 @@ Example Google Cloud products that support OAuth client integration include the 
 
 You can transform attribute values using [standard CEL functions](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . You can also use the following custom functions:
 
-  - [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) splits a string on the provided separator value. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` and using the first string, use the following attribute mapping:
+  - The [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) splits a string on the provided separator value. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` and using the first string, use the following attribute mapping:
     
         attribute.username=assertion.email.split("@")[0]
 
-  - [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) joins a list of strings on the provided separator value. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
+  - The [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) joins a list of strings on the provided separator value. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
     
         attribute.department=assertion.department.join(".")
 
@@ -211,7 +213,7 @@ Workforce identity pool principals can't directly access resources outside of th
 
 Most Google Cloud APIs (resource-based APIs) charge billing and quota to the project containing the resource. Some APIs (client-based APIs) charge the project associated with the client, known as the *quota project* .
 
-When you create a Workforce Identity Federation configuration file, you specify a *workforce pools user project* . This project identifies your application to Google APIs and serves as the default quota project for client-based APIs, unless you use the gcloud CLI to make the request. You must have the `serviceusage.services.use` permission (included in the Service Usage Consumer role, ( `roles/serviceusage.serviceUsageConsumer` )) for the specified project.
+When you create a Workforce Identity Federation configuration file, you specify a *workforce pools user project* . This project identifies your application to Google APIs and serves as the default quota project for client-based APIs, unless you use the gcloud CLI to make the request. You must have the `serviceusage.services.use` permission, included in the Service Usage Consumer role, ( `roles/serviceusage.serviceUsageConsumer` ), for the specified project.
 
 For more information about the quota project, resource-based APIs, and client-based APIs, see [Quota project overview](https://docs.cloud.google.com/docs/quotas/quota-project) .
 
@@ -252,7 +254,7 @@ Partner Example Organization's administrator can now configure the `example-orga
 
 In large enterprises, IT administrators often create security groups as part of a best-practices access-control model. Security groups govern access to internal resources. Further, companies often create additional groups for employees and other groups for partners to extend this access-control model to cloud resources. This can result in proliferation of deeply nested groups that can become very difficult to manage.
 
-Your organization might also have policies that limit the number of groups that you can create so as to keep the user directory hierarchy reasonably flat. A better solution to prevent misconfiguration of allow policies and limit growth of groups is to use multiple pools to create a broader separation of users from different organizational units and business units, and partner organizations. You can then reference these pools and groups contained within these pools to define allow policies (see examples in the Configuring IAM step).
+Your organization might also have policies that limit the number of groups that you can create so as to keep the user directory hierarchy reasonably flat. A better solution to prevent misconfiguration of allow policies and limit growth of groups is to use multiple pools to create a broader separation of users from different organizational units and business units, and partner organizations. You can then reference these pools and groups contained within these pools to define allow policies (see examples in the Configuring IAM step). For additional recommendations on group governance and pool management, see [Best practices for using Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation) .
 
 ### VPC Service Controls limitations
 
@@ -274,11 +276,13 @@ For Security Token Service API requests where the audience is a [Workforce Ident
 
 To receive important information about changes to your organization or Google Cloud products, you must provide [Essential Contacts](https://docs.cloud.google.com/resource-manager/docs/managing-notification-contacts) when using Workforce Identity Federation. Cloud Identity users can be contacted through their Cloud Identity email address, but Workforce Identity Federation users are contacted using Essential Contacts.
 
-When you use the Google Cloud console to create or manage workforce identity pools, you will see a banner that asks you to configure an essential contact with the **Legal** and **Suspension** category. Alternatively, you can define a contact in the **All** category if you don't have separate contacts. Supplying the contacts will remove the banner.
+When you use the Google Cloud console to create or manage workforce identity pools, you see a banner that asks you to configure an essential contact with the **Legal** and **Suspension** category. Alternatively, define a contact in the **All** category if you don't have separate contacts. Supplying the contacts removes the banner.
 
 ## What's next
 
-  - To learn how to set up Workforce Identity Federation, see [Configuring Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) . For IdP-specific instructions, see:
+  - Review [Architecture patterns for identity federation](https://docs.cloud.google.com/iam/docs/federated-identity-architectures) .
+  - Review [Best practices for using Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation) .
+  - To learn how to set up Workforce Identity Federation, see [Configuring Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) . For IdP-specific instructions, see the following:
       - [Configure Workforce Identity Federation with Microsoft Entra ID and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id)
       - [Configure Workforce Identity Federation with Okta and sign in users](https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta)
   - [Obtain short-lived tokens for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials)

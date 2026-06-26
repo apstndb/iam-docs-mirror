@@ -16,6 +16,308 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-06-23
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Access Context Manager</td>
+<td><p>The following permissions have been added to the VPC Service Controls Troubleshooter Viewer role ( <code dir="ltr" translate="no">roles/accesscontextmanager.vpcScTroubleshooterViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">iam.roles.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Vertex AI Service Agent role ( <code dir="ltr" translate="no">roles/aiplatform.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.instanceGroupManagers.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>API Hub</td>
+<td><p>The following permissions have been added to the Cloud API Hub Admin role ( <code dir="ltr" translate="no">roles/apihub.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>API Hub</td>
+<td><p>The following permissions have been added to the Cloud API hub Provisioning Admin role ( <code dir="ltr" translate="no">roles/apihub.provisioningAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>App Engine</td>
+<td><p>The Appengine Admin role ( <code dir="ltr" translate="no">roles/appengine.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>App Engine</td>
+<td><p>The Appengine Editor role ( <code dir="ltr" translate="no">roles/appengine.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>App Engine</td>
+<td><p>The Appengine Viewer role ( <code dir="ltr" translate="no">roles/appengine.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle API Editor role ( <code dir="ltr" translate="no">roles/chronicle.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettingsProperties.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle SOAR Admin role ( <code dir="ltr" translate="no">roles/chronicle.soarAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.preferenceSets.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle SOAR Threat Manager role ( <code dir="ltr" translate="no">roles/chronicle.soarThreatManager</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.dataAccessScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.environmentGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.instances.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.integrations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySoarAdvancedReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySoarUsers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettings.rebranding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettingsProperties.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.preferenceSets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.preferenceSets.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.socRoles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userLocalizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userNotifications.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle SOAR Vulnerability Manager role ( <code dir="ltr" translate="no">roles/chronicle.soarVulnerabilityManager</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.dataAccessScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.environmentGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.instances.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.integrations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySoarAdvancedReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySoarUsers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettings.rebranding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettingsProperties.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.preferenceSets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.preferenceSets.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.socRoles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userLocalizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userNotifications.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle API Viewer role ( <code dir="ltr" translate="no">roles/chronicle.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettingsProperties.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userLocalizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userNotifications.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The following permissions have been added to the Developer Connect Service Agent role ( <code dir="ltr" translate="no">roles/developerconnect.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Gemini Enterprise User role ( <code dir="ltr" translate="no">roles/discoveryengine.agentspaceUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Podcast API User role ( <code dir="ltr" translate="no">roles/discoveryengine.podcastApiUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine User role ( <code dir="ltr" translate="no">roles/discoveryengine.user</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Telemetry</td>
+<td><p>The Firebase Telemetry Service Agent role ( <code dir="ltr" translate="no">roles/firebasetelemetry.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Backup for GKE</td>
+<td><p>The following permissions have been added to the Backup for GKE Admin role ( <code dir="ltr" translate="no">roles/gkebackup.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.machineLearningRuns.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.machineLearningRuns.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.machineLearningRuns.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.machineLearningRuns.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.machineLearningRuns.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Monitoring</td>
+<td><p>The Monitoring Alert Viewer role ( <code dir="ltr" translate="no">roles/monitoring.alertViewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Network Connectivity Center</td>
+<td><p>The following permissions have been added to the Network Connectivity Service Agent role ( <code dir="ltr" translate="no">roles/networkconnectivity.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.serviceAttachments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.serviceAttachments.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Secret Manager</td>
+<td><p>The Secretmanager Editor role ( <code dir="ltr" translate="no">roles/secretmanager.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Workflows</td>
+<td><p>The following permissions have been added to the Workflows Admin role ( <code dir="ltr" translate="no">roles/workflows.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Workflows</td>
+<td><p>The following permissions have been added to the Workflows Editor role ( <code dir="ltr" translate="no">roles/workflows.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Bare Metal Solution</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">baremetalsolution.luns.onDemandEvict</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">baremetalsolution.volumes.onDemandEvict</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Bare Metal Solution</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">baremetalsolution.luns.onDemandEvict</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">baremetalsolution.volumes.onDemandEvict</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Bare Metal Solution</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">baremetalsolution.luns.onDemandEvict</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">baremetalsolution.volumes.onDemandEvict</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.connectorEvents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.featuredContentPlaybooks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.featuredContentPlaybooks.install</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.featuredContentPlaybooks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettings.modifyCaseList</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.connectorEvents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.featuredContentPlaybooks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.featuredContentPlaybooks.install</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.featuredContentPlaybooks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettings.modifyCaseList</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.caseAlerts.removeTag</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.caseAlerts.updateTag</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.caseDetections.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.caseEvents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.caseEvidenceDatas.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Monitoring</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">monitoring.alerts.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">monitoring.alerts.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Run</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.instances.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.sshRoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.jobs.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.jobs.sshRoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.services.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.services.sshRoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.workerpools.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.workerpools.sshRoot</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Run</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.instances.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.sshRoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.jobs.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.jobs.sshRoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.services.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.services.sshRoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.workerpools.sshRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.workerpools.sshRoot</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Workload Manager</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">workloadmanager.findings.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadmanager.findings.list</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-06-09
 
 <table>

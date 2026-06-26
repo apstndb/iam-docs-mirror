@@ -3226,6 +3226,26 @@ The limitations table is organized in the following way:
 </table></td>
 </tr>
 <tr class="even">
+<td><h3 id="gemini-enterprise" data-text="Gemini Enterprise" tabindex="-1"><a href="https://cloud.google.com/gemini-enterprise">Gemini Enterprise</a></h3></td>
+<td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
+<td><table>
+<tbody>
+<tr class="odd">
+<td>Console (federated):</td>
+<td>No known limitations</td>
+</tr>
+<tr class="even">
+<td>Google Cloud API:</td>
+<td>No known limitations</td>
+</tr>
+<tr class="odd">
+<td>Other:</td>
+<td>Workspace connectors are not supported for Workforce Identity Federation users.</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr class="odd">
 <td><h3 id="vertex-ai-vision" data-text="Vertex AI Vision" tabindex="-1"><a href="https://docs.cloud.google.com/vision-ai/docs">Vertex AI Vision</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3245,7 +3265,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h3 id="vertex-ai-workbench" data-text="Vertex AI Workbench" tabindex="-1"><a href="https://docs.cloud.google.com/vertex-ai/docs/workbench/notebook-solution">Vertex AI Workbench</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3272,7 +3292,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h3 id="video-intelligence-api" data-text="Video Intelligence API" tabindex="-1"><a href="https://docs.cloud.google.com/video-intelligence/docs">Video Intelligence API</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3292,7 +3312,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h3 id="video-stitcher-api" data-text="Video Stitcher API" tabindex="-1"><a href="https://docs.cloud.google.com/video-stitcher/docs">Video Stitcher API</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3312,7 +3332,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h3 id="virtual-private-cloud" data-text="Virtual Private Cloud" tabindex="-1"><a href="https://docs.cloud.google.com/vpc/docs">Virtual Private Cloud</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3332,7 +3352,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h3 id="vpc-service-controls" data-text="VPC Service Controls" tabindex="-1"><a href="https://docs.cloud.google.com/vpc-service-controls/docs">VPC Service Controls</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3363,7 +3383,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h3 id="web-risk" data-text="Web Risk" tabindex="-1"><a href="https://docs.cloud.google.com/web-risk/docs">Web Risk</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3383,7 +3403,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h3 id="workflows" data-text="Workflows" tabindex="-1"><a href="https://docs.cloud.google.com/workflows/docs">Workflows</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
@@ -3403,7 +3423,7 @@ The limitations table is organized in the following way:
 </tbody>
 </table></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h3 id="workload-manager" data-text="Workload Manager" tabindex="-1"><a href="https://docs.cloud.google.com/workload-manager/docs">Workload Manager</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
