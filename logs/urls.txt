@@ -1229,7 +1229,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroublesh
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/v3beta/iam	2025-10-17T21:46:43Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/v3beta/iam/troubleshoot	2026-03-27T21:09:39Z
 https://docs.cloud.google.com/policy-intelligence/docs/release-notes	2026-06-19T10:57:48Z
-https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests	2026-06-22T15:52:13Z
+https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests	2026-06-27T00:07:58Z
 https://docs.cloud.google.com/policy-intelligence/docs/resources	2026-06-19T10:57:52Z
 https://docs.cloud.google.com/policy-intelligence/docs/review-apply-organization-policy-recommendations	2026-06-19T10:57:52Z
 https://docs.cloud.google.com/policy-intelligence/docs/review-apply-role-recommendations	2026-06-19T10:57:52Z
