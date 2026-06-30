@@ -543,7 +543,7 @@ To mitigate these risks, use Cloud Identity or Google Workspace for emergency-ac
   - Exclude these users from single sign-on and let them authenticate using a username and password.
   - Secure these users by enrolling them in two-step verification with a security key.
 
-For more information on emergency-access users, see [Best practices for continuous access to Google Cloud](https://docs.cloud.google.com/iam/docs/best-practices-for-continuous-access) .
+For more information on emergency-access users, see [Best practices for continuous access to Google Cloud](https://docs.cloud.google.com/architecture/security/best-practices-continuous-access-to-google-cloud) .
 
 ### Use Cloud Identity for highly-privileged access
 
@@ -592,7 +592,7 @@ When a user signs in, Workforce Identity Federation initiates a session. The ses
 
   - Use and navigate between the console (federated), Gemini Enterprise, or other portals that support Workforce Identity Federation.
   - Use IAP-protected web applications.
-  - Obtain [federated refresh tokens](https://docs.cloud.google.com/authentication/token-types#federated-refresh-tokens) and [federated access tokens](https://docs.cloud.google.com/authentication/token-types#fed-access-tokens) —for example, by running `gcloud auth login` .
+  - Obtain [federated refresh tokens](https://docs.cloud.google.com/docs/authentication/token-types#federated-refresh-tokens) and [federated access tokens](https://docs.cloud.google.com/docs/authentication/token-types#fed-access-tokens) —for example, by running `gcloud auth login` .
 
 A session remains valid until one of the following occurs:
 

@@ -25,7 +25,7 @@ https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-accou
 https://docs.cloud.google.com/iam/docs/best-practices-for-using-service-accounts-in-deployment-pipelines	2026-06-25T23:26:30Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation	2026-06-25T23:26:30Z
 https://docs.cloud.google.com/iam/docs/best-practices-service-accounts	2026-06-25T23:26:30Z
-https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation	2026-06-25T09:05:49Z
+https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation	2026-06-29T22:55:51Z
 https://docs.cloud.google.com/iam/docs/billing-questions	2026-06-25T23:26:30Z
 https://docs.cloud.google.com/iam/docs/built-in-resource-identities	2026-06-25T23:26:30Z
 https://docs.cloud.google.com/iam/docs/choose-predefined-roles	2026-06-25T23:26:30Z
@@ -50,7 +50,7 @@ https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	202
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-06-25T23:24:17Z
-https://docs.cloud.google.com/iam/docs/deny-access	2026-06-27T12:24:07Z
+https://docs.cloud.google.com/iam/docs/deny-access	2026-06-29T19:56:01Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-06-25T23:24:17Z
@@ -60,7 +60,7 @@ https://docs.cloud.google.com/iam/docs/full-resource-names	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/grant-role-console	2026-06-25T23:24:17Z
-https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-06-27T12:24:07Z
+https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-06-29T19:56:13Z
 https://docs.cloud.google.com/iam/docs/groups-best-practices	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/groups-in-cloud-console	2026-06-25T23:24:17Z
 https://docs.cloud.google.com/iam/docs/iam-security-architecture	2026-06-25T23:24:17Z
@@ -443,7 +443,7 @@ https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.roles/list	202
 https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.roles/patch	2025-10-17T21:13:59Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.roles/undelete	2025-10-17T21:14:27Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts	2025-10-17T21:14:21Z
-https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys	2025-10-17T21:14:32Z
+https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys	2026-06-29T23:15:59Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/create	2025-10-17T21:13:43Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/delete	2025-10-17T21:14:27Z
 https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.serviceAccounts.keys/disable	2025-10-17T21:13:51Z
@@ -662,7 +662,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/resources	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-06-25T23:24:00Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-06-27T12:20:33Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-06-29T12:14:35Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-06-25T23:24:00Z
@@ -1023,7 +1023,7 @@ https://docs.cloud.google.com/iam/docs/samples	2026-06-25T23:24:45Z
 https://docs.cloud.google.com/iam/docs/secure-iam-vpc-sc	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/service-account-creds	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/service-account-impersonation	2026-06-25T23:24:00Z
-https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-06-27T12:20:42Z
+https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-06-29T17:39:03Z
 https://docs.cloud.google.com/iam/docs/service-account-overview	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/service-account-permissions	2026-06-25T23:24:00Z
 https://docs.cloud.google.com/iam/docs/service-account-types	2026-06-25T23:24:00Z
@@ -1065,7 +1065,7 @@ https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scal
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-06-25T23:25:35Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingfederate	2026-06-25T23:25:35Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingone	2026-06-25T23:25:35Z
-https://docs.cloud.google.com/iam/docs/workforce-sign-in-power-bi	2026-06-25T23:25:35Z
+https://docs.cloud.google.com/iam/docs/workforce-sign-in-power-bi	2026-06-29T12:15:30Z
 https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access	2026-06-25T23:25:35Z
 https://docs.cloud.google.com/iam/docs/workload-identities	2026-06-25T23:25:35Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation	2026-06-25T23:24:14Z
