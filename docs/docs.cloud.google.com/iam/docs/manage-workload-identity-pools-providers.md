@@ -372,7 +372,7 @@ You can use [organization policy constraints](https://docs.cloud.google.com/reso
 
 This section describes constraints that are recommended when you use Workload Identity Federation.
 
-### Restrict identity provider configuration
+### Manage allowed identity providers
 
 As an organization administrator, you can decide which identity providers your organization is allowed to federate with.
 
