@@ -766,12 +766,12 @@ The limitations table is organized in the following way:
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
-<td>Workforce Identity Federation users can only access the <a href="https://console.cloud.google/">Google Cloud Workforce Identity Federation console, also known as the console (federated)</a> . They cannot access the Google Cloud console. The console (federated) provides limited access to only those Google Cloud products that support Workforce Identity Federation. For more information, see <a href="https://docs.cloud.google.com/iam/docs/workforce-console-learn-more">About the console (federated)</a> . Additionally, the console (federated) has the following limitations:
+<td>Workforce Identity Federation users can only access the <a href="https://console.cloud.google/">Google Cloud Workforce Identity Federation console, also known as the console (federated)</a> . They can't access the Google Cloud console. The console (federated) provides limited access to only those Google Cloud products that support Workforce Identity Federation. For more information, see <a href="https://docs.cloud.google.com/iam/docs/workforce-console-learn-more">About the console (federated)</a> . The console (federated) has the following limitations:
 <ul>
-<li>Language preference is selected at sign-on and can't be updated within the console.</li>
-<li>Product notifications, updates and offers can't be enabled on the <a href="https://docs.cloud.google.com/resource-manager/docs/managing-notifications#manage-preferences">communication preferences</a> page.</li>
-<li>Personalization based on your Google Cloud console activity is unsupported.</li>
-<li>The <a href="https://docs.cloud.google.com/recommender/docs/opting-out">Transparency and Control Center</a> page is unavailable.</li>
+<li>Language preference is selected at sign-in and can't be updated within the console (federated).</li>
+<li>Product notifications, updates, and offers can't be enabled on the <a href="https://docs.cloud.google.com/resource-manager/docs/managing-notifications#manage-preferences">communication preferences</a> page.</li>
+<li>Personalization based on your Google Cloud console activity isn't supported.</li>
+<li>The <a href="https://docs.cloud.google.com/recommender/docs/opting-out">Transparency and Control Center</a> page isn't available.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -780,7 +780,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td>Workforce Identity Federation users aren't eligible for Google Cloud Free Trial.</td>
+<td>Workforce Identity Federation users aren't eligible for the Google Cloud Free Trial.</td>
 </tr>
 </tbody>
 </table></td>
@@ -797,10 +797,10 @@ The limitations table is organized in the following way:
 <tr class="odd">
 <td>Console (federated):</td>
 <td><ul>
-<li>Due to the <a href="https://cloud.google.com/iam/docs/federated-identity-supported-services#cloud-billing">limitations of Cloud Billing for Workforce Identity Federation</a> , billing related support is accessible only to the organization's administrator through the Google Cloud account used to set up the billing account.</li>
-<li>Workforce Identity Federation users can upload—but not download—support case-related files. These files are visible to the Support Engineers who handle your cases.</li>
-<li>Contact details (e.g. Email Address) cannot be changed for Workforce Identity Federation users once interaction with Support has started.</li>
-<li>Workforce Identity Federation users cannot create cases using the live chat support channel.</li>
+<li>Due to the <a href="https://cloud.google.com/iam/docs/federated-identity-supported-services#cloud-billing">limitations of Cloud Billing for Workforce Identity Federation</a> , billing-related support is accessible only to the organization's administrator through the Google Cloud account used to set up the billing account.</li>
+<li>Workforce Identity Federation users can upload—but not download—support case-related files. These files are visible to the support engineers who handle your cases.</li>
+<li>Contact details (for example, email address) can't be changed for Workforce Identity Federation users once interaction with support has started.</li>
+<li>Workforce Identity Federation users can't create cases using the live chat support channel.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -2855,14 +2855,13 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td>The following methods don't support identity federtation:
+<td>The following methods don't support identity federation:
 <ul>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.CatalogService.UpdateCatalog">UpdateCatalog</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.CompletionService.ImportCompletionData">ImportCompletionData</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.ModelService.TuneModel">TuneModel</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.ProductService.ImportProducts">ImportProducts</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.ProductService.PurgeProducts">PurgeProducts</a></li>
-<li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.UserEventService.ImportUserEvents">ImportUserEvents</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.UserEventService.ImportUserEvents">ImportUserEvents</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.UserEventService.PurgeUserEvents">PurgeUserEvents</a></li>
 <li><a href="https://docs.cloud.google.com/retail/docs/reference/rpc/google.cloud.retail.v2alpha#google.cloud.retail.v2alpha.UserEventService.RejoinUserEvents">RejoinUserEvents</a></li>

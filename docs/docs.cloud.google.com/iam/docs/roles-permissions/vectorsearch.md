@@ -176,11 +176,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><h4 id="vectorsearch.serviceAgent" class="role-title add-link" data-text="Vector Search Service Agent" tabindex="-1">Vector Search Service Agent</h4>
 <p>( <code dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</p>
-<p>Gives Vector Search access to read Cloud Storage buckets and read/create objects.</p>
+<p>Gives Vector Search access to read Cloud Storage buckets, read/create objects, use Vertex Models, and call Discovery Engine RankService.</p>
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  rankingConfigs.  rank</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.create</code></p>
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>

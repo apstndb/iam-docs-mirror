@@ -87,6 +87,26 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <li><code dir="ltr" translate="no">dataplex.  dataAttributes.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.dataAttributes.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomainBindings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  create</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  get</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.dataDomains.create</code></li>
+<li><code dir="ltr" translate="no">dataplex.dataDomains.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></li>
+<li><code dir="ltr" translate="no">dataplex.dataDomains.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">dataplex.dataDomains.list</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomains.  modifyEntry</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomains.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">dataplex.dataDomains.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.dataProducts.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.dataProducts.approve</code></li>
@@ -437,6 +457,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <li><code dir="ltr" translate="no">dataplex.aspectTypes.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -450,6 +471,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
@@ -490,6 +512,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.use</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -608,6 +631,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -701,6 +725,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
@@ -730,6 +755,74 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <td><p><code dir="ltr" translate="no">dataplex.changeRequests.delete</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.update</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomainAdmin" class="role-title add-link" data-text="Dataplex Data Domain Admin Beta" tabindex="-1">Dataplex Data Domain Admin <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p>Allows full management of the Data Domain and its bindings.</p></td>
+<td><p><code dir="ltr" translate="no">dataplex.dataDomainBindings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  create</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  get</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.create</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.delete</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.update</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomainEditor" class="role-title add-link" data-text="Dataplex Data Domain Configuration Editor Beta" tabindex="-1">Dataplex Data Domain Configuration Editor <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p>Allows updating the Data Domain as well as full management of its bindings.</p></td>
+<td><p><code dir="ltr" translate="no">dataplex.dataDomainBindings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  create</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  get</code></li>
+<li><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.update</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomainEntryReader" class="role-title add-link" data-text="Dataplex Data Domain Entry Reader Beta" tabindex="-1">Dataplex Data Domain Entry Reader <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  dataplex.dataDomainEntryReader</code> )</p>
+<p>Allows discovering and viewing the Data Domain, its subdomains, and metadata of all its resources.</p></td>
+<td><p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomainViewer" class="role-title add-link" data-text="Dataplex Data Domain Configuration Viewer Beta" tabindex="-1">Dataplex Data Domain Configuration Viewer <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p>Allows viewing the configuration of the Data Domain and its bindings.</p></td>
+<td><p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
 <td><h4 id="dataplex.dataOwner" class="role-title add-link" data-text="Dataplex Data Owner" tabindex="-1">Dataplex Data Owner</h4>
@@ -933,6 +1026,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -1010,6 +1104,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -1069,6 +1164,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p>( <code dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p>
 <p>Grants access to creating and managing Entry Types. Does not give the right to create/modify Entries.</p></td>
 <td><p><code dir="ltr" translate="no">datacatalog.  migrationConfig.  get</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.create</code></li>
@@ -1090,6 +1186,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p>( <code dir="ltr" translate="no">roles/  dataplex.entryTypeUser</code> )</p>
 <p>Grants access to use Entry Types to create/modify Entries of those types.</p></td>
 <td><p><code dir="ltr" translate="no">datacatalog.  migrationConfig.  get</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.use</code></p>
@@ -2531,6 +2628,172 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.taxonomyAdmin">Dataplex Taxonomy Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.taxonomyAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomainBindings.create" class="permission-name add-link" data-text="dataplex.dataDomainBindings.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomainBindings.delete" class="permission-name add-link" data-text="dataplex.dataDomainBindings.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomainBindings.get" class="permission-name add-link" data-text="dataplex.dataDomainBindings.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomainBindings.list" class="permission-name add-link" data-text="dataplex.dataDomainBindings.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomains.create" class="permission-name add-link" data-text="dataplex.dataDomains.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataDomains.create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomains.delete" class="permission-name add-link" data-text="dataplex.dataDomains.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataDomains.delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomains.discover" class="permission-name add-link" data-text="dataplex.dataDomains.discover" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.editor">Data Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.viewer">Data Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryGroupOwner">DataCatalog EntryGroup Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryOwner">DataCatalog Entry Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.tagTemplateOwner">Data Catalog TagTemplate Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.tagTemplateOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.tagTemplateUser">Data Catalog TagTemplate User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.tagTemplateUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.aspectTypeOwner">Dataplex Aspect Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.aspectTypeOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.aspectTypeUser">Dataplex Aspect Type User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.aspectTypeUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEntryReader">Dataplex Data Domain Entry Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEntryReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeOwner">Dataplex Entry Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeUser">Dataplex Entry Type User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomains.get" class="permission-name add-link" data-text="dataplex.dataDomains.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataDomains.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEntryReader">Dataplex Data Domain Entry Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEntryReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomains.getIamPolicy" class="permission-name add-link" data-text="dataplex.dataDomains.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomains.list" class="permission-name add-link" data-text="dataplex.dataDomains.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataDomains.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEntryReader">Dataplex Data Domain Entry Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEntryReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomains.lookupEntry" class="permission-name add-link" data-text="dataplex.dataDomains.lookupEntry" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEntryReader">Dataplex Data Domain Entry Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEntryReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainViewer">Dataplex Data Domain Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomains.modifyEntry" class="permission-name add-link" data-text="dataplex.dataDomains.modifyEntry" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomains.  modifyEntry</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.dataDomains.setIamPolicy" class="permission-name add-link" data-text="dataplex.dataDomains.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  dataDomains.  setIamPolicy</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.dataDomains.update" class="permission-name add-link" data-text="dataplex.dataDomains.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataDomains.update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="dataplex.dataProducts.approve" class="permission-name add-link" data-text="dataplex.dataProducts.approve" tabindex="-1"><code dir="ltr" translate="no">dataplex.dataProducts.approve</code></h4></td>
@@ -4607,6 +4870,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.aspectTypeOwner">Dataplex Aspect Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.aspectTypeOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainAdmin">Dataplex Data Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataDomainEditor">Dataplex Data Domain Configuration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataDomainEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataProductsAdmin">Dataplex Data Products Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataProductsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataProductsEditor">Dataplex Data Products Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataProductsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.dataScanCreator">Dataplex DataScan Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.dataScanCreator</code> )</p>

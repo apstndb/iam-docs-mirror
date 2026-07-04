@@ -397,6 +397,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.list</code></p>
@@ -421,6 +422,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  entityTypes.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationSets.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.exampleStores.list</code></p>
@@ -1615,6 +1617,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">dataplex.  dataAttributes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataAttributes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataAttributes.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataProducts.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataProducts.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataProducts.  setIamPolicy</code></p>
@@ -3166,6 +3172,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">workloadcertificate.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  workloadRegistrations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  actuations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  deployments.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  discoveredprofiles.  list</code></p>
@@ -3212,6 +3220,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.list</code></p>
@@ -3234,6 +3243,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.entityTypes.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationSets.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.exampleStores.list</code></p>
@@ -4298,6 +4308,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">dataplex.  dataAttributeBindings.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataAttributes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataAttributes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataProducts.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataProducts.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataTaxonomies.  getIamPolicy</code></p>
@@ -5666,6 +5679,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">workloadcertificate.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  workloadRegistrations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  actuations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  deployments.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  discoveredprofiles.  list</code></p>
@@ -7613,7 +7628,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.instanceGroupManagerServiceAgent">Instance Group Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.instanceGroupManagerServiceAgent</code> )</li>
@@ -7810,7 +7825,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudconfig#cloudconfig.serviceAgent">Infrastructure Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudconfig.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.serviceAgent">Cloud Deploy Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudscheduler#cloudscheduler.serviceAgent">Cloud Scheduler Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudscheduler.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtasks#cloudtasks.serviceAgent">Cloud Tasks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtasks.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
@@ -7872,7 +7887,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigee#apigee.serviceAgent">Apigee Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigee.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAgent">App Engine Standard Environment Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.serviceAgent">Cloud Build Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudscheduler#cloudscheduler.serviceAgent">Cloud Scheduler Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudscheduler.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtasks#cloudtasks.serviceAgent">Cloud Tasks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtasks.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
@@ -8011,7 +8026,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.serviceAgent">App Engine Standard Environment Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengineflex#appengineflex.serviceAgent">App Engine flexible environment Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengineflex.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.serviceAgent">AI Platform Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.serviceAgent">Cloud Pub/Sub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  pubsub.serviceAgent</code> )</li>

@@ -260,6 +260,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.agents.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
@@ -382,6 +384,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.evaluationItems.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationItems.  update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationRuns.  cancel</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationRuns.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationRuns.  delete</code></li>

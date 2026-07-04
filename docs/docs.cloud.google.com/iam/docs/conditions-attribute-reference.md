@@ -228,29 +228,7 @@ The following attributes relate to the details of the request.
 <td><p><strong><a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#api">API attributes</a></strong></p></td>
 <td><p>Manage access based on data provided by a specific Google Cloud API or service.</p>
 <p>You can use this attribute in allow policy role bindings.</p></td>
-<td><ul>
-<li>API Gateway</li>
-<li>AutoML</li>
-<li>Certificate Authority Service</li>
-<li>Cloud Run functions</li>
-<li>Cloud Healthcare API</li>
-<li>Cloud Key Management Service</li>
-<li>Cloud Run</li>
-<li>Cloud Runtime Configuration API</li>
-<li>Cloud Storage</li>
-<li>Compute Engine</li>
-<li>Artifact Analysis</li>
-<li>Managed Service for Apache Spark</li>
-<li>Earth Engine</li>
-<li>Game Servers</li>
-<li>Identity and Access Management</li>
-<li>Identity-Aware Proxy</li>
-<li>Managed Service for Microsoft Active Directory</li>
-<li>User-managed notebooks</li>
-<li>Resource Manager</li>
-<li>Secret Manager</li>
-<li>Service Management</li>
-</ul></td>
+<td>Not all services recognize all API attributes. For a list of services that recognize each attribute, see <a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#api">API attributes</a> .</td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#date-time">Date/time attributes</a></strong></p></td>
@@ -1567,6 +1545,63 @@ IAM provides the following API attribute:
 <li>Secret Manager</li>
 <li>Service Management</li>
 </ul></td>
+</tr>
+</tbody>
+</table>
+
+#### MCP API attributes
+
+Google Cloud provides the following attributes for controlling access to MCP servers:
+
+<table style="width:25%;">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Attribute variable</td>
+<td><code dir="ltr" translate="no">mcp.googleapis.com/tool.name</code></td>
+</tr>
+<tr class="even">
+<td>Attribute type</td>
+<td><code dir="ltr" translate="no">string</code></td>
+</tr>
+<tr class="odd">
+<td>Details</td>
+<td><p>For requests that accesses an MCP tool, this attribute contains name of the tool.</p>
+<p>For example, if the request accesses the BigQuery MCP tool <a href="https://docs.cloud.google.com/bigquery/docs/reference/mcp/tools_list/list_dataset_ids"><code dir="ltr" translate="no">list_dataset_ids</code></a> , then the <code dir="ltr" translate="no">tool.name</code> attribute for the request is <code dir="ltr" translate="no">list_dataset_ids</code> .</p>
+<p>For other types of requests, this attribute isn't defined.</p></td>
+</tr>
+<tr class="even">
+<td>Services that recognize this attribute</td>
+<td>All Google Cloud services with MCP servers recognize this API attribute. For a list of services with MCP servers, see <a href="https://docs.cloud.google.com/mcp/supported-products">Supported products</a> .</td>
+</tr>
+</tbody>
+</table>
+
+<table style="width:25%;">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Attribute variable</td>
+<td><code dir="ltr" translate="no">mcp.googleapis.com/tool.isReadOnly</code></td>
+</tr>
+<tr class="even">
+<td>Attribute type</td>
+<td><code dir="ltr" translate="no">boolean</code></td>
+</tr>
+<tr class="odd">
+<td>Details</td>
+<td><p>For requests that accesses an MCP tool, this attribute indicates whether the tool is a read-only tool.</p>
+<p>For other types of requests, this attribute isn't defined.</p></td>
+</tr>
+<tr class="even">
+<td>Services that recognize this attribute</td>
+<td>All Google Cloud services with MCP servers recognize this API attribute. For a list of services with MCP servers, see <a href="https://docs.cloud.google.com/mcp/supported-products">Supported products</a> .</td>
 </tr>
 </tbody>
 </table>

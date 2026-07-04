@@ -1622,8 +1622,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">dialogflow.versions.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.webhooks.get</code></p>
 <p><code dir="ltr" translate="no">dialogflow.webhooks.list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  create</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  documents.  create</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.documents.get</code></p>

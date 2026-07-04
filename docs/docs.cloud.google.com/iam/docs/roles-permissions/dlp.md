@@ -503,6 +503,11 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
@@ -552,6 +557,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  evaluationExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationItems.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationSets.get</code></p>
@@ -1790,6 +1797,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.cancel</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.delete</code></p>
@@ -2184,6 +2192,11 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
@@ -2233,6 +2246,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  evaluationExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationItems.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationSets.get</code></p>
@@ -3471,6 +3486,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.cancel</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.delete</code></p>
@@ -4100,6 +4116,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">dataplex.aspectTypes.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.datascans.cancel</code></li>

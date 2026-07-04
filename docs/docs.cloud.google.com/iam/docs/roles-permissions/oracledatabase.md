@@ -28,6 +28,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p>Grants full access to manage all Oracle Database resources.</p></td>
 <td><p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  clone</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  create</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  delete</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  get</code></li>
@@ -36,12 +37,15 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseCharacterSets.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  clone</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  create</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  delete</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  failover</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  generateWallet</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  get</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  list</code></li>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  listRefreshableClones</code></li>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  refresh</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  restart</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  restore</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  start</code></li>
@@ -174,6 +178,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseCharacterSets.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  listRefreshableClones</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDbVersions.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  cloudExadataInfrastructures.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  cloudExadataInfrastructures.  list</code></p>
@@ -228,6 +233,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p>Grants full access to manage all Autonomous Database resources.</p></td>
 <td><p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  clone</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  create</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  delete</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  get</code></li>
@@ -236,12 +242,15 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseCharacterSets.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  clone</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  create</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  delete</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  failover</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  generateWallet</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  get</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  list</code></li>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  listRefreshableClones</code></li>
+<li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  refresh</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  restart</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  restore</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  start</code></li>
@@ -278,6 +287,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseCharacterSets.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  listRefreshableClones</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDbVersions.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.locations.*</code></p>
@@ -968,20 +978,27 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="oracledatabase.autonomousDatabaseBackups.create" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.create" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  create</code></h4></td>
+<td><h4 id="oracledatabase.autonomousDatabaseBackups.clone" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.clone" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  clone</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="oracledatabase.autonomousDatabaseBackups.delete" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.delete" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  delete</code></h4></td>
+<td><h4 id="oracledatabase.autonomousDatabaseBackups.create" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.create" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="oracledatabase.autonomousDatabaseBackups.delete" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.delete" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="oracledatabase.autonomousDatabaseBackups.get" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.get" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -992,7 +1009,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseViewer">Oracle Database@Google Cloud Autonomous Database Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.autonomousDatabaseBackups.list" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseBackups.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseBackups.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1006,7 +1023,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseViewer">Oracle Database@Google Cloud Autonomous Database Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.autonomousDatabaseCharacterSets.list" class="permission-name add-link" data-text="oracledatabase.autonomousDatabaseCharacterSets.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseCharacterSets.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1019,6 +1036,13 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseViewer">Oracle Database@Google Cloud Autonomous Database Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseViewer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="oracledatabase.autonomousDatabases.clone" class="permission-name add-link" data-text="oracledatabase.autonomousDatabases.clone" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  clone</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="oracledatabase.autonomousDatabases.create" class="permission-name add-link" data-text="oracledatabase.autonomousDatabases.create" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  create</code></h4></td>
@@ -1072,6 +1096,24 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseViewer">Oracle Database@Google Cloud Autonomous Database Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseViewer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="oracledatabase.autonomousDatabases.listRefreshableClones" class="permission-name add-link" data-text="oracledatabase.autonomousDatabases.listRefreshableClones" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  listRefreshableClones</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.viewer">Oracle Database@Google Cloud viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseViewer">Oracle Database@Google Cloud Autonomous Database Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseViewer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="oracledatabase.autonomousDatabases.refresh" class="permission-name add-link" data-text="oracledatabase.autonomousDatabases.refresh" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  refresh</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.autonomousDatabaseAdmin">Oracle Database@Google Cloud Autonomous Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.autonomousDatabaseAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="oracledatabase.autonomousDatabases.restart" class="permission-name add-link" data-text="oracledatabase.autonomousDatabases.restart" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  restart</code></h4></td>

@@ -228,6 +228,8 @@ Gemini Enterprise Agent Platform
 
 `aiplatform.googleapis.com/agents.update`
 
+`aiplatform.googleapis.com/analyzedInvocations.get`
+
 `aiplatform.googleapis.com/analyzedSessions.*`
 
 `aiplatform.googleapis.com/analyzedSessions.aggregate`
@@ -517,6 +519,16 @@ Gemini Enterprise Agent Platform
 `aiplatform.googleapis.com/evaluationItems.list`
 
 `aiplatform.googleapis.com/evaluationItems.update`
+
+`aiplatform.googleapis.com/evaluationMetrics.*`
+
+`aiplatform.googleapis.com/evaluationMetrics.create`
+
+`aiplatform.googleapis.com/evaluationMetrics.delete`
+
+`aiplatform.googleapis.com/evaluationMetrics.get`
+
+`aiplatform.googleapis.com/evaluationMetrics.list`
 
 `aiplatform.googleapis.com/evaluationRuns.*`
 
@@ -6616,6 +6628,8 @@ Cloud Key Management Service
 
 `cloudkms.googleapis.com/cryptoKeyVersions.restore`
 
+`cloudkms.googleapis.com/cryptoKeyVersions.trustedImportExport`
+
 `cloudkms.googleapis.com/cryptoKeyVersions.update`
 
 `cloudkms.googleapis.com/cryptoKeyVersions.useToDecapsulate`
@@ -6659,6 +6673,10 @@ Cloud Key Management Service
 `cloudkms.googleapis.com/ekmConnections.create`
 
 `cloudkms.googleapis.com/ekmConnections.list`
+
+`cloudkms.googleapis.com/folders.*`
+
+`cloudkms.googleapis.com/folders.showEffectiveAutokeyConfig`
 
 `cloudkms.googleapis.com/importJobs.create`
 
@@ -7437,6 +7455,10 @@ Compute Engine
 `compute.googleapis.com/advice.*`
 
 `compute.googleapis.com/advice.calendarMode`
+
+`compute.googleapis.com/advice.capacity`
+
+`compute.googleapis.com/advice.capacityHistory`
 
 `compute.googleapis.com/autoscalers.*`
 
@@ -11255,6 +11277,38 @@ Knowledge Catalog
 `dataplex.googleapis.com/dataAssets.list`
 
 `dataplex.googleapis.com/dataAssets.update`
+
+`dataplex.googleapis.com/dataDomainBindings.*`
+
+`dataplex.googleapis.com/dataDomainBindings.create`
+
+`dataplex.googleapis.com/dataDomainBindings.delete`
+
+`dataplex.googleapis.com/dataDomainBindings.get`
+
+`dataplex.googleapis.com/dataDomainBindings.list`
+
+`dataplex.googleapis.com/dataDomains.*`
+
+`dataplex.googleapis.com/dataDomains.create`
+
+`dataplex.googleapis.com/dataDomains.delete`
+
+`dataplex.googleapis.com/dataDomains.discover`
+
+`dataplex.googleapis.com/dataDomains.get`
+
+`dataplex.googleapis.com/dataDomains.getIamPolicy`
+
+`dataplex.googleapis.com/dataDomains.list`
+
+`dataplex.googleapis.com/dataDomains.lookupEntry`
+
+`dataplex.googleapis.com/dataDomains.modifyEntry`
+
+`dataplex.googleapis.com/dataDomains.setIamPolicy`
+
+`dataplex.googleapis.com/dataDomains.update`
 
 `dataplex.googleapis.com/dataProducts.*`
 
@@ -16330,6 +16384,8 @@ Google Cloud NetApp Volumes
 
 `netapp.googleapis.com/backups.update`
 
+`netapp.googleapis.com/backups.useReadOnly`
+
 `netapp.googleapis.com/hostGroups.*`
 
 `netapp.googleapis.com/hostGroups.create`
@@ -16453,6 +16509,8 @@ Google Cloud NetApp Volumes
 `netapp.googleapis.com/volumes.*`
 
 `netapp.googleapis.com/volumes.create`
+
+`netapp.googleapis.com/volumes.createCrossProjectBackup`
 
 `netapp.googleapis.com/volumes.delete`
 
@@ -17244,6 +17302,8 @@ Oracle Database@Google Cloud
 
 `oracledatabase.googleapis.com/autonomousDatabaseBackups.*`
 
+`oracledatabase.googleapis.com/autonomousDatabaseBackups.clone`
+
 `oracledatabase.googleapis.com/autonomousDatabaseBackups.create`
 
 `oracledatabase.googleapis.com/autonomousDatabaseBackups.delete`
@@ -17258,6 +17318,8 @@ Oracle Database@Google Cloud
 
 `oracledatabase.googleapis.com/autonomousDatabases.*`
 
+`oracledatabase.googleapis.com/autonomousDatabases.clone`
+
 `oracledatabase.googleapis.com/autonomousDatabases.create`
 
 `oracledatabase.googleapis.com/autonomousDatabases.delete`
@@ -17269,6 +17331,10 @@ Oracle Database@Google Cloud
 `oracledatabase.googleapis.com/autonomousDatabases.get`
 
 `oracledatabase.googleapis.com/autonomousDatabases.list`
+
+`oracledatabase.googleapis.com/autonomousDatabases.listRefreshableClones`
+
+`oracledatabase.googleapis.com/autonomousDatabases.refresh`
 
 `oracledatabase.googleapis.com/autonomousDatabases.restart`
 
@@ -20395,6 +20461,28 @@ Workflows
 `workflows.googleapis.com/workflows.listTagBindings`
 
 `workflows.googleapis.com/workflows.update`
+
+Workload Identity API
+
+`workloadidentity.googleapis.com/locations.*`
+
+`workloadidentity.googleapis.com/locations.get`
+
+`workloadidentity.googleapis.com/locations.list`
+
+`workloadidentity.googleapis.com/operations.*`
+
+`workloadidentity.googleapis.com/operations.cancel`
+
+`workloadidentity.googleapis.com/operations.delete`
+
+`workloadidentity.googleapis.com/operations.get`
+
+`workloadidentity.googleapis.com/operations.list`
+
+`workloadidentity.googleapis.com/serviceAgents.*`
+
+`workloadidentity.googleapis.com/serviceAgents.create`
 
 Cloud Workstations
 

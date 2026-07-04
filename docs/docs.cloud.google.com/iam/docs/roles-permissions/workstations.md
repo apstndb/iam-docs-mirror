@@ -117,8 +117,7 @@ This page lists the IAM roles and permissions for Cloud Workstations. To search 
 <p><code dir="ltr" translate="no">workstations.workstations.list</code></p>
 <p><code dir="ltr" translate="no">workstations.  workstations.  start</code></p>
 <p><code dir="ltr" translate="no">workstations.workstations.stop</code></p>
-<p><code dir="ltr" translate="no">workstations.  workstations.  update</code></p>
-<p><code dir="ltr" translate="no">workstations.workstations.use</code></p></td>
+<p><code dir="ltr" translate="no">workstations.  workstations.  update</code></p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="workstations.networkAdmin" class="role-title add-link" data-text="Cloud Workstations Network Admin" tabindex="-1">Cloud Workstations Network Admin</h4>
@@ -594,8 +593,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </tr>
 <tr class="even">
 <td><h4 id="workstations.workstations.use" class="permission-name add-link" data-text="workstations.workstations.use" tabindex="-1"><code dir="ltr" translate="no">workstations.workstations.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.editor">Cloud Workstations Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workstations.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.user">Cloud Workstations User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workstations.user</code> )</p></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.user">Cloud Workstations User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workstations.user</code> )</p></td>
 </tr>
 </tbody>
 </table>

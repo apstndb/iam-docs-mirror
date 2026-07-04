@@ -185,6 +185,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.addresses.list</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacity</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacityHistory</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.get</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.list</code></p>
 <p><code dir="ltr" translate="no">compute.backendBuckets.get</code></p>

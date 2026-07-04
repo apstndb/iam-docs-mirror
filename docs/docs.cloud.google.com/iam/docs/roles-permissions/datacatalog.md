@@ -129,6 +129,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.use</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -306,6 +307,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
@@ -354,6 +356,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
@@ -478,6 +481,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -578,6 +582,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.changeRequests.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entries.create</code></li>
@@ -786,6 +791,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.aspectTypes.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -802,6 +808,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.use</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>

@@ -47,6 +47,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.agents.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
@@ -216,6 +221,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.evaluationItems.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationItems.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">aiplatform.evaluationMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.*</code></p>
 <ul>
@@ -1957,6 +1969,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.ekmConfigs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.list</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  folders.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.list</code></p>
 <p><code dir="ltr" translate="no">cloudkms.kajPolicyConfigs.get</code></p>
@@ -2063,6 +2076,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.addresses.list</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacity</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacityHistory</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.get</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.list</code></p>
 <p><code dir="ltr" translate="no">compute.backendBuckets.get</code></p>
@@ -4344,6 +4359,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.addresses.use</code></li>
 <li><code dir="ltr" translate="no">compute.addresses.useInternal</code></li>
 <li><code dir="ltr" translate="no">compute.advice.calendarMode</code></li>
+<li><code dir="ltr" translate="no">compute.advice.capacity</code></li>
+<li><code dir="ltr" translate="no">compute.advice.capacityHistory</code></li>
 <li><code dir="ltr" translate="no">compute.autoscalers.create</code></li>
 <li><code dir="ltr" translate="no">compute.autoscalers.delete</code></li>
 <li><code dir="ltr" translate="no">compute.autoscalers.get</code></li>
@@ -6601,6 +6618,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.agents.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.agents.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></li>
@@ -6723,6 +6742,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.evaluationItems.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationItems.  update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationRuns.  cancel</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationRuns.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  evaluationRuns.  delete</code></li>
@@ -7144,6 +7167,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.ekmConfigs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.list</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  folders.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.list</code></p>
 <p><code dir="ltr" translate="no">cloudkms.kajPolicyConfigs.get</code></p>
@@ -8249,6 +8273,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.addresses.use</code></li>
 <li><code dir="ltr" translate="no">compute.addresses.useInternal</code></li>
 <li><code dir="ltr" translate="no">compute.advice.calendarMode</code></li>
+<li><code dir="ltr" translate="no">compute.advice.capacity</code></li>
+<li><code dir="ltr" translate="no">compute.advice.capacityHistory</code></li>
 <li><code dir="ltr" translate="no">compute.autoscalers.create</code></li>
 <li><code dir="ltr" translate="no">compute.autoscalers.delete</code></li>
 <li><code dir="ltr" translate="no">compute.autoscalers.get</code></li>
@@ -10112,6 +10138,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  annotationSpecs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.annotations.list</code></p>
@@ -10139,6 +10166,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.entityTypes.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationSets.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.exampleStores.list</code></p>
@@ -11388,6 +11416,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  ekmConnections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.list</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  folders.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  importJobs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.list</code></p>
@@ -11584,6 +11613,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.addresses.list</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacity</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacityHistory</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.get</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.list</code></p>
 <p><code dir="ltr" translate="no">compute.backendBuckets.get</code></p>
@@ -12378,6 +12409,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.  dataAttributeBindings.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataAttributes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataAttributes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataProducts.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataProducts.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataTaxonomies.  getIamPolicy</code></p>
@@ -14172,6 +14206,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">workloadcertificate.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  workloadRegistrations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  actuations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  deployments.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  discoveredprofiles.  list</code></p>
@@ -14866,6 +14902,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.ekmConfigs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.list</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  folders.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.list</code></p>
 <p><code dir="ltr" translate="no">cloudkms.kajPolicyConfigs.get</code></p>
@@ -14949,6 +14986,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  addresses.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.addresses.use</code></p>
 <p><code dir="ltr" translate="no">compute.addresses.useInternal</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacity</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacityHistory</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">compute.autoscalers.create</code></li>
@@ -16125,6 +16164,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  analyzedInvocations.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.analyzedSessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  analyzedSessions.  aggregate</code></li>
@@ -16181,6 +16225,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.  evaluationExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationItems.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  evaluationItems.  list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  evaluationMetrics.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationRuns.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.evaluationSets.get</code></p>
@@ -18378,6 +18424,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudkms.  ekmConnections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">cloudkms.ekmConnections.list</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  ekmConnections.  verifyConnectivity</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  folders.  showEffectiveAutokeyConfig</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  importJobs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">cloudkms.importJobs.list</code></p>
@@ -18733,6 +18780,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.addresses.list</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  addresses.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacity</code></p>
+<p><code dir="ltr" translate="no">compute.advice.capacityHistory</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.get</code></p>
 <p><code dir="ltr" translate="no">compute.autoscalers.list</code></p>
 <p><code dir="ltr" translate="no">compute.backendBuckets.get</code></p>
@@ -19821,6 +19870,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.dataAttributes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataAttributes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataAttributes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomainBindings.  list</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.discover</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.dataDomains.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  dataDomains.  lookupEntry</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataProducts.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  dataProducts.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.dataProducts.list</code></p>
@@ -21655,6 +21711,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">netapp.backupVaults.list</code></p>
 <p><code dir="ltr" translate="no">netapp.backups.get</code></p>
 <p><code dir="ltr" translate="no">netapp.backups.list</code></p>
+<p><code dir="ltr" translate="no">netapp.backups.useReadOnly</code></p>
 <p><code dir="ltr" translate="no">netapp.hostGroups.get</code></p>
 <p><code dir="ltr" translate="no">netapp.hostGroups.list</code></p>
 <p><code dir="ltr" translate="no">netapp.kmsConfigs.get</code></p>
@@ -21950,6 +22007,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabaseCharacterSets.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  autonomousDatabases.  listRefreshableClones</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  autonomousDbVersions.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  cloudExadataInfrastructures.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  cloudExadataInfrastructures.  list</code></p>
@@ -23473,6 +23531,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">workloadcertificate.  workloadCertificateFeature.  get</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  workloadRegistrations.  get</code></p>
 <p><code dir="ltr" translate="no">workloadcertificate.  workloadRegistrations.  list</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">workloadidentity.locations.get</code></li>
+<li><code dir="ltr" translate="no">workloadidentity.  locations.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">workloadidentity.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">workloadidentity.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.actuations.get</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  actuations.  list</code></p>
 <p><code dir="ltr" translate="no">workloadmanager.  deployments.  get</code></p>

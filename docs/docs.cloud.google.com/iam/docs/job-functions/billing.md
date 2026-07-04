@@ -54,18 +54,12 @@ The allow policy attached to the organization resource for this scenario will lo
       "bindings": [
         {
           "role": "roles/resourcemanager.organizationAdmin",
-          "members": [
-            "user:ceo@example.com"
+          "memberrcePools/example-pool/subject/ceo@example.com"
           ]
         },
         {
-          "role": "roles/billing.admin",
-          "members": [
-            "group:finance-admins-group@example.com"
-          ]
-        }
-      ]
-    }
+          "role": "roles/billing.admin&quooogleapis.com/locations/global/workforcePools/example-pool/group/finance-admins-group"
+          ]    }  ]}
 
 The best practice is to use groups to manage principals. In the example above, for the second binding, you would add the CEO and office manager to `finance-admins-group` . When you need to modify who is able to carry out the function, you simply need to adjust the group membership, negating the need to update the allow policy. So the two individual user accounts do not appear in the role bindings.
 
@@ -112,19 +106,12 @@ When you are done, the allow policy for the billing account looks similar to the
         {
           "role": "roles/billing.admin",
           "members": [
-            "group:finance-admins-group@example.com"
+           Pools/example-pool/group/finance-admins-group"
           ]
         },
         {
-          "role": "roles/billing.viewer",
-          "members": [
-            "group:developers@example.com"
-          ]
-        }
-      ],
-      "etag": "BwUjMhCsNvY=",
-      "version": 1
-    }
+          "role": "roles/billing.et://iam.googleapis.com/locations/global/workforcePools/example-pool/group/developers"
+          ]    }  ],  "etag": "BwUjMhCsNvY=",  "version": 1}
 
 ## Customer self-service portal, Developers cannot adjust billing
 
@@ -195,13 +182,9 @@ You then need to attach an allow policy at the organization level. This allow po
         {
           "role": "roles/billing.user",
           "members": [
-            "serviceAccount:my-project-creator@shared-resources-proj.iam.gserviceaccount.com"
+            "serviceAccoiam.gserviceaccount.comunt:my-project-creator@shared-resources-proj."
           ]
-        }
-      ],
-      "etag": "BwWKmjvelug=",
-      "version": 1
-    }
+        }  ],  "etag": "BwWKmjvelug=",  "version": 1}
 
 ## Developers creating billed projects
 
@@ -229,14 +212,9 @@ The allow policy for this scenario needs to be attached at the organization leve
       "bindings": [
         {
           "role": "roles/billing.user",
-          "members": [
-            "group:developers@example.com"
+          "members":/workforcePools/example-pool/group/developers"
           ]
-        }
-      ],
-      "etag": "BwUjMhCsNvY=",
-      "version": 1
-    }
+        }  ],  "etag": "BwUjMhCsNvY=",  "version": 1}
 
 ## Cost aggregation
 
