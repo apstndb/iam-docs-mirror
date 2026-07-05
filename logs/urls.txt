@@ -65,7 +65,7 @@ https://docs.cloud.google.com/iam/docs/groups-best-practices	2026-06-30T15:26:42
 https://docs.cloud.google.com/iam/docs/groups-in-cloud-console	2026-06-30T15:26:42Z
 https://docs.cloud.google.com/iam/docs/iam-security-architecture	2026-06-30T15:26:42Z
 https://docs.cloud.google.com/iam/docs/job-functions/auditing	2026-06-30T15:27:34Z
-https://docs.cloud.google.com/iam/docs/job-functions/billing	2026-07-02T09:50:59Z
+https://docs.cloud.google.com/iam/docs/job-functions/billing	2026-07-04T07:55:45Z
 https://docs.cloud.google.com/iam/docs/job-functions/networking	2026-06-30T15:27:34Z
 https://docs.cloud.google.com/iam/docs/job-functions/roles-for-job-functions	2026-06-30T15:27:34Z
 https://docs.cloud.google.com/iam/docs/key-rotation	2026-06-30T15:26:42Z
@@ -662,7 +662,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-06-30T22:03:44Z
 https://docs.cloud.google.com/iam/docs/resources	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-06-30T15:26:14Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-02T09:50:41Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-04T07:54:30Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-06-30T15:26:14Z
@@ -1061,7 +1061,7 @@ https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-06-30T15:26:
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-06-30T15:27:34Z
-https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-06-30T15:27:34Z
+https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-07-04T07:56:23Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups	2026-06-30T15:27:34Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-06-30T15:27:34Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingfederate	2026-06-30T15:27:34Z
