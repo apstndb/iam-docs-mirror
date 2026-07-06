@@ -1061,7 +1061,7 @@ https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-06-30T15:26:
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-06-30T15:26:14Z
 https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-06-30T15:27:34Z
-https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-07-04T07:56:23Z
+https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-07-06T05:48:59Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups	2026-06-30T15:27:34Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-06-30T15:27:34Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingfederate	2026-06-30T15:27:34Z

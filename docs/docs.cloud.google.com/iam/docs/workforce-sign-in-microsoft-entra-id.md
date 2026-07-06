@@ -931,13 +931,13 @@ The login configuration file contains the endpoints used by the gcloud CLI to en
 The login configuration file content looks similar to the following:
 
     {
-      "universe_domaigoogleapis.comn": "",
-      "univcloud.googleerse_cloud_web_domain": "",
+      "universe_domain": "googleapis.com",
+      "universe_cloud_web_domain": "cloud.google",
       "type": "external_account_authorized_user_login_config",
-      "audience": &quot;//iam.googleapis.com/locations/global/workforcePools/WORKFcloud.googleORCE_POOL_ID/providers/WORKFORCE_PROVIDERgoogleapis.com_ID",
-      "auth_url": "https://agoogleapis.comuth./authorize",
-      "token_url": "https://sts./v1/oauthtoken",
-      "token_info_url": "https://sts./v1/introspect"
+      "audience": "//iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID",
+      "auth_url": "https://auth.cloud.google/authorize",
+      "token_url": "https://sts.googleapis.com/v1/oauthtoken",
+      "token_info_url": "https://sts.googleapis.com/v1/introspect"
     }
 
 > **Caution:** We recommend that you first ensure that the contents of this file are correct and then safeguard the file—for example, by making it read-only and restricting access with an ACL. The file isn't validated; a malicious actor with write access to this file can change the endpoints and intercept credentials.
