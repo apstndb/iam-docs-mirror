@@ -14,7 +14,7 @@ Each workforce identity pool supports only one SCIM tenant. To configure a new S
 
 The `--claim-mapping` flag for a SCIM tenant can contain only specific Common Expression Language (CEL) expressions. To learn which expressions are supported, see [Map token and SCIM attributes](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#token-scim-mapping) .
 
-> **Important:** Make sure that your IdP provides unique values for the attributes that you map to `google.subject` and `google.group` using SCIM. To learn more, see [SCIM support](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
+> **Important:** Ensure that your IdP provides unique, non-empty values for attributes mapped to `google.subject` and `google.group` . Syncing duplicate values fails with an HTTP `409 Conflict` error, and null or empty values fail with an HTTP `400 Bad Request` error. For more information, see [SCIM support](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
 
 To configure [System for Cross-domain Identity Management (SCIM)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) , do the following:
 

@@ -52,7 +52,7 @@ To attach a tag to a custom role, you must create a tag binding resource by usin
 
 Replace the following:
 
-  - `  TAGVALUE_NAME  ` : the permanent ID or namespaced name of the tag value that is attached—for example, `tagValues/567890123456` .
+  - `  TAGVALUE_NAME  ` : the permanent ID or namespaced name of the tag value that you attach to a resource—for example, `tagValues/567890123456` .
   - `  RESOURCE_ID  ` : the full role name, including the `projects` or `organizations` prefix and the API domain name ( `//iam.googleapis.com/` ). For example, the resource ID of a project-level custom role `example-role` in the project `example-project` is `//iam.googleapis.com/projects/example-project/roles/example-role` .
 
 ## List tags attached to resources

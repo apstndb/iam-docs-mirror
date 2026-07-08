@@ -94,6 +94,12 @@ Create/read/update/delete/undelete requests
 
 60 per project per minute
 
+IAM SCIM API
+
+Create/read/update/delete/patch requests to SCIM endpoints
+
+3,000 per SCIM tenant per organization per minute
+
 Service Account Credentials API
 
 Requests to generate credentials

@@ -31,13 +31,15 @@ Workforce Identity Federation SCIM support provides the following capabilities:
 When you use Workforce Identity Federation SCIM support, the following considerations apply:
 
   - You must set up a workforce identity pool and provider before configuring a SCIM tenant.
-  - Each workforce identity pool supports only one SCIM tenant. To configure a new SCIM tenant in the same workforce identity pool, you must first delete the existing one. When deleting a SCIM tenant, you have two options:
+  - Each workforce identity pool supports only one SCIM tenant. Because a SCIM tenant is created under a specific workforce identity pool provider, only that provider can use SCIM for groups. You cannot enable SCIM usage ( `--scim-usage=enabled-for-groups` or `--scim-usage=enabled-for-users-groups` ) on any other provider in the same pool. To configure a new SCIM tenant in the same workforce identity pool, you must first delete the existing one. To delete a SCIM tenant, use one of the following methods:
       - **Soft delete (Default):** Deleting a SCIM tenant initiates a 30-day soft-delete period. During this time, the tenant is hidden and cannot be used, and you cannot create a new SCIM tenant in the same workforce identity pool.
       - **Hard delete:** To permanently and immediately delete a SCIM tenant, use the `--hard-delete` flag with the delete command. This action is irreversible and lets you create a new SCIM tenant in the same workforce identity pool immediately after the deletion completes. Alternatively, you can create a new workforce identity pool and a new SCIM tenant or use a workforce identity pool that hasn't previously been configured with a SCIM tenant.
   - When you use SCIM, you map attributes in both the workforce identity pool provider and the SCIM tenant. The `google.subject` attribute must uniquely refer to the same identities. You specify the `google.subject` in the workforce identity pool provider by using the `--attribute-mapping` flag and in the SCIM tenant using the `--claim-mapping` flag. Mapping non-unique identity values can cause Google Cloud to treat different IdP identities as the same identity. As a result, access that's granted to one user or group identity can extend to others but revoking access from one might not remove it from all.
-  - To use SCIM to map groups, set `--scim-usage=enabled-for-groups` . When you map groups using SCIM, any group mapping that's defined in the workforce identity pool provider is ignored. When referring to SCIM-managed groups, the mapped attribute is `google.group` , not `google.groups` . `google.groups` only refers to token-mapped groups.
+  - To use SCIM to map groups, set `--scim-usage=enabled-for-groups` (or `--scim-usage=enabled-for-users-groups` ) on the workforce identity pool provider that has the attached SCIM tenant. When you map groups using SCIM, any group mapping that's defined in that provider is ignored in favor of SCIM-managed groups. When referring to SCIM-managed groups, the mapped attribute is `google.group` , not `google.groups` . `google.groups` only refers to token-mapped groups. If you enable SCIM usage on a provider that does not have an attached SCIM tenant, sign-in attempts through that provider fail at runtime because Google Cloud cannot find a SCIM tenant under that provider's path.
+  - **Uniqueness enforcement:** Google Cloud validates and enforces uniqueness on attributes mapped to `google.subject` (users) and `google.group` (groups) in a SCIM tenant. If the mapped attributes provisioned by your IdP result in duplicate values for `google.subject` or `google.group` during synchronization, then provisioning fails with an HTTP `409 Conflict` error. If a mapped attribute evaluates to null or empty, provisioning fails with an HTTP `400 Bad Request` error.
   - When using SCIM, token-based attributes that are mapped with `--attribute-mapping` can still be used for authentication and in principal identifiers.
   - For Microsoft Entra ID configuration, to enable human-readable group names in Gemini Enterprise, use SCIM.
+  - The SCIM API ( `iamscim.googleapis.com` ) is subject to rate quotas that differ from standard IAM resource API quotas. By default, write and read requests are limited to 3,000 requests per SCIM tenant per organization per minute. For more information, see [Quotas and limits](https://docs.cloud.google.com/iam/quotas#quotas) .
 
 ## Mapping OIDC and SAML providers to SCIM configuration
 
@@ -57,7 +59,7 @@ The following table shows the mappings between token claim attributes and SCIM a
 | `google.subject` | `assertion.email.lowerAscii()`              | `user.emails[0].value.lowerAscii()` |
 | `google.group`   | N/A (Mapped using SCIM)                     | `group.externalId`                  |
 
-> **Note:** When you use SCIM for groups, you must update your provider with `--scim-usage=enabled-for-groups` . The `google.groups` attribute in the provider mapping is ignored for group-based authorization; instead, use `google.group` .
+> **Note:** When you use SCIM for groups, you must update your provider with `--scim-usage=enabled-for-groups` (or `--scim-usage=enabled-for-users-groups` ). The `google.groups` attribute in the provider mapping is ignored for group-based authorization; instead, use `google.group` .
 
 ## Supported and unsupported endpoints
 
@@ -106,6 +108,8 @@ The following sections describe the limitations and deviations of the Workforce 
 ### SCIM behavior limitations
 
   - **Immutable identifiers:** The values of SCIM attributes that are mapped to `google.subject` or `google.group` are treated as immutable identifiers within Google Cloud. If you need to change these values, you must permanently delete the user or group from your IdP and then recreate it with the new value.
+
+  - **Unique and non-empty identifiers:** Google Cloud enforces uniqueness on values mapped to `google.subject` and `google.group` in a SCIM tenant. Syncing mapped attributes that result in duplicate values for `google.subject` or `google.group` fails with an HTTP `409 Conflict` error. Mapped attributes that evaluate to null or empty fail with an HTTP `400 Bad Request` error.
 
   - **Single email requirement:** For successful SCIM synchronization, each user must have exactly one email address of type `work` . Provisioning or updates will fail if your IdP sends multiple emails or if the single email provided is not typed as `work` .
 

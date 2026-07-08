@@ -56,7 +56,7 @@ To attach a tag to a service account, you must create a tag binding resource by 
 
 Replace the following:
 
-  - `  TAGVALUE_NAME  ` : the permanent ID or namespaced name of the tag value that is attached—for example, `tagValues/567890123456` .
+  - `  TAGVALUE_NAME  ` : the permanent ID or namespaced name of the tag value that you attach to a resource—for example, `tagValues/567890123456` .
   - `  RESOURCE_ID  ` : the unique id or email of the service account including the API domain name ( `//iam.googleapis.com/` ). For example, the full ID of a service account with unique id `1029384756` in project `test-project` is `//iam.googleapis.com/projects/test-project/serviceAccounts/1029384756` .
 
 ## List tags attached to resources
