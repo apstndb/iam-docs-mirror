@@ -122,6 +122,50 @@ Access Context Manager
 
 `accesscontextmanager.googleapis.com/servicePerimeters.update`
 
+Agent Identity API
+
+`agentidentity.googleapis.com/accessSummaries.*`
+
+`agentidentity.googleapis.com/accessSummaries.get`
+
+`agentidentity.googleapis.com/accessSummaries.list`
+
+`agentidentity.googleapis.com/authProviders.create`
+
+`agentidentity.googleapis.com/authProviders.delete`
+
+`agentidentity.googleapis.com/authProviders.get`
+
+`agentidentity.googleapis.com/authProviders.getIamPolicy`
+
+`agentidentity.googleapis.com/authProviders.list`
+
+`agentidentity.googleapis.com/authProviders.queryWorkloads`
+
+`agentidentity.googleapis.com/authProviders.retrieveCredentials`
+
+`agentidentity.googleapis.com/authProviders.revokeAuthorizations`
+
+`agentidentity.googleapis.com/authProviders.setIamPolicy`
+
+`agentidentity.googleapis.com/authProviders.undelete`
+
+`agentidentity.googleapis.com/authProviders.update`
+
+`agentidentity.googleapis.com/authorizations.*`
+
+`agentidentity.googleapis.com/authorizations.delete`
+
+`agentidentity.googleapis.com/authorizations.get`
+
+`agentidentity.googleapis.com/authorizations.list`
+
+`agentidentity.googleapis.com/locations.*`
+
+`agentidentity.googleapis.com/locations.get`
+
+`agentidentity.googleapis.com/locations.list`
+
 Agent Registry
 
 `agentregistry.googleapis.com/*.*`
@@ -1854,6 +1898,8 @@ Backup and Disaster Recovery
 
 `backupdr.googleapis.com/backupPlanAssociations.triggerBackupForComputeInstance`
 
+`backupdr.googleapis.com/backupPlanAssociations.updateForCloudSqlInstance`
+
 `backupdr.googleapis.com/backupPlanAssociations.updateForComputeInstance`
 
 `backupdr.googleapis.com/backupPlanRevisions.*`
@@ -2113,6 +2159,8 @@ Chrome Enterprise Premium
 BigLake
 
 `biglake.googleapis.com/namespaces.create`
+
+`biglake.googleapis.com/tables.register`
 
 BigQuery
 
@@ -2775,6 +2823,8 @@ Business AI Code
 `businessaicode.googleapis.com/locations.generateContent`
 
 `businessaicode.googleapis.com/locations.queryConfiguration`
+
+`businessaicode.googleapis.com/locations.selfAssignLicense`
 
 `businessaicode.googleapis.com/locations.sendTelemetry`
 
@@ -11386,6 +11436,12 @@ Knowledge Catalog
 
 `dataplex.googleapis.com/entryGroups.useContactsAspect`
 
+`dataplex.googleapis.com/entryGroups.useContextAspect`
+
+`dataplex.googleapis.com/entryGroups.useContextEntry`
+
+`dataplex.googleapis.com/entryGroups.useContextEntryLink`
+
 `dataplex.googleapis.com/entryGroups.useDataProfileAspect`
 
 `dataplex.googleapis.com/entryGroups.useDataQualityRuleTemplateAspect`
@@ -11569,6 +11625,8 @@ Managed Service for Apache Spark
 `dataproc.googleapis.com/autoscalingPolicies.use`
 
 `dataproc.googleapis.com/batches.cancel`
+
+`dataproc.googleapis.com/batches.computeTuningConfig`
 
 `dataproc.googleapis.com/batches.create`
 
@@ -12518,6 +12576,12 @@ Discovery Engine
 
 `discoveryengine.googleapis.com/dataStores.update`
 
+`discoveryengine.googleapis.com/devToolsConfigs.*`
+
+`discoveryengine.googleapis.com/devToolsConfigs.get`
+
+`discoveryengine.googleapis.com/devToolsConfigs.update`
+
 `discoveryengine.googleapis.com/documentProcessingConfigs.*`
 
 `discoveryengine.googleapis.com/documentProcessingConfigs.get`
@@ -12731,6 +12795,8 @@ Discovery Engine
 `discoveryengine.googleapis.com/projects.provision`
 
 `discoveryengine.googleapis.com/projects.reportConsentChange`
+
+`discoveryengine.googleapis.com/projects.update`
 
 `discoveryengine.googleapis.com/rankingConfigs.*`
 
@@ -16046,6 +16112,10 @@ Memorystore
 
 `memorystore.googleapis.com/instances.backup`
 
+`memorystore.googleapis.com/instances.finishMigration`
+
+`memorystore.googleapis.com/instances.startMigration`
+
 Cloud Service Mesh
 
 `meshconfig.googleapis.com/*.*`
@@ -17658,13 +17728,47 @@ Parameter Manager
 
 `parametermanager.googleapis.com/parameters.create`
 
+`parametermanager.googleapis.com/parameters.createTagBinding`
+
 `parametermanager.googleapis.com/parameters.delete`
+
+`parametermanager.googleapis.com/parameters.deleteTagBinding`
 
 `parametermanager.googleapis.com/parameters.get`
 
 `parametermanager.googleapis.com/parameters.list`
 
+`parametermanager.googleapis.com/parameters.listEffectiveTags`
+
+`parametermanager.googleapis.com/parameters.listTagBindings`
+
 `parametermanager.googleapis.com/parameters.update`
+
+`parametermanager.googleapis.com/templateVersions.*`
+
+`parametermanager.googleapis.com/templateVersions.create`
+
+`parametermanager.googleapis.com/templateVersions.delete`
+
+`parametermanager.googleapis.com/templateVersions.get`
+
+`parametermanager.googleapis.com/templateVersions.list`
+
+`parametermanager.googleapis.com/templateVersions.render`
+
+`parametermanager.googleapis.com/templateVersions.update`
+
+`parametermanager.googleapis.com/templates.*`
+
+`parametermanager.googleapis.com/templates.create`
+
+`parametermanager.googleapis.com/templates.delete`
+
+`parametermanager.googleapis.com/templates.get`
+
+`parametermanager.googleapis.com/templates.list`
+
+`parametermanager.googleapis.com/templates.update`
 
 Policy Simulator
 
@@ -18154,9 +18258,13 @@ AI Commerce Search API
 
 `retail.googleapis.com/catalogs.update`
 
+`retail.googleapis.com/controls.*`
+
 `retail.googleapis.com/controls.create`
 
 `retail.googleapis.com/controls.delete`
+
+`retail.googleapis.com/controls.export`
 
 `retail.googleapis.com/controls.get`
 
@@ -20409,8 +20517,6 @@ Serverless VPC Access
 `vpcaccess.googleapis.com/connectors.list`
 
 `vpcaccess.googleapis.com/connectors.update`
-
-`vpcaccess.googleapis.com/connectors.use`
 
 `vpcaccess.googleapis.com/locations.*`
 

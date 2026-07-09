@@ -2043,6 +2043,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">networkservices.  meshes.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  listEffectiveTags</code></p>
@@ -3732,6 +3736,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">networkservices.  meshes.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  listEffectiveTags</code></p>

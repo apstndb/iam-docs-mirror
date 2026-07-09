@@ -457,6 +457,14 @@ Multi-Cluster Ingress offers the following service agent roles. Service agent ro
 <li><code dir="ltr" translate="no">networkservices.  lbTrafficExtensions.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">networkservices.operations.get</code></p>
+<p><code dir="ltr" translate="no">networkservices.  serviceLbPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">networkservices.  serviceLbPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networkservices.  serviceLbPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networkservices.  serviceLbPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">networkservices.  serviceLbPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networkservices.  serviceLbPolicies.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">networkservices.tlsRoutes.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networkservices.  tlsRoutes.  create</code></li>

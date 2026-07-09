@@ -76,9 +76,14 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  list</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
@@ -248,9 +253,14 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
@@ -437,7 +447,11 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  useWildfire</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  list</code></p>
@@ -523,9 +537,14 @@ This page lists the IAM roles and permissions for Network Security. To search th
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
@@ -1876,7 +1895,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="networksecurity.firewallEndpoints.delete" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></h4></td>
+<td><h4 id="networksecurity.firewallEndpoints.createVerdictChangeRequest" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.createVerdictChangeRequest" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
@@ -1897,6 +1916,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="networksecurity.firewallEndpoints.delete" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Networksecurity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.firewallEndpointAdmin">Firewall Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.firewallEndpointAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><h4 id="networksecurity.firewallEndpoints.get" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1924,6 +1964,78 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/externalexposure#externalexposure.serviceAgent">External Exposure Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  externalexposure.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="networksecurity.firewallEndpoints.getVerdictChangeRequest" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.getVerdictChangeRequest" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Networksecurity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Networksecurity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.firewallEndpointAdmin">Firewall Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.firewallEndpointAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="networksecurity.firewallEndpoints.getWildfireReport" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.getWildfireReport" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Networksecurity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Networksecurity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.firewallEndpointAdmin">Firewall Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.firewallEndpointAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="networksecurity.firewallEndpoints.getWildfireSample" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.getWildfireSample" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Networksecurity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Networksecurity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.firewallEndpointAdmin">Firewall Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.firewallEndpointAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -1959,6 +2071,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="networksecurity.firewallEndpoints.listVerdictChangeRequests" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.listVerdictChangeRequests" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.admin">Networksecurity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.viewer">Networksecurity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.firewallEndpointAdmin">Firewall Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.firewallEndpointAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><h4 id="networksecurity.firewallEndpoints.submitVerdictChangeRequest" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.submitVerdictChangeRequest" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1979,7 +2115,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.firewallEndpoints.update" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2000,7 +2136,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.firewallEndpoints.use" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2023,7 +2159,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.firewallEndpoints.useWildfire" class="permission-name add-link" data-text="networksecurity.firewallEndpoints.useWildfire" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  useWildfire</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2047,7 +2183,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.gatewaySecurityPolicies.create" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicies.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2067,7 +2203,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.gatewaySecurityPolicies.delete" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicies.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2087,7 +2223,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.gatewaySecurityPolicies.get" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicies.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2116,7 +2252,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.gatewaySecurityPolicies.list" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicies.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2147,7 +2283,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.gatewaySecurityPolicies.update" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicies.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2167,7 +2303,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.gatewaySecurityPolicies.use" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicies.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2189,7 +2325,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.gatewaySecurityPolicyRules.create" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicyRules.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2209,7 +2345,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.gatewaySecurityPolicyRules.delete" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicyRules.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2229,7 +2365,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.gatewaySecurityPolicyRules.get" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicyRules.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2258,7 +2394,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.gatewaySecurityPolicyRules.list" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicyRules.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2289,7 +2425,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.gatewaySecurityPolicyRules.update" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicyRules.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2309,7 +2445,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.gatewaySecurityPolicyRules.use" class="permission-name add-link" data-text="networksecurity.gatewaySecurityPolicyRules.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicyRules.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2331,7 +2467,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptDeploymentGroups.create" class="permission-name add-link" data-text="networksecurity.interceptDeploymentGroups.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeploymentGroups.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2339,7 +2475,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptDeploymentGroups.delete" class="permission-name add-link" data-text="networksecurity.interceptDeploymentGroups.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeploymentGroups.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2347,7 +2483,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptDeploymentGroups.get" class="permission-name add-link" data-text="networksecurity.interceptDeploymentGroups.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeploymentGroups.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2360,7 +2496,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentUser">Intercept Deployment User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentViewer">Intercept Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptDeploymentGroups.list" class="permission-name add-link" data-text="networksecurity.interceptDeploymentGroups.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeploymentGroups.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2376,7 +2512,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentUser">Intercept Deployment User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentViewer">Intercept Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptDeploymentGroups.update" class="permission-name add-link" data-text="networksecurity.interceptDeploymentGroups.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeploymentGroups.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2384,7 +2520,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptDeploymentGroups.use" class="permission-name add-link" data-text="networksecurity.interceptDeploymentGroups.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeploymentGroups.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2394,7 +2530,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentExternalUser">Intercept Deployment External User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentExternalUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentUser">Intercept Deployment User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptDeployments.create" class="permission-name add-link" data-text="networksecurity.interceptDeployments.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeployments.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2402,7 +2538,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptDeployments.delete" class="permission-name add-link" data-text="networksecurity.interceptDeployments.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeployments.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2410,7 +2546,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptDeployments.get" class="permission-name add-link" data-text="networksecurity.interceptDeployments.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeployments.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2422,7 +2558,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentViewer">Intercept Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptDeployments.list" class="permission-name add-link" data-text="networksecurity.interceptDeployments.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeployments.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2437,7 +2573,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentViewer">Intercept Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptDeployments.update" class="permission-name add-link" data-text="networksecurity.interceptDeployments.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptDeployments.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2445,7 +2581,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptDeploymentAdmin">Intercept Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptEndpointGroupAssociations.create" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroupAssociations.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroupAssociations.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2453,7 +2589,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptEndpointGroupAssociations.delete" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroupAssociations.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroupAssociations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2461,7 +2597,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptEndpointGroupAssociations.get" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroupAssociations.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroupAssociations.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2473,7 +2609,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointViewer">Intercept Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptEndpointGroupAssociations.list" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroupAssociations.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroupAssociations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2488,7 +2624,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointViewer">Intercept Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptEndpointGroupAssociations.update" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroupAssociations.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroupAssociations.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2496,7 +2632,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptEndpointGroups.create" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroups.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroups.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2504,7 +2640,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptEndpointGroups.delete" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroups.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroups.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2512,7 +2648,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptEndpointGroups.get" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroups.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroups.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2525,7 +2661,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointUser">Intercept Endpoint User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointViewer">Intercept Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptEndpointGroups.list" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroups.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroups.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2541,7 +2677,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointUser">Intercept Endpoint User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointViewer">Intercept Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.interceptEndpointGroups.update" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroups.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroups.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2549,7 +2685,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.interceptEndpointGroups.use" class="permission-name add-link" data-text="networksecurity.interceptEndpointGroups.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  interceptEndpointGroups.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2558,7 +2694,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointAdmin">Intercept Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.interceptEndpointUser">Intercept Endpoint User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.interceptEndpointUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.locations.get" class="permission-name add-link" data-text="networksecurity.locations.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.locations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2587,7 +2723,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.locations.list" class="permission-name add-link" data-text="networksecurity.locations.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.locations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2618,7 +2754,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringDeploymentGroups.create" class="permission-name add-link" data-text="networksecurity.mirroringDeploymentGroups.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeploymentGroups.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2626,7 +2762,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringDeploymentGroups.delete" class="permission-name add-link" data-text="networksecurity.mirroringDeploymentGroups.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeploymentGroups.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2634,7 +2770,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringDeploymentGroups.get" class="permission-name add-link" data-text="networksecurity.mirroringDeploymentGroups.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeploymentGroups.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2647,7 +2783,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentUser">Mirroring Deployment User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentViewer">Mirroring Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringDeploymentGroups.list" class="permission-name add-link" data-text="networksecurity.mirroringDeploymentGroups.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeploymentGroups.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2663,7 +2799,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentUser">Mirroring Deployment User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentViewer">Mirroring Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringDeploymentGroups.update" class="permission-name add-link" data-text="networksecurity.mirroringDeploymentGroups.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeploymentGroups.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2671,7 +2807,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringDeploymentGroups.use" class="permission-name add-link" data-text="networksecurity.mirroringDeploymentGroups.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeploymentGroups.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2681,7 +2817,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentExternalUser">Mirroring Deployment External User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentExternalUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentUser">Mirroring Deployment User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringDeployments.create" class="permission-name add-link" data-text="networksecurity.mirroringDeployments.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeployments.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2689,7 +2825,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringDeployments.delete" class="permission-name add-link" data-text="networksecurity.mirroringDeployments.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeployments.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2697,7 +2833,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringDeployments.get" class="permission-name add-link" data-text="networksecurity.mirroringDeployments.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeployments.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2709,7 +2845,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentViewer">Mirroring Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringDeployments.list" class="permission-name add-link" data-text="networksecurity.mirroringDeployments.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeployments.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2724,7 +2860,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentViewer">Mirroring Deployment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringDeployments.update" class="permission-name add-link" data-text="networksecurity.mirroringDeployments.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringDeployments.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2732,7 +2868,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringDeploymentAdmin">Mirroring Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringDeploymentAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringEndpointGroupAssociations.create" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroupAssociations.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroupAssociations.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2740,7 +2876,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringEndpointGroupAssociations.delete" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroupAssociations.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroupAssociations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2748,7 +2884,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringEndpointGroupAssociations.get" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroupAssociations.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroupAssociations.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2760,7 +2896,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointViewer">Mirroring Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringEndpointGroupAssociations.list" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroupAssociations.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroupAssociations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2775,7 +2911,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointViewer">Mirroring Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringEndpointGroupAssociations.update" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroupAssociations.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroupAssociations.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2783,7 +2919,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringEndpointGroups.create" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroups.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroups.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2791,7 +2927,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringEndpointGroups.delete" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroups.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroups.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2799,7 +2935,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringEndpointGroups.get" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroups.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroups.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2812,7 +2948,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointUser">Mirroring Endpoint User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointViewer">Mirroring Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringEndpointGroups.list" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroups.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroups.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2828,7 +2964,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointUser">Mirroring Endpoint User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointViewer">Mirroring Endpoint Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.mirroringEndpointGroups.update" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroups.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroups.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2836,7 +2972,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.editor">Networksecurity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.mirroringEndpointGroups.use" class="permission-name add-link" data-text="networksecurity.mirroringEndpointGroups.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  mirroringEndpointGroups.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2845,7 +2981,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointAdmin">Mirroring Endpoint Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.mirroringEndpointUser">Mirroring Endpoint User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.mirroringEndpointUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.operations.cancel" class="permission-name add-link" data-text="networksecurity.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2866,7 +3002,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.operations.delete" class="permission-name add-link" data-text="networksecurity.operations.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2887,7 +3023,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.operations.get" class="permission-name add-link" data-text="networksecurity.operations.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.operations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2920,7 +3056,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.operations.list" class="permission-name add-link" data-text="networksecurity.operations.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  operations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2954,7 +3090,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.sacAttachments.create" class="permission-name add-link" data-text="networksecurity.sacAttachments.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  sacAttachments.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2976,7 +3112,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.sacAttachments.delete" class="permission-name add-link" data-text="networksecurity.sacAttachments.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  sacAttachments.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2998,7 +3134,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.sacAttachments.get" class="permission-name add-link" data-text="networksecurity.sacAttachments.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  sacAttachments.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3027,7 +3163,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.sacAttachments.list" class="permission-name add-link" data-text="networksecurity.sacAttachments.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  sacAttachments.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3058,7 +3194,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.sacRealms.create" class="permission-name add-link" data-text="networksecurity.sacRealms.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  sacRealms.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3078,7 +3214,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.sacRealms.delete" class="permission-name add-link" data-text="networksecurity.sacRealms.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  sacRealms.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3098,7 +3234,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.sacRealms.get" class="permission-name add-link" data-text="networksecurity.sacRealms.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.sacRealms.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3127,7 +3263,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.sacRealms.list" class="permission-name add-link" data-text="networksecurity.sacRealms.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.sacRealms.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3158,7 +3294,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.securityProfileGroups.create" class="permission-name add-link" data-text="networksecurity.securityProfileGroups.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfileGroups.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3179,7 +3315,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.securityProfileGroups.delete" class="permission-name add-link" data-text="networksecurity.securityProfileGroups.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfileGroups.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3200,7 +3336,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.securityProfileGroups.get" class="permission-name add-link" data-text="networksecurity.securityProfileGroups.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfileGroups.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3230,7 +3366,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.securityProfileGroups.list" class="permission-name add-link" data-text="networksecurity.securityProfileGroups.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfileGroups.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3262,7 +3398,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.securityProfileGroups.update" class="permission-name add-link" data-text="networksecurity.securityProfileGroups.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfileGroups.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3283,7 +3419,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.securityProfileGroups.use" class="permission-name add-link" data-text="networksecurity.securityProfileGroups.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfileGroups.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3306,7 +3442,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.securityProfiles.create" class="permission-name add-link" data-text="networksecurity.securityProfiles.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfiles.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3327,7 +3463,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.securityProfiles.delete" class="permission-name add-link" data-text="networksecurity.securityProfiles.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfiles.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3348,7 +3484,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.securityProfiles.get" class="permission-name add-link" data-text="networksecurity.securityProfiles.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfiles.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3378,7 +3514,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.securityProfiles.list" class="permission-name add-link" data-text="networksecurity.securityProfiles.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfiles.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3410,7 +3546,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.securityProfiles.update" class="permission-name add-link" data-text="networksecurity.securityProfiles.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfiles.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3431,7 +3567,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.securityProfiles.use" class="permission-name add-link" data-text="networksecurity.securityProfiles.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  securityProfiles.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3454,7 +3590,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.serverTlsPolicies.create" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3477,7 +3613,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.serverTlsPolicies.delete" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3500,7 +3636,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.serverTlsPolicies.get" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3533,7 +3669,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.serverTlsPolicies.getIamPolicy" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3559,7 +3695,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.serverTlsPolicies.list" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3594,7 +3730,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.serverTlsPolicies.setIamPolicy" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
@@ -3613,7 +3749,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.serverTlsPolicies.update" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3636,7 +3772,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.serverTlsPolicies.use" class="permission-name add-link" data-text="networksecurity.serverTlsPolicies.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3662,7 +3798,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.tlsInspectionPolicies.create" class="permission-name add-link" data-text="networksecurity.tlsInspectionPolicies.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3682,7 +3818,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.tlsInspectionPolicies.delete" class="permission-name add-link" data-text="networksecurity.tlsInspectionPolicies.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3702,7 +3838,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.tlsInspectionPolicies.get" class="permission-name add-link" data-text="networksecurity.tlsInspectionPolicies.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3731,7 +3867,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.tlsInspectionPolicies.list" class="permission-name add-link" data-text="networksecurity.tlsInspectionPolicies.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3762,7 +3898,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.tlsInspectionPolicies.update" class="permission-name add-link" data-text="networksecurity.tlsInspectionPolicies.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3782,7 +3918,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.tlsInspectionPolicies.use" class="permission-name add-link" data-text="networksecurity.tlsInspectionPolicies.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3804,7 +3940,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.urlLists.create" class="permission-name add-link" data-text="networksecurity.urlLists.create" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  urlLists.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3824,7 +3960,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.urlLists.delete" class="permission-name add-link" data-text="networksecurity.urlLists.delete" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  urlLists.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3844,7 +3980,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.urlLists.get" class="permission-name add-link" data-text="networksecurity.urlLists.get" tabindex="-1"><code dir="ltr" translate="no">networksecurity.urlLists.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3873,7 +4009,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.urlLists.list" class="permission-name add-link" data-text="networksecurity.urlLists.list" tabindex="-1"><code dir="ltr" translate="no">networksecurity.urlLists.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3904,7 +4040,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.sharedVpcServiceAgent">Cluster Director Shared VPC Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.sharedVpcServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="networksecurity.urlLists.update" class="permission-name add-link" data-text="networksecurity.urlLists.update" tabindex="-1"><code dir="ltr" translate="no">networksecurity.  urlLists.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3924,7 +4060,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="networksecurity.urlLists.use" class="permission-name add-link" data-text="networksecurity.urlLists.use" tabindex="-1"><code dir="ltr" translate="no">networksecurity.urlLists.use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

@@ -35,7 +35,6 @@ This page lists the IAM roles and permissions for Serverless VPC Access. To sear
 <li><code dir="ltr" translate="no">vpcaccess.connectors.get</code></li>
 <li><code dir="ltr" translate="no">vpcaccess.connectors.list</code></li>
 <li><code dir="ltr" translate="no">vpcaccess.connectors.update</code></li>
-<li><code dir="ltr" translate="no">vpcaccess.connectors.use</code></li>
 <li><code dir="ltr" translate="no">vpcaccess.locations.list</code></li>
 <li><code dir="ltr" translate="no">vpcaccess.operations.get</code></li>
 <li><code dir="ltr" translate="no">vpcaccess.operations.list</code></li>
@@ -50,7 +49,6 @@ This page lists the IAM roles and permissions for Serverless VPC Access. To sear
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.connectors.get</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.connectors.list</code></p>
-<p><code dir="ltr" translate="no">vpcaccess.connectors.use</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.locations.list</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.operations.*</code></p>
 <ul>
@@ -304,24 +302,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vpcaccess#vpcaccess.admin">Serverless VPC Access Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vpcaccess.admin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="vpcaccess.connectors.use" class="permission-name add-link" data-text="vpcaccess.connectors.use" tabindex="-1"><code dir="ltr" translate="no">vpcaccess.connectors.use</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vpcaccess#vpcaccess.admin">Serverless VPC Access Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vpcaccess.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vpcaccess#vpcaccess.user">Serverless VPC Access User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vpcaccess.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p>Service agent roles</p>
-<blockquote>
-<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
-</blockquote>
-<ul>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataconnectors#dataconnectors.serviceAgent">Data Connectors Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataconnectors.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.serviceAgent">Cloud Run Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.serviceAgent</code> )</li>
-</ul></td>
-</tr>
-<tr class="odd">
 <td><h4 id="vpcaccess.locations.list" class="permission-name add-link" data-text="vpcaccess.locations.list" tabindex="-1"><code dir="ltr" translate="no">vpcaccess.locations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -334,7 +314,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="vpcaccess.operations.get" class="permission-name add-link" data-text="vpcaccess.operations.get" tabindex="-1"><code dir="ltr" translate="no">vpcaccess.operations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -351,7 +331,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vpcaccess.operations.list" class="permission-name add-link" data-text="vpcaccess.operations.list" tabindex="-1"><code dir="ltr" translate="no">vpcaccess.operations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

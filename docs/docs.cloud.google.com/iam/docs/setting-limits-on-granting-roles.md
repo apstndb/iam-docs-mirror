@@ -65,9 +65,14 @@ To grant this limited ability, you conditionally grant Noam the Project IAM Admi
       "etag": "BwWKmjvelug=",
       "bindings": [
         {
-          &quol/workforcePools/example-pool/subject/owner@example.com"
+          "members": [
+            "user:owner@example.com"
           ],
-          "role": "ipal://iam.googleapis.com/locations/global/workforcePools/example-pool/subject/noam@example.com"
+          "role": "roles/owner"
+        },
+        {
+          "members": [
+            "user:noam@example.com"
           ],
           "role": "roles/resourcemanager.projectIamAdmin",
           "condition": {
@@ -109,9 +114,14 @@ After you create the group, you conditionally grant the group the Project IAM Ad
       "etag": "BwWKmjvelug=",
       "bindings": [
         {
-          &quol/workforcePools/example-pool/subject/owner@example.com"
+          "members": [
+            "user:owner@example.com"
           ],
-          "role": "roles/owner&quolSet://iam.googleapis.com/locations/global/workforcePools/example-pool/group/iam-compute-admins"
+          "role": "roles/owner"
+        },
+        {
+          "members": [
+            "group:iam-compute-admins@example.com"
           ],
           "role": "roles/resourcemanager.projectIamAdmin",
           "condition": {
@@ -272,7 +282,7 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
     
     Command:
     
-        gcloud resource-type get-iam-policy resource-id --format=json &gt; path
+        gcloud resource-type get-iam-policy resource-id --format=json > path
     
     Replace the following values:
     
@@ -289,7 +299,11 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
                 "user:project-owner@example.com"
               ],
               "role": "roles/owner"
-            }  ],  "etag": "BwWKmjvelug=",  "version": 1}
+            }
+          ],
+          "etag": "BwWKmjvelug=",
+          "version": 1
+        }
     
     **Next, modify the allow policy.**
     
@@ -299,9 +313,9 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
           "bindings": [
             {
               "members": [
-                &qusubject/owner@example.com"
+                "user:owner@example.com"
               ],
-              &quot;role": "roles/owner"
+              "role": "roles/owner"
             },
             {
               "members": [
@@ -310,7 +324,15 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
               "role": "role",
               "condition": {
                 "title": "title",
-                "description": "description",        "expression":          "expression"      }    }  ],  "etag": "BwWKmjvelug=",  "version": 3}
+                "description": "description",
+                "expression":
+                  "expression"
+              }
+            }
+          ],
+          "etag": "BwWKmjvelug=",
+          "version": 3
+        }
     
     Replace the following values:
     
@@ -434,16 +456,25 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
           "etag": "BwWKmjvelug=",
           "bindings": [
             {
-              &quol/workforcePools/example-pool/subject/owner@example.com"
+              "members": [
+                "user:owner@example.com"
               ],
-              &quot;role&quot;: "roles/owner&quot;
+              "role": "roles/owner"
             },
             {
               "members": [
                 "PRINCIPAL"
               ],
               "role": "ROLE",
-              &quot;condition": {        "title": "TITLE",        "description": "DESCRIPTION",        "expression":          "EXPRESSION"      }    }  ]}
+              "condition": {
+                "title": "TITLE",
+                "description": "DESCRIPTION",
+                "expression":
+                  "EXPRESSION"
+              }
+            }
+          ]
+        }
     
       - `  PRINCIPAL  ` : The principal that will grant or revoke certain roles. For example, `user:my-user@example.com` . To see the formats of each principal type, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
     
@@ -487,16 +518,17 @@ To allow a principal to grant or revoke only certain roles, use the condition ex
               "etag": "BwWKmjvelug=",
               "bindings": [
                 {
-                  &quol/workforcePools/example-pool/subject/owner@example.com"
+                  "members": [
+                    "user:owner@example.com"
                   ],
-                  &quot;role&quot;: "roles/owner&quot;
+                  "role": "roles/owner"
                 },
                 {
                   "members": [
                     "principal"
                   ],
                   "role": "role",
-                  &quot;condition": {
+                  "condition": {
                     "title": "title",
                     "description": "description",
                     "expression":

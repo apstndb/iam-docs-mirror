@@ -150,8 +150,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
 <p><code dir="ltr" translate="no">compute.networks.access</code></p>
-<p><code dir="ltr" translate="no">vpcaccess.connectors.get</code></p>
-<p><code dir="ltr" translate="no">vpcaccess.connectors.use</code></p></td>
+<p><code dir="ltr" translate="no">vpcaccess.connectors.get</code></p></td>
 </tr>
 </tbody>
 </table>

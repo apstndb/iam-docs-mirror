@@ -1541,19 +1541,104 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">bigquery.tables.getData</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.update</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.updateData</code></p>
-<p><code dir="ltr" translate="no">ces.appVersions.create</code></p>
-<p><code dir="ltr" translate="no">ces.appVersions.get</code></p>
-<p><code dir="ltr" translate="no">ces.apps.get</code></p>
-<p><code dir="ltr" translate="no">ces.apps.runEvaluation</code></p>
-<p><code dir="ltr" translate="no">ces.evaluationResults.get</code></p>
-<p><code dir="ltr" translate="no">ces.evaluationRuns.get</code></p>
+<p><code dir="ltr" translate="no">ces.agents.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.agents.create</code></li>
+<li><code dir="ltr" translate="no">ces.agents.delete</code></li>
+<li><code dir="ltr" translate="no">ces.agents.get</code></li>
+<li><code dir="ltr" translate="no">ces.agents.list</code></li>
+<li><code dir="ltr" translate="no">ces.agents.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.appVersions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.appVersions.create</code></li>
+<li><code dir="ltr" translate="no">ces.appVersions.delete</code></li>
+<li><code dir="ltr" translate="no">ces.appVersions.get</code></li>
+<li><code dir="ltr" translate="no">ces.appVersions.list</code></li>
+<li><code dir="ltr" translate="no">ces.appVersions.restore</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.apps.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.apps.create</code></li>
+<li><code dir="ltr" translate="no">ces.apps.delete</code></li>
+<li><code dir="ltr" translate="no">ces.apps.export</code></li>
+<li><code dir="ltr" translate="no">ces.apps.get</code></li>
+<li><code dir="ltr" translate="no">ces.apps.import</code></li>
+<li><code dir="ltr" translate="no">ces.apps.list</code></li>
+<li><code dir="ltr" translate="no">ces.apps.runEvaluation</code></li>
+<li><code dir="ltr" translate="no">ces.apps.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.changelogs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.changelogs.get</code></li>
+<li><code dir="ltr" translate="no">ces.changelogs.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.conversations.get</code></p>
+<p><code dir="ltr" translate="no">ces.conversations.list</code></p>
+<p><code dir="ltr" translate="no">ces.deployments.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.deployments.create</code></li>
+<li><code dir="ltr" translate="no">ces.deployments.delete</code></li>
+<li><code dir="ltr" translate="no">ces.deployments.get</code></li>
+<li><code dir="ltr" translate="no">ces.deployments.list</code></li>
+<li><code dir="ltr" translate="no">ces.deployments.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.evaluationDatasets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.evaluationDatasets.create</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationDatasets.delete</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationDatasets.get</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationDatasets.list</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationDatasets.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.evaluationResults.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.evaluationResults.delete</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationResults.get</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationResults.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.evaluationRuns.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.evaluationRuns.delete</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationRuns.get</code></li>
+<li><code dir="ltr" translate="no">ces.evaluationRuns.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.evaluations.create</code></p>
+<p><code dir="ltr" translate="no">ces.evaluations.delete</code></p>
+<p><code dir="ltr" translate="no">ces.evaluations.get</code></p>
+<p><code dir="ltr" translate="no">ces.evaluations.list</code></p>
+<p><code dir="ltr" translate="no">ces.evaluations.update</code></p>
+<p><code dir="ltr" translate="no">ces.guardrails.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.guardrails.create</code></li>
+<li><code dir="ltr" translate="no">ces.guardrails.delete</code></li>
+<li><code dir="ltr" translate="no">ces.guardrails.get</code></li>
+<li><code dir="ltr" translate="no">ces.guardrails.list</code></li>
+<li><code dir="ltr" translate="no">ces.guardrails.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">ces.operations.get</code></p>
 <p><code dir="ltr" translate="no">ces.sessions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">ces.sessions.bidiRunSession</code></li>
 <li><code dir="ltr" translate="no">ces.sessions.runSession</code></li>
 </ul>
-<p><code dir="ltr" translate="no">ces.tools.execute</code></p>
+<p><code dir="ltr" translate="no">ces.tools.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.tools.create</code></li>
+<li><code dir="ltr" translate="no">ces.tools.delete</code></li>
+<li><code dir="ltr" translate="no">ces.tools.execute</code></li>
+<li><code dir="ltr" translate="no">ces.tools.get</code></li>
+<li><code dir="ltr" translate="no">ces.tools.list</code></li>
+<li><code dir="ltr" translate="no">ces.tools.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.toolsets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.toolsets.create</code></li>
+<li><code dir="ltr" translate="no">ces.toolsets.delete</code></li>
+<li><code dir="ltr" translate="no">ces.toolsets.get</code></li>
+<li><code dir="ltr" translate="no">ces.toolsets.list</code></li>
+<li><code dir="ltr" translate="no">ces.toolsets.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudfunctions.  functions.  invoke</code></p>
 <p><code dir="ltr" translate="no">connectors.actions.*</code></p>
 <ul>
@@ -1695,14 +1780,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.agents.delete" class="permission-name add-link" data-text="ces.agents.delete" tabindex="-1"><code dir="ltr" translate="no">ces.agents.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.agents.get" class="permission-name add-link" data-text="ces.agents.get" tabindex="-1"><code dir="ltr" translate="no">ces.agents.get</code></h4></td>
@@ -1718,7 +1817,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.agents.list" class="permission-name add-link" data-text="ces.agents.list" tabindex="-1"><code dir="ltr" translate="no">ces.agents.list</code></h4></td>
@@ -1737,14 +1843,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.agents.update" class="permission-name add-link" data-text="ces.agents.update" tabindex="-1"><code dir="ltr" translate="no">ces.agents.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.appVersions.create" class="permission-name add-link" data-text="ces.appVersions.create" tabindex="-1"><code dir="ltr" translate="no">ces.appVersions.create</code></h4></td>
@@ -1765,7 +1885,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.appVersions.get" class="permission-name add-link" data-text="ces.appVersions.get" tabindex="-1"><code dir="ltr" translate="no">ces.appVersions.get</code></h4></td>
@@ -1807,28 +1934,56 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.appVersions.restore" class="permission-name add-link" data-text="ces.appVersions.restore" tabindex="-1"><code dir="ltr" translate="no">ces.appVersions.restore</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.apps.create" class="permission-name add-link" data-text="ces.apps.create" tabindex="-1"><code dir="ltr" translate="no">ces.apps.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.apps.delete" class="permission-name add-link" data-text="ces.apps.delete" tabindex="-1"><code dir="ltr" translate="no">ces.apps.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.apps.export" class="permission-name add-link" data-text="ces.apps.export" tabindex="-1"><code dir="ltr" translate="no">ces.apps.export</code></h4></td>
@@ -1837,7 +1992,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.apps.get" class="permission-name add-link" data-text="ces.apps.get" tabindex="-1"><code dir="ltr" translate="no">ces.apps.get</code></h4></td>
@@ -1868,7 +2030,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.apps.list" class="permission-name add-link" data-text="ces.apps.list" tabindex="-1"><code dir="ltr" translate="no">ces.apps.list</code></h4></td>
@@ -1887,7 +2056,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.apps.runEvaluation" class="permission-name add-link" data-text="ces.apps.runEvaluation" tabindex="-1"><code dir="ltr" translate="no">ces.apps.runEvaluation</code></h4></td>
@@ -1909,7 +2085,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.assistantSessions.create" class="permission-name add-link" data-text="ces.assistantSessions.create" tabindex="-1"><code dir="ltr" translate="no">ces.assistantSessions.create</code></h4></td>
@@ -1966,7 +2149,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.changelogs.list" class="permission-name add-link" data-text="ces.changelogs.list" tabindex="-1"><code dir="ltr" translate="no">ces.changelogs.list</code></h4></td>
@@ -1985,7 +2175,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.conversations.delete" class="permission-name add-link" data-text="ces.conversations.delete" tabindex="-1"><code dir="ltr" translate="no">ces.conversations.delete</code></h4></td>
@@ -2007,7 +2204,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.conversations.list" class="permission-name add-link" data-text="ces.conversations.list" tabindex="-1"><code dir="ltr" translate="no">ces.conversations.list</code></h4></td>
@@ -2026,21 +2230,42 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.deployments.create" class="permission-name add-link" data-text="ces.deployments.create" tabindex="-1"><code dir="ltr" translate="no">ces.deployments.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.deployments.delete" class="permission-name add-link" data-text="ces.deployments.delete" tabindex="-1"><code dir="ltr" translate="no">ces.deployments.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.deployments.get" class="permission-name add-link" data-text="ces.deployments.get" tabindex="-1"><code dir="ltr" translate="no">ces.deployments.get</code></h4></td>
@@ -2056,7 +2281,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.deployments.list" class="permission-name add-link" data-text="ces.deployments.list" tabindex="-1"><code dir="ltr" translate="no">ces.deployments.list</code></h4></td>
@@ -2075,28 +2307,56 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.deployments.update" class="permission-name add-link" data-text="ces.deployments.update" tabindex="-1"><code dir="ltr" translate="no">ces.deployments.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluationDatasets.create" class="permission-name add-link" data-text="ces.evaluationDatasets.create" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationDatasets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluationDatasets.delete" class="permission-name add-link" data-text="ces.evaluationDatasets.delete" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationDatasets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluationDatasets.get" class="permission-name add-link" data-text="ces.evaluationDatasets.get" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationDatasets.get</code></h4></td>
@@ -2112,7 +2372,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluationDatasets.list" class="permission-name add-link" data-text="ces.evaluationDatasets.list" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationDatasets.list</code></h4></td>
@@ -2131,14 +2398,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluationDatasets.update" class="permission-name add-link" data-text="ces.evaluationDatasets.update" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationDatasets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluationExpectations.create" class="permission-name add-link" data-text="ces.evaluationExpectations.create" tabindex="-1"><code dir="ltr" translate="no">ces.  evaluationExpectations.  create</code></h4></td>
@@ -2201,7 +2482,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluationResults.get" class="permission-name add-link" data-text="ces.evaluationResults.get" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationResults.get</code></h4></td>
@@ -2243,14 +2531,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluationRuns.delete" class="permission-name add-link" data-text="ces.evaluationRuns.delete" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationRuns.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluationRuns.get" class="permission-name add-link" data-text="ces.evaluationRuns.get" tabindex="-1"><code dir="ltr" translate="no">ces.evaluationRuns.get</code></h4></td>
@@ -2292,21 +2594,42 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluations.create" class="permission-name add-link" data-text="ces.evaluations.create" tabindex="-1"><code dir="ltr" translate="no">ces.evaluations.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluations.delete" class="permission-name add-link" data-text="ces.evaluations.delete" tabindex="-1"><code dir="ltr" translate="no">ces.evaluations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluations.export" class="permission-name add-link" data-text="ces.evaluations.export" tabindex="-1"><code dir="ltr" translate="no">ces.evaluations.export</code></h4></td>
@@ -2331,7 +2654,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.evaluations.list" class="permission-name add-link" data-text="ces.evaluations.list" tabindex="-1"><code dir="ltr" translate="no">ces.evaluations.list</code></h4></td>
@@ -2350,14 +2680,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.evaluations.update" class="permission-name add-link" data-text="ces.evaluations.update" tabindex="-1"><code dir="ltr" translate="no">ces.evaluations.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.examples.create" class="permission-name add-link" data-text="ces.examples.create" tabindex="-1"><code dir="ltr" translate="no">ces.examples.create</code></h4></td>
@@ -2420,14 +2764,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.guardrails.delete" class="permission-name add-link" data-text="ces.guardrails.delete" tabindex="-1"><code dir="ltr" translate="no">ces.guardrails.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.guardrails.get" class="permission-name add-link" data-text="ces.guardrails.get" tabindex="-1"><code dir="ltr" translate="no">ces.guardrails.get</code></h4></td>
@@ -2443,7 +2801,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.guardrails.list" class="permission-name add-link" data-text="ces.guardrails.list" tabindex="-1"><code dir="ltr" translate="no">ces.guardrails.list</code></h4></td>
@@ -2462,14 +2827,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.guardrails.update" class="permission-name add-link" data-text="ces.guardrails.update" tabindex="-1"><code dir="ltr" translate="no">ces.guardrails.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.locations.get" class="permission-name add-link" data-text="ces.locations.get" tabindex="-1"><code dir="ltr" translate="no">ces.locations.get</code></h4></td>
@@ -2626,14 +3005,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.tools.delete" class="permission-name add-link" data-text="ces.tools.delete" tabindex="-1"><code dir="ltr" translate="no">ces.tools.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.tools.execute" class="permission-name add-link" data-text="ces.tools.execute" tabindex="-1"><code dir="ltr" translate="no">ces.tools.execute</code></h4></td>
@@ -2674,6 +3067,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.serviceAgent">Dialogflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dialogflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -2694,28 +3088,56 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.tools.update" class="permission-name add-link" data-text="ces.tools.update" tabindex="-1"><code dir="ltr" translate="no">ces.tools.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.toolsets.create" class="permission-name add-link" data-text="ces.toolsets.create" tabindex="-1"><code dir="ltr" translate="no">ces.toolsets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ces.toolsets.delete" class="permission-name add-link" data-text="ces.toolsets.delete" tabindex="-1"><code dir="ltr" translate="no">ces.toolsets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.toolsets.get" class="permission-name add-link" data-text="ces.toolsets.get" tabindex="-1"><code dir="ltr" translate="no">ces.toolsets.get</code></h4></td>
@@ -2737,6 +3159,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote>
 <ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.serviceAgent">Dialogflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dialogflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
@@ -2757,14 +3180,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="ces.toolsets.update" class="permission-name add-link" data-text="ces.toolsets.update" tabindex="-1"><code dir="ltr" translate="no">ces.toolsets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 </tbody>
 </table>

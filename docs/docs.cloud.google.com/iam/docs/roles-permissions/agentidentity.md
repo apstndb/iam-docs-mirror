@@ -1,14 +1,14 @@
 ---
-name: documents/docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors
-uri: https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors
-title: IAM Connectors roles and permissions
+name: documents/docs.cloud.google.com/iam/docs/roles-permissions/agentidentity
+uri: https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity
+title: Agent Identity API roles and permissions
 description: Fine-grained access control and visibility for centrally managing cloud resources.
 data_source: docs.cloud.google.com
 ---
 
-This page lists the IAM roles and permissions for IAM Connectors. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
+This page lists the IAM roles and permissions for Agent Identity API. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
 
-## IAM Connectors roles
+## Agent Identity API roles
 
 <table>
 <colgroup>
@@ -23,9 +23,9 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="iamconnectors.admin" class="role-title add-link" data-text="Connector Admin Beta" tabindex="-1">Connector Admin <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p>Grants access to manage connectors, authorizations, and access events.</p></td>
+<td><h4 id="agentidentity.admin" class="role-title add-link" data-text="Auth Provider Admin Beta" tabindex="-1">Auth Provider Admin <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p>Grants access to manage auth providers, authorizations, and access summaries.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">agentidentity.  accessSummaries.  get</code></li>
@@ -51,45 +51,12 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <ul>
 <li><code dir="ltr" translate="no">agentidentity.locations.get</code></li>
 <li><code dir="ltr" translate="no">agentidentity.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.accessEvents.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.accessEvents.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  accessEvents.  list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.authorizations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.  authorizations.  delete</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  authorizations.  get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  authorizations.  list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  create</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  delete</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.connectors.get</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.connectors.list</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  queryWorkloads</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  revokeAuthorizations</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  undelete</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  update</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.operations.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.operations.list</code></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.editor" class="role-title add-link" data-text="Connector Editor Beta" tabindex="-1">Connector Editor <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
-<p>Grants access to edit connectors, authorizations, and access events.</p></td>
+<td><h4 id="agentidentity.editor" class="role-title add-link" data-text="Agent Identity Editor Beta" tabindex="-1">Agent Identity Editor <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p>Grants access to edit auth providers, authorizations, and access summaries.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">agentidentity.  accessSummaries.  get</code></li>
@@ -114,44 +81,12 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <ul>
 <li><code dir="ltr" translate="no">agentidentity.locations.get</code></li>
 <li><code dir="ltr" translate="no">agentidentity.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.accessEvents.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.accessEvents.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  accessEvents.  list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.authorizations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.  authorizations.  delete</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  authorizations.  get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  authorizations.  list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  create</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  delete</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.connectors.get</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.connectors.list</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  queryWorkloads</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  revokeAuthorizations</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  undelete</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  update</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.  operations.  cancel</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  operations.  delete</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.operations.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.operations.list</code></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.viewer" class="role-title add-link" data-text="Connector Viewer Beta" tabindex="-1">Connector Viewer <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
-<p>Grants access to view connectors, authorizations, and access events.</p></td>
+<td><h4 id="agentidentity.viewer" class="role-title add-link" data-text="Agent Identity Viewer Beta" tabindex="-1">Agent Identity Viewer <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
+<p>Grants access to view auth providers, authorizations, and access summaries.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">agentidentity.  accessSummaries.  get</code></li>
@@ -167,37 +102,18 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <ul>
 <li><code dir="ltr" translate="no">agentidentity.locations.get</code></li>
 <li><code dir="ltr" translate="no">agentidentity.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.accessEvents.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.accessEvents.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.  accessEvents.  list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.  authorizations.  get</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  authorizations.  list</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.connectors.get</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.connectors.list</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  queryWorkloads</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">iamconnectors.locations.get</code></li>
-<li><code dir="ltr" translate="no">iamconnectors.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">iamconnectors.operations.get</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.operations.list</code></p></td>
+</ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.user" class="role-title add-link" data-text="Connector User Beta" tabindex="-1">Connector User <sup>Beta</sup></h4>
-<p>( <code dir="ltr" translate="no">roles/  iamconnectors.user</code> )</p>
-<p>Grants access to retrieve credentials from connectors.</p></td>
-<td><p><code dir="ltr" translate="no">agentidentity.  authProviders.  retrieveCredentials</code></p>
-<p><code dir="ltr" translate="no">iamconnectors.  connectors.  retrieveCredentials</code></p></td>
+<td><h4 id="agentidentity.user" class="role-title add-link" data-text="Auth Provider User Beta" tabindex="-1">Auth Provider User <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  agentidentity.user</code> )</p>
+<p>Grants access to retrieve credentials from auth providers.</p></td>
+<td><p><code dir="ltr" translate="no">agentidentity.  authProviders.  retrieveCredentials</code></p></td>
 </tr>
 </tbody>
 </table>
 
-## IAM Connectors permissions
+## Agent Identity API permissions
 
 <table>
 <colgroup>
@@ -212,20 +128,26 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="iamconnectors.accessEvents.get" class="permission-name add-link" data-text="iamconnectors.accessEvents.get" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.accessEvents.get</code></h4></td>
+<td><h4 id="agentidentity.accessSummaries.get" class="permission-name add-link" data-text="agentidentity.accessSummaries.get" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  accessSummaries.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.accessEvents.list" class="permission-name add-link" data-text="iamconnectors.accessEvents.list" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  accessEvents.  list</code></h4></td>
+<td><h4 id="agentidentity.accessSummaries.list" class="permission-name add-link" data-text="agentidentity.accessSummaries.list" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  accessSummaries.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -235,77 +157,44 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.authorizations.delete" class="permission-name add-link" data-text="iamconnectors.authorizations.delete" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  authorizations.  delete</code></h4></td>
+<td><h4 id="agentidentity.authProviders.create" class="permission-name add-link" data-text="agentidentity.authProviders.create" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.authorizations.get" class="permission-name add-link" data-text="iamconnectors.authorizations.get" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  authorizations.  get</code></h4></td>
+<td><h4 id="agentidentity.authProviders.delete" class="permission-name add-link" data-text="agentidentity.authProviders.delete" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="iamconnectors.authorizations.list" class="permission-name add-link" data-text="iamconnectors.authorizations.list" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  authorizations.  list</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="iamconnectors.connectors.create" class="permission-name add-link" data-text="iamconnectors.connectors.create" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  create</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.connectors.delete" class="permission-name add-link" data-text="iamconnectors.connectors.delete" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="iamconnectors.connectors.get" class="permission-name add-link" data-text="iamconnectors.connectors.get" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.connectors.get</code></h4></td>
+<td><h4 id="agentidentity.authProviders.get" class="permission-name add-link" data-text="agentidentity.authProviders.get" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
-<td><h4 id="iamconnectors.connectors.getIamPolicy" class="permission-name add-link" data-text="iamconnectors.connectors.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  getIamPolicy</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
 <tr class="even">
-<td><h4 id="iamconnectors.connectors.list" class="permission-name add-link" data-text="iamconnectors.connectors.list" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.connectors.list</code></h4></td>
+<td><h4 id="agentidentity.authProviders.getIamPolicy" class="permission-name add-link" data-text="agentidentity.authProviders.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -315,61 +204,103 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.connectors.queryWorkloads" class="permission-name add-link" data-text="iamconnectors.connectors.queryWorkloads" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  queryWorkloads</code></h4></td>
+<td><h4 id="agentidentity.authProviders.list" class="permission-name add-link" data-text="agentidentity.authProviders.list" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="agentidentity.authProviders.queryWorkloads" class="permission-name add-link" data-text="agentidentity.authProviders.queryWorkloads" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  queryWorkloads</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
-<td><h4 id="iamconnectors.connectors.retrieveCredentials" class="permission-name add-link" data-text="iamconnectors.connectors.retrieveCredentials" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  retrieveCredentials</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.user">Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.user</code> )</p></td>
-</tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.connectors.revokeAuthorizations" class="permission-name add-link" data-text="iamconnectors.connectors.revokeAuthorizations" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  revokeAuthorizations</code></h4></td>
+<td><h4 id="agentidentity.authProviders.retrieveCredentials" class="permission-name add-link" data-text="agentidentity.authProviders.retrieveCredentials" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  retrieveCredentials</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.user">Auth Provider User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.user">Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.user</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="agentidentity.authProviders.revokeAuthorizations" class="permission-name add-link" data-text="agentidentity.authProviders.revokeAuthorizations" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  revokeAuthorizations</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
 </tr>
-<tr class="even">
-<td><h4 id="iamconnectors.connectors.setIamPolicy" class="permission-name add-link" data-text="iamconnectors.connectors.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  setIamPolicy</code></h4></td>
+<tr class="odd">
+<td><h4 id="agentidentity.authProviders.setIamPolicy" class="permission-name add-link" data-text="agentidentity.authProviders.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p></td>
 </tr>
-<tr class="odd">
-<td><h4 id="iamconnectors.connectors.undelete" class="permission-name add-link" data-text="iamconnectors.connectors.undelete" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  undelete</code></h4></td>
+<tr class="even">
+<td><h4 id="agentidentity.authProviders.undelete" class="permission-name add-link" data-text="agentidentity.authProviders.undelete" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="agentidentity.authProviders.update" class="permission-name add-link" data-text="agentidentity.authProviders.update" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.connectors.update" class="permission-name add-link" data-text="iamconnectors.connectors.update" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  connectors.  update</code></h4></td>
+<td><h4 id="agentidentity.authorizations.delete" class="permission-name add-link" data-text="agentidentity.authorizations.delete" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authorizations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.locations.get" class="permission-name add-link" data-text="iamconnectors.locations.get" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.locations.get</code></h4></td>
+<td><h4 id="agentidentity.authorizations.get" class="permission-name add-link" data-text="agentidentity.authorizations.get" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authorizations.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.locations.list" class="permission-name add-link" data-text="iamconnectors.locations.list" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.locations.list</code></h4></td>
+<td><h4 id="agentidentity.authorizations.list" class="permission-name add-link" data-text="agentidentity.authorizations.list" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authorizations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -379,34 +310,26 @@ This page lists the IAM roles and permissions for IAM Connectors. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="iamconnectors.operations.cancel" class="permission-name add-link" data-text="iamconnectors.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  operations.  cancel</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="iamconnectors.operations.delete" class="permission-name add-link" data-text="iamconnectors.operations.delete" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.  operations.  delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="iamconnectors.operations.get" class="permission-name add-link" data-text="iamconnectors.operations.get" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.operations.get</code></h4></td>
+<td><h4 id="agentidentity.locations.get" class="permission-name add-link" data-text="agentidentity.locations.get" tabindex="-1"><code dir="ltr" translate="no">agentidentity.locations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.viewer">Connector Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="iamconnectors.operations.list" class="permission-name add-link" data-text="iamconnectors.operations.list" tabindex="-1"><code dir="ltr" translate="no">iamconnectors.operations.list</code></h4></td>
+<td><h4 id="agentidentity.locations.list" class="permission-name add-link" data-text="agentidentity.locations.list" tabindex="-1"><code dir="ltr" translate="no">agentidentity.locations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>

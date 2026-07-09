@@ -155,6 +155,7 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.entryGroups.export</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.import</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDefinitionEntryLink</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useRelatedEntryLink</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useSchemaJoinEntryLink</code></p>
@@ -536,6 +537,9 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></li>
@@ -649,6 +653,9 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></p>
@@ -710,6 +717,11 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <li><code dir="ltr" translate="no">dataplex.glossaryTerms.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.glossaryTerms.use</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -744,6 +756,11 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
@@ -1050,6 +1067,9 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></li>
@@ -1117,6 +1137,9 @@ This page lists the IAM roles and permissions for Knowledge Catalog. To search t
 </ul>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></p>
@@ -3652,6 +3675,43 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="dataplex.entryGroups.useContextAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useContextAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryGroupOwner">DataCatalog EntryGroup Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryOwner">DataCatalog Entry Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataplex.entryGroups.useContextEntry" class="permission-name add-link" data-text="dataplex.entryGroups.useContextEntry" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryGroupOwner">DataCatalog EntryGroup Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryOwner">DataCatalog Entry Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataplex.entryGroups.useContextEntryLink" class="permission-name add-link" data-text="dataplex.entryGroups.useContextEntryLink" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryGroupOwner">DataCatalog EntryGroup Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.entryOwner">DataCatalog Entry Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.entryOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useDataProfileAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useDataProfileAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3670,7 +3730,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useDataQualityRuleTemplateAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useDataQualityRuleTemplateAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3682,7 +3742,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useDataQualityRuleTemplateEntry" class="permission-name add-link" data-text="dataplex.entryGroups.useDataQualityRuleTemplateEntry" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3694,7 +3754,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useDataQualityScorecardAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useDataQualityScorecardAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityScorecardAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3706,7 +3766,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useDataRulesAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useDataRulesAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataRulesAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3718,7 +3778,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useDatabaseDataPolicyAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useDatabaseDataPolicyAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDatabaseDataPolicyAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3737,7 +3797,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useDefinitionEntryLink" class="permission-name add-link" data-text="dataplex.entryGroups.useDefinitionEntryLink" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDefinitionEntryLink</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3750,7 +3810,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useDescriptionsAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useDescriptionsAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useDescriptionsAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3762,7 +3822,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useGenericAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useGenericAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3774,7 +3834,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useGenericEntry" class="permission-name add-link" data-text="dataplex.entryGroups.useGenericEntry" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericEntry</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3786,7 +3846,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useGraphProfileAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useGraphProfileAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useGraphProfileAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3798,7 +3858,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useMySQLConnectorTypes" class="permission-name add-link" data-text="dataplex.entryGroups.useMySQLConnectorTypes" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useMySQLConnectorTypes</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3817,7 +3877,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useOracleConnectorTypes" class="permission-name add-link" data-text="dataplex.entryGroups.useOracleConnectorTypes" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useOracleConnectorTypes</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3836,7 +3896,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useOverviewAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useOverviewAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useOverviewAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3856,7 +3916,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.usePostgreSQLConnectorTypes" class="permission-name add-link" data-text="dataplex.entryGroups.usePostgreSQLConnectorTypes" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  usePostgreSQLConnectorTypes</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3875,7 +3935,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useQueriesAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useQueriesAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useQueriesAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3887,7 +3947,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useRefreshCadenceAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useRefreshCadenceAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useRefreshCadenceAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3899,7 +3959,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useRelatedEntryLink" class="permission-name add-link" data-text="dataplex.entryGroups.useRelatedEntryLink" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useRelatedEntryLink</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3912,7 +3972,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useSQLAccessAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useSQLAccessAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSQLAccessAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3931,7 +3991,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useSQLServerConnectorTypes" class="permission-name add-link" data-text="dataplex.entryGroups.useSQLServerConnectorTypes" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSQLServerConnectorTypes</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3950,7 +4010,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useSQLTriggersAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useSQLTriggersAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSQLTriggersAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3969,7 +4029,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useSchemaAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useSchemaAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSchemaAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3988,7 +4048,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useSchemaJoinAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useSchemaJoinAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSchemaJoinAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4000,7 +4060,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useSchemaJoinEntryLink" class="permission-name add-link" data-text="dataplex.entryGroups.useSchemaJoinEntryLink" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSchemaJoinEntryLink</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4013,7 +4073,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useSecondaryIndexesAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useSecondaryIndexesAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSecondaryIndexesAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4032,7 +4092,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryGroups.useStorageAspect" class="permission-name add-link" data-text="dataplex.entryGroups.useStorageAspect" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useStorageAspect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4051,7 +4111,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryGroups.useSynonymEntryLink" class="permission-name add-link" data-text="dataplex.entryGroups.useSynonymEntryLink" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryGroups.  useSynonymEntryLink</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4064,7 +4124,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryLinks.create" class="permission-name add-link" data-text="dataplex.entryLinks.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryLinks.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4077,7 +4137,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryLinks.delete" class="permission-name add-link" data-text="dataplex.entryLinks.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryLinks.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4090,7 +4150,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryLinks.get" class="permission-name add-link" data-text="dataplex.entryLinks.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryLinks.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4108,7 +4168,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryLinks.reference" class="permission-name add-link" data-text="dataplex.entryLinks.reference" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryLinks.reference</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4120,7 +4180,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryLinks.update" class="permission-name add-link" data-text="dataplex.entryLinks.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryLinks.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4133,7 +4193,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryGroupOwner">Dataplex Entry Group Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryGroupOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryOwner">Dataplex Entry and EntryLink Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryTypes.create" class="permission-name add-link" data-text="dataplex.entryTypes.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryTypes.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4142,7 +4202,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeOwner">Dataplex Entry Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryTypes.delete" class="permission-name add-link" data-text="dataplex.entryTypes.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryTypes.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4151,7 +4211,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeOwner">Dataplex Entry Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryTypes.get" class="permission-name add-link" data-text="dataplex.entryTypes.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryTypes.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4170,7 +4230,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeUser">Dataplex Entry Type User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryTypes.getIamPolicy" class="permission-name add-link" data-text="dataplex.entryTypes.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4187,7 +4247,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryTypes.list" class="permission-name add-link" data-text="dataplex.entryTypes.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryTypes.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4209,7 +4269,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryTypes.setIamPolicy" class="permission-name add-link" data-text="dataplex.entryTypes.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  entryTypes.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
@@ -4217,7 +4277,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeOwner">Dataplex Entry Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.entryTypes.update" class="permission-name add-link" data-text="dataplex.entryTypes.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryTypes.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4226,7 +4286,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeOwner">Dataplex Entry Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.entryTypes.use" class="permission-name add-link" data-text="dataplex.entryTypes.use" tabindex="-1"><code dir="ltr" translate="no">dataplex.entryTypes.use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4240,21 +4300,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeOwner">Dataplex Entry Type Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.entryTypeUser">Dataplex Entry Type User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.entryTypeUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.environments.create" class="permission-name add-link" data-text="dataplex.environments.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.environments.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.environments.delete" class="permission-name add-link" data-text="dataplex.environments.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.environments.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.environments.execute" class="permission-name add-link" data-text="dataplex.environments.execute" tabindex="-1"><code dir="ltr" translate="no">dataplex.environments.execute</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4268,7 +4328,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.environments.get" class="permission-name add-link" data-text="dataplex.environments.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.environments.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4286,7 +4346,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.environments.getIamPolicy" class="permission-name add-link" data-text="dataplex.environments.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  environments.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4299,7 +4359,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.environments.list" class="permission-name add-link" data-text="dataplex.environments.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.environments.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4320,20 +4380,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.environments.setIamPolicy" class="permission-name add-link" data-text="dataplex.environments.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  environments.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.environments.update" class="permission-name add-link" data-text="dataplex.environments.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.environments.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaries.create" class="permission-name add-link" data-text="dataplex.glossaries.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaries.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4342,7 +4402,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaries.delete" class="permission-name add-link" data-text="dataplex.glossaries.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaries.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4351,7 +4411,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaries.get" class="permission-name add-link" data-text="dataplex.glossaries.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaries.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4365,7 +4425,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaries.getIamPolicy" class="permission-name add-link" data-text="dataplex.glossaries.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaries.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4382,7 +4442,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaries.import" class="permission-name add-link" data-text="dataplex.glossaries.import" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaries.import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4390,7 +4450,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaries.list" class="permission-name add-link" data-text="dataplex.glossaries.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaries.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4407,7 +4467,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaries.requestChanges" class="permission-name add-link" data-text="dataplex.glossaries.requestChanges" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaries.  requestChanges</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4420,7 +4480,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaries.setIamPolicy" class="permission-name add-link" data-text="dataplex.glossaries.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaries.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
@@ -4428,7 +4488,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaries.update" class="permission-name add-link" data-text="dataplex.glossaries.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaries.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4437,7 +4497,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaryCategories.create" class="permission-name add-link" data-text="dataplex.glossaryCategories.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaryCategories.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4446,7 +4506,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaryCategories.delete" class="permission-name add-link" data-text="dataplex.glossaryCategories.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaryCategories.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4455,7 +4515,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaryCategories.get" class="permission-name add-link" data-text="dataplex.glossaryCategories.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaryCategories.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4469,7 +4529,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaryCategories.list" class="permission-name add-link" data-text="dataplex.glossaryCategories.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4486,7 +4546,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaryCategories.update" class="permission-name add-link" data-text="dataplex.glossaryCategories.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.  glossaryCategories.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4495,7 +4555,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaryTerms.create" class="permission-name add-link" data-text="dataplex.glossaryTerms.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaryTerms.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4504,7 +4564,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaryTerms.delete" class="permission-name add-link" data-text="dataplex.glossaryTerms.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaryTerms.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4513,7 +4573,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaryTerms.get" class="permission-name add-link" data-text="dataplex.glossaryTerms.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaryTerms.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4527,7 +4587,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaryTerms.list" class="permission-name add-link" data-text="dataplex.glossaryTerms.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4544,7 +4604,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.glossaryTerms.update" class="permission-name add-link" data-text="dataplex.glossaryTerms.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaryTerms.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4553,7 +4613,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.glossaryTerms.use" class="permission-name add-link" data-text="dataplex.glossaryTerms.use" tabindex="-1"><code dir="ltr" translate="no">dataplex.glossaryTerms.use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4562,7 +4622,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogAdmin">Dataplex Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.lakeActions.list" class="permission-name add-link" data-text="dataplex.lakeActions.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakeActions.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4575,21 +4635,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.lakes.create" class="permission-name add-link" data-text="dataplex.lakes.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.lakes.delete" class="permission-name add-link" data-text="dataplex.lakes.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.lakes.get" class="permission-name add-link" data-text="dataplex.lakes.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4606,7 +4666,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.lakes.getIamPolicy" class="permission-name add-link" data-text="dataplex.lakes.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4626,7 +4686,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.lakes.list" class="permission-name add-link" data-text="dataplex.lakes.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4639,27 +4699,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.lakes.setIamPolicy" class="permission-name add-link" data-text="dataplex.lakes.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.lakes.update" class="permission-name add-link" data-text="dataplex.lakes.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.lakes.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.locations.get" class="permission-name add-link" data-text="dataplex.locations.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.locations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.editor">Data Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.viewer">Data Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
@@ -4677,16 +4742,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.locations.list" class="permission-name add-link" data-text="dataplex.locations.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.locations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.admin">AlloyDB Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.admin">Data Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.editor">Data Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datacatalog#datacatalog.viewer">Data Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datacatalog.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb#alloydb.databaseUser">AlloyDB Database User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  alloydb.databaseUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogEditor">Dataplex Catalog Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.catalogViewer">Dataplex Catalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.catalogViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
@@ -4705,21 +4775,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.metadataFeeds.create" class="permission-name add-link" data-text="dataplex.metadataFeeds.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataFeeds.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataFeedOwner">Dataplex Metadata Feed Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataFeedOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.metadataFeeds.delete" class="permission-name add-link" data-text="dataplex.metadataFeeds.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataFeeds.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataFeedOwner">Dataplex Metadata Feed Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataFeedOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.metadataFeeds.get" class="permission-name add-link" data-text="dataplex.metadataFeeds.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataFeeds.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4729,7 +4799,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataFeedViewer">Dataplex Metadata Feed Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataFeedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.metadataFeeds.list" class="permission-name add-link" data-text="dataplex.metadataFeeds.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataFeeds.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4742,21 +4812,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.metadataFeeds.update" class="permission-name add-link" data-text="dataplex.metadataFeeds.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataFeeds.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataFeedOwner">Dataplex Metadata Feed Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataFeedOwner</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.metadataJobs.cancel" class="permission-name add-link" data-text="dataplex.metadataJobs.cancel" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataJobs.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataJobOwner">Dataplex Metadata Job Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataJobOwner</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.metadataJobs.create" class="permission-name add-link" data-text="dataplex.metadataJobs.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataJobs.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4770,7 +4840,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.metadataJobs.get" class="permission-name add-link" data-text="dataplex.metadataJobs.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataJobs.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4787,7 +4857,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.metadataJobs.list" class="permission-name add-link" data-text="dataplex.metadataJobs.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.metadataJobs.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4807,7 +4877,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerydatatransfer#bigquerydatatransfer.serviceAgent">BigQuery Data Transfer Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquerydatatransfer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.operations.cancel" class="permission-name add-link" data-text="dataplex.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">dataplex.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4828,7 +4898,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.operations.delete" class="permission-name add-link" data-text="dataplex.operations.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4849,7 +4919,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.operations.get" class="permission-name add-link" data-text="dataplex.operations.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.operations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4905,7 +4975,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.operations.list" class="permission-name add-link" data-text="dataplex.operations.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.operations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4947,21 +5017,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.partitions.create" class="permission-name add-link" data-text="dataplex.partitions.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.partitions.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataWriter">Dataplex Metadata Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataWriter</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.partitions.delete" class="permission-name add-link" data-text="dataplex.partitions.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.partitions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataWriter">Dataplex Metadata Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataWriter</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.partitions.get" class="permission-name add-link" data-text="dataplex.partitions.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.partitions.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4971,7 +5041,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataWriter">Dataplex Metadata Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.partitions.list" class="permission-name add-link" data-text="dataplex.partitions.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.partitions.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4984,14 +5054,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.partitions.update" class="permission-name add-link" data-text="dataplex.partitions.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.partitions.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataWriter">Dataplex Metadata Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataWriter</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.projects.search" class="permission-name add-link" data-text="dataplex.projects.search" tabindex="-1"><code dir="ltr" translate="no">dataplex.projects.search</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5043,7 +5113,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.tasks.cancel" class="permission-name add-link" data-text="dataplex.tasks.cancel" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5051,7 +5121,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.developer">Dataplex Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.developer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.tasks.create" class="permission-name add-link" data-text="dataplex.tasks.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5059,7 +5129,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.developer">Dataplex Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.developer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.tasks.delete" class="permission-name add-link" data-text="dataplex.tasks.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5067,7 +5137,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.developer">Dataplex Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.developer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.tasks.get" class="permission-name add-link" data-text="dataplex.tasks.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5078,7 +5148,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.developer">Dataplex Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.tasks.getIamPolicy" class="permission-name add-link" data-text="dataplex.tasks.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5091,7 +5161,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.tasks.list" class="permission-name add-link" data-text="dataplex.tasks.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5105,7 +5175,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.tasks.run" class="permission-name add-link" data-text="dataplex.tasks.run" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.run</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5113,13 +5183,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.developer">Dataplex Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.developer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.tasks.setIamPolicy" class="permission-name add-link" data-text="dataplex.tasks.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.tasks.update" class="permission-name add-link" data-text="dataplex.tasks.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.tasks.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5127,7 +5197,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.developer">Dataplex Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.developer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.zoneActions.list" class="permission-name add-link" data-text="dataplex.zoneActions.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.zoneActions.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5140,21 +5210,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.zones.create" class="permission-name add-link" data-text="dataplex.zones.create" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.zones.delete" class="permission-name add-link" data-text="dataplex.zones.delete" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.editor">Dataplex Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.editor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.zones.get" class="permission-name add-link" data-text="dataplex.zones.get" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5166,7 +5236,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.metadataWriter">Dataplex Metadata Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.metadataWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.zones.getIamPolicy" class="permission-name add-link" data-text="dataplex.zones.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5186,7 +5256,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.zones.list" class="permission-name add-link" data-text="dataplex.zones.list" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -5201,13 +5271,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="dataplex.zones.setIamPolicy" class="permission-name add-link" data-text="dataplex.zones.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.admin">Dataplex Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="dataplex.zones.update" class="permission-name add-link" data-text="dataplex.zones.update" tabindex="-1"><code dir="ltr" translate="no">dataplex.zones.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

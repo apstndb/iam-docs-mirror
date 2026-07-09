@@ -1,14 +1,14 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity
 uri: https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity
-title: Workload Identity Federation roles and permissions
+title: Workload Identity API roles and permissions
 description: Fine-grained access control and visibility for centrally managing cloud resources.
 data_source: docs.cloud.google.com
 ---
 
-This page lists the IAM roles and permissions for Workload Identity Federation. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
+This page lists the IAM roles and permissions for Workload Identity API. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
 
-## Workload Identity Federation roles
+## Workload Identity API roles
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ This page lists the IAM roles and permissions for Workload Identity Federation. 
 </tbody>
 </table>
 
-## Workload Identity Federation permissions
+## Workload Identity API permissions
 
 <table>
 <colgroup>

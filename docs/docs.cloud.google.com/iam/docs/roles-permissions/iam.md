@@ -387,6 +387,12 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  get</code></li>
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">agentidentity.  accessSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authorizations.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.locations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.agents.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.bindings.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.endpoints.list</code></p>
@@ -2591,6 +2597,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">parametermanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameterVersions.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templateVersions.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templates.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  products.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  promotions.  list</code></p>
 <p><code dir="ltr" translate="no">policyremediatormanager.  locations.  list</code></p>
@@ -3210,6 +3218,11 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  get</code></li>
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">agentidentity.  accessSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authorizations.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.locations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.agents.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.bindings.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.endpoints.list</code></p>
@@ -5158,6 +5171,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">parametermanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameterVersions.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templateVersions.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templates.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  products.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  promotions.  list</code></p>
 <p><code dir="ltr" translate="no">policyremediatormanager.  locations.  list</code></p>

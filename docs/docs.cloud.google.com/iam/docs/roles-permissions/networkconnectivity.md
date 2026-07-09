@@ -162,7 +162,14 @@ This page lists the IAM roles and permissions for Network Connectivity Center. T
 <td><h4 id="networkconnectivity.consumerNetworkAdmin" class="role-title add-link" data-text="Service Automation Consumer Network Admin" tabindex="-1">Service Automation Consumer Network Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  networkconnectivity.consumerNetworkAdmin</code> )</p>
 <p>Service Automation Consumer Network Admin is responsible for setting up ServiceConnectionPolicies.</p></td>
-<td><p><code dir="ltr" translate="no">networkconnectivity.  serviceConnectionPolicies.*</code></p>
+<td><p><code dir="ltr" translate="no">networkconnectivity.  operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">networkconnectivity.  operations.  cancel</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  operations.  delete</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  operations.  get</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  operations.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">networkconnectivity.  serviceConnectionPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networkconnectivity.  serviceConnectionPolicies.  create</code></li>
 <li><code dir="ltr" translate="no">networkconnectivity.  serviceConnectionPolicies.  delete</code></li>
@@ -1500,6 +1507,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.consumerNetworkAdmin">Service Automation Consumer Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.consumerNetworkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.hubAdmin">Hub &amp; Spoke Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.hubAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportAdmin">Transport Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.transportAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1521,6 +1529,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.consumerNetworkAdmin">Service Automation Consumer Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.consumerNetworkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.hubAdmin">Hub &amp; Spoke Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.hubAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.transportAdmin">Transport Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.transportAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1547,6 +1556,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.consumerNetworkAdmin">Service Automation Consumer Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.consumerNetworkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.groupAdmin">Group Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.groupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.hubAdmin">Hub &amp; Spoke Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.hubAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.multicloudDataTransferConfigAdmin">Multicloud Data Transfer Config Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.multicloudDataTransferConfigAdmin</code> )</p>
@@ -1588,6 +1598,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.consumerNetworkAdmin">Service Automation Consumer Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.consumerNetworkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.groupAdmin">Group Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.groupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.hubAdmin">Hub &amp; Spoke Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.hubAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.multicloudDataTransferConfigAdmin">Multicloud Data Transfer Config Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.multicloudDataTransferConfigAdmin</code> )</p>

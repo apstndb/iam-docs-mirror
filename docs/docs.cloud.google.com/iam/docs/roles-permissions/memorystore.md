@@ -38,8 +38,10 @@ This page lists the IAM roles and permissions for Memorystore. To search through
 <li><code dir="ltr" translate="no">memorystore.instances.connect</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.create</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.delete</code></li>
+<li><code dir="ltr" translate="no">memorystore.  instances.  finishMigration</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.get</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.list</code></li>
+<li><code dir="ltr" translate="no">memorystore.  instances.  startMigration</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.update</code></li>
 <li><code dir="ltr" translate="no">memorystore.locations.get</code></li>
 <li><code dir="ltr" translate="no">memorystore.locations.list</code></li>
@@ -242,6 +244,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="memorystore.instances.finishMigration" class="permission-name add-link" data-text="memorystore.instances.finishMigration" tabindex="-1"><code dir="ltr" translate="no">memorystore.  instances.  finishMigration</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="memorystore.instances.get" class="permission-name add-link" data-text="memorystore.instances.get" tabindex="-1"><code dir="ltr" translate="no">memorystore.instances.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -252,7 +261,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="memorystore.instances.list" class="permission-name add-link" data-text="memorystore.instances.list" tabindex="-1"><code dir="ltr" translate="no">memorystore.instances.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -265,6 +274,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="memorystore.instances.startMigration" class="permission-name add-link" data-text="memorystore.instances.startMigration" tabindex="-1"><code dir="ltr" translate="no">memorystore.  instances.  startMigration</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore#memorystore.admin">Memorystore Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memorystore.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="memorystore.instances.update" class="permission-name add-link" data-text="memorystore.instances.update" tabindex="-1"><code dir="ltr" translate="no">memorystore.instances.update</code></h4></td>

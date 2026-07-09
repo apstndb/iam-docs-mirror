@@ -1176,6 +1176,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  triggerBackupForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  triggerBackupForComputeDisk</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  triggerBackupForComputeInstance</code></p>
+<p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  updateForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  updateForComputeDisk</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  updateForComputeInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupPlans.get</code></p>
@@ -3104,9 +3105,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>

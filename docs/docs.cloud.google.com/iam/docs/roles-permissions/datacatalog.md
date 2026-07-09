@@ -153,6 +153,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></li>
@@ -228,6 +231,11 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></li>
 <li><code dir="ltr" translate="no">dataplex.glossaryTerms.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.glossaryTerms.use</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
@@ -326,6 +334,11 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -375,6 +388,11 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">pubsub.topics.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -505,6 +523,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></li>
@@ -595,6 +616,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 </ul>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntry</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContextEntryLink</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataQualityRuleTemplateEntry</code></p>

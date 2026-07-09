@@ -731,10 +731,6 @@ The limitations table is organized in the following way:
 <td><h3 id="managed-service-for-apache-airflow" data-text="Managed Service for Apache Airflow" tabindex="-1"><a href="https://docs.cloud.google.com/composer/docs">Managed Service for Apache Airflow</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
@@ -746,11 +742,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td><ul>
-<li>Managed Airflow supports Workforce Identity Federation only for environments created in Composer version 2.1.11 or later and Airflow version 2.4.3 or later. Upgrading an environment from an earlier version does not enable Workforce Identity Federation support.</li>
-<li>Email messages sent from Airflow only include the Airflow UI link that is accessible by Google accounts. To access Airflow UI as a Workforce Identity Federation user, the link must be manually updated (changed to the <a href="https://docs.cloud.google.com/composer/docs/composer-2/access-environments-with-workforce-identity-federation#access-airflow-ui">URL for Workforce Identity Federation</a> ).</li>
-<li>Cloud Storage limitations apply to Managed Airflow environment bucket.</li>
-</ul></td>
+<td>Email messages sent from Airflow only include the Airflow UI link that is accessible by Google accounts. To access Airflow UI as a Workforce Identity Federation user, the link must be manually updated (changed to the <a href="https://docs.cloud.google.com/composer/docs/composer-2/access-environments-with-workforce-identity-federation#access-airflow-ui">URL for Workforce Identity Federation</a> ).</td>
 </tr>
 </tbody>
 </table></td>

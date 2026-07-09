@@ -4612,9 +4612,14 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
@@ -23516,6 +23521,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.admin">Notebooks Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.editor">Notebooks Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.viewer">Notebooks Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.viewer</code> )</p>
@@ -23692,6 +23699,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.admin">Dataproc Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.editor">Dataproc Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/memcache#memcache.admin">Cloud Memorystore Memcached Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  memcache.admin</code> )</p>

@@ -108,6 +108,116 @@ This page lists the IAM roles and permissions for Cloud DNS. To search through a
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
+<td><h4 id="dns.editor" class="role-title add-link" data-text="DNS Editor" tabindex="-1">DNS Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p>Editor role for DNS resources.</p></td>
+<td><p><code dir="ltr" translate="no">compute.networks.get</code></p>
+<p><code dir="ltr" translate="no">compute.networks.list</code></p>
+<p><code dir="ltr" translate="no">dns.changes.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.changes.create</code></li>
+<li><code dir="ltr" translate="no">dns.changes.get</code></li>
+<li><code dir="ltr" translate="no">dns.changes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.dnsKeys.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.dnsKeys.get</code></li>
+<li><code dir="ltr" translate="no">dns.dnsKeys.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.gkeClusters.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.  gkeClusters.  bindDNSResponsePolicy</code></li>
+<li><code dir="ltr" translate="no">dns.  gkeClusters.  bindPrivateDNSZone</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.managedZoneOperations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.managedZoneOperations.get</code></li>
+<li><code dir="ltr" translate="no">dns.managedZoneOperations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.managedZones.create</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.delete</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.get</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.list</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.update</code></p>
+<p><code dir="ltr" translate="no">dns.networks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.  networks.  bindDNSResponsePolicy</code></li>
+<li><code dir="ltr" translate="no">dns.  networks.  bindPrivateDNSPolicy</code></li>
+<li><code dir="ltr" translate="no">dns.  networks.  bindPrivateDNSZone</code></li>
+<li><code dir="ltr" translate="no">dns.  networks.  targetWithPeeringZone</code></li>
+<li><code dir="ltr" translate="no">dns.networks.useHealthSignals</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.policies.create</code></p>
+<p><code dir="ltr" translate="no">dns.policies.delete</code></p>
+<p><code dir="ltr" translate="no">dns.policies.get</code></p>
+<p><code dir="ltr" translate="no">dns.policies.list</code></p>
+<p><code dir="ltr" translate="no">dns.policies.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dns.policies.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dns.policies.update</code></p>
+<p><code dir="ltr" translate="no">dns.projects.get</code></p>
+<p><code dir="ltr" translate="no">dns.resourceRecordSets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.resourceRecordSets.create</code></li>
+<li><code dir="ltr" translate="no">dns.resourceRecordSets.delete</code></li>
+<li><code dir="ltr" translate="no">dns.resourceRecordSets.get</code></li>
+<li><code dir="ltr" translate="no">dns.resourceRecordSets.list</code></li>
+<li><code dir="ltr" translate="no">dns.resourceRecordSets.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.responsePolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.responsePolicies.create</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicies.delete</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicies.get</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicies.list</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicies.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.responsePolicyRules.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.responsePolicyRules.create</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicyRules.delete</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicyRules.get</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicyRules.list</code></li>
+<li><code dir="ltr" translate="no">dns.responsePolicyRules.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dns.viewer" class="role-title add-link" data-text="DNS Viewer" tabindex="-1">DNS Viewer</h4>
+<p>( <code dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
+<p>Viewer role for DNS resources.</p></td>
+<td><p><code dir="ltr" translate="no">compute.networks.get</code></p>
+<p><code dir="ltr" translate="no">dns.changes.get</code></p>
+<p><code dir="ltr" translate="no">dns.changes.list</code></p>
+<p><code dir="ltr" translate="no">dns.dnsKeys.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.dnsKeys.get</code></li>
+<li><code dir="ltr" translate="no">dns.dnsKeys.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.managedZoneOperations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dns.managedZoneOperations.get</code></li>
+<li><code dir="ltr" translate="no">dns.managedZoneOperations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dns.managedZones.get</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dns.managedZones.list</code></p>
+<p><code dir="ltr" translate="no">dns.policies.get</code></p>
+<p><code dir="ltr" translate="no">dns.policies.list</code></p>
+<p><code dir="ltr" translate="no">dns.policies.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dns.policies.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dns.projects.get</code></p>
+<p><code dir="ltr" translate="no">dns.resourceRecordSets.get</code></p>
+<p><code dir="ltr" translate="no">dns.resourceRecordSets.list</code></p>
+<p><code dir="ltr" translate="no">dns.responsePolicies.get</code></p>
+<p><code dir="ltr" translate="no">dns.responsePolicies.list</code></p>
+<p><code dir="ltr" translate="no">dns.responsePolicyRules.get</code></p>
+<p><code dir="ltr" translate="no">dns.responsePolicyRules.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="dns.peer" class="role-title add-link" data-text="DNS Peer" tabindex="-1">DNS Peer</h4>
 <p>( <code dir="ltr" translate="no">roles/  dns.peer</code> )</p>
 <p>Access to target networks with DNS peering zones</p></td>
@@ -206,6 +316,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -231,6 +342,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -257,6 +370,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
@@ -284,6 +399,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -307,6 +424,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
@@ -331,6 +450,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -348,6 +468,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -366,6 +487,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -390,6 +513,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
@@ -415,6 +540,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -440,6 +566,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -466,6 +593,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.sharedVpcAgent">Composer Shared VPC Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.sharedVpcAgent</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
@@ -497,6 +626,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
@@ -520,6 +651,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workloadmanager#workloadmanager.admin">Workload Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workloadmanager.admin</code> )</p>
@@ -563,6 +696,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -585,6 +719,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -604,6 +739,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -624,6 +760,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -652,6 +789,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.sharedVpcAgent">Composer Shared VPC Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.sharedVpcAgent</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.peer">DNS Peer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.peer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
@@ -684,6 +822,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -702,6 +841,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -737,6 +877,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -774,6 +915,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -798,6 +941,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
@@ -823,6 +968,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
@@ -849,6 +996,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
@@ -874,6 +1023,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -894,6 +1044,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -916,6 +1068,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -940,6 +1093,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -965,6 +1119,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -991,6 +1147,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
@@ -1021,6 +1179,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1045,6 +1204,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1065,6 +1225,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1086,6 +1247,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
@@ -1110,6 +1273,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
@@ -1135,6 +1300,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1155,6 +1321,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1175,6 +1342,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -1196,6 +1364,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.reader">DNS Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
@@ -1220,6 +1390,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
@@ -1245,6 +1417,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.hostServiceAgentUser">Kubernetes Engine Host Service Agent User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.hostServiceAgentUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
 <p>Service agent roles</p>

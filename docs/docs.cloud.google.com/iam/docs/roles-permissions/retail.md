@@ -378,9 +378,11 @@ This page lists the IAM roles and permissions for AI Commerce Search API. To sea
 <p><code dir="ltr" translate="no">retail.  catalogs.  exportAnalyticsMetrics</code></p>
 <p><code dir="ltr" translate="no">retail.catalogs.get</code></p>
 <p><code dir="ltr" translate="no">retail.catalogs.list</code></p>
+<p><code dir="ltr" translate="no">retail.controls.delete</code></p>
 <p><code dir="ltr" translate="no">retail.controls.export</code></p>
 <p><code dir="ltr" translate="no">retail.controls.get</code></p>
 <p><code dir="ltr" translate="no">retail.controls.list</code></p>
+<p><code dir="ltr" translate="no">retail.controls.update</code></p>
 <p><code dir="ltr" translate="no">retail.experiments.get</code></p>
 <p><code dir="ltr" translate="no">retail.experiments.list</code></p>
 <p><code dir="ltr" translate="no">retail.  experiments.  loadExperimentLookerDashboard</code></p>
@@ -423,6 +425,7 @@ This page lists the IAM roles and permissions for AI Commerce Search API. To sea
 <p><code dir="ltr" translate="no">retail.servingConfigs.list</code></p>
 <p><code dir="ltr" translate="no">retail.servingConfigs.predict</code></p>
 <p><code dir="ltr" translate="no">retail.servingConfigs.search</code></p>
+<p><code dir="ltr" translate="no">retail.servingConfigs.update</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.list</code></p></td>
 </tr>
 <tr class="odd">
@@ -807,7 +810,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="retail.controls.export" class="permission-name add-link" data-text="retail.controls.export" tabindex="-1"><code dir="ltr" translate="no">retail.controls.export</code></h4></td>
@@ -860,7 +864,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="retail.experiments.create" class="permission-name add-link" data-text="retail.experiments.create" tabindex="-1"><code dir="ltr" translate="no">retail.experiments.create</code></h4></td>
@@ -1378,7 +1383,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.merchantApprover">Retail Merchant Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.merchantApprover</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="retail.userEvents.create" class="permission-name add-link" data-text="retail.userEvents.create" tabindex="-1"><code dir="ltr" translate="no">retail.userEvents.create</code></h4></td>

@@ -757,6 +757,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">networkservices.  meshes.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  listEffectiveTags</code></p>
@@ -1129,6 +1133,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">privateca.  certificateTemplates.  listEffectiveTags</code></p>
@@ -2061,6 +2067,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.admin">Cloud Asset Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.editor">Cloud Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
@@ -2230,6 +2238,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.editor">DLP Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.viewer">DLP Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  documentai.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.viewer">Document AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  documentai.viewer</code> )</p>
@@ -2515,6 +2525,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.editor">Secretmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.secretAccessor">Secret Manager Secret Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.secretAccessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.viewer">Secret Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.viewer">Secured Landing Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.admin">Secure Source Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.editor">Securesourcemanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.viewer">Securesourcemanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.viewer</code> )</p>
@@ -3153,6 +3165,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.parameterVersionAdder">Parameter Manager Parameter Version Adder</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.parameterVersionAdder</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.parameterVersionManager">Parameter Manager Parameter Version Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.parameterVersionManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.parameterViewer">Parameter Manager Parameter Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.parameterViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.templateVersionManager">Parameter Manager Template Version Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.templateVersionManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.templateViewer">Parameter Manager Template Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.templateViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerViewer">Payments Reseller Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.productViewer">Payments Reseller Products Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.productViewer</code> )</p>
@@ -3651,6 +3665,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.editor">Gemini for Google Cloud Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.user">Gemini for Google Cloud User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.viewer">Gemini for Google Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.admin">Cloud Asset Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.editor">Cloud Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.admin">Cloud Build Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.builder">Cloud Build Service Account</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.builder</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.editor</code> )</p>
@@ -3814,6 +3830,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.editor">DLP Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.viewer">DLP Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.admin">DNS Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.editor">DNS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dns#dns.viewer">DNS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dns.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.admin">Document AI Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  documentai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.editor">Document AI Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  documentai.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddocumentai#documentai.viewer">Document AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  documentai.viewer</code> )</p>
@@ -4085,6 +4103,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.editor">Secretmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.secretAccessor">Secret Manager Secret Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.secretAccessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.viewer">Secret Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.viewer">Secured Landing Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.admin">Secure Source Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.editor">Securesourcemanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.viewer">Securesourcemanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.viewer</code> )</p>
@@ -4693,6 +4713,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.parameterVersionAdder">Parameter Manager Parameter Version Adder</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.parameterVersionAdder</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.parameterVersionManager">Parameter Manager Parameter Version Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.parameterVersionManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.parameterViewer">Parameter Manager Parameter Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.parameterViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.templateVersionManager">Parameter Manager Template Version Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.templateVersionManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/parametermanager#parametermanager.templateViewer">Parameter Manager Template Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  parametermanager.templateViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerViewer">Payments Reseller Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.productViewer">Payments Reseller Products Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.productViewer</code> )</p>

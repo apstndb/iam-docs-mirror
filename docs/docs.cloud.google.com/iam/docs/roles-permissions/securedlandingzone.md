@@ -23,6 +23,34 @@ This page lists the IAM roles and permissions for Secured Landing Zone. To searc
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="securedlandingzone.admin" class="role-title add-link" data-text="Secured Landing Zone Admin Beta" tabindex="-1">Secured Landing Zone Admin <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
+<p>Admin role for Secured Landing Zone</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">securedlandingzone.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">securedlandingzone.  operations.  get</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  activate</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  create</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  delete</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  get</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  list</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  suspend</code></li>
+<li><code dir="ltr" translate="no">securedlandingzone.  overwatches.  update</code></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="securedlandingzone.viewer" class="role-title add-link" data-text="Secured Landing Zone Viewer Beta" tabindex="-1">Secured Landing Zone Viewer <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  securedlandingzone.viewer</code> )</p>
+<p>Viewer role for Secured Landing Zone</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">securedlandingzone.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">securedlandingzone.  overwatches.  get</code></p>
+<p><code dir="ltr" translate="no">securedlandingzone.  overwatches.  list</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="securedlandingzone.bqdwOrgRemediator" class="role-title add-link" data-text="SLZ BQDW Blueprint Organization Level Remediator Beta" tabindex="-1">SLZ BQDW Blueprint Organization Level Remediator <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  securedlandingzone.bqdwOrgRemediator</code> )</p>
 <p>Access to modify (remediate) resources in SLZ BQDW Blueprint at Organization.</p></td>
@@ -166,6 +194,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.viewer">Secured Landing Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchViewer">Overwatch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchViewer</code> )</p></td>
@@ -174,6 +204,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="securedlandingzone.overwatches.activate" class="permission-name add-link" data-text="securedlandingzone.overwatches.activate" tabindex="-1"><code dir="ltr" translate="no">securedlandingzone.  overwatches.  activate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchActivator">Overwatch Activator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchActivator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p></td>
 </tr>
@@ -181,12 +212,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="securedlandingzone.overwatches.create" class="permission-name add-link" data-text="securedlandingzone.overwatches.create" tabindex="-1"><code dir="ltr" translate="no">securedlandingzone.  overwatches.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="securedlandingzone.overwatches.delete" class="permission-name add-link" data-text="securedlandingzone.overwatches.delete" tabindex="-1"><code dir="ltr" translate="no">securedlandingzone.  overwatches.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -194,6 +227,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.viewer">Secured Landing Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchViewer">Overwatch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchViewer</code> )</p></td>
@@ -205,6 +240,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.viewer">Secured Landing Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p>
@@ -214,6 +251,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="securedlandingzone.overwatches.suspend" class="permission-name add-link" data-text="securedlandingzone.overwatches.suspend" tabindex="-1"><code dir="ltr" translate="no">securedlandingzone.  overwatches.  suspend</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchActivator">Overwatch Activator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchActivator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p></td>
 </tr>
@@ -221,6 +259,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="securedlandingzone.overwatches.update" class="permission-name add-link" data-text="securedlandingzone.overwatches.update" tabindex="-1"><code dir="ltr" translate="no">securedlandingzone.  overwatches.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.admin">Secured Landing Zone Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.overwatchAdmin">Overwatch Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.overwatchAdmin</code> )</p></td>
 </tr>
 </tbody>

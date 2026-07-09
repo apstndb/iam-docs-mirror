@@ -773,17 +773,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  update</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  use</code></p>
-<p><code dir="ltr" translate="no">dataproc.batches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataproc.batches.analyze</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.cancel</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.create</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.delete</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.get</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.list</code></li>
-<li><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationRead</code></li>
-<li><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationWrite</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataproc.batches.analyze</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.cancel</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.create</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.delete</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.get</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.list</code></p>
+<p><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationRead</code></p>
+<p><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationWrite</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.create</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.delete</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.get</code></p>

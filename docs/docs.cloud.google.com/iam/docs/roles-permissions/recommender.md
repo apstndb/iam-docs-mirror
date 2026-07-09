@@ -4734,6 +4734,8 @@ This page lists the IAM roles and permissions for Recommender. To search through
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.admin">Cloud Asset Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.editor">Cloud Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.viewer">Cloud Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationOwner">Gemini Cloud Assist Investigation Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recommender#recommender.admin">Recommender Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recommender.admin</code> )</p>
@@ -4772,6 +4774,8 @@ This page lists the IAM roles and permissions for Recommender. To search through
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.admin">Cloud Asset Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.editor">Cloud Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.viewer">Cloud Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationOwner">Gemini Cloud Assist Investigation Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -9025,6 +9029,8 @@ This page lists the IAM roles and permissions for Recommender. To search through
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.admin">Cloud Asset Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.editor">Cloud Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.viewer">Cloud Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
@@ -9176,6 +9182,8 @@ This page lists the IAM roles and permissions for Recommender. To search through
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/appengine#appengine.appAdmin">App Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appengine.appAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.admin">Cloud Asset Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.editor">Cloud Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudasset#cloudasset.viewer">Cloud Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudasset.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>

@@ -973,17 +973,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  list</code></p>
-<p><code dir="ltr" translate="no">dataproc.batches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataproc.batches.analyze</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.cancel</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.create</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.delete</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.get</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.list</code></li>
-<li><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationRead</code></li>
-<li><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationWrite</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataproc.batches.analyze</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.cancel</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.create</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.delete</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.get</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.list</code></p>
+<p><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationRead</code></p>
+<p><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationWrite</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.get</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.list</code></p>
 <p><code dir="ltr" translate="no">dataproc.jobs.create</code></p>
@@ -1620,6 +1617,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  triggerBackupForAlloydbCluster</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  triggerBackupForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  updateForAlloydbCluster</code></p>
+<p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  updateForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupPlans.get</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupPlans.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlans.  useForAlloydbCluster</code></p>
@@ -1673,6 +1671,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">biglake.tables.list</code></li>
 <li><code dir="ltr" translate="no">biglake.tables.listPartitions</code></li>
 <li><code dir="ltr" translate="no">biglake.tables.lock</code></li>
+<li><code dir="ltr" translate="no">biglake.tables.register</code></li>
 <li><code dir="ltr" translate="no">biglake.tables.setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">biglake.tables.update</code></li>
 <li><code dir="ltr" translate="no">biglake.tables.updateData</code></li>
@@ -2754,8 +2753,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">memorystore.instances.connect</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.create</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.delete</code></li>
+<li><code dir="ltr" translate="no">memorystore.  instances.  finishMigration</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.get</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.list</code></li>
+<li><code dir="ltr" translate="no">memorystore.  instances.  startMigration</code></li>
 <li><code dir="ltr" translate="no">memorystore.instances.update</code></li>
 <li><code dir="ltr" translate="no">memorystore.locations.get</code></li>
 <li><code dir="ltr" translate="no">memorystore.locations.list</code></li>
@@ -6149,9 +6150,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
@@ -7873,17 +7879,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  update</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  use</code></p>
-<p><code dir="ltr" translate="no">dataproc.batches.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataproc.batches.analyze</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.cancel</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.create</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.delete</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.get</code></li>
-<li><code dir="ltr" translate="no">dataproc.batches.list</code></li>
-<li><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationRead</code></li>
-<li><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationWrite</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataproc.batches.analyze</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.cancel</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.create</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.delete</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.get</code></p>
+<p><code dir="ltr" translate="no">dataproc.batches.list</code></p>
+<p><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationRead</code></p>
+<p><code dir="ltr" translate="no">dataproc.  batches.  sparkApplicationWrite</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.create</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.delete</code></p>
 <p><code dir="ltr" translate="no">dataproc.clusters.get</code></p>
@@ -9819,9 +9822,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  createVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  delete</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  submitVerdictChangeRequest</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  use</code></li>
@@ -10128,6 +10136,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  get</code></li>
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">agentidentity.  accessSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authorizations.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.locations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.agents.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.bindings.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.endpoints.list</code></p>
@@ -13481,6 +13494,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">parametermanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameterVersions.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templateVersions.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templates.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  products.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  promotions.  list</code></p>
 <p><code dir="ltr" translate="no">policyremediatormanager.  locations.  list</code></p>
@@ -16129,6 +16146,22 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">advisorynotifications.  notifications.  list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">advisorynotifications.  settings.  get</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">agentidentity.  accessSummaries.  get</code></li>
+<li><code dir="ltr" translate="no">agentidentity.  accessSummaries.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  get</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authProviders.  queryWorkloads</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authorizations.  get</code></p>
+<p><code dir="ltr" translate="no">agentidentity.  authorizations.  list</code></p>
+<p><code dir="ltr" translate="no">agentidentity.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">agentidentity.locations.get</code></li>
+<li><code dir="ltr" translate="no">agentidentity.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">agentregistry.agents.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">agentregistry.agents.get</code></li>
@@ -20295,6 +20328,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  listCustomModels</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  devToolsConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  documentProcessingConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  documents.  batchGetDocumentsMetadata</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.documents.get</code></p>
@@ -21844,7 +21878,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  get</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getVerdictChangeRequest</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireReport</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  getWildfireSample</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  listVerdictChangeRequests</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpoints.  useWildfire</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  gatewaySecurityPolicies.  list</code></p>
@@ -22130,6 +22168,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">parametermanager.  parameterVersions.  list</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  get</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templateVersions.  get</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templateVersions.  list</code></p>
+<p><code dir="ltr" translate="no">parametermanager.templates.get</code></p>
+<p><code dir="ltr" translate="no">parametermanager.  templates.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  products.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  promotions.  list</code></p>
 <p><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  get</code></p>
@@ -23494,7 +23538,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">vmwareengine.  vmwareEngineNetworks.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.connectors.get</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.connectors.list</code></p>
-<p><code dir="ltr" translate="no">vpcaccess.connectors.use</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.locations.list</code></p>
 <p><code dir="ltr" translate="no">vpcaccess.operations.*</code></p>
 <ul>
