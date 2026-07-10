@@ -50,7 +50,7 @@ https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	202
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/deny-access	2026-07-08T04:24:56Z
+https://docs.cloud.google.com/iam/docs/deny-access	2026-07-09T03:39:16Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-07-08T17:05:37Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-07-08T04:24:56Z
@@ -60,12 +60,12 @@ https://docs.cloud.google.com/iam/docs/full-resource-names	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/grant-role-console	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-07-08T08:48:34Z
+https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-07-09T04:50:28Z
 https://docs.cloud.google.com/iam/docs/groups-best-practices	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/groups-in-cloud-console	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/iam-security-architecture	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/job-functions/auditing	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/job-functions/billing	2026-07-08T04:24:56Z
+https://docs.cloud.google.com/iam/docs/job-functions/billing	2026-07-10T08:35:36Z
 https://docs.cloud.google.com/iam/docs/job-functions/networking	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/job-functions/roles-for-job-functions	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/key-rotation	2026-07-08T04:24:56Z
@@ -86,7 +86,7 @@ https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-07
 https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/overview	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/pab-blocked-permissions	2026-07-08T04:24:56Z
+https://docs.cloud.google.com/iam/docs/pab-blocked-permissions	2026-07-08T17:05:37Z
 https://docs.cloud.google.com/iam/docs/pam-approve-deny-grants	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/pam-audit-entitlement-events	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/pam-best-practices	2026-07-08T04:24:56Z
@@ -102,8 +102,8 @@ https://docs.cloud.google.com/iam/docs/pam-view-grants	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/pam-view-update-delete-entitlements	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/pam-withdraw-grants	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/permission-error-messages	2026-07-08T04:24:48Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-07-08T04:24:48Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-07-08T04:24:48Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-07-10T08:35:22Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-07-08T17:05:37Z
 https://docs.cloud.google.com/iam/docs/policy-intelligence-tools	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/policy-types	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies	2026-07-08T04:24:48Z
@@ -659,10 +659,10 @@ https://docs.cloud.google.com/iam/docs/request-missing-permissions	2026-07-08T04
 https://docs.cloud.google.com/iam/docs/resolve-permission-errors	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	2026-07-08T04:24:48Z
-https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-07-08T04:24:48Z
+https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-07-08T17:05:37Z
 https://docs.cloud.google.com/iam/docs/resources	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-07-08T04:24:48Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-08T08:48:46Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-09T03:39:19Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-07-08T04:24:48Z
@@ -1025,7 +1025,7 @@ https://docs.cloud.google.com/iam/docs/samples	2026-07-08T04:24:49Z
 https://docs.cloud.google.com/iam/docs/secure-iam-vpc-sc	2026-07-08T04:25:03Z
 https://docs.cloud.google.com/iam/docs/service-account-creds	2026-07-08T04:25:03Z
 https://docs.cloud.google.com/iam/docs/service-account-impersonation	2026-07-08T04:25:03Z
-https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-07-08T04:25:03Z
+https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-07-09T04:50:11Z
 https://docs.cloud.google.com/iam/docs/service-account-overview	2026-07-08T04:25:03Z
 https://docs.cloud.google.com/iam/docs/service-account-permissions	2026-07-08T04:25:03Z
 https://docs.cloud.google.com/iam/docs/service-account-types	2026-07-08T04:25:03Z

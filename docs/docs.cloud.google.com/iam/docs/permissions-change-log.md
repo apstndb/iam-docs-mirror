@@ -16,6 +16,777 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-07-07
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gemini Enterprise for Customer Experience</td>
+<td><p>The following permissions have been added to the Customer Engagement Suite Service Agent role ( <code dir="ltr" translate="no">roles/ces.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ces.agents.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.agents.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.agents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.agents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.agents.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.appVersions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.appVersions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.appVersions.restore</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.export</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.import</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.changelogs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.changelogs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.conversations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.conversations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationDatasets.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationDatasets.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationDatasets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationDatasets.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationDatasets.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationResults.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationResults.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationRuns.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluationRuns.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.evaluations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Asset Inventory</td>
+<td><p>The Cloud Asset Admin role ( <code dir="ltr" translate="no">roles/cloudasset.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Asset Inventory</td>
+<td><p>The Cloud Asset Editor role ( <code dir="ltr" translate="no">roles/cloudasset.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Data Catalog</td>
+<td><p>The following permissions have been added to the Data Catalog Admin role ( <code dir="ltr" translate="no">roles/datacatalog.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Data Catalog</td>
+<td><p>The following permissions have been added to the Data Catalog Editor role ( <code dir="ltr" translate="no">roles/datacatalog.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Data Catalog</td>
+<td><p>The following permissions have been added to the Data Catalog Viewer role ( <code dir="ltr" translate="no">roles/datacatalog.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have been added to the Dataplex Catalog Editor role ( <code dir="ltr" translate="no">roles/dataplex.catalogEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have been added to the Dataplex Catalog Viewer role ( <code dir="ltr" translate="no">roles/dataplex.catalogViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The Cloud NotebookLM Notebook Editor role ( <code dir="ltr" translate="no">roles/discoveryengine.notebookEditor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The Cloud NotebookLM Admin role ( <code dir="ltr" translate="no">roles/discoveryengine.notebookLmOwner</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The Cloud NotebookLM User role ( <code dir="ltr" translate="no">roles/discoveryengine.notebookLmUser</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The Cloud NotebookLM Notebook Owner role ( <code dir="ltr" translate="no">roles/discoveryengine.notebookOwner</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The Cloud NotebookLM Notebook Viewer role ( <code dir="ltr" translate="no">roles/discoveryengine.notebookViewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine Admin role ( <code dir="ltr" translate="no">roles/discoveryengine.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.insights.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.insights.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.stats.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traces.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traces.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.buckets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.buckets.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.exclusions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.exclusions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logMetrics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logMetrics.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logServiceIndexes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logServices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.getShared</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.listShared</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.usePrivate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.sinks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.sinks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.usage.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.scopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Gemini Enterprise Admin role ( <code dir="ltr" translate="no">roles/discoveryengine.agentspaceAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.insights.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.insights.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.stats.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.tasks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traceScopes.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traces.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtrace.traces.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.buckets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.buckets.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.exclusions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.exclusions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.links.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logMetrics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logMetrics.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logServiceIndexes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logServices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.logs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.getShared</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.listShared</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.queries.usePrivate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.sinks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.sinks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.usage.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.scopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">observability.traceScopes.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud DNS</td>
+<td><p>The DNS Editor role ( <code dir="ltr" translate="no">roles/dns.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud DNS</td>
+<td><p>The DNS Viewer role ( <code dir="ltr" translate="no">roles/dns.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Data Connect</td>
+<td><p>The following permissions have been added to the Firebase Data Connect Service Agent role ( <code dir="ltr" translate="no">roles/firebasedataconnect.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>IAM Connectors</td>
+<td><p>The following permissions have been added to the Connector Admin role ( <code dir="ltr" translate="no">roles/iamconnectors.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>IAM Connectors</td>
+<td><p>The following permissions have been added to the Connector Editor role ( <code dir="ltr" translate="no">roles/iamconnectors.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Multi-Cluster Ingress</td>
+<td><p>The following permissions have been added to the Multi Cluster Ingress Service Agent role ( <code dir="ltr" translate="no">roles/multiclusteringress.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkservices.serviceLbPolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.serviceLbPolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.serviceLbPolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.serviceLbPolicies.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkservices.serviceLbPolicies.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Network Connectivity Center</td>
+<td><p>The following permissions have been added to the Service Automation Consumer Network Admin role ( <code dir="ltr" translate="no">roles/networkconnectivity.consumerNetworkAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>AI Commerce Search API</td>
+<td><p>The following permissions have been added to the Retail Merchant Approver role ( <code dir="ltr" translate="no">roles/retail.merchantApprover</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">retail.controls.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">retail.controls.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">retail.servingConfigs.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Agent Identity API</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentidentity.accessSummaries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.accessSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.queryWorkloads</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.retrieveCredentials</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.revokeAuthorizations</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.undelete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Agent Identity API</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentidentity.accessSummaries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.accessSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.queryWorkloads</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.retrieveCredentials</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.revokeAuthorizations</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.undelete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Backup and Disaster Recovery</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">backupdr.backupPlanAssociations.updateForCloudSqlInstance</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigLake</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">biglake.tables.register</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigLake</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">biglake.tables.register</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Business AI Code</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.selfAssignLicense</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Business AI Code</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.selfAssignLicense</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextAspect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextEntryLink</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextAspect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextEntryLink</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextAspect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useContextEntryLink</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Managed Service for Apache Spark</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataproc.batches.computeTuningConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Managed Service for Apache Spark</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataproc.batches.computeTuningConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Managed Service for Apache Spark</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataproc.batches.computeTuningConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.devToolsConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.devToolsConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.projects.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.devToolsConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.devToolsConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.projects.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Memorystore</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">memorystore.instances.finishMigration</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">memorystore.instances.startMigration</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Memorystore</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">memorystore.instances.finishMigration</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">memorystore.instances.startMigration</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Memorystore</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">memorystore.instances.finishMigration</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">memorystore.instances.startMigration</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Network Security</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.createVerdictChangeRequest</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.getVerdictChangeRequest</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.getWildfireReport</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.getWildfireSample</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.firewallEndpoints.listVerdictChangeRequests</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Network Security</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeploymentGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeploymentGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeploymentGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeploymentGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeploymentGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeploymentGroups.use</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeployments.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeployments.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptDeployments.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroupAssociations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroupAssociations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroupAssociations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroupAssociations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroupAssociations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.interceptEndpointGroups.use</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeploymentGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeploymentGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeploymentGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeploymentGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeploymentGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeploymentGroups.use</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeployments.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeployments.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringDeployments.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroupAssociations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroupAssociations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroupAssociations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroupAssociations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroupAssociations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.mirroringEndpointGroups.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Parameter Manager</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.render</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Parameter Manager</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.parameters.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.render</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templateVersions.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">parametermanager.templates.update</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
+## IAM changes for the week of 2026-06-30
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dialogflow</td>
+<td><p>The following permissions have been added to the Dialogflow Service Agent role ( <code dir="ltr" translate="no">roles/dialogflow.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Vector Search</td>
+<td><p>The following permissions have been added to the Vector Search Service Agent role ( <code dir="ltr" translate="no">roles/vectorsearch.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.rankingConfigs.rank</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Workload Identity API</td>
+<td><p>The Workload Identity API Admin role ( <code dir="ltr" translate="no">roles/workloadidentity.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Workload Identity API</td>
+<td><p>The Workload Identity API Viewer role ( <code dir="ltr" translate="no">roles/workloadidentity.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Workstations</td>
+<td><p>The following permissions have been removed from the Cloud Workstations Editor role ( <code dir="ltr" translate="no">roles/workstations.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">workstations.workstations.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedInvocations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.analyzedInvocations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.evaluationMetrics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.evaluationMetrics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.evaluationMetrics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.evaluationMetrics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.onlineEvaluators.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.onlineEvaluators.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.onlineEvaluators.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.onlineEvaluators.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.onlineEvaluators.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicies.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicies.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicyEngine.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.semanticGovernancePolicyEngine.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.cryptoKeyVersions.trustedImportExport</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.folders.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.folders.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.cryptoKeyVersions.trustedImportExport</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.folders.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.advice.capacity</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.advice.capacityHistory</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.advice.capacity</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.advice.capacityHistory</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.discover</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.lookupEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.modifyEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomainBindings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.discover</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.lookupEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.modifyEntry</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.dataDomains.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Cloud NetApp Volumes</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">netapp.backups.useReadOnly</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">netapp.volumes.createCrossProjectBackup</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabaseBackups.clone</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.clone</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.listRefreshableClones</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.refresh</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabaseBackups.clone</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.clone</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.listRefreshableClones</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.refresh</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabaseBackups.clone</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.clone</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.listRefreshableClones</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.autonomousDatabases.refresh</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Workload Identity API</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.serviceAgents.create</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Workload Identity API</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.serviceAgents.create</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Workload Identity API</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">workloadidentity.serviceAgents.create</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-06-23
 
 <table>
