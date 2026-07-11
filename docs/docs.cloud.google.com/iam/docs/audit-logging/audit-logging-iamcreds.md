@@ -14,6 +14,10 @@ This document lists the audited methods for Service Account Credentials. Google 
   - [Cloud Logging pricing summary](https://docs.cloud.google.com/stackdriver/pricing#logs-pricing-summary)
   - [Enable Data Access audit logs](https://docs.cloud.google.com/logging/docs/audit/configure-data-access)
 
+## Notes
+
+You can't enable Data Access audit logs for this service independently. To enable Data Access audit logs for this service, enable Data Access audit logs for the IAM API ( `iam.googleapis.com` ) or for all services.
+
 ## Service name
 
 To view the Service Account Credentials audit logs, do the following:
@@ -47,12 +51,12 @@ API methods in the following list that are marked with (LRO) are long-running op
 <tbody>
 <tr class="odd">
 <td><code dir="ltr" translate="no">ADMIN_READ</code></td>
-<td><code dir="ltr" translate="no">SignJwt</code> (LRO)</td>
+<td><code dir="ltr" translate="no">GenerateAccessToken</code> (LRO)<br />
+<code dir="ltr" translate="no">SignJwt</code> (LRO)</td>
 </tr>
 <tr class="even">
 <td><code dir="ltr" translate="no">DATA_READ</code></td>
-<td><code dir="ltr" translate="no">GenerateAccessToken</code> (LRO)<br />
-<code dir="ltr" translate="no">GenerateIdToken</code> (LRO)<br />
+<td><code dir="ltr" translate="no">GenerateIdToken</code> (LRO)<br />
 <code dir="ltr" translate="no">SignBlob</code> (LRO)<br />
 <code dir="ltr" translate="no">SignJwt</code> (LRO)</td>
 </tr>
@@ -72,7 +76,7 @@ The following audit logs are associated with methods belonging to `google.iam.cr
   - **Method** : `GenerateAccessToken`  
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
-      - `iam.serviceAccounts.getAccessToken - DATA_READ`
+      - `iam.serviceAccounts.getAccessToken - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="GenerateAccessToken"`  
 

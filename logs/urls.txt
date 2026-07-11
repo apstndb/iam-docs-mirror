@@ -6,7 +6,7 @@ https://docs.cloud.google.com/iam/docs/analyze-access	2026-07-08T04:25:08Z
 https://docs.cloud.google.com/iam/docs/apis	2026-07-08T04:25:08Z
 https://docs.cloud.google.com/iam/docs/attach-service-accounts	2026-07-08T04:25:08Z
 https://docs.cloud.google.com/iam/docs/audit-logging	2026-07-08T04:24:49Z
-https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds	2026-07-08T04:25:08Z
+https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds	2026-07-10T14:46:04Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim	2026-07-08T04:25:08Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-pam	2026-07-08T04:25:08Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-sts	2026-07-08T04:25:08Z
@@ -46,7 +46,7 @@ https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke	20
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing	2026-07-08T04:25:08Z
 https://docs.cloud.google.com/iam/docs/create-service-agents	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	2026-07-08T04:24:56Z
+https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	2026-07-10T20:54:37Z
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-07-08T04:24:56Z
@@ -80,11 +80,11 @@ https://docs.cloud.google.com/iam/docs/manage-auth-providers	2026-07-08T04:24:56
 https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-07-08T04:24:56Z
+https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-07-10T11:10:08Z
 https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api	2026-07-08T04:24:56Z
-https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints	2026-07-08T04:24:56Z
+https://docs.cloud.google.com/iam/docs/org-policy-custom-constraints	2026-07-10T11:10:08Z
 https://docs.cloud.google.com/iam/docs/overview	2026-07-08T04:24:56Z
 https://docs.cloud.google.com/iam/docs/pab-blocked-permissions	2026-07-08T17:05:37Z
 https://docs.cloud.google.com/iam/docs/pam-approve-deny-grants	2026-07-08T04:24:56Z
@@ -662,7 +662,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-07-08T17:05:37Z
 https://docs.cloud.google.com/iam/docs/resources	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-07-08T04:24:48Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-09T03:39:19Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-10T08:35:01Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-07-08T04:24:48Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-07-08T04:24:48Z
@@ -1071,7 +1071,7 @@ https://docs.cloud.google.com/iam/docs/workforce-sign-in-power-bi	2026-07-08T04:
 https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access	2026-07-08T04:25:30Z
 https://docs.cloud.google.com/iam/docs/workload-identities	2026-07-08T04:25:30Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation	2026-07-08T04:25:30Z
-https://docs.cloud.google.com/iam/docs/workload-identity-federation-custom-constraints	2026-07-08T04:25:30Z
+https://docs.cloud.google.com/iam/docs/workload-identity-federation-custom-constraints	2026-07-10T11:10:08Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-directory	2026-07-08T04:25:30Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines	2026-07-08T04:25:30Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-kubernetes	2026-07-08T04:25:30Z

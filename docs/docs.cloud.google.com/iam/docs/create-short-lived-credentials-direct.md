@@ -1518,7 +1518,7 @@ You can generate an OpenID Connect (OIDC) ID token by using the gcloud CLI, the 
 
 The samples below are designed to be used in a local development environment; the caller must be represented by a user account, rather than a service account.
 
-OIDC ID tokens are valid for 1 hour (3,600 seconds).
+OIDC ID tokens are valid for 1 hour (3,600 seconds). However, you can extend the maximum lifetime for these tokens to 12 hours (43,200 seconds). To do so, identify the service accounts that need an extended lifetime for tokens, then [add these service accounts to an organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#setting_a_list_constraint) that includes the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` list constraint. You can then specify a lifetime up to 43,200 seconds when you create a token for these service accounts.
 
 Generate a Google-signed OIDC ID token for a service account:
 
