@@ -59,7 +59,7 @@ An agent identity is a Google-managed identity for agentic workloads. An agent i
 
 Existing access management controls through IAM support agent identity to enable strong governance.
 
-To learn more about agent identities and how to use them, see [Use agent identity with Vertex AI Agent Engine](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) .
+To learn more about agent identities and how to use them, see [Use agent identity with Agent Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) .
 
 ## Configure external workloads
 

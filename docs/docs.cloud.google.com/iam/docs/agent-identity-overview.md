@@ -85,7 +85,7 @@ When an agent identity is used in an IAM allow policy, the principal identifier 
 
 Examples:
 
-  - **Vertex AI Agent Engine:** `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+  - **Agent Runtime:** `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
   - **Gemini Enterprise:** `principal://agents.global.org-123456789012.system.id.goog/resources/discoveryengine/projects/9876543210/locations/global/collections/default_collection/engines/my-test-agent`
 
 The identifiers use the following:

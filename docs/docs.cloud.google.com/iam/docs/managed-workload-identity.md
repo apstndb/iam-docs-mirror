@@ -61,4 +61,4 @@ Workload attestation policies let you define which workload can be issued a cred
 
   - Learn more about [using managed workload identities with Compute Engine workloads](https://docs.cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls) .
 
-  - Learn more about [using agent identity with Vertex AI Agent Engine](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) .
+  - Learn more about [using agent identity with Agent Runtime](https://docs.cloud.google.com/gemini-enterprise-agent-platform/scale/runtime/agent-identity) .

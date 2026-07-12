@@ -1606,9 +1606,9 @@ Google Cloud provides the following attributes for controlling access to MCP ser
 </tbody>
 </table>
 
-#### Vertex AI Agent Engine API attributes
+#### Agent Runtime API attributes
 
-Vertex AI Agent Engine provides the following API attributes for its [Memory Bank](https://docs.cloud.google.com/agent-builder/agent-engine/memory-bank/overview) and [Session](https://docs.cloud.google.com/agent-builder/agent-engine/sessions/overview) context management services:
+Agent Runtime provides the following API attributes for its [Memory Bank](https://docs.cloud.google.com/agent-builder/agent-engine/memory-bank/overview) and [Session](https://docs.cloud.google.com/agent-builder/agent-engine/sessions/overview) context management services:
 
 <table style="width:25%;">
 <colgroup>
@@ -1631,7 +1631,7 @@ Vertex AI Agent Engine provides the following API attributes for its [Memory Ban
 </tr>
 <tr class="even">
 <td>Services that recognize this attribute</td>
-<td>Vertex AI Agent Engine</td>
+<td>Agent Runtime</td>
 </tr>
 </tbody>
 </table>
@@ -1657,7 +1657,7 @@ Vertex AI Agent Engine provides the following API attributes for its [Memory Ban
 </tr>
 <tr class="even">
 <td>Services that recognize this attribute</td>
-<td>Vertex AI Agent Engine</td>
+<td>Agent Runtime</td>
 </tr>
 </tbody>
 </table>
