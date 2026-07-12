@@ -11,7 +11,7 @@ A local Markdown mirror of the Google Cloud [IAM](https://docs.cloud.google.com/
 
 The Developer Knowledge API treats `docs.cloud.google.com` and `cloud.google.com` as distinct corpora, so the mirror preserves both hostnames in its output paths.
 
-The product-page seed requires `gcp-docs-mirror-tools` newer than v0.2.9 and becomes active when the workflow's `TOOL_VERSION` is bumped.
+The product-page seed requires `gcp-docs-mirror-tools` v0.3.0 or newer and is active in the workflow.
 
 ## Setup Instructions
 
