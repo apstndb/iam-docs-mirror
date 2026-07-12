@@ -3,20 +3,26 @@
 # Discovery entry points
 seeds = [
     "https://docs.cloud.google.com/iam/docs",
-    "https://docs.cloud.google.com/iam",
     "https://docs.cloud.google.com/policy-intelligence/docs",
     "https://docs.cloud.google.com/sdk/gcloud/reference/iam",
+    "https://cloud.google.com/products/iam",
 ]
 
 # Path prefixes to mirror. Includes IAM proper, Policy Intelligence
 # (Policy Troubleshooter, Policy Analyzer, Recommender etc.), and the
 # gcloud iam CLI reference (GA, alpha, beta).
 prefixes = [
-    "/iam/",
-    "/policy-intelligence/",
-    "/sdk/gcloud/reference/iam/",
-    "/sdk/gcloud/reference/alpha/iam/",
-    "/sdk/gcloud/reference/beta/iam/",
+    "docs.cloud.google.com/iam/",
+    "docs.cloud.google.com/policy-intelligence/",
+    "docs.cloud.google.com/sdk/gcloud/reference/iam/",
+    "docs.cloud.google.com/sdk/gcloud/reference/alpha/iam/",
+    "docs.cloud.google.com/sdk/gcloud/reference/beta/iam/",
+    # Legacy documentation links are retained narrowly for redirect recovery.
+    "cloud.google.com/iam/docs/",
+    "cloud.google.com/policy-intelligence/docs/",
+    "cloud.google.com/sdk/gcloud/reference/iam/",
+    "cloud.google.com/sdk/gcloud/reference/alpha/iam/",
+    "cloud.google.com/sdk/gcloud/reference/beta/iam/",
 ]
 
 # Recursive discovery from Markdown content
