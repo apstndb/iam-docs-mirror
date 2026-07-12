@@ -1,12 +1,17 @@
 # IAM Documentation Mirror
 
-A local Markdown mirror of the Google Cloud [IAM](https://docs.cloud.google.com/iam) and [Policy Intelligence](https://docs.cloud.google.com/policy-intelligence) documentation, plus the `gcloud iam` CLI reference. Automatically updated via GitHub Actions.
+A local Markdown mirror of the Google Cloud [IAM](https://docs.cloud.google.com/iam) and [Policy Intelligence](https://docs.cloud.google.com/policy-intelligence) documentation, the `gcloud iam` CLI reference, and the separate IAM product page. Automatically updated via GitHub Actions.
 
 ## Scope
 
 - `/iam/` — IAM concepts, how-to guides, API reference
 - `/policy-intelligence/` — Policy Troubleshooter, Policy Analyzer, Recommender, etc.
 - `/sdk/gcloud/reference/iam/` (GA, alpha, beta) — `gcloud iam` CLI reference
+- `cloud.google.com/products/iam` — IAM product overview
+
+The Developer Knowledge API treats `docs.cloud.google.com` and `cloud.google.com` as distinct corpora, so the mirror preserves both hostnames in its output paths.
+
+The product-page seed requires `gcp-docs-mirror-tools` newer than v0.2.9 and becomes active when the workflow's `TOOL_VERSION` is bumped.
 
 ## Setup Instructions
 
