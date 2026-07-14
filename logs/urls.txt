@@ -17,9 +17,6 @@ https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-07-12T04:19:58Z
-https://docs.cloud.google.com/iam/docs/auth-with-2lo	2026-07-12T04:19:58Z
-https://docs.cloud.google.com/iam/docs/auth-with-3lo	2026-07-12T04:19:58Z
-https://docs.cloud.google.com/iam/docs/auth-with-api-key	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-07-12T04:19:58Z
@@ -77,7 +74,6 @@ https://docs.cloud.google.com/iam/docs/keys-upload	2026-07-12T04:18:08Z
 https://docs.cloud.google.com/iam/docs/linting-policies	2026-07-12T04:18:08Z
 https://docs.cloud.google.com/iam/docs/manage-access-other-resources	2026-07-12T04:18:08Z
 https://docs.cloud.google.com/iam/docs/manage-access-service-accounts	2026-07-12T04:18:08Z
-https://docs.cloud.google.com/iam/docs/manage-auth-providers	2026-07-12T04:18:08Z
 https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers	2026-07-12T04:18:08Z
 https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers	2026-07-12T04:18:08Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-07-12T04:18:08Z
@@ -1059,7 +1055,7 @@ https://docs.cloud.google.com/iam/docs/workforce-console-sso	2026-07-12T04:18:13
 https://docs.cloud.google.com/iam/docs/workforce-delete-user-data	2026-07-12T04:18:13Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation	2026-07-12T04:18:13Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-07-12T04:18:13Z
-https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-07-12T04:18:13Z
+https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-07-14T07:05:23Z
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-07-12T04:18:13Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-07-12T04:18:13Z
 https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-07-12T04:18:13Z
