@@ -29,10 +29,6 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <td><p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.*</code></p>
 <ul>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">datamigration.  connectionprofiles.  create</code></li>
 <li><code dir="ltr" translate="no">datamigration.  connectionprofiles.  delete</code></li>
 <li><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></li>
@@ -58,10 +54,6 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <li><code dir="ltr" translate="no">datamigration.  mappingrules.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">datamigration.  mappingrules.  import</code></li>
 <li><code dir="ltr" translate="no">datamigration.  mappingrules.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">datamigration.  migrationjobs.  create</code></li>
 <li><code dir="ltr" translate="no">datamigration.  migrationjobs.  delete</code></li>
 <li><code dir="ltr" translate="no">datamigration.  migrationjobs.  demoteDestination</code></li>
@@ -85,10 +77,6 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <li><code dir="ltr" translate="no">datamigration.  operations.  delete</code></li>
 <li><code dir="ltr" translate="no">datamigration.operations.get</code></li>
 <li><code dir="ltr" translate="no">datamigration.operations.list</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">datamigration.  privateconnections.  create</code></li>
 <li><code dir="ltr" translate="no">datamigration.  privateconnections.  delete</code></li>
 <li><code dir="ltr" translate="no">datamigration.  privateconnections.  get</code></li>
@@ -104,8 +92,6 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <p>( <code dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
 <p>Editor role for datamigration</p></td>
 <td><p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  create</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  delete</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></p>
@@ -131,8 +117,6 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 </ul>
 <p><code dir="ltr" translate="no">datamigration.  mappingrules.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  mappingrules.  import</code></p>
-<p><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  create</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  delete</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  demoteDestination</code></p>
@@ -161,8 +145,6 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <li><code dir="ltr" translate="no">datamigration.operations.get</code></li>
 <li><code dir="ltr" translate="no">datamigration.operations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  create</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  delete</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  get</code></p>
@@ -197,7 +179,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">alloydb.clusters.create</code></p>
+<td><p><code dir="ltr" translate="no">alloydb.backups.create</code></p>
+<p><code dir="ltr" translate="no">alloydb.backups.get</code></p>
+<p><code dir="ltr" translate="no">alloydb.backups.list</code></p>
+<p><code dir="ltr" translate="no">alloydb.clusters.create</code></p>
 <p><code dir="ltr" translate="no">alloydb.clusters.delete</code></p>
 <p><code dir="ltr" translate="no">alloydb.  clusters.  generateClientCertificate</code></p>
 <p><code dir="ltr" translate="no">alloydb.clusters.get</code></p>
@@ -214,6 +199,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">alloydb.operations.get</code></p>
 <p><code dir="ltr" translate="no">alloydb.operations.list</code></p>
 <p><code dir="ltr" translate="no">alloydb.users.login</code></p>
+<p><code dir="ltr" translate="no">cloudsql.backupRuns.create</code></p>
+<p><code dir="ltr" translate="no">cloudsql.backupRuns.export</code></p>
+<p><code dir="ltr" translate="no">cloudsql.backupRuns.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.delete</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
@@ -230,6 +219,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">cloudsql.instances.migrate</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  promoteReplica</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.restart</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  restoreBackup</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  startReplica</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.stopReplica</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.update</code></p>
@@ -286,50 +276,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td><h4 id="datamigration.connectionProfiles.createTagBinding" class="permission-name add-link" data-text="datamigration.connectionProfiles.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionProfiles.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datamigration.connectionProfiles.deleteTagBinding" class="permission-name add-link" data-text="datamigration.connectionProfiles.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionProfiles.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datamigration.connectionProfiles.listEffectiveTags" class="permission-name add-link" data-text="datamigration.connectionProfiles.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datamigration.connectionProfiles.listTagBindings" class="permission-name add-link" data-text="datamigration.connectionProfiles.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
 <tr class="odd">
 <td><h4 id="datamigration.connectionprofiles.create" class="permission-name add-link" data-text="datamigration.connectionprofiles.create" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionprofiles.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
@@ -541,50 +487,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="datamigration.migrationJobs.createTagBinding" class="permission-name add-link" data-text="datamigration.migrationJobs.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">datamigration.  migrationJobs.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datamigration.migrationJobs.deleteTagBinding" class="permission-name add-link" data-text="datamigration.migrationJobs.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">datamigration.  migrationJobs.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datamigration.migrationJobs.listEffectiveTags" class="permission-name add-link" data-text="datamigration.migrationJobs.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datamigration.migrationJobs.listTagBindings" class="permission-name add-link" data-text="datamigration.migrationJobs.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="even">
 <td><h4 id="datamigration.migrationjobs.create" class="permission-name add-link" data-text="datamigration.migrationjobs.create" tabindex="-1"><code dir="ltr" translate="no">datamigration.  migrationjobs.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -771,50 +673,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datamigration.privateConnections.createTagBinding" class="permission-name add-link" data-text="datamigration.privateConnections.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">datamigration.  privateConnections.  createTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datamigration.privateConnections.deleteTagBinding" class="permission-name add-link" data-text="datamigration.privateConnections.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">datamigration.  privateConnections.  deleteTagBinding</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
-</tr>
-<tr class="odd">
-<td><h4 id="datamigration.privateConnections.listEffectiveTags" class="permission-name add-link" data-text="datamigration.privateConnections.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
-</tr>
-<tr class="even">
-<td><h4 id="datamigration.privateConnections.listTagBindings" class="permission-name add-link" data-text="datamigration.privateConnections.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>

@@ -23,7 +23,7 @@ The auth manager provides the following benefits for agent development:
 
 ## How the auth manager works
 
-The auth manager is designed to act as a credentials vault that's positioned between your Agent Runtime on Gemini Enterprise Agent Platform environment and external service endpoints.
+The auth manager acts as a credentials vault between your Agent Runtime on Gemini Enterprise Agent Platform environment and external service endpoints.
 
 When an agent calls an external tool, the ADK intercepts the tool execution, requests the appropriate credential from the auth manager vault, and attaches the required authentication headers before dispatching the request to the target API.
 
@@ -38,8 +38,8 @@ The following flow diagram illustrates the high-level architecture and credentia
 
 ## What's next
 
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key)
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo)
+  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
   - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)
+  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)

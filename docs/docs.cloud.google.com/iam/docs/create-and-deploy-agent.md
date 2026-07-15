@@ -16,7 +16,7 @@ Agent Identity assigns a secure SPIFFE identity to your deployed agent. The agen
 
 ## Before you begin
 
-1.  Enable the Agent Identity Connector API.
+1.  Enable the Agent Identity API.
     
     **Roles required to enable APIs**
     
@@ -114,6 +114,7 @@ Create a sample agent using `agents-cli` and deploy it with Agent Identity:
 
   - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
   - [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo)
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo)
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key)
+  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)

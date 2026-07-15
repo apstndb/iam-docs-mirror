@@ -51,7 +51,7 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <tr class="even">
 <td><h4 id="modelarmor.editor" class="role-title add-link" data-text="Model Armor Editor" tabindex="-1">Model Armor Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  modelarmor.editor</code> )</p>
-<p>Editor role for Model Armor resources.</p></td>
+<p>Grants access to create and update all model armor resources. Intended for editors.</p></td>
 <td><p><code dir="ltr" translate="no">modelarmor.callouts.invoke</code></p>
 <p><code dir="ltr" translate="no">modelarmor.  floorSettings.  computeEffectiveFloorSetting</code></p>
 <p><code dir="ltr" translate="no">modelarmor.floorSettings.get</code></p>
@@ -144,7 +144,7 @@ This page lists the IAM roles and permissions for Model Armor. To search through
 <tr class="odd">
 <td><h4 id="modelarmor.user" class="role-title add-link" data-text="Model Armor User" tabindex="-1">Model Armor User</h4>
 <p>( <code dir="ltr" translate="no">roles/  modelarmor.user</code> )</p>
-<p>Grants access to sanitize APIs for templates. Intended for users &amp; applications which plan to use a template.</p></td>
+<p>Grants access to sanitize APIs for templates and to use and test topics. Intended for users &amp; applications which plan to use a template or topic for sanitization.</p></td>
 <td><p><code dir="ltr" translate="no">modelarmor.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">modelarmor.locations.get</code></li>

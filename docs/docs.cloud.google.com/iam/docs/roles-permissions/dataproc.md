@@ -875,6 +875,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  networkEndpointGroups.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">compute.  networkEndpointGroups.  use</code></li>
 </ul>
+<p><code dir="ltr" translate="no">compute.networks.create</code></p>
 <p><code dir="ltr" translate="no">compute.networks.get</code></p>
 <p><code dir="ltr" translate="no">compute.  networks.  getEffectiveFirewalls</code></p>
 <p><code dir="ltr" translate="no">compute.networks.list</code></p>
@@ -934,6 +935,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  storagePools.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  storagePools.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.storagePools.use</code></p>
+<p><code dir="ltr" translate="no">compute.subnetworks.create</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  subnetworks.  listEffectiveTags</code></p>

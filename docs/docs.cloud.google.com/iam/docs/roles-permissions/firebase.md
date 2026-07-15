@@ -791,8 +791,18 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.create</code></li>
+<li><code dir="ltr" translate="no">run.instances.delete</code></li>
+<li><code dir="ltr" translate="no">run.instances.get</code></li>
+<li><code dir="ltr" translate="no">run.instances.getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.instances.invoke</code></li>
+<li><code dir="ltr" translate="no">run.instances.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
 <li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+<li><code dir="ltr" translate="no">run.instances.start</code></li>
+<li><code dir="ltr" translate="no">run.instances.stop</code></li>
+<li><code dir="ltr" translate="no">run.instances.update</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -1395,6 +1405,9 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
@@ -1719,6 +1732,9 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
@@ -2429,8 +2445,18 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.create</code></li>
+<li><code dir="ltr" translate="no">run.instances.delete</code></li>
+<li><code dir="ltr" translate="no">run.instances.get</code></li>
+<li><code dir="ltr" translate="no">run.instances.getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.instances.invoke</code></li>
+<li><code dir="ltr" translate="no">run.instances.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
 <li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+<li><code dir="ltr" translate="no">run.instances.start</code></li>
+<li><code dir="ltr" translate="no">run.instances.stop</code></li>
+<li><code dir="ltr" translate="no">run.instances.update</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -2861,6 +2887,9 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>

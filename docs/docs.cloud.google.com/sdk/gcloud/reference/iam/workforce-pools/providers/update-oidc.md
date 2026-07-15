@@ -203,23 +203,27 @@ Clear the extended attributes configuration.
 Or at least one of these can be specified:
 
   - `--extended-attributes-client-id` = `  EXTENDED_ATTRIBUTES_CLIENT_ID  `  
-    The OAuth 2.0 client ID for retrieving extended attributes from the identity provider. Required to get extended group memberships for a subset of Google Cloud products. The --extended-attributes-client-id flag is restricted. We suggest you use SCIM instead.
+    The OAuth 2.0 client ID for retrieving extended attributes from the identity provider. Required to get extended group memberships for a subset of Google Cloud products. The --extended-attributes-client-id flag is restricted. We suggest you use [SCIM](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml) instead.
 
   - `--extended-attributes-client-secret-value` = `  EXTENDED_ATTRIBUTES_CLIENT_SECRET_VALUE  `  
-    The OAuth 2.0 client secret for retrieving extended attributes from the identity provider. Required to get extended group memberships for a subset of Google Cloud products. The --extended-attributes-client-secret-value flag is restricted. We suggest you use SCIM instead.
+    The OAuth 2.0 client secret for retrieving extended attributes from the identity provider. Required to get extended group memberships for a subset of Google Cloud products. The --extended-attributes-client-secret-value flag is restricted. We suggest you use [SCIM](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml) instead.
 
   - `--extended-attributes-filter` = `  EXTENDED_ATTRIBUTES_FILTER  `  
-    The filter used to request specific records from the IdP. By default, all of the groups that are associated with a user are fetched. For Microsoft Entra ID, you can add `$search` query parameters using \[Keyword Query Language\] (https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference). To learn more about `$search` querying in Microsoft Entra ID, see \[Use the `$search` query parameter\] (https://learn.microsoft.com/en-us/graph/search-query-parameter).
+    The filter used to request specific records from the IdP. By default, all of the groups that are associated with a user are fetched. For Microsoft Entra ID, you can add `$search` query parameters using [Keyword Query Language](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) . To learn more about `$search` querying in Microsoft Entra ID, see [Use the \`$search\` query parameter](https://learn.microsoft.com/en-us/graph/search-query-parameter) .
     
-    Additionally, Workforce Identity Federation automatically adds the following \[ `$filter` query parameters\] (https://learn.microsoft.com/en-us/graph/filter-query-parameter), based on the value of `attributes_type` . Values passed to `filter` are converted to `$search` query parameters. Additional `$filter` query parameters cannot be added using this field.
+    Additionally, Workforce Identity Federation automatically adds the following [\`$filter\` query parameters](https://learn.microsoft.com/en-us/graph/filter-query-parameter) , based on the value of `attributes_type` . Values passed to `filter` are converted to `$search` query parameters. Additional `$filter` query parameters cannot be added using this field.
     
-      - `AZURE_AD_GROUPS_ID` : `securityEnabled` filter is applied. The --extended-attributes-filter flag is restricted. We suggest you use SCIM instead.
+      - `AZURE_AD_GROUPS_ID` : `securityEnabled` filter is applied.
+    
+    <!-- end list -->
+    
+        The --extended-attributes-filter flag is restricted. We suggest you use SCIM instead.
 
   - `--extended-attributes-issuer-uri` = `  EXTENDED_ATTRIBUTES_ISSUER_URI  `  
-    OIDC identity provider's issuer URI. Must be a valid URI using the `https` scheme. Required to get the OIDC discovery document. The --extended-attributes-issuer-uri flag is restricted. We suggest you use SCIM instead.
+    OIDC identity provider's issuer URI. Must be a valid URI using the `https` scheme. Required to get the OIDC discovery document. The --extended-attributes-issuer-uri flag is restricted. We suggest you use [SCIM](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml) instead.
 
   - `--extended-attributes-type` = `  EXTENDED_ATTRIBUTES_TYPE  `  
-    Represents the identity provider and type of claims that should be fetched. The --extended-attributes-type flag is restricted. We suggest you use SCIM instead. `  EXTENDED_ATTRIBUTES_TYPE  ` must be (only one value is supported): `azure-ad-groups-id` .
+    Represents the identity provider and type of claims that should be fetched. The --extended-attributes-type flag is restricted. We suggest you use [SCIM](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml) instead. `  EXTENDED_ATTRIBUTES_TYPE  ` must be (only one value is supported): `azure-ad-groups-id` .
 
 At most one of these can be specified:
 
@@ -236,9 +240,9 @@ Or at least one of these can be specified:
     The OAuth 2.0 client secret for retrieving extra attributes from the identity provider. Required to get the access token using client credentials grant flow.
 
   - `--extra-attributes-filter` = `  EXTRA_ATTRIBUTES_FILTER  `  
-    The filter used to request specific records from the IdP. By default, all of the groups that are associated with a user are fetched. For Microsoft Entra ID, you can add `$search` query parameters using \[Keyword Query Language\] (https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference). To learn more about `$search` querying in Microsoft Entra ID, see \[Use the `$search` query parameter\] (https://learn.microsoft.com/en-us/graph/search-query-parameter).
+    The filter used to request specific records from the IdP. By default, all of the groups that are associated with a user are fetched. For Microsoft Entra ID, you can add `$search` query parameters using [Keyword Query Language](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference) . To learn more about `$search` querying in Microsoft Entra ID, see [Use the \`$search\` query parameter](https://learn.microsoft.com/en-us/graph/search-query-parameter) .
     
-    Additionally, Workforce Identity Federation automatically adds the following \[ `$filter` query parameters\] (https://learn.microsoft.com/en-us/graph/filter-query-parameter), based on the value of `attributes_type` . Values passed to `filter` are converted to `$search` query parameters. Additional `$filter` query parameters cannot be added using this field.
+    Additionally, Workforce Identity Federation automatically adds the following [\`$filter\` query parameters](https://learn.microsoft.com/en-us/graph/filter-query-parameter) , based on the value of `attributes_type` . Values passed to `filter` are converted to `$search` query parameters. Additional `$filter` query parameters cannot be added using this field.
     
       - `AZURE_AD_GROUPS_MAIL` : `mailEnabled` and `securityEnabled` filters are applied.
       - `AZURE_AD_GROUPS_ID` : `securityEnabled` filter is applied.

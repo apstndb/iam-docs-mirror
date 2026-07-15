@@ -1407,11 +1407,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">run.instances.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
-<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
-</ul>
+<p><code dir="ltr" translate="no">run.instances.create</code></p>
+<p><code dir="ltr" translate="no">run.instances.delete</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.invoke</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.instances.start</code></p>
+<p><code dir="ltr" translate="no">run.instances.stop</code></p>
+<p><code dir="ltr" translate="no">run.instances.update</code></p>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -4172,11 +4178,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">run.instances.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
-<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
-</ul>
+<p><code dir="ltr" translate="no">run.instances.create</code></p>
+<p><code dir="ltr" translate="no">run.instances.delete</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.invoke</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.instances.start</code></p>
+<p><code dir="ltr" translate="no">run.instances.stop</code></p>
+<p><code dir="ltr" translate="no">run.instances.update</code></p>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -8125,11 +8137,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">run.instances.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
-<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
-</ul>
+<p><code dir="ltr" translate="no">run.instances.create</code></p>
+<p><code dir="ltr" translate="no">run.instances.delete</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.invoke</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.instances.start</code></p>
+<p><code dir="ltr" translate="no">run.instances.stop</code></p>
+<p><code dir="ltr" translate="no">run.instances.update</code></p>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -10263,6 +10281,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">analyticshub.  dataExchanges.  list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  listings.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">analyticshub.listings.list</code></p>
+<p><code dir="ltr" translate="no">analyticshub.  queryTemplates.  list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">apigateway.apiconfigs.get</code></p>
 <p><code dir="ltr" translate="no">apigateway.  apiconfigs.  getIamPolicy</code></p>
@@ -12388,22 +12407,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datalineage.events.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.list</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  list</code></p>
 <p><code dir="ltr" translate="no">datamigration.locations.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  mappingrules.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  list</code></p>
 <p><code dir="ltr" translate="no">datamigration.objects.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.operations.list</code></p>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  list</code></p>
 <p><code dir="ltr" translate="no">datapipelines.jobs.list</code></p>
@@ -13791,6 +13804,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
@@ -16056,6 +16072,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
@@ -16448,6 +16467,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">analyticshub.listings.get</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  listings.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">analyticshub.listings.list</code></p>
+<p><code dir="ltr" translate="no">analyticshub.  queryTemplates.  get</code></p>
+<p><code dir="ltr" translate="no">analyticshub.  queryTemplates.  list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.subscriptions.get</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">apigateway.apiconfigs.get</code></p>
@@ -19844,8 +19865,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datalineage.processes.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.get</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.list</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  list</code></p>
@@ -19859,8 +19878,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">datamigration.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">datamigration.  mappingrules.  getIamPolicy</code></p>
-<p><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  fetchSourceObjects</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  getIamPolicy</code></p>
@@ -19873,8 +19890,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">datamigration.operations.get</code></p>
 <p><code dir="ltr" translate="no">datamigration.operations.list</code></p>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></p>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  list</code></p>
@@ -20052,6 +20067,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">datastore.userCreds.get</code></p>
 <p><code dir="ltr" translate="no">datastore.userCreds.list</code></p>
+<p><code dir="ltr" translate="no">datastream.  connectionProfiles.  deriveDestinationSchema</code></p>
 <p><code dir="ltr" translate="no">datastream.  connectionProfiles.  destinationTypes</code></p>
 <p><code dir="ltr" translate="no">datastream.  connectionProfiles.  discover</code></p>
 <p><code dir="ltr" translate="no">datastream.  connectionProfiles.  get</code></p>
@@ -22729,6 +22745,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>

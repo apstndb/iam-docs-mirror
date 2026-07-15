@@ -1772,27 +1772,6 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></li>
-</ul>
-<p><code dir="ltr" translate="no">datamigration.migrationJobs.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></li>
-</ul>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></li>
-</ul>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
@@ -3465,27 +3444,6 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
-<p><code dir="ltr" translate="no">datamigration.  connectionProfiles.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  connectionProfiles.  listTagBindings</code></li>
-</ul>
-<p><code dir="ltr" translate="no">datamigration.migrationJobs.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  migrationJobs.  listTagBindings</code></li>
-</ul>
-<p><code dir="ltr" translate="no">datamigration.  privateConnections.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  createTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  deleteTagBinding</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  listEffectiveTags</code></li>
-<li><code dir="ltr" translate="no">datamigration.  privateConnections.  listTagBindings</code></li>
-</ul>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>

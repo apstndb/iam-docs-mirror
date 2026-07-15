@@ -1464,6 +1464,20 @@ BigQuery sharing
 
 `analyticshub.googleapis.com/listings.viewSubscriptions`
 
+`analyticshub.googleapis.com/queryTemplates.*`
+
+`analyticshub.googleapis.com/queryTemplates.approve`
+
+`analyticshub.googleapis.com/queryTemplates.create`
+
+`analyticshub.googleapis.com/queryTemplates.delete`
+
+`analyticshub.googleapis.com/queryTemplates.get`
+
+`analyticshub.googleapis.com/queryTemplates.list`
+
+`analyticshub.googleapis.com/queryTemplates.update`
+
 `analyticshub.googleapis.com/subscriptions.*`
 
 `analyticshub.googleapis.com/subscriptions.create`
@@ -11132,16 +11146,6 @@ Data Lineage API
 
 Database Migration Service
 
-`datamigration.googleapis.com/connectionProfiles.*`
-
-`datamigration.googleapis.com/connectionProfiles.createTagBinding`
-
-`datamigration.googleapis.com/connectionProfiles.deleteTagBinding`
-
-`datamigration.googleapis.com/connectionProfiles.listEffectiveTags`
-
-`datamigration.googleapis.com/connectionProfiles.listTagBindings`
-
 `datamigration.googleapis.com/connectionprofiles.*`
 
 `datamigration.googleapis.com/connectionprofiles.create`
@@ -11191,16 +11195,6 @@ Database Migration Service
 `datamigration.googleapis.com/locations.get`
 
 `datamigration.googleapis.com/locations.list`
-
-`datamigration.googleapis.com/migrationJobs.*`
-
-`datamigration.googleapis.com/migrationJobs.createTagBinding`
-
-`datamigration.googleapis.com/migrationJobs.deleteTagBinding`
-
-`datamigration.googleapis.com/migrationJobs.listEffectiveTags`
-
-`datamigration.googleapis.com/migrationJobs.listTagBindings`
 
 `datamigration.googleapis.com/migrationjobs.*`
 
@@ -11253,16 +11247,6 @@ Database Migration Service
 `datamigration.googleapis.com/operations.get`
 
 `datamigration.googleapis.com/operations.list`
-
-`datamigration.googleapis.com/privateConnections.*`
-
-`datamigration.googleapis.com/privateConnections.createTagBinding`
-
-`datamigration.googleapis.com/privateConnections.deleteTagBinding`
-
-`datamigration.googleapis.com/privateConnections.listEffectiveTags`
-
-`datamigration.googleapis.com/privateConnections.listTagBindings`
 
 `datamigration.googleapis.com/privateconnections.*`
 
@@ -11871,6 +11855,8 @@ Datastream
 `datastream.googleapis.com/connectionProfiles.create`
 
 `datastream.googleapis.com/connectionProfiles.delete`
+
+`datastream.googleapis.com/connectionProfiles.deriveDestinationSchema`
 
 `datastream.googleapis.com/connectionProfiles.discover`
 
@@ -18433,6 +18419,28 @@ Cloud Run
 `run.googleapis.com/executions.get`
 
 `run.googleapis.com/executions.list`
+
+`run.googleapis.com/instances.*`
+
+`run.googleapis.com/instances.create`
+
+`run.googleapis.com/instances.delete`
+
+`run.googleapis.com/instances.get`
+
+`run.googleapis.com/instances.getIamPolicy`
+
+`run.googleapis.com/instances.invoke`
+
+`run.googleapis.com/instances.list`
+
+`run.googleapis.com/instances.setIamPolicy`
+
+`run.googleapis.com/instances.start`
+
+`run.googleapis.com/instances.stop`
+
+`run.googleapis.com/instances.update`
 
 `run.googleapis.com/jobs.*`
 

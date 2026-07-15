@@ -271,8 +271,18 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.executions.delete</code></li>
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.create</code></li>
+<li><code dir="ltr" translate="no">run.instances.delete</code></li>
+<li><code dir="ltr" translate="no">run.instances.get</code></li>
+<li><code dir="ltr" translate="no">run.instances.getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">run.instances.invoke</code></li>
+<li><code dir="ltr" translate="no">run.instances.list</code></li>
+<li><code dir="ltr" translate="no">run.instances.setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
 <li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
+<li><code dir="ltr" translate="no">run.instances.start</code></li>
+<li><code dir="ltr" translate="no">run.instances.stop</code></li>
+<li><code dir="ltr" translate="no">run.instances.update</code></li>
 <li><code dir="ltr" translate="no">run.jobs.create</code></li>
 <li><code dir="ltr" translate="no">run.jobs.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">run.jobs.delete</code></li>
@@ -578,11 +588,17 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">run.instances.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
-<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
-</ul>
+<p><code dir="ltr" translate="no">run.instances.create</code></p>
+<p><code dir="ltr" translate="no">run.instances.delete</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.invoke</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.instances.start</code></p>
+<p><code dir="ltr" translate="no">run.instances.stop</code></p>
+<p><code dir="ltr" translate="no">run.instances.update</code></p>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -766,6 +782,9 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 </ul>
 <p><code dir="ltr" translate="no">run.executions.get</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
@@ -1046,11 +1065,17 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">run.instances.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
-<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
-</ul>
+<p><code dir="ltr" translate="no">run.instances.create</code></p>
+<p><code dir="ltr" translate="no">run.instances.delete</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.invoke</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.instances.start</code></p>
+<p><code dir="ltr" translate="no">run.instances.stop</code></p>
+<p><code dir="ltr" translate="no">run.instances.update</code></p>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>
@@ -1435,11 +1460,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">run.executions.get</code></li>
 <li><code dir="ltr" translate="no">run.executions.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">run.instances.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">run.instances.sshRead</code></li>
-<li><code dir="ltr" translate="no">run.instances.sshRoot</code></li>
-</ul>
+<p><code dir="ltr" translate="no">run.instances.create</code></p>
+<p><code dir="ltr" translate="no">run.instances.delete</code></p>
+<p><code dir="ltr" translate="no">run.instances.get</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.invoke</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
+<p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
+<p><code dir="ltr" translate="no">run.instances.start</code></p>
+<p><code dir="ltr" translate="no">run.instances.stop</code></p>
+<p><code dir="ltr" translate="no">run.instances.update</code></p>
 <p><code dir="ltr" translate="no">run.jobs.create</code></p>
 <p><code dir="ltr" translate="no">run.jobs.delete</code></p>
 <p><code dir="ltr" translate="no">run.jobs.get</code></p>

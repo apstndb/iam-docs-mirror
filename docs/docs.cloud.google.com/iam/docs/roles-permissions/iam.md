@@ -513,6 +513,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">analyticshub.  listings.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">analyticshub.listings.list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  listings.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">analyticshub.  queryTemplates.  list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">apigateway.  apiconfigs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">apigateway.apiconfigs.list</code></p>
@@ -2852,6 +2853,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">roads.selectedRoutes.list</code></p>
 <p><code dir="ltr" translate="no">run.configurations.list</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.setIamPolicy</code></p>
@@ -3333,6 +3337,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">analyticshub.  dataExchanges.  list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  listings.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">analyticshub.listings.list</code></p>
+<p><code dir="ltr" translate="no">analyticshub.  queryTemplates.  list</code></p>
 <p><code dir="ltr" translate="no">analyticshub.  subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">apigateway.  apiconfigs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">apigateway.apiconfigs.list</code></p>
@@ -5402,6 +5407,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">roads.selectedRoutes.list</code></p>
 <p><code dir="ltr" translate="no">run.configurations.list</code></p>
 <p><code dir="ltr" translate="no">run.executions.list</code></p>
+<p><code dir="ltr" translate="no">run.instances.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">run.instances.list</code></p>
 <p><code dir="ltr" translate="no">run.jobs.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">run.jobs.list</code></p>
 <p><code dir="ltr" translate="no">run.locations.list</code></p>

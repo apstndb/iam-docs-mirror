@@ -258,6 +258,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">container.clusters.get</code></p>
 <p><code dir="ltr" translate="no">container.clusters.list</code></p>
 <p><code dir="ltr" translate="no">container.clusters.update</code></p>
+<p><code dir="ltr" translate="no">container.deployments.get</code></p>
+<p><code dir="ltr" translate="no">container.deployments.list</code></p>
+<p><code dir="ltr" translate="no">container.jobs.get</code></p>
+<p><code dir="ltr" translate="no">container.jobs.list</code></p>
 <p><code dir="ltr" translate="no">container.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">container.operations.get</code></li>

@@ -6,11 +6,11 @@ description: Learn how agents authenticate to {{dynamic_data.site_values.cloud_n
 data_source: docs.cloud.google.com
 ---
 
-Agents can access Google Cloud APIs and other resources by using their own authority. We recommend this method for agents that are hosted on Google Cloud to interact with other Google Cloud services.
+Agents can access Google Cloud APIs and other resources by using their own authority. We recommend this method for agents hosted on Google Cloud to interact with other Google Cloud services.
 
 When an agent acts on its own authority, it uses its primary [SPIFFE identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview#spiffe-identity) to request Google Cloud access tokens.
 
-> **Note:** If you want your agent to access Google Cloud services on behalf of an end user, [Authenticate to services using 3-legged OAuth auth provider](https://docs.cloud.google.com/iam/docs/auth-with-3lo) .
+> **Note:** If you want your agent to access Google Cloud services on behalf of an end user, [Authenticate to services using a 3-legged OAuth auth provider](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) .
 
 ## Before you begin
 
@@ -156,9 +156,8 @@ When you deploy your agent to Google Cloud, ensure that Agent Identity is enable
 
 ## What's next
 
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo)
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key)
-  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers)
-  - [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)
+  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
   - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)

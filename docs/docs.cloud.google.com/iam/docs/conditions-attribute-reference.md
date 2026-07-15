@@ -1171,7 +1171,7 @@ You can use principal attributes in policy bindings for principal access boundar
 <dt>Service accounts</dt>
 <dd><code dir="ltr" translate="no">iam.googleapis.com/ServiceAccount</code>
 </dd>
-<dt>Agent identity <a href="https://cloud.google.com/products/#product-launch-stages">(Preview)</a></dt>
+<dt>Agent identity</dt>
 <dd><code dir="ltr" translate="no">iam.googleapis.com/AgentPoolIdentity</code>
 </dd>
 </dl></td>
@@ -1245,7 +1245,7 @@ Caution: The <code dir="ltr" translate="no">startsWith()</code> and <code dir="l
 <dd><p>Identifier: service account's email address</p>
 <p>Example: <code dir="ltr" translate="no">my-service-account@my-project.iam.gserviceaccount.com</code></p>
 </dd>
-<dt>Agent identity <a href="https://cloud.google.com/products/#product-launch-stages">(Preview)</a></dt>
+<dt>Agent identity</dt>
 <dd><p>Identifier: the agent identity, starting with <code dir="ltr" translate="no">resources/</code></p>
 <p>Example: <code dir="ltr" translate="no">resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
 </dd>
