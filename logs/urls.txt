@@ -47,7 +47,7 @@ https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke	20
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/create-service-agents	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated	2026-07-12T04:19:58Z
-https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	2026-07-10T20:54:37Z
+https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	2026-07-15T18:28:50Z
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-07-12T04:19:58Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-07-12T04:19:58Z
@@ -663,7 +663,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-07-12T04:18:15Z
 https://docs.cloud.google.com/iam/docs/resources	2026-07-12T04:18:15Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-07-12T04:18:15Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-14T07:05:02Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-15T11:28:45Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-07-12T04:18:15Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-07-12T04:18:15Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-07-12T04:18:15Z

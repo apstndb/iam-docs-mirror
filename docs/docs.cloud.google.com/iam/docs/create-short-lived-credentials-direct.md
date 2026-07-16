@@ -16,7 +16,7 @@ If your system architecture requires you to use a series of token generation cal
     
     **Roles required to enable APIs**
     
-    To enable APIs, you need the Service Usage Admin IAM role ( `roles/serviceusage.serviceUsageAdmin` ), which contains the `serviceusage.services.enable` permission. [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
     
         gcloud services enable iam.googleapis.com iamcredentials.googleapis.com
 
@@ -1518,7 +1518,9 @@ You can generate an OpenID Connect (OIDC) ID token by using the gcloud CLI, the 
 
 The samples below are designed to be used in a local development environment; the caller must be represented by a user account, rather than a service account.
 
-OIDC ID tokens are valid for 1 hour (3,600 seconds). However, you can extend the maximum lifetime for these tokens to 12 hours (43,200 seconds). To do so, identify the service accounts that need an extended lifetime for tokens, then [add these service accounts to an organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#setting_a_list_constraint) that includes the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` list constraint. You can then specify a lifetime up to 43,200 seconds when you create a token for these service accounts.
+OIDC ID tokens are valid for 1 hour (3,600 seconds). However, you can extend the maximum lifetime for these tokens to 12 hours (43,200 seconds).
+
+To do so, identify the service accounts that need an extended lifetime for tokens, then [add these service accounts to an organization policy](https://docs.cloud.google.com/resource-manager/docs/organization-policy/restricting-service-accounts#setting_a_list_constraint) that includes the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` list constraint. You can then specify a lifetime up to 43,200 seconds when you create a token using the REST API for these service accounts. The Google Cloud CLI doesn't support setting a lifetime for the token.
 
 Generate a Google-signed OIDC ID token for a service account:
 
