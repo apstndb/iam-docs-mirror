@@ -658,19 +658,17 @@ The limitations table is organized in the following way:
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
-<td><ul>
-<li>Only <a href="https://docs.cloud.google.com/billing/docs/how-to/invoiced-billing">invoiced billing accounts</a> are supported.</li>
-</ul></td>
+<td>No known limitations</td>
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>
-<td><ul>
-<li>Only <a href="https://docs.cloud.google.com/billing/docs/how-to/invoiced-billing">invoiced billing accounts</a> support identity federation.</li>
-</ul></td>
+<td>No known limitations</td>
 </tr>
 <tr class="odd">
 <td>Other:</td>
-<td>No known limitations</td>
+<td><ul>
+<li>Workforce Identity Federation users must manage billing using the <a href="https://console.cloud.google/">console (federated)</a> Billing pages or <a href="https://payments.cloud.google/">Google Payments center (federated)</a> .</li>
+</ul></td>
 </tr>
 </tbody>
 </table></td>
@@ -789,10 +787,8 @@ The limitations table is organized in the following way:
 <tr class="odd">
 <td>Console (federated):</td>
 <td><ul>
-<li>Due to the <a href="https://cloud.google.com/iam/docs/federated-identity-supported-services#cloud-billing">limitations of Cloud Billing for Workforce Identity Federation</a> , billing-related support is accessible only to the organization's administrator through the Google Cloud account used to set up the billing account.</li>
-<li>Workforce Identity Federation users can upload—but not download—support case-related files. These files are visible to the support engineers who handle your cases.</li>
-<li>Contact details (for example, email address) can't be changed for Workforce Identity Federation users once interaction with support has started.</li>
-<li>Workforce Identity Federation users can't create cases using the live chat support channel.</li>
+<li>Workforce Identity Federation users can create _technical support_ cases using the _email channel_ only, but can't use the live chat support channel. When creating _billing support_ cases, all channels are available, including self-service, email, and live chat, although users might be required to re-verify their email address. Contact details (for example, email address) cannot be changed for Workforce Identity Federation users once interaction with the support team has started.</li>
+<li>The Premium Support Event Management Service is unavailable to federated users.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -2804,17 +2800,10 @@ The limitations table is organized in the following way:
 <td><h3 id="resource-manager" data-text="Resource Manager" tabindex="-1"><a href="https://docs.cloud.google.com/resource-manager/docs">Resource Manager</a></h3></td>
 <td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td>Console (federated):</td>
-<td><ul>
-<li>Workforce Identity Federation users can only view and operate on the organization for which Workforce Identity Federation was configured. Other organizations to which the users are added are not displayed in the Google Cloud console.</li>
-<li>Wait times for certain operations to be reflected in the UI are long—for example, creating a project or folder.</li>
-</ul></td>
+<td>Workforce Identity Federation users can only view and operate on the organization for which Workforce Identity Federation was configured. Other organizations to which the users are added are not displayed in the Google Cloud console.</td>
 </tr>
 <tr class="even">
 <td>Google Cloud API:</td>

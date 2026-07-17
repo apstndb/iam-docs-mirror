@@ -16,6 +16,153 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-07-14
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Database Migration Service</td>
+<td><p>The following permissions have been added to the Database Migration Service Agent role ( <code dir="ltr" translate="no">roles/datamigration.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">alloydb.backups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">alloydb.backups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">alloydb.backups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.backupRuns.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.backupRuns.export</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.backupRuns.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.backupRuns.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.restoreBackup</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Managed Service for Apache Spark</td>
+<td><p>The following permissions have been added to the Dataproc Service Agent role ( <code dir="ltr" translate="no">roles/dataproc.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.networks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.subnetworks.create</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Datastream</td>
+<td><p>The following permissions have been added to the Datastream Admin role ( <code dir="ltr" translate="no">roles/datastream.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine Service Agent role ( <code dir="ltr" translate="no">roles/discoveryengine.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.endpoints.predict</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">container.deployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">container.deployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">container.jobs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">container.jobs.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Run</td>
+<td><p>The following permissions have been added to the Cloud Run Invoker role ( <code dir="ltr" translate="no">roles/run.invoker</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.instances.invoke</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery sharing</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.approve</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery sharing</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.approve</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">analyticshub.queryTemplates.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useDescriptionsAspect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useQueriesAspect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useSchemaJoinAspect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.entryGroups.useSchemaJoinEntryLink</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Datastream</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datastream.connectionProfiles.deriveDestinationSchema</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Datastream</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datastream.connectionProfiles.deriveDestinationSchema</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Datastream</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datastream.connectionProfiles.deriveDestinationSchema</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Run</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.instances.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.invoke</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Run</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.instances.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.invoke</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">run.instances.update</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-07-07
 
 <table>

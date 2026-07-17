@@ -14,7 +14,7 @@ To let your agents authenticate to external tools like Google Maps or Weather AP
 
 API key auth providers manage your cryptographic keys for you. This capability removes the need to hardcode keys in your agent's code or manage them manually.
 
-> **Warning:** The IAM Connectors API will not be [generally available](https://docs.cloud.google.com/https://cloud.google.com/products#product-launch-stages) . We recommend using the Agent Identity API. For the IAM connectors API documentation, see [Use IAM connectors API to authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key) .
+> **Warning:** The IAM Connectors API will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . We recommend using the Agent Identity API. For the IAM connectors API documentation, see [Use IAM connectors API to authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key) .
 
 ## API key workflow
 
@@ -28,7 +28,7 @@ API key auth providers use the agent's identity and don't require user consent. 
     
     **Roles required to enable APIs**
     
-    To enable APIs, you need the Service Usage Admin IAM role ( `roles/serviceusage.serviceUsageAdmin` ), which contains the `serviceusage.services.enable` permission. [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 3.  [Create and deploy an agent](https://docs.cloud.google.com/iam/docs/create-and-deploy-agent) .
 

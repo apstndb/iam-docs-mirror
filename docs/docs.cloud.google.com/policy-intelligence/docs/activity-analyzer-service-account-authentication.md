@@ -30,7 +30,7 @@ Cross reference Activity Analyzer results with Cloud Monitoring service account 
     
     **Roles required to enable APIs**
     
-    To enable APIs, you need the Service Usage Admin IAM role ( `roles/serviceusage.serviceUsageAdmin` ), which contains the `serviceusage.services.enable` permission. [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+    To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 > **Note:** The Policy Analyzer API is separate from [Cloud Asset Inventory's Policy Analyzer](https://docs.cloud.google.com/policy-intelligence/docs/analyze-iam-policies) . The Policy Analyzer API lets you view recent authentication and authorization activities. Cloud Asset Inventory's Policy Analyzer lets you analyze your allow policies to determine who has what access to your Google Cloud resources.
 
