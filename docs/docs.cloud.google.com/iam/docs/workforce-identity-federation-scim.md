@@ -18,7 +18,7 @@ Workforce Identity Federation SCIM support provides the following capabilities:
 
   - **Group flattening:** SCIM processes groups from your IdP so that all direct and indirect (nested) memberships for a user are flattened and synced to the Google Cloud Group Membership Service (GMS). IAM then uses these flattened groups for policy checks, overcoming the size constraints often found in IdP tokens.
 
-  - **Gemini Enterprise integration:** SCIM tenants support sharing in Gemini Enterprise. The SCIM tenant enables two features related to sharing notebooks within NotebookLM Enterprise:
+  - **Gemini Enterprise integration:** SCIM tenants support sharing in Gemini Enterprise. The SCIM tenant enables two features related to sharing notebooks within Gemini Notebook Enterprise:
     
       - Autocomplete for email addresses and groups
     

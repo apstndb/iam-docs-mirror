@@ -57,7 +57,7 @@ If you use Cloud Identity federation and Workforce Identity Federation in parall
       - *Advantage* : Simplifies administration and ensures a consistent feature set across different users.
       - *Disadvantage* : Some employees might need to be assigned two identities—one that uses Workforce Identity Federation and one that uses Cloud Identity.
 
-We recommend partitioning by service, specifically separating Gemini Enterprise and NotebookLM Enterprise from other services. Gemini Enterprise and the Google Cloud console are separate tools designed for different tasks. Any differences in their sign-in processes should have minimal impact on the overall user experience.
+We recommend partitioning by service, specifically separating Gemini Enterprise and Gemini Notebook Enterprise from other services. Gemini Enterprise and the Google Cloud console are separate tools designed for different tasks. Any differences in their sign-in processes should have minimal impact on the overall user experience.
 
 To help enforce this partitioning, use [organization policy constraints](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#org-policy-constraints) .
 
@@ -187,7 +187,7 @@ To prevent organizational and collaboration groups from being used for access ma
 Although organizational and collaboration groups aren't well-suited for managing access to Google Cloud resources, you might need them for Gemini Enterprise:
 
   - **ACL evaluation** : When you use data ingestion-based connectors to integrate Gemini Enterprise with Microsoft 365, it might encounter documents with access control lists (ACLs) that refer to organizational and collaboration groups. If Gemini Enterprise lacks access to a user's memberships in these groups, it might not correctly evaluate whether the user is authorized to access those documents.
-  - **Notebook sharing** : NotebookLM lets users share notebooks. Allowing users to share notebooks with collaboration groups is often more convenient than restricting sharing to individual users.
+  - **Notebook sharing** : Gemini Notebook Enterprise lets users share notebooks. Allowing users to share notebooks with collaboration groups is often more convenient than restricting sharing to individual users.
 
 To ensure that organizational and collaboration groups are only available to Gemini Enterprise, you can configure your IdP as follows:
 
@@ -290,7 +290,7 @@ The following table lists common Google services that support Workforce Identity
 | :---------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Google Cloud Workforce Identity Federation console, also known as the console (federated) | `https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fconsole.cloud.google`                                                             |
 | Gemini Enterprise                                                                         | ` https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fvertexaisearch.cloud.google%2Fhome%2Fcid%2F         WEBAPP_ID        `           |
-| NotebookLM Enterprise                                                                     | ` https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fnotebooklm.cloud.google%2Fglobal%2F%3Fproject%3D         PROJECT_NUMBER        ` |
+| Gemini Notebook Enterprise                                                                | ` https://auth.cloud.google/signin/locations/global/workforcePools/         POOL        /providers/         PROVIDER        ?continueUrl=https%3A%2F%2Fnotebooklm.cloud.google%2Fglobal%2F%3Fproject%3D         PROJECT_NUMBER        ` |
 | IAP web apps                                                                              | App URL, such as `https://iap.example.com/`                                                                                                                                                                                             |
 
 Replace the following:
@@ -298,7 +298,7 @@ Replace the following:
   - `  POOL  ` : the workforce identity pool name.
   - `  PROVIDER  ` : the pool provider name.
   - `  WEBAPP_ID  ` : the Gemini Enterprise web app ID.
-  - `  PROJECT_NUMBER  ` : the NotebookLM Enterprise project number.
+  - `  PROJECT_NUMBER  ` : the Gemini Notebook Enterprise project number.
 
 ### Use a single provider per pool to avoid subject collisions
 

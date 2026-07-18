@@ -21,7 +21,7 @@ To choose an architecture pattern that's suitable for your organization, conside
 
   - **[Service portfolio](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#service-portfolio)** : Your portfolio of Google services, and whether it includes Google Workspace and services beyond Google Cloud, such as Google Ads, Google Maps, or Chrome Enterprise.
   - **[Data residency](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#data-residency)** : Your data residency and sovereignty requirements.
-  - **[Gemini Enterprise integration with Microsoft 365](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#gemini-m365)** : Your use of Gemini Enterprise or NotebookLM Enterprise and whether you plan to integrate Gemini Enterprise with Microsoft 365 services.
+  - **[Gemini Enterprise integration with Microsoft 365](https://docs.cloud.google.com/iam/docs/federated-identity-architectures#gemini-m365)** : Your use of Gemini Enterprise or Gemini Notebook Enterprise and whether you plan to integrate Gemini Enterprise with Microsoft 365 services.
 
 ### Service portfolio
 
@@ -41,10 +41,10 @@ Google services implement authorization in one of two ways:
 
 These factors result in the following service groups:
 
-|                                    | SaaS                                                                                   | PaaS or IaaS                                                           |
-| ---------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **IAM-based authorization**        | Google Cloud SaaS services such as the Gemini Enterprise app and NotebookLM Enterprise | Google Cloud PaaS and IaaS services such as BigQuery or Compute Engine |
-| **Service-specific authorization** | Non-cloud Google services such as Google Ads, Google Workspace, and Google Maps        | None                                                                   |
+|                                    | SaaS                                                                                        | PaaS or IaaS                                                           |
+| ---------------------------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| **IAM-based authorization**        | Google Cloud SaaS services such as the Gemini Enterprise app and Gemini Notebook Enterprise | Google Cloud PaaS and IaaS services such as BigQuery or Compute Engine |
+| **Service-specific authorization** | Non-cloud Google services such as Google Ads, Google Workspace, and Google Maps             | None                                                                   |
 
 To choose an architecture pattern that's suitable for your organization, consider which service groups apply to your organization.
 
@@ -179,7 +179,7 @@ This pattern doesn't require user provisioning or group provisioning. Every time
   - Workforce Identity Federation is an IAM feature and only lets users access services that use IAM. Users who authenticate using Workforce Identity Federation can't access Google services such as Google Ads, Looker, or Google Marketing Platform.
   - Users who authenticate using Workforce Identity Federation can't access some Google Cloud features. For details, see [Identity federation: products and limitations](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
   - Many IdPs limit the number of group memberships they can pass to Workforce Identity Federation in a SAML assertion or ID token. To stay under these limits, you might need to [strengthen group governance](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#strengthen-group-governance) and restrict the [types of groups to include](https://docs.cloud.google.com/iam/docs/best-practices-workforce-identity-federation#distinguish-groups) in assertions or tokens.
-  - When sharing resources such as a NotebookLM Enterprise notebook, you can't look up a group by name. Instead, users must manually enter their identifiers.
+  - When sharing resources such as a Gemini Notebook Enterprise notebook, you can't look up a group by name. Instead, users must manually enter their identifiers.
 
 If you use Microsoft Entra ID, you can use a variation of this pattern by configuring [extra attributes](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups#extra-attributes) . When you configure extra attributes, Workforce Identity Federation executes a callback to the Microsoft Graph API during user authentication to retrieve group memberships. This configuration lets you overcome Entra's group membership limits for SAML assertion and ID tokens and use up to 999 group memberships per user.
 
@@ -188,7 +188,7 @@ If you use Microsoft Entra ID, you can use a variation of this pattern by config
 Select this pattern when your organization meets the following criteria:
 
   - You only use Google Cloud services. That is, you don't use external Google services like Google Ads or Google Maps.
-  - You plan to use Gemini Enterprise or NotebookLM Enterprise, and you need to support up to 2,000 group memberships per user, or the ability to look up groups by name when sharing resources.
+  - You plan to use Gemini Enterprise or Gemini Notebook Enterprise, and you need to support up to 2,000 group memberships per user, or the ability to look up groups by name when sharing resources.
 
 ![Architecture of Workforce Identity Federation with SCIM.](https://docs.cloud.google.com/static/iam/img/arch-diagram3.svg)
 
@@ -197,12 +197,12 @@ In this pattern, you use Workforce Identity Federation to federate your Google C
 #### Benefits
 
   - The pattern lets you use data ingestion-based connectors to integrate Gemini Enterprise with Microsoft 365.
-  - You can use up to 2,000 group memberships per user to control access to Gemini Enterprise and NotebookLM Enterprise, and let Gemini Enterprise data ingestion-based connectors perform access checks.
-  - When sharing resources such as a NotebookLM Enterprise notebook, you can look up groups by name to help improve the overall user experience.
+  - You can use up to 2,000 group memberships per user to control access to Gemini Enterprise and Gemini Notebook Enterprise, and let Gemini Enterprise data ingestion-based connectors perform access checks.
+  - When sharing resources such as a Gemini Notebook Enterprise notebook, you can look up groups by name to help improve the overall user experience.
 
 #### Limitations
 
-  - Support for SCIM-provisioned groups is limited to Gemini Enterprise and NotebookLM Enterprise. Other services can only consume the group memberships that your IdP passes in the SAML assertion or ID token.
+  - Support for SCIM-provisioned groups is limited to Gemini Enterprise and Gemini Notebook Enterprise. Other services can only consume the group memberships that your IdP passes in the SAML assertion or ID token.
   - Workforce Identity Federation is an IAM feature and only lets users access services that use IAM. Users who authenticate using Workforce Identity Federation can't access Google services such as Google Ads, Looker, or Google Marketing Platform.
   - Users who authenticate using Workforce Identity Federation can't access some of the Google Cloud features. For details, see [Identity federation: products and limitations](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) .
 
@@ -217,7 +217,7 @@ Select this pattern when your organization meets the following criteria:
 
 This pattern combines two of the previous patterns:
 
-  - You use Workforce Identity Federation (sync-less or with SCIM) to manage access to Gemini Enterprise and NotebookLM Enterprise.
+  - You use Workforce Identity Federation (sync-less or with SCIM) to manage access to Gemini Enterprise and Gemini Notebook Enterprise.
   - You use Cloud Identity or Google Workspace federation to manage access to other services, including Google Cloud and non-cloud Google services.
 
 #### Benefits
