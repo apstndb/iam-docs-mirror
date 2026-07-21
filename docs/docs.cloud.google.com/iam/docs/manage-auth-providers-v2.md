@@ -12,7 +12,7 @@ data_source: docs.cloud.google.com
 
 In Agent Identity auth manager, you manage auth providers by editing their details, enabling or disabling them, or deleting and restoring them as needed.
 
-> **Warning:** The IAM Connectors API will not be [generally available](https://cloud.google.com/products#product-launch-stages) . We recommend using the Agent Identity API. For the IAM connectors API documentation, see [Use IAM connectors API to manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers) .
+> **Important:** This document shows how to manage auth providers by using the Agent Identity API. We recommend using the Agent Identity API because the [IAM Connectors API](https://docs.cloud.google.com/iam/docs/manage-auth-providers) [(preview)](https://docs.cloud.google.com/products#product-launch-stages) will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . If you are using the IAM Connectors API, then [migrate to the Agent Identity API](https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api) .
 
 ## Before you begin
 

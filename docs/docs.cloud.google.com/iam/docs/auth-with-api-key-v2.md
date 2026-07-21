@@ -14,7 +14,7 @@ To let your agents authenticate to external tools like Google Maps or Weather AP
 
 API key auth providers manage your cryptographic keys for you. This capability removes the need to hardcode keys in your agent's code or manage them manually.
 
-> **Warning:** The IAM Connectors API will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . We recommend using the Agent Identity API. For the IAM connectors API documentation, see [Use IAM connectors API to authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key) .
+> **Important:** This document shows how to authenticate by using the Agent Identity API. We recommend using the Agent Identity API because the [IAM Connectors API](https://docs.cloud.google.com/iam/docs/auth-with-api-key) [(preview)](https://docs.cloud.google.com/products#product-launch-stages) will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . If you are using the IAM Connectors API, then [migrate to the Agent Identity API](https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api) .
 
 ## API key workflow
 

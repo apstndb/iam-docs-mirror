@@ -12,9 +12,9 @@ data_source: docs.cloud.google.com
 
 To let your agents authenticate to external tools like ServiceNow or Salesforce using their own authority, configure outbound authentication using 2-legged OAuth (Client Credentials) auth providers in Agent Identity auth manager.
 
-By managing credentials and tokens, 2-legged OAuth auth providers remove the need for custom code to handle authentication flows
+By managing credentials and tokens, 2-legged OAuth auth providers remove the need for custom code to handle authentication flows.
 
-> **Warning:** The IAM Connectors API will not be [generally available](https://cloud.google.com/products#product-launch-stages) . We recommend using the Agent Identity API. For the IAM connectors API documentation, see [Use IAM connectors API to authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo) .
+> **Important:** This document shows how to authenticate by using the Agent Identity API. We recommend using the Agent Identity API because the [IAM Connectors API](https://docs.cloud.google.com/iam/docs/auth-with-2lo) [(preview)](https://docs.cloud.google.com/products#product-launch-stages) will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . If you are using the IAM Connectors API, then [migrate to the Agent Identity API](https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api) .
 
 ## 2-legged OAuth workflow
 

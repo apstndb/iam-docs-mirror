@@ -753,7 +753,7 @@ Replace the following:
 
   - `  ATTRIBUTE_MAPPING  ` : the mapping of attributes from Microsoft Entra ID to Google Cloud. If you use `--extra-attributes` flags to query groups from Microsoft Entra ID, any `google.groups` mapping that uses standard SAML or OIDC claims is ignored. For example, to map `groups` and `subject` attributes from Microsoft Entra ID, use the following attribute mapping:
     
-        --attribute-mapping="google.groups=assertion.groups, google.subject=assertion.oid"
+        --attribute-mapping="google.subject=assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier']"
     
     For more information, see [Attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mapping) .
 

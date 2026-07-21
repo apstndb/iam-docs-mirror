@@ -591,10 +591,10 @@ Replace the following:
 
   - `  ATTRIBUTE_MAPPING  ` : An [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) —for example:
     
-        google.subject=assertion.oid
+        google.subject=assertion.subject
         attribute.costcenter=assertion.attributes.costcenter[0]
     
-    This example maps the IdP attributes `assertion.oid` and `assertion.attributes.costcenter[0]` to the Google Cloud attributes `google.subject` and `attribute.costcenter` , respectively.
+    This example maps the `assertion.subject` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
 
   - `  ATTRIBUTE_CONDITION  ` : An optional [attribute condition](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) . For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider.
 
@@ -759,10 +759,10 @@ To configure the SAML provider using the Google Cloud console, do the following:
     
     2.  Optional: To enter other mappings, click **Add mapping** and enter other mappings—for example:
         
-            google.subject=assertion.oid
+            google.subject=assertion.subject
             attribute.costcenter=assertion.attributes.costcenter[0]
         
-        This example maps the IdP attributes `assertion.oid` and `assertion.attributes.costcenter[0]` to the Google Cloud attributes `google.subject` and `attribute.costcenter` , respectively.
+        This example maps the `assertion.subject` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
     
     3.  Optional: To add an attribute condition, click **Add condition** and enter a CEL expression representing an attribute condition. For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider.
         

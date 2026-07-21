@@ -616,10 +616,10 @@ Replace the following:
 
   - `  ATTRIBUTE_MAPPING  ` : The [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) —for example:
     
-        google.subject=assertion.oid
+        google.subject=assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier'],
         attribute.costcenter=assertion.attributes.costcenter[0]
     
-    This example maps the IdP attributes `assertion.oid` and `assertion.attributes.costcenter[0]` to the Google Cloud attributes `google.subject` and `attribute.costcenter` , respectively.
+    This example maps the `assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier']` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
 
 For more information, see [Attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mapping) .
 
@@ -758,10 +758,10 @@ To configure the SAML provider using the Google Cloud console, do the following:
     
     2.  Optional: To enter other mappings, click **Add mapping** and enter other mappings—for example:
         
-            google.subject=assertion.oid
+            google.subject=assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier'],
             attribute.costcenter=assertion.attributes.costcenter[0]
         
-        This example maps the IdP attributes `assertion.oid` and `assertion.attributes.costcenter[0]` to the Google Cloud attributes `google.subject` and `attribute.costcenter` , respectively.
+        This example maps the `assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier']` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
     
     3.  To increase the number of groups, do the following:
         

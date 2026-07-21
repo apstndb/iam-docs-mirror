@@ -14,7 +14,7 @@ To grant your agent access to external tools and services (such as Jira tasks or
 
 By managing credentials and tokens, 3-legged OAuth auth providers remove the need for custom code to handle authentication flows.
 
-> **Warning:** The IAM Connectors API will not be [generally available](https://cloud.google.com/products#product-launch-stages) . We recommend using the Agent Identity API. For the IAM connectors API documentation, see [Use IAM connectors API to authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo) .
+> **Important:** This document shows how to authenticate by using the Agent Identity API. We recommend using the Agent Identity API because the [IAM Connectors API](https://docs.cloud.google.com/iam/docs/auth-with-3lo) [(preview)](https://docs.cloud.google.com/products#product-launch-stages) will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . If you are using the IAM Connectors API, then [migrate to the Agent Identity API](https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api) .
 
 ## 3-legged OAuth workflow
 
