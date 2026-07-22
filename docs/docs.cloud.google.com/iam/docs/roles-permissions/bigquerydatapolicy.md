@@ -124,6 +124,7 @@ This page lists the IAM roles and permissions for BigQuery Data Policy. To searc
 <li><code dir="ltr" translate="no">bigquery.  reservationGroups.  delete</code></li>
 <li><code dir="ltr" translate="no">bigquery.reservationGroups.get</code></li>
 <li><code dir="ltr" translate="no">bigquery.  reservationGroups.  list</code></li>
+<li><code dir="ltr" translate="no">bigquery.  reservationGroups.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.reservations.create</code></p>
 <p><code dir="ltr" translate="no">bigquery.reservations.delete</code></p>

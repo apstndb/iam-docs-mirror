@@ -2344,6 +2344,8 @@ Aliases:
 
 `bigquery.googleapis.com/reservationGroups.list`
 
+`bigquery.googleapis.com/reservationGroups.update`
+
 `bigquery.googleapis.com/reservations.*`
 
 Aliases:
@@ -2833,6 +2835,8 @@ Business AI Code
 `businessaicode.googleapis.com/*.*`
 
 `businessaicode.googleapis.com/locations.*`
+
+`businessaicode.googleapis.com/locations.fetchQuotaStatus`
 
 `businessaicode.googleapis.com/locations.generateContent`
 
@@ -12078,7 +12082,17 @@ Developer Connect
 
 `developerconnect.googleapis.com/accountConnectors.delete`
 
+`developerconnect.googleapis.com/accountConnectors.fetchUserRepositories`
+
 `developerconnect.googleapis.com/accountConnectors.get`
+
+`developerconnect.googleapis.com/accountConnectors.gitProxyRead`
+
+`developerconnect.googleapis.com/accountConnectors.gitProxyWrite`
+
+`developerconnect.googleapis.com/accountConnectors.httpProxyRead`
+
+`developerconnect.googleapis.com/accountConnectors.httpProxyWrite`
 
 `developerconnect.googleapis.com/accountConnectors.list`
 
@@ -12118,6 +12132,8 @@ Developer Connect
 
 `developerconnect.googleapis.com/deploymentEvents.list`
 
+`developerconnect.googleapis.com/gitRepositoryLinks.*`
+
 `developerconnect.googleapis.com/gitRepositoryLinks.create`
 
 `developerconnect.googleapis.com/gitRepositoryLinks.delete`
@@ -12129,6 +12145,10 @@ Developer Connect
 `developerconnect.googleapis.com/gitRepositoryLinks.fetchReadWriteToken`
 
 `developerconnect.googleapis.com/gitRepositoryLinks.get`
+
+`developerconnect.googleapis.com/gitRepositoryLinks.gitProxyRead`
+
+`developerconnect.googleapis.com/gitRepositoryLinks.gitProxyWrite`
 
 `developerconnect.googleapis.com/gitRepositoryLinks.list`
 
@@ -13593,6 +13613,8 @@ External Exposure
 `externalexposure.googleapis.com/scanMetrics.get`
 
 Fault Injection Testing
+
+`faulttesting.googleapis.com/*.*`
 
 `faulttesting.googleapis.com/affectedResources.*`
 
@@ -15850,6 +15872,16 @@ Cloud Logging
 
 `logging.googleapis.com/views.update`
 
+Looker
+
+`looker.googleapis.com/instances.createTagBinding`
+
+`looker.googleapis.com/instances.deleteTagBinding`
+
+`looker.googleapis.com/instances.listEffectiveTags`
+
+`looker.googleapis.com/instances.listTagBindings`
+
 Google Cloud Managed Lustre
 
 `lustre.googleapis.com/*.*`
@@ -16232,6 +16264,20 @@ Model Armor
 
 `modelarmor.googleapis.com/templates.useToStreamSanitizeUserPrompt`
 
+`modelarmor.googleapis.com/topics.*`
+
+`modelarmor.googleapis.com/topics.create`
+
+`modelarmor.googleapis.com/topics.delete`
+
+`modelarmor.googleapis.com/topics.get`
+
+`modelarmor.googleapis.com/topics.list`
+
+`modelarmor.googleapis.com/topics.test`
+
+`modelarmor.googleapis.com/topics.update`
+
 Cloud Monitoring
 
 `monitoring.googleapis.com/alertPolicies.*`
@@ -16479,6 +16525,8 @@ Google Cloud NetApp Volumes
 `netapp.googleapis.com/ontap.*`
 
 `netapp.googleapis.com/ontap.delete`
+
+`netapp.googleapis.com/ontap.get`
 
 `netapp.googleapis.com/ontap.patch`
 
@@ -16824,6 +16872,14 @@ Network Security
 
 `networksecurity.googleapis.com/addressGroups.use`
 
+`networksecurity.googleapis.com/authorizationPolicies.createTagBinding`
+
+`networksecurity.googleapis.com/authorizationPolicies.deleteTagBinding`
+
+`networksecurity.googleapis.com/authorizationPolicies.listEffectiveTags`
+
+`networksecurity.googleapis.com/authorizationPolicies.listTagBindings`
+
 `networksecurity.googleapis.com/authzPolicies.*`
 
 `networksecurity.googleapis.com/authzPolicies.create`
@@ -16853,6 +16909,14 @@ Network Security
 `networksecurity.googleapis.com/backendAuthenticationConfigs.update`
 
 `networksecurity.googleapis.com/backendAuthenticationConfigs.use`
+
+`networksecurity.googleapis.com/clientTlsPolicies.createTagBinding`
+
+`networksecurity.googleapis.com/clientTlsPolicies.deleteTagBinding`
+
+`networksecurity.googleapis.com/clientTlsPolicies.listEffectiveTags`
+
+`networksecurity.googleapis.com/clientTlsPolicies.listTagBindings`
 
 `networksecurity.googleapis.com/dnsThreatDetectors.*`
 
@@ -16969,6 +17033,14 @@ Network Security
 `networksecurity.googleapis.com/mirroringEndpointGroups.update`
 
 `networksecurity.googleapis.com/mirroringEndpointGroups.use`
+
+`networksecurity.googleapis.com/serverTlsPolicies.createTagBinding`
+
+`networksecurity.googleapis.com/serverTlsPolicies.deleteTagBinding`
+
+`networksecurity.googleapis.com/serverTlsPolicies.listEffectiveTags`
+
+`networksecurity.googleapis.com/serverTlsPolicies.listTagBindings`
 
 Network Services
 
@@ -18738,6 +18810,8 @@ Secret Manager
 
 `secretmanager.googleapis.com/secrets.deleteTagBinding`
 
+`secretmanager.googleapis.com/secrets.enableManagedRotation`
+
 `secretmanager.googleapis.com/secrets.get`
 
 `secretmanager.googleapis.com/secrets.getIamPolicy`
@@ -18747,6 +18821,8 @@ Secret Manager
 `secretmanager.googleapis.com/secrets.listEffectiveTags`
 
 `secretmanager.googleapis.com/secrets.listTagBindings`
+
+`secretmanager.googleapis.com/secrets.rotate`
 
 `secretmanager.googleapis.com/secrets.setIamPolicy`
 
@@ -20245,6 +20321,24 @@ Vision AI
 `visionai.googleapis.com/streams.list`
 
 `visionai.googleapis.com/streams.update`
+
+VM Migration
+
+`vmmigration.googleapis.com/groups.createTagBinding`
+
+`vmmigration.googleapis.com/groups.deleteTagBinding`
+
+`vmmigration.googleapis.com/groups.listEffectiveTags`
+
+`vmmigration.googleapis.com/groups.listTagBindings`
+
+`vmmigration.googleapis.com/sources.createTagBinding`
+
+`vmmigration.googleapis.com/sources.deleteTagBinding`
+
+`vmmigration.googleapis.com/sources.listEffectiveTags`
+
+`vmmigration.googleapis.com/sources.listTagBindings`
 
 Google Cloud VMware Engine
 

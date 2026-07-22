@@ -883,6 +883,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p>Grants user-level access to Discovery Engine resources.</p></td>
 <td><p><code dir="ltr" translate="no">businessaicode.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">businessaicode.  locations.  fetchQuotaStatus</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  generateContent</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  queryConfiguration</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  selfAssignLicense</code></li>
@@ -1993,6 +1994,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p>Grants user-level access to Gemini Enterprise resources.</p></td>
 <td><p><code dir="ltr" translate="no">businessaicode.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">businessaicode.  locations.  fetchQuotaStatus</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  generateContent</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  queryConfiguration</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  selfAssignLicense</code></li>
@@ -2404,6 +2406,7 @@ This page lists the IAM roles and permissions for Discovery Engine. To search th
 <p>Grants user-level access to the Podcast resources.</p></td>
 <td><p><code dir="ltr" translate="no">businessaicode.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">businessaicode.  locations.  fetchQuotaStatus</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  generateContent</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  queryConfiguration</code></li>
 <li><code dir="ltr" translate="no">businessaicode.  locations.  selfAssignLicense</code></li>
@@ -4004,7 +4007,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceViewer">Gemini Enterprise Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.serviceAgent">Business AI Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  businessaicode.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="discoveryengine.devToolsConfigs.update" class="permission-name add-link" data-text="discoveryengine.devToolsConfigs.update" tabindex="-1"><code dir="ltr" translate="no">discoveryengine.  devToolsConfigs.  update</code></h4></td>

@@ -455,7 +455,12 @@ This page lists the IAM roles and permissions for Gemini for Google Cloud API. T
 <ul>
 <li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  create</code></li>
 <li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  delete</code></li>
+<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  fetchUserRepositories</code></li>
 <li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  get</code></li>
+<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyRead</code></li>
+<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyWrite</code></li>
+<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyRead</code></li>
+<li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyWrite</code></li>
 <li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  list</code></li>
 <li><code dir="ltr" translate="no">developerconnect.  accountConnectors.  update</code></li>
 </ul>
@@ -507,7 +512,12 @@ This page lists the IAM roles and permissions for Gemini for Google Cloud API. T
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsGet</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  codeToolsSettingsList</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.topics.create</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  fetchUserRepositories</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  get</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyRead</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  gitProxyWrite</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyRead</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  httpProxyWrite</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.locations.*</code></p>
 <ul>

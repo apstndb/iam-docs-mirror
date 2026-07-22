@@ -2388,6 +2388,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">ml.versions.list</code></p>
 <p><code dir="ltr" translate="no">modelarmor.locations.list</code></p>
 <p><code dir="ltr" translate="no">modelarmor.templates.list</code></p>
+<p><code dir="ltr" translate="no">modelarmor.topics.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.alerts.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
@@ -4985,6 +4986,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">ml.versions.list</code></p>
 <p><code dir="ltr" translate="no">modelarmor.locations.list</code></p>
 <p><code dir="ltr" translate="no">modelarmor.templates.list</code></p>
+<p><code dir="ltr" translate="no">modelarmor.topics.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.alerts.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>

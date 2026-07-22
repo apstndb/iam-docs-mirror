@@ -1675,6 +1675,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  legacies.  legacyTestRuleStreaming</code></li>
 <li><code dir="ltr" translate="no">chronicle.  legacies.  legacyUpdateAlert</code></li>
 </ul>
+<p><code dir="ltr" translate="no">chronicle.  legacyCaseFederationPlatforms.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacyCases.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.  legacyCases.  createManual</code></li>
@@ -1689,6 +1690,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  legacyCases.  runManualAction</code></li>
 <li><code dir="ltr" translate="no">chronicle.legacyCases.simulate</code></li>
 </ul>
+<p><code dir="ltr" translate="no">chronicle.  legacyFederatedCases.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacyPlaybooks.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.  legacyPlaybooks.  delete</code></li>
@@ -1723,7 +1725,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code dir="ltr" translate="no">chronicle.  legacySoarSettings.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacySoarUsers.get</code></p>
-<p><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  get</code></p>
+<p><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  get</code></li>
+<li><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  placeholders</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  fetchAssociatedPipeline</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  fetchSampleLogsByStreams</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  get</code></p>
@@ -1806,6 +1812,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.preferenceSets.get</code></li>
 <li><code dir="ltr" translate="no">chronicle.  preferenceSets.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">chronicle.  propertySchemaDefinitions.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.*</code></p>
 <ul>
@@ -1929,6 +1936,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  userNotifications.  get</code></li>
 <li><code dir="ltr" translate="no">chronicle.  userNotifications.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">chronicle.views.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.visualFamilies.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.watchlists.*</code></p>
 <ul>
@@ -2199,7 +2207,9 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code dir="ltr" translate="no">chronicle.  legacies.  legacySearchUserEvents</code></p>
 <p><code dir="ltr" translate="no">chronicle.  legacies.  legacyStreamDetectionAlerts</code></p>
 <p><code dir="ltr" translate="no">chronicle.  legacies.  legacyTestRuleStreaming</code></p>
+<p><code dir="ltr" translate="no">chronicle.  legacyCaseFederationPlatforms.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacyCases.get</code></p>
+<p><code dir="ltr" translate="no">chronicle.  legacyFederatedCases.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacySearches.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.  legacySearches.  searchCases</code></li>
@@ -2210,7 +2220,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <p><code dir="ltr" translate="no">chronicle.  legacySoarReports.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  legacySoarSettings.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacySoarUsers.get</code></p>
-<p><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  get</code></p>
+<p><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  get</code></li>
+<li><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  placeholders</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  fetchAssociatedPipeline</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  fetchSampleLogsByStreams</code></p>
 <p><code dir="ltr" translate="no">chronicle.  logProcessingPipelines.  get</code></p>
@@ -2248,6 +2262,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.preferenceSets.get</code></li>
 <li><code dir="ltr" translate="no">chronicle.  preferenceSets.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">chronicle.  propertySchemaDefinitions.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
@@ -2297,6 +2312,7 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code dir="ltr" translate="no">chronicle.  userLocalizations.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  userNotifications.  get</code></p>
+<p><code dir="ltr" translate="no">chronicle.views.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.watchlists.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.watchlists.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -7433,6 +7449,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -7556,6 +7574,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="chronicle.legacyFederatedCases.get" class="permission-name add-link" data-text="chronicle.legacyFederatedCases.get" tabindex="-1"><code dir="ltr" translate="no">chronicle.  legacyFederatedCases.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -7846,6 +7866,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="chronicle.legacySystemMetadata.placeholders" class="permission-name add-link" data-text="chronicle.legacySystemMetadata.placeholders" tabindex="-1"><code dir="ltr" translate="no">chronicle.  legacySystemMetadata.  placeholders</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -8618,6 +8640,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="chronicle.propertySchemaDefinitions.get" class="permission-name add-link" data-text="chronicle.propertySchemaDefinitions.get" tabindex="-1"><code dir="ltr" translate="no">chronicle.  propertySchemaDefinitions.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -9545,6 +9569,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="chronicle.views.get" class="permission-name add-link" data-text="chronicle.views.get" tabindex="-1"><code dir="ltr" translate="no">chronicle.views.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p></td>
 </tr>
 <tr class="odd">

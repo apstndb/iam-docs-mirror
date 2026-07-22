@@ -352,6 +352,15 @@ This page lists the IAM roles and permissions for Security Command Center. To se
 <li><code dir="ltr" translate="no">modelarmor.  templates.  useToStreamSanitizeModelResponse</code></li>
 <li><code dir="ltr" translate="no">modelarmor.  templates.  useToStreamSanitizeUserPrompt</code></li>
 </ul>
+<p><code dir="ltr" translate="no">modelarmor.topics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">modelarmor.topics.create</code></li>
+<li><code dir="ltr" translate="no">modelarmor.topics.delete</code></li>
+<li><code dir="ltr" translate="no">modelarmor.topics.get</code></li>
+<li><code dir="ltr" translate="no">modelarmor.topics.list</code></li>
+<li><code dir="ltr" translate="no">modelarmor.topics.test</code></li>
+<li><code dir="ltr" translate="no">modelarmor.topics.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>

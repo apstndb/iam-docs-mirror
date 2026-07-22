@@ -726,6 +726,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">bigquery.tables.get</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.update</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.updateData</code></p>
+<p><code dir="ltr" translate="no">ces.agents.get</code></p>
+<p><code dir="ltr" translate="no">ces.agents.list</code></p>
+<p><code dir="ltr" translate="no">ces.appVersions.get</code></p>
+<p><code dir="ltr" translate="no">ces.appVersions.list</code></p>
+<p><code dir="ltr" translate="no">ces.apps.get</code></p>
+<p><code dir="ltr" translate="no">ces.apps.list</code></p>
+<p><code dir="ltr" translate="no">ces.changelogs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ces.changelogs.get</code></li>
+<li><code dir="ltr" translate="no">ces.changelogs.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ces.deployments.get</code></p>
+<p><code dir="ltr" translate="no">ces.deployments.list</code></p>
+<p><code dir="ltr" translate="no">ces.examples.get</code></p>
+<p><code dir="ltr" translate="no">ces.examples.list</code></p>
+<p><code dir="ltr" translate="no">ces.guardrails.get</code></p>
+<p><code dir="ltr" translate="no">ces.guardrails.list</code></p>
+<p><code dir="ltr" translate="no">ces.tools.get</code></p>
+<p><code dir="ltr" translate="no">ces.tools.list</code></p>
+<p><code dir="ltr" translate="no">ces.toolsets.get</code></p>
+<p><code dir="ltr" translate="no">ces.toolsets.list</code></p>
 <p><code dir="ltr" translate="no">datalabeling.dataitems.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">datalabeling.dataitems.get</code></li>

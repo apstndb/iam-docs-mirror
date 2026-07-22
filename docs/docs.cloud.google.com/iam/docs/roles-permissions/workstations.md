@@ -26,7 +26,15 @@ This page lists the IAM roles and permissions for Cloud Workstations. To search 
 <td><h4 id="workstations.admin" class="role-title add-link" data-text="Cloud Workstations Admin" tabindex="-1">Cloud Workstations Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  workstations.admin</code> )</p>
 <p>Grants CRUD access to all Workstation resources.</p></td>
-<td><p><code dir="ltr" translate="no">compute.acceleratorTypes.*</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">compute.acceleratorTypes.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">compute.acceleratorTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.acceleratorTypes.list</code></li>

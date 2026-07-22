@@ -360,6 +360,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">bigquery.  reservationGroups.  delete</code></li>
 <li><code dir="ltr" translate="no">bigquery.reservationGroups.get</code></li>
 <li><code dir="ltr" translate="no">bigquery.  reservationGroups.  list</code></li>
+<li><code dir="ltr" translate="no">bigquery.  reservationGroups.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.reservations.*</code></p>
 <ul>
@@ -1875,10 +1876,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  use</code></li>
@@ -1905,10 +1910,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  use</code></li>
@@ -2002,10 +2011,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  use</code></li>

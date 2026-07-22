@@ -48,11 +48,13 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <li><code dir="ltr" translate="no">secretmanager.  secrets.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">secretmanager.secrets.delete</code></li>
 <li><code dir="ltr" translate="no">secretmanager.  secrets.  deleteTagBinding</code></li>
+<li><code dir="ltr" translate="no">secretmanager.  secrets.  enableManagedRotation</code></li>
 <li><code dir="ltr" translate="no">secretmanager.secrets.get</code></li>
 <li><code dir="ltr" translate="no">secretmanager.  secrets.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">secretmanager.secrets.list</code></li>
 <li><code dir="ltr" translate="no">secretmanager.  secrets.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">secretmanager.  secrets.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">secretmanager.secrets.rotate</code></li>
 <li><code dir="ltr" translate="no">secretmanager.  secrets.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">secretmanager.secrets.update</code></li>
 <li><code dir="ltr" translate="no">secretmanager.versions.access</code></li>
@@ -77,11 +79,13 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 </ul>
 <p><code dir="ltr" translate="no">secretmanager.secrets.create</code></p>
 <p><code dir="ltr" translate="no">secretmanager.secrets.delete</code></p>
+<p><code dir="ltr" translate="no">secretmanager.  secrets.  enableManagedRotation</code></p>
 <p><code dir="ltr" translate="no">secretmanager.secrets.get</code></p>
 <p><code dir="ltr" translate="no">secretmanager.  secrets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">secretmanager.secrets.list</code></p>
 <p><code dir="ltr" translate="no">secretmanager.  secrets.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">secretmanager.  secrets.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">secretmanager.secrets.rotate</code></p>
 <p><code dir="ltr" translate="no">secretmanager.secrets.update</code></p>
 <p><code dir="ltr" translate="no">secretmanager.versions.add</code></p>
 <p><code dir="ltr" translate="no">secretmanager.versions.destroy</code></p>
@@ -135,6 +139,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 </ul></td>
 <td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">secretmanager.secrets.rotate</code></p>
 <p><code dir="ltr" translate="no">secretmanager.versions.add</code></p></td>
 </tr>
 <tr class="even">
@@ -147,6 +152,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 </ul></td>
 <td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">secretmanager.secrets.rotate</code></p>
 <p><code dir="ltr" translate="no">secretmanager.versions.add</code></p>
 <p><code dir="ltr" translate="no">secretmanager.versions.destroy</code></p>
 <p><code dir="ltr" translate="no">secretmanager.versions.disable</code></p>
@@ -226,6 +232,13 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="secretmanager.secrets.enableManagedRotation" class="permission-name add-link" data-text="secretmanager.secrets.enableManagedRotation" tabindex="-1"><code dir="ltr" translate="no">secretmanager.  secrets.  enableManagedRotation</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.admin">Secret Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.editor">Secretmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.editor</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="secretmanager.secrets.get" class="permission-name add-link" data-text="secretmanager.secrets.get" tabindex="-1"><code dir="ltr" translate="no">secretmanager.secrets.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -236,7 +249,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="secretmanager.secrets.getIamPolicy" class="permission-name add-link" data-text="secretmanager.secrets.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">secretmanager.  secrets.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -250,7 +263,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="secretmanager.secrets.list" class="permission-name add-link" data-text="secretmanager.secrets.list" tabindex="-1"><code dir="ltr" translate="no">secretmanager.secrets.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -270,7 +283,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="secretmanager.secrets.listEffectiveTags" class="permission-name add-link" data-text="secretmanager.secrets.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">secretmanager.  secrets.  listEffectiveTags</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -285,7 +298,7 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="secretmanager.secrets.listTagBindings" class="permission-name add-link" data-text="secretmanager.secrets.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">secretmanager.  secrets.  listTagBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -299,6 +312,15 @@ This page lists the IAM roles and permissions for Secret Manager. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="secretmanager.secrets.rotate" class="permission-name add-link" data-text="secretmanager.secrets.rotate" tabindex="-1"><code dir="ltr" translate="no">secretmanager.secrets.rotate</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.admin">Secret Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.editor">Secretmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.secretVersionAdder">Secret Manager Secret Version Adder</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.secretVersionAdder</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager#secretmanager.secretVersionManager">Secret Manager Secret Version Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  secretmanager.secretVersionManager</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="secretmanager.secrets.setIamPolicy" class="permission-name add-link" data-text="secretmanager.secrets.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">secretmanager.  secrets.  setIamPolicy</code></h4></td>

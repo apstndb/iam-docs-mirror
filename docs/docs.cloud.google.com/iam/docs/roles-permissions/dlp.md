@@ -1788,18 +1788,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.update</code></p>
-<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  deleteTagBinding</code></p>
@@ -1966,6 +1956,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">logging.  buckets.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">logging.  buckets.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">logging.  buckets.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">managedidentities.  domains.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">managedidentities.  domains.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">managedidentities.  domains.  listEffectiveTags</code></p>
@@ -2003,6 +1997,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">networkmanagement.  connectivitytests.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  connectivitytests.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  connectivitytests.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networkservices.  endpointConfigSelectors.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networkservices.  endpointConfigSelectors.  createTagBinding</code></li>
@@ -2126,6 +2132,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">transcoder.  jobs.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  networkPeerings.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  networkPeerings.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  networkPeerings.  listEffectiveTags</code></p>
@@ -3460,18 +3474,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.update</code></p>
-<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  deleteTagBinding</code></p>
@@ -3638,6 +3642,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">logging.  buckets.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">logging.  buckets.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">logging.  buckets.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">managedidentities.  domains.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">managedidentities.  domains.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">managedidentities.  domains.  listEffectiveTags</code></p>
@@ -3675,6 +3683,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">networkmanagement.  connectivitytests.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  connectivitytests.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkmanagement.  connectivitytests.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networkservices.  endpointConfigSelectors.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networkservices.  endpointConfigSelectors.  createTagBinding</code></li>
@@ -3798,6 +3818,14 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">transcoder.  jobs.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  networkPeerings.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  networkPeerings.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  networkPeerings.  listEffectiveTags</code></p>

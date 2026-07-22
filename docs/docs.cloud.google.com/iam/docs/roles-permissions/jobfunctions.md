@@ -963,13 +963,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
 <li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  list</code></p>
@@ -1793,6 +1788,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">bigquery.  reservationGroups.  delete</code></li>
 <li><code dir="ltr" translate="no">bigquery.reservationGroups.get</code></li>
 <li><code dir="ltr" translate="no">bigquery.  reservationGroups.  list</code></li>
+<li><code dir="ltr" translate="no">bigquery.  reservationGroups.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">bigquery.reservations.*</code></p>
 <ul>
@@ -2634,18 +2630,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">dataplex.  datascans.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.datascans.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">datastore.backupSchedules.*</code></p>
 <ul>
@@ -6113,10 +6099,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  use</code></li>
@@ -6143,10 +6133,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  use</code></li>
@@ -6240,10 +6234,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  use</code></li>
@@ -9791,10 +9789,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  use</code></li>
@@ -9821,10 +9823,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  use</code></li>
@@ -9918,10 +9924,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  get</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  use</code></li>
@@ -13115,6 +13125,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">logging.views.list</code></p>
 <p><code dir="ltr" translate="no">looker.backups.list</code></p>
 <p><code dir="ltr" translate="no">looker.instances.list</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">looker.locations.list</code></p>
 <p><code dir="ltr" translate="no">looker.operations.list</code></p>
 <p><code dir="ltr" translate="no">lustre.instances.list</code></p>
@@ -13218,6 +13230,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">ml.versions.list</code></p>
 <p><code dir="ltr" translate="no">modelarmor.locations.list</code></p>
 <p><code dir="ltr" translate="no">modelarmor.templates.list</code></p>
+<p><code dir="ltr" translate="no">modelarmor.topics.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
@@ -13324,6 +13337,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authzPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authzPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authzPolicies.  list</code></p>
@@ -13331,6 +13346,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  dnsThreatDetectors.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  list</code></p>
@@ -13366,6 +13383,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.urlLists.get</code></p>
@@ -14185,6 +14204,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">vmmigration.  datacenterConnectors.  list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.deployments.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.groups.list</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  imageImportJobs.  list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.imageImports.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.locations.list</code></p>
@@ -14192,6 +14213,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">vmmigration.operations.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  replicationCycles.  list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.sources.list</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.targets.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  utilizationReports.  list</code></p>
 <p><code dir="ltr" translate="no">vmwareengine.  clusters.  getIamPolicy</code></p>
@@ -17299,6 +17322,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">blockchainvalidatormanager.  operations.  get</code></p>
 <p><code dir="ltr" translate="no">blockchainvalidatormanager.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">businessaicode.  locations.  fetchQuotaStatus</code></p>
 <p><code dir="ltr" translate="no">businessaicode.  locations.  generateContent</code></p>
 <p><code dir="ltr" translate="no">businessaicode.  locations.  queryConfiguration</code></p>
 <p><code dir="ltr" translate="no">capacityplanner.  capacityPlans.  get</code></p>
@@ -18655,6 +18679,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">cloudtasks.locations.get</code></li>
 <li><code dir="ltr" translate="no">cloudtasks.locations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudtasks.operations.get</code></p>
 <p><code dir="ltr" translate="no">cloudtasks.queues.get</code></p>
 <p><code dir="ltr" translate="no">cloudtasks.queues.list</code></p>
 <p><code dir="ltr" translate="no">cloudtasks.tasks.fullView</code></p>
@@ -20173,6 +20198,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">designcenter.spaces.get</code></p>
 <p><code dir="ltr" translate="no">designcenter.  spaces.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">designcenter.spaces.list</code></p>
+<p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  fetchUserRepositories</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  get</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  accountConnectors.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  connections.  fetchGitHubInstallations</code></p>
@@ -21433,6 +21459,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">looker.backups.list</code></p>
 <p><code dir="ltr" translate="no">looker.instances.get</code></p>
 <p><code dir="ltr" translate="no">looker.instances.list</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">looker.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">looker.instances.login</code></p>
 <p><code dir="ltr" translate="no">looker.locations.*</code></p>
 <ul>
@@ -21712,6 +21740,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">modelarmor.templates.get</code></p>
 <p><code dir="ltr" translate="no">modelarmor.templates.list</code></p>
+<p><code dir="ltr" translate="no">modelarmor.topics.get</code></p>
+<p><code dir="ltr" translate="no">modelarmor.topics.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
@@ -21771,6 +21801,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">netapp.locations.get</code></li>
 <li><code dir="ltr" translate="no">netapp.locations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">netapp.ontap.get</code></p>
 <p><code dir="ltr" translate="no">netapp.operations.get</code></p>
 <p><code dir="ltr" translate="no">netapp.operations.list</code></p>
 <p><code dir="ltr" translate="no">netapp.quotaRules.get</code></p>
@@ -21881,6 +21912,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  authorizationPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authzPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authzPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  authzPolicies.  list</code></p>
@@ -21889,6 +21922,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  clientTlsPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  dnsThreatDetectors.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  dnsThreatDetectors.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  firewallEndpointAssociations.  get</code></p>
@@ -21938,6 +21973,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">networksecurity.  serverTlsPolicies.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  get</code></p>
 <p><code dir="ltr" translate="no">networksecurity.  tlsInspectionPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networksecurity.urlLists.get</code></p>
@@ -23467,6 +23504,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">vmmigration.deployments.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.groups.get</code></p>
 <p><code dir="ltr" translate="no">vmmigration.groups.list</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  groups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  imageImportJobs.  get</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  imageImportJobs.  list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.imageImports.get</code></p>
@@ -23487,6 +23526,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">vmmigration.sources.get</code></p>
 <p><code dir="ltr" translate="no">vmmigration.sources.list</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">vmmigration.  sources.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.targets.get</code></p>
 <p><code dir="ltr" translate="no">vmmigration.targets.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  utilizationReports.  get</code></p>
