@@ -680,6 +680,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity	2026-07-2
 https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/aiedgeportal	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform	2026-07-21T22:26:11Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/aisandbox	2026-07-21T22:26:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/analyticshub	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/androidmanagement	2026-07-21T04:36:36Z
@@ -1069,7 +1070,7 @@ https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scal
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingfederate	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-pingone	2026-07-21T04:36:23Z
-https://docs.cloud.google.com/iam/docs/workforce-sign-in-power-bi	2026-07-21T04:36:30Z
+https://docs.cloud.google.com/iam/docs/workforce-sign-in-power-bi	2026-07-23T04:54:04Z
 https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/workload-identities	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation	2026-07-21T04:36:15Z
