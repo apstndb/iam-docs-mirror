@@ -31,6 +31,7 @@ The amount of time it takes for an access change to propagate depends on how you
 <td><ul>
 <li>You edit your organization's allow policy to grant a principal the Organization Administrator role ( <code dir="ltr" translate="no">roles/resourcemanager.organizationAdmin</code> ).</li>
 <li>You edit an organization-level deny policy to deny a principal the <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com/  projects.setIamPolicy</code> permission.</li>
+<li>You edit an allow policy to add <a href="https://docs.cloud.google.com/iam/docs/conditions-overview">IAM Conditions</a> to a role binding.</li>
 </ul></td>
 <td>Typically 2 minutes, potentially 7 minutes or longer</td>
 </tr>

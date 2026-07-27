@@ -8,7 +8,7 @@ data_source: docs.cloud.google.com
 
 To temporarily elevate your privileges, you can request a grant against an *entitlement* in [Privileged Access Manager (PAM)](https://docs.cloud.google.com/iam/docs/pam-overview) for a fixed duration.
 
-An entitlement contains [roles](https://docs.cloud.google.com/iam/docs/understanding-roles) that are granted to you after your grant request is successful. These roles are removed by Privileged Access Manager when the grant ends.
+An entitlement contains [roles](https://docs.cloud.google.com/iam/docs/understanding-roles) that are granted to you after your grant request is successful. These roles are removed by Privileged Access Manager when the grant ends. Grant activation and role removal take time to propagate through the system due to standard [access change propagation](https://docs.cloud.google.com/iam/docs/access-change-propagation) .
 
 Keep the following in mind when you want to request a grant against an entitlement:
 
@@ -29,7 +29,7 @@ Keep the following in mind when you want to request a grant against an entitleme
     
     If a request isn't approved or denied by the deadline, its status changes to `Expired` .
 
-  - Successful grant requests might take a few minutes to take effect.
+  - Successful grant requests take time to propagate through the system because Privileged Access Manager uses time-based [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) subject to standard [access change propagation](https://docs.cloud.google.com/iam/docs/access-change-propagation) .
 
 ## Request a grant
 

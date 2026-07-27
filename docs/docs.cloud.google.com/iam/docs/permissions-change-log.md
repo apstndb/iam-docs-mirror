@@ -16,6 +16,439 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-07-21
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Flow</td>
+<td><p>The FlowService Service Agent role ( <code dir="ltr" translate="no">roles/aisandbox.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>AlloyDB for PostgreSQL</td>
+<td><p>The following permissions have been removed from the AlloyDB Admin role ( <code dir="ltr" translate="no">roles/alloydb.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>AlloyDB for PostgreSQL</td>
+<td><p>The following permissions have been removed from the AlloyDB Database User role ( <code dir="ltr" translate="no">roles/alloydb.databaseUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Backup and Disaster Recovery</td>
+<td><p>The following permissions have been added to the Backup and DR Admin role ( <code dir="ltr" translate="no">roles/backupdr.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Business AI Code</td>
+<td><p>The Business AI Code Service Agent role ( <code dir="ltr" translate="no">roles/businessaicode.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Business AI Code</td>
+<td><p>The User role for Business AI Code API role ( <code dir="ltr" translate="no">roles/businessaicode.user</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle API Editor role ( <code dir="ltr" translate="no">roles/chronicle.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacyCaseFederationPlatforms.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacyFederatedCases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySystemMetadata.placeholders</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.propertySchemaDefinitions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.views.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle API Viewer role ( <code dir="ltr" translate="no">roles/chronicle.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacyCaseFederationPlatforms.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacyFederatedCases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySystemMetadata.placeholders</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.propertySchemaDefinitions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.views.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Tasks</td>
+<td><p>The following permissions have been added to the Cloud Tasks Admin role ( <code dir="ltr" translate="no">roles/cloudtasks.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The following permissions have been added to the Cloud Tasks Editor role ( <code dir="ltr" translate="no">roles/cloudtasks.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Tasks</td>
+<td><p>The following permissions have been added to the Cloud Tasks Enqueuer role ( <code dir="ltr" translate="no">roles/cloudtasks.enqueuer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The following permissions have been added to the Cloud Tasks Viewer role ( <code dir="ltr" translate="no">roles/cloudtasks.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Customer Experience Insights</td>
+<td><p>The following permissions have been added to the Contact Center AI Insights Service Agent role ( <code dir="ltr" translate="no">roles/contactcenterinsights.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ces.agents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.agents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.appVersions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.appVersions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.apps.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.changelogs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.changelogs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.deployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.examples.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.examples.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.guardrails.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.tools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ces.toolsets.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Sensitive Data Protection</td>
+<td><p>The following permissions have been removed from the DLP Organization Data Profiles Driver role ( <code dir="ltr" translate="no">roles/dlp.orgdriver</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Sensitive Data Protection</td>
+<td><p>The following permissions have been removed from the DLP Project Data Profiles Driver role ( <code dir="ltr" translate="no">roles/dlp.projectdriver</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Editor role ( <code dir="ltr" translate="no">roles/editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been removed from the Databases Admin role ( <code dir="ltr" translate="no">roles/iam.databasesAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been removed from the Data Scientist role ( <code dir="ltr" translate="no">roles/iam.dataScientist</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Support User role ( <code dir="ltr" translate="no">roles/iam.supportUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Owner role ( <code dir="ltr" translate="no">roles/owner</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Viewer role ( <code dir="ltr" translate="no">roles/viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Workstations</td>
+<td><p>The following permissions have been added to the Cloud Workstations Admin role ( <code dir="ltr" translate="no">roles/workstations.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigLake</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">biglake.tables.register</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigquery.reservationGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigquery.reservationGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigquery.jobs.createGlobalQuery</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.reservationGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.reservationGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.reservationGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigquery.reservationGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery Reservation API</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigqueryreservation.googleapis.com/reservationGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery Reservation API</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigqueryreservation.googleapis.com/reservationGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery Reservation API</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigqueryreservation.googleapis.com/reservationGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigqueryreservation.googleapis.com/reservationGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigqueryreservation.googleapis.com/reservationGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigqueryreservation.googleapis.com/reservationGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Bigtable</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.readRows</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.sampleRowKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">bigtable.materializedViews.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Business AI Code</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.fetchQuotaStatus</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Business AI Code</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.fetchQuotaStatus</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Business AI Code</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.fetchQuotaStatus</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.generateContent</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.queryConfiguration</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.selfAssignLicense</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">businessaicode.locations.sendTelemetry</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.fetchUserRepositories</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.gitProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.gitProxyWrite</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.httpProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.httpProxyWrite</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.fetchUserRepositories</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.gitProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.gitProxyWrite</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.httpProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.httpProxyWrite</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Looker</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">looker.instances.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">looker.instances.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">looker.instances.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">looker.instances.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Looker</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">looker.instances.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">looker.instances.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">looker.instances.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">looker.instances.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Cloud MCP servers</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">mcp.tools.call</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Model Armor</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.test</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Model Armor</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.test</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Model Armor</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.test</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">modelarmor.topics.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Cloud NetApp Volumes</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">netapp.ontap.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Cloud NetApp Volumes</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">netapp.ontap.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Network Security</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networksecurity.authorizationPolicies.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.authorizationPolicies.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.authorizationPolicies.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.authorizationPolicies.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.clientTlsPolicies.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.clientTlsPolicies.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.clientTlsPolicies.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.clientTlsPolicies.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.serverTlsPolicies.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.serverTlsPolicies.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.serverTlsPolicies.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networksecurity.serverTlsPolicies.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Secret Manager</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">secretmanager.secrets.enableManagedRotation</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">secretmanager.secrets.rotate</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Secret Manager</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">secretmanager.secrets.enableManagedRotation</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">secretmanager.secrets.rotate</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>VM Migration</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>VM Migration</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.groups.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">vmmigration.sources.listTagBindings</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-07-14
 
 <table>

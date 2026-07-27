@@ -148,7 +148,9 @@ Grants are automatically deleted from Privileged Access Manager 30 days after th
 
 ### Privileged Access Manager and IAM policy modifications
 
-Privileged Access Manager manages temporary access by adding and removing [role bindings](https://docs.cloud.google.com/iam/docs/allow-policies#structure) from resources' IAM policies. If these role bindings are modified by something other than Privileged Access Manager, then Privileged Access Manager might not work as expected.
+Privileged Access Manager manages temporary access by adding and removing [role bindings](https://docs.cloud.google.com/iam/docs/allow-policies#structure) from resources' IAM allow policies. These role bindings use time-based [IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) to help ensure that access is temporary. Consequently, the activation and revocation of temporary access depend on standard [access change propagation](https://docs.cloud.google.com/iam/docs/access-change-propagation) .
+
+If these role bindings are modified by something other than Privileged Access Manager, then Privileged Access Manager might not work as expected.
 
 To avoid this issue, we recommend doing the following:
 

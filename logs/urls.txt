@@ -1,6 +1,6 @@
 https://cloud.google.com/products/iam	
 https://docs.cloud.google.com/iam/docs	2026-07-21T21:04:42Z
-https://docs.cloud.google.com/iam/docs/access-change-propagation	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/access-change-propagation	2026-07-27T04:36:36Z
 https://docs.cloud.google.com/iam/docs/agent-identity-overview	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/allow-policies	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/analyze-access	2026-07-21T04:36:30Z
@@ -94,18 +94,18 @@ https://docs.cloud.google.com/iam/docs/pam-audit-entitlement-events	2026-07-21T0
 https://docs.cloud.google.com/iam/docs/pam-best-practices	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/pam-configure-settings	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/pam-create-entitlements	2026-07-21T04:36:36Z
-https://docs.cloud.google.com/iam/docs/pam-overview	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/pam-overview	2026-07-27T04:36:36Z
 https://docs.cloud.google.com/iam/docs/pam-permissions-and-setup	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/pam-remediate-iam-recommendations	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/pam-request-temporary-elevated-access	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/pam-request-temporary-elevated-access	2026-07-27T04:36:36Z
 https://docs.cloud.google.com/iam/docs/pam-revoke-grants	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/pam-view-export-settings	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/pam-view-grants	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/pam-view-update-delete-entitlements	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/pam-withdraw-grants	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/permission-error-messages	2026-07-21T04:36:36Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-07-21T22:26:11Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-07-21T22:26:11Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-07-27T03:39:59Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-07-27T03:39:36Z
 https://docs.cloud.google.com/iam/docs/policy-intelligence-tools	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/policy-types	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies	2026-07-21T04:36:15Z
@@ -656,7 +656,7 @@ https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projec
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations.serviceProducers/generateServiceAgents	2026-06-04T17:50:02Z
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/get	2026-06-03T17:54:01Z
 https://docs.cloud.google.com/iam/docs/reference/workloadidentity/rest/v1/projects.locations/list	2026-06-03T17:54:01Z
-https://docs.cloud.google.com/iam/docs/release-notes	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/release-notes	2026-07-27T03:39:36Z
 https://docs.cloud.google.com/iam/docs/request-missing-permissions	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/resolve-permission-errors	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control	2026-07-21T04:36:23Z
@@ -1233,7 +1233,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroublesh
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/v3/iam/troubleshoot	2026-02-03T18:25:11Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/v3beta/iam	2025-10-17T21:46:43Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/v3beta/iam/troubleshoot	2026-03-27T21:09:39Z
-https://docs.cloud.google.com/policy-intelligence/docs/release-notes	2026-07-19T03:18:04Z
+https://docs.cloud.google.com/policy-intelligence/docs/release-notes	2026-07-27T03:40:16Z
 https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/policy-intelligence/docs/resources	2026-07-19T03:18:00Z
 https://docs.cloud.google.com/policy-intelligence/docs/review-apply-organization-policy-recommendations	2026-07-19T03:18:00Z
