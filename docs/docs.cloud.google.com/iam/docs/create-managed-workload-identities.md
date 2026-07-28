@@ -6,10 +6,6 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-> **Preview**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 This document describes how to configure [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) for Compute Engine by using the gcloud CLI. It also describes how to set up automatic provisioning and lifecycle management of managed workload identities for Compute Engine by using [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) , which lets you establish mutual TLS (mTLS) connections between workloads.
 
 To request access to managed workload identities for Compute Engine, complete the [access request form](https://forms.gle/KC1Lq77gMn3kTtWDA) .
@@ -37,17 +33,13 @@ To request access to managed workload identities for Compute Engine, complete th
         
         Replace `  PROJECT_ID  ` with your Google Cloud project name.
 
-2.  [Request access to the managed workload identities for Compute Engine Preview](https://forms.gle/KC1Lq77gMn3kTtWDA) .
-    
-    > **Important:** You must wait until you receive a confirmation that your project has been added to the allowlist before moving on to the next steps.
+2.  Understand [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) .
 
-3.  Understand [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) .
+3.  Learn about certificate issuance using [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) .
 
-4.  Learn about certificate issuance using [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) .
+4.  Learn how to [authenticate Compute Engine workloads using managed workload identities](https://docs.cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls) .
 
-5.  Learn how to [authenticate Compute Engine workloads using managed workload identities](https://docs.cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls) .
-
-6.  Enable the IAM and Certificate Authority Service APIs:
+5.  Enable the IAM and Certificate Authority Service APIs:
     
     **Roles required to enable APIs**
     
@@ -55,11 +47,11 @@ To request access to managed workload identities for Compute Engine, complete th
     
         gcloud services enable iam.googleapis.com privateca.googleapis.com
 
-7.  Configure Google Cloud CLI to use the project that was added to the allowlist for billing and quota.
+6.  Configure Google Cloud CLI to use the project that was added to the allowlist for billing and quota.
     
         gcloud config set billing/quota_project PROJECT_ID
     
-    Replace PROJECT\_ID with the ID of the project that was added to the allowlist for the managed workload identity preview.
+    Replace PROJECT\_ID with the ID of the project.
 
 ### Required roles
 
@@ -115,7 +107,7 @@ To use managed workload identities for your applications, you must perform the f
         name: projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID
         state: ACTIVE
     
-    If `mode: TRUST_DOMAIN` isn't present in the command output, [verify that your project has been added to the allowlist for the managed workload identity Preview](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities#before_you_begin) and that you've correctly configured your gcloud CLI to use the correct project for billing and quota. Ensure you have updated to the latest version of the gcloud CLI.
+    If `mode: TRUST_DOMAIN` isn't present in the command output, verify that you've correctly configured your gcloud CLI to use the correct project for billing and quota. Ensure that you have updated to the latest version of the gcloud CLI.
 
 ## Choose a CA option
 

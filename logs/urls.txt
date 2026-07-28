@@ -42,7 +42,7 @@ https://docs.cloud.google.com/iam/docs/configuring-temporary-access	2026-07-21T0
 https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation	2026-07-23T04:54:04Z
 https://docs.cloud.google.com/iam/docs/create-and-deploy-agent	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials	2026-07-21T04:36:15Z
-https://docs.cloud.google.com/iam/docs/create-managed-workload-identities	2026-07-21T04:36:30Z
+https://docs.cloud.google.com/iam/docs/create-managed-workload-identities	2026-07-27T13:34:16Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-gke	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/create-service-agents	2026-07-21T04:36:23Z
@@ -80,7 +80,7 @@ https://docs.cloud.google.com/iam/docs/manage-access-service-accounts	2026-07-21
 https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2	2026-07-21T04:42:43Z
 https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers	2026-07-21T04:36:15Z
-https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/managed-workload-identity	2026-07-27T13:34:16Z
 https://docs.cloud.google.com/iam/docs/managed-workload-identity-custom-constraints	2026-07-24T18:55:33Z
 https://docs.cloud.google.com/iam/docs/managing-conditional-role-bindings	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/migrate-from-service-account-keys	2026-07-21T04:36:30Z
