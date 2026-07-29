@@ -515,6 +515,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
 <p><code dir="ltr" translate="no">compute.healthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
@@ -755,18 +756,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">dataplex.  datascans.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.datascans.update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">dataplex.operations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.operations.cancel</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.delete</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.operations.list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  create</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  delete</code></p>
 <p><code dir="ltr" translate="no">dataproc.  autoscalingPolicies.  get</code></p>

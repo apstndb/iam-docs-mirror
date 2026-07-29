@@ -947,6 +947,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.  parserExtensions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.parsers.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.parsingErrors.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.retrohunts.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.ruleDeployments.list</code></p>
@@ -3730,6 +3731,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.  parserExtensions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.parsers.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.parsingErrors.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.retrohunts.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.ruleDeployments.list</code></p>

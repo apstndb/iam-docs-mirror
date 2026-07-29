@@ -653,6 +653,10 @@ n/a
 
 [Read more](https://docs.cloud.google.com/storage/docs/buckets)
 
+`storage.googleapis.com/Folder`
+
+[Read more](https://docs.cloud.google.com/storage/docs/folders-overview)
+
 `storage.googleapis.com/ManagedFolder`
 
 [Read more](https://docs.cloud.google.com/storage/docs/managed-folders)
@@ -1020,187 +1024,191 @@ The following table lists the format of each type of resource name attribute.
 <td><code dir="ltr" translate="no">projects/_/buckets/         bucket-name       </code></td>
 </tr>
 <tr class="even">
-<td>Cloud Storage <a href="https://docs.cloud.google.com/storage/docs/json_api/v1/managedFolder">managed folders</a> <sup>2, 3</sup></td>
-<td><code dir="ltr" translate="no">projects/_/buckets/         bucket-name        /managedFolders/         managed-folder-name       </code></td>
+<td>Cloud Storage <a href="https://docs.cloud.google.com/storage/docs/json_api/v1/folders">folders</a> in buckets with hierarchical namespace enabled <sup>2, 3</sup></td>
+<td><code dir="ltr" translate="no">projects/_/buckets/         bucket-name        /folders/         folder-name       </code></td>
 </tr>
 <tr class="odd">
-<td>Cloud Storage <a href="https://docs.cloud.google.com/storage/docs/json_api/v1/objects">objects</a> <sup>2, 4</sup></td>
-<td><code dir="ltr" translate="no">projects/_/buckets/         bucket-name        /objects/         object-name       </code></td>
+<td>Cloud Storage <a href="https://docs.cloud.google.com/storage/docs/json_api/v1/managedFolder">managed folders</a> <sup>2, 4</sup></td>
+<td><code dir="ltr" translate="no">projects/_/buckets/         bucket-name        /managedFolders/         managed-folder-name       </code></td>
 </tr>
 <tr class="even">
+<td>Cloud Storage <a href="https://docs.cloud.google.com/storage/docs/json_api/v1/objects">objects</a> <sup>2, 5</sup></td>
+<td><code dir="ltr" translate="no">projects/_/buckets/         bucket-name        /objects/         object-name       </code></td>
+</tr>
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/backendServices">global backend services</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/backendServices/         backend-service-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/backendServices">regional backend services</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /regions/         region-id        /backendServices/         backend-service-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/firewalls">firewalls</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/firewalls/         firewall-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/globalForwardingRules">global forwarding rules</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/forwardingRules/         forwarding-rule-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/forwardingRules">regional forwarding rules</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /regions/         region-id        /forwardingRules/         forwarding-rule-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/images">images</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/images/         image-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/instanceTemplates">instance templates</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/instanceTemplates/         instance-template-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/instances">instances</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /zones/         zone-id        /instances/         instance-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/regionDisks">regional persistent disks</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /regions/         region-id        /disks/         disk-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/disks">zonal persistent disks</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /zones/         zone-id        /disks/         disk-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/snapshots">snapshots</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/snapshots/         snapshot-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/targetHttpProxies">global target HTTP proxies</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/targetHttpProxies/         target-http-proxy-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/regionTargetHttpProxies">regional target HTTP proxies</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /regions/         region-id        /targetHttpProxies/         target-http-proxy-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/targetHttpsProxies">global target HTTPS proxies</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/targetHttpsProxies/         target-https-proxy-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/regionTargetHttpsProxies">regional target HTTPS proxies</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /regions/         region-id        /targetHttpsProxies/         target-https-proxy-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/targetSslProxies">target SSL proxies</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/targetSslProxies/         target-ssl-proxy-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine <a href="https://docs.cloud.google.com/compute/docs/reference/rest/v1/targetTcpProxies">target TCP proxies</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /global/targetTcpProxies/         target-tcp-proxy-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Kubernetes Engine <a href="https://docs.cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.zones.clusters">zonal clusters</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /zones/         zone        /clusters/         cluster-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Kubernetes Engine <a href="https://docs.cloud.google.com/kubernetes-engine/docs/reference/rest/v1/projects.locations.clusters">regional clusters</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /clusters/         cluster-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations.repositories.compilationResults">compilation results</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /repositories/         repository        /compilationResults/         compilation-result       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations">locations</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations.repositories.releaseConfigs">release configs</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /repositories/         repository        /releaseConfigs/         release-config       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations.repositories">repositories</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /repositories/         repository       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations.repositories.workflowConfigs">workflow configs</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /repositories/         repository        /workflowConfigs/         workflow-config       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations.repositories.workflowInvocations">workflow invocations</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /repositories/         repository        /workflowInvocations/         workflow-invocation       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dataform <a href="https://docs.cloud.google.com/dataform/reference/rest/v1beta1/projects.locations.repositories.workspaces">workspaces</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /repositories/         repository        /workspaces/         workspace       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud DNS <a href="https://docs.cloud.google.com/dns/docs/reference/rest/v1/resourceRecordSets">resource record sets</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /managedZones/         zone-id        /rrsets/         rrset-name        /         rrset-type       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Integration Connectors <a href="https://docs.cloud.google.com/integration-connectors/docs/reference/rest/v1/projects.locations.connections">connections</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /connections/         connection-name       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Integration Connectors <a href="https://docs.cloud.google.com/integration-connectors/docs/reference/rest/v1/projects.locations.connections.connectionSchemaMetadata">connection schema metadata</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /connections/         connection-name        /connectionSchemaMetadata</code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Integration Connectors <a href="https://docs.cloud.google.com/integration-connectors/docs/reference/rest/v1/projects.locations.endpointAttachments">endpoint attachments</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /endpointAttachments/         endpoint-attachment-name       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Integration Connectors <a href="https://docs.cloud.google.com/integration-connectors/docs/reference/rest/v1/projects.locations.connections.eventSubscriptions">event subscriptions</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /eventSubscriptions/         event-subscription-name       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Integration Connectors <a href="https://docs.cloud.google.com/integration-connectors/docs/reference/rest/v1/projects.locations.global.managedZones">managed zones</a></td>
 <td><code dir="ltr" translate="no">projects/         project-id        /locations/global/managedZones/         managed-zone-name       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Cloud Managed Service for Apache Kafka <a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs/reference/rest/v1/projects.locations.clusters">clusters</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /clusters/         cluster-name       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Cloud Managed Service for Apache Kafka <a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs/reference/rest/v1/projects.locations.clusters.consumerGroups">consumer groups</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /clusters/         cluster-name        /consumerGroups/         consumer-group       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Cloud Managed Service for Apache Kafka <a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs/reference/rest/v1/projects.locations.operations">operations</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /operations/         operation       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Cloud Managed Service for Apache Kafka <a href="https://docs.cloud.google.com/managed-service-for-apache-kafka/docs/reference/rest/v1/projects.locations.clusters.topics">topics</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /clusters/         cluster-name        /topics/         topic-name       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Parameter Manager <a href="https://docs.cloud.google.com/secret-manager/parameter-manager/docs/reference/rest/v1/projects.locations.parameters">parameters</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /parameters/         parameter-id       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Parameter Manager <a href="https://docs.cloud.google.com/secret-manager/parameter-manager/docs/reference/rest/v1/projects.locations.parameters.versions">parameter versions</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /parameters/         parameter-id        /versions/version-id</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pub/Sub Lite <a href="https://docs.cloud.google.com/pubsub/lite/docs/reference/rest">locations</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location       </code></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pub/Sub Lite <a href="https://docs.cloud.google.com/pubsub/lite/docs/reference/rest/v1/admin.projects.locations.subscriptions">subscriptions</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /subscriptions/         subscription-id       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pub/Sub Lite <a href="https://docs.cloud.google.com/pubsub/lite/docs/reference/rest/v1/admin.projects.locations.topics">topics</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /locations/         location        /topics/         topic-id       </code></td>
 </tr>
-<tr class="odd">
-<td>Resource Manager <a href="https://docs.cloud.google.com/resource-manager/reference/rest/v3/organizations">organizations</a> <sup>5</sup></td>
+<tr class="even">
+<td>Resource Manager <a href="https://docs.cloud.google.com/resource-manager/reference/rest/v3/organizations">organizations</a> <sup>6</sup></td>
 <td><code dir="ltr" translate="no">organizations/         organization-name       </code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Secret Manager <a href="https://docs.cloud.google.com/secret-manager/docs/reference/rest/v1/projects.secrets">secrets</a></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /secrets/         secret-id       </code></td>
 </tr>
-<tr class="odd">
-<td>Secret Manager <a href="https://docs.cloud.google.com/secret-manager/docs/reference/rest/v1/projects.secrets.versions">secret versions</a> <sup>6</sup></td>
+<tr class="even">
+<td>Secret Manager <a href="https://docs.cloud.google.com/secret-manager/docs/reference/rest/v1/projects.secrets.versions">secret versions</a> <sup>7</sup></td>
 <td><code dir="ltr" translate="no">projects/         project-number        /secrets/         secret-id        /versions/         secret-version       </code></td>
 </tr>
 </tbody>
@@ -1210,13 +1218,15 @@ The following table lists the format of each type of resource name attribute.
 
 <sup>2</sup> For Cloud Storage, resource names contain an underscore ( `_` ) rather than a project ID. You *cannot* replace the underscore with a project ID, project name, or project number.
 
-<sup>3</sup> Use the entire managed folder name, including forward slashes. In Cloud Storage, these characters are [part of the managed folder name](https://docs.cloud.google.com/storage/docs/managed-folders#managed_folder_names) , not path separators.
+<sup>3</sup> Use the entire [folder name](https://docs.cloud.google.com/storage/docs/folders-overview#folder-metadata) , including forward slashes.
 
-<sup>4</sup> Use the entire object name, including forward slashes. In Cloud Storage, these characters are [part of the object name](https://docs.cloud.google.com/storage/docs/objects#naming) , not path separators.
+<sup>4</sup> Use the entire [managed folder name](https://docs.cloud.google.com/storage/docs/managed-folders#managed_folder_names) , including forward slashes.
 
-<sup>5</sup> Apigee uses this format when you list any type of resource that belongs to an Apigee organization.
+<sup>5</sup> Use the entire [object name](https://docs.cloud.google.com/storage/docs/objects#naming) , including forward slashes.
 
-<sup>6</sup> If a condition evaluates the resource name for a secret version, the secret version in the request must exactly match the secret version in the condition for the condition to be satisfied. For example, if the version in the condition is `latest` , only a request with the version `latest` satisfies the condition; a request with the version `3` does not satisfy the condition, even if `3` is the latest version.
+<sup>6</sup> Apigee uses this format when you list any type of resource that belongs to an Apigee organization.
+
+<sup>7</sup> If a condition evaluates the resource name for a secret version, the secret version in the request must exactly match the secret version in the condition for the condition to be satisfied. For example, if the version in the condition is `latest` , only a request with the version `latest` satisfies the condition; a request with the version `3` does not satisfy the condition, even if `3` is the latest version.
 
 ## Resource tags
 

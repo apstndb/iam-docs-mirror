@@ -54,6 +54,37 @@ This page lists the IAM roles and permissions for Cloud TPU. To search through a
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="tpu.editor" class="role-title add-link" data-text="TPU Editor" tabindex="-1">TPU Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
+<p>Editor access to TPU nodes and related resources</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">tpu.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">tpu.acceleratortypes.get</code></li>
+<li><code dir="ltr" translate="no">tpu.acceleratortypes.list</code></li>
+<li><code dir="ltr" translate="no">tpu.locations.get</code></li>
+<li><code dir="ltr" translate="no">tpu.locations.list</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.create</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.delete</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.get</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.list</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.performMaintenance</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.reimage</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.reset</code></li>
+<li><code dir="ltr" translate="no">tpu.  nodes.  simulateMaintenanceEvent</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.start</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.stop</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.update</code></li>
+<li><code dir="ltr" translate="no">tpu.operations.get</code></li>
+<li><code dir="ltr" translate="no">tpu.operations.list</code></li>
+<li><code dir="ltr" translate="no">tpu.runtimeversions.get</code></li>
+<li><code dir="ltr" translate="no">tpu.runtimeversions.list</code></li>
+<li><code dir="ltr" translate="no">tpu.tensorflowversions.get</code></li>
+<li><code dir="ltr" translate="no">tpu.tensorflowversions.list</code></li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><h4 id="tpu.viewer" class="role-title add-link" data-text="TPU Viewer" tabindex="-1">TPU Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p>Read-only access to TPU nodes and related resources.</p></td>
@@ -87,7 +118,7 @@ This page lists the IAM roles and permissions for Cloud TPU. To search through a
 <li><code dir="ltr" translate="no">tpu.tensorflowversions.list</code></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="tpu.xpnAgent" class="role-title add-link" data-text="TPU Shared VPC Agent" tabindex="-1">TPU Shared VPC Agent</h4>
 <p>( <code dir="ltr" translate="no">roles/  tpu.xpnAgent</code> )</p>
 <p>Can use shared VPC network (XPN) for the TPU VMs.</p></td>
@@ -341,6 +372,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.*</code></p>
 <ul>
@@ -1776,6 +1812,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -1787,6 +1824,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
@@ -1797,6 +1835,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1815,6 +1854,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -1831,6 +1871,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1844,6 +1885,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1858,6 +1900,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1876,6 +1919,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -1891,43 +1935,50 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="tpu.nodes.performMaintenance" class="permission-name add-link" data-text="tpu.nodes.performMaintenance" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.performMaintenance</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="tpu.nodes.reimage" class="permission-name add-link" data-text="tpu.nodes.reimage" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.reimage</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="tpu.nodes.reset" class="permission-name add-link" data-text="tpu.nodes.reset" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.reset</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="tpu.nodes.simulateMaintenanceEvent" class="permission-name add-link" data-text="tpu.nodes.simulateMaintenanceEvent" tabindex="-1"><code dir="ltr" translate="no">tpu.  nodes.  simulateMaintenanceEvent</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="tpu.nodes.start" class="permission-name add-link" data-text="tpu.nodes.start" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.start</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="tpu.nodes.stop" class="permission-name add-link" data-text="tpu.nodes.stop" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.stop</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="tpu.nodes.update" class="permission-name add-link" data-text="tpu.nodes.update" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="tpu.operations.get" class="permission-name add-link" data-text="tpu.operations.get" tabindex="-1"><code dir="ltr" translate="no">tpu.operations.get</code></h4></td>
@@ -1935,6 +1986,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p>Service agent roles</p>
@@ -1953,6 +2005,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -1970,6 +2023,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -1981,6 +2035,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
@@ -1991,6 +2046,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -2002,6 +2058,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>

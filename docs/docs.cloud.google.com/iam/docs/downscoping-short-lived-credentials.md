@@ -216,6 +216,28 @@ You can now use this condition in a Credential Access Boundary:
       }
     }
 
+### Limit permissions for folders
+
+If a bucket has hierarchical namespace enabled, you can use IAM Conditions to specify which Cloud Storage folders a principal can access.
+
+The following example makes the permissions in the Storage Object User role ( `roles/storage.objectUser` ) available for a folder and the objects within it.
+
+    {
+      "accessBoundary": {
+        "accessBoundaryRules": [
+          {
+            "availablePermissions": [
+              "inRole:roles/storage.objectUser"
+            ],
+            "availableResource": "//storage.googleapis.com/projects/_/buckets/example-folder",
+            "availabilityCondition": {
+              "expression" : "resource.name.startsWith('projects/_/buckets/example-bucket/objects/example-folder') || resource.name.startsWith('projects/_/buckets/example-bucket/folders/example-folder') || api.getAttribute('storage.googleapis.com/objectListPrefix', '').startsWith('{example-folder}')"
+            }
+          }
+        ]
+      }
+    }
+
 ## What's next
 
   - Learn how to [create a downscoped short-lived credential](https://docs.cloud.google.com/iam/docs/create-downscoped-short-lived-credentials) .

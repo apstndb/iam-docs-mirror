@@ -926,6 +926,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  propertySchemaDefinitions.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.  referenceLists.  create</code></li>
@@ -1814,6 +1819,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code dir="ltr" translate="no">chronicle.  propertySchemaDefinitions.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.  referenceLists.  create</code></li>
@@ -2264,6 +2274,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 </ul>
 <p><code dir="ltr" translate="no">chronicle.  propertySchemaDefinitions.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  referenceLists.  verifyReferenceList</code></p>
@@ -2500,6 +2515,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  preferenceSets.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.searchQueries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.searchQueries.create</code></li>
@@ -2629,6 +2649,11 @@ This page lists the IAM roles and permissions for Google Security Operations. To
 <li><code dir="ltr" translate="no">chronicle.  preferenceSets.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  referenceLists.  verifyReferenceList</code></p>
@@ -8660,6 +8685,33 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.limitedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.restrictedDataAccessViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="chronicle.queryMetrics.get" class="permission-name add-link" data-text="chronicle.queryMetrics.get" tabindex="-1"><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.limitedViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.restrictedDataAccessViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="chronicle.queryMetrics.list" class="permission-name add-link" data-text="chronicle.queryMetrics.list" tabindex="-1"><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.limitedViewer">Chronicle API Limited Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.limitedViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.restrictedDataAccessViewer">Chronicle API Restricted Data Access Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.restrictedDataAccessViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">

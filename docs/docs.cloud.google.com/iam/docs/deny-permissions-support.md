@@ -4604,6 +4604,12 @@ Google Security Operations
 
 `chronicle.googleapis.com/queries.suggestSql`
 
+`chronicle.googleapis.com/queryMetrics.*`
+
+`chronicle.googleapis.com/queryMetrics.get`
+
+`chronicle.googleapis.com/queryMetrics.list`
+
 `chronicle.googleapis.com/referenceLists.*`
 
 `chronicle.googleapis.com/referenceLists.create`
@@ -7194,6 +7200,8 @@ Cloud SQL
 
 `cloudsql.googleapis.com/instances.addServerCertificate`
 
+`cloudsql.googleapis.com/instances.cancelAgentSession`
+
 `cloudsql.googleapis.com/instances.clone`
 
 `cloudsql.googleapis.com/instances.connect`
@@ -7201,6 +7209,8 @@ Cloud SQL
 `cloudsql.googleapis.com/instances.create`
 
 `cloudsql.googleapis.com/instances.createTagBinding`
+
+`cloudsql.googleapis.com/instances.createTestingAgentSession`
 
 `cloudsql.googleapis.com/instances.delete`
 
@@ -7216,11 +7226,15 @@ Cloud SQL
 
 `cloudsql.googleapis.com/instances.get`
 
+`cloudsql.googleapis.com/instances.getAgentSession`
+
 `cloudsql.googleapis.com/instances.getDiskShrinkConfig`
 
 `cloudsql.googleapis.com/instances.import`
 
 `cloudsql.googleapis.com/instances.list`
+
+`cloudsql.googleapis.com/instances.listAgentSessions`
 
 `cloudsql.googleapis.com/instances.listEffectiveTags`
 

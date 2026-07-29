@@ -82,6 +82,7 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 </ul>
 <p><code dir="ltr" translate="no">billing.budgets.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">billing.  budgets.  configureSpendCap</code></li>
 <li><code dir="ltr" translate="no">billing.budgets.create</code></li>
 <li><code dir="ltr" translate="no">billing.budgets.delete</code></li>
 <li><code dir="ltr" translate="no">billing.budgets.get</code></li>
@@ -378,14 +379,11 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <li><code dir="ltr" translate="no">billing.anomaliesConfigs.get</code></li>
 <li><code dir="ltr" translate="no">billing.  anomaliesConfigs.  update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">billing.budgets.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">billing.budgets.create</code></li>
-<li><code dir="ltr" translate="no">billing.budgets.delete</code></li>
-<li><code dir="ltr" translate="no">billing.budgets.get</code></li>
-<li><code dir="ltr" translate="no">billing.budgets.list</code></li>
-<li><code dir="ltr" translate="no">billing.budgets.update</code></li>
-</ul>
+<p><code dir="ltr" translate="no">billing.budgets.create</code></p>
+<p><code dir="ltr" translate="no">billing.budgets.delete</code></p>
+<p><code dir="ltr" translate="no">billing.budgets.get</code></p>
+<p><code dir="ltr" translate="no">billing.budgets.list</code></p>
+<p><code dir="ltr" translate="no">billing.budgets.update</code></p>
 <p><code dir="ltr" translate="no">billing.  resourceAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.costInsights.*</code></p>
 <ul>
@@ -846,23 +844,27 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="billing.budgets.configureSpendCap" class="permission-name add-link" data-text="billing.budgets.configureSpendCap" tabindex="-1"><code dir="ltr" translate="no">billing.  budgets.  configureSpendCap</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="billing.budgets.create" class="permission-name add-link" data-text="billing.budgets.create" tabindex="-1"><code dir="ltr" translate="no">billing.budgets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.costsManager">Billing Account Costs Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.costsManager</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="billing.budgets.delete" class="permission-name add-link" data-text="billing.budgets.delete" tabindex="-1"><code dir="ltr" translate="no">billing.budgets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.costsManager">Billing Account Costs Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.costsManager</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="billing.budgets.get" class="permission-name add-link" data-text="billing.budgets.get" tabindex="-1"><code dir="ltr" translate="no">billing.budgets.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.viewer">Billing Account Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.costsManager">Billing Account Costs Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.costsManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.linkAdmin">Account Hierarchy Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.linkAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="billing.budgets.list" class="permission-name add-link" data-text="billing.budgets.list" tabindex="-1"><code dir="ltr" translate="no">billing.budgets.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.viewer">Billing Account Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.viewer</code> )</p>
@@ -872,12 +874,12 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.linkAdmin">Account Hierarchy Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.linkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="billing.budgets.update" class="permission-name add-link" data-text="billing.budgets.update" tabindex="-1"><code dir="ltr" translate="no">billing.budgets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.costsManager">Billing Account Costs Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.costsManager</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="billing.costRecommendations.listScoped" class="permission-name add-link" data-text="billing.costRecommendations.listScoped" tabindex="-1"><code dir="ltr" translate="no">billing.  costRecommendations.  listScoped</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -885,7 +887,7 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.projectCostsManager">Project Billing Costs Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.projectCostsManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="billing.credits.list" class="permission-name add-link" data-text="billing.credits.list" tabindex="-1"><code dir="ltr" translate="no">billing.credits.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.viewer">Billing Account Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.viewer</code> )</p>
@@ -899,7 +901,7 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/consumerprocurement#consumerprocurement.procurementViewer">Consumer Procurement Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  consumerprocurement.procurementViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="billing.finOpsBenchmarkInformation.get" class="permission-name add-link" data-text="billing.finOpsBenchmarkInformation.get" tabindex="-1"><code dir="ltr" translate="no">billing.  finOpsBenchmarkInformation.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -909,7 +911,7 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.linkAdmin">Account Hierarchy Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.linkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="billing.finOpsHealthInformation.get" class="permission-name add-link" data-text="billing.finOpsHealthInformation.get" tabindex="-1"><code dir="ltr" translate="no">billing.  finOpsHealthInformation.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -919,7 +921,7 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.linkAdmin">Account Hierarchy Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.linkAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="billing.resourceAssociations.create" class="permission-name add-link" data-text="billing.resourceAssociations.create" tabindex="-1"><code dir="ltr" translate="no">billing.  resourceAssociations.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.user">Billing Account User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.user</code> )</p>
@@ -933,11 +935,11 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="billing.resourceAssociations.delete" class="permission-name add-link" data-text="billing.resourceAssociations.delete" tabindex="-1"><code dir="ltr" translate="no">billing.  resourceAssociations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="billing.resourceAssociations.list" class="permission-name add-link" data-text="billing.resourceAssociations.list" tabindex="-1"><code dir="ltr" translate="no">billing.  resourceAssociations.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.viewer">Billing Account Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.viewer</code> )</p>
@@ -949,13 +951,18 @@ This page lists the IAM roles and permissions for Cloud Billing. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="billing.resourceCosts.get" class="permission-name add-link" data-text="billing.resourceCosts.get" tabindex="-1"><code dir="ltr" translate="no">billing.resourceCosts.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="billing.resourcebudgets.configureSpendCap" class="permission-name add-link" data-text="billing.resourcebudgets.configureSpendCap" tabindex="-1"><code dir="ltr" translate="no">billing.  resourcebudgets.  configureSpendCap</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="billing.resourcebudgets.read" class="permission-name add-link" data-text="billing.resourcebudgets.read" tabindex="-1"><code dir="ltr" translate="no">billing.resourcebudgets.read</code></h4></td>

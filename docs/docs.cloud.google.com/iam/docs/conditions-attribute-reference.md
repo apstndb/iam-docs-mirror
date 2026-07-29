@@ -539,6 +539,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <td>Cloud Storage</td>
 <td><ul>
 <li>Buckets</li>
+<li>Folders (in buckets with hierarchical namespace enabled)</li>
 <li>Managed folders</li>
 <li>Objects</li>
 </ul></td>
@@ -912,6 +913,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <td>Cloud Storage</td>
 <td><ul>
 <li>Buckets</li>
+<li>Folders (in buckets with hierarchical namespace enabled)</li>
 <li>Managed folders</li>
 <li>Objects</li>
 </ul></td>

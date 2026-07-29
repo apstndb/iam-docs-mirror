@@ -86,11 +86,13 @@ This page lists the IAM roles and permissions for Cloud SQL. To search through a
 <li><code dir="ltr" translate="no">cloudsql.  instances.  addEntraIdCertificate</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.addServerCa</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  addServerCertificate</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  cancelAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.clone</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.connect</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.create</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  createTestingAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.delete</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  demoteMaster</code></li>
@@ -98,9 +100,11 @@ This page lists the IAM roles and permissions for Cloud SQL. To search through a
 <li><code dir="ltr" translate="no">cloudsql.instances.export</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.failover</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.get</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.import</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></li>
@@ -304,12 +308,15 @@ This page lists the IAM roles and permissions for Cloud SQL. To search through a
 <p><code dir="ltr" translate="no">cloudsql.  instances.  addEntraIdCertificate</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.addServerCa</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  addServerCertificate</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  cancelAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.connect</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.failover</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></p>
@@ -464,8 +471,10 @@ This page lists the IAM roles and permissions for Cloud SQL. To search through a
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></p>
@@ -956,6 +965,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="cloudsql.instances.cancelAgentSession" class="permission-name add-link" data-text="cloudsql.instances.cancelAgentSession" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  cancelAgentSession</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.editor">Cloud SQL Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
 <td><h4 id="cloudsql.instances.clone" class="permission-name add-link" data-text="cloudsql.instances.clone" tabindex="-1"><code dir="ltr" translate="no">cloudsql.instances.clone</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -969,7 +994,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudsql.instances.connect" class="permission-name add-link" data-text="cloudsql.instances.connect" tabindex="-1"><code dir="ltr" translate="no">cloudsql.instances.connect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -996,7 +1021,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.serviceAgent">Security Center Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudsql.instances.create" class="permission-name add-link" data-text="cloudsql.instances.create" tabindex="-1"><code dir="ltr" translate="no">cloudsql.instances.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1013,7 +1038,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedataconnect#firebasedataconnect.serviceAgent">Firebase Data Connect Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasedataconnect.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudsql.instances.createBackupDrBackup" class="permission-name add-link" data-text="cloudsql.instances.createBackupDrBackup" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1031,13 +1056,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudsql.instances.createTagBinding" class="permission-name add-link" data-text="cloudsql.instances.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="cloudsql.instances.createTestingAgentSession" class="permission-name add-link" data-text="cloudsql.instances.createTestingAgentSession" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  createTestingAgentSession</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1194,7 +1233,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudsql.instances.getDiskShrinkConfig" class="permission-name add-link" data-text="cloudsql.instances.getDiskShrinkConfig" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></h4></td>
+<td><h4 id="cloudsql.instances.getAgentSession" class="permission-name add-link" data-text="cloudsql.instances.getAgentSession" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
@@ -1215,6 +1254,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="cloudsql.instances.getDiskShrinkConfig" class="permission-name add-link" data-text="cloudsql.instances.getDiskShrinkConfig" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.editor">Cloud SQL Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.viewer">Cloud SQL Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><h4 id="cloudsql.instances.import" class="permission-name add-link" data-text="cloudsql.instances.import" tabindex="-1"><code dir="ltr" translate="no">cloudsql.instances.import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1230,7 +1290,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudsql.instances.list" class="permission-name add-link" data-text="cloudsql.instances.list" tabindex="-1"><code dir="ltr" translate="no">cloudsql.instances.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1255,6 +1315,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.serviceAgent">GCP Network Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="cloudsql.instances.listAgentSessions" class="permission-name add-link" data-text="cloudsql.instances.listAgentSessions" tabindex="-1"><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.admin">Cloud SQL Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.editor">Cloud SQL Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql#cloudsql.viewer">Cloud SQL Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsql.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">

@@ -31,7 +31,15 @@ This page lists the IAM roles and permissions for Google Kubernetes Engine. To s
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">container.*</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">container.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">container.apiServices.create</code></li>
 <li><code dir="ltr" translate="no">container.apiServices.delete</code></li>
@@ -488,7 +496,15 @@ This page lists the IAM roles and permissions for Google Kubernetes Engine. To s
 <ul>
 <li>Project</li>
 </ul></td>
-<td><p><code dir="ltr" translate="no">container.clusters.connect</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">container.clusters.connect</code></p>
 <p><code dir="ltr" translate="no">container.clusters.create</code></p>
 <p><code dir="ltr" translate="no">container.clusters.delete</code></p>
 <p><code dir="ltr" translate="no">container.clusters.get</code></p>
@@ -2285,6 +2301,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.*</code></p>
 <ul>

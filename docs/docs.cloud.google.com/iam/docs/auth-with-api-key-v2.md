@@ -108,6 +108,40 @@ If you are connecting to Google Cloud services (such as Cloud Translation or Goo
 
 Create an auth provider to define the configuration and credentials for third-party applications.
 
+To create an API key auth provider, use the gcloud CLI:
+
+1.  Create the auth provider:
+    
+        gcloud alpha agent-identity authProviders create AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --api-key="API_KEY"
+
+2.  Verify that your auth provider appears in the list and its state is `ENABLED` :
+    
+        gcloud alpha agent-identity authProviders list \   --project="PROJECT_ID" \   --location="LOCATION"
+
+3.  Grant access permissions to allow your agent and local development environment to retrieve credentials from the auth provider. To allow your deployed agent and your personal user account to access the auth provider, grant the **Agent Identity User** ( `roles/agentidentity.user` ) role on the auth provider resource:
+    
+    1.  Grant access to your deployed agent's SPIFFE ID (Agent Identity):
+        
+            gcloud alpha agent-identity authProviders add-iam-policy-binding AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --role="roles/agentidentity.user" \    --member="principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID"
+    
+    2.  Grant access to your personal user account for local development and testing ( `adk web` ):
+        
+            gcloud alpha agent-identity authProviders add-iam-policy-binding AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --role="roles/agentidentity.user" \    --member="user:USER_EMAIL"
+
+Replace the following:
+
+  - `  PROJECT_ID  ` : Your Google Cloud project ID.
+  - `  LOCATION  ` : The location where your auth provider and agent are deployed (for example, `us-west1` ).
+  - `  AUTH_PROVIDER_NAME  ` : The name for your auth provider (for example, `bigquery-mcp-3lo-authprovider` ).
+  - `  AUTHORIZATION_URL  ` : The authorization server URL (for example, `https://accounts.google.com/o/oauth2/v2/auth` ).
+  - `  TOKEN_URL  ` : The token server URL (for example, `https://oauth2.googleapis.com/token` ).
+  - `  CLIENT_ID  ` : The OAuth client ID you generated from the third-party service.
+  - `  CLIENT_SECRET  ` : The OAuth client secret you generated from the third-party service.
+  - `  ORGANIZATION_ID  ` : Your Google Cloud organization ID.
+  - `  PROJECT_NUMBER  ` : Your Google Cloud project number.
+  - `  ENGINE_ID  ` : The ID of your deployed reasoning engine agent.
+  - `  USER_EMAIL  ` : Your personal user account email address.
+
 ## Authenticate in your agent code
 
 To authenticate your agent, you can use the ADK.

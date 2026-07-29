@@ -26,7 +26,15 @@ This page lists the IAM roles and permissions for VM Migration. To search throug
 <td><h4 id="vmmigration.admin" class="role-title add-link" data-text="VM Migration Administrator" tabindex="-1">VM Migration Administrator</h4>
 <p>( <code dir="ltr" translate="no">roles/  vmmigration.admin</code> )</p>
 <p>Ability to view and edit all VM Migration objects</p></td>
-<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<td><p><code dir="ltr" translate="no">cloudkms.keyHandles.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
+<p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">vmmigration.*</code></p>
 <ul>

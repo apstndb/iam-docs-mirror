@@ -620,6 +620,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  attachNetworkEndpoints</code></li>

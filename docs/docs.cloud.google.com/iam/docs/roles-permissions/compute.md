@@ -250,6 +250,8 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  attachNetworkEndpoints</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  createTagBinding</code></li>
@@ -1300,6 +1302,11 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  attachNetworkEndpoints</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  create</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  delete</code></p>
@@ -3825,6 +3832,11 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  listEffectiveTags</code></p>
@@ -5215,6 +5227,7 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.healthChecks.get</code></p>
 <p><code dir="ltr" translate="no">compute.healthChecks.list</code></p>
 <p><code dir="ltr" translate="no">compute.  healthChecks.  listEffectiveTags</code></p>
@@ -5666,6 +5679,11 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <li><code dir="ltr" translate="no">compute.  firewalls.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  firewalls.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">compute.firewalls.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.globalOperations.get</code></p>
 <p><code dir="ltr" translate="no">compute.globalOperations.list</code></p>
@@ -6141,6 +6159,7 @@ This page lists the IAM roles and permissions for Compute Engine. To search thro
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  listEffectiveTags</code></p>
@@ -13430,6 +13449,65 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress#multiclusteringress.serviceAgent">Multi Cluster Ingress Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusteringress.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusterservicediscovery#multiclusterservicediscovery.serviceAgent">Multi-Cluster Service Discovery Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  multiclusterservicediscovery.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networksecurity#networksecurity.authzServiceAgent">Network Security Authz Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networksecurity.authzServiceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="compute.globalFrontendSettings.get" class="permission-name add-link" data-text="compute.globalFrontendSettings.get" tabindex="-1"><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.admin">Compute Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.editor">Compute Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkViewer">Compute Network Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.securityAdmin">Compute Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.viewer">Compute Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.admin">Notebooks Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.editor">Notebooks Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.viewer">Notebooks Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyViewer">Notebooks Legacy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.runner">Notebooks Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.runner</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.serviceAgent">Cloud Data Fusion API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep#dataprep.serviceAgent">Dataprep Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataprep.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="compute.globalFrontendSettings.update" class="permission-name add-link" data-text="compute.globalFrontendSettings.update" tabindex="-1"><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.admin">Compute Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.editor">Compute Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.networkAdmin">Compute Network Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/compute#compute.securityAdmin">Compute Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  compute.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.infrastructureAdmin">Infrastructure Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.infrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.networkAdmin">Network Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.networkAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#cloudtpu.serviceAgent">Cloud TPU V2 API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtpu.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.serviceAgent">Cloud Composer API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">

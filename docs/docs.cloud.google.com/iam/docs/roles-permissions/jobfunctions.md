@@ -958,11 +958,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.datascans.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.run</code></p>
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
-<p><code dir="ltr" translate="no">dataplex.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">dataplex.locations.get</code></li>
-<li><code dir="ltr" translate="no">dataplex.locations.list</code></li>
-</ul>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
@@ -2018,11 +2013,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">cloudsql.  instances.  addEntraIdCertificate</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.addServerCa</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  addServerCertificate</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  cancelAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.clone</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.connect</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.create</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  createTestingAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.delete</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  demoteMaster</code></li>
@@ -2030,9 +2027,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">cloudsql.instances.export</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.failover</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.get</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.import</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></li>
@@ -2138,6 +2137,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  listEffectiveTags</code></p>
@@ -3547,12 +3547,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.  instances.  addEntraIdCertificate</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.addServerCa</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  addServerCertificate</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  cancelAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.connect</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.failover</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></p>
@@ -4524,6 +4527,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  attachNetworkEndpoints</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  createTagBinding</code></li>
@@ -8458,6 +8463,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  attachNetworkEndpoints</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  createTagBinding</code></li>
@@ -10805,6 +10812,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.  parserExtensions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.parsers.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.parsingErrors.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.retrohunts.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.ruleDeployments.list</code></p>
@@ -11568,8 +11576,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></p>
@@ -11717,6 +11727,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  listEffectiveTags</code></p>
@@ -14994,8 +15005,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></p>
@@ -15130,6 +15143,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  attachNetworkEndpoints</code></li>
@@ -17709,6 +17723,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.  operations.  streamSearch</code></p>
 <p><code dir="ltr" translate="no">chronicle.operations.wait</code></p>
 <p><code dir="ltr" translate="no">chronicle.queries.suggestSql</code></p>
+<p><code dir="ltr" translate="no">chronicle.queryMetrics.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.get</code></li>
+<li><code dir="ltr" translate="no">chronicle.queryMetrics.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.referenceLists.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  referenceLists.  verifyReferenceList</code></p>
@@ -18646,8 +18665,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></p>
@@ -18921,6 +18942,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  globalForwardingRules.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.  listEffectiveTags</code></p>

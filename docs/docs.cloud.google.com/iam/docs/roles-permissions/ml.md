@@ -74,6 +74,60 @@ This page lists the IAM roles and permissions for AI Platform. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
 </tr>
 <tr class="even">
+<td><h4 id="ml.editor" class="role-title add-link" data-text="AI Platform Editor" tabindex="-1">AI Platform Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  ml.editor</code> )</p>
+<p>Editor role for AI Platform</p></td>
+<td><p><code dir="ltr" translate="no">ml.jobs.cancel</code></p>
+<p><code dir="ltr" translate="no">ml.jobs.create</code></p>
+<p><code dir="ltr" translate="no">ml.jobs.get</code></p>
+<p><code dir="ltr" translate="no">ml.jobs.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">ml.jobs.list</code></p>
+<p><code dir="ltr" translate="no">ml.jobs.update</code></p>
+<p><code dir="ltr" translate="no">ml.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ml.locations.get</code></li>
+<li><code dir="ltr" translate="no">ml.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ml.models.create</code></p>
+<p><code dir="ltr" translate="no">ml.models.delete</code></p>
+<p><code dir="ltr" translate="no">ml.models.get</code></p>
+<p><code dir="ltr" translate="no">ml.models.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">ml.models.list</code></p>
+<p><code dir="ltr" translate="no">ml.models.predict</code></p>
+<p><code dir="ltr" translate="no">ml.models.update</code></p>
+<p><code dir="ltr" translate="no">ml.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ml.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">ml.operations.get</code></li>
+<li><code dir="ltr" translate="no">ml.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ml.projects.getConfig</code></p>
+<p><code dir="ltr" translate="no">ml.studies.create</code></p>
+<p><code dir="ltr" translate="no">ml.studies.delete</code></p>
+<p><code dir="ltr" translate="no">ml.studies.get</code></p>
+<p><code dir="ltr" translate="no">ml.studies.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">ml.studies.list</code></p>
+<p><code dir="ltr" translate="no">ml.trials.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ml.trials.create</code></li>
+<li><code dir="ltr" translate="no">ml.trials.delete</code></li>
+<li><code dir="ltr" translate="no">ml.trials.get</code></li>
+<li><code dir="ltr" translate="no">ml.trials.list</code></li>
+<li><code dir="ltr" translate="no">ml.trials.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ml.versions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ml.versions.create</code></li>
+<li><code dir="ltr" translate="no">ml.versions.delete</code></li>
+<li><code dir="ltr" translate="no">ml.versions.get</code></li>
+<li><code dir="ltr" translate="no">ml.versions.list</code></li>
+<li><code dir="ltr" translate="no">ml.versions.predict</code></li>
+<li><code dir="ltr" translate="no">ml.versions.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="ml.viewer" class="role-title add-link" data-text="AI Platform Viewer" tabindex="-1">AI Platform Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p>Provides read-only access to AI Platform resources.</p>
@@ -102,7 +156,7 @@ This page lists the IAM roles and permissions for AI Platform. To search through
 <p><code dir="ltr" translate="no">ml.versions.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="ml.developer" class="role-title add-link" data-text="AI Platform Developer" tabindex="-1">AI Platform Developer</h4>
 <p>( <code dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p>Provides ability to use AI Platform resources for creating models, versions, jobs for training and prediction, and sending online prediction requests.</p>
@@ -149,7 +203,7 @@ This page lists the IAM roles and permissions for AI Platform. To search through
 <p><code dir="ltr" translate="no">ml.versions.predict</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="ml.jobOwner" class="role-title add-link" data-text="AI Platform Job Owner" tabindex="-1">AI Platform Job Owner</h4>
 <p>( <code dir="ltr" translate="no">roles/  ml.jobOwner</code> )</p>
 <p>Provides full access to all permissions for a particular job resource. This role is automatically granted to the user who creates the job.</p>
@@ -168,7 +222,7 @@ This page lists the IAM roles and permissions for AI Platform. To search through
 <li><code dir="ltr" translate="no">ml.jobs.update</code></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="ml.modelOwner" class="role-title add-link" data-text="AI Platform Model Owner" tabindex="-1">AI Platform Model Owner</h4>
 <p>( <code dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Provides full access to the model and its versions. This role is automatically granted to the user who creates the model.</p>
@@ -197,7 +251,7 @@ This page lists the IAM roles and permissions for AI Platform. To search through
 <li><code dir="ltr" translate="no">ml.versions.update</code></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="ml.modelUser" class="role-title add-link" data-text="AI Platform Model User" tabindex="-1">AI Platform Model User</h4>
 <p>( <code dir="ltr" translate="no">roles/  ml.modelUser</code> )</p>
 <p>Provides permissions to read the model and its versions, and use them for prediction.</p>
@@ -211,7 +265,7 @@ This page lists the IAM roles and permissions for AI Platform. To search through
 <p><code dir="ltr" translate="no">ml.versions.list</code></p>
 <p><code dir="ltr" translate="no">ml.versions.predict</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="ml.operationOwner" class="role-title add-link" data-text="AI Platform Operation Owner" tabindex="-1">AI Platform Operation Owner</h4>
 <p>( <code dir="ltr" translate="no">roles/  ml.operationOwner</code> )</p>
 <p>Provides full access to all permissions for a particular operation resource.</p>
@@ -486,6 +540,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.jobOwner">AI Platform Job Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.jobOwner</code> )</p></td>
 </tr>
 <tr class="even">
@@ -493,6 +548,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.jobOwner">AI Platform Job Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.jobOwner</code> )</p>
 <p>Service agent roles</p>
@@ -510,6 +566,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -531,6 +588,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -551,6 +609,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -577,6 +636,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.jobOwner">AI Platform Job Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.jobOwner</code> )</p></td>
 </tr>
 <tr class="even">
@@ -585,6 +645,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -604,6 +665,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -621,6 +683,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Service agent roles</p>
@@ -636,6 +699,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -651,6 +715,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -672,6 +737,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -692,6 +758,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -712,6 +779,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
@@ -743,6 +811,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -757,6 +826,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.operationOwner">AI Platform Operation Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.operationOwner</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -765,6 +835,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -786,6 +857,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -805,6 +877,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -821,6 +894,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -835,6 +909,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -850,6 +925,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -869,6 +945,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -889,6 +966,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -920,6 +998,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -934,6 +1013,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -949,6 +1029,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -968,6 +1049,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -985,6 +1067,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -999,6 +1082,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1013,6 +1097,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1028,6 +1113,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
@@ -1050,6 +1136,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.viewer">AI Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
@@ -1071,6 +1158,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.developer">AI Platform Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
@@ -1088,6 +1176,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.admin">AI Platform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.editor">AI Platform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ml#ml.modelOwner">AI Platform Model Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ml.modelOwner</code> )</p>
 <p>Service agent roles</p>
 <blockquote>

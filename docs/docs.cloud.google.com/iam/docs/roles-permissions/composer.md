@@ -1226,11 +1226,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">cloudsql.  instances.  addEntraIdCertificate</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.addServerCa</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  addServerCertificate</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  cancelAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.clone</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.connect</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.create</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  createTestingAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.delete</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  demoteMaster</code></li>
@@ -1238,9 +1240,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">cloudsql.instances.export</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.failover</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.get</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.import</code></li>
 <li><code dir="ltr" translate="no">cloudsql.instances.list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  instances.  listAgentSessions</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listEntraIdCertificates</code></li>
 <li><code dir="ltr" translate="no">cloudsql.  instances.  listServerCas</code></li>
@@ -1455,6 +1459,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setLabels</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  setTarget</code></li>
 <li><code dir="ltr" translate="no">compute.  globalForwardingRules.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.  globalFrontendSettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  globalFrontendSettings.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.  globalNetworkEndpointGroups.*</code></p>
 <ul>

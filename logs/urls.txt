@@ -19,7 +19,7 @@ https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-07-21T04:36:
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-07-21T04:42:43Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-07-21T04:42:43Z
-https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-07-21T04:42:43Z
+https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-07-29T04:20:11Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-07-21T04:36:15Z
@@ -31,9 +31,9 @@ https://docs.cloud.google.com/iam/docs/billing-questions	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/built-in-resource-identities	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/choose-predefined-roles	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/choose-role-type	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/conditions-attribute-reference	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/conditions-attribute-reference	2026-07-28T22:24:08Z
 https://docs.cloud.google.com/iam/docs/conditions-overview	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/conditions-resource-attributes	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/conditions-resource-attributes	2026-07-28T22:24:08Z
 https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/configure-scim-okta	2026-07-21T04:36:23Z
@@ -53,10 +53,10 @@ https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-07-
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/deny-access	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-07-21T04:36:15Z
-https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-07-21T22:26:11Z
-https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-07-28T23:10:15Z
+https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-07-28T22:24:08Z
 https://docs.cloud.google.com/iam/docs/federated-identity-architectures	2026-07-21T04:36:23Z
-https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/federated-identity-supported-services	2026-07-29T08:12:12Z
 https://docs.cloud.google.com/iam/docs/full-resource-names	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-07-21T04:36:30Z
@@ -661,7 +661,7 @@ https://docs.cloud.google.com/iam/docs/request-missing-permissions	2026-07-21T04
 https://docs.cloud.google.com/iam/docs/resolve-permission-errors	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	2026-07-21T04:36:15Z
-https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-07-21T22:26:11Z
+https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-07-28T23:10:39Z
 https://docs.cloud.google.com/iam/docs/resources	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-07-21T04:36:30Z
@@ -727,7 +727,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerymigration	2026-
 https://docs.cloud.google.com/iam/docs/roles-permissions/bigqueryomni	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/bigqueryspark	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/bigtable	2026-07-21T04:36:23Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/billing	2026-07-21T04:36:30Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/billing	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/binaryauthorization	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainnodeengine	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager	2026-07-21T04:36:30Z
@@ -738,7 +738,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/carestudio	2026-07-21T0
 https://docs.cloud.google.com/iam/docs/roles-permissions/certificatemanager	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/ces	2026-07-21T22:26:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/chat	2026-07-21T04:36:36Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle	2026-07-21T22:26:11Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/ciem	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/clientauthconfig	2026-07-21T04:36:23Z
@@ -756,7 +756,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions	2026-07-
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudiot	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery	2026-07-21T04:36:15Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms	2026-07-21T22:26:11Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudnotifications	2026-07-21T04:36:30Z
@@ -768,7 +768,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/cloudquotas	2026-07-21T
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudscheduler	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecurityscanner	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsql	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsupport	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtasks	2026-07-21T22:26:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtestservice	2026-07-21T04:36:15Z
@@ -783,7 +783,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/commercepricemanagement
 https://docs.cloud.google.com/iam/docs/roles-permissions/commerceproducer	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/compliancescanning	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/composer	2026-07-21T04:36:15Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/compute	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/compute	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/confidentialcomputing	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/config	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery	2026-07-21T04:36:23Z
@@ -810,7 +810,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/datalabeling	2026-07-21
 https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/datapipelines	2026-07-21T04:36:23Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex	2026-07-21T22:26:11Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/dataprep	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/dataprocessing	2026-07-21T04:36:15Z
@@ -921,7 +921,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/memorystore	2026-07-21T
 https://docs.cloud.google.com/iam/docs/roles-permissions/meshcontrolplane	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/metastore	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter	2026-07-21T04:36:23Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/ml	2026-07-21T04:36:36Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/ml	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/modelarmor	2026-07-21T22:26:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/monitoring	2026-07-21T22:26:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/multiclusteringress	2026-07-21T04:36:23Z
@@ -965,7 +965,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/redis	2026-07-21T04:36:
 https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/remotingcloud	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager	2026-07-21T04:36:30Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/resourcesettings	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/retail	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/riscconfigurationservice	2026-07-21T04:36:30Z
@@ -981,8 +981,8 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/seclm	2026-07-21T04:36:
 https://docs.cloud.google.com/iam/docs/roles-permissions/secretmanager	2026-07-21T22:26:11Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter	2026-07-28T22:54:47Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/securityposture	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/servicebroker	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/serviceconsumermanagement	2026-07-21T04:36:23Z
@@ -1007,7 +1007,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation	2026-07
 https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/threatintelligence	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights	2026-07-21T04:36:23Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/tpu	2026-07-21T04:36:23Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/tpu	2026-07-28T22:54:47Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/transcoder	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/transferappliance	2026-07-21T04:36:30Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/translationhub	2026-07-21T04:36:15Z
@@ -1028,7 +1028,7 @@ https://docs.cloud.google.com/iam/docs/samples	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/secure-iam-vpc-sc	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/service-account-creds	2026-07-21T04:36:15Z
 https://docs.cloud.google.com/iam/docs/service-account-impersonation	2026-07-21T04:36:30Z
-https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-07-21T04:36:15Z
+https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-07-28T12:53:38Z
 https://docs.cloud.google.com/iam/docs/service-account-overview	2026-07-21T04:36:36Z
 https://docs.cloud.google.com/iam/docs/service-account-permissions	2026-07-21T04:36:23Z
 https://docs.cloud.google.com/iam/docs/service-account-types	2026-07-21T04:36:36Z
