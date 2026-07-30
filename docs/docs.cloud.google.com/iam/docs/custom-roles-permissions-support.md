@@ -2118,6 +2118,7 @@ Enter the desired permission name or support level in the text box below:
 | `billing.billingAccountSkuGroups.list`                                         | `SUPPORTED`                |
 | `billing.billingAccountSkus.get`                                               | `SUPPORTED`                |
 | `billing.billingAccountSkus.list`                                              | `SUPPORTED`                |
+| `billing.budgets.configureSpendCap`                                            | `SUPPORTED`                |
 | `billing.budgets.create`                                                       | `TESTING`                  |
 | `billing.budgets.delete`                                                       | `SUPPORTED`                |
 | `billing.budgets.get`                                                          | `TESTING`                  |
@@ -2131,6 +2132,7 @@ Enter the desired permission name or support level in the text box below:
 | `billing.resourceAssociations.delete`                                          | `SUPPORTED`                |
 | `billing.resourceAssociations.list`                                            | `SUPPORTED`                |
 | `billing.resourceCosts.get`                                                    | `SUPPORTED`                |
+| `billing.resourcebudgets.configureSpendCap`                                    | `SUPPORTED`                |
 | `billing.resourcebudgets.read`                                                 | `SUPPORTED`                |
 | `billing.resourcebudgets.write`                                                | `SUPPORTED`                |
 | `billing.subscriptions.create`                                                 | `TESTING`                  |
@@ -2903,6 +2905,8 @@ Enter the desired permission name or support level in the text box below:
 | `chronicle.propertySchemaDefinitions.get`                                      | `SUPPORTED`                |
 | `chronicle.propertySchemaDefinitions.update`                                   | `SUPPORTED`                |
 | `chronicle.queries.suggestSql`                                                 | `SUPPORTED`                |
+| `chronicle.queryMetrics.get`                                                   | `SUPPORTED`                |
+| `chronicle.queryMetrics.list`                                                  | `SUPPORTED`                |
 | `chronicle.referenceLists.create`                                              | `SUPPORTED`                |
 | `chronicle.referenceLists.get`                                                 | `SUPPORTED`                |
 | `chronicle.referenceLists.list`                                                | `SUPPORTED`                |
@@ -4173,11 +4177,13 @@ Enter the desired permission name or support level in the text box below:
 | `cloudsql.instances.addEntraIdCertificate`                                     | `SUPPORTED`                |
 | `cloudsql.instances.addServerCa`                                               | `SUPPORTED`                |
 | `cloudsql.instances.addServerCertificate`                                      | `SUPPORTED`                |
+| `cloudsql.instances.cancelAgentSession`                                        | `SUPPORTED`                |
 | `cloudsql.instances.clone`                                                     | `SUPPORTED`                |
 | `cloudsql.instances.connect`                                                   | `SUPPORTED`                |
 | `cloudsql.instances.create`                                                    | `SUPPORTED`                |
 | `cloudsql.instances.createBackupDrBackup`                                      | `SUPPORTED`                |
 | `cloudsql.instances.createTagBinding`                                          | `SUPPORTED`                |
+| `cloudsql.instances.createTestingAgentSession`                                 | `SUPPORTED`                |
 | `cloudsql.instances.delete`                                                    | `SUPPORTED`                |
 | `cloudsql.instances.deleteTagBinding`                                          | `SUPPORTED`                |
 | `cloudsql.instances.demoteMaster`                                              | `SUPPORTED`                |
@@ -4185,9 +4191,11 @@ Enter the desired permission name or support level in the text box below:
 | `cloudsql.instances.export`                                                    | `SUPPORTED`                |
 | `cloudsql.instances.failover`                                                  | `SUPPORTED`                |
 | `cloudsql.instances.get`                                                       | `SUPPORTED`                |
+| `cloudsql.instances.getAgentSession`                                           | `SUPPORTED`                |
 | `cloudsql.instances.getDiskShrinkConfig`                                       | `SUPPORTED`                |
 | `cloudsql.instances.import`                                                    | `SUPPORTED`                |
 | `cloudsql.instances.list`                                                      | `SUPPORTED`                |
+| `cloudsql.instances.listAgentSessions`                                         | `SUPPORTED`                |
 | `cloudsql.instances.listEffectiveTags`                                         | `SUPPORTED`                |
 | `cloudsql.instances.listEntraIdCertificates`                                   | `SUPPORTED`                |
 | `cloudsql.instances.listServerCas`                                             | `SUPPORTED`                |
@@ -4701,6 +4709,8 @@ Enter the desired permission name or support level in the text box below:
 | `compute.globalForwardingRules.setLabels`                                      | `TESTING`                  |
 | `compute.globalForwardingRules.setTarget`                                      | `TESTING`                  |
 | `compute.globalForwardingRules.update`                                         | `SUPPORTED`                |
+| `compute.globalFrontendSettings.get`                                           | `SUPPORTED`                |
+| `compute.globalFrontendSettings.update`                                        | `SUPPORTED`                |
 | `compute.globalNetworkEndpointGroups.attachNetworkEndpoints`                   | `SUPPORTED`                |
 | `compute.globalNetworkEndpointGroups.create`                                   | `SUPPORTED`                |
 | `compute.globalNetworkEndpointGroups.createTagBinding`                         | `SUPPORTED`                |
