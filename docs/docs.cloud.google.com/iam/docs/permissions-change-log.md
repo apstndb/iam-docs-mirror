@@ -16,6 +16,191 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-07-28
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Google Kubernetes Engine</td>
+<td><p>The following permissions have been added to the Kubernetes Engine Admin role ( <code dir="ltr" translate="no">roles/container.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Kubernetes Engine</td>
+<td><p>The following permissions have been added to the Kubernetes Engine Cluster Admin role ( <code dir="ltr" translate="no">roles/container.clusterAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Data Fusion</td>
+<td><p>The following permissions have been removed from the Cloud Data Fusion API Service Agent role ( <code dir="ltr" translate="no">roles/datafusion.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been removed from the Data Scientist role ( <code dir="ltr" translate="no">roles/iam.dataScientist</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>AI Platform</td>
+<td><p>The AI Platform Editor role ( <code dir="ltr" translate="no">roles/ml.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Spanner</td>
+<td><p>The following permissions have been removed from the Cloud Spanner Database Reader role ( <code dir="ltr" translate="no">roles/spanner.databaseReader</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Spanner</td>
+<td><p>The following permissions have been removed from the Cloud Spanner Database Reader with DataBoost role ( <code dir="ltr" translate="no">roles/spanner.databaseReaderWithDataBoost</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Spanner</td>
+<td><p>The following permissions have been removed from the Cloud Spanner Database User role ( <code dir="ltr" translate="no">roles/spanner.databaseUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Spanner</td>
+<td><p>The following permissions have been removed from the Cloud Spanner Database Graph Intelligence features user role ( <code dir="ltr" translate="no">roles/spanner.graphIntelligenceUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud TPU</td>
+<td><p>The TPU Editor role ( <code dir="ltr" translate="no">roles/tpu.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>VM Migration</td>
+<td><p>The following permissions have been added to the VM Migration Administrator role ( <code dir="ltr" translate="no">roles/vmmigration.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Billing</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">billing.budgets.configureSpendCap</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">billing.resourcebudgets.configureSpendCap</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Billing</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">billing.budgets.configureSpendCap</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">billing.resourcebudgets.configureSpendCap</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Billing</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">billing.budgets.configureSpendCap</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">billing.resourcebudgets.configureSpendCap</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.queryMetrics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.queryMetrics.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.queryMetrics.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.queryMetrics.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud SQL</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.cancelAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.createTestingAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.getAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.listAgentSessions</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud SQL</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.cancelAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.createTestingAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.getAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.listAgentSessions</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud SQL</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.cancelAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.createTestingAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.getAgentSession</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.instances.listAgentSessions</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.globalFrontendSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.globalFrontendSettings.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.globalFrontendSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.globalFrontendSettings.update</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-07-21
 
 <table>

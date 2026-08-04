@@ -14,6 +14,14 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## July 27, 2026
+
+Feature
+
+Managed workload identities for Compute Engine are [generally available](https://cloud.google.com/products#product-launch-stages) .
+
+For more information, see [Configure managed workload identity authentication for Compute Engine](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities) .
+
 ## June 18, 2026
 
 Feature

@@ -8,6 +8,8 @@ data_source: docs.cloud.google.com
 
 In IAM, access changes, such as granting a role or denying a permission, are [eventually consistent](https://wikipedia.org/wiki/Eventual_consistency) . This means that it takes time for access changes to propagate through the system. In the meantime, recent access changes might not be effective everywhere. For example, principals might still be able to use a recently revoked role or a recently denied permission. Alternatively, they might not be able to use a recently granted role or a permission they were, until recently, denied from using.
 
+For information about how tag changes propagate and affect conditional access, see [Tag propagation](https://docs.cloud.google.com/resource-manager/docs/tags/tags-overview#propagation) .
+
 The amount of time it takes for an access change to propagate depends on how you make the access change:
 
 <table>
