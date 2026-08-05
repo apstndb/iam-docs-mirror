@@ -671,17 +671,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.vpnTunnels.create</code></p>
 <p><code dir="ltr" translate="no">compute.vpnTunnels.delete</code></p>
 <p><code dir="ltr" translate="no">compute.vpnTunnels.get</code></p>
+<p><code dir="ltr" translate="no">gkehub.endpoints.connect</code></p>
 <p><code dir="ltr" translate="no">gkehub.features.create</code></p>
 <p><code dir="ltr" translate="no">gkehub.features.get</code></p>
+<p><code dir="ltr" translate="no">gkehub.features.list</code></p>
 <p><code dir="ltr" translate="no">gkehub.features.update</code></p>
+<p><code dir="ltr" translate="no">gkehub.fleet.create</code></p>
+<p><code dir="ltr" translate="no">gkehub.fleet.delete</code></p>
+<p><code dir="ltr" translate="no">gkehub.fleet.get</code></p>
+<p><code dir="ltr" translate="no">gkehub.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">gkehub.locations.get</code></li>
+<li><code dir="ltr" translate="no">gkehub.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">gkehub.memberships.create</code></p>
 <p><code dir="ltr" translate="no">gkehub.memberships.delete</code></p>
 <p><code dir="ltr" translate="no">gkehub.  memberships.  generateConnectManifest</code></p>
 <p><code dir="ltr" translate="no">gkehub.memberships.get</code></p>
 <p><code dir="ltr" translate="no">gkehub.memberships.list</code></p>
 <p><code dir="ltr" translate="no">gkehub.memberships.update</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.cancel</code></p>
-<p><code dir="ltr" translate="no">gkehub.operations.get</code></p>
+<p><code dir="ltr" translate="no">gkehub.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">gkehub.operations.cancel</code></li>
+<li><code dir="ltr" translate="no">gkehub.operations.delete</code></li>
+<li><code dir="ltr" translate="no">gkehub.operations.get</code></li>
+<li><code dir="ltr" translate="no">gkehub.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.list</code></p></td>
 </tr>

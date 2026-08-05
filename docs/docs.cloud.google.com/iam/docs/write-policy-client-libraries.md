@@ -696,9 +696,9 @@ Congratulations\! You used the IAM methods in the Resource Manager API to modify
 
 ## How did it go?
 
-> **Great\!** What did you like about the quickstart? What could we have done better? [Let us know\!](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries) .
+> **Great\!** What did you like about the quickstart? What could we have done better? [Let us know\!](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries#) .
 
-> **We're sorry to hear that.** [Let us know what went wrong](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries) . We'll want to fix it.
+> **We're sorry to hear that.** [Let us know what went wrong](https://docs.cloud.google.com/iam/docs/write-policy-client-libraries#) . We'll want to fix it.
 
 ## Clean up
 

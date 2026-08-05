@@ -448,6 +448,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebaseappcheck.  safetyNetConfig.  update</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.services.get</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.  services.  update</code></li>
+<li><code dir="ltr" translate="no">firebaseappcheck.tokens.mint</code></li>
 </ul>
 <p><code dir="ltr" translate="no">firebaseappdistro.*</code></p>
 <ul>
@@ -559,6 +560,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphql</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphqlRead</code></li>
+<li><code dir="ltr" translate="no">firebasedataconnect.  services.  generateQuery</code></li>
+<li><code dir="ltr" translate="no">firebasedataconnect.  services.  generateSchema</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></li>
@@ -1279,6 +1282,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateQuery</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateSchema</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></p>
@@ -1658,6 +1663,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateQuery</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateSchema</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></p>
@@ -2185,6 +2192,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebaseappcheck.  safetyNetConfig.  update</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.services.get</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.  services.  update</code></li>
+<li><code dir="ltr" translate="no">firebaseappcheck.tokens.mint</code></li>
 </ul>
 <p><code dir="ltr" translate="no">firebaseapphosting.*</code></p>
 <ul>
@@ -2272,6 +2280,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphql</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphqlRead</code></li>
+<li><code dir="ltr" translate="no">firebasedataconnect.  services.  generateQuery</code></li>
+<li><code dir="ltr" translate="no">firebasedataconnect.  services.  generateSchema</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></li>
@@ -2828,6 +2838,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateQuery</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateSchema</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></p>
@@ -3496,6 +3508,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">firebaseappcheck.  safetyNetConfig.  update</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.services.get</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.  services.  update</code></li>
+<li><code dir="ltr" translate="no">firebaseappcheck.tokens.mint</code></li>
 </ul>
 <p><code dir="ltr" translate="no">firebaseauth.configs.create</code></p>
 <p><code dir="ltr" translate="no">firebaseauth.configs.get</code></p>
@@ -3521,11 +3534,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">firebasedatabase.  instances.  undelete</code></li>
 <li><code dir="ltr" translate="no">firebasedatabase.  instances.  update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">firebasedataconnect.*</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  connectorRevisions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectorRevisions.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectorRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectorRevisions.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.  connectors.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectors.  create</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectors.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectors.  get</code></li>
@@ -3533,29 +3549,41 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectors.  impersonateQuery</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectors.  list</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  connectors.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.  locations.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">firebasedataconnect.  locations.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  locations.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.  operations.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">firebasedataconnect.  operations.  cancel</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  operations.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  operations.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  operations.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.schemas.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  create</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  update</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  create</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphql</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphqlRead</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  services.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  create</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphql</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphqlRead</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  update</code></p>
 <p><code dir="ltr" translate="no">firebasehosting.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">firebasehosting.sites.create</code></li>

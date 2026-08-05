@@ -1135,6 +1135,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">file.backups.create</code></p>
 <p><code dir="ltr" translate="no">file.  instances.  createCrossProjectBackup</code></p>
 <p><code dir="ltr" translate="no">file.instances.get</code></p>
+<p><code dir="ltr" translate="no">file.operations.get</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.list</code></p>

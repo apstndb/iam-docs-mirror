@@ -67,6 +67,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  devToolsConfigs.  get</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  projectOverageConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p></td>
 </tr>
 </tbody>

@@ -399,7 +399,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">agentregistry.locations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.publishers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
@@ -1812,11 +1815,15 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">discoveryengine.branches.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cannedQueries.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cmekConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  connectorRuns.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.controls.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  conversations.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.documents.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.engines.list</code></p>
@@ -3235,7 +3242,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">agentregistry.locations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.publishers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
@@ -4490,10 +4500,12 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">discoveryengine.branches.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cannedQueries.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cmekConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  connectorRuns.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.controls.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  conversations.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.documents.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  getIamPolicy</code></p>

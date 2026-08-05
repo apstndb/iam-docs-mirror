@@ -34,6 +34,7 @@ This page lists the IAM roles and permissions for Datastream. To search through 
 </ul>
 <p><code dir="ltr" translate="no">cloudkms.operations.get</code></p>
 <p><code dir="ltr" translate="no">cloudkms.  projects.  showEffectiveAutokeyConfig</code></p>
+<p><code dir="ltr" translate="no">compute.networkAttachments.use</code></p>
 <p><code dir="ltr" translate="no">datastream.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">datastream.  connectionProfiles.  create</code></li>

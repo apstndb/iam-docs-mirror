@@ -54,6 +54,7 @@ This page lists the IAM roles and permissions for Firebase App Check. To search 
 <li><code dir="ltr" translate="no">firebaseappcheck.  safetyNetConfig.  update</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.services.get</code></li>
 <li><code dir="ltr" translate="no">firebaseappcheck.  services.  update</code></li>
+<li><code dir="ltr" translate="no">firebaseappcheck.tokens.mint</code></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -591,6 +592,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.managementServiceAgent">Firebase Service Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.managementServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="firebaseappcheck.tokens.mint" class="permission-name add-link" data-text="firebaseappcheck.tokens.mint" tabindex="-1"><code dir="ltr" translate="no">firebaseappcheck.tokens.mint</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseappcheck#firebaseappcheck.admin">Firebase App Check Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseappcheck.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.sdkAdminServiceAgent">Firebase Admin SDK Administrator Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.sdkAdminServiceAgent</code> )</li>
 </ul></td>
 </tr>

@@ -12,7 +12,7 @@ gcloud iam policy-bindings create - create PolicyBinding instance
 
 SYNOPSIS
 
-`gcloud iam policy-bindings create` ( `  POLICY_BINDING  ` : `  --folder  ` = `  FOLDER  ` `  --location  ` = `  LOCATION  ` `  --organization  ` = `  ORGANIZATION  ` ) `  --policy  ` = `  POLICY  ` `  --target-principal-set  ` = `  TARGET_PRINCIPAL_SET  ` \[ `  --annotations  ` =\[ `  ANNOTATIONS  ` , …\]\] \[ `  --async  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  --etag  ` = `  ETAG  ` \] \[ `  --policy-kind  ` = `  POLICY_KIND  ` \] \[ `  --condition-description  ` = `  CONDITION_DESCRIPTION  ` `  --condition-expression  ` = `  CONDITION_EXPRESSION  ` `  --condition-location  ` = `  CONDITION_LOCATION  ` `  --condition-title  ` = `  CONDITION_TITLE  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
+`gcloud iam policy-bindings create` ( `  POLICY_BINDING  ` : `  --folder  ` = `  FOLDER  ` `  --location  ` = `  LOCATION  ` `  --organization  ` = `  ORGANIZATION  ` ) `  --policy  ` = `  POLICY  ` ( `  --target-principal-set  ` = `  TARGET_PRINCIPAL_SET  ` | `  --target-resource  ` = `  TARGET_RESOURCE  ` ) \[ `  --annotations  ` =\[ `  ANNOTATIONS  ` , …\]\] \[ `  --async  ` \] \[ `  --display-name  ` = `  DISPLAY_NAME  ` \] \[ `  --etag  ` = `  ETAG  ` \] \[ `  --policy-kind  ` = `  POLICY_KIND  ` \] \[ `  --condition-description  ` = `  CONDITION_DESCRIPTION  ` `  --condition-expression  ` = `  CONDITION_EXPRESSION  ` `  --condition-location  ` = `  CONDITION_LOCATION  ` `  --condition-title  ` = `  CONDITION_TITLE  ` \] \[ `  GCLOUD_WIDE_FLAG …  ` \]
 
 DESCRIPTION
 
@@ -107,6 +107,17 @@ At most one of these can be specified:
               - `//cloudresourcemanager.googleapis.com/projects/PROJECT_ID`
           - Workload Identity Pool: `//iam.googleapis.com/projects/PROJECT_NUMBER/locations/LOCATION/workloadIdentityPools/WORKLOAD_POOL_ID`
 
+  - `--target-resource` = `  TARGET_RESOURCE  `  
+    The full resource name that's used for access policy bindings.
+    
+    Examples:
+    
+      - Organization: `//cloudresourcemanager.googleapis.com/organizations/ORGANIZATION_ID`
+          - Folder: `//cloudresourcemanager.googleapis.com/folders/FOLDER_ID`
+              - Project:
+                  - `//cloudresourcemanager.googleapis.com/projects/PROJECT_NUMBER`
+                  - `//cloudresourcemanager.googleapis.com/projects/PROJECT_ID`
+
 OPTIONAL FLAGS
 
 `--annotations` =\[ `  ANNOTATIONS  ` ,…\]
@@ -149,8 +160,10 @@ The kind of the policy to attach in this binding. This field must be one of the 
   - Left empty (will be automatically set to the policy kind)
   - The input policy kind.
 
-`  POLICY_KIND  ` must be (only one value is supported):
+`  POLICY_KIND  ` must be one of:
 
+  - `access`  
+    Access policy kind.
   - `principal-access-boundary`  
     Principal access boundary policy kind
 

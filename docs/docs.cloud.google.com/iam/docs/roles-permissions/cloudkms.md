@@ -77,6 +77,7 @@ This page lists the IAM roles and permissions for Cloud Key Management Service. 
 <p><code dir="ltr" translate="no">cloudkms.importJobs.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">cloudkms.importJobs.create</code></li>
+<li><code dir="ltr" translate="no">cloudkms.importJobs.delete</code></li>
 <li><code dir="ltr" translate="no">cloudkms.importJobs.get</code></li>
 <li><code dir="ltr" translate="no">cloudkms.  importJobs.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">cloudkms.importJobs.list</code></li>
@@ -98,6 +99,7 @@ This page lists the IAM roles and permissions for Cloud Key Management Service. 
 <ul>
 <li><code dir="ltr" translate="no">cloudkms.keyRings.create</code></li>
 <li><code dir="ltr" translate="no">cloudkms.  keyRings.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">cloudkms.keyRings.delete</code></li>
 <li><code dir="ltr" translate="no">cloudkms.  keyRings.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">cloudkms.keyRings.get</code></li>
 <li><code dir="ltr" translate="no">cloudkms.keyRings.getIamPolicy</code></li>
@@ -1049,6 +1051,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.importer">Cloud KMS Importer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.importer</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="cloudkms.importJobs.delete" class="permission-name add-link" data-text="cloudkms.importJobs.delete" tabindex="-1"><code dir="ltr" translate="no">cloudkms.importJobs.delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.admin">Cloud KMS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.admin</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="cloudkms.importJobs.get" class="permission-name add-link" data-text="cloudkms.importJobs.get" tabindex="-1"><code dir="ltr" translate="no">cloudkms.importJobs.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1062,7 +1070,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudkms.importJobs.getIamPolicy" class="permission-name add-link" data-text="cloudkms.importJobs.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudkms.  importJobs.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1073,7 +1081,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudkms.importJobs.list" class="permission-name add-link" data-text="cloudkms.importJobs.list" tabindex="-1"><code dir="ltr" translate="no">cloudkms.importJobs.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1089,20 +1097,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudkms.importJobs.setIamPolicy" class="permission-name add-link" data-text="cloudkms.importJobs.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">cloudkms.  importJobs.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.admin">Cloud KMS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudkms.importJobs.useToImport" class="permission-name add-link" data-text="cloudkms.importJobs.useToImport" tabindex="-1"><code dir="ltr" translate="no">cloudkms.  importJobs.  useToImport</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.admin">Cloud KMS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.importer">Cloud KMS Importer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.importer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudkms.kajPolicyConfigs.get" class="permission-name add-link" data-text="cloudkms.kajPolicyConfigs.get" tabindex="-1"><code dir="ltr" translate="no">cloudkms.kajPolicyConfigs.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1116,14 +1124,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudkms.kajPolicyConfigs.update" class="permission-name add-link" data-text="cloudkms.kajPolicyConfigs.update" tabindex="-1"><code dir="ltr" translate="no">cloudkms.  kajPolicyConfigs.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.admin">Cloud KMS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.keyAccessJustificationsPolicyConfigAdmin">Key Access Justifications Policy Config Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.keyAccessJustificationsPolicyConfigAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudkms.keyHandles.create" class="permission-name add-link" data-text="cloudkms.keyHandles.create" tabindex="-1"><code dir="ltr" translate="no">cloudkms.keyHandles.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1189,7 +1197,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.instanceOwner">Secure Source Manager Instance Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.instanceOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseAdmin">Cloud Spanner Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudkms.keyHandles.get" class="permission-name add-link" data-text="cloudkms.keyHandles.get" tabindex="-1"><code dir="ltr" translate="no">cloudkms.keyHandles.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1259,7 +1267,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.instanceOwner">Secure Source Manager Instance Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.instanceOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseAdmin">Cloud Spanner Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudkms.keyHandles.list" class="permission-name add-link" data-text="cloudkms.keyHandles.list" tabindex="-1"><code dir="ltr" translate="no">cloudkms.keyHandles.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1331,7 +1339,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.instanceOwner">Secure Source Manager Instance Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.instanceOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.databaseAdmin">Cloud Spanner Database Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.databaseAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="cloudkms.keyRings.create" class="permission-name add-link" data-text="cloudkms.keyRings.create" tabindex="-1"><code dir="ltr" translate="no">cloudkms.keyRings.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1345,13 +1353,19 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.serviceAgent">Cloud KMS Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="cloudkms.keyRings.createTagBinding" class="permission-name add-link" data-text="cloudkms.keyRings.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">cloudkms.  keyRings.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.admin">Cloud KMS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="cloudkms.keyRings.delete" class="permission-name add-link" data-text="cloudkms.keyRings.delete" tabindex="-1"><code dir="ltr" translate="no">cloudkms.keyRings.delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.admin">Cloud KMS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudkms.keyRings.deleteTagBinding" class="permission-name add-link" data-text="cloudkms.keyRings.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">cloudkms.  keyRings.  deleteTagBinding</code></h4></td>

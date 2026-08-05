@@ -33,11 +33,11 @@ After you trigger service agent creation, you must grant the service agents the 
 
 To get the permissions that you need to create and grant access to service agents, ask your administrator to grant you the following IAM roles on the projects, folders, and organizations that you're creating service agents for and granting access to:
 
-  - List available services and their endpoints: Service Usage Viewer ( `roles/serviceusage.serviceUsageViewer` )
-  - Enable service agents: Workload Identity API Admin ( `roles/workloadidentity.admin` )
-  - Grant service agents access to a project: Project IAM Admin ( `roles/resourcemanager.projectIamAdmin` )
-  - Grant service agents access to a folder: Folder Admin ( `roles/resourcemanager.folderAdmin` )
-  - Grant service agents access to projects, folders, and organizations: Organization Admin ( `roles/resourcemanager.organizationAdmin` )
+  - List available services and their endpoints: [Service Usage Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/serviceusage#serviceusage.serviceUsageViewer) ( `roles/serviceusage.serviceUsageViewer` )
+  - Enable service agents: [Workload Identity API Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/workloadidentity#workloadidentity.admin) ( `roles/workloadidentity.admin` )
+  - Grant service agents access to a project: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` )
+  - Grant service agents access to a folder: [Folder Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin) ( `roles/resourcemanager.folderAdmin` )
+  - Grant service agents access to projects, folders, and organizations: [Organization Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 

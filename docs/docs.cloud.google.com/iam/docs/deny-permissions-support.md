@@ -222,6 +222,12 @@ Agent Registry
 
 `agentregistry.googleapis.com/operations.list`
 
+`agentregistry.googleapis.com/publishers.*`
+
+`agentregistry.googleapis.com/publishers.get`
+
+`agentregistry.googleapis.com/publishers.list`
+
 `agentregistry.googleapis.com/services.*`
 
 `agentregistry.googleapis.com/services.create`
@@ -233,6 +239,30 @@ Agent Registry
 `agentregistry.googleapis.com/services.list`
 
 `agentregistry.googleapis.com/services.update`
+
+`agentregistry.googleapis.com/skillRevisions.*`
+
+`agentregistry.googleapis.com/skillRevisions.create`
+
+`agentregistry.googleapis.com/skillRevisions.delete`
+
+`agentregistry.googleapis.com/skillRevisions.get`
+
+`agentregistry.googleapis.com/skillRevisions.list`
+
+`agentregistry.googleapis.com/skills.*`
+
+`agentregistry.googleapis.com/skills.create`
+
+`agentregistry.googleapis.com/skills.delete`
+
+`agentregistry.googleapis.com/skills.get`
+
+`agentregistry.googleapis.com/skills.list`
+
+`agentregistry.googleapis.com/skills.search`
+
+`agentregistry.googleapis.com/skills.update`
 
 Gemini Enterprise Agent Platform
 
@@ -6754,6 +6784,8 @@ Cloud Key Management Service
 
 `cloudkms.googleapis.com/importJobs.create`
 
+`cloudkms.googleapis.com/importJobs.delete`
+
 `cloudkms.googleapis.com/importJobs.get`
 
 `cloudkms.googleapis.com/importJobs.list`
@@ -6773,6 +6805,8 @@ Cloud Key Management Service
 `cloudkms.googleapis.com/keyHandles.list`
 
 `cloudkms.googleapis.com/keyRings.create`
+
+`cloudkms.googleapis.com/keyRings.delete`
 
 `cloudkms.googleapis.com/keyRings.get`
 
@@ -11138,6 +11172,10 @@ Data Lineage API
 
 `datalineage.googleapis.com/locations.searchLinks`
 
+`datalineage.googleapis.com/operations.*`
+
+`datalineage.googleapis.com/operations.get`
+
 `datalineage.googleapis.com/processes.*`
 
 `datalineage.googleapis.com/processes.create`
@@ -12506,7 +12544,11 @@ Discovery Engine
 
 `discoveryengine.googleapis.com/collections.get`
 
+`discoveryengine.googleapis.com/collections.getIamPolicy`
+
 `discoveryengine.googleapis.com/collections.list`
+
+`discoveryengine.googleapis.com/collections.setIamPolicy`
 
 `discoveryengine.googleapis.com/completionConfigs.*`
 
@@ -12588,9 +12630,13 @@ Discovery Engine
 
 `discoveryengine.googleapis.com/dataStores.get`
 
+`discoveryengine.googleapis.com/dataStores.getIamPolicy`
+
 `discoveryengine.googleapis.com/dataStores.list`
 
 `discoveryengine.googleapis.com/dataStores.listCustomModels`
+
+`discoveryengine.googleapis.com/dataStores.setIamPolicy`
 
 `discoveryengine.googleapis.com/dataStores.trainCustomModel`
 
@@ -12807,6 +12853,10 @@ Discovery Engine
 `discoveryengine.googleapis.com/podcasts.*`
 
 `discoveryengine.googleapis.com/podcasts.create`
+
+`discoveryengine.googleapis.com/projectOverageConfigs.*`
+
+`discoveryengine.googleapis.com/projectOverageConfigs.get`
 
 `discoveryengine.googleapis.com/projects.*`
 
@@ -13106,6 +13156,16 @@ Sensitive Data Protection
 
 `dlp.googleapis.com/jobs.list`
 
+`dlp.googleapis.com/kms.*`
+
+`dlp.googleapis.com/kms.encrypt`
+
+`dlp.googleapis.com/locations.*`
+
+`dlp.googleapis.com/locations.get`
+
+`dlp.googleapis.com/locations.list`
+
 `dlp.googleapis.com/projectDataProfiles.*`
 
 `dlp.googleapis.com/projectDataProfiles.get`
@@ -13124,9 +13184,17 @@ Sensitive Data Protection
 
 `dlp.googleapis.com/storedInfoTypes.update`
 
+`dlp.googleapis.com/subscriptions.*`
+
+`dlp.googleapis.com/subscriptions.cancel`
+
+`dlp.googleapis.com/subscriptions.create`
+
 `dlp.googleapis.com/subscriptions.get`
 
 `dlp.googleapis.com/subscriptions.list`
+
+`dlp.googleapis.com/subscriptions.update`
 
 `dlp.googleapis.com/tableDataProfiles.*`
 
@@ -13768,6 +13836,10 @@ Firebase App Check
 
 `firebaseappcheck.googleapis.com/automations.update`
 
+`firebaseappcheck.googleapis.com/tokens.*`
+
+`firebaseappcheck.googleapis.com/tokens.mint`
+
 Firebase App Hosting
 
 `firebaseapphosting.googleapis.com/*.*`
@@ -13915,6 +13987,10 @@ Firebase Data Connect
 `firebasedataconnect.googleapis.com/services.executeGraphql`
 
 `firebasedataconnect.googleapis.com/services.executeGraphqlRead`
+
+`firebasedataconnect.googleapis.com/services.generateQuery`
+
+`firebasedataconnect.googleapis.com/services.generateSchema`
 
 `firebasedataconnect.googleapis.com/services.get`
 
@@ -16138,7 +16214,11 @@ Memorystore for Memcached
 
 Memorystore
 
+`memorystore.googleapis.com/backupCollections.*`
+
 `memorystore.googleapis.com/backupCollections.get`
+
+`memorystore.googleapis.com/backupCollections.list`
 
 `memorystore.googleapis.com/backups.export`
 

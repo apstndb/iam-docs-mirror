@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="agentidentity.admin" class="role-title add-link" data-text="Auth Provider Admin Beta" tabindex="-1">Auth Provider Admin <sup>Beta</sup></h4>
+<td><h4 id="agentidentity.admin" class="role-title add-link" data-text="Agent Identity Admin" tabindex="-1">Agent Identity Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p>Grants access to manage auth providers, authorizations, and access summaries.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
@@ -54,7 +54,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="agentidentity.editor" class="role-title add-link" data-text="Agent Identity Editor Beta" tabindex="-1">Agent Identity Editor <sup>Beta</sup></h4>
+<td><h4 id="agentidentity.editor" class="role-title add-link" data-text="Agent Identity Editor" tabindex="-1">Agent Identity Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p>Grants access to edit auth providers, authorizations, and access summaries.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
@@ -84,7 +84,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 </ul></td>
 </tr>
 <tr class="odd">
-<td><h4 id="agentidentity.viewer" class="role-title add-link" data-text="Agent Identity Viewer Beta" tabindex="-1">Agent Identity Viewer <sup>Beta</sup></h4>
+<td><h4 id="agentidentity.viewer" class="role-title add-link" data-text="Agent Identity Viewer" tabindex="-1">Agent Identity Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p>Grants access to view auth providers, authorizations, and access summaries.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  accessSummaries.*</code></p>
@@ -105,7 +105,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="agentidentity.user" class="role-title add-link" data-text="Auth Provider User Beta" tabindex="-1">Auth Provider User <sup>Beta</sup></h4>
+<td><h4 id="agentidentity.user" class="role-title add-link" data-text="Agent Identity User" tabindex="-1">Agent Identity User</h4>
 <p>( <code dir="ltr" translate="no">roles/  agentidentity.user</code> )</p>
 <p>Grants access to retrieve credentials from auth providers.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  authProviders.  retrieveCredentials</code></p></td>
@@ -132,7 +132,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -145,7 +145,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -160,7 +160,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><h4 id="agentidentity.authProviders.create" class="permission-name add-link" data-text="agentidentity.authProviders.create" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
@@ -169,7 +169,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><h4 id="agentidentity.authProviders.delete" class="permission-name add-link" data-text="agentidentity.authProviders.delete" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
@@ -179,7 +179,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -192,7 +192,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -208,7 +208,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -224,7 +224,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -234,14 +234,14 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 </tr>
 <tr class="odd">
 <td><h4 id="agentidentity.authProviders.retrieveCredentials" class="permission-name add-link" data-text="agentidentity.authProviders.retrieveCredentials" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  retrieveCredentials</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.user">Auth Provider User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.user</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.user">Agent Identity User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.user">Connector User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.user</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="agentidentity.authProviders.revokeAuthorizations" class="permission-name add-link" data-text="agentidentity.authProviders.revokeAuthorizations" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  revokeAuthorizations</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
@@ -249,7 +249,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <tr class="odd">
 <td><h4 id="agentidentity.authProviders.setIamPolicy" class="permission-name add-link" data-text="agentidentity.authProviders.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p></td>
 </tr>
@@ -257,7 +257,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><h4 id="agentidentity.authProviders.undelete" class="permission-name add-link" data-text="agentidentity.authProviders.undelete" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
@@ -266,7 +266,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><h4 id="agentidentity.authProviders.update" class="permission-name add-link" data-text="agentidentity.authProviders.update" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authProviders.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
@@ -275,7 +275,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><h4 id="agentidentity.authorizations.delete" class="permission-name add-link" data-text="agentidentity.authorizations.delete" tabindex="-1"><code dir="ltr" translate="no">agentidentity.  authorizations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.editor">Connector Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.editor</code> )</p></td>
@@ -285,7 +285,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -298,7 +298,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -314,7 +314,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iamconnectors#iamconnectors.admin">Connector Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iamconnectors.admin</code> )</p>
@@ -327,7 +327,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Auth Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.admin">Agent Identity Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.editor">Agent Identity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity#agentidentity.viewer">Agent Identity Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentidentity.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>

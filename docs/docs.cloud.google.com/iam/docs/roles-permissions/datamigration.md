@@ -27,6 +27,7 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <p>( <code dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
 <p>Full access to all resources of Database Migration.</p></td>
 <td><p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
+<p><code dir="ltr" translate="no">compute.networkAttachments.use</code></p>
 <p><code dir="ltr" translate="no">datamigration.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">datamigration.  connectionprofiles.  create</code></li>
@@ -92,6 +93,7 @@ This page lists the IAM roles and permissions for Database Migration Service. To
 <p>( <code dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
 <p>Editor role for datamigration</p></td>
 <td><p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
+<p><code dir="ltr" translate="no">compute.networkAttachments.use</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  create</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  delete</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></p>

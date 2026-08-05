@@ -1122,6 +1122,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">eventarc.triggers.undelete</code></p>
 <p><code dir="ltr" translate="no">eventarc.triggers.update</code></p>
 <p><code dir="ltr" translate="no">geminicloudassist.  agents.  invoke</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  get</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  dataAgents.  list</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
 <p><code dir="ltr" translate="no">geminidataanalytics.  locations.  useDataEngineeringAgent</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
@@ -10182,7 +10185,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">agentregistry.locations.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.publishers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
@@ -12638,10 +12644,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">discoveryengine.branches.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cannedQueries.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cmekConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  connectorRuns.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.controls.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  conversations.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.documents.list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  engines.  getIamPolicy</code></p>
@@ -16245,8 +16253,18 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">agentregistry.operations.get</code></p>
 <p><code dir="ltr" translate="no">agentregistry.operations.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.publishers.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">agentregistry.publishers.get</code></li>
+<li><code dir="ltr" translate="no">agentregistry.publishers.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">agentregistry.services.get</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  get</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.get</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.search</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.get</code></p>
@@ -20376,6 +20394,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">discoveryengine.  cmekConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  cmekConfigs.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  completeQuery</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  completionConfigs.  get</code></p>
@@ -20390,6 +20409,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  queryAvailableActions</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  completeQuery</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataStores.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  listCustomModels</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  devToolsConfigs.  get</code></p>
@@ -20436,6 +20456,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">discoveryengine.operations.get</code></li>
 <li><code dir="ltr" translate="no">discoveryengine.  operations.  list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">discoveryengine.  projectOverageConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.projects.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  rankingConfigs.  rank</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  sampleQueries.  get</code></p>
@@ -20907,6 +20928,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateQuery</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  services.  generateSchema</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  get</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  introspectGraphql</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  list</code></p>

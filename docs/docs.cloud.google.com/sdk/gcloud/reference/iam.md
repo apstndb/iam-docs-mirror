@@ -32,6 +32,8 @@ GROUPS
 
 `  GROUP  ` is one of the following:
 
+  - `  access-policies  `  
+    Manage Access Policy resources.
   - `  oauth-clients  `  
     Create and manage OAuth clients.
   - `  policies  `  

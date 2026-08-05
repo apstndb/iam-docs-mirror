@@ -1,8 +1,1 @@
-200 https://docs.cloud.google.com/iam/docs/pam-custom-constraints
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/create
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/delete
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/describe
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/list
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/search-policy-bindings
-200 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/update
+
