@@ -8,8 +8,6 @@ data_source: docs.cloud.google.com
 
 This document describes how to configure [managed workload identities](https://docs.cloud.google.com/iam/docs/managed-workload-identity) for Compute Engine by using the gcloud CLI. It also describes how to set up automatic provisioning and lifecycle management of managed workload identities for Compute Engine by using [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) , which lets you establish mutual TLS (mTLS) connections between workloads.
 
-To request access to managed workload identities for Compute Engine, complete the [access request form](https://forms.gle/KC1Lq77gMn3kTtWDA) .
-
 ## Before you begin
 
 1.  [Create or select a Google Cloud project](https://cloud.google.com/resource-manager/docs/creating-managing-projects) .
@@ -47,7 +45,7 @@ To request access to managed workload identities for Compute Engine, complete th
     
         gcloud services enable iam.googleapis.com privateca.googleapis.com
 
-6.  Configure Google Cloud CLI to use the project that was added to the allowlist for billing and quota.
+6.  Configure Google Cloud CLI to use a project for billing and quota.
     
         gcloud config set billing/quota_project PROJECT_ID
     
@@ -343,9 +341,10 @@ This section describes how to set up an [attestation policy](https://docs.cloud.
 
 Verification is based on one of the following attributes of the workload:
 
-  - VM instance ID
   - Attached service account email address
   - Attached service account UID
+  - VM instance name
+  - VM instance ID
 
 > **Deprecated:** Workload sources are deprecated as of October 11, 2024. As of this date, you can no longer create new workload sources. Existing workload sources will be removed on or after April 24, 2025. Attestations based on workload sources will fail. To prevent disruption, we recommend that you attest using another method described later in this document. To learn how to list previously configured workload sources, use the following command: `gcloud iam workload-identity-pools managed-identities workload-sources list --help` .
 
@@ -353,7 +352,7 @@ Verification is based on one of the following attributes of the workload:
 
 To create an attestation policy that lets your workload use the managed identity, do the following:
 
-1.  Decide whether you want to create an attestation policy that lets your workload attest the managed identity by using its attached service account or by using its instance ID.
+1.  Decide whether you want to create an attestation policy that lets your workload attest the managed identity by using its attached service account, by using its instance name, or by using its instance ID.
 
 2.  Create a JSON-formatted attestation policy file.
     
@@ -363,7 +362,7 @@ To create an attestation policy that lets your workload use the managed identity
         
         Replace `  SERVICE_ACCOUNT_NAME  ` with the name of the service account
     
-    2.  Create a JSON-formatted attestation policy file that attests based on the service account email address, service account UID, or instance ID.
+    2.  Create a JSON-formatted attestation policy file that attests based on the service account email address, service account UID, the instance name, or the instance ID.
         
         ### Service account email address
         
@@ -380,13 +379,11 @@ To create an attestation policy that lets your workload use the managed identity
         Replace the following:
         
           - `  WORKLOAD_PROJECT_NUMBER  ` : the number of the project that contains the VM instance or service account
-        
-        To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
-        
-        ``` 
-           gcloud projects describe $(gcloud config get-value project) \
-              --format="value(projectNumber)"
-        ```
+            
+            To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
+            
+                gcloud projects describe $(gcloud config get-value project) \
+                  --format="value(projectNumber)"
         
           - `  SERVICE_ACCOUNT_EMAIL  ` : the email address of the service account attached to the VM
         
@@ -405,13 +402,11 @@ To create an attestation policy that lets your workload use the managed identity
         Replace the following:
         
           - `  WORKLOAD_PROJECT_NUMBER  ` : the number of the project that contains the VM instance or service account
-        
-        To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
-        
-        ``` 
-           gcloud projects describe $(gcloud config get-value project) \
-              --format="value(projectNumber)"
-        ```
+            
+            To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
+            
+                gcloud projects describe $(gcloud config get-value project) \
+                  --format="value(projectNumber)"
         
           - `  SERVICE_ACCOUNT_UID  ` : the UID of the service account attached to the VM
         
@@ -421,6 +416,31 @@ To create an attestation policy that lets your workload use the managed identity
            gcloud iam service-accounts describe SERVICE_ACCOUNT_EMAIL\
               --format="value(uniqueId)"
         ```
+        
+        ### Instance name
+        
+        To create an attestation policy file that attests based on the instance name, create a file with the following contents:
+        
+            {
+               "attestationRules": [
+                  {
+                     "googleCloudResource": "//compute.googleapis.com/projects/WORKLOAD_PROJECT_NUMBER/name/zones/ZONE/instances/INSTANCE_NAME"
+                  }
+               ],
+            }
+        
+        Replace the following:
+        
+          - `  WORKLOAD_PROJECT_NUMBER  ` : the number of the project that contains the VM instance or service account
+            
+            To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
+            
+                gcloud projects describe $(gcloud config get-value project) \
+                  --format="value(projectNumber)"
+        
+          - `  ZONE  ` : the Compute Engine VM zone
+        
+          - `  INSTANCE_NAME  ` : the name of a new or existing Compute Engine VM instance
         
         ### Instance ID
         
@@ -437,21 +457,20 @@ To create an attestation policy that lets your workload use the managed identity
         Replace the following:
         
           - `  WORKLOAD_PROJECT_NUMBER  ` : the number of the project that contains the VM instance or service account
-        
-        To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
-        
-        ``` 
-           gcloud projects describe $(gcloud config get-value project) \
-              --format="value(projectNumber)"
-        ```
+            
+            To get the project number of the project that contains the managed identity or the service account that you just created, run the following command:
+            
+                gcloud projects describe $(gcloud config get-value project) \
+                  --format="value(projectNumber)"
         
           - `  INSTANCE_ID  ` : the Compute Engine VM instance ID
-        
-        The value for an instance ID must come from an existing Compute Engine instance. To obtain your instance ID, run the following command:
-        
-            gcloud compute instances describe INSTANCE_NAME --zone=ZONE --format="get(id)"
+            
+            The value for an instance ID must come from an existing Compute Engine instance. To obtain your instance ID, run the following command:
+            
+                gcloud compute instances describe INSTANCE_NAME --zone=ZONE --format="get(id)"
         
           - `  INSTANCE_NAME  ` : the Compute Engine VM instance name
+        
           - `  ZONE  ` : the Compute Engine VM zone
 
 3.  Create the attestation policy using the policy JSON file that you created earlier in this document:

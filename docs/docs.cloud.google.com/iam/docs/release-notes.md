@@ -14,6 +14,14 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## August 03, 2026
+
+Feature
+
+Organization Policy Service custom constraints are available for Privileged Access Manager (PAM). You can use custom constraints to restrict how users create and modify entitlements and grants. This feature is in [Preview](https://cloud.google.com/products#product-launch-stages) .
+
+For more information, see [Use custom organization policies for Privileged Access Manager](https://docs.cloud.google.com/iam/docs/pam-custom-constraints) .
+
 ## July 27, 2026
 
 Feature

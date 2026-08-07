@@ -14,7 +14,6 @@ The following features are available:
 
   - Managed workload identities for GKE ( [Preview](https://cloud.google.com/products#product-launch-stages) )
   - Managed workload identities for Compute Engine
-  - [Request access to the managed workload identities for Compute Engine](https://forms.gle/KC1Lq77gMn3kTtWDA) ( [Preview](https://cloud.google.com/products#product-launch-stages) )
   - Agent identities
 
 ## SPIFFE interoperability

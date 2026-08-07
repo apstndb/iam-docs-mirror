@@ -16,6 +16,258 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-08-04
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agent Identity API</td>
+<td><p>The Agent Identity Admin role ( <code dir="ltr" translate="no">roles/agentidentity.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Agent Identity API</td>
+<td><p>The Agent Identity Editor role ( <code dir="ltr" translate="no">roles/agentidentity.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Agent Identity API</td>
+<td><p>The Agent Identity User role ( <code dir="ltr" translate="no">roles/agentidentity.user</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Agent Identity API</td>
+<td><p>The Agent Identity Viewer role ( <code dir="ltr" translate="no">roles/agentidentity.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Vertex AI Service Agent role ( <code dir="ltr" translate="no">roles/aiplatform.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Backup and Disaster Recovery</td>
+<td><p>The following permissions have been added to the Backup and DR Service Agent role ( <code dir="ltr" translate="no">roles/backupdr.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">file.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery</td>
+<td><p>The following permissions have been added to the BigQuery Studio Admin role ( <code dir="ltr" translate="no">roles/bigquery.studioAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.locations.chat</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigQuery</td>
+<td><p>The following permissions have been added to the BigQuery Studio User role ( <code dir="ltr" translate="no">roles/bigquery.studioUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.locations.chat</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Data Lineage API</td>
+<td><p>The following permissions have been added to the Data Lineage Editor role ( <code dir="ltr" translate="no">roles/datalineage.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datalineage.processes.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.runs.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Database Migration Service</td>
+<td><p>The following permissions have been added to the Database Migration Admin role ( <code dir="ltr" translate="no">roles/datamigration.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.networkAttachments.use</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Database Migration Service</td>
+<td><p>The following permissions have been added to the Datamigration Editor role ( <code dir="ltr" translate="no">roles/datamigration.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.networkAttachments.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Datastream</td>
+<td><p>The following permissions have been added to the Datastream Admin role ( <code dir="ltr" translate="no">roles/datastream.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.networkAttachments.use</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Distributed Cloud Edge Container</td>
+<td><p>The following permissions have been added to the Edge Container Service Agent role ( <code dir="ltr" translate="no">roles/edgecontainer.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">gke.fleets.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gke.fleets.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gke.fleets.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.endpoints.connect</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.features.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.fleet.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.fleet.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.fleet.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">gkehub.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.locations.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Data Scientist role ( <code dir="ltr" translate="no">roles/iam.dataScientist</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.locations.chat</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Agent Identity API</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentidentity.accessSummaries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.accessSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.queryWorkloads</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.retrieveCredentials</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.revokeAuthorizations</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.undelete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authorizations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Agent Registry</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentregistry.publishers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.publishers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Agent Registry</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentregistry.publishers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.publishers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skillRevisions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.skills.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.importJobs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyRings.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.importJobs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyRings.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Key Management Service</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.importJobs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyRings.delete</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.projectOverageConfigs.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.projectOverageConfigs.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase App Check</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebaseappcheck.tokens.mint</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase App Check</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebaseappcheck.tokens.mint</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase App Check</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebaseappcheck.tokens.mint</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Data Connect</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebasedataconnect.services.generateQuery</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasedataconnect.services.generateSchema</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Data Connect</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebasedataconnect.services.generateQuery</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">firebasedataconnect.services.generateSchema</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-07-28
 
 <table>

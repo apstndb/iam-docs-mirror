@@ -115,11 +115,23 @@ Enter the desired permission name or support level in the text box below:
 | `agentregistry.operations.delete`                                              | `SUPPORTED`                |
 | `agentregistry.operations.get`                                                 | `SUPPORTED`                |
 | `agentregistry.operations.list`                                                | `SUPPORTED`                |
+| `agentregistry.publishers.get`                                                 | `SUPPORTED`                |
+| `agentregistry.publishers.list`                                                | `SUPPORTED`                |
 | `agentregistry.services.create`                                                | `SUPPORTED`                |
 | `agentregistry.services.delete`                                                | `SUPPORTED`                |
 | `agentregistry.services.get`                                                   | `SUPPORTED`                |
 | `agentregistry.services.list`                                                  | `SUPPORTED`                |
 | `agentregistry.services.update`                                                | `SUPPORTED`                |
+| `agentregistry.skillRevisions.create`                                          | `SUPPORTED`                |
+| `agentregistry.skillRevisions.delete`                                          | `SUPPORTED`                |
+| `agentregistry.skillRevisions.get`                                             | `SUPPORTED`                |
+| `agentregistry.skillRevisions.list`                                            | `SUPPORTED`                |
+| `agentregistry.skills.create`                                                  | `SUPPORTED`                |
+| `agentregistry.skills.delete`                                                  | `SUPPORTED`                |
+| `agentregistry.skills.get`                                                     | `SUPPORTED`                |
+| `agentregistry.skills.list`                                                    | `SUPPORTED`                |
+| `agentregistry.skills.search`                                                  | `SUPPORTED`                |
+| `agentregistry.skills.update`                                                  | `SUPPORTED`                |
 | `aiplatform.agentAnomalyDetectionScopes.create`                                | `SUPPORTED`                |
 | `aiplatform.agentAnomalyDetectionScopes.delete`                                | `SUPPORTED`                |
 | `aiplatform.agentAnomalyDetectionScopes.get`                                   | `SUPPORTED`                |
@@ -3943,6 +3955,7 @@ Enter the desired permission name or support level in the text box below:
 | `cloudkms.ekmConnections.verifyConnectivity`                                   | `SUPPORTED`                |
 | `cloudkms.folders.showEffectiveAutokeyConfig`                                  | `SUPPORTED`                |
 | `cloudkms.importJobs.create`                                                   | `SUPPORTED`                |
+| `cloudkms.importJobs.delete`                                                   | `SUPPORTED`                |
 | `cloudkms.importJobs.get`                                                      | `SUPPORTED`                |
 | `cloudkms.importJobs.getIamPolicy`                                             | `SUPPORTED`                |
 | `cloudkms.importJobs.list`                                                     | `SUPPORTED`                |
@@ -3955,6 +3968,7 @@ Enter the desired permission name or support level in the text box below:
 | `cloudkms.keyHandles.list`                                                     | `SUPPORTED`                |
 | `cloudkms.keyRings.create`                                                     | `SUPPORTED`                |
 | `cloudkms.keyRings.createTagBinding`                                           | `SUPPORTED`                |
+| `cloudkms.keyRings.delete`                                                     | `SUPPORTED`                |
 | `cloudkms.keyRings.deleteTagBinding`                                           | `SUPPORTED`                |
 | `cloudkms.keyRings.get`                                                        | `SUPPORTED`                |
 | `cloudkms.keyRings.getIamPolicy`                                               | `SUPPORTED`                |
@@ -7752,7 +7766,9 @@ Enter the desired permission name or support level in the text box below:
 | `discoveryengine.cmekConfigs.update`                                           | `SUPPORTED`                |
 | `discoveryengine.collections.delete`                                           | `SUPPORTED`                |
 | `discoveryengine.collections.get`                                              | `SUPPORTED`                |
+| `discoveryengine.collections.getIamPolicy`                                     | `SUPPORTED`                |
 | `discoveryengine.collections.list`                                             | `SUPPORTED`                |
+| `discoveryengine.collections.setIamPolicy`                                     | `SUPPORTED`                |
 | `discoveryengine.completionConfigs.completeQuery`                              | `SUPPORTED`                |
 | `discoveryengine.completionConfigs.get`                                        | `SUPPORTED`                |
 | `discoveryengine.completionConfigs.removeSuggestion`                           | `SUPPORTED`                |
@@ -7786,8 +7802,10 @@ Enter the desired permission name or support level in the text box below:
 | `discoveryengine.dataStores.delete`                                            | `SUPPORTED`                |
 | `discoveryengine.dataStores.enrollSolutions`                                   | `SUPPORTED`                |
 | `discoveryengine.dataStores.get`                                               | `SUPPORTED`                |
+| `discoveryengine.dataStores.getIamPolicy`                                      | `SUPPORTED`                |
 | `discoveryengine.dataStores.list`                                              | `SUPPORTED`                |
 | `discoveryengine.dataStores.listCustomModels`                                  | `SUPPORTED`                |
+| `discoveryengine.dataStores.setIamPolicy`                                      | `SUPPORTED`                |
 | `discoveryengine.dataStores.trainCustomModel`                                  | `SUPPORTED`                |
 | `discoveryengine.dataStores.update`                                            | `SUPPORTED`                |
 | `discoveryengine.devToolsConfigs.get`                                          | `SUPPORTED`                |
@@ -7877,6 +7895,7 @@ Enter the desired permission name or support level in the text box below:
 | `discoveryengine.operations.get`                                               | `SUPPORTED`                |
 | `discoveryengine.operations.list`                                              | `SUPPORTED`                |
 | `discoveryengine.podcasts.create`                                              | `SUPPORTED`                |
+| `discoveryengine.projectOverageConfigs.get`                                    | `SUPPORTED`                |
 | `discoveryengine.projects.get`                                                 | `SUPPORTED`                |
 | `discoveryengine.projects.provision`                                           | `SUPPORTED`                |
 | `discoveryengine.projects.reportConsentChange`                                 | `SUPPORTED`                |
@@ -8603,6 +8622,7 @@ Enter the desired permission name or support level in the text box below:
 | `firebaseappcheck.safetyNetConfig.update`                                      | `SUPPORTED`                |
 | `firebaseappcheck.services.get`                                                | `SUPPORTED`                |
 | `firebaseappcheck.services.update`                                             | `SUPPORTED`                |
+| `firebaseappcheck.tokens.mint`                                                 | `SUPPORTED`                |
 | `firebaseappdistro.groups.list`                                                | `SUPPORTED`                |
 | `firebaseappdistro.groups.update`                                              | `SUPPORTED`                |
 | `firebaseappdistro.releases.list`                                              | `SUPPORTED`                |
@@ -8699,6 +8719,8 @@ Enter the desired permission name or support level in the text box below:
 | `firebasedataconnect.services.delete`                                          | `SUPPORTED`                |
 | `firebasedataconnect.services.executeGraphql`                                  | `SUPPORTED`                |
 | `firebasedataconnect.services.executeGraphqlRead`                              | `SUPPORTED`                |
+| `firebasedataconnect.services.generateQuery`                                   | `SUPPORTED`                |
+| `firebasedataconnect.services.generateSchema`                                  | `SUPPORTED`                |
 | `firebasedataconnect.services.get`                                             | `SUPPORTED`                |
 | `firebasedataconnect.services.introspectGraphql`                               | `SUPPORTED`                |
 | `firebasedataconnect.services.list`                                            | `SUPPORTED`                |
