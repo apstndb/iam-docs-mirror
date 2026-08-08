@@ -53,7 +53,7 @@ https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	202
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-08-06T06:58:21Z
-https://docs.cloud.google.com/iam/docs/deny-access	2026-08-06T06:58:21Z
+https://docs.cloud.google.com/iam/docs/deny-access	2026-08-07T14:25:23Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-08-04T21:59:12Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-08-06T06:58:21Z
@@ -63,7 +63,7 @@ https://docs.cloud.google.com/iam/docs/full-resource-names	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/getting-support	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/google-identities	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/grant-role-console	2026-08-06T06:58:21Z
-https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-08-06T22:13:51Z
+https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access	2026-08-07T14:25:23Z
 https://docs.cloud.google.com/iam/docs/groups-best-practices	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/groups-in-cloud-console	2026-08-06T06:58:21Z
 https://docs.cloud.google.com/iam/docs/iam-security-architecture	2026-08-06T06:58:21Z
@@ -667,7 +667,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-08-03T21:13:33Z
 https://docs.cloud.google.com/iam/docs/resources	2026-08-03T21:13:33Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-08-04T08:08:56Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-08-06T22:13:39Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-08-08T00:09:25Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-08-03T21:13:33Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-08-03T21:13:33Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-08-03T21:13:33Z
