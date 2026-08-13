@@ -682,7 +682,6 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/agentidentity	2026-08-0
 https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry	2026-08-04T21:58:59Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/aiedgeportal	2026-08-03T21:13:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform	2026-08-03T21:13:36Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/aisandbox	2026-08-03T21:13:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/alloydb	2026-08-03T21:13:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/analyticshub	2026-08-03T21:13:36Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/androidmanagement	2026-08-03T21:13:36Z

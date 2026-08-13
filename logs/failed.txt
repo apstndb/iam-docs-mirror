@@ -1,1 +1,7 @@
+200 https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest
+200 https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest/v1/projects.locations.authProviders.credentials
+200 https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest/v1/projects.locations.authProviders.credentials/finalize
+200 https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest/v1/projects.locations.authProviders.credentials/retrieve
 404 https://docs.cloud.google.com/iam/docs/auth-manager-custom-constraints
+404 https://docs.cloud.google.com/iam/docs/roles-permissions/flow
+404 https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation
