@@ -1219,6 +1219,9 @@ https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/projects.locations.replays/create	2026-01-16T22:49:17Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/projects.locations.replays/get	2026-01-16T22:49:17Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest/v1beta/projects.locations.replays/list	2026-01-16T22:49:17Z
+https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp	2026-08-06T18:21:35Z
+https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp/tools_list/troubleshoot_access	2026-08-06T18:21:35Z
+https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp/tools_list/troubleshoot_iam_error_id	2026-08-06T18:21:35Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest	2025-10-17T21:46:43Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/Shared.Types/AuditConfig	2025-10-17T21:46:43Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/rest/Shared.Types/Binding	2025-10-17T21:46:43Z
@@ -1252,6 +1255,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies	202
 https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies	2026-08-04T17:06:48Z
 https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies	2026-08-04T17:06:48Z
 https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access	2026-08-04T17:06:48Z
+https://docs.cloud.google.com/policy-intelligence/docs/use-policy-troubleshooter-mcp	2026-08-06T18:21:35Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam	2026-08-04T14:40:37Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies	2026-08-04T14:41:12Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies/create	2026-08-04T14:40:56Z
