@@ -13581,6 +13581,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>
@@ -15563,8 +15567,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
-<p><code dir="ltr" translate="no">compute.reservationSlots.get</code></p>
-<p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
+<p><code dir="ltr" translate="no">compute.reservationSlots.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.reservationSlots.get</code></li>
+<li><code dir="ltr" translate="no">compute.reservationSlots.list</code></li>
+<li><code dir="ltr" translate="no">compute.  reservationSlots.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservations.get</code></p>
@@ -22338,6 +22346,19 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  fetchEffective</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  listMemberships</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiMemberships.  get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">prodactuation.locations.get</code></li>
+<li><code dir="ltr" translate="no">prodactuation.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">prodactuation.operations.get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  get</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.get</code></p>

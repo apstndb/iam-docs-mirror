@@ -20,24 +20,28 @@ This command creates a configuration file to allow access to authenticated Googl
 
 EXAMPLES
 
-To create a file-sourced credential configuration for your project, run:
+To create a file-sourced credential configuration by using the short-format audience, run:
+
+    gcloud iam workforce-pools create-cred-config $WORKFORCE_POOL_ID/$PROVIDER_ID --credential-source-file=$PATH_TO_OIDC_ID_TOKEN --workforce-pool-user-project=$PROJECT_NUMBER --output-file=credentials.json
+
+To create a file-sourced credential configuration by using the full resource name audience, run:
 
     gcloud iam workforce-pools create-cred-config locations/$REGION/workforcePools/$WORKFORCE_POOL_ID/providers/$PROVIDER_ID --credential-source-file=$PATH_TO_OIDC_ID_TOKEN --workforce-pool-user-project=$PROJECT_NUMBER --output-file=credentials.json
 
 To create a URL-sourced credential configuration for your project, run:
 
-    gcloud iam workforce-pools create-cred-config locations/$REGION/workforcePools/$WORKFORCE_POOL_ID/providers/$PROVIDER_ID --credential-source-url=$URL_FOR_OIDC_TOKEN --credential-source-headers=Key=Value --workforce-pool-user-project=$PROJECT_NUMBER --output-file=credentials.json
+    gcloud iam workforce-pools create-cred-config $WORKFORCE_POOL_ID/$PROVIDER_ID --credential-source-url=$URL_FOR_OIDC_TOKEN --credential-source-headers=Key=Value --workforce-pool-user-project=$PROJECT_NUMBER --output-file=credentials.json
 
 To create an executable-source credential configuration for your project, run the following command:
 
-    gcloud iam workforce-pools create-cred-config locations/$REGION/workforcePools/$WORKFORCE_POOL_ID/providers/$PROVIDER_ID --executable-command=$EXECUTABLE_COMMAND --executable-timeout-millis=30000 --executable-output-file=$CACHE_FILE --workforce-pool-user-project=$PROJECT_NUMBER --output-file=credentials.json
+    gcloud iam workforce-pools create-cred-config $WORKFORCE_POOL_ID/$PROVIDER_ID --executable-command=$EXECUTABLE_COMMAND --executable-timeout-millis=30000 --executable-output-file=$CACHE_FILE --workforce-pool-user-project=$PROJECT_NUMBER --output-file=credentials.json
 
 To use the resulting file for any of these commands, set the GOOGLE\_APPLICATION\_CREDENTIALS environment variable to point to the generated file.
 
 POSITIONAL ARGUMENTS
 
   - `  AUDIENCE  `  
-    The workforce pool provider resource name.
+    The workforce pool provider resource name in the format "\<pool\>/\<provider\>" or "locations/\<location\>/workforcePools/\<pool\>/providers/\<provider\>".
 
 REQUIRED FLAGS
 

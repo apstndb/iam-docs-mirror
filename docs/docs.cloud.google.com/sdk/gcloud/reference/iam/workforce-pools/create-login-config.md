@@ -20,14 +20,18 @@ This command creates a configuration file to enable browser based third-party si
 
 EXAMPLES
 
-To create a login configuration for your project, run:
+To create a login configuration by using the short-format audience, run:
+
+    gcloud iam workforce-pools create-login-config $WORKFORCE_POOL_ID/$PROVIDER_ID --output-file=login-config.json
+
+To create a login configuration by using the full resource name audience, run:
 
     gcloud iam workforce-pools create-login-config locations/global/workforcePools/$WORKFORCE_POOL_ID/providers/$PROVIDER_ID --output-file=login-config.json
 
 POSITIONAL ARGUMENTS
 
   - `  AUDIENCE  `  
-    Workforce pool provider resource name.
+    The workforce pool provider resource name in the format "\<pool\>/\<provider\>" or "locations/\<location\>/workforcePools/\<pool\>/providers/\<provider\>".
 
 REQUIRED FLAGS
 

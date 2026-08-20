@@ -184,7 +184,7 @@ For the IAM recommender to generate a policy insight for a role, the following m
     
     For details about the identifier format for each principal type, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
-It can take up to 10 days for the IAM recommender to generate policy insights for a newly granted role.
+It can take up to 15 days for the IAM recommender to generate policy insights for a newly granted role.
 
 ### Lateral movement insight availability
 

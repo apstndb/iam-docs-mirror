@@ -30,6 +30,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <ul>
 <li>Cloud Run service</li>
 <li>Cloud Run job</li>
+<li>Cloud Run instance</li>
+<li>Cloud Run worker pool</li>
 </ul></td>
 <td><p><code dir="ltr" translate="no">recommender.locations.*</code></p>
 <ul>
@@ -177,6 +179,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <ul>
 <li>Cloud Run service</li>
 <li>Cloud Run job</li>
+<li>Cloud Run instance</li>
+<li>Cloud Run worker pool</li>
 </ul></td>
 <td><p><code dir="ltr" translate="no">recommender.locations.*</code></p>
 <ul>
@@ -458,6 +462,7 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <ul>
 <li>Cloud Run service</li>
 <li>Cloud Run job</li>
+<li>Cloud Run instance</li>
 </ul></td>
 <td><p><code dir="ltr" translate="no">run.instances.invoke</code></p>
 <p><code dir="ltr" translate="no">run.jobs.run</code></p>
@@ -471,6 +476,8 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <ul>
 <li>Cloud Run service</li>
 <li>Cloud Run job</li>
+<li>Cloud Run instance</li>
+<li>Cloud Run worker pool</li>
 </ul></td>
 <td><p><code dir="ltr" translate="no">recommender.locations.*</code></p>
 <ul>
@@ -1078,7 +1085,7 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <tr class="even">
 <td><h4 id="run.sshReader" class="role-title add-link" data-text="Cloud Run SSH Read Only Beta" tabindex="-1">Cloud Run SSH Read Only <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  run.sshReader</code> )</p>
-<p>Can SSH into Cloud Run instances and read data.</p></td>
+<p>Can SSH into Cloud Run resources and read data.</p></td>
 <td><p><code dir="ltr" translate="no">run.instances.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.services.sshRead</code></p>
@@ -1087,7 +1094,7 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <tr class="odd">
 <td><h4 id="run.sshRoot" class="role-title add-link" data-text="Cloud Run SSH Root Access Beta" tabindex="-1">Cloud Run SSH Root Access <sup>Beta</sup></h4>
 <p>( <code dir="ltr" translate="no">roles/  run.sshRoot</code> )</p>
-<p>Can SSH into Cloud Run instances and run commands as root.</p></td>
+<p>Can SSH into Cloud Run resources and run commands as root.</p></td>
 <td><p><code dir="ltr" translate="no">run.instances.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.services.sshRoot</code></p>

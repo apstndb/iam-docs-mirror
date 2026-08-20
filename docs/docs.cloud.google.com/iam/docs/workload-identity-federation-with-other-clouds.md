@@ -657,7 +657,7 @@ Replace the following:
   - `  SERVICE_ACCOUNT_EMAIL  ` : If you use service account impersonation, replace with the email address of the service account. Omit this flag if you don't use service account impersonation.
   - `  SERVICE_ACCOUNT_TOKEN_LIFETIME  ` : If you use service account impersonation, replace with the lifetime of the service account access token, in seconds; this defaults to one hour when not provided. Omit this flag if you don't use service account impersonation. To specify a lifetime longer than one hour, you must configure the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` [organizational policy constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) .
   - `  FILEPATH  ` : The file to save configuration to.
-  - `  Region  ` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
+  - `  REGION  ` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
 
 If you use [AWS IMDSv2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html) , an additional flag `--enable-imdsv2` needs to be added to the [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) command:
 
@@ -700,7 +700,7 @@ Replace the following:
   - `  APPLICATION_ID_URI  ` : The Application ID URI of the Azure application.
   - `  SERVICE_ACCOUNT_TOKEN_LIFETIME  ` : If you use service account impersonation,lifetime of the service account access token, in seconds; this defaults to one hour when not provided. Omit this flag if you don't use service account impersonation. To specify a lifetime longer than one hour, you must configure the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` [organizational policy constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) .
   - `  FILEPATH  ` : The file to save configuration to.
-  - `  Region  ` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
+  - `  REGION  ` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
 
 ### Use the credential configuration to access Google Cloud
 

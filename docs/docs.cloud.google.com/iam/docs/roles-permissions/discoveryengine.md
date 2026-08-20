@@ -2598,6 +2598,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></li>
 <li><code dir="ltr" translate="no">agentregistry.  mcpServers.  search</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
 <p><code dir="ltr" translate="no">aiplatform.executions.create</code></p>
 <p><code dir="ltr" translate="no">aiplatform.executions.delete</code></p>

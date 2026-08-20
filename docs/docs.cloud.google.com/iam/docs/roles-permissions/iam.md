@@ -2650,6 +2650,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>
@@ -5222,6 +5226,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>

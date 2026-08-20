@@ -30,7 +30,7 @@ To create a URL-sourced credential configuration for your project, run:
 
 To create an executable-source credential configuration for your project, run the following command:
 
-    gcloud iam workload-identity-pools create-cred-config locations/$REGION/workforcePools/$WORKFORCE_POOL_ID/providers/$PROVIDER_ID --executable-command=$EXECUTABLE_COMMAND --executable-timeout-millis=30000 --executable-output-file=$CACHE_FILE --output-file=credentials.json
+    gcloud iam workload-identity-pools create-cred-config projects/$PROJECT_NUMBER/locations/$REGION/workloadIdentityPools/$WORKLOAD_POOL_ID/providers/$PROVIDER_ID --executable-command=$EXECUTABLE_COMMAND --executable-timeout-millis=30000 --executable-output-file=$CACHE_FILE --output-file=credentials.json
 
 To create an AWS-based credential configuration for your project, run:
 

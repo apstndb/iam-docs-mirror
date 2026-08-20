@@ -336,30 +336,34 @@ In the command response, POOL\_RESOURCE\_NAME is the name of the pool; for examp
 
 10. Click **Continue** .
 
-11. In **Configure provider** , you can configure an attribute mapping and an attribute condition. To create an [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) , do the following. You can provide either the IdP field name or a [CEL-formatted](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) expression that returns a string.
+11. In the **Configure provider** section, for **Detailed logging** , click the **Enable attribute value audit logging** toggle.
     
-    1.  Required: In **OIDC 1** , enter the subject from the IdP— for example, `assertion.sub` .
+    Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
     
-    2.  Optional: To add additional attribute mappings, do the following:
+    To disable detailed audit logging for a workforce identity pool provider, leave the **Enable attribute value audit logging** toggle off when you create the provider. To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
+
+12. To create the provider, click **Submit** .
+
+After the provider is created, you are redirected to the provider attributes page.
+
+To configure attribute mappings and conditions, do the following:
+
+1.  When prompted, sign in to your external IdP to validate the default attribute mappings.
+2.  On the provider attributes page, view and edit the attribute mappings and conditions:
+    1.  To add or edit attribute mappings, do the following:
         
-        1.  Click **Add mapping** .
-        2.  In **Google *n*** , where *n* is a number, enter one of the [Google Cloud-supported keys](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
-        3.  In the corresponding **OIDC *n*** field, enter the name of the IdP-specific field to map, in CEL format.
+        1.  Click **Add mapping** to add a new mapping, or edit the existing mappings.
+        2.  In the **Google *n*** field, where *n* is a number, select a Google Cloud-supported key.
+        3.  In the corresponding **OIDC *n*** field, enter the IdP attribute name or a CEL expression.
     
-    3.  To create an attribute condition, do the following:
+    2.  To add an attribute condition, do the following:
         
         > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
         
         1.  Click **Add condition** .
         2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) ; for example, `assertion.role == 'gcp-users'` . This example condition ensures that only users with the role `gcp-users` can sign in using this provider.
-    
-    4.  To turn on detailed audit logging, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
-        
-        Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
-        
-        To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
-
-12. To create the provider, click **Submit** .
+3.  To validate your mappings, click **Save and refetch token** .
+4.  To complete the setup, click **Save and exit** .
 
 ### Implicit flow
 
@@ -396,30 +400,34 @@ In the command response, POOL\_RESOURCE\_NAME is the name of the pool; for examp
 
 10. Click **Continue** .
 
-11. In **Configure provider** , you can configure an attribute mapping and an attribute condition. To create an [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) , do the following. You can provide either the IdP field name or a [CEL-formatted](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) expression that returns a string.
+11. In the **Configure provider** section, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
     
-    1.  Required: In **OIDC 1** , enter the subject from the IdP; for example, `assertion.sub` .
+    Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
     
-    2.  Optional: To add additional attribute mappings, do the following:
+    To disable detailed audit logging for a workforce identity pool provider, leave the **Enable attribute value audit logging** toggle off when you create the provider. To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
+
+12. To create the provider, click **Submit** .
+
+After the provider is created, you are redirected to the provider attributes page.
+
+To configure attribute mappings and conditions, do the following:
+
+1.  When prompted, sign in to your external IdP to validate the default attribute mappings.
+2.  On the provider attributes page, view and edit the attribute mappings and conditions:
+    1.  To add or edit attribute mappings, do the following:
         
-        1.  Click **Add mapping** .
-        2.  In **Google *n*** , where *n* is a number, enter one of the [Google Cloud-supported keys](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
-        3.  In the corresponding **OIDC *n*** field, enter the name of the IdP-specific field to map, in CEL format.
+        1.  Click **Add mapping** to add a new mapping, or edit the existing mappings.
+        2.  In the **Google *n*** field, where *n* is a number, select a Google Cloud-supported key.
+        3.  In the corresponding **OIDC *n*** field, enter the IdP attribute name or a CEL expression.
     
-    3.  To create an attribute condition, do the following:
+    2.  To add an attribute condition, do the following:
         
         > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
         
         1.  Click **Add condition** .
         2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) ; for example, `assertion.role == 'gcp-users'` . This example condition ensures that only users with the role `gcp-users` can sign in using this provider.
-    
-    4.  To turn on detailed audit logging, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
-        
-        Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
-        
-        To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
-
-12. To create the provider, click **Submit** .
+3.  To validate your mappings, click **Save and refetch token** .
+4.  To complete the setup, click **Save and exit** .
 
 ### Create a SAML provider
 
@@ -487,34 +495,45 @@ To configure the SAML provider using the Google Cloud console, do the following:
     4.  To create a provider that is enabled, make sure **Enable provider** is on.
     5.  Click **Continue** .
 
-7.  In the **Share your provider information** section, copy the URLs. In your IdP, configure the first URL as the entity ID, which identifies your application to IdP. Configure the other URL as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+7.  In the **Share your provider information** section, copy the URLs. In your IdP, configure the first URL as the entity ID, which identifies your application to the IdP. Configure the other URL as the redirect URI, which informs your IdP where to send the assertion token after signing in.
 
 8.  Click **Continue** .
 
-9.  In the **Configure provider** section, do the following:
+9.  In the **Configure provider** section, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
     
-    1.  In **Attribute mapping** , enter a CEL expression for `google.subject` .
+    Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
     
-    2.  Optional: To enter other mappings, click **Add mapping** and enter other mappings—for example:
-        
-            google.subject=assertion.subject
-            attribute.costcenter=assertion.attributes.costcenter[0]
-        
-        This example maps the `assertion.subject` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
-    
-    3.  Optional: To add an attribute condition, click **Add condition** and enter a CEL expression representing an attribute condition. For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider.
-        
-        > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
-    
-    4.  Click **Continue** .
-    
-    5.  To turn on detailed audit logging, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
-        
-        Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
-        
-        To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
+    To disable detailed audit logging for a workforce identity pool provider, leave the **Enable attribute value audit logging** toggle off when you create the provider. To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
 
 10. To create the provider, click **Submit** .
+
+After the provider is created, you are redirected to the provider attributes page.
+
+To configure attribute mappings and conditions, do the following:
+
+1.  When prompted, sign in to your external IdP to validate the default attribute mappings.
+2.  On the provider attributes page, view and edit the attribute mappings and conditions:
+    1.  To add or edit attribute mappings, do the following:
+        
+        1.  Click **Add mapping** to add a new mapping, or edit the existing mappings.
+        
+        2.  In the **Google *n*** field, where *n* is a number, select a Google Cloud supported key.
+        
+        3.  In the corresponding **SAML *n*** field, enter the IdP attribute name or a CEL expression—for example:
+            
+                google.subject=assertion.subject
+                attribute.costcenter=assertion.attributes.costcenter[0]
+            
+            This example maps the `assertion.subject` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
+    
+    2.  To add an attribute condition, do the following:
+        
+        > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
+        
+        1.  Click **Add condition** .
+        2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) —for example, For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider..
+3.  To validate your mappings, click **Save and refetch token** .
+4.  To complete the setup, click **Save and exit** .
 
 ### Describe a provider
 
@@ -588,19 +607,27 @@ Replace the following:
 
 ### Console
 
-To view a provider, do the following:
+To update a provider, do the following:
 
 1.  Go to the **Workforce Identity Pools** page:
 
 <!-- end list -->
 
-1.  In the table, select the pool for which you want to view the provider.
+1.  In the table, select the pool for which you want to update the provider.
 
-2.  In the **Providers** table, click more\_vert **Edit** .
+2.  In the **Providers** table, click more\_vert **Edit** next to the provider you want to update.
 
-3.  Update the provider.
+3.  Modify the provider's display name, description, status, or redirect URIs, and then click **Save** .
 
-4.  To save the updated provider, click **Save** .
+4.  Optional: To view or edit attribute mappings and conditions:
+    
+    1.  In the **Provider attributes** section, click **Configure attributes** .
+    2.  When prompted, sign in to your external IdP.
+    3.  On the provider attributes page, view and edit the mappings, extra attributes, or conditions:
+          - To add or edit mappings, click **Add mapping** and enter the keys and values. For details, see [attribute mappings](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
+          - To add or edit conditions, click **Add condition** and enter a CEL expression. For details, see [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) . For complete instructions, see [Configure Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation) .
+    4.  To validate the mappings, click **Save and refetch token** .
+    5.  To complete the update, click **Save and exit** .
 
 ### Delete a provider
 

@@ -62,6 +62,18 @@ data_source: docs.cloud.google.com
     
     Trigger service agent creation.
 
+  - [](https://docs.cloud.google.com/iam/docs/reference/agentidentitycredentials/rest)
+    
+    ### Agent Identity Credentials REST API
+    
+    Retrieve and finalize authorization credentials for auth providers.
+
+  - [](https://docs.cloud.google.com/iam/docs/reference/agentidentity/rest)
+    
+    ### Agent Identity REST API
+    
+    Manage auth providers for Agent Identity.
+
 <!-- end list -->
 
   - [](https://docs.cloud.google.com/iam/docs/reference/rpc)

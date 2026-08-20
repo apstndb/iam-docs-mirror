@@ -141,6 +141,8 @@ To create a Microsoft Entra ID application registration that uses the SAML proto
     
     6.  To use the example attribute mapping that is provided later in this document, you must create a custom `department` attribute.
 
+4.  [Assign users or groups to the application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/assign-user-or-group-access-portal) .
+
 Recommended: As a [security best practice](https://docs.cloud.google.com/iam/docs/using-iam-securely) , we recommend that you configure a group claim by doing the following:
 
 1.  Go to your Microsoft Entra ID application.
@@ -386,82 +388,92 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
         
         7.  In the **Value** column for your new client secret, click *content\_copy* **Copy** .
     
-    2.  In the Google Cloud console, to create an OIDC provider that uses [authorization code flow](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#oidc-flow-types) , do the following:
+    <!-- end list -->
+    
+    1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
+    
+    2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
+    
+    3.  In the **Providers** section, click **add Add Provider** .
+    
+    4.  In the **Select a Provider vendor** list, select your IdP.
         
-        1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
+        If your IdP isn't listed, then select **Generic Identity Provider** .
+    
+    5.  In **Select an authentication protocol** , select **OpenID Connect (OIDC)** .
+    
+    6.  In the **Create a provider** section, do the following:
         
-        2.  In the **Workforce Identity Pools** table, select the pool for which you want to create the provider.
+        1.  In **Name** , enter the name for the provider.
+        2.  In **Description** , enter the description for the provider.
+        3.  In **Issuer (URL)** , enter the issuer URI. The OIDC issuer URI must be in a valid URI format and start with `https` ; for example, `https://example.com/oidc` .
+        4.  In **Client ID** , enter the OIDC client ID that is registered with your OIDC IdP; the ID must match the `aud` claim of the JWT that is issued by your IdP.
+        5.  To create a provider that is enabled, make sure **Enable provider** is on.
+        6.  Click **Continue** .
+    
+    7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+    
+    8.  Click **Continue** .
+    
+    9.  In the **Configure OIDC Web Sign-in** section, do the following:
         
-        3.  In the **Providers** section, click **add Add Provider** .
+        1.  In the **Flow type** list, select **Code** .
+        2.  In the **Assertion claims behavior** list, select either of the following:
+              - **User info and ID token**
+              - **Only ID token**
+        3.  In the **Client secret** field, enter the client secret from your IdP.
+    
+    10. Click **Continue** .
+    
+    11. In the **Configure provider** section, for **Detailed logging** , click the **Enable attribute value audit logging** toggle.
         
-        4.  In the **Select a Provider vendor** list, select your IdP.
+        Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
+        
+        To disable detailed audit logging for a workforce identity pool provider, leave the **Enable attribute value audit logging** toggle off when you create the provider. To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
+    
+    12. To create the provider, click **Submit** .
+    
+    After the provider is created, you are redirected to the provider attributes page.
+    
+    To configure attribute mappings and conditions, do the following:
+    
+    1.  When prompted, sign in to your external IdP to validate the default attribute mappings.
+    2.  On the provider attributes page, view and edit the attribute mappings and conditions:
+        1.  To add or edit attribute mappings, do the following:
             
-            If your IdP isn't listed, then select **Generic Identity Provider** .
-        
-        5.  In **Select an authentication protocol** , select **OpenID Connect (OIDC)** .
-        
-        6.  In the **Create a provider** section, do the following:
+            1.  Click **Add mapping** to add a new mapping, or edit the existing mappings.
             
-            1.  In **Name** , enter the name for the provider.
-            2.  In **Description** , enter the description for the provider.
-            3.  In **Issuer (URL)** , enter the issuer URI. The OIDC issuer URI must be in a valid URI format and start with `https` ; for example, `https://example.com/oidc` .
-            4.  In **Client ID** , enter the OIDC client ID that is registered with your OIDC IdP; the ID must match the `aud` claim of the JWT that is issued by your IdP.
-            5.  To create a provider that is enabled, make sure **Enable provider** is on.
-            6.  Click **Continue** .
-        
-        7.  In the **Share your provider information with IdP** section, copy the URL. In your IdP, configure this URL as the redirect URI, which informs your IdP where to send the assertion token after logging in.
-        
-        8.  Click **Continue** .
-        
-        9.  In the **Configure OIDC Web Sign-in** section, do the following:
+            2.  In the **Google *n*** field, where *n* is a number, select a Google Cloud-supported key.
             
-            1.  In the **Flow type** list, select **Code** .
-            2.  In the **Assertion claims behavior** list, select either of the following:
-                  - **User info and ID token**
-                  - **Only ID token**
-            3.  In the **Client secret** field, enter the client secret from your IdP.
-        
-        10. Click **Continue** .
-        
-        11. In **Configure provider** , you can configure an attribute mapping and an attribute condition. To create an [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) , do the following. You can provide either the IdP field name or a [CEL-formatted](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) expression that returns a string.
-            
-            1.  Required: In **OIDC 1** , enter the subject from the IdP— for example, `assertion.sub` . For Microsoft Entra ID with OIDC authentication, we recommend the following attribute mappings:
+            3.  In the corresponding **OIDC *n*** field, enter the IdP attribute name or a CEL expression. For Microsoft Entra ID with OIDC authentication, we recommend the following attribute mappings:
                 
                     google.subject=assertion.oid,
                     google.groups=assertion.groups,
                     google.display_name=assertion.preferred_username
                 
                 This example maps the IdP attributes `assertion.oid` , `assertion.groups` , and `assertion.preferred_username` to the Google Cloud attributes `google.subject` , `google.groups` , and `google.display_name` , respectively.
-            
-            2.  Optional: To add additional attribute mappings, do the following:
-                
-                1.  Click **Add mapping** .
-                2.  In **Google *n*** , where *n* is a number, enter one of the [Google Cloud-supported keys](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
-                3.  In the corresponding **OIDC *n*** field, enter the name of the IdP-specific field to map, in CEL format.
-            
-            3.  To increase the number of groups, do the following:
-                
-                1.  Select **Use Extra Attributes** .
-                2.  In the **Extra Attributes Issuer URI** field, enter the issuer URL.
-                3.  In the **Extra Attributes Client ID** field, enter the client ID.
-                4.  In the **Extra Attributes Client Secret** field, enter the client secret.
-                5.  In the **Extra Attributes Type** list, select an attribute type for extra attributes.
-                6.  In the **Extra Attributes Filter** field, enter a filter expression that is used when querying the Microsoft Graph API for groups.
-            
-            4.  To create an attribute condition, do the following:
-                
-                > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
-                
-                1.  Click **Add condition** .
-                2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) ; for example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.ipaddr.startsWith('98.11.12.')` .
-            
-            5.  To turn on detailed audit logging, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
-                
-                Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
-                
-                To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
         
-        12. To create the provider, click **Submit** .
+        2.  To increase the number of groups, do the following:
+            
+            1.  Click **Enable** for extra attributes.
+            2.  In the subtask that opens, enter the following details:
+                1.  In the **Extra Attributes Issuer URI** field, enter the issuer URL.
+                2.  In the **Extra Attributes Client ID** field, enter the client ID.
+                3.  In the **Extra Attributes Client Secret** field, enter the client secret.
+                4.  In the **Extra Attributes Type** list, select an attribute type for extra attributes.
+                5.  In the **Extra Attributes Filter** field, enter a filter expression to be used when querying the Microsoft Graph API for groups.
+                6.  Click **Enable** .
+            
+            After you enable extra attributes, you can click **Edit** to reopen the subtask and edit the details, or click **Disable** to turn off extra attributes.
+        
+        3.  To add an attribute condition, do the following:
+            
+            > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
+            
+            1.  Click **Add condition** .
+            2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) ; for example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.ipaddr.startsWith('98.11.12.')` .
+    3.  To validate your mappings, click **Save and refetch token** .
+    4.  To complete the setup, click **Save and exit** .
     
     ### Implicit flow
     
@@ -507,45 +519,55 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
     
     10. Click **Continue** .
     
-    11. In **Configure provider** , you can configure an attribute mapping and an attribute condition. To create an [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) , do the following. You can provide either the IdP field name or a [CEL-formatted](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) expression that returns a string.
+    11. In the **Configure provider** section, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
         
-        1.  Required: In **OIDC 1** , enter the subject from the IdP; for example, `assertion.sub` . For Microsoft Entra ID with OIDC authentication, we recommend the following attribute mappings:
-            
-                google.subject=assertion.oid,
-                google.groups=assertion.groups,
-                google.display_name=assertion.preferred_username
-            
-            This example maps the IdP attributes `assertion.oid` , `assertion.groups` , and `assertion.preferred_username` to the Google Cloud attributes `google.subject` , `google.groups` , and `google.display_name` , respectively.
+        Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
         
-        2.  Optional: To add additional attribute mappings, do the following:
+        To disable detailed audit logging for a workforce identity pool provider, leave the **Enable attribute value audit logging** toggle off when you create the provider. To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
+    
+    12. To create the provider, click **Submit** .
+    
+    After the provider is created, you are redirected to the provider attributes page.
+    
+    To configure attribute mappings and conditions, do the following:
+    
+    1.  When prompted, sign in to your external IdP to validate the default attribute mappings.
+    2.  On the provider attributes page, view and edit the attribute mappings and conditions:
+        1.  To add or edit attribute mappings, do the following:
             
-            1.  Click **Add mapping** .
-            2.  In **Google *n*** , where *n* is a number, enter one of the [Google Cloud-supported keys](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
-            3.  In the corresponding **OIDC *n*** field, enter the name of the IdP-specific field to map, in CEL format.
-        
-        3.  To increase the number of groups, do the following:
+            1.  Click **Add mapping** to add a new mapping, or edit the existing mappings.
             
-            1.  Select **Use Extra Attributes** .
-            2.  In the **Extra Attributes Issuer URI** field, enter the issuer URL.
-            3.  In the **Extra Attributes Client ID** field, enter the client ID.
-            4.  In the **Extra Attributes Client Secret** field, enter the client secret.
-            5.  In the **Extra Attributes Type** list, select an attribute type for extra attributes.
-            6.  In the **Extra Attributes Filter** field, enter a filter expression that is used when querying the Microsoft Graph API for groups.
+            2.  In the **Google *n*** field, where *n* is a number, select a Google Cloud-supported key.
+            
+            3.  In the corresponding **OIDC *n*** field, enter the IdP attribute name or a CEL expression. For Microsoft Entra ID with OIDC authentication, we recommend the following attribute mappings:
+                
+                    google.subject=assertion.oid,
+                    google.groups=assertion.groups,
+                    google.display_name=assertion.preferred_username
+                
+                This example maps the IdP attributes `assertion.oid` , `assertion.groups` , and `assertion.preferred_username` to the Google Cloud attributes `google.subject` , `google.groups` , and `google.display_name` , respectively.
         
-        4.  To create an attribute condition, do the following:
+        2.  To increase the number of groups, do the following:
+            
+            1.  Click **Enable** for extra attributes.
+            2.  In the subtask that opens, enter the details:
+                1.  In the **Extra Attributes Issuer URI** field, enter the issuer URL.
+                2.  In the **Extra Attributes Client ID** field, enter the client ID.
+                3.  In the **Extra Attributes Client Secret** field, enter the client secret.
+                4.  In the **Extra Attributes Type** list, select an attribute type for extra attributes.
+                5.  In the **Extra Attributes Filter** field, enter a filter expression to be used when querying the Microsoft Graph API for groups.
+                6.  Click **Enable** .
+            
+            After you enable extra attributes, you can click **Edit** to reopen the subtask and edit the details, or click **Disable** to turn off extra attributes.
+        
+        3.  To add an attribute condition, do the following:
             
             > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
             
             1.  Click **Add condition** .
             2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) ; for example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.ipaddr.startsWith('98.11.12.')` .
-        
-        5.  To turn on detailed audit logging, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
-            
-            Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
-            
-            To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
-    
-    12. To create the provider, click **Submit** .
+    3.  To validate your mappings, click **Save and refetch token** .
+    4.  To complete the setup, click **Save and exit** .
 
 ### Create a SAML 2.0 workforce identity pool provider
 
@@ -579,11 +601,9 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
       - The single-sign-on URL for your IdP.
       - At least one signing public key. See [Key requirements](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id#key-requirements) later in this guide for details on signing keys.
 
-To configure the SAML application, do the following:
-
 ### gcloud
 
-To save the SAML metadata for your Microsoft Entra ID application, do the following:
+To save the SAML metadata for your Microsoft Entra ID application and create the provider, do the following:
 
 1.  Go to your Microsoft Entra ID application.
 2.  Click **Single sign-on** .
@@ -593,14 +613,14 @@ To save the SAML metadata for your Microsoft Entra ID application, do the follow
 To create the SAML workforce identity pool provider, run the following command:
 
     gcloud iam workforce-pools providers create-saml WORKFORCE_PROVIDER_ID \
-      --workforce-pool="WORKFORCE_POOL_ID" \
-      --display-name="DISPLAY_NAME" \
-      --description="DESCRIPTION" \
-      --idp-metadata-path="XML_METADATA_PATH" \
-      --attribute-mapping="ATTRIBUTE_MAPPING" \
-      --attribute-condition="ATTRIBUTE_CONDITION" \
-      --detailed-audit-logging \
-      --location=global
+        --workforce-pool="WORKFORCE_POOL_ID" \
+        --display-name="DISPLAY_NAME" \
+        --description="DESCRIPTION" \
+        --idp-metadata-path="XML_METADATA_PATH" \
+        --attribute-mapping="ATTRIBUTE_MAPPING" \
+        --attribute-condition="ATTRIBUTE_CONDITION" \
+        --detailed-audit-logging \
+        --location=global
 
 Replace the following:
 
@@ -614,14 +634,14 @@ Replace the following:
 
   - `  XML_METADATA_PATH  ` : The path to the XML-formatted metadata file with configuration metadata for the SAML identity provider.
 
-  - `  ATTRIBUTE_MAPPING  ` : The [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) —for example:
+  - `  ATTRIBUTE_MAPPING  ` : The [attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) — for example:
     
         google.subject=assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier'],
         attribute.costcenter=assertion.attributes.costcenter[0]
     
     This example maps the `assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier']` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
-
-For more information, see [Attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mapping) .
+    
+    For more information, see [Attribute mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mapping) .
 
   - `  ATTRIBUTE_CONDITION  ` : An optional [attribute condition](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) . For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider.
 
@@ -687,42 +707,44 @@ Replace the following:
 
 #### Configure your SAML 2.0-compliant IdP to issue encrypted SAML assertions
 
-To configure Microsoft Entra ID to encrypt SAML tokens, see [Configure Azure Active Directory SAML token encryption](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/howto-saml-token-encryption?tabs=azure-portal) .
+To configure Microsoft Entra ID to encrypt SAML tokens, see \<a href="https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/howto-saml-token-encryption?tabs=azure-portal"
 
-After you configure your IdP to encrypt SAML assertions, we recommend that you check to make sure that the assertions it generates are actually encrypted. Even with SAML assertion encryption configured, workforce identity federation can still process plaintext assertions.
-
-#### Delete workforce identity federation encryption keys
-
-To delete SAML encryption keys run the following command:
-
-``` 
-  gcloud iam workforce-pools providers keys delete KEY_ID \
-      --workforce-pool WORKFORCE_POOL_ID \
-      --provider WORKFORCE_PROVIDER_ID \
-      --location global
-```
-
-Replace the following:
-
-  - `  KEY_ID  ` : the key name
-  - `  WORKFORCE_POOL_ID  ` : the pool ID
-  - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID
-
-#### Supported SAML encryption algorithms
-
-Workforce identity federation supports the following key transport algorithms:
-
-  - <http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p>
-  - [http://www.w3.org/2009/xmlenc11\#rsa-oaep"](http://www.w3.org/2009/xmlenc11#rsa-oaep)
-  - [http://www.w3.org/2001/04/xmlenc\#rsa-1\_5"](http://www.w3.org/2001/04/xmlenc#rsa-1_5)
-
-Workforce identity federation supports the following block encryption algorithms:
-
-  - <http://www.w3.org/2001/04/xmlenc#aes128-cbc>
-  - <http://www.w3.org/2001/04/xmlenc#aes192-cbc>
-  - <http://www.w3.org/2001/04/xmlenc#aes256-cbc>
-  - <http://www.w3.org/2009/xmlenc11#aes128-gcm>
-  - <http://www.w3.org/2009/xmlenc11#aes256-gcm>
+> Configure Azure Active Directory SAML token encryption.
+> 
+> After you configure your IdP to encrypt SAML assertions, we recommend that you check to make sure that the assertions it generates are actually encrypted. Even with SAML assertion encryption configured, workforce identity federation can still process plaintext assertions.
+> 
+> #### Delete workforce identity federation encryption keys
+> 
+> To delete SAML encryption keys run the following command:
+> 
+> ``` 
+>   gcloud iam workforce-pools providers keys delete KEY_ID \
+>       --workforce-pool WORKFORCE_POOL_ID \
+>       --provider WORKFORCE_PROVIDER_ID \
+>       --location global
+> ```
+> 
+> Replace the following:
+> 
+>   - `  KEY_ID  ` : the key name
+>   - `  WORKFORCE_POOL_ID  ` : the pool ID
+>   - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID
+> 
+> #### Supported SAML encryption algorithms
+> 
+> Workforce identity federation supports the following key transport algorithms:
+> 
+>   - <http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p>
+>   - [http://www.w3.org/2009/xmlenc11\#rsa-oaep"](http://www.w3.org/2009/xmlenc11#rsa-oaep)
+>   - [http://www.w3.org/2001/04/xmlenc\#rsa-1\_5"](http://www.w3.org/2001/04/xmlenc#rsa-1_5)
+> 
+> Workforce identity federation supports the following block encryption algorithms:
+> 
+>   - <http://www.w3.org/2001/04/xmlenc#aes128-cbc>
+>   - <http://www.w3.org/2001/04/xmlenc#aes192-cbc>
+>   - <http://www.w3.org/2001/04/xmlenc#aes256-cbc>
+>   - <http://www.w3.org/2009/xmlenc11#aes128-gcm>
+>   - <http://www.w3.org/2009/xmlenc11#aes256-gcm>
 
 ### Console
 
@@ -748,43 +770,58 @@ To configure the SAML provider using the Google Cloud console, do the following:
     4.  To create a provider that is enabled, make sure **Enable provider** is on.
     5.  Click **Continue** .
 
-7.  In the **Share your provider information** section, copy the URLs. In your IdP, configure the first URL as the entity ID, which identifies your application to IdP. Configure the other URL as the redirect URI, which informs your IdP where to send the assertion token after logging in.
+7.  In the **Share your provider information** section, copy the URLs. In your IdP, configure the first URL as the entity ID, which identifies your application to the IdP. Configure the other URL as the redirect URI, which informs your IdP where to send the assertion token after signing in.
 
 8.  Click **Continue** .
 
-9.  In the **Configure provider** section, do the following:
+9.  In the **Configure provider** section, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
     
-    1.  In **Attribute mapping** , enter a CEL expression for `google.subject` .
+    Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
     
-    2.  Optional: To enter other mappings, click **Add mapping** and enter other mappings—for example:
-        
-            google.subject=assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier'],
-            attribute.costcenter=assertion.attributes.costcenter[0]
-        
-        This example maps the `assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier']` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
-    
-    3.  To increase the number of groups, do the following:
-        
-        1.  Select **Use Extra Attributes** .
-        2.  In the **Extra Attributes Issuer URI** field, enter the issuer URL.
-        3.  In the **Extra Attributes Client ID** field, enter the client ID.
-        4.  In the **Extra Attributes Client Secret** field, enter the client secret.
-        5.  In the **Extra Attributes Type** list, select an attribute type for extra attributes.
-        6.  In the **Extra Attributes Filter** field, enter a filter expression that is used when querying the Microsoft Graph API for groups.
-    
-    4.  Optional: To add an attribute condition, click **Add condition** and enter a CEL expression representing an attribute condition. For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider.
-        
-        > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
-    
-    5.  Click **Continue** .
-    
-    6.  To turn on detailed audit logging, in **Detailed logging** , click the **Enable attribute value audit logging** toggle.
-        
-        Workforce Identity Federation *detailed audit logging* logs information received from your IdP to Logging. Detailed audit logging can help you troubleshoot your workforce identity pool provider configuration. To learn how to troubleshoot attribute mapping errors with detailed audit logging, see [General attribute mapping errors](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#general-attribute-mapping-errors) . To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
-        
-        To disable detailed audit logging for a workforce identity pool provider, omit the `--detailed-audit-logging` flag when you run `gcloud iam workforce-pools providers create` . To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
+    To disable detailed audit logging for a workforce identity pool provider, leave the **Enable attribute value audit logging** toggle off when you create the provider. To disable detailed audit logging, you can also [update the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-oidc-provider) .
 
 10. To create the provider, click **Submit** .
+
+After the provider is created, you are redirected to the provider attributes page.
+
+To configure attribute mappings and conditions, do the following:
+
+1.  When prompted, sign in to your external IdP to validate the default attribute mappings.
+2.  On the provider attributes page, view and edit the attribute mappings and conditions:
+    1.  To add or edit attribute mappings, do the following:
+        
+        1.  Click **Add mapping** to add a new mapping, or edit the existing mappings.
+        
+        2.  In the **Google *n*** field, where *n* is a number, select a Google Cloud supported key.
+        
+        3.  In the corresponding **SAML *n*** field, enter the IdP attribute name or a CEL expression—for example:
+            
+                google.subject=assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier'],
+                attribute.costcenter=assertion.attributes.costcenter[0]
+            
+            This example maps the `assertion.attributes['http://schemas.microsoft.com/identity/claims/objectidentifier']` IdP attribute to `google.subject` and the `assertion.attributes.costcenter[0]` IdP attribute to `attribute.costcenter` .
+    
+    2.  To increase the number of groups, do the following:
+        
+        1.  Click **Enable** for extra attributes.
+        2.  In the subtask that opens, enter the details:
+            1.  In the **Extra Attributes Issuer URI** field, enter the issuer URL.
+            2.  In the **Extra Attributes Client ID** field, enter the client ID.
+            3.  In the **Extra Attributes Client Secret** field, enter the client secret.
+            4.  In the **Extra Attributes Type** list, select an attribute type for extra attributes.
+            5.  In the **Extra Attributes Filter** field, enter a filter expression to be used when querying the Microsoft Graph API for groups.
+            6.  Click **Enable** .
+        
+        After you enable extra attributes, you can click **Edit** to reopen the subtask and edit the details, or click **Disable** to turn off extra attributes.
+    
+    3.  To add an attribute condition, do the following:
+        
+        > **Warning:** If your multi-tenant IdP has a single issuer URI, you must use [attribute conditions](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) to ensure that access is restricted to the correct tenant. For more information, see [Use attribute conditions when federating with GitHub or other multi-tenant identity providers](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#use-attribute-conditions-multitenant) .
+        
+        1.  Click **Add condition** .
+        2.  In the **Attribute Conditions** field, enter a condition in [CEL format](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-conditions) —for example, For example, to limit the `ipaddr` attribute to a certain IP range you can set the condition `assertion.attributes.ipaddr.startsWith('98.11.12.')` . This example condition ensures that only users with an IP address that starts with `98.11.12.` can sign in using this workforce provider..
+3.  To validate your mappings, click **Save and refetch token** .
+4.  To complete the setup, click **Save and exit** .
 
 ## Verify your provider configuration
 
@@ -868,11 +905,9 @@ Replace the following:
 
 To grant the Storage Admin role ( `roles/storage.admin` ) to all identities within a specific department for project `  TEST_PROJECT_ID  ` , run the following command:
 
-``` 
-   gcloud projects add-iam-policy-binding TEST_PROJECT_ID \
-    --role="roles/storage.admin" \
-    --member="principalSet://iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/attribute.department/DEPARTMENT_VALUE"
-```
+    gcloud projects add-iam-policy-binding TEST_PROJECT_ID \
+        --role="roles/storage.admin" \
+        --member="principalSet://iam.googleapis.com/locations/global/workforcePools/WORKFORCE_POOL_ID/attribute.department/DEPARTMENT_VALUE"
 
 Replace the following:
 

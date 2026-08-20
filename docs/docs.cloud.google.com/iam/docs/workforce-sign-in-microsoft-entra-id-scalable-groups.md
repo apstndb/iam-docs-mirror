@@ -163,6 +163,8 @@ To create a Microsoft Entra ID application registration that uses the SAML proto
     
     6.  To use the example attribute mapping that is provided later in this document, you must create a custom `department` attribute.
 
+4.  [Assign users or groups to the application](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/assign-user-or-group-access-portal) .
+
 ## Configure large numbers of groups with Microsoft Entra ID
 
 This section describes how to map up to 400 groups from Microsoft Entra ID to Workforce Identity Federation using the OIDC and SAML protocols.

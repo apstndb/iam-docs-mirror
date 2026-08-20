@@ -194,7 +194,32 @@ For example, the following condition restricts access to client certificates con
 
 This section shows you how to configure a workload identity pool and a workload identity pool provider. You need only perform these steps once for each trust store. You can then use the same workload identity pool and provider for multiple workloads and across multiple Google Cloud projects.
 
-### Create the workload identity pool
+### Create the workload identity pool and provider
+
+### Console
+
+1.  In the Google Cloud console, go to the **New workload provider and pool** page.
+
+2.  In the **Create an identity pool** section, enter the following:
+    
+      - **Name** : Name for the pool. The name is also used as the pool ID. You can't change the pool ID later.
+      - **Description** : Text that describes the purpose of the pool.
+
+3.  Click **Continue** .
+
+4.  In the **Add a provider to pool** section, do the following:
+    
+    1.  In **Select a provider** , select **X509** .
+    2.  In **Provider name** , enter a name for the provider. The name is also used as the provider ID. You can't change the provider ID after the provider is created.
+    3.  In **Trust anchors** , enter your trusted CA certificates in [PEM format](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#formatting) . These are used to validate the client certificate chain.
+    4.  Optional: In **Intermediate certificates** , enter any intermediate CA certificates in PEM format to help build the full trust chain.
+    5.  Click **Continue** .
+
+5.  In the **Configure provider attributes** section, add the [attribute mappings and conditions](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) that you've identified previously.
+
+6.  Click **Save** .
+
+### gcloud
 
 1.  To create a new workload identity pool, execute the following command:
     
@@ -205,13 +230,11 @@ This section shows you how to configure a workload identity pool and a workload 
     
     Replace the following:
     
-      - `  POOL_ID  ` : the unique ID for the pool.
-      - `  DISPLAY_NAME  ` : the name of the pool.
-      - `  DESCRIPTION  ` : a description of the pool that you choose. This description appears when you grant access to pool identities.
+      - `  POOL_ID  ` : The unique ID for the pool.
+      - `  DISPLAY_NAME  ` : The name of the pool.
+      - `  DESCRIPTION  ` : A description of the pool that you choose. This description appears when you grant access to pool identities.
 
-### Create the workload identity pool provider
-
-1.  To add an X.509 workload identity pool provider, run the following command:
+2.  To add an X.509 workload identity pool provider, run the following command:
     
         gcloud iam workload-identity-pools providers create-x509 PROVIDER_ID \
             --location=global \
@@ -225,8 +248,8 @@ This section shows you how to configure a workload identity pool and a workload 
       - `  PROVIDER_ID  ` : A unique workload identity pool provider ID of your choice.
       - `  POOL_ID  ` : The workload identity pool ID that you created earlier.
       - `  TRUST_STORE_CONFIG  ` : The trust store YAML file.
-      - `  MAPPINGS  ` : A comma-separated list of [attribute mappings](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) that you created earlier in this guide. For example, `google.subject=assertion.subject.dn.cn` .
-      - `  CONDITIONS  ` : Optional. An [attribute condition](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) that you created earlier in this guide. Remove the parameter if you don't have an attribute condition.
+      - `  MAPPINGS  ` : A comma-separated list of [attribute mappings](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) that you created earlier in this document. For example, `google.subject=assertion.subject.dn.cn` .
+      - `  CONDITIONS  ` : Optional. An [attribute condition](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) that you created earlier in this document. Remove the parameter if you don't have an attribute condition.
 
 ## Configure Context-Aware Access Policy Enforcement for Workload Identity Federation
 
@@ -477,13 +500,14 @@ Replace the following:
 
 ### Download or create a credential configuration
 
-The [Cloud Client Libraries](https://docs.cloud.google.com/apis/docs/cloud-client-libraries) and the gcloud CLI can automatically obtain external credentials and use these credentials to impersonate a service account. To let libraries and tools complete this process, you must provide a credential configuration file. This file provides the following information:
+The [Cloud Client Libraries](https://docs.cloud.google.com/apis/docs/cloud-client-libraries) and the gcloud CLI can automatically obtain external credentials and use these credentials to impersonate a service account. To let libraries and tools complete this process, you must provide a credential configuration file.
 
-  - Where to obtain external credentials from
-  - Which workload identity pool and provider to use
-  - Which service account to impersonate
+Additionally, for X.509 certificate federation, a certificate configuration file is required.
 
-Additionally, for X.509 certificate federation, a certificate configuration file is required. This file contains paths to the X.509 client certificate and private key files.
+The configuration files include the following:
+
+  - **Credential Configuration** : A JSON file that defines how the client library interacts with the Security Token Service (STS).
+  - **Certificate Configuration** : A JSON file that specifies the local paths for the client certificate and private key on your workload.
 
 > **Note:** Unlike a [service account key](https://docs.cloud.google.com/iam/docs/creating-managing-service-account-keys#creating_service_account_keys) , a credential configuration file doesn't contain a private key and doesn't need to be kept confidential. For the credential configuration file details, see [AIP-4117: External Account Credentials (Workload Identity Federation)](https://google.aip.dev/auth/4117) .
 
@@ -491,67 +515,128 @@ Create credential and certificate configuration files that let the library obtai
 
 ### Direct resource access
 
-To create credential and certificate configuration files for direct resource access by using [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) , do the following:
+To create credential and certificate configuration files for direct resource access, do the following:
 
-    gcloud iam workload-identity-pools create-cred-config \
-      projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID \
-        --credential-cert-path=CLIENT_CERT_PATH \
-        --credential-cert-private-key-path=CLIENT_PRIVATE_KEY_PATH \
-        --credential-cert-trust-chain-path=TRUST_CHAIN_PATH \
-        --output-file=FILEPATH.json
+### Console
 
-Replace the following:
+1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-  - `  PROJECT_NUMBER  ` : The project number of the project that contains the workload identity pool.
-  - `  POOL_ID  ` : The ID of the workload identity pool.
-  - `  PROVIDER_ID  ` : The ID of the workload identity pool provider.
-  - `  CLIENT_CERT_PATH  ` : The path of the client certificate file.
-  - `  CLIENT_PRIVATE_KEY_PATH  ` : The path of the client certificate private key file.
-  - `  TRUST_CHAIN_PATH  ` : Optional. The path of the trust chain file that contains any intermediate certificates that are not configured in x509 provider.
-  - `  FILEPATH  ` : The file to save the configuration to.
+2.  Click the name of the pool that contains the provider you want to use.
 
-Running this command will also create a certificate configuration file and store it at the default gcloud CLI location:
+3.  Click **add\_box Grant access** .
 
-  - Linux and macOS: `~/.config/gcloud/certificate_config.json`
+4.  In the **Grant access to service account** panel, select **Grant access using federated identities (Recommended)** .
 
-  - Windows: `%APPDATA%\gcloud\certificate_config.json`
+5.  Click **Download config** .
+
+6.  In the **Configure your application** section, select the provider that contains the external identities and provide the following settings:
+    
+      - **Client certificate path** : The local path to your client certificate file.
+      - **Client private key path** : The local path to your client private key file.
+      - **Trust chain path** : (Optional) The path of the trust chain file that contains the client certificate and any intermediate certificates that are required for certificate lookup but are not configured in the X.509 provider.
+
+7.  To download a ZIP archive containing the **Credential Configuration** and **Certificate Configuration** files, click **Download config** .
+
+8.  Click **Dismiss** .
+
+### gcloud
+
+1.  To create credential and certificate configuration files for direct resource access by using [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) , run the following command:
+    
+        gcloud iam workload-identity-pools create-cred-config \
+          projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID \
+            --credential-cert-path=CLIENT_CERT_PATH \
+            --credential-cert-private-key-path=CLIENT_PRIVATE_KEY_PATH \
+            --credential-cert-trust-chain-path=TRUST_CHAIN_PATH \
+            --output-file=FILEPATH.json
+    
+    Replace the following:
+    
+      - `  PROJECT_NUMBER  ` : The project number of the project that contains the workload identity pool.
+      - `  POOL_ID  ` : The ID of the workload identity pool.
+      - `  PROVIDER_ID  ` : The ID of the workload identity pool provider.
+      - `  CLIENT_CERT_PATH  ` : The path of the client certificate file.
+      - `  CLIENT_PRIVATE_KEY_PATH  ` : The path of the client certificate private key file.
+      - `  TRUST_CHAIN_PATH  ` : Optional. The path of the trust chain file that contains the client certificate and any intermediate certificates that are required for certificate lookup but are not configured in the X.509 provider.
+      - `  FILEPATH  ` : The file to save the configuration to.
+    
+    Running this command will also create a certificate configuration file and store it at the default gcloud CLI location:
+    
+      - Linux and macOS: `~/.config/gcloud/certificate_config.json`
+    
+      - Windows: `%APPDATA%\gcloud\certificate_config.json`
 
 ### Service account impersonation
 
-To create credential and certificate configuration files with service account impersonation by using [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) , do the following:
+To create credential and certificate configuration files with service account impersonation, do the following:
 
-    gcloud iam workload-identity-pools create-cred-config \
-      projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID \
-        --service-account=SERVICE_ACCOUNT_EMAIL \
-        --service-account-token-lifetime-seconds=SERVICE_ACCOUNT_TOKEN_LIFETIME \
-        --credential-cert-path=CLIENT_CERT_PATH \
-        --credential-cert-private-key-path=CLIENT_KEY_PATH \
-        --credential-cert-trust-chain-path=TRUST_CHAIN_PATH \
-        --output-file=FILEPATH.json
+### Console
 
-Replace the following:
+1.  In the Google Cloud console, go to the **Workload Identity Pools** page.
 
-  - `  PROJECT_NUMBER  ` : The project number of the project that contains the workload identity pool.
-  - `  POOL_ID  ` : The ID of the workload identity pool.
-  - `  PROVIDER_ID  ` : The ID of the workload identity pool provider.
-  - `  SERVICE_ACCOUNT_EMAIL  ` : If you use service account impersonation, replace with the email address of the service account.
-  - `  SERVICE_ACCOUNT_TOKEN_LIFETIME  ` : The lifetime of the service account access token, in seconds, if you use service account impersonation. If omitted, this lifetime defaults to one hour. Omit this flag if you don't use service account impersonation. To specify a lifetime longer than one hour, you must configure the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` [organizational policy constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) .
-  - `  CLIENT_CERT_PATH  ` : The path of the client certificate file.
-  - `  CLIENT_PRIVATE_KEY_PATH  ` : The path of the client certificate private key file.
-  - `  TRUST_CHAIN_PATH  ` : Optional. The path of the trust chain file that contains any intermediate certificates not configured in x509 provider.
-  - `  FILEPATH  ` : The file to save configuration to.
+2.  Click the name of the pool that contains the provider you want to use.
 
-Running this command will also create a certificate configuration file and store it at the default Google Cloud CLI location:
+3.  Click **add Grant access** .
 
-  - Linux and macOS: `~/.config/gcloud/certificate_config.json`
+4.  Select **Grant access using service account impersonation** .
 
-  - Windows: `%APPDATA%\gcloud\certificate_config.json`
+5.  Select the service account that you want to impersonate.
+
+6.  Click **Download config** .
+
+7.  In the **Configure your application** dialog, provide the following settings:
+    
+      - **Client certificate path** : The local path to your client certificate file.
+      - **Client private key path** : The local path to your client private key file.
+      - **Trust chain path** : (Optional) The path of the trust chain file that contains the client certificate and any intermediate certificates that are required for certificate lookup but are not configured in the X.509 provider.
+
+8.  To download a ZIP archive containing the **Credential Configuration** and **Certificate Configuration** files, click **Download config** .
+
+9.  Click **Dismiss** .
+
+### gcloud
+
+1.  To create credential and certificate configuration files with service account impersonation by using [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) , run the following command:
+    
+        gcloud iam workload-identity-pools create-cred-config \
+          projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID \
+            --service-account=SERVICE_ACCOUNT_EMAIL \
+            --service-account-token-lifetime-seconds=SERVICE_ACCOUNT_TOKEN_LIFETIME \
+            --credential-cert-path=CLIENT_CERT_PATH \
+            --credential-cert-private-key-path=CLIENT_PRIVATE_KEY_PATH \
+            --credential-cert-trust-chain-path=TRUST_CHAIN_PATH \
+            --output-file=FILEPATH.json
+    
+    Replace the following:
+    
+      - `  PROJECT_NUMBER  ` : The project number of the project that contains the workload identity pool.
+      - `  POOL_ID  ` : The ID of the workload identity pool.
+      - `  PROVIDER_ID  ` : The ID of the workload identity pool provider.
+      - `  SERVICE_ACCOUNT_EMAIL  ` : If you use service account impersonation, replace SERVICE\_ACCOUNT\_EMAIL with the email address of the service account.
+      - `  SERVICE_ACCOUNT_TOKEN_LIFETIME  ` : The lifetime of the service account access token, in seconds, if you use service account impersonation. If omitted, this lifetime defaults to one hour. Omit this flag if you don't use service account impersonation. To specify a lifetime longer than one hour, you must configure the `constraints/iam.allowServiceAccountCredentialLifetimeExtension` [organizational policy constraint](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies) .
+      - `  CLIENT_CERT_PATH  ` : The path of the client certificate file.
+      - `  CLIENT_PRIVATE_KEY_PATH  ` : The path of the client certificate private key file.
+      - `  TRUST_CHAIN_PATH  ` : Optional. The path of the trust chain file that contains the client certificate and any intermediate certificates that are required for certificate lookup but are not configured in the X.509 provider.
+      - `  FILEPATH  ` : The file to save configuration to.
+    
+    Running this command will also create a certificate configuration file and store it at the default Google Cloud CLI location:
+    
+      - Linux and macOS: `~/.config/gcloud/certificate_config.json`
+    
+      - Windows: `%APPDATA%\gcloud\certificate_config.json`
 
 ### Use the credential configuration to access Google Cloud
 
 To let tools and client libraries use your credential configuration, do the following. To learn more about Application Default Credentials, see [How Application Default Credentials works](https://docs.cloud.google.com/docs/authentication/application-default-credentials) .
 
-1.  Initialize an environment variable `GOOGLE_APPLICATION_CREDENTIALS` and set it to the credential configuration file:
+1.  If you downloaded a ZIP archive from the Google Cloud console, extract the archive on your external workload.
+
+2.  Update the **Certificate Configuration** file with the actual local file paths for your client certificate and private key for the following fields:
+    
+      - `cert_path` : Path to your client certificate.
+      - `key_path` : Path to your private key.
+
+3.  Initialize an environment variable `GOOGLE_APPLICATION_CREDENTIALS` and set it to the credential configuration file:
     
     #### Bash
     
@@ -571,7 +656,9 @@ To let tools and client libraries use your credential configuration, do the foll
     
     Replace `  FILEPATH  ` with the relative path to the credential configuration file.
 
-2.  Ensure that the client library can find the certificate configuration file. The certificate configuration file is located at one of the following paths:
+4.  Ensure that the client library can find the certificate configuration file. The certificate configuration file is located at one of the following paths:
+    
+      - The path where you extract the ZIP archive. (if you downloaded the configuration from the Google Cloud console).
     
       - The default gcloud CLI path:
         
@@ -581,7 +668,7 @@ To let tools and client libraries use your credential configuration, do the foll
     
       - The path set in the `GOOGLE_API_CERTIFICATE_CONFIG` environment variable.
 
-3.  Use the following Cloud Client Libraries that support Workload Identity Federation with X.509 certificates.
+5.  Use the following Cloud Client Libraries that support Workload Identity Federation with X.509 certificates.
     
     ### Go
     
@@ -606,9 +693,9 @@ To let tools and client libraries use your credential configuration, do the foll
     
     To specify a project ID for the authentication client, you can set the `GOOGLE_CLOUD_PROJECT` environment variable, or you can allow the client to find the project ID automatically. To find the project ID automatically, the service account in the configuration file must have the Browser role ( `roles/browser` ), or a role with equivalent permissions, on your project. For details, see the [user guide for the `google-auth` package](https://github.com/googleapis/google-cloud-python/blob/main/packages/google-auth/docs/user-guide.rst#using-external-identities) .
 
-4.  If your workload runs on macOS, set `CLOUDSDK_PYTHON_SITEPACKAGES=1` to configure gcloud CLI to use Python libraries outside of its installation directory.
+6.  If your workload runs on macOS, set `CLOUDSDK_PYTHON_SITEPACKAGES=1` to configure gcloud CLI to use Python libraries outside of its installation directory.
 
-5.  To authenticate using the gcloud CLI, run the following command:
+7.  To authenticate using the gcloud CLI, run the following command:
     
         gcloud auth login --cred-file=FILEPATH.json
     
@@ -630,7 +717,7 @@ Format the certificates that need to be included in the chain as a JSON-formatte
     
         export INTERMEDIATE_CERT=$(openssl x509 -in int.cert -out int.der -outform DER && cat int.der | openssl enc -base64 -A)
 
-2.  Create a JSON-formatted list of strings that can be passed as `subject_token` in the call to Security Token Service, later in this document.
+2.  Create a JSON-formatted list of strings that can be passed as `subject_token` in the call to Security Token Service, later in this guide.
     
         export TRUST_CHAIN="[\\\"${LEAF_CERT}\\\", \\\"${INTERMEDIATE_CERT}\\\"]"
 
@@ -655,15 +742,15 @@ To obtain the access token, do the following:
     
     Replace the following:
     
-      - `  CLIENT_CERT_KEY  ` : the client certificate private key
+      - `  CLIENT_CERT_KEY  ` : The client certificate private key
     
-      - `  CLIENT_CERT  ` : the client certificate
+      - `  CLIENT_CERT  ` : The client certificate
     
-      - `  WORKLOAD_IDENTITY_POOL_URI  ` : the URL of the workload identity pool provider in the following format:
+      - `  WORKLOAD_IDENTITY_POOL_URI  ` : The URL of the workload identity pool provider in the following format:
         
         ` //iam.googleapis.com/projects/ PROJECT_NUMBER /locations/global/workloadIdentityPools/ POOL_ID /providers/ PROVIDER_ID  `
     
-      - `  TRUST_CHAIN  ` : The trust chain needed to verify the leaf certificate, must at least include `  CLIENT_CERT  ` as the first item. If you followed instructions in [Formatting the certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#formatting) section, replace `  TRUST_CHAIN  ` with `'"${TRUST_CHAIN}"'`
+      - `  TRUST_CHAIN  ` : The trust chain needed to verify the leaf certificate, must at least include `  CLIENT_CERT  ` as the first item. If you followed instructions in [Format the certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#formatting) section, replace `  TRUST_CHAIN  ` with `'"${TRUST_CHAIN}"'`
 
 2.  Use the bearer access token generated in the previous step to access Google Cloud resources—for example:
     

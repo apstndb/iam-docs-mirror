@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="developerconnect.admin" class="role-title add-link" data-text="Developer Connect Admin Beta" tabindex="-1">Developer Connect Admin <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.admin" class="role-title add-link" data-text="Developer Connect Admin" tabindex="-1">Developer Connect Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.admin</code> )</p>
 <p>Full access to Developer Connect resources.</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  connections.  constructGitHubAppManifest</code></p>
@@ -60,7 +60,7 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="developerconnect.viewer" class="role-title add-link" data-text="Developer Connect Viewer Beta" tabindex="-1">Developer Connect Viewer <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.viewer" class="role-title add-link" data-text="Developer Connect Viewer" tabindex="-1">Developer Connect Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.viewer</code> )</p>
 <p>Read-only access to Developer Connect resources.</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  connections.  get</code></p>
@@ -85,13 +85,13 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 <p><code dir="ltr" translate="no">developerconnect.  connections.  httpProxyWrite</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="developerconnect.gitProxyReader" class="role-title add-link" data-text="Developer Connect Git Proxy Reader Beta" tabindex="-1">Developer Connect Git Proxy Reader <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.gitProxyReader" class="role-title add-link" data-text="Developer Connect Git Proxy Reader" tabindex="-1">Developer Connect Git Proxy Reader</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.gitProxyReader</code> )</p>
 <p>Grants read-only access to repositories through the Git Proxy.</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  gitProxyRead</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="developerconnect.gitProxyUser" class="role-title add-link" data-text="Developer Connect Git Proxy User Beta" tabindex="-1">Developer Connect Git Proxy User <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.gitProxyUser" class="role-title add-link" data-text="Developer Connect Git Proxy User" tabindex="-1">Developer Connect Git Proxy User</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.gitProxyUser</code> )</p>
 <p>Grants read and write access to repositories through the Git Proxy.</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  gitProxyRead</code></p>
@@ -241,7 +241,7 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 <p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  get</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="developerconnect.user" class="role-title add-link" data-text="Developer Connect User Beta" tabindex="-1">Developer Connect User <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.user" class="role-title add-link" data-text="Developer Connect User" tabindex="-1">Developer Connect User</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.user</code> )</p>
 <p>Grants access to view the connection and to the features that interact with the actual repository such as reading content from the repository</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  connections.  fetchGitHubInstallations</code></p>

@@ -14,6 +14,26 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## August 14, 2026
+
+Feature
+
+You can use custom constraints with Organization Policy to provide more granular control over specific fields for Agent Identity resources, such as `agentidentity.googleapis.com/AuthProvider` . For more information, see [Use custom organization policies for Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-custom-constraints) . This feature is in [GA](https://cloud.google.com/products#product-launch-stages) .
+
+Feature
+
+Agent Identity VPC Service Controls (VPC Service Controls) integration is [generally available](https://cloud.google.com/products#product-launch-stages) . You can add the Agent Identity API ( `agentidentity.googleapis.com` ) and Agent Identity Credentials API ( `agentidentitycredentials.googleapis.com` ) to a service perimeter and specify agent identities in ingress and egress rules.
+
+For more information, see [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview) .
+
+## August 12, 2026
+
+Change
+
+The workflow for creating workforce identity pool providers in the Google Cloud console changed. After submitting the initial provider configuration, the console directs you to a centralized page to configure provider attributes, including attribute mappings, attribute conditions, and extra attributes.
+
+For more information, see [Manage workforce identity pools and providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers) .
+
 ## August 03, 2026
 
 Feature

@@ -1127,7 +1127,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Added</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.relatedaccountgroupmemberships.list</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.relatedaccountgroups.list</code><br />
@@ -4801,14 +4801,14 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Role Updated</td>
 <td><p>The following permissions have been added to the role <code dir="ltr" translate="no">roles/recaptchaenterprise.admin</code> (reCAPTCHA Enterprise Admin):</p>
 <code dir="ltr" style="font-weight:normal" translate="no">monitoring.timeSeries.list</code><br />
 </td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Role Updated</td>
 <td><p>The following permissions have been added to the role <code dir="ltr" translate="no">roles/recaptchaenterprise.viewer</code> (reCAPTCHA Enterprise Viewer):</p>
 <code dir="ltr" style="font-weight:normal" translate="no">monitoring.timeSeries.list</code><br />
@@ -9215,7 +9215,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Added</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.projectmetadata.get</code><br />
 </td>
@@ -15179,13 +15179,13 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Added</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.metrics.get</code><br />
 </td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Supported In Custom Roles</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.metrics.get</code><br />
 </td>
@@ -17534,7 +17534,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Added</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.assessments.annotate</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.assessments.create</code><br />
@@ -17546,7 +17546,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Supported In Custom Roles</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.assessments.annotate</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.assessments.create</code><br />

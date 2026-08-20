@@ -31,19 +31,22 @@ Workforce Identity Federation SCIM support provides the following capabilities:
 When you use Workforce Identity Federation SCIM support, the following considerations apply:
 
   - You must set up a workforce identity pool and provider before configuring a SCIM tenant.
-  - Each workforce identity pool supports only one SCIM tenant. Because a SCIM tenant is created under a specific workforce identity pool provider, only that provider can use SCIM for groups. You cannot enable SCIM usage ( `--scim-usage=enabled-for-groups` or `--scim-usage=enabled-for-users-groups` ) on any other provider in the same pool. To configure a new SCIM tenant in the same workforce identity pool, you must first delete the existing one. To delete a SCIM tenant, use one of the following methods:
-      - **Soft delete (Default):** Deleting a SCIM tenant initiates a 30-day soft-delete period. During this time, the tenant is hidden and cannot be used, and you cannot create a new SCIM tenant in the same workforce identity pool.
-      - **Hard delete:** To permanently and immediately delete a SCIM tenant, use the `--hard-delete` flag with the delete command. This action is irreversible and lets you create a new SCIM tenant in the same workforce identity pool immediately after the deletion completes. Alternatively, you can create a new workforce identity pool and a new SCIM tenant or use a workforce identity pool that hasn't previously been configured with a SCIM tenant.
+  - Each workforce identity pool supports only one SCIM tenant, linked to a single provider. You cannot enable SCIM usage (--scim-usage=enabled-for-groups) on any other provider in the same pool. To configure a new SCIM tenant in the same workforce identity pool, you must first delete the existing one. To delete a SCIM tenant, use one of the following methods:
+      - **Soft delete (default):** Deleting a SCIM tenant initiates a 30-day soft-delete period. During this time, the tenant is hidden and cannot be used, and you cannot create a new SCIM tenant in the same workforce identity pool.
+      - **Hard delete:** To permanently and immediately delete a SCIM tenant, use the `--hard-delete` flag with the delete command. This action is irreversible and lets you create a new SCIM tenant in the same workforce identity pool immediately without waiting for the 30-day retention period. Alternatively, you can create a new workforce identity pool and a new SCIM tenant or use a workforce identity pool that hasn't previously been configured with a SCIM tenant.
   - When you use SCIM, you map attributes in both the workforce identity pool provider and the SCIM tenant. The `google.subject` attribute must uniquely refer to the same identities. You specify the `google.subject` in the workforce identity pool provider by using the `--attribute-mapping` flag and in the SCIM tenant using the `--claim-mapping` flag. Mapping non-unique identity values can cause Google Cloud to treat different IdP identities as the same identity. As a result, access that's granted to one user or group identity can extend to others but revoking access from one might not remove it from all.
-  - To use SCIM to map groups, set `--scim-usage=enabled-for-groups` (or `--scim-usage=enabled-for-users-groups` ) on the workforce identity pool provider that has the attached SCIM tenant. When you map groups using SCIM, any group mapping that's defined in that provider is ignored in favor of SCIM-managed groups. When referring to SCIM-managed groups, the mapped attribute is `google.group` , not `google.groups` . `google.groups` only refers to token-mapped groups. If you enable SCIM usage on a provider that does not have an attached SCIM tenant, sign-in attempts through that provider fail at runtime because Google Cloud cannot find a SCIM tenant under that provider's path.
+  - To use SCIM to map groups, set `--scim-usage=enabled-for-groups` on the workforce identity pool provider that has the attached SCIM tenant. When you map groups using SCIM, any group mapping that's defined in that provider is ignored in favor of SCIM-managed groups. When referring to SCIM-managed groups, the mapped attribute is `google.group` , not `google.groups` . `google.groups` only refers to token-mapped groups. If you enable SCIM usage on a provider that does not have an attached SCIM tenant, sign-in attempts through that provider fail at runtime because Google Cloud cannot find a SCIM tenant under that provider's path.
   - **Uniqueness enforcement:** Google Cloud validates and enforces uniqueness on attributes mapped to `google.subject` (users) and `google.group` (groups) in a SCIM tenant. If the mapped attributes provisioned by your IdP result in duplicate values for `google.subject` or `google.group` during synchronization, then provisioning fails with an HTTP `409 Conflict` error. If a mapped attribute evaluates to null or empty, provisioning fails with an HTTP `400 Bad Request` error.
   - When using SCIM, token-based attributes that are mapped with `--attribute-mapping` can still be used for authentication and in principal identifiers.
   - For Microsoft Entra ID configuration, to enable human-readable group names in Gemini Enterprise, use SCIM.
+  - **SCIM token limit:** Each SCIM tenant supports a maximum of two SCIM tokens (for example, to support zero-downtime token rotation). If you already have two tokens and need to create a new one, you must delete an existing token before creating a new one.
   - The SCIM API ( `iamscim.googleapis.com` ) is subject to rate quotas that differ from standard IAM resource API quotas. By default, write and read requests are limited to 3,000 requests per SCIM tenant per organization per minute. For more information, see [Quotas and limits](https://docs.cloud.google.com/iam/quotas#quotas) .
 
 ## Mapping OIDC and SAML providers to SCIM configuration
 
 There must be consistency between the attribute mapping in the workforce identity pool provider configuration ( `--attribute-mapping` ) and the claim mappings in the SCIM tenant ( `--claim-mapping` ). The underlying IdP attribute used to populate `google.subject` (for users) must be the same, whether it's being read from a token claim or a SCIM attribute.
+
+Because `--claim-mapping` is immutable once the SCIM tenant is created, if you need to update claim mappings (for example, to add the `.lowerAscii()` transformation), you must hard-delete the SCIM tenant and recreate it with the new mapping.
 
 If these mappings are inconsistent, users might be able to sign in but won't be recognized as members of their SCIM-provisioned groups. For example, if the provider uses `assertion.email` for `google.subject` , the SCIM tenant must also use the equivalent SCIM attribute (for example, `user.emails[0].value` ) for `google.subject` .
 
@@ -59,7 +62,7 @@ The following table shows the mappings between token claim attributes and SCIM a
 | `google.subject` | `assertion.email.lowerAscii()`              | `user.emails[0].value.lowerAscii()` |
 | `google.group`   | N/A (Mapped using SCIM)                     | `group.externalId`                  |
 
-> **Note:** When you use SCIM for groups, you must update your provider with `--scim-usage=enabled-for-groups` (or `--scim-usage=enabled-for-users-groups` ). The `google.groups` attribute in the provider mapping is ignored for group-based authorization; instead, use `google.group` .
+> **Note:** When you use SCIM for groups, you must update your provider with `--scim-usage=enabled-for-groups` . The `google.groups` attribute in the provider mapping is ignored for group-based authorization; instead, use `google.group` .
 
 ## Supported and unsupported endpoints
 
@@ -103,7 +106,7 @@ The following sections describe the limitations and deviations of the Workforce 
 
   - **Get Group and list Groups without filter:** `GetGroup` and `ListGroups` APIs return an empty member list. To retrieve members for a specific group, use the `ListGroups` API with a member filter.
 
-  - **Non-compliant JSON response with invalid tokens:** APIs that contain invalid API token result in a `401 HTTP error` from Google Cloud. The response is not a JSON structure as required by the specifications.
+  - **Non-compliant JSON response with invalid tokens:** APIs that contain an invalid API token result in a `401 HTTP error` from Google Cloud. The response is not a JSON structure as required by the specifications.
 
 ### SCIM behavior limitations
 
@@ -111,7 +114,7 @@ The following sections describe the limitations and deviations of the Workforce 
 
   - **Unique and non-empty identifiers:** Google Cloud enforces uniqueness on values mapped to `google.subject` and `google.group` in a SCIM tenant. Syncing mapped attributes that result in duplicate values for `google.subject` or `google.group` fails with an HTTP `409 Conflict` error. Mapped attributes that evaluate to null or empty fail with an HTTP `400 Bad Request` error.
 
-  - **Single email requirement:** For successful SCIM synchronization, each user must have exactly one email address of type `work` . Provisioning or updates will fail if your IdP sends multiple emails or if the single email provided is not typed as `work` .
+  - **Single email requirement:** For successful SCIM synchronization, each user must have exactly one email address of type `work` . Provisioning or updates will fail if your IdP sends multiple emails or if the single email provided is not of type `work` .
 
   - **Case-insensitive transformations:** Limited Common Expression Language (CEL) transformations are supported for SCIM claim mappings. Only `.lowerAscii()` is supported for case-insensitive comparisons for `user.userName` and `user.emails[0].value` .
 
@@ -173,4 +176,5 @@ The following table details the support for the enterprise user schema extension
 ## What's next
 
   - [Configure SCIM support for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation#configure-scim)
+  - [Troubleshoot SCIM provisioning](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-provisioning-errors)
   - [IAM SCIM audit logging](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim)

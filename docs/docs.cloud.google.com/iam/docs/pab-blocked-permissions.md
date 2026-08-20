@@ -1065,7 +1065,7 @@ Each row contains the following information:
 <td>None</td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><ul>
 <li><code dir="ltr" translate="no">recaptchaenterprise.googleapis.com/*</code></li>
 </ul></td>

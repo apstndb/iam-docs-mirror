@@ -7932,6 +7932,12 @@ Compute Engine
 
 `compute.googleapis.com/globalForwardingRules.update`
 
+`compute.googleapis.com/globalFrontendSettings.*`
+
+`compute.googleapis.com/globalFrontendSettings.get`
+
+`compute.googleapis.com/globalFrontendSettings.update`
+
 `compute.googleapis.com/globalNetworkEndpointGroups.*`
 
 `compute.googleapis.com/globalNetworkEndpointGroups.attachNetworkEndpoints`
@@ -13976,6 +13982,8 @@ Firebase Data Connect
 
 `firebasedataconnect.googleapis.com/schemas.list`
 
+`firebasedataconnect.googleapis.com/schemas.migrate`
+
 `firebasedataconnect.googleapis.com/schemas.update`
 
 `firebasedataconnect.googleapis.com/services.*`
@@ -18080,6 +18088,60 @@ Privileged Access Manager
 
 `privilegedaccessmanager.googleapis.com/settings.update`
 
+Production Actuation Service
+
+`prodactuation.googleapis.com/dnsConfigs.*`
+
+`prodactuation.googleapis.com/dnsConfigs.create`
+
+`prodactuation.googleapis.com/dnsConfigs.delete`
+
+`prodactuation.googleapis.com/dnsConfigs.get`
+
+`prodactuation.googleapis.com/dnsConfigs.list`
+
+`prodactuation.googleapis.com/dnsConfigs.update`
+
+`prodactuation.googleapis.com/ganpatiGroups.*`
+
+`prodactuation.googleapis.com/ganpatiGroups.create`
+
+`prodactuation.googleapis.com/ganpatiGroups.createMembership`
+
+`prodactuation.googleapis.com/ganpatiGroups.delete`
+
+`prodactuation.googleapis.com/ganpatiGroups.get`
+
+`prodactuation.googleapis.com/ganpatiGroups.list`
+
+`prodactuation.googleapis.com/ganpatiGroups.listMemberships`
+
+`prodactuation.googleapis.com/ganpatiGroups.update`
+
+`prodactuation.googleapis.com/ganpatiMemberships.*`
+
+`prodactuation.googleapis.com/ganpatiMemberships.delete`
+
+`prodactuation.googleapis.com/ganpatiMemberships.get`
+
+`prodactuation.googleapis.com/ganpatiMemberships.update`
+
+`prodactuation.googleapis.com/locations.*`
+
+`prodactuation.googleapis.com/locations.get`
+
+`prodactuation.googleapis.com/locations.list`
+
+`prodactuation.googleapis.com/operations.*`
+
+`prodactuation.googleapis.com/operations.cancel`
+
+`prodactuation.googleapis.com/operations.delete`
+
+`prodactuation.googleapis.com/operations.get`
+
+`prodactuation.googleapis.com/operations.list`
+
 Public Certificate Authority
 
 `publicca.googleapis.com/externalAccountKeys.*`
@@ -18200,7 +18262,7 @@ Pub/Sub
 
 `pubsub.googleapis.com/topics.update`
 
-reCAPTCHA
+Google Cloud Fraud Defense
 
 `recaptchaenterprise.googleapis.com/assessments.*`
 

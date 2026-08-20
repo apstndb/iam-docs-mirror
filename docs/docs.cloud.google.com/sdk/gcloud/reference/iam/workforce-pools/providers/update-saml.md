@@ -228,3 +228,11 @@ Run ` $ gcloud help  ` for details.
 API REFERENCE
 
 This command uses the `iam/v1` API. The full documentation for this API can be found at: <https://cloud.google.com/iam/>
+
+NOTES
+
+These variants are also available:
+
+    gcloud alpha iam workforce-pools providers update-saml
+
+    gcloud beta iam workforce-pools providers update-saml

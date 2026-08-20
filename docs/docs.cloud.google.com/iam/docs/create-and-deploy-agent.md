@@ -16,32 +16,30 @@ Agent Identity assigns a secure SPIFFE identity to your deployed agent. The agen
 
 ## Before you begin
 
-1.  Enable the Agent Identity API.
+1.  Enable the Agent Identity API, Agent Platform API, Agent Registry API, and App Hub API APIs.
     
     **Roles required to enable APIs**
     
     To enable APIs, you need the `serviceusage.services.enable` permission. If you created the project, then you likely already have this permission through the Owner role ( `roles/owner` ). Otherwise, you can get this permission through the Service Usage Admin role ( `roles/serviceusage.serviceUsageAdmin` ). [Learn how to grant roles](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-2.  Ensure you have the **Vertex AI User** ( `roles/aiplatform.user` ) role on your project.
+2.  Ensure you have the **Agent Platform User** ( `roles/aiplatform.user` ) role on your project.
 
 ## Create and deploy the agent
 
-Create a sample agent using `agents-cli` and deploy it with Agent Identity:
+Create a sample agent using `google-agents-cli` and deploy it with Agent Identity:
 
-1.  Install `google-agents-cli` and `uv` , then run the setup:
+1.  Install `uv` , and then run the `google-agents-cli` setup:
     
-        pip install google-agents-cli uv
-        agents-cli setup
+        pip install uv
+        uvx google-agents-cli setup
 
-2.  Create a new agent project using the prototype template:
+2.  Create an agent project using the prototype template:
     
-        agents-cli create AGENT_PROJECT --prototype --yes
+        uvx google-agents-cli create AGENT_PROJECT --prototype --yes
     
     Replace `  AGENT_PROJECT  ` with the name for your new agent project directory (for example, `maps-agent` ).
     
     This command generates the following project directory structure:
-    
-    *(Note: The following tree highlights the relevant configuration files and might not represent all files in your directory.)*
     
         AGENT_PROJECT/
         ├── app/                       # Core agent code
@@ -50,31 +48,65 @@ Create a sample agent using `agents-cli` and deploy it with Agent Identity:
         │   └── app_utils/             # App utilities and helpers
         ├── tests/                     # Unit and integration tests
         ├── GEMINI.md                  # Development guide
-        └── pyproject.toml                # Project dependencies
+        └── pyproject.toml             # Project dependencies
+    
+    > **Note:** The previous tree highlights the relevant configuration files and might not represent all files in your directory.
 
-3.  Rename the default application folder ( `app` ) to match your agent name ( `  AGENT_NAME  ` , for example, `maps_agent` ):
+3.  Rename the default application folder ( `app` ) to match your agent name ( `  AGENT_NAME  ` , for example, `maps_agent` ). Agent names must be a valid Python identifier: they must start with a letter, and contain only letters, numbers, and underscores.
     
+        cd AGENT_PROJECT
         mv app AGENT_NAME
-    
-    Then, update your `agent.py` configuration file to reflect the new name:
+
+4.  Update your `agent.py` configuration file to reflect the new name:
     
         # In AGENT_PROJECT/AGENT_NAME/agent.pyapp=App(root_agent=root_agent,name="AGENT_NAME",)
 
-4.  Enable Agent Identity by creating a config file:
+5.  Choose a model to use, based on its [regional availability](https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/locations#google-models) . Update the value for `MODEL` in `agent.py` to match your chosen model.
     
-        echo '{ "identity_type": "AGENT_IDENTITY" }' > .agent_engine_config.json
-
-5.  Create a `requirements.txt` file for the deployment dependencies:
+    #### Workaround for models that are only available in the `global` region
     
-        echo "httpx" > requirements.txt
-        echo "google-auth" >> requirements.txt
-        echo "google-adk[agent_engines,agent-identity]" >> requirements.txt
-        echo "google-cloud-aiplatform[agent_engines,adk]>=1.153.1" >> requirements.txt
+    To use a model that's only available in the `global` region, you must modify `agent.py` so that your agent can access it.
+    
+    1.  Add the following imports:
+        
+            from functools import cached_property
+            from google.genai import Client
+    
+    2.  Add the following subclass after the imports:
+        
+            class GlobalGemini(Gemini):
+                @cached_property
+                def api_client(self) -> Client:
+                    return Client(enterprise=True, location="global")
+    
+    3.  Find the following code:
+        
+            root_agent = Agent(
+                name="root_agent",
+                model=Gemini(
+        
+        Change it to reference the new subclass:
+        
+            root_agent = Agent(
+                name="root_agent",
+                model=GlobalGemini(
 
-6.  Verify the project directory structure:
+6.  Enable Agent Identity by creating a config file:
+    
+        echo '{ "identity_type": "AGENT_IDENTITY" }' > AGENT_NAME/.agent_engine_config.json
+
+7.  Create a `requirements.txt` file for the deployment dependencies:
+    
+        uv export \
+            --no-emit-workspace \
+            --no-hashes \
+            --format requirements.txt \
+            --output-file AGENT_NAME/requirements.txt
+
+8.  Verify the project directory structure:
     
         AGENT_PROJECT/
-        ├── AGENT_NAME/                   # Agent application folder
+        ├── AGENT_NAME/                 # Agent application folder
         │   ├── .agent_engine_config.json # Agent Identity configuration
         │   ├── agent.py                  # Main agent logic
         │   ├── fast_api_app.py           # Client application logic
@@ -83,32 +115,40 @@ Create a sample agent using `agents-cli` and deploy it with Agent Identity:
         ├── tests/                        # Tests
         ├── GEMINI.md                     # Development guide
         └── pyproject.toml                # Project dependencies
-    
-    Verify your agent locally:
+
+9.  Test your agent locally:
     
         uv run adk web . --port 8501 --reload_agents
     
+    > **Note:** If you're testing on Cloud Shell, you must add the `--allow_origins="*"` flag to bypass CORS issues.
+    
     To validate your agent, do the following:
     
-    1.  Go to `http://localhost:8501` .
+    1.  Go to `http://localhost:8501` . Alternatively, if you're using Cloud Shell, click the link provided by the web server output.
+    
     2.  In the chat interface, send a test prompt to verify the response.
 
-7.  Deploy your agent to Google Cloud:
+10. Terminate the server with `CTRL` + `C` .
+
+11. Deploy your agent to Google Cloud:
     
-        uv run adk deploy agent_engine AGENT_NAME \    --project="PROJECT_ID" \    --region="LOCATION"
+        uv run adk deploy agent_engine AGENT_NAME \
+            --project="PROJECT_ID" \
+            --region="LOCATION"
     
     Replace the following:
     
       - `  PROJECT_ID  ` : Your Google Cloud project ID.
-      - `  LOCATION  ` : The region where you want to deploy the agent (for example, `us-west1` ).
     
-    When deployment completes, the CLI outputs a confirmation message and a link to your agent's playground in the Google Cloud console.
+      - `  LOCATION  ` : The [supported region](https://docs.cloud.google.com/gemini-enterprise-agent-platform/resources/agent-locations) where you want to deploy the agent (for example, `us-west1` ).
+    
+    The deployment can take a few minutes to complete. After it finishes, the CLI outputs a confirmation message and a link to your agent's playground in the Google Cloud console.
 
-8.  Retrieve your agent's SPIFFE ID (Agent Identity) from the Google Cloud console:
+12. Retrieve your agent's SPIFFE ID (Agent Identity):
     
-    1.  In the Google Cloud console, go to the **Agent Platform** page.
-    2.  Click the **Deployments** tab and select your deployed agent.
-    3.  Copy the **Agent Identity** value (for example, `principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID` ).
+    1.  In the Google Cloud console, go to the **Deployments** page.
+    
+    2.  To copy your agent's SPIFFE ID to the clipboard, find the row that your deployed agent is in, and in the **Identity** column of that row click content\_copy **Copy to clipboard** . The identity looks similar to the following: ` principal://agents.global.org- ORGANIZATION_ID .system.id.goog/resources/aiplatform/projects/ PROJECT_NUMBER /locations/ LOCATION /reasoningEngines/ ENGINE_ID  ` .
 
 ## What's next
 

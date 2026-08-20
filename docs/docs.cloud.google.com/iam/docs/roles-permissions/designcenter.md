@@ -39,8 +39,72 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <li><code dir="ltr" translate="no">apphub.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">apphub.  serviceProjectAttachments.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
 <p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">config.automigrationconfig.get</code></p>
 <p><code dir="ltr" translate="no">config.  deploymentgrouprevisions.*</code></p>
 <ul>
@@ -204,7 +268,71 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <td><h4 id="designcenter.editor" class="role-title add-link" data-text="Designcenter Editor" tabindex="-1">Designcenter Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  designcenter.editor</code> )</p>
 <p>Editor role for designcenter</p></td>
-<td><p><code dir="ltr" translate="no">container.clusters.list</code></p>
+<td><p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">container.clusters.list</code></p>
 <p><code dir="ltr" translate="no">designcenter.  applicationTemplateRevisions.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">designcenter.  applicationTemplateRevisions.  delete</code></li>
@@ -314,7 +442,71 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <td><h4 id="designcenter.viewer" class="role-title add-link" data-text="Application Design Center Viewer" tabindex="-1">Application Design Center Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  designcenter.viewer</code> )</p>
 <p>Readonly access to Application Design Center resources.</p></td>
-<td><p><code dir="ltr" translate="no">container.clusters.list</code></p>
+<td><p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">container.clusters.list</code></p>
 <p><code dir="ltr" translate="no">designcenter.  applicationTemplateRevisions.  get</code></p>
 <p><code dir="ltr" translate="no">designcenter.  applicationTemplateRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">designcenter.  applicationTemplates.  get</code></p>
@@ -377,8 +569,72 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <li><code dir="ltr" translate="no">apphub.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">apphub.  serviceProjectAttachments.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
 <p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">config.automigrationconfig.get</code></p>
 <p><code dir="ltr" translate="no">config.  deploymentgrouprevisions.*</code></p>
 <ul>
@@ -487,8 +743,72 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <li><code dir="ltr" translate="no">apphub.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">apphub.  serviceProjectAttachments.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudbuild.builds.get</code></p>
 <p><code dir="ltr" translate="no">cloudbuild.builds.list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">config.automigrationconfig.get</code></p>
 <p><code dir="ltr" translate="no">config.  deploymentgrouprevisions.*</code></p>
 <ul>
@@ -563,6 +883,70 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <li><code dir="ltr" translate="no">apphub.locations.get</code></li>
 <li><code dir="ltr" translate="no">apphub.locations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">config.automigrationconfig.get</code></p>
 <p><code dir="ltr" translate="no">config.  deploymentgrouprevisions.*</code></p>
 <ul>
@@ -624,6 +1008,70 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <p>( <code dir="ltr" translate="no">roles/  designcenter.user</code> )</p>
 <p>Readonly access to Application Design Center resources.</p></td>
 <td><p><code dir="ltr" translate="no">apphub.  serviceProjectAttachments.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.auditReports.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  auditSchedules.  list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.controlReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  controlReports.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.controls.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.findings.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.get</code></p>
+<p><code dir="ltr" translate="no">auditmanager.locations.list</code></p>
+<p><code dir="ltr" translate="no">auditmanager.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.operations.get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">auditmanager.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  auditReports.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  billingSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControlPredictions.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cloudControls.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  cmEnrollments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controlReports.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  controls.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findingSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  findings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkAudits.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  aggregate</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceReports.  get</code></li>
+</ul>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkComplianceSummaries.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworkDeployments.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  frameworks.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  locations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  get</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  get</code></li>
+<li><code dir="ltr" translate="no">cloudsecuritycompliance.  resourceEnrollmentStatuses.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">container.clusters.list</code></p>
 <p><code dir="ltr" translate="no">designcenter.  applicationTemplateRevisions.*</code></p>
 <ul>

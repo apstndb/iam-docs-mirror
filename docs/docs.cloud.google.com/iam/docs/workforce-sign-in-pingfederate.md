@@ -10,15 +10,76 @@ This document shows you how to configure Workforce Identity Federation with the 
 
 ## Before you begin
 
-Make sure that you set up a Google Cloud organization.
+1.  Make sure that you set up a Google Cloud organization.
 
-[Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI. After installation, [initialize](https://docs.cloud.google.com/sdk/docs/initializing) the Google Cloud CLI by running the following command:
+2.  [Install](https://docs.cloud.google.com/sdk/docs/install) the Google Cloud CLI. After installation, [initialize](https://docs.cloud.google.com/sdk/docs/initializing) the Google Cloud CLI by running the following command:
+    
+        gcloud init
+    
+    If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+    
+    > **Note:** If you installed the gcloud CLI previously, make sure you have the latest version by running `gcloud components update` .
 
-    gcloud init
+3.  For sign-in, your IdP must provide signed authentication information: SAML IdP responses must be signed.
 
-If you're using an external identity provider (IdP), you must first [sign in to the gcloud CLI with your federated identity](https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud) .
+4.  To receive important information about changes to your organization or Google Cloud products, you must provide [Essential Contacts](https://docs.cloud.google.com/resource-manager/docs/managing-notification-contacts) . For more information, see the [Workforce Identity Federation overview](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#essential-contacts) .
 
-> **Note:** If you installed the gcloud CLI previously, make sure you have the latest version by running `gcloud components update` .
+## Costs
+
+Workforce Identity Federation is available as a no-cost feature. However, Workforce Identity Federation detailed audit logging uses Cloud Logging. To learn about Logging pricing, see [Google Cloud Observability pricing](https://docs.cloud.google.com/stackdriver/pricing#logs-costs) .
+
+## Required roles
+
+To get the permissions that you need to configure Workforce Identity Federation, ask your administrator to grant you the [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) IAM role on the organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+
+You might also be able to get the required permissions through [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
+
+If you configure permissions in a development or test environment—but not in a production environment—you can grant the IAM Owner ( `roles/owner` ) basic role. This role also includes permissions for Workforce Identity Federation.
+
+## Create a workforce identity pool
+
+### gcloud
+
+To create the workforce identity pool, run the following command:
+
+    gcloud iam workforce-pools create WORKFORCE_POOL_ID \
+        --organization=ORGANIZATION_ID \
+        --display-name="DISPLAY_NAME" \
+        --description="DESCRIPTION" \
+        --session-duration=SESSION_DURATION \
+        --location=global
+
+Replace the following:
+
+  - `  WORKFORCE_POOL_ID  ` : an ID that you choose to represent your Google Cloud workforce pool. The pool ID must be globally unique across all workforce identity pools in Google Cloud. For information on formatting the ID, see the [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers/create#query-parameters) section in the API documentation.
+  - `  ORGANIZATION_ID  ` : the numeric organization ID of your Google Cloud organization for the workforce identity pool. Workforce identity pools are available across all projects and folders in the organization.
+  - `  DISPLAY_NAME  ` : Optional. A display name for your workforce identity pool.
+  - `  DESCRIPTION  ` : Optional. A workforce identity pool description.
+  - `  SESSION_DURATION  ` : Optional. The session duration, expressed as a number appended with `s` —for example, `3600s` . Session duration determines how long the Google Cloud access tokens, [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#console-federated) sign-in sessions, and gcloud CLI sign-in sessions from this workforce pool are valid. Session duration defaults to one hour (3600s). The session duration value must be between 15 minutes (900s) and 12 hours (43200s).
+
+> **Tip:** Run `gcloud iam workforce-pools create --help` to find other parameters you can customize for this command.
+
+### Console
+
+To create the workforce identity pool, do the following:
+
+1.  In the Google Cloud console, go to the **Workforce Identity Pools** page:
+
+2.  Select the organization for your workforce identity pool. Workforce identity pools are available across all projects and folders in an organization.
+
+3.  Click **Create pool** and do the following:
+    
+    1.  In the **Name** field, enter the display name of the pool. The pool ID is automatically derived from the name as you type, and it is displayed under the **Name** field. You can update the pool ID by clicking **Edit** next to the pool ID.
+    
+    2.  Optional: In **Description** , enter a description of the pool.
+    
+    3.  To create the workforce identity pool, click **Next** .
+
+The workforce identity pool's session duration defaults to one hour (3600s). The session duration determines how long the Google Cloud access tokens, [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#console-federated) , and gcloud CLI sign-in sessions from this workforce pool are valid. After you create the pool, you can [update the pool](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#update-pool) to set a custom session duration. The session duration must be from 15 minutes (900s) to 12 hours (43200s).
+
+## Create a PingFederate application
+
+This section shows you how to create a PingFederate application integration.
 
 To set up a PingFederate application that uses the SAML 2.0 protocol, do the following in PingFederate:
 

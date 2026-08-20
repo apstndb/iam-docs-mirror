@@ -555,6 +555,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></li>
+<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  migrate</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  update</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  create</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></li>
@@ -2275,6 +2276,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  delete</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></li>
+<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  migrate</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  update</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  create</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></li>
@@ -3568,14 +3570,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">firebasedataconnect.  schemaRevisions.  list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">firebasedataconnect.schemas.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  create</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  delete</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></li>
-<li><code dir="ltr" translate="no">firebasedataconnect.  schemas.  update</code></li>
-</ul>
+<p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  create</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  delete</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  get</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  list</code></p>
+<p><code dir="ltr" translate="no">firebasedataconnect.  schemas.  update</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  create</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  delete</code></p>
 <p><code dir="ltr" translate="no">firebasedataconnect.  services.  executeGraphql</code></p>

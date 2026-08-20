@@ -16,6 +16,672 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-08-11
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>App Hub</td>
+<td><p>The following permissions have been added to the App Management Viewer role ( <code dir="ltr" translate="no">roles/apphub.appManagementViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Batch</td>
+<td><p>The following permissions have been added to the Google Batch Service Agent role ( <code dir="ltr" translate="no">roles/batch.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud TPU</td>
+<td><p>The following permissions have been added to the Cloud TPU V2 API Service Agent role ( <code dir="ltr" translate="no">roles/cloudtpu.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Managed Service for Apache Airflow</td>
+<td><p>The following permissions have been added to the Cloud Composer API Service Agent role ( <code dir="ltr" translate="no">roles/composer.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added to the Compute Instance Admin (beta) role ( <code dir="ltr" translate="no">roles/compute.instanceAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added to the Compute Instance Admin (v1) role ( <code dir="ltr" translate="no">roles/compute.instanceAdmin.v1</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Kubernetes Engine</td>
+<td><p>The following permissions have been added to the Kubernetes Engine Service Agent role ( <code dir="ltr" translate="no">roles/container.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Dataflow</td>
+<td><p>The following permissions have been added to the Cloud Dataflow Service Agent role ( <code dir="ltr" translate="no">roles/dataflow.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have been added to the Dataplex Catalog Admin role ( <code dir="ltr" translate="no">roles/dataplex.catalogAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataplex.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Managed Service for Apache Spark</td>
+<td><p>The following permissions have been added to the Dataproc Service Agent role ( <code dir="ltr" translate="no">roles/dataproc.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Application Design Center Admin role ( <code dir="ltr" translate="no">roles/designcenter.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Application Admin role ( <code dir="ltr" translate="no">roles/designcenter.applicationAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Application Editor role ( <code dir="ltr" translate="no">roles/designcenter.applicationEditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Application Viewer role ( <code dir="ltr" translate="no">roles/designcenter.applicationViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Designcenter Editor role ( <code dir="ltr" translate="no">roles/designcenter.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Application Design Center User role ( <code dir="ltr" translate="no">roles/designcenter.user</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Application Design Center</td>
+<td><p>The following permissions have been added to the Application Design Center Viewer role ( <code dir="ltr" translate="no">roles/designcenter.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.auditSchedules.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controlReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">auditmanager.resourceEnrollmentStatuses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.auditReports.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.billingSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControlPredictions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cloudControls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.cmEnrollments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controlReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.controls.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findingSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.findings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkAudits.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.aggregate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkComplianceSummaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworkDeployments.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.frameworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsecuritycompliance.resourceEnrollmentStatuses.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Admin role ( <code dir="ltr" translate="no">roles/developerconnect.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Git Proxy Reader role ( <code dir="ltr" translate="no">roles/developerconnect.gitProxyReader</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Git Proxy User role ( <code dir="ltr" translate="no">roles/developerconnect.gitProxyUser</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The Developer Connect User role ( <code dir="ltr" translate="no">roles/developerconnect.user</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Viewer role ( <code dir="ltr" translate="no">roles/developerconnect.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine Service Agent role ( <code dir="ltr" translate="no">roles/discoveryengine.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.agents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.agents.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Flow</td>
+<td><p>The Flow Service Agent role ( <code dir="ltr" translate="no">roles/flow.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Life Sciences</td>
+<td><p>The following permissions have been added to the Genomics Service Agent role ( <code dir="ltr" translate="no">roles/genomics.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Site Reliability Engineer role ( <code dir="ltr" translate="no">roles/iam.siteReliabilityEngineer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Life Sciences</td>
+<td><p>The following permissions have been added to the Cloud Life Sciences Service Agent role ( <code dir="ltr" translate="no">roles/lifesciences.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Notebooks</td>
+<td><p>The following permissions have been added to the AI Platform Notebooks Service Agent role ( <code dir="ltr" translate="no">roles/notebooks.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reservationSlots.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.fetchUserRepositories</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.gitProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.gitProxyWrite</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.accountConnectors.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.constructGitHubAppManifest</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.fetchGitHubInstallations</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.fetchLinkableGitRepositories</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.generateGitHubStateToken</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.processGitHubAppCreationCallback</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.processGitHubOAuthCallback</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.connections.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.fetchGitRefs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.fetchReadToken</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.fetchReadWriteToken</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.gitProxyRead</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.gitProxyWrite</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.gitRepositoryLinks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.providers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.deleteSelf</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.fetchAccessToken</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.finishOAuth</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.getSelf</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.users.startOAuth</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Data Connect</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebasedataconnect.schemas.migrate</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Data Connect</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">firebasedataconnect.schemas.migrate</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Production Actuation Service</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.createMembership</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.listMemberships</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiMemberships.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiMemberships.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiMemberships.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Production Actuation Service</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.dnsConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.createMembership</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.listMemberships</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiMemberships.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiMemberships.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.ganpatiMemberships.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.operations.list</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-08-04
 
 <table>
@@ -4703,7 +5369,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 <td><p>The Parametermanager Viewer role ( <code dir="ltr" translate="no">roles/parametermanager.viewer</code> ) has reached General Availability (GA).</p></td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><p>The Recaptchaenterprise Editor role ( <code dir="ltr" translate="no">roles/recaptchaenterprise.editor</code> ) has reached General Availability (GA).</p></td>
 </tr>
 <tr class="even">
@@ -19732,7 +20398,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </p></td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><p>The following permissions have been added:</p>
 <p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.keys.createTagBinding</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.keys.deleteTagBinding</code><br />
@@ -19741,7 +20407,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </p></td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><p>The following permissions have reached General Availability (GA):</p>
 <p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.keys.createTagBinding</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.keys.deleteTagBinding</code><br />
@@ -35524,7 +36190,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </p></td>
 </tr>
 <tr class="odd">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><p>The following permissions have been added:</p>
 <p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.firewallpolicies.create</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.firewallpolicies.delete</code><br />
@@ -35534,7 +36200,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </p></td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><p>The following permissions are supported in custom roles:</p>
 <p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.firewallpolicies.create</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.firewallpolicies.delete</code><br />
@@ -36306,7 +36972,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </p></td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td><p>The following permissions have been added:</p>
 <p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.projectmetadata.get</code><br />
 <code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.projectmetadata.update</code><br />
@@ -62636,7 +63302,7 @@ To get the latest product updates delivered to you, add the URL of this page to 
 </td>
 </tr>
 <tr class="even">
-<td>reCAPTCHA</td>
+<td>Google Cloud Fraud Defense</td>
 <td>Added</td>
 <td><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.keys.retrievelegacysecretkey</code><br />
 </td>
