@@ -495,6 +495,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.sessions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardRuns.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardTimeSeries.  list</code></p>
@@ -961,6 +962,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.searchedResults.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  sharedPreferenceSets.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollections.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  transformerDefinitions.  list</code></p>
@@ -1260,6 +1262,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.previewFeatures.list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicAdvertisedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  setIamPolicy</code></p>
@@ -1587,6 +1592,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">datalabeling.instructions.list</code></p>
 <p><code dir="ltr" translate="no">datalabeling.operations.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.events.list</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
@@ -1767,6 +1773,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">developerconnect.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  providers.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.users.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.devices.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.locations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.answerrecords.list</code></p>
@@ -2031,6 +2041,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.tasks.list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.vehicles.list</code></p>
+<p><code dir="ltr" translate="no">ftp.locations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.operations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.servers.list</code></p>
+<p><code dir="ltr" translate="no">ftp.users.list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">gdchardwaremanagement.  changeLogEntries.  list</code></p>
@@ -2615,6 +2629,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
+<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
@@ -2654,6 +2669,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
 <p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
 <p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>
@@ -3334,6 +3350,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.sessions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardRuns.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardTimeSeries.  list</code></p>
@@ -3756,6 +3773,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.searchedResults.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  sharedPreferenceSets.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollections.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  transformerDefinitions.  list</code></p>
@@ -4019,6 +4037,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.previewFeatures.list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicAdvertisedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendServices.  getIamPolicy</code></p>
@@ -4313,6 +4333,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">datalabeling.instructions.list</code></p>
 <p><code dir="ltr" translate="no">datalabeling.operations.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.events.list</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
@@ -4457,6 +4478,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">developerconnect.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  providers.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.users.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.devices.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.locations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.answerrecords.list</code></p>
@@ -4696,6 +4721,10 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.tasks.list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.vehicles.list</code></p>
+<p><code dir="ltr" translate="no">ftp.locations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.operations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.servers.list</code></p>
+<p><code dir="ltr" translate="no">ftp.users.list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">gdchardwaremanagement.  changeLogEntries.  list</code></p>
@@ -5204,6 +5233,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
+<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
@@ -5230,6 +5260,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
 <p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
 <p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>

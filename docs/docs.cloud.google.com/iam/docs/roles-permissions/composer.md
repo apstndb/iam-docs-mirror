@@ -940,6 +940,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code dir="ltr" translate="no">containeranalysis.  occurrences.  update</code></p>
 <p><code dir="ltr" translate="no">datalineage.events.create</code></p>
 <p><code dir="ltr" translate="no">datalineage.  locations.  processOpenLineageMessage</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processRevisions.  insert</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.create</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.get</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.update</code></p>
@@ -1846,6 +1847,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  update</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  updatePolicy</code></p>
+<p><code dir="ltr" translate="no">compute.recoverableSnapshots.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  delete</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  recover</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  setIamPolicy</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.regionBackendBuckets.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  create</code></li>
@@ -2144,6 +2154,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.snapshots.delete</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.get</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.list</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></li>

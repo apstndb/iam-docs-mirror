@@ -681,6 +681,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  update</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.tensorboardRuns.get</code></p>
@@ -1908,6 +1910,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">file.  snapshots.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">file.snapshots.listTagBindings</code></li>
 </ul>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listEffectiveTags</code></p>
@@ -2367,6 +2373,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  update</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.tensorboardRuns.get</code></p>
@@ -3594,6 +3602,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">file.  snapshots.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">file.snapshots.listTagBindings</code></li>
 </ul>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listEffectiveTags</code></p>

@@ -1,14 +1,14 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise
 uri: https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise
-title: Fraud Defense roles and permissions
+title: Google Cloud Fraud Defense roles and permissions
 description: Fine-grained access control and visibility for centrally managing cloud resources.
 data_source: docs.cloud.google.com
 ---
 
-This page lists the IAM roles and permissions for Fraud Defense. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
+This page lists the IAM roles and permissions for Google Cloud Fraud Defense. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
 
-## Fraud Defense roles
+## Google Cloud Fraud Defense roles
 
 <table>
 <colgroup>
@@ -128,7 +128,7 @@ This page lists the IAM roles and permissions for Fraud Defense. To search throu
 </tbody>
 </table>
 
-## Fraud Defense permissions
+## Google Cloud Fraud Defense permissions
 
 <table>
 <colgroup>

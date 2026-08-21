@@ -734,6 +734,14 @@ steps:
           "service_account_impersonation_url": "https://iamcredentials.googleapis.com/v1/projects/-/serviceAccounts/$(GoogleCloud.WorkloadIdentity.ServiceAccount):generateAccessToken"
         }
         EOF
+
+  - task: Bash@3
+    displayName: 'Verify Google Cloud authentication'
+    inputs:
+      targetType: 'inline'
+      script: |
+        gcloud auth login --cred-file="$(GOOGLE_APPLICATION_CREDENTIALS)"
+        gcloud auth print-access-token
 ```
 
 Replace the following values:
@@ -751,6 +759,7 @@ The configuration does the following:
 2.  Saves the ID token to a temporary file named `.workload_identity.jwt` .
 3.  Creates a credential configuration file that instructs client libraries to read the ID token from `.workload_identity.jwt` and uses it to impersonate a service account.
 4.  Sets the environment variable `GOOGLE_APPLICATION_CREDENTIALS` to point to the credential configuration file.
+5.  Verifies the configuration by authenticating to Google Cloud and printing an access token.
 
 ### GitHub Actions
 

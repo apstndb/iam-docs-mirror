@@ -49,6 +49,11 @@ This page lists the IAM roles and permissions for Production Actuation Service. 
 <li><code dir="ltr" translate="no">prodactuation.  operations.  delete</code></li>
 <li><code dir="ltr" translate="no">prodactuation.operations.get</code></li>
 <li><code dir="ltr" translate="no">prodactuation.operations.list</code></li>
+<li><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  create</code></li>
+<li><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  delete</code></li>
+<li><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  get</code></li>
+<li><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></li>
+<li><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
@@ -70,6 +75,8 @@ This page lists the IAM roles and permissions for Production Actuation Service. 
 </ul>
 <p><code dir="ltr" translate="no">prodactuation.operations.get</code></p>
 <p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
@@ -257,6 +264,45 @@ This page lists the IAM roles and permissions for Production Actuation Service. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.viewer">ProdActuation API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="prodactuation.uberProxyServices.create" class="permission-name add-link" data-text="prodactuation.uberProxyServices.create" tabindex="-1"><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="prodactuation.uberProxyServices.delete" class="permission-name add-link" data-text="prodactuation.uberProxyServices.delete" tabindex="-1"><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="prodactuation.uberProxyServices.get" class="permission-name add-link" data-text="prodactuation.uberProxyServices.get" tabindex="-1"><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.viewer">ProdActuation API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="prodactuation.uberProxyServices.list" class="permission-name add-link" data-text="prodactuation.uberProxyServices.list" tabindex="-1"><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.viewer">ProdActuation API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="prodactuation.uberProxyServices.update" class="permission-name add-link" data-text="prodactuation.uberProxyServices.update" tabindex="-1"><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p></td>
 </tr>
 </tbody>
 </table>

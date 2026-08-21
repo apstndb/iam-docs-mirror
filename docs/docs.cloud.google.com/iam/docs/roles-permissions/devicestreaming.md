@@ -69,6 +69,7 @@ This page lists the IAM roles and permissions for Device Streaming API. To searc
 <td><h4 id="devicestreaming.deviceSessions.cancel" class="permission-name add-link" data-text="devicestreaming.deviceSessions.cancel" tabindex="-1"><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtestservice#cloudtestservice.directAccessAdmin">Firebase Test Lab Direct Access Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtestservice.directAccessAdmin</code> )</p></td>
 </tr>
@@ -76,6 +77,7 @@ This page lists the IAM roles and permissions for Device Streaming API. To searc
 <td><h4 id="devicestreaming.deviceSessions.create" class="permission-name add-link" data-text="devicestreaming.deviceSessions.create" tabindex="-1"><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtestservice#cloudtestservice.directAccessAdmin">Firebase Test Lab Direct Access Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtestservice.directAccessAdmin</code> )</p></td>
 </tr>
@@ -84,6 +86,8 @@ This page lists the IAM roles and permissions for Device Streaming API. To searc
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.viewer">Device Run Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.viewer">Device Streaming Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtestservice#cloudtestservice.directAccessAdmin">Firebase Test Lab Direct Access Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtestservice.directAccessAdmin</code> )</p>
@@ -95,6 +99,8 @@ This page lists the IAM roles and permissions for Device Streaming API. To searc
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.viewer">Device Run Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.viewer">Device Streaming Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
@@ -108,6 +114,7 @@ This page lists the IAM roles and permissions for Device Streaming API. To searc
 <td><h4 id="devicestreaming.deviceSessions.update" class="permission-name add-link" data-text="devicestreaming.deviceSessions.update" tabindex="-1"><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtestservice#cloudtestservice.directAccessAdmin">Firebase Test Lab Direct Access Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtestservice.directAccessAdmin</code> )</p></td>
 </tr>

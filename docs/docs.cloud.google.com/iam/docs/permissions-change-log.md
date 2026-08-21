@@ -16,6 +16,292 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-08-18
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BigQuery</td>
+<td><p>The following permissions have been added to the BigQuery Studio Admin role ( <code dir="ltr" translate="no">roles/bigquery.studioAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.chat</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.dataAgents.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminidataanalytics.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Knowledge Catalog</td>
+<td><p>The following permissions have been added to the Cloud Dataplex Service Agent role ( <code dir="ltr" translate="no">roles/dataplex.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">dataproc.agents.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.agents.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.agents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.agents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.agents.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.tasks.lease</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.tasks.listInvalidatedLeases</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">dataproc.tasks.reportStatus</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud FTP</td>
+<td><p>The Cloud FTP Admin role ( <code dir="ltr" translate="no">roles/ftp.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Cloud FTP</td>
+<td><p>The Cloud FTP Viewer role ( <code dir="ltr" translate="no">roles/ftp.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Policy Simulator</td>
+<td><p>The following permissions have been added to the Simulator Admin role ( <code dir="ltr" translate="no">roles/policysimulator.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktestResults.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktests.evaluateRabPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktests.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktests.viewRabPolicy</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.tasks.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.tasks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.tasks.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.tasks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.tasks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.tasks.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tagSubscriptions.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.instances.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tenants.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tenants.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.tenants.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.recoverableSnapshots.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.recoverableSnapshots.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.recoverableSnapshots.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.recoverableSnapshots.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.recoverableSnapshots.recover</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.recoverableSnapshots.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.snapshotRecycleBinPolicy.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.snapshotRecycleBinPolicy.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.snapshots.getEffectiveRecycleBinRule</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Data Lineage API</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.insert</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Data Lineage API</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.insert</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datalineage.processRevisions.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Device Run</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">devicerun.devices.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.devices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Device Run</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">devicerun.devices.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.devices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">devicerun.sessions.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Financial Services</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Financial Services</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">financialservices.v1instances.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud FTP</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ftp.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud FTP</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ftp.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud FTP</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">ftp.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.operations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.servers.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">ftp.users.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Policy Simulator</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktestResults.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktests.evaluateRabPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktests.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">policysimulator.activityBacktests.viewRabPolicy</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Production Actuation Service</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Production Actuation Service</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">prodactuation.uberProxyServices.update</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-08-11
 
 <table>

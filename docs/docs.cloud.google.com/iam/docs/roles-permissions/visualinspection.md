@@ -667,6 +667,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.studies.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></li>

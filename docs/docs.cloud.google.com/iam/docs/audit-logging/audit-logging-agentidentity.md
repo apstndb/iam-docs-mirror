@@ -532,7 +532,6 @@ The following audit logs are associated with methods belonging to `google.iam.v1
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
       - `agentidentity.authProviders.getIamPolicy - ADMIN_READ`
-      - `agentidentity.googleapis.com/authProviders.getIamPolicy - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="GetIamPolicy"`  
 

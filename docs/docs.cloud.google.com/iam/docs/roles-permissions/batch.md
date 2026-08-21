@@ -564,6 +564,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.networks.useExternalIp</code></p>
 <p><code dir="ltr" translate="no">compute.projects.get</code></p>
 <p><code dir="ltr" translate="no">compute.  projects.  setCommonInstanceMetadata</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  delete</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  recover</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  listEffectiveTags</code></p>
@@ -685,6 +690,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.snapshots.delete</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshots.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.get</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></p>

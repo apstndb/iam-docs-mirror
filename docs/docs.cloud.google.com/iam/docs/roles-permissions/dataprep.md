@@ -413,6 +413,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
@@ -526,8 +529,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.snapshotGroups.get</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotGroups.list</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotSettings.get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.get</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></p>

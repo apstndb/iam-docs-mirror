@@ -1812,12 +1812,26 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
 <p><code dir="ltr" translate="no">dataplex.zones.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataproc.agents.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataproc.agents.create</code></li>
+<li><code dir="ltr" translate="no">dataproc.agents.delete</code></li>
+<li><code dir="ltr" translate="no">dataproc.agents.get</code></li>
+<li><code dir="ltr" translate="no">dataproc.agents.list</code></li>
+<li><code dir="ltr" translate="no">dataproc.agents.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataproc.batches.cancel</code></p>
 <p><code dir="ltr" translate="no">dataproc.batches.create</code></p>
 <p><code dir="ltr" translate="no">dataproc.batches.get</code></p>
 <p><code dir="ltr" translate="no">dataproc.operations.cancel</code></p>
 <p><code dir="ltr" translate="no">dataproc.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataproc.operations.list</code></p>
+<p><code dir="ltr" translate="no">dataproc.tasks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataproc.tasks.lease</code></li>
+<li><code dir="ltr" translate="no">dataproc.  tasks.  listInvalidatedLeases</code></li>
+<li><code dir="ltr" translate="no">dataproc.tasks.reportStatus</code></li>
+</ul>
 <p><code dir="ltr" translate="no">firebase.projects.get</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>

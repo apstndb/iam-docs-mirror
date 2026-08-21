@@ -617,6 +617,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.tasks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  create</code></li>
@@ -2307,6 +2316,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
@@ -2420,8 +2432,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.snapshotGroups.get</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotGroups.list</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotSettings.get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.get</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></p>
@@ -4917,6 +4931,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  updatePolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  use</code></li>
 <li><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  withdraw</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  delete</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  recover</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  delete</code></li>
@@ -5185,6 +5205,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.snapshotGroups.list</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotGroups.  useReadOnly</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  update</code></li>
 <li><code dir="ltr" translate="no">compute.snapshotSettings.get</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotSettings.  update</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.create</code></li>
@@ -5192,6 +5214,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.snapshots.delete</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.get</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.list</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></li>
@@ -7049,6 +7072,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.studies.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></li>
@@ -8853,6 +8882,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  updatePolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  use</code></li>
 <li><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  withdraw</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  delete</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  recover</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  create</code></li>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.  regionBackendBuckets.  delete</code></li>
@@ -9121,6 +9156,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.snapshotGroups.list</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotGroups.  useReadOnly</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  update</code></li>
 <li><code dir="ltr" translate="no">compute.snapshotSettings.get</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotSettings.  update</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.create</code></li>
@@ -9128,6 +9165,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.snapshots.delete</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.get</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.list</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></li>
@@ -10280,6 +10318,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.sessions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardRuns.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardTimeSeries.  list</code></p>
@@ -10829,6 +10868,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.searchedResults.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  sharedPreferenceSets.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
+<p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollections.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  transformerDefinitions.  list</code></p>
@@ -11900,6 +11940,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
@@ -12014,8 +12057,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.snapshotGroups.get</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotGroups.list</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotSettings.get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.get</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></p>
@@ -12432,6 +12477,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datalabeling.instructions.list</code></p>
 <p><code dir="ltr" translate="no">datalabeling.operations.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.events.list</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
@@ -12597,6 +12643,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">developerconnect.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.  providers.  list</code></p>
 <p><code dir="ltr" translate="no">developerconnect.users.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.devices.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.locations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.answerrecords.list</code></p>
@@ -12846,6 +12896,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">financialservices.  v1engineconfigs.  list</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1engineversions.  list</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  list</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1models.  list</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1predictions.  list</code></p>
 <p><code dir="ltr" translate="no">firebase.clients.list</code></p>
@@ -12889,6 +12941,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">fleetengine.  deliveryvehicles.  list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.tasks.list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.vehicles.list</code></p>
+<p><code dir="ltr" translate="no">ftp.locations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.operations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.servers.list</code></p>
+<p><code dir="ltr" translate="no">ftp.users.list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">gdchardwaremanagement.  changeLogEntries.  list</code></p>
@@ -13555,6 +13611,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
+<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
@@ -13585,6 +13642,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
 <p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
 <p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>
@@ -15482,6 +15540,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.recoverableSnapshots.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  delete</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  recover</code></li>
+<li><code dir="ltr" translate="no">compute.  recoverableSnapshots.  setIamPolicy</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
@@ -15625,6 +15692,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  snapshotGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshotGroups.  useReadOnly</code></li>
 </ul>
+<p><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotSettings.get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.*</code></p>
 <ul>
@@ -15633,6 +15701,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.snapshots.delete</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.get</code></li>
+<li><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.snapshots.list</code></li>
 <li><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></li>
@@ -16480,6 +16549,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.tensorboardRuns.get</code></p>
@@ -17781,6 +17852,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.summaryTables.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  systemNotifications.  get</code></p>
+<p><code dir="ltr" translate="no">chronicle.tagSubscriptions.get</code></p>
+<p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tasks.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollectionFilterSet.  get</code></p>
@@ -19140,6 +19213,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  publicDelegatedPrefixes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  get</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">compute.  recoverableSnapshots.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionBackendBuckets.  list</code></p>
@@ -19255,8 +19331,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.snapshotGroups.get</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotGroups.list</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshotRecycleBinPolicy.  get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshotSettings.get</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.get</code></p>
+<p><code dir="ltr" translate="no">compute.  snapshots.  getEffectiveRecycleBinRule</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  snapshots.  listEffectiveTags</code></p>
@@ -19934,6 +20012,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datalineage.events.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.  locations.  searchLinks</code></p>
 <p><code dir="ltr" translate="no">datalineage.operations.get</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processRevisions.  get</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.get</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.list</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.get</code></p>
@@ -20274,6 +20354,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">developerconnect.  users.  fetchAccessToken</code></p>
 <p><code dir="ltr" translate="no">developerconnect.users.getSelf</code></p>
 <p><code dir="ltr" translate="no">developerconnect.users.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.devices.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">devicerun.devices.get</code></li>
+<li><code dir="ltr" translate="no">devicerun.devices.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">devicerun.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">devicerun.locations.get</code></li>
+<li><code dir="ltr" translate="no">devicerun.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">devicerun.operations.get</code></p>
+<p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.sessions.get</code></p>
+<p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  get</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.export</code></p>
@@ -20862,6 +20956,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  exportRegisteredParties</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  get</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  list</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1models.  copyFrom</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1models.  exportMetadata</code></p>
 <p><code dir="ltr" translate="no">financialservices.v1models.get</code></p>
@@ -20986,6 +21082,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">fleetengine.vehicles.list</code></p>
 <p><code dir="ltr" translate="no">fleetengine.vehicles.search</code></p>
 <p><code dir="ltr" translate="no">fleetengine.  vehicles.  searchFuzzed</code></p>
+<p><code dir="ltr" translate="no">ftp.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">ftp.locations.get</code></li>
+<li><code dir="ltr" translate="no">ftp.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">ftp.operations.get</code></p>
+<p><code dir="ltr" translate="no">ftp.operations.list</code></p>
+<p><code dir="ltr" translate="no">ftp.servers.get</code></p>
+<p><code dir="ltr" translate="no">ftp.servers.list</code></p>
+<p><code dir="ltr" translate="no">ftp.users.get</code></p>
+<p><code dir="ltr" translate="no">ftp.users.list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  get</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  list</code></p>
 <p><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  get</code></p>
@@ -22300,6 +22407,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  get</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
+<p><code dir="ltr" translate="no">policysimulator.  activityBacktestResults.  search</code></p>
+<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
+<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  viewRabPolicy</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  get</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
@@ -22359,6 +22469,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">prodactuation.operations.get</code></p>
 <p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  get</code></p>
+<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  get</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.get</code></p>

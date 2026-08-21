@@ -267,13 +267,21 @@ After you create the inline certificate issuance configuration file, you need to
 
 ### Create an inline trust config (Optional)
 
-All workloads within the trust domain receive certificates and trust anchors that enable authentication by default within the trust domain. If you want workloads that are in *different* trust domains to mutually authenticate, then you need to explicitly declare the trust relationship in the workload identity pool. You do this by creating an [inline trust config](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools#inlinetrustconfig) that recognizes and accepts certificates from other trust domains.
+Workloads within the same workload identity pool trust domain receive certificates and trust anchors that enable authentication by default within the trust domain. If you want workloads that are in *different* trust domains to mutually authenticate, then you need to explicitly declare the trust relationship in the workload identity pool. You do this by creating an [`inlineTrustConfig`](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools#inlinetrustconfig) that recognizes and accepts certificates from other trust domains, thereby enabling trust federation across different trust domains.
 
-The inline trust config file contains a set of trust anchors that managed workload identity uses to validate peer certificates. The trust config file maps the SPIFFE trust domain to CA certificates.
+The trust domain can be one of the following:
+
+  - *External trust domains (such as `example.com` )* : you can establish trust with external or custom systems (such as an on-premises environment, a third-party service, or custom PKI infrastructure), provided you have their PEM-encoded CA certificate.
+
+  - *Different workload identity pool* : you can configure trust with a different Google Cloud workload identity pool (for example, one located in a different project). If that pool uses a custom CA, you must have its PEM-encoded CA certificate. If it uses the Google-managed default CA, you can enable trust by setting the `trustDefaultSharedCa` field to `true` instead of providing certificates.
+
+  - *Same workload identity pool* : a trust domain automatically trusts itself, so you don't need to specify it here. However, if you explicitly add your own pool's trust domain to this configuration, the custom trust anchors are *appended* to the trust bundle automatically derived from the CA pools specified in your certificate issuance configuration.
+
+The trust config file maps these trust domains to a set of trust anchors (either PEM-encoded CA certificates or built-in Google-managed CAs) that managed workload identity uses to validate peer certificates from other trust domains.
 
 To create an inline trust config, do the following:
 
-1.  Download the certificates for a trust domain.
+1.  For a custom CA, download the certificates for a trust domain that uses a custom CA.
     
         gcloud privateca pools get-ca-certs ROOT_CA_POOL_ID \
             --output-file=CERTIFICATE_PATH \
@@ -285,29 +293,26 @@ To create an inline trust config, do the following:
       - `  CERTIFICATE_PATH  ` : the path to which to output the PEM-encoded certificate
       - `  REGION  ` : the region of the root CA pool
 
-2.  Create a JSON-formatted configuration file ( `tc.json` ) that contains your inline trust configuration, with PEM-formatted certificates that you downloaded in the preceding step.
+2.  Create a JSON-formatted configuration file ( `tc.json` ) that contains your inline trust configuration, with PEM-encoded certificates that you downloaded in the preceding step.
     
         cat << EOF > tc.json
         {
           "inlineTrustConfig": {
             "additionalTrustBundles": {
               "TRUST_DOMAIN_NAME1": {
-                "trustAnchors": [
-                  {
-                      "pemCertificate": "-----BEGIN CERTIFICATE-----\nCERTIFICATE_MATERIAL1\n-----END CERTIFICATE-----"
-                  },
-                  {
-                      "pemCertificate": "-----BEGIN CERTIFICATE-----\nCERTIFICATE_MATERIAL2\n-----END CERTIFICATE-----"
-                  }
-                ]
+                "trustDefaultSharedCa": true
               },
               "TRUST_DOMAIN_NAME2": {
                 "trustAnchors": [
                   {
-                      "pemCertificate": "-----BEGIN CERTIFICATE-----\nCERTIFICATE_MATERIAL3\n-----END CERTIFICATE-----"
-                  },
+                      "pemCertificate": "CERTIFICATE_MATERIAL1"
+                  }
+                ]
+              },
+              "TRUST_DOMAIN_NAME3": {
+                "trustAnchors": [
                   {
-                      "pemCertificate": "-----BEGIN CERTIFICATE-----\nCERTIFICATE_MATERIAL4\n-----END CERTIFICATE-----"
+                      "pemCertificate": "CERTIFICATE_MATERIAL2"
                   }
                 ]
               }
@@ -318,7 +323,9 @@ To create an inline trust config, do the following:
     
     Replace the following:
     
-      - `  TRUST_DOMAIN_NAME  ` : the trust domain can be any trust domain (like "example.com"), including another (or even the same) workload identity pool trust domain.
+      - `  TRUST_DOMAIN_NAME1  ` : the name of the trust domain that uses the Google-managed default CA.
+    
+      - `  TRUST_DOMAIN_NAME2  ` and `  TRUST_DOMAIN_NAME3  ` : a SPIFFE trust domain name. It can be a custom domain (like `example.com` ), a different workload identity pool's trust domain, or even the same workload identity pool's trust domain. If you specify the current workload identity pool's trust domain, the provided trust anchors are appended to the automatically derived trust bundle.
         
         For a workload identity pool trust domain, the trust domain name is formatted as follows:
         
@@ -329,7 +336,7 @@ To create an inline trust config, do the following:
           - `  WORKLOAD_IDENTITY_POOL_ID  ` : the ID of the workload identity pool
           - `  PROJECT_NUMBER  ` : the project number of the project that contains the workload identity pool
     
-      - `  CERTIFICATE_MATERIAL  ` : the PEM-formatted CA certificate trusted to issue certificates in the trust domain. The following command can be used to encode a PEM-formatted certificate file into a one-line string:
+      - `  CERTIFICATE_MATERIAL  ` : the PEM-encoded CA certificate trusted to issue certificates in the trust domain. To format a PEM-encoded certificate file into a one-line string, run the following command:
         
             cat trust-anchor.pem | sed 's/^[ ]*//g' | sed -z '$ s/\n$//' | tr '\n' $ | sed 's/\$/\\n/g'
     
@@ -410,7 +417,7 @@ This output includes the following values:
   - `  CERTIFICATE_LIFETIME  ` : the lifetime of the workload certificates issued by the CA pool in seconds
   - `  ROTATION_WINDOW_PERCENTAGE  ` : the percentage of the certificate's lifetime at which a renewal triggers.
   - `  TRUST_DOMAIN_NAME  ` : the trust domain can be any trust domain (like "example.com"), including another (or even the same) workload identity pool trust domain.
-  - `  CERTIFICATE_MATERIAL  ` : the PEM-formatted CA certificate trusted to issue certificates in the trust domain
+  - `  CERTIFICATE_MATERIAL  ` : the PEM-encoded CA certificate trusted to issue certificates in the trust domain
   - `  WORKLOAD_IDENTITY_POOL_ID  ` : the workload identity pool ID
 
 If `inlineCertificateIssuanceConfig` or `inlineTrustConfig` isn't present in the output, verify that you've correctly configured your gcloud CLI to use the correct project for billing and quota. You might need to update to a newer version of the gcloud CLI.
@@ -689,7 +696,7 @@ In the following example output, the host `example.com` is the additional trust 
 This output includes the following values:
 
   - `  PROJECT_ID  ` : the project ID
-  - `  CERTIFICATE_MATERIAL  ` : the PEM-formatted CA certificate trusted to issue certificates in the trust domain
+  - `  CERTIFICATE_MATERIAL  ` : the PEM-encoded CA certificate trusted to issue certificates in the trust domain
   - `  WORKLOAD_IDENTITY_POOL_ID  ` : the workload identity pool ID
   - `  PROJECT_NUMBER  ` : the project number
   - `  MANAGED_IDENTITY_ID  ` : the managed identity ID

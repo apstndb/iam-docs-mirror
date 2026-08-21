@@ -449,6 +449,12 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code dir="ltr" translate="no">aiplatform.studies.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  delete</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></li>
@@ -1130,6 +1136,15 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code dir="ltr" translate="no">aiplatform.studies.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">aiplatform.tasks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.*</code></p>
 <ul>
@@ -1847,6 +1862,15 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.tasks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  create</code></li>
@@ -2100,6 +2124,8 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <p><code dir="ltr" translate="no">aiplatform.  specialistPools.  update</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.studies.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.tasks.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.tensorboardRuns.get</code></p>
@@ -3599,6 +3625,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.tasks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.  create</code></li>
@@ -4647,6 +4682,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.studies.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.studies.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">aiplatform.tasks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.tasks.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">aiplatform.  tensorboardExperiments.*</code></p>
 <ul>
@@ -7618,13 +7662,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.reasoningEngineServiceAgent">Vertex AI Reasoning Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.reasoningEngineServiceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.tuningServiceAgent">Vertex AI Tuning Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.tuningServiceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/_NO_CANONICAL_GROUP_NAME_flow#aisandbox.serviceAgent">FlowService Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aisandbox.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#aisandbox.serviceAgent">FlowService Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aisandbox.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/businessaicode#businessaicode.serviceAgent">Business AI Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  businessaicode.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.serviceAgent">Customer Engagement Suite Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.serviceAgent">Dialogflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dialogflow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.serviceAgent">Discovery Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseml#firebaseml.serviceAgent">Firebase AI Logic Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseml.serviceAgent</code> )</li>
-<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/_NO_CANONICAL_GROUP_NAME_flow#flow.serviceAgent">Flow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  flow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/flow#flow.serviceAgent">Flow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  flow.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/seclm#seclm.serviceAgent">SecLM Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  seclm.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/spanner#spanner.serviceAgent">Cloud Spanner API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  spanner.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
@@ -14792,6 +14836,133 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </tr>
 <tr class="odd">
 <td><h4 id="aiplatform.studies.update" class="permission-name add-link" data-text="aiplatform.studies.update" tabindex="-1"><code dir="ltr" translate="no">aiplatform.studies.update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="aiplatform.tasks.cancel" class="permission-name add-link" data-text="aiplatform.tasks.cancel" tabindex="-1"><code dir="ltr" translate="no">aiplatform.tasks.cancel</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="aiplatform.tasks.create" class="permission-name add-link" data-text="aiplatform.tasks.create" tabindex="-1"><code dir="ltr" translate="no">aiplatform.tasks.create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="aiplatform.tasks.delete" class="permission-name add-link" data-text="aiplatform.tasks.delete" tabindex="-1"><code dir="ltr" translate="no">aiplatform.tasks.delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="aiplatform.tasks.get" class="permission-name add-link" data-text="aiplatform.tasks.get" tabindex="-1"><code dir="ltr" translate="no">aiplatform.tasks.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="aiplatform.tasks.list" class="permission-name add-link" data-text="aiplatform.tasks.list" tabindex="-1"><code dir="ltr" translate="no">aiplatform.tasks.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.editor">Aiplatform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.user">Agent Platform User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.viewer">Agent Platform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.customCodeServiceAgent">Vertex AI Custom Code Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.customCodeServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="aiplatform.tasks.update" class="permission-name add-link" data-text="aiplatform.tasks.update" tabindex="-1"><code dir="ltr" translate="no">aiplatform.tasks.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.admin">Agent Platform Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.admin</code> )</p>

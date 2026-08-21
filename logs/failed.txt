@@ -1,3 +1,1 @@
-200 https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun
-200 https://docs.cloud.google.com/iam/docs/roles-permissions/ftp
 404 https://docs.cloud.google.com/iam/docs/auth-manager-custom-constraints

@@ -54,11 +54,15 @@ This page lists the IAM roles and permissions for Financial Services. To search 
 <li><code dir="ltr" translate="no">financialservices.  v1engineversions.  get</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1engineversions.  list</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  create</code></li>
+<li><code dir="ltr" translate="no">financialservices.  v1instances.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  delete</code></li>
+<li><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  exportRegisteredParties</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  get</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  importRegisteredParties</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  list</code></li>
+<li><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1instances.  update</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1models.  copyFrom</code></li>
 <li><code dir="ltr" translate="no">financialservices.  v1models.  copyTo</code></li>
@@ -105,6 +109,8 @@ This page lists the IAM roles and permissions for Financial Services. To search 
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  exportRegisteredParties</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  get</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  list</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1models.  copyFrom</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1models.  exportMetadata</code></p>
 <p><code dir="ltr" translate="no">financialservices.v1models.get</code></p>
@@ -349,10 +355,26 @@ This page lists the IAM roles and permissions for Financial Services. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.admin">Financial Services Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.admin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="financialservices.v1instances.createTagBinding" class="permission-name add-link" data-text="financialservices.v1instances.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">financialservices.  v1instances.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.admin">Financial Services Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="financialservices.v1instances.delete" class="permission-name add-link" data-text="financialservices.v1instances.delete" tabindex="-1"><code dir="ltr" translate="no">financialservices.  v1instances.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.admin">Financial Services Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="financialservices.v1instances.deleteTagBinding" class="permission-name add-link" data-text="financialservices.v1instances.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.admin">Financial Services Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="financialservices.v1instances.exportRegisteredParties" class="permission-name add-link" data-text="financialservices.v1instances.exportRegisteredParties" tabindex="-1"><code dir="ltr" translate="no">financialservices.  v1instances.  exportRegisteredParties</code></h4></td>
@@ -387,6 +409,34 @@ This page lists the IAM roles and permissions for Financial Services. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.viewer">Financial Services Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="financialservices.v1instances.listEffectiveTags" class="permission-name add-link" data-text="financialservices.v1instances.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.admin">Financial Services Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.viewer">Financial Services Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="financialservices.v1instances.listTagBindings" class="permission-name add-link" data-text="financialservices.v1instances.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.admin">Financial Services Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/financialservices#financialservices.viewer">Financial Services Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  financialservices.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>

@@ -633,6 +633,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><code dir="ltr" translate="no">file.  snapshots.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">file.snapshots.listTagBindings</code></li>
 </ul>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listEffectiveTags</code></p>
@@ -1080,6 +1084,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">file.instances.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">file.  snapshots.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">file.snapshots.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">gkeonprem.  bareMetalAdminClusters.  listEffectiveTags</code></p>
@@ -2235,6 +2241,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.viewer">Application Design Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/developerconnect#developerconnect.admin">Developer Connect Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  developerconnect.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/developerconnect#developerconnect.viewer">Developer Connect Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  developerconnect.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.viewer">Device Run Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.viewer">Device Streaming Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.admin">Dialogflow API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dialogflow.admin</code> )</p>
@@ -2329,6 +2337,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.admin">Firebase AI Logic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasevertexai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.viewer">Firebase AI Logic Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasevertexai.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ftp#ftp.admin">Cloud FTP Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ftp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ftp#ftp.viewer">Cloud FTP Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ftp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gdchardwaremanagement#gdchardwaremanagement.admin">GDC Hardware Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gdchardwaremanagement.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gdchardwaremanagement#gdchardwaremanagement.viewer">Gdchardwaremanagement Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gdchardwaremanagement.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
@@ -3832,6 +3842,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/designcenter#designcenter.viewer">Application Design Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  designcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/developerconnect#developerconnect.admin">Developer Connect Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  developerconnect.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/developerconnect#developerconnect.viewer">Developer Connect Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  developerconnect.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.viewer">Device Run Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.admin">Device Streaming Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicestreaming#devicestreaming.viewer">Device Streaming Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicestreaming.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dialogflow#dialogflow.viewer">Dialogflow Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dialogflow.viewer</code> )</p>
@@ -3925,6 +3937,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.admin">Firebase AI Logic Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasevertexai.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasevertexai#firebasevertexai.viewer">Firebase AI Logic Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasevertexai.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.viewer">Fleetengine Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ftp#ftp.admin">Cloud FTP Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ftp.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ftp#ftp.viewer">Cloud FTP Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ftp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gdchardwaremanagement#gdchardwaremanagement.admin">GDC Hardware Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gdchardwaremanagement.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gdchardwaremanagement#gdchardwaremanagement.viewer">Gdchardwaremanagement Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gdchardwaremanagement.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.admin">Gemini Cloud Assist Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.admin</code> )</p>
