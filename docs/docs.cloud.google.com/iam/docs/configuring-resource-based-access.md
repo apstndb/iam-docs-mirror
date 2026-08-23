@@ -15,6 +15,7 @@ This page describes how to manage access to specific resources using conditional
   - Read the [Identity and Access Management (IAM) Conditions overview](https://docs.cloud.google.com/iam/docs/conditions-overview) to understand the basics of IAM conditional role bindings.
   - Review the [resource attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource) that can be used in a condition expression.
   - The resource name attribute can control access to the following Google Cloud services:
+      - Agent Registry
       - Apigee
       - Application Integration
       - Apigee API Hub

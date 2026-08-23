@@ -37,6 +37,7 @@ The following attributes relate to the resource that is the subject of the reque
 <td><p>Manage access based on the Google Cloud service being used.</p>
 <p>You can use this attribute in allow policy role bindings.</p></td>
 <td><ul>
+<li>Agent Registry</li>
 <li>Apigee</li>
 <li>Application Integration</li>
 <li>Apigee API Hub</li>
@@ -73,6 +74,7 @@ The following attributes relate to the resource that is the subject of the reque
 <td><p>Manage access based on the resource type.</p>
 <p>You can use this attribute in allow policy role bindings.</p></td>
 <td><ul>
+<li>Agent Registry</li>
 <li>Apigee</li>
 <li>Application Integration</li>
 <li>Apigee API Hub</li>
@@ -107,6 +109,7 @@ The following attributes relate to the resource that is the subject of the reque
 <td><p>Manage access based on the name of the resource.</p>
 <p>You can use this attribute in allow policy role bindings.</p></td>
 <td><ul>
+<li>Agent Registry</li>
 <li>Apigee</li>
 <li>Application Integration</li>
 <li>Apigee API Hub</li>
@@ -322,6 +325,7 @@ You can use the `resource.service` attribute in allow policy role bindings.
 <tr class="even">
 <td>Supported services</td>
 <td><ul>
+<li>Agent Registry</li>
 <li>Apigee</li>
 <li>Application Integration</li>
 <li>Apigee API Hub</li>
@@ -404,6 +408,13 @@ You can use the `resource.type` attribute in allow policy role bindings.
 </colgroup>
 <tbody>
 <tr class="odd">
+<td>Agent Registry</td>
+<td><ul>
+<li>Skills</li>
+<li>Skill Revisions</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td>Apigee</td>
 <td><ul>
 <li>API product attributes</li>
@@ -432,7 +443,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Trace (debug) sessions</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Application Integration</td>
 <td><ul>
 <li>Auth configs</li>
@@ -443,7 +454,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Suspensions</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Apigee API Hub</td>
 <td><ul>
 <li>APIs</li>
@@ -454,13 +465,13 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Versions</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Backup and DR Service</td>
 <td><ul>
 <li>Backup vaults</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>BigQuery</td>
 <td><ul>
 <li>Datasets</li>
@@ -469,7 +480,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Tables</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>BigQuery Reservation API</td>
 <td><ul>
 <li>Assignments</li>
@@ -479,7 +490,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Reservations</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Bigtable</td>
 <td><ul>
 <li>Clusters</li>
@@ -487,7 +498,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Tables</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Binary Authorization</td>
 <td><ul>
 <li>Attestors</li>
@@ -495,14 +506,14 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Policies</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Customer Experience Agent Studio</td>
 <td><ul>
 <li>Apps</li>
 <li>Operations</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud Key Management Service</td>
 <td><ul>
 <li>Crypto key versions</li>
@@ -511,14 +522,14 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Locations</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud Logging</td>
 <td><ul>
 <li>Log buckets</li>
 <li>Log views</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud NGFW</td>
 <td><ul>
 <li>Address groups</li>
@@ -528,14 +539,14 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Security Profiles</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud SQL</td>
 <td><ul>
 <li>Backup runs</li>
 <li>Instances</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud Storage</td>
 <td><ul>
 <li>Buckets</li>
@@ -544,7 +555,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Objects</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Compute Engine</td>
 <td><ul>
 <li>Backend services (global and regional)</li>
@@ -560,7 +571,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Target TCP proxies</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Dataform</td>
 <td><ul>
 <li>Compilation results</li>
@@ -572,31 +583,31 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Workspaces</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud DNS</td>
 <td><ul>
 <li>resource record sets</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Cloud</td>
 <td><ul>
 <li>Locations <sup>1</sup></li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Kubernetes Engine</td>
 <td><ul>
 <li>Clusters</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Firestore</td>
 <td><ul>
 <li>Databases</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Identity-Aware Proxy</td>
 <td><ul>
 <li>All backend services and App Engine apps</li>
@@ -609,7 +620,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Tunnel instances</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Integration Connectors</td>
 <td><ul>
 <li>Connections</li>
@@ -619,7 +630,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Managed zones</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Cloud Managed Service for Apache Kafka</td>
 <td><ul>
 <li>Clusters</li>
@@ -628,14 +639,14 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Parameter Manager</td>
 <td><ul>
 <li>Parameter versions</li>
 <li>Parameters</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Pub/Sub Lite</td>
 <td><ul>
 <li>Locations</li>
@@ -643,7 +654,7 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Network Security Integration</td>
 <td><ul>
 <li>Intercept Deployment Groups</li>
@@ -656,20 +667,20 @@ You can use the `resource.type` attribute in allow policy role bindings.
 <li>Mirroring Endpoint Group Associations</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Resource Manager</td>
 <td><ul>
 <li>Projects</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Secret Manager</td>
 <td><ul>
 <li>Secret versions</li>
 <li>Secrets</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Spanner</td>
 <td><ul>
 <li>Backups</li>
@@ -766,6 +777,13 @@ You can use the `resource.name` attribute in allow policy role bindings.
 </colgroup>
 <tbody>
 <tr class="odd">
+<td>Agent Registry</td>
+<td><ul>
+<li>Skills</li>
+<li>Skill Revisions</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td>Apigee</td>
 <td><ul>
 <li>API product attributes</li>
@@ -794,7 +812,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Trace (debug) sessions</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Application Integration</td>
 <td><ul>
 <li>Auth configs</li>
@@ -805,7 +823,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Suspensions</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Apigee API Hub</td>
 <td><ul>
 <li>APIs</li>
@@ -816,13 +834,13 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Versions</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Backup and DR Service</td>
 <td><ul>
 <li>Backup vaults</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>BigQuery</td>
 <td><ul>
 <li>Datasets</li>
@@ -831,7 +849,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Tables</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>BigQuery Reservation API</td>
 <td><ul>
 <li>Assignments</li>
@@ -841,7 +859,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Reservations</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Bigtable</td>
 <td><ul>
 <li>Clusters</li>
@@ -849,7 +867,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Tables</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Binary Authorization</td>
 <td><ul>
 <li>Attestors</li>
@@ -857,7 +875,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Policies</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud Deploy</td>
 <td><ul>
 <li>Automation runs</li>
@@ -870,14 +888,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Targets</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Customer Experience Agent Studio</td>
 <td><ul>
 <li>Apps</li>
 <li>Operations</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud Key Management Service</td>
 <td><ul>
 <li>Crypto keys</li>
@@ -885,14 +903,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Key rings</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud Logging</td>
 <td><ul>
 <li>Log buckets</li>
 <li>Log views</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud NGFW</td>
 <td><ul>
 <li>Address groups</li>
@@ -902,14 +920,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Security Profiles</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud SQL</td>
 <td><ul>
 <li>Backup runs</li>
 <li>Instances</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Cloud Storage</td>
 <td><ul>
 <li>Buckets</li>
@@ -918,7 +936,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Objects</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Compute Engine</td>
 <td><ul>
 <li>Backend services (global and regional)</li>
@@ -934,19 +952,19 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Target TCP proxies</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Google Kubernetes Engine</td>
 <td><ul>
 <li>Clusters</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Firestore</td>
 <td><ul>
 <li>Databases</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Dataform</td>
 <td><ul>
 <li>Compilation results</li>
@@ -958,13 +976,13 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Workspaces</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Cloud DNS</td>
 <td><ul>
 <li>resource record sets</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Integration Connectors</td>
 <td><ul>
 <li>Connections</li>
@@ -974,7 +992,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Managed zones</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Google Cloud Managed Service for Apache Kafka</td>
 <td><ul>
 <li>Clusters</li>
@@ -983,14 +1001,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Parameter Manager</td>
 <td><ul>
 <li>Parameter versions</li>
 <li>Parameters</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Pub/Sub Lite</td>
 <td><ul>
 <li>Locations</li>
@@ -998,7 +1016,7 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Topics</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Network Security Integration</td>
 <td><ul>
 <li>Intercept Deployment Groups</li>
@@ -1011,14 +1029,14 @@ You can use the `resource.name` attribute in allow policy role bindings.
 <li>Mirroring Endpoint Group Associations</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Secret Manager</td>
 <td><ul>
 <li>Secret versions</li>
 <li>Secrets</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Spanner</td>
 <td><ul>
 <li>Backups</li>

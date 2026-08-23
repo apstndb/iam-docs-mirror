@@ -27,6 +27,10 @@ Resource service value
 
 REST reference
 
+`agentregistry.googleapis.com`
+
+[API reference](https://docs.cloud.google.com/agent-registry/reference/rest)
+
 `apigee.googleapis.com`
 
 [API reference](https://docs.cloud.google.com/apigee/docs/reference/apis/apigee/rest)
@@ -148,6 +152,14 @@ The following table lists the values that the resource type attribute can contai
 Resource type value
 
 Reference
+
+`agentregistry.googleapis.com/Skill`
+
+[Read more](https://docs.cloud.google.com/agent-registry/reference/rest/v1alpha/projects.locations.skills)
+
+`agentregistry.googleapis.com/SkillRevision`
+
+[Read more](https://docs.cloud.google.com/agent-registry/reference/rest/v1alpha/projects.locations.skills.revisions)
 
 `apigee.googleapis.com/ApiProduct`
 
@@ -689,6 +701,14 @@ The following table lists the format of each type of resource name attribute.
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>Agent Registry <a href="https://docs.cloud.google.com/agent-registry/reference/rest/v1alpha/projects.locations.skills">skills</a></td>
+<td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /skills/         skill-id       </code></td>
+</tr>
+<tr class="even">
+<td>Agent Registry <a href="https://docs.cloud.google.com/agent-registry/reference/rest/v1alpha/projects.locations.skills.revisions">skill-revisions</a></td>
+<td><code dir="ltr" translate="no">projects/         project-id        /locations/         location        /skills/         skill-id        /revisions/         skill-revision-id       </code></td>
+</tr>
 <tr class="odd">
 <td>Apigee <a href="https://docs.cloud.google.com/apigee/docs/reference/apis/apigee/rest/v1/organizations.apiproducts.attributes">API product attributes</a></td>
 <td><code dir="ltr" translate="no">organizations/         organization-name        /apiproducts/         product-id        /attributes/         attribute-id       </code></td>
