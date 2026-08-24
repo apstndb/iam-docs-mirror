@@ -6,15 +6,11 @@ description: Configure 3-legged OAuth auth providers in Agent Identity auth mana
 data_source: docs.cloud.google.com
 ---
 
-> **Preview**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 To grant your agent access to external tools and services (such as Jira tasks or GitHub repositories) on behalf of a specific end user, configure a 3-legged OAuth auth provider in the Agent Identity auth manager.
 
 By managing credentials and tokens, 3-legged OAuth auth providers remove the need for custom code to handle authentication flows.
 
-> **Important:** This document shows how to authenticate by using the Agent Identity API. We recommend using the Agent Identity API because the [IAM Connectors API](https://docs.cloud.google.com/iam/docs/auth-with-3lo) [(preview)](https://docs.cloud.google.com/products#product-launch-stages) will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . If you are using the IAM Connectors API, then [migrate to the Agent Identity API](https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api) .
+> **Important:** This document shows how to authenticate by using the Agent Identity API. We recommend using the Agent Identity API because the [IAM Connectors API](https://docs.cloud.google.com/iam/docs/auth-with-3lo) ( [Preview](https://docs.cloud.google.com/products#product-launch-stages) ) will not be [generally available](https://docs.cloud.google.com/products#product-launch-stages) . If you are using the IAM Connectors API, then [migrate to the Agent Identity API](https://docs.cloud.google.com/iam/docs/migrate-to-agent-identity-api) .
 
 ## 3-legged OAuth workflow
 
@@ -72,27 +68,69 @@ You might also be able to get these permissions with [custom roles](https://docs
 
 Create an auth provider to define the configuration and credentials for third-party applications.
 
-To create a 3-legged auth provider, use the gcloud CLI:
+To create a 3-legged auth provider, use the Google Cloud console or the Google Cloud CLI.
+
+### Console
+
+1.  In the Google Cloud console, go to the **Agent Registry** page.
+
+2.  Click the name of the agent that you want to create an auth provider for.
+
+3.  Click **Identity** .
+
+4.  In the **Auth Providers** section, click **add Add auth provider** .
+
+5.  In the **Add auth provider** pane, enter a name and description.
+    
+    The name can contain only lowercase letters, numbers, or hyphens, cannot end with a hyphen, and must start with a lowercase letter.
+
+6.  From the **OAuth Type** list, select **OAuth (3 legged)** .
+
+7.  Click **Create and continue** .
+
+8.  To grant your agent identity permission to use the auth provider, click **Grant access** .
+    
+    This process automatically assigns the **Agent Identity User** ( `roles/agentidentity.user` ) role to the agent identity on the auth provider resource.
+
+9.  Copy the callback URL.
+
+10. In a separate tab, [register the callback URL on your third-party OAuth client application](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2#update-oauth-client) .
+
+11. In the **Auth provider credentials** section, enter the following information:
+    
+      - **Client ID**
+      - **Client Secret**
+      - **Token URL**
+    
+    <!-- end list -->
+    
+      - **Authorization URL**
+
+12. Click **Add provider config** .
+
+The newly created auth provider appears in the **Auth Providers** list.
+
+### gcloud CLI
 
 1.  [Configure your OAuth client application](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2#configure-oauth-app) to register your client and obtain a client ID and client secret. Specify the redirect URI using the template in that section.
 
 2.  Create the auth provider using your client credentials:
     
-        gcloud alpha agent-identity authProviders create AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --three-legged-oauth-client-id="CLIENT_ID" \    --three-legged-oauth-client-secret="CLIENT_SECRET" \    --three-legged-oauth-authorization-url="AUTHORIZATION_URL" \    --three-legged-oauth-token-url="TOKEN_URL"
+        gcloud agent-identity auth-providers create AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --three-legged-oauth-client-id="CLIENT_ID" \    --three-legged-oauth-client-secret="CLIENT_SECRET" \    --three-legged-oauth-authorization-url="AUTHORIZATION_URL" \    --three-legged-oauth-token-url="TOKEN_URL"
 
 3.  Verify that your auth provider appears in the list and its state is `ENABLED` :
     
-        gcloud alpha agent-identity authProviders list \   --project="PROJECT_ID" \   --location="LOCATION"
+        gcloud agent-identity auth-providers list \   --project="PROJECT_ID" \   --location="LOCATION"
 
 4.  Grant access permissions to allow your agent and local development environment to retrieve credentials from the auth provider. To allow your deployed agent and your personal user account to access the auth provider, grant the **Agent Identity User** ( `roles/agentidentity.user` ) role on the auth provider resource:
     
     1.  Grant access to your deployed agent's SPIFFE ID (Agent Identity):
         
-            gcloud alpha agent-identity authProviders add-iam-policy-binding AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --role="roles/agentidentity.user" \    --member="principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID"
+            gcloud agent-identity auth-providers add-iam-policy-binding AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --role="roles/agentidentity.user" \    --member="principal://agents.global.org-ORGANIZATION_ID.system.id.goog/resources/aiplatform/projects/PROJECT_NUMBER/locations/LOCATION/reasoningEngines/ENGINE_ID"
     
     2.  Grant access to your personal user account for local development and testing ( `adk web` ):
         
-            gcloud alpha agent-identity authProviders add-iam-policy-binding AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --role="roles/agentidentity.user" \    --member="user:USER_EMAIL"
+            gcloud agent-identity auth-providers add-iam-policy-binding AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --role="roles/agentidentity.user" \    --member="user:USER_EMAIL"
 
 Replace the following:
 
@@ -120,7 +158,7 @@ When you configure your OAuth client credentials, you must register the auth pro
 
 1.  Construct the redirect URI using the following template:
     
-    ` https://agentidentitycredentials.googleapis.com/v1alpha/projects/ PROJECT_ID  ` /locations/ `  LOCATION  ` /authProviders/ `  AUTH_PROVIDER_NAME  ` /oauthcallback
+        https://agentidentitycredentials.googleapis.com/v1/projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME/oauthcallback
     
     Replace the following:
     
@@ -128,7 +166,9 @@ When you configure your OAuth client credentials, you must register the auth pro
       - `LOCATION` : The region where your auth provider will be deployed (for example, `us-west1` ).
       - `AUTH_PROVIDER_NAME` : The name of your auth provider.
     
-    For example: `https://agentidentitycredentials.googleapis.com/v1alpha/projects/my-project/locations/us-west1/authProviders/bigquery-mcp-3lo-authprovider/oauthcallback`
+    For example:
+    
+        https://agentidentitycredentials.googleapis.com/v1/projects/my-project/locations/us-west1/authProviders/bigquery-mcp-3lo-authprovider/oauthcallback
 
 2.  If you're connecting to Google Cloud services (such as BigQuery), you can configure the consent screen and create OAuth client credentials in the Google Cloud console:
     
@@ -158,25 +198,25 @@ To authenticate your agent, you can use the ADK or call the Agent Identity API d
 
 Reference the auth provider in your agent's code using the MCP toolset in the ADK.
 
-    from google.adk.agents.llm_agent importLlmAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider,GcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfig# Register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is granted.CONTINUE_URI="https://YOUR_FRONTEND_URL/validateUserId"# Create auth provider scheme# Note: If using the legacy V1 API, the resource name uses 'connectors'# instead of 'authProviders': projects/.../connectors/...auth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI)# Configure an MCP tool with the authentication scheme.toolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="https://YOUR_MCP_SERVER_URL"),auth_scheme=auth_scheme,)# Initialize the agent with the authenticated tools.agent=LlmAgent(name="AGENT_NAME",model="gemini-2.5-flash",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
+    from google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider,GcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfig# Register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is granted.CONTINUE_URI="https://YOUR_FRONTEND_URL/validateUserId"# Create auth provider scheme# Note: If using the legacy V1 API, the resource name uses 'connectors'# instead of 'authProviders': projects/.../connectors/...auth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI)# Configure an MCP tool with the authentication scheme.toolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="https://YOUR_MCP_SERVER_URL"),auth_scheme=auth_scheme,)# Initialize the agent with the authenticated tools.agent=Agent(name="AGENT_NAME",model="MODEL_NAME (ex. gemini-2.5-flash)",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
 
 #### Example: Connecting to BigQuery MCP
 
 The following example shows an `agent.py` configuration that connects an agent to the BigQuery MCP server:
 
-    import osfrom google.adk.agents importAgentfrom google.adk.apps importAppfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider,GcpAuthProviderSchemefrom google.adk.models importGeminifrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetimport google.authfrom google.genai importtypes_,project_id=google.auth.default()os.environ["GOOGLE_CLOUD_PROJECT"]="PROJECT_ID"os.environ["GOOGLE_GENAI_USE_VERTEXAI"]="True"bigquery_mcp_auth_provider_id="AUTH_PROVIDER_NAME"bigquery_mcp_endpoint=os.environ.get("BIGQUERY_MCP_ENDPOINT","https://bigquery.googleapis.com/mcp")# Register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# URI to redirect user to after consent is granted.CONTINUE_URI="http://127.0.0.1:8501/validateUserId"bigquery_mcp_auth_scheme=GcpAuthProviderScheme(name=f"projects/{project_id}/locations/LOCATION/authProviders/{bigquery_mcp_auth_provider_id}",scopes=["https://www.googleapis.com/auth/bigquery"],continue_uri=CONTINUE_URI,)bigquery_mcp_tools=McpToolset(connection_params=StreamableHTTPConnectionParams(url=bigquery_mcp_endpoint),auth_scheme=bigquery_mcp_auth_scheme,errlog=None,)root_agent=Agent(name="root_agent",model=Gemini(model="gemini-2.5-flash",retry_options=types.HttpRetryOptions(attempts=3),),instruction=("You are a helpful AI assistant designed to provide accurate and useful"" information. You can also use your BigQuery MCP tools to look up"" BigQuery data."),tools=[bigquery_mcp_tools],)app=App(root_agent=root_agent,name="AGENT_NAME",)
+    import osfrom google.adk.agents importAgentfrom google.adk.apps importAppfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider,GcpAuthProviderSchemefrom google.adk.models importGeminifrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetimport google.authfrom google.genai importtypes_,project_id=google.auth.default()os.environ["GOOGLE_CLOUD_PROJECT"]="PROJECT_ID"os.environ["GOOGLE_GENAI_USE_VERTEXAI"]="True"bigquery_mcp_auth_provider_id="AUTH_PROVIDER_NAME"bigquery_mcp_endpoint=os.environ.get("BIGQUERY_MCP_ENDPOINT","https://bigquery.googleapis.com/mcp")# Register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# URI to redirect user to after consent is granted.CONTINUE_URI="http://127.0.0.1:8501/validateUserId"bigquery_mcp_auth_scheme=GcpAuthProviderScheme(name=f"projects/{project_id}/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",scopes=["https://www.googleapis.com/auth/bigquery"],continue_uri=CONTINUE_URI,)bigquery_mcp_tools=McpToolset(connection_params=StreamableHTTPConnectionParams(url=bigquery_mcp_endpoint),auth_scheme=bigquery_mcp_auth_scheme,errlog=None,)root_agent=Agent(name="root_agent",model=Gemini(model="gemini-2.5-flash",retry_options=types.HttpRetryOptions(attempts=3),),instruction=("You are a helpful AI assistant designed to provide accurate and useful"" information. You can also use your BigQuery MCP tools to look up"" BigQuery data."),tools=[bigquery_mcp_tools],)app=App(root_agent=root_agent,name="AGENT_NAME",)
 
 ### ADK
 
 Reference the auth provider in your agent's code using an authenticated function tool in the ADK.
 
-    import httpxfrom google.adk.agents.llm_agent importLlmAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProviderfrom google.adk.integrations.agent_identity importGcpAuthProviderSchemefrom google.adk.apps importAppfrom google.adk.auth.auth_credential importAuthCredentialfrom google.adk.auth.auth_tool importAuthConfigfrom google.adk.tools.authenticated_function_tool importAuthenticatedFunctionToolfrom vertexai importagent_engines# First, register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is completed.CONTINUE_URI="WEB_APP_VALIDATE_USER_URI"# Create Auth Configspotify_auth_config=AuthConfig(auth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI))# Use the Auth Config in Authenticated Function Toolspotify_search_track_tool=AuthenticatedFunctionTool(func=spotify_search_track,auth_config=spotify_auth_config)# Sample function toolasyncdef spotify_search_track(credential:AuthCredential,query:str)->str|list:token=Noneifcredential.httpandcredential.http.credentials:token=credential.http.credentials.tokenifnottoken:return"Error: No authentication token available."asyncwithhttpx.AsyncClient()asclient:response=awaitclient.get("https://api.spotify.com/v1/search",headers={"Authorization":f"Bearer {token}"},params={"q":query,"type":"track","limit":1},)# Add your own logic hereagent=LlmAgent(name="AGENT_NAME",model="gemini-2.5-flash",instruction="AGENT_INSTRUCTIONS",tools=[spotify_search_track_tool],)app=App(name="APP_NAME",root_agent=agent,)vertex_app=agent_engines.AdkApp(app_name=app)
+    import httpxfrom google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProviderfrom google.adk.integrations.agent_identity importGcpAuthProviderSchemefrom google.adk.apps importAppfrom google.adk.auth.auth_credential importAuthCredentialfrom google.adk.auth.auth_tool importAuthConfigfrom google.adk.tools.authenticated_function_tool importAuthenticatedFunctionToolfrom vertexai importagent_engines# First, register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is completed.CONTINUE_URI="WEB_APP_VALIDATE_USER_URI"# Create Auth Configspotify_auth_config=AuthConfig(auth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI))# Use the Auth Config in Authenticated Function Toolspotify_search_track_tool=AuthenticatedFunctionTool(func=spotify_search_track,auth_config=spotify_auth_config)# Sample function toolasyncdef spotify_search_track(credential:AuthCredential,query:str)->str|list:token=Noneifcredential.httpandcredential.http.credentials:token=credential.http.credentials.tokenifnottoken:return"Error: No authentication token available."asyncwithhttpx.AsyncClient()asclient:response=awaitclient.get("https://api.spotify.com/v1/search",headers={"Authorization":f"Bearer {token}"},params={"q":query,"type":"track","limit":1},)# Add your own logic hereagent=Agent(name="AGENT_NAME",model="gemini-2.5-flash",instruction="AGENT_INSTRUCTIONS",tools=[spotify_search_track_tool],)app=App(name="APP_NAME",root_agent=agent,)vertex_app=agent_engines.AdkApp(app_name=app)
 
 ### ADK
 
 Reference the auth provider in your agent's code using the Agent Registry MCP toolset in the ADK.
 
-    from google.adk.agents.llm_agent importLlmAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProviderfrom google.adk.integrations.agent_identity importGcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfigfrom google.adk.integrations.agent_registry importAgentRegistry# First, register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is completed.CONTINUE_URI="WEB_APP_VALIDATE_USER_URI"# Create Google Cloud auth provider schemeauth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI)# Set Agent Registryregistry=AgentRegistry(project_id="PROJECT_ID",location="global")toolset=registry.get_mcp_toolset(mcp_server_name=("projects/PROJECT_ID/locations/""global/mcpServers/""agentregistry-00000000-0000-0000-0000-000000000000"),auth_scheme=auth_scheme,)# Example MCP tooltoolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="MCP_URL"),auth_scheme=auth_scheme,)agent=LlmAgent(name="AGENT_NAME",model="MODEL_NAME",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
+    from google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProviderfrom google.adk.integrations.agent_identity importGcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfigfrom google.adk.integrations.agent_registry importAgentRegistry# First, register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is completed.CONTINUE_URI="WEB_APP_VALIDATE_USER_URI"# Create Google Cloud auth provider schemeauth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI)# Set Agent Registryregistry=AgentRegistry(project_id="PROJECT_ID",location="global")toolset=registry.get_mcp_toolset(mcp_server_name=("projects/PROJECT_ID/locations/""global/mcpServers/""agentregistry-00000000-0000-0000-0000-000000000000"),auth_scheme=auth_scheme,)# Example MCP tooltoolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="MCP_URL"),auth_scheme=auth_scheme,)agent=Agent(name="AGENT_NAME",model="MODEL_NAME",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
 
 ### Call the API directly
 
@@ -302,7 +342,7 @@ The following example shows a complete FastAPI validation endpoint that handles 
             "consentNonce": session.get("consent_nonce"),
         }
     
-        base_url = "https://agentidentitycredentials.googleapis.com/v1alpha"
+        base_url = "https://agentidentitycredentials.googleapis.com/v1"
         finalize_url = f"{base_url}/{auth_provider_name}/credentials:finalize"
     
         try:
@@ -351,33 +391,34 @@ After the user grants consent and the authorization window closes, retrieve the 
 
 When you deploy your agent to Google Cloud, ensure that Agent Identity is enabled.
 
-If you're deploying to Agent Runtime on Gemini Enterprise Agent Platform , use the `identity_type=AGENT_IDENTITY` flag:
+### Agent CLI
 
-    import vertexai
-    from vertexai import types
-    from vertexai.agent_engines import AdkApp
+If you're using the Agent Development Kit (ADK) and the Agent CLI, do the following to deploy your agent with Agent Identity enabled:
+
+1.  In your agent application folder, create a configuration file named `.agent_engine_config.json` to enable Agent Identity:
     
-    # Initialize the Vertex AI client with v1beta1 API for Agent Identity support
-    client = vertexai.Client(
-        project="PROJECT_ID",
-        location="LOCATION",
-        http_options=dict(api_version="v1beta1")
-    )
+        echo '{ "identity_type": "AGENT_IDENTITY" }' > AGENT_NAME/.agent_engine_config.json
+
+2.  Deploy your agent to Agent Runtime on Gemini Enterprise Agent Platform :
     
-    # Use the proper wrapper class for your Agent Framework (e.g., AdkApp)
-    app = AdkApp(agent=agent)
+        uv run adk deploy agent_engine AGENT_NAME \    --project="PROJECT_ID" \    --region="LOCATION"
     
-    # Deploy the agent with Agent Identity enabled
-    remote_app = client.agent_engines.create(
-        agent=app,
-        config={
-            "identity_type": types.IdentityType.AGENT_IDENTITY,
-            "requirements": [
-                "google-cloud-aiplatform[agent_engines,adk]",
-                "google-adk[agent-identity]"
-            ],
-        },
-    )
+    Replace the following:
+    
+      - `  AGENT_NAME  ` : The name of your agent application folder (for example, `maps_agent` ).
+      - `  PROJECT_ID  ` : Your Google Cloud project ID.
+      - `  LOCATION  ` : The supported region where you want to deploy the agent (for example, `us-west1` ).
+
+### Python SDK
+
+If you're deploying programmatically using the Vertex AI Python SDK, use the `identity_type=AGENT_IDENTITY` flag:
+
+    import vertexaifrom vertexai importtypesfrom vertexai.agent_engines importAdkApp# Initialize the Vertex AI client with v1beta1 API for Agent Identity supportclient=vertexai.Client(project="PROJECT_ID",location="LOCATION",http_options=dict(api_version="v1beta1"))# Use the proper wrapper class for your Agent Framework (e.g., AdkApp)app=AdkApp(agent=agent)# Deploy the agent with Agent Identity enabledremote_app=client.agent_engines.create(agent=app,config={"identity_type":types.IdentityType.AGENT_IDENTITY,"requirements":["google-cloud-aiplatform[agent_engines,adk]","google-adk[agent-identity,mcp]>=2.7.1",],},)
+
+Replace the following:
+
+  - `  PROJECT_ID  ` : Your Google Cloud project ID.
+  - `  LOCATION  ` : The supported region where you want to deploy the agent (for example, `us-west1` ).
 
 ## What's next
 

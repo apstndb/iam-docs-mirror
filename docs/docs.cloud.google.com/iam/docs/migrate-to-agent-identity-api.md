@@ -6,10 +6,6 @@ description: Migrate your agents and auth providers from the legacy IAMConnector
 data_source: docs.cloud.google.com
 ---
 
-> **Preview**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
 This document shows you how to migrate your deployed agents and auth providers from the legacy IAM Connectors API ( `iamconnectors.googleapis.com` ) to the new Agent Identity API ( `agentidentity.googleapis.com` ).
 
 Both APIs operate side-by-side during the preview migration period, allowing you to migrate your workloads without interrupting existing agent conversations.
@@ -45,7 +41,7 @@ Grant the new IAM roles on mirrored auth provider resources so that your agents 
 
 For example, if you granted the **Connector User** ( `roles/iamconnectors.user` ) role to your agent's SPIFFE ID on the legacy `  connectors / AUTH_PROVIDER_NAME  ` resource, grant the **Agent Identity User** ( `roles/agentidentity.user` ) role on the new `  authProviders / AUTH_PROVIDER_NAME  ` resource:
 
-    gcloud alpha agent-identity authProviders add-iam-policy-binding \
+    gcloud agent-identity auth-providers add-iam-policy-binding \
         AUTH_PROVIDER_NAME \
         --project="PROJECT_ID" \
         --location="LOCATION" \
@@ -76,7 +72,7 @@ Update your agent code to reference the new `authProviders/` resource hierarchy 
 
 3.  3-legged OAuth only: If your agent calls the REST API directly, update the endpoint hostname from `iamconnectorcredentials.googleapis.com` to `agentidentitycredentials.googleapis.com` , and replace `connectors/` with `authProviders/` in the request path.
 
-4.  3-legged OAuth only: In your frontend validation server (for example, `main.py` ), update the `FinalizeCredentials` endpoint URL to `https://agentidentitycredentials.googleapis.com/v1alpha` . Also, read the `auth_provider_name` from the incoming request and set it as the `auth_provider` field in the `FinalizeCredentials` request body.
+4.  3-legged OAuth only: In your frontend validation server (for example, `main.py` ), update the `FinalizeCredentials` endpoint URL to `https://agentidentitycredentials.googleapis.com/v1` . Also, read the `auth_provider_name` from the incoming request and set it as the `auth_provider` field in the `FinalizeCredentials` request body.
 
 ## Disable the legacy API
 
@@ -93,3 +89,4 @@ After you migrate all active workflows, disable the legacy service in your proje
   - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
   - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
   - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
+  - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)

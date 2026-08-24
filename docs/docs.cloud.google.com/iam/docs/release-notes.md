@@ -14,6 +14,21 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## August 22, 2026
+
+Feature
+
+The Agent Identity auth manager and the Agent Identity APIs ( `agentidentity.googleapis.com` and `agentidentitycredentials.googleapis.com` ) are [generally available](https://cloud.google.com/products#product-launch-stages) .
+
+Agent Identity auth manager provides a centralized credentials vault and authentication broker that simplifies outbound tool authentication for 3-legged OAuth, 2-legged OAuth, and API keys. The Agent Identity APIs replace the legacy IAM Connectors API ( `iamconnectors.googleapis.com` ) for managing auth providers and agent identities.
+
+For more information, see the following documentation:
+
+  - [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
+  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
+  - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
+  - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
+
 ## August 14, 2026
 
 Feature
