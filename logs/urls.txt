@@ -18,11 +18,11 @@ https://docs.cloud.google.com/iam/docs/audit-logging/examples-oauth-clients	2026
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-service-accounts	2026-08-22T17:07:46Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-workforce-identity	2026-08-22T17:07:40Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	2026-08-22T17:07:27Z
-https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-08-22T17:07:40Z
+https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-08-24T06:30:31Z
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-08-23T11:28:49Z
 https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-08-23T11:28:49Z
 https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-08-23T11:28:49Z
-https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-08-23T11:28:49Z
+https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-08-25T06:44:46Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-08-22T17:07:40Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-08-22T17:07:34Z
 https://docs.cloud.google.com/iam/docs/best-practices-for-managing-service-account-keys	2026-08-22T17:07:46Z
@@ -734,7 +734,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-08-22T17:07:40Z
 https://docs.cloud.google.com/iam/docs/resources	2026-08-22T17:07:46Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-08-22T17:07:34Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-08-22T17:07:27Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-08-24T06:33:31Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-08-22T17:07:27Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-08-22T17:07:34Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-08-22T17:07:46Z
