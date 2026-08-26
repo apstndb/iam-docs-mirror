@@ -1207,7 +1207,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsAdmin">Gemini for Google Cloud Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.list" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.list" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></h4></td>
@@ -1229,7 +1236,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudaicompanion#cloudaicompanion.settingsUser">Gemini for Google Cloud Settings User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudaicompanion.settingsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudaicompanion.geminiGcpEnablementSettings.update" class="permission-name add-link" data-text="cloudaicompanion.geminiGcpEnablementSettings.update" tabindex="-1"><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  update</code></h4></td>

@@ -823,6 +823,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
 <li><code dir="ltr" translate="no">run.operations.get</code></li>
 <li><code dir="ltr" translate="no">run.operations.list</code></li>
@@ -2485,6 +2486,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
 <li><code dir="ltr" translate="no">run.operations.get</code></li>
 <li><code dir="ltr" translate="no">run.operations.list</code></li>

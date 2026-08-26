@@ -12,7 +12,7 @@ The methods that are described in this guide can be used on headless machines.
 
 You can obtain short-lived tokens by using this high-level process, described in detail later in this document:
 
-1.  Obtain a credential from the trusted identity provider.
+1.  Obtain a credential from the trusted identity provider (IdP).
 2.  Exchange the credential for a token from the Security Token Service.
 
 ## Before you begin

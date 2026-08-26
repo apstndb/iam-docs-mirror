@@ -198,6 +198,36 @@ This page lists the IAM roles and permissions for BigQuery sharing. To search th
 </tbody>
 </table>
 
+### Service agent roles
+
+Service agent roles should only be granted to [service agents](https://docs.cloud.google.com/iam/docs/service-agents) .
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h4 id="analyticshub.serviceAgent" class="role-title add-link" data-text="Analytics Hub Service Agent" tabindex="-1">Analytics Hub Service Agent</h4>
+<p>( <code dir="ltr" translate="no">roles/  analyticshub.serviceAgent</code> )</p>
+<p>Grants Analytics Hub Service Agent permissions required to manage resources in the consumer project.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code dir="ltr" translate="no">analyticshub.  dataExchanges.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+</tbody>
+</table>
+
 ## BigQuery sharing permissions
 
 <table>
@@ -272,7 +302,14 @@ This page lists the IAM roles and permissions for BigQuery sharing. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/analyticshub#analyticshub.subscriber">Analytics Hub Subscriber</a> ( <code class="role-name" dir="ltr" translate="no">roles/  analyticshub.subscriber</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/analyticshub#analyticshub.subscriptionOwner">Analytics Hub Subscription Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  analyticshub.subscriptionOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/analyticshub#analyticshub.serviceAgent">Analytics Hub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  analyticshub.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="analyticshub.dataExchanges.setIamPolicy" class="permission-name add-link" data-text="analyticshub.dataExchanges.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">analyticshub.  dataExchanges.  setIamPolicy</code></h4></td>

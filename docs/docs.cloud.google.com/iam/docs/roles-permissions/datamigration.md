@@ -251,6 +251,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.subnetworks.get</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.list</code></p>
 <p><code dir="ltr" translate="no">compute.subnetworks.use</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  create</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  delete</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  update</code></p>
+<p><code dir="ltr" translate="no">datamigration.operations.get</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
 <p><code dir="ltr" translate="no">logging.logServiceIndexes.list</code></p>
 <p><code dir="ltr" translate="no">logging.logServices.list</code></p>
@@ -283,14 +289,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="datamigration.connectionprofiles.delete" class="permission-name add-link" data-text="datamigration.connectionprofiles.delete" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionprofiles.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datamigration.connectionprofiles.get" class="permission-name add-link" data-text="datamigration.connectionprofiles.get" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></h4></td>
@@ -299,7 +319,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="datamigration.connectionprofiles.getIamPolicy" class="permission-name add-link" data-text="datamigration.connectionprofiles.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></h4></td>
@@ -323,7 +350,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="datamigration.connectionprofiles.setIamPolicy" class="permission-name add-link" data-text="datamigration.connectionprofiles.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datamigration.  connectionprofiles.  setIamPolicy</code></h4></td>
@@ -336,7 +370,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="datamigration.conversionworkspaces.apply" class="permission-name add-link" data-text="datamigration.conversionworkspaces.apply" tabindex="-1"><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  apply</code></h4></td>
@@ -664,7 +705,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.admin">Database Migration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.editor">Datamigration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datamigration#datamigration.serviceAgent">Database Migration Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datamigration.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="datamigration.operations.list" class="permission-name add-link" data-text="datamigration.operations.list" tabindex="-1"><code dir="ltr" translate="no">datamigration.operations.list</code></h4></td>

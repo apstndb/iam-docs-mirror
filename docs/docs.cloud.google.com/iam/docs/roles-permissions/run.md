@@ -124,6 +124,7 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
 <li><code dir="ltr" translate="no">run.operations.get</code></li>
 <li><code dir="ltr" translate="no">run.operations.list</code></li>
@@ -272,7 +273,11 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -410,7 +415,11 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -848,7 +857,11 @@ This page lists the IAM roles and permissions for Cloud Run. To search through a
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -2177,6 +2190,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="run.locations.uploadSource" class="permission-name add-link" data-text="run.locations.uploadSource" tabindex="-1"><code dir="ltr" translate="no">run.locations.uploadSource</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.editor">Cloud Functions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.developer">Cloud Run Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.editor">Cloud Run Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.developer">Cloud Functions Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><h4 id="run.operations.delete" class="permission-name add-link" data-text="run.operations.delete" tabindex="-1"><code dir="ltr" translate="no">run.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2202,7 +2239,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.operations.get" class="permission-name add-link" data-text="run.operations.get" tabindex="-1"><code dir="ltr" translate="no">run.operations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2238,7 +2275,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.operations.list" class="permission-name add-link" data-text="run.operations.list" tabindex="-1"><code dir="ltr" translate="no">run.operations.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2274,7 +2311,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.prompts.get" class="permission-name add-link" data-text="run.prompts.get" tabindex="-1"><code dir="ltr" translate="no">run.prompts.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2308,7 +2345,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.revisions.delete" class="permission-name add-link" data-text="run.revisions.delete" tabindex="-1"><code dir="ltr" translate="no">run.revisions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2333,7 +2370,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.revisions.get" class="permission-name add-link" data-text="run.revisions.get" tabindex="-1"><code dir="ltr" translate="no">run.revisions.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2368,7 +2405,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.revisions.list" class="permission-name add-link" data-text="run.revisions.list" tabindex="-1"><code dir="ltr" translate="no">run.revisions.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2404,7 +2441,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.routes.get" class="permission-name add-link" data-text="run.routes.get" tabindex="-1"><code dir="ltr" translate="no">run.routes.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2439,7 +2476,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.routes.invoke" class="permission-name add-link" data-text="run.routes.invoke" tabindex="-1"><code dir="ltr" translate="no">run.routes.invoke</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2475,7 +2512,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visionai#visionai.serviceAgent">Cloud Vision AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visionai.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.routes.list" class="permission-name add-link" data-text="run.routes.list" tabindex="-1"><code dir="ltr" translate="no">run.routes.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2511,7 +2548,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.create" class="permission-name add-link" data-text="run.services.create" tabindex="-1"><code dir="ltr" translate="no">run.services.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2537,7 +2574,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.services.createTagBinding" class="permission-name add-link" data-text="run.services.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">run.services.createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
@@ -2548,7 +2585,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.delete" class="permission-name add-link" data-text="run.services.delete" tabindex="-1"><code dir="ltr" translate="no">run.services.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2574,7 +2611,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.services.deleteTagBinding" class="permission-name add-link" data-text="run.services.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">run.services.deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
@@ -2585,7 +2622,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.get" class="permission-name add-link" data-text="run.services.get" tabindex="-1"><code dir="ltr" translate="no">run.services.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2623,7 +2660,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.services.getIamPolicy" class="permission-name add-link" data-text="run.services.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">run.services.getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2660,7 +2697,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasemods#firebasemods.serviceAgent">Firebase Extensions API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasemods.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.list" class="permission-name add-link" data-text="run.services.list" tabindex="-1"><code dir="ltr" translate="no">run.services.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2697,7 +2734,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.serviceAgent">Serverless Integrations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.services.listEffectiveTags" class="permission-name add-link" data-text="run.services.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">run.services.listEffectiveTags</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2735,7 +2772,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.listTagBindings" class="permission-name add-link" data-text="run.services.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">run.services.listTagBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2773,7 +2810,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.services.setIamPolicy" class="permission-name add-link" data-text="run.services.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">run.services.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
@@ -2789,7 +2826,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasemods#firebasemods.serviceAgent">Firebase Extensions API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasemods.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.sshRead" class="permission-name add-link" data-text="run.services.sshRead" tabindex="-1"><code dir="ltr" translate="no">run.services.sshRead</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2816,7 +2853,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.services.sshRoot" class="permission-name add-link" data-text="run.services.sshRoot" tabindex="-1"><code dir="ltr" translate="no">run.services.sshRoot</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2841,7 +2878,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.services.update" class="permission-name add-link" data-text="run.services.update" tabindex="-1"><code dir="ltr" translate="no">run.services.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2866,7 +2903,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.serviceAgent">Firebase App Hosting Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.tasks.get" class="permission-name add-link" data-text="run.tasks.get" tabindex="-1"><code dir="ltr" translate="no">run.tasks.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2900,7 +2937,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.tasks.list" class="permission-name add-link" data-text="run.tasks.list" tabindex="-1"><code dir="ltr" translate="no">run.tasks.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2936,7 +2973,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.workerpools.create" class="permission-name add-link" data-text="run.workerpools.create" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2960,7 +2997,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.workerpools.delete" class="permission-name add-link" data-text="run.workerpools.delete" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -2984,7 +3021,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.workerpools.get" class="permission-name add-link" data-text="run.workerpools.get" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3018,7 +3055,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.workerpools.getIamPolicy" class="permission-name add-link" data-text="run.workerpools.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3054,7 +3091,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.workerpools.list" class="permission-name add-link" data-text="run.workerpools.list" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3090,7 +3127,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.workerpools.setIamPolicy" class="permission-name add-link" data-text="run.workerpools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.admin">Cloud Functions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.admin</code> )</p>
@@ -3099,7 +3136,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.admin">Cloud Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.workerpools.sshRead" class="permission-name add-link" data-text="run.workerpools.sshRead" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.sshRead</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3126,7 +3163,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="run.workerpools.sshRoot" class="permission-name add-link" data-text="run.workerpools.sshRoot" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.sshRoot</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3151,7 +3188,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudfunctions#cloudfunctions.serviceAgent">(Deprecated) Cloud Functions Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudfunctions.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="run.workerpools.update" class="permission-name add-link" data-text="run.workerpools.update" tabindex="-1"><code dir="ltr" translate="no">run.workerpools.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

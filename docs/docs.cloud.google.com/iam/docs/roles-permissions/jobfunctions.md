@@ -1432,7 +1432,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -2203,10 +2207,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></p>
 <p><code dir="ltr" translate="no">compute.instances.list</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -4207,7 +4213,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -4666,10 +4676,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></li>
 <li><code dir="ltr" translate="no">compute.instances.list</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osAdminLogin</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osLogin</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  pscInterfaceCreate</code></li>
@@ -8195,7 +8207,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -8617,10 +8633,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></li>
 <li><code dir="ltr" translate="no">compute.instances.list</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osAdminLogin</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osLogin</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  pscInterfaceCreate</code></li>
@@ -11827,10 +11845,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></p>
 <p><code dir="ltr" translate="no">compute.instances.list</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -13611,7 +13631,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
@@ -15331,10 +15350,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></li>
 <li><code dir="ltr" translate="no">compute.instances.list</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osAdminLogin</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osLogin</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  pscInterfaceCreate</code></li>
@@ -19100,10 +19121,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></p>
 <p><code dir="ltr" translate="no">compute.instances.list</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -21436,6 +21459,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">iamconnectors.operations.get</code></p>
 <p><code dir="ltr" translate="no">iamconnectors.operations.list</code></p>
 <p><code dir="ltr" translate="no">iap.projects.getSettings</code></p>
+<p><code dir="ltr" translate="no">iap.resources.egressViaIAP</code></p>
 <p><code dir="ltr" translate="no">iap.tunnelDestGroups.get</code></p>
 <p><code dir="ltr" translate="no">iap.tunnelDestGroups.list</code></p>
 <p><code dir="ltr" translate="no">iap.web.getSettings</code></p>
@@ -22407,9 +22431,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  get</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  activityBacktestResults.  search</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  viewRabPolicy</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  get</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>

@@ -6,11 +6,11 @@ description: Learn about Workforce Identity Federation; use your IdP to provide 
 data_source: docs.cloud.google.com
 ---
 
-With Workforce Identity Federation, users in your external identity provider (IdP) can use single sign-on (SSO) to access Google Cloud resources.
+With Workforce Identity Federation, users in your external IdP can use single sign-on (SSO) to access Google Cloud resources.
 
 ## What is Workforce Identity Federation?
 
-Workforce Identity Federation lets you use your external identity provider (IdP) to authenticate your workforce— *users* and *groups* of users, such as employees, partners, and contractors. Users can then access Google Cloud using single sign-on (SSO), through your IdP. Use allow policies to [authorize your workforce users to access Google Cloud services](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-principal-identifiers) .
+Workforce Identity Federation lets you use your external IdP to authenticate your workforce— *users* and *groups* of users, such as employees, partners, and contractors. Users can then access Google Cloud using single sign-on (SSO), through your IdP. Use allow policies to [authorize your workforce users to access Google Cloud services](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#workforce-principal-identifiers) .
 
 ### Federation versus synchronization
 
@@ -63,7 +63,7 @@ Pools are configured at the [Google Cloud organization level](https://docs.cloud
 
 A workforce identity pool provider is an entity that describes a relationship between your Google Cloud organization and your IdP.
 
-Workforce Identity Federation follows the [OAuth 2.0 Token Exchange specification (RFC 8693)](https://datatracker.ietf.org/doc/html/rfc8693) . You provide a credential from your external identity provider to the Security Token Service, which verifies the identity in the credential, and then returns a short-lived Google Cloud access token in exchange.
+Workforce Identity Federation follows the [OAuth 2.0 Token Exchange specification (RFC 8693)](https://datatracker.ietf.org/doc/html/rfc8693) . You provide a credential from your external IdP to the Security Token Service, which verifies the identity in the credential, and then returns a short-lived Google Cloud access token in exchange.
 
 ### OIDC flow types
 
@@ -162,11 +162,11 @@ The benefits of using attribute conditions include the following:
 
 #### Attribute conditions for multi-tenant IdPs
 
-Workforce Identity Federation doesn't maintain a directory of user accounts; instead, it implements claims-based identities. As a result, when two tokens are issued by the same identity provider (IdP) and their claims map to the same `google.subject` value, the two tokens are assumed to identify the same user. To find out which IdP issued a token, Workforce Identity Federation inspects and verifies the token's issuer URL.
+Workforce Identity Federation doesn't maintain a directory of user accounts; instead, it implements claims-based identities. As a result, when two tokens are issued by the same IdP and their claims map to the same `google.subject` value, the two tokens are assumed to identify the same user. To find out which IdP issued a token, Workforce Identity Federation inspects and verifies the token's issuer URL.
 
 Multi-tenant IdPs, such as GitHub and Terraform Cloud, use a single issuer URL across all of their tenants. For these providers, the issuer URL identifies all of GitHub or Terraform Cloud, not a specific GitHub or Terraform Cloud organization.
 
-When you use these identity providers, it's insufficient to let Workforce Identity Federation check a token's issuer URL to ensure that it comes from a trusted source and that its claims can be trusted. If your multi-tenant IdP has a single issuer URL, you must use attribute conditions to ensure that access is restricted to the correct tenant.
+When you use these IdPs, it's insufficient to let Workforce Identity Federation check a token's issuer URL to ensure that it comes from a trusted source and that its claims can be trusted. If your multi-tenant IdP has a single issuer URL, you must use attribute conditions to ensure that access is restricted to the correct tenant.
 
 ### Detailed audit logging
 
@@ -184,7 +184,7 @@ The workforce pool provider can access [JSON web keys (JWKs)](https://www.rfc-ed
 
 > **Important:** This feature applies only to Gemini Enterprise.
 
-If your identity provider (IdP) supports the [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) , you can configure your IdP to provision and manage groups in Google Cloud.
+If your IdP supports the [System for Cross-domain Identity Management (SCIM)](https://en.wikipedia.org/wiki/System_for_Cross-domain_Identity_Management) , you can configure your IdP to provision and manage groups in Google Cloud.
 
 For more information, see [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim) .
 

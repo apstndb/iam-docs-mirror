@@ -299,6 +299,7 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <li><code dir="ltr" translate="no">run.jobs.sshRoot</code></li>
 <li><code dir="ltr" translate="no">run.jobs.update</code></li>
 <li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
 <li><code dir="ltr" translate="no">run.operations.get</code></li>
 <li><code dir="ltr" translate="no">run.operations.list</code></li>
@@ -611,7 +612,11 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -1088,7 +1093,11 @@ This page lists the IAM roles and permissions for Cloud Run functions. To search
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>
@@ -1483,7 +1492,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">run.jobs.sshRead</code></p>
 <p><code dir="ltr" translate="no">run.jobs.sshRoot</code></p>
 <p><code dir="ltr" translate="no">run.jobs.update</code></p>
-<p><code dir="ltr" translate="no">run.locations.list</code></p>
+<p><code dir="ltr" translate="no">run.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">run.locations.list</code></li>
+<li><code dir="ltr" translate="no">run.locations.uploadSource</code></li>
+</ul>
 <p><code dir="ltr" translate="no">run.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">run.operations.delete</code></li>

@@ -300,10 +300,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></p>
 <p><code dir="ltr" translate="no">compute.instances.list</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>

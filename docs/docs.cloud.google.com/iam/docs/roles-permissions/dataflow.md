@@ -769,10 +769,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  instances.  getSerialPortOutput</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedInstanceIdentity</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  getShieldedVmIdentity</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  getVmExtensionState</code></li>
 <li><code dir="ltr" translate="no">compute.instances.list</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osAdminLogin</code></li>
 <li><code dir="ltr" translate="no">compute.instances.osLogin</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  pscInterfaceCreate</code></li>

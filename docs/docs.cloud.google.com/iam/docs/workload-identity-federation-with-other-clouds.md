@@ -63,7 +63,7 @@ You only need to perform these steps once for each Microsoft Entra ID tenant or 
 
 Google Cloud supports two mechanisms for federating with AWS workloads:
 
-  - **AWS outbound identity federation** : AWS acts as an OpenID Connect (OIDC) identity provider and issues short-lived JSON Web Tokens (JWTs) to your workloads.
+  - **AWS outbound identity federation** : AWS acts as an OpenID Connect (OIDC) identity provider (IdP) and issues short-lived JSON Web Tokens (JWTs) to your workloads.
     
       - If you're using AWS outbound identity federation, to set up Workload Identity Federation, first follow the instructions in the [AWS Identity and Access Management User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_outbound_getting_started.html) to configure permissions and obtain your account's OIDC issuer URL. Then, follow the instructions in [Configure Workload Identity Federation with other providers (OIDC)](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers) to set up your pool, provider, and credential configuration.
 
@@ -858,7 +858,7 @@ If you can't use the client libraries, you can follow these steps to let an exte
         
           - `x-amz-date` : The time you will send the request, formatted as an [ISO 8601 Basic](https://docs.aws.amazon.com/general/latest/gr/sigv4_elements.html#sigv4_elements_date) string. This value is typically set to the current time and is used to help prevent replay attacks.
         
-          - `x-goog-cloud-target-resource` : The full resource name of the identity provider without a `https:` prefix. For example:
+          - `x-goog-cloud-target-resource` : The full resource name of the IdP without a `https:` prefix. For example:
             
                 //iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID
         

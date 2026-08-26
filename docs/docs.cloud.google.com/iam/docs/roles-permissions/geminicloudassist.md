@@ -4254,7 +4254,14 @@ This page lists the IAM roles and permissions for Gemini Cloud Assist. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceUser">Gemini Enterprise User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.podcastApiUser">Podcast API User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.podcastApiUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.dataScientist">Data Scientist</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.dataScientist</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="geminicloudassist.instances.explain" class="permission-name add-link" data-text="geminicloudassist.instances.explain" tabindex="-1"><code dir="ltr" translate="no">geminicloudassist.  instances.  explain</code></h4></td>
@@ -4421,7 +4428,14 @@ This page lists the IAM roles and permissions for Gemini Cloud Assist. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationEditor">Gemini Cloud Assist Investigation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationUser">Gemini Cloud Assist Investigation User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationViewer">Gemini Cloud Assist Investigation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="geminicloudassist.locations.list" class="permission-name add-link" data-text="geminicloudassist.locations.list" tabindex="-1"><code dir="ltr" translate="no">geminicloudassist.  locations.  list</code></h4></td>
@@ -4441,7 +4455,14 @@ This page lists the IAM roles and permissions for Gemini Cloud Assist. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationUser">Gemini Cloud Assist Investigation User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/geminicloudassist#geminicloudassist.investigationViewer">Gemini Cloud Assist Investigation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  geminicloudassist.investigationViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="geminicloudassist.operations.cancel" class="permission-name add-link" data-text="geminicloudassist.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">geminicloudassist.  operations.  cancel</code></h4></td>

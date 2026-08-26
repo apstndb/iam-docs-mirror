@@ -3412,6 +3412,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">bigquery.tables.get</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.update</code></p>
 <p><code dir="ltr" translate="no">bigquery.tables.updateData</code></p>
+<p><code dir="ltr" translate="no">chronicle.caseAlerts.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.caseComments.update</code></p>
 <p><code dir="ltr" translate="no">chronicle.conversations.create</code></p>
 <p><code dir="ltr" translate="no">chronicle.dashboards.copy</code></p>
@@ -3434,6 +3435,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">chronicle.events.udmSearch</code></p>
 <p><code dir="ltr" translate="no">chronicle.  globalDataAccessScopes.  permit</code></p>
 <p><code dir="ltr" translate="no">chronicle.instances.get</code></p>
+<p><code dir="ltr" translate="no">chronicle.  integrationInstances.  get</code></p>
+<p><code dir="ltr" translate="no">chronicle.integrations.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.investigations.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.investigations.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  investigations.  trigger</code></p>
@@ -3446,6 +3449,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">chronicle.  legacies.  legacySearchEnterpriseWideIoCs</code></p>
 <p><code dir="ltr" translate="no">chronicle.  legacies.  legacyStreamDetectionAlerts</code></p>
 <p><code dir="ltr" translate="no">chronicle.  legacies.  legacyUpdateAlert</code></p>
+<p><code dir="ltr" translate="no">chronicle.  legacyCases.  runManualAction</code></p>
 <p><code dir="ltr" translate="no">chronicle.legacySdk.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">chronicle.legacySdk.get</code></li>
@@ -3461,6 +3465,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">chronicle.  referenceLists.  update</code></p>
 <p><code dir="ltr" translate="no">chronicle.retrohunts.create</code></p>
 <p><code dir="ltr" translate="no">chronicle.rules.get</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
+<p><code dir="ltr" translate="no">geminicloudassist.  agents.  invoke</code></p>
+<p><code dir="ltr" translate="no">geminicloudassist.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">geminicloudassist.  locations.  get</code></li>
+<li><code dir="ltr" translate="no">geminicloudassist.  locations.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
 <p><code dir="ltr" translate="no">mcp.tools.call</code></p>
@@ -3475,6 +3487,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">serviceusage.services.enable</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
+<p><code dir="ltr" translate="no">serviceusage.services.use</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.create</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.get</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.getIamPolicy</code></p>
@@ -3754,7 +3767,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.viewer">Chronicle API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chronicle.caseAlerts.metadataUpdate" class="permission-name add-link" data-text="chronicle.caseAlerts.metadataUpdate" tabindex="-1"><code dir="ltr" translate="no">chronicle.  caseAlerts.  metadataUpdate</code></h4></td>
@@ -6463,7 +6483,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chronicle.integrationInstances.update" class="permission-name add-link" data-text="chronicle.integrationInstances.update" tabindex="-1"><code dir="ltr" translate="no">chronicle.  integrationInstances.  update</code></h4></td>
@@ -6551,7 +6578,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarThreatManager">Chronicle SOAR Threat Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarThreatManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarVulnerabilityManager">Chronicle SOAR Vulnerability Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarVulnerabilityManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chronicle.integrations.update" class="permission-name add-link" data-text="chronicle.integrations.update" tabindex="-1"><code dir="ltr" translate="no">chronicle.integrations.update</code></h4></td>
@@ -7585,7 +7619,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.admin">Chronicle API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.editor">Chronicle API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarAdmin">Chronicle SOAR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarAdmin</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.serviceAgent">Chronicle Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="chronicle.legacyCases.simulate" class="permission-name add-link" data-text="chronicle.legacyCases.simulate" tabindex="-1"><code dir="ltr" translate="no">chronicle.legacyCases.simulate</code></h4></td>

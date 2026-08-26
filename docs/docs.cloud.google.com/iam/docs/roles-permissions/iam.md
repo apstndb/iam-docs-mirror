@@ -2629,7 +2629,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>
@@ -5233,7 +5232,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulationResults.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  accessPolicySimulations.  list</code></p>
-<p><code dir="ltr" translate="no">policysimulator.  activityBacktests.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolations.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  orgPolicyViolationsPreviews.  list</code></p>
 <p><code dir="ltr" translate="no">policysimulator.  replayResults.  list</code></p>

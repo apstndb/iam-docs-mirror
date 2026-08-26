@@ -109,7 +109,7 @@ To create an Okta app integration from the App Catalog using the OIDC protocol, 
 
 8.  In the **Provider** field, enter a name for the provider.
     
-    > **Important:** Later in this document, when you create the workforce identity pool provider, you must use the same workforce identity provider ID that you used here.
+    > **Important:** Later in this document, when you create the workforce identity pool provider, you must use the same workforce IdP ID that you used here.
 
 9.  Click **Next** .
 
@@ -148,7 +148,7 @@ To create an Okta app integration that uses the OIDC protocol, perform the follo
           - `  WORKFORCE_POOL_ID  ` : the ID of the workforce pool that you created earlier in this guide.
           - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity provider ID of your choice; for example: `okta-oidc-provider` . For information on formatting the ID, see the [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers/create#query-parameters) section in the API documentation.
         
-        > **Important:** Later in this document, when you create the workforce identity pool provider, you must use the same workforce identity provider ID that you used here.
+        > **Important:** Later in this document, when you create the workforce identity pool provider, you must use the same workforce IdP ID that you used here.
     
     8.  Select the **Skip group assignment for now** checkbox.
     
@@ -233,11 +233,11 @@ To create an Okta app integration that uses the SAML protocol, perform the follo
 
 8.  In the **Provider** field, enter a name for the provider.
     
-    > **Important:** Later in this document, when you create the workforce identity pool provider, you must use the same workforce identity provider ID that you used here.
+    > **Important:** Later in this document, when you create the workforce identity pool provider, you must use the same workforce IdP ID that you used here.
 
 9.  Click **Next** .
 
-10. Optional: To access the application through an IDP-initiated sign-in flow using **Embed Link** , enter `https://console.cloud.google/` in **Default Relay State** .
+10. Optional: To access the application through an IdP-initiated sign-in flow using **Embed Link** , enter `https://console.cloud.google/` in **Default Relay State** .
 
 11. Optional: To send the custom `department` attribute in the SAML assertion, expand the **Attributes (Optional)** section and do the following:
     

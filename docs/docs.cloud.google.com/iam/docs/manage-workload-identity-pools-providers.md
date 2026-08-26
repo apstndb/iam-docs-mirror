@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This page explains how to manage your existing [workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and their identity providers.
+This page explains how to manage your existing [workload identity pools](https://docs.cloud.google.com/iam/docs/workload-identity-federation) and their identity providers (IdPs).
 
 You can manage pools and providers using the Google Cloud console, the [Google Cloud CLI](https://docs.cloud.google.com/sdk/gcloud) , or the [REST API](https://docs.cloud.google.com/iam/docs/reference/rest) .
 
@@ -146,11 +146,11 @@ Call [`projects.locations.workloadIdentityPools.patch()`](https://docs.cloud.goo
 
 When you delete a workload identity pool, you also delete its workload identity pool providers. As a result, the identities in the pool lose access to Google Cloud resources.
 
-> **Caution:** Before you delete a workload identity pool, consider [disabling the pool](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#update-pool) or [disabling its identity providers](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#update-provider) . If one of your workloads loses access to Google Cloud resources as a result, you can re-enable the pool and its providers at any time. If your workloads don't lose access, then it is safe to delete the pool.
+> **Caution:** Before you delete a workload identity pool, consider [disabling the pool](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#update-pool) or [disabling its IdPs](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#update-provider) . If one of your workloads loses access to Google Cloud resources as a result, you can re-enable the pool and its providers at any time. If your workloads don't lose access, then it is safe to delete the pool.
 
 You can [undelete a pool](https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers#undelete-pool) for up to 30 days after you delete it. After 30 days, the deletion is permanent. Until a pool is permanently deleted, you cannot reuse its name when creating a new workload identity pool.
 
-To delete a workload identity pool and its identity providers, do the following:
+To delete a workload identity pool and its IdPs, do the following:
 
 ### Console
 
@@ -158,7 +158,7 @@ To delete a workload identity pool and its identity providers, do the following:
 
 2.  Find the workload identity pool that you want to delete, then click its edit **Edit** icon.
 
-3.  Click delete **Delete pool** , then click **Delete** . The workload identity pool and its identity providers are deleted.
+3.  Click delete **Delete pool** , then click **Delete** . The workload identity pool and its IdPs are deleted.
 
 ### gcloud
 
@@ -212,8 +212,8 @@ To create a workload identity pool provider in an existing workload identity poo
 
 4.  Select the type of provider to create:
     
-      - **AWS** : An Amazon Web Services (AWS) identity provider.
-      - **OpenID Connect (OIDC)** : An OIDC-compatible identity provider. This includes Microsoft Azure.
+      - **AWS** : An Amazon Web Services (AWS) IdP.
+      - **OpenID Connect (OIDC)** : An OIDC-compatible IdP. This includes Microsoft Azure.
 
 5.  Enter a name for the provider.
     
@@ -234,7 +234,7 @@ To create a workload identity pool provider in an existing workload identity poo
     
       - **OIDC** : We recommend mapping `google.subject` to `assertion.sub` . Other mappings are optional.
         
-        For details, see identity provider settings for [Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) or [other OIDC providers](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) .
+        For details, see IdP settings for [Azure](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) or [other OIDC providers](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers#mappings-and-conditions) .
 
 8.  Optional: To provide an attribute condition, which specifies the identities that can authenticate, click **Add condition** and enter a valid Common Expression Language (CEL) expression. For details, see [Attribute conditions](https://docs.cloud.google.com/iam/docs/workload-identity-federation#conditions) .
 
@@ -372,13 +372,13 @@ You can use [organization policy constraints](https://docs.cloud.google.com/reso
 
 This section describes constraints that are recommended when you use Workload Identity Federation.
 
-### Manage allowed identity providers
+### Manage allowed IdPs
 
-As an organization administrator, you can decide which identity providers your organization is allowed to federate with.
+As an organization administrator, you can decide which IdPs your organization is allowed to federate with.
 
-To manage which identity providers are allowed, enable the `constraints/iam.workloadIdentityPoolProviders` list constraint in the organization policy for your organization. This constraint specifies the issuer URIs of the allowed providers. You can use the [Google Cloud console](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies#list_constraints) or the [Google Cloud CLI](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints#list-constraint) to enable this constraint.
+To manage which IdPs are allowed, enable the `constraints/iam.workloadIdentityPoolProviders` list constraint in the organization policy for your organization. This constraint specifies the issuer URIs of the allowed providers. You can use the [Google Cloud console](https://docs.cloud.google.com/resource-manager/docs/organization-policy/creating-managing-policies#list_constraints) or the [Google Cloud CLI](https://docs.cloud.google.com/resource-manager/docs/organization-policy/using-constraints#list-constraint) to enable this constraint.
 
-> **Note:** This constraint only limits creating and updating identity providers. If an identity provider was configured before you enabled the constraint, that provider can still be used.
+> **Note:** This constraint only limits creating and updating IdPs. If an IdP was configured before you enabled the constraint, that provider can still be used.
 
 To only allow federation from AWS, create a single constraint with the URI `https://sts.amazonaws.com` . The following example shows how to create this constraint using the gcloud CLI:
 
@@ -395,11 +395,11 @@ To only allow federation from one OIDC provider, create a single constraint with
     gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
          https://sts.windows.net/AZURE_TENANT_ID --organization=ORGANIZATION_NUMBER
 
-Federation from a SAML identity provider is special because the public keys that are used to validate the assertion are provided when the SAML identity provider is configured. As a result, it's possible that a malicious user might try to upload a SAML metadata document with the entity ID of your organization's identity provider using a public key. Restricting federation using an entity ID in this scenario gives only an illusion of security.
+Federation from a SAML IdP is special because the public keys that are used to validate the assertion are provided when the SAML IdP is configured. As a result, it's possible that a malicious user might try to upload a SAML metadata document with the entity ID of your organization's IdP using a public key. Restricting federation using an entity ID in this scenario gives only an illusion of security.
 
 To mitigate this risk, we strongly advise that you only allow a workload identity pool to be created with SAML federation in a Google Cloud project that your organization centrally manages. Then, as needed, grant external identities in that workload identity pool access to resources across your organization.
 
-To allow federation from SAML identity providers, create a constraint allowing the special keyword `KEY_UPLOAD` .
+To allow federation from SAML IdPs, create a constraint allowing the special keyword `KEY_UPLOAD` .
 
     gcloud resource-manager org-policies allow constraints/iam.workloadIdentityPoolProviders \
          KEY_UPLOAD --organization=ORGANIZATION_NUMBER

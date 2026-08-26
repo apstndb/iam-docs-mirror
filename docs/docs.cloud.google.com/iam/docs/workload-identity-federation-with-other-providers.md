@@ -12,7 +12,7 @@ To authenticate to Google Cloud, you can let the workload exchange its environme
 
 Workloads that run outside of Google Cloud might have access to existing, environment-specific credentials, for example:
 
-  - A workload might be able to obtain an OpenID Connect (OIDC) assertion token from an identity provider (IdP).
+  - A workload might be able to obtain an OpenID Connect (OIDC) assertion token from an IdP.
 
   - A workload might be able to obtain a SAML assertion token from an identity provider (IdP).
 
@@ -278,7 +278,7 @@ You now have collected all the information that you need to create a workload id
     
       - In **Select a provider** , select **SAML** .
       - In **Provider name** , enter a name for the provider. The name is also used as the provider ID. You can't change the provider ID after the provider is created.
-      - In **IDP Metadata file (XML)** , upload the SAML metadata XML document that is provided by your identity provider.
+      - In **IDP Metadata file (XML)** , upload the SAML metadata XML document that is provided by your IdP.
 
 5.  Click **Continue** .
 
