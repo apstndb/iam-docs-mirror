@@ -16,6 +16,143 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-08-25
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BigQuery sharing</td>
+<td><p>The Analytics Hub Service Agent role ( <code dir="ltr" translate="no">roles/analyticshub.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle Service Agent role ( <code dir="ltr" translate="no">roles/chronicle.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.caseAlerts.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.integrationInstances.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.integrations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacyCases.runManualAction</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudaicompanion.geminiGcpEnablementSettings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudaicompanion.geminiGcpEnablementSettings.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminicloudassist.agents.invoke</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminicloudassist.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">geminicloudassist.locations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">serviceusage.services.use</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Database Migration Service</td>
+<td><p>The following permissions have been added to the Database Migration Service Agent role ( <code dir="ltr" translate="no">roles/datamigration.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.operations.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Memorystore</td>
+<td><p>The following permissions have been added to the Memorystore Admin role ( <code dir="ltr" translate="no">roles/memorystore.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.keyHandles.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudkms.projects.showEffectiveAutokeyConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.instances.getVmExtensionState</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.instances.listVmExtensionStates</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.instances.getVmExtensionState</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.instances.listVmExtensionStates</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.ideaForgeInstances.stop</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.ideaForgeInstances.stop</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity-Aware Proxy</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">iap.resources.egressViaIAP</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity-Aware Proxy</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">iap.resources.egressViaIAP</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity-Aware Proxy</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">iap.resources.egressViaIAP</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Roads Management Insights</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.batchDelete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.batchUpdate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Roads Management Insights</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.batchDelete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.batchUpdate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Roads Management Insights</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.batchDelete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.batchUpdate</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">roads.selectedRoutes.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Run</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.locations.uploadSource</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Run</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">run.locations.uploadSource</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-08-18
 
 <table>

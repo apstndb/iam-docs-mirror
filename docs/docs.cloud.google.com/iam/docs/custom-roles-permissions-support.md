@@ -4856,10 +4856,12 @@ Enter the desired permission name or support level in the text box below:
 | `compute.instances.getSerialPortOutput`                                        | `SUPPORTED`                |
 | `compute.instances.getShieldedInstanceIdentity`                                | `SUPPORTED`                |
 | `compute.instances.getShieldedVmIdentity`                                      | `SUPPORTED`                |
+| `compute.instances.getVmExtensionState`                                        | `SUPPORTED`                |
 | `compute.instances.list`                                                       | `SUPPORTED`                |
 | `compute.instances.listEffectiveTags`                                          | `SUPPORTED`                |
 | `compute.instances.listReferrers`                                              | `SUPPORTED`                |
 | `compute.instances.listTagBindings`                                            | `SUPPORTED`                |
+| `compute.instances.listVmExtensionStates`                                      | `SUPPORTED`                |
 | `compute.instances.osAdminLogin`                                               | `SUPPORTED`                |
 | `compute.instances.osLogin`                                                    | `SUPPORTED`                |
 | `compute.instances.pscInterfaceCreate`                                         | `SUPPORTED`                |
@@ -7881,6 +7883,7 @@ Enter the desired permission name or support level in the text box below:
 | `discoveryengine.ideaForgeIdeas.get`                                           | `SUPPORTED`                |
 | `discoveryengine.ideaForgeInstances.get`                                       | `SUPPORTED`                |
 | `discoveryengine.ideaForgeInstances.start`                                     | `SUPPORTED`                |
+| `discoveryengine.ideaForgeInstances.stop`                                      | `SUPPORTED`                |
 | `discoveryengine.identityMappingStores.create`                                 | `SUPPORTED`                |
 | `discoveryengine.identityMappingStores.delete`                                 | `SUPPORTED`                |
 | `discoveryengine.identityMappingStores.get`                                    | `SUPPORTED`                |
@@ -9664,6 +9667,7 @@ Enter the desired permission name or support level in the text box below:
 | `iamconnectors.operations.list`                                                | `SUPPORTED`                |
 | `iap.projects.getSettings`                                                     | `TESTING`                  |
 | `iap.projects.updateSettings`                                                  | `TESTING`                  |
+| `iap.resources.egressViaIAP`                                                   | `SUPPORTED`                |
 | `iap.tunnel.getIamPolicy`                                                      | `SUPPORTED`                |
 | `iap.tunnel.setIamPolicy`                                                      | `SUPPORTED`                |
 | `iap.tunnelDestGroups.accessViaIAP`                                            | `SUPPORTED`                |
@@ -11456,10 +11460,6 @@ Enter the desired permission name or support level in the text box below:
 | `policysimulator.accessPolicySimulations.create`                               | `SUPPORTED`                |
 | `policysimulator.accessPolicySimulations.get`                                  | `SUPPORTED`                |
 | `policysimulator.accessPolicySimulations.list`                                 | `SUPPORTED`                |
-| `policysimulator.activityBacktestResults.search`                               | `SUPPORTED`                |
-| `policysimulator.activityBacktests.evaluateRabPolicy`                          | `SUPPORTED`                |
-| `policysimulator.activityBacktests.list`                                       | `SUPPORTED`                |
-| `policysimulator.activityBacktests.viewRabPolicy`                              | `SUPPORTED`                |
 | `policysimulator.orgPolicyViolations.list`                                     | `SUPPORTED`                |
 | `policysimulator.orgPolicyViolationsPreviews.create`                           | `SUPPORTED`                |
 | `policysimulator.orgPolicyViolationsPreviews.get`                              | `SUPPORTED`                |
@@ -12385,10 +12385,13 @@ Enter the desired permission name or support level in the text box below:
 | `rma.operations.get`                                                           | `SUPPORTED`                |
 | `rma.operations.list`                                                          | `SUPPORTED`                |
 | `roads.selectedRoutes.batchCreate`                                             | `SUPPORTED`                |
+| `roads.selectedRoutes.batchDelete`                                             | `SUPPORTED`                |
+| `roads.selectedRoutes.batchUpdate`                                             | `SUPPORTED`                |
 | `roads.selectedRoutes.create`                                                  | `SUPPORTED`                |
 | `roads.selectedRoutes.delete`                                                  | `SUPPORTED`                |
 | `roads.selectedRoutes.get`                                                     | `SUPPORTED`                |
 | `roads.selectedRoutes.list`                                                    | `SUPPORTED`                |
+| `roads.selectedRoutes.update`                                                  | `SUPPORTED`                |
 | `routeoptimization.locations.use`                                              | `SUPPORTED`                |
 | `routeoptimization.operations.create`                                          | `SUPPORTED`                |
 | `routeoptimization.operations.get`                                             | `SUPPORTED`                |
@@ -12426,6 +12429,7 @@ Enter the desired permission name or support level in the text box below:
 | `run.jobs.sshRoot`                                                             | `SUPPORTED`                |
 | `run.jobs.update`                                                              | `SUPPORTED`                |
 | `run.locations.list`                                                           | `SUPPORTED`                |
+| `run.locations.uploadSource`                                                   | `SUPPORTED`                |
 | `run.operations.delete`                                                        | `SUPPORTED`                |
 | `run.operations.get`                                                           | `SUPPORTED`                |
 | `run.operations.list`                                                          | `SUPPORTED`                |

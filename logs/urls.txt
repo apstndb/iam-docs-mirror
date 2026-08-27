@@ -108,7 +108,7 @@ https://docs.cloud.google.com/iam/docs/pam-view-grants	2026-08-22T17:07:34Z
 https://docs.cloud.google.com/iam/docs/pam-view-update-delete-entitlements	2026-08-22T17:07:40Z
 https://docs.cloud.google.com/iam/docs/pam-withdraw-grants	2026-08-22T17:07:27Z
 https://docs.cloud.google.com/iam/docs/permission-error-messages	2026-08-22T17:07:34Z
-https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-08-22T17:07:34Z
+https://docs.cloud.google.com/iam/docs/permissions-change-log	2026-08-27T05:49:13Z
 https://docs.cloud.google.com/iam/docs/permissions-change-log-archive	2026-08-22T17:07:27Z
 https://docs.cloud.google.com/iam/docs/policy-intelligence-tools	2026-08-22T17:07:34Z
 https://docs.cloud.google.com/iam/docs/policy-types	2026-08-22T17:07:27Z
@@ -1152,7 +1152,7 @@ https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-active-
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines	2026-08-22T17:07:46Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-kubernetes	2026-08-22T17:07:34Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds	2026-08-25T16:59:32Z
-https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers	2026-08-25T16:59:32Z
+https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-providers	2026-08-27T05:49:28Z
 https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates	2026-08-26T01:09:53Z
 https://docs.cloud.google.com/iam/docs/write-policy-client-libraries	2026-08-22T17:07:34Z
 https://docs.cloud.google.com/iam/quotas	2026-08-22T17:07:40Z

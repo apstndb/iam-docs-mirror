@@ -392,7 +392,7 @@ After the key pair is created, to download the public key into a certificate fil
         --workload-identity-pool WORKLOAD_POOL_ID \
         --provider WORKLOAD_PROVIDER_ID \
         --location global \
-        --format "value(keyData.key)" \
+        --format "value(keyData.key)"; \
         > CERTIFICATE_PATH
 
 Replace the following:
@@ -896,8 +896,8 @@ Replace the following:
         --service-account-token-lifetime-seconds=SERVICE_ACCOUNT_TOKEN_LIFETIME \
         --sts-location=REGION \
         --output-file=FILEPATH.json \
-        --credential-source-url="TOKEN_URL" \
-        --credential-source-headers="KEY_1=VALUE_1,KEY_2=VALUE_2" \
+        --credential-source-url=&quot;TOKEN_URL" \
+        --credential-source-headers=&quot;KEY_1=VALUE_1,KEY_2=VALUE_2" \
         --credential-source-type=SOURCE_TYPE \
         --credential-source-field-name=FIELD_NAME
 
