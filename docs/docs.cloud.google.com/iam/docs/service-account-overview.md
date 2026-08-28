@@ -57,6 +57,12 @@ Impersonation is useful when you want to change a user's permissions without cha
 
 To learn more about service account impersonation, see [Service account impersonation](https://docs.cloud.google.com/iam/docs/service-account-impersonation) .
 
+### Access APIs outside of Google Cloud
+
+Although service accounts are primarily used to access Google Cloud APIs managed through IAM, you can also use them to authenticate to Google APIs that IAM does not manage, such as Google Ads, YouTube, and Google Workspace. Each service determines its own authorization rules.
+
+> **Caution:** Starting August 27, 2026, Google will temporarily restrict new access to the Gemini API from service accounts. Existing service accounts used with the Gemini API will continue to work. For new integrations, we recommend using authentication-enabled API keys to access the Gemini API.
+
 ### Service accounts and Google Workspace domains
 
 Service accounts do **not** belong to your Google Workspace domain, unlike user accounts. If you share Google Workspace assets, like documents or events, with your entire Google Workspace domain, they are not shared with service accounts.

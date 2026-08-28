@@ -210,6 +210,10 @@ To exempt a project from the `iam.disableServiceAccountKeyCreation` organization
 
 To use a service account from outside of Google Cloud, such as on other platforms or on-premises, you must first establish the identity of the service account. Public/private key pairs provide a secure way of accomplishing this goal. When you create a service account key, the public portion is stored on Google Cloud, while the private portion is available only to you. For more information about public/private key pairs, see [Service account keys](https://docs.cloud.google.com/iam/docs/service-account-creds#key-types) .
 
+Although service accounts are primarily used to access Google Cloud APIs managed through IAM, you can also use them to authenticate to Google APIs that IAM does not manage, such as Google Ads, YouTube, and Google Workspace. Each service determines its own authorization rules.
+
+> **Caution:** Starting August 27, 2026, Google will temporarily restrict new access to the Gemini API from service accounts. Existing service accounts used with the Gemini API will continue to work. For new integrations, we recommend using authentication-enabled API keys to access the Gemini API.
+
 > **Note:** You can create service account keys in JSON or [PKCS\#12 (P12)](https://wikipedia.org/wiki/PKCS_12) format. P12 service account keys are not recommended unless they are necessary for backwards compatibility. The following examples use JSON format.
 
 You can create a [service account key](https://docs.cloud.google.com/iam/reference/rest/v1/projects.serviceAccounts.keys) using the Google Cloud console, the gcloud CLI, the [`serviceAccounts.keys.create()`](https://docs.cloud.google.com/iam/reference/rest/v1/projects.serviceAccounts.keys/create) method, or one of the [client libraries](https://docs.cloud.google.com/apis/docs/cloud-client-libraries) . A service account can have up to 10 keys.
