@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates
 uri: https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates
 title: Configure Workload Identity Federation with X.509 certificates
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Configure Workload Identity Federation with X.509 certificates for secure workload authentication to {{dynamic_data.site_values.cloud_name}}. Set up trust stores, attribute mappings, and mTLS.
 data_source: docs.cloud.google.com
 ---
 

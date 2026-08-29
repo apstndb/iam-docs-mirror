@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/troubleshooting-workload-identity-federation
 uri: https://docs.cloud.google.com/iam/docs/troubleshooting-workload-identity-federation
 title: Troubleshoot Workload Identity Federation
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: 'Troubleshoot Workload Identity Federation errors: API credentials, OIDC provider setup, JWK format, and quota.'
 data_source: docs.cloud.google.com
 ---
 

@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/deny-overview
 uri: https://docs.cloud.google.com/iam/docs/deny-overview
 title: Deny policies
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Understand {{dynamic_data.site_values.cloud_name}} deny policies. Prevent principals from using specific permissions to access resources. Explore policy structure and common use cases.
 data_source: docs.cloud.google.com
 ---
 

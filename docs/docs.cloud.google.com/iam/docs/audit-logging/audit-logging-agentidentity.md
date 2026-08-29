@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/audit-logging/audit-logging-agentidentity
 uri: https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-agentidentity
 title: Agent Identity API audit logging
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Lists the audited methods for the Agent Identity API and Agent Identity Credentials API.
 data_source: docs.cloud.google.com
 ---
 

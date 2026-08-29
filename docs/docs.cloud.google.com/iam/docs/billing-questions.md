@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/billing-questions
 uri: https://docs.cloud.google.com/iam/docs/billing-questions
 title: Billing questions
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Understand billing for IAM.
 data_source: docs.cloud.google.com
 ---
 

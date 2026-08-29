@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/custom-roles-permissions-support
 uri: https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support
 title: Support levels for permissions in custom roles
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Understand support levels for Identity and Access Management (IAM) permissions in custom roles.
 data_source: docs.cloud.google.com
 ---
 

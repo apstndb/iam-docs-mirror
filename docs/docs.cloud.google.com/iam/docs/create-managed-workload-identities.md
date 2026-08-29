@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/create-managed-workload-identities
 uri: https://docs.cloud.google.com/iam/docs/create-managed-workload-identities
 title: Configure managed workload identity authentication for Compute Engine
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Learn how to configure managed workload identities with mTLS and set up certificate provisioning for Compute Engine instances.
 data_source: docs.cloud.google.com
 ---
 

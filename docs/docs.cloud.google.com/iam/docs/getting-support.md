@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/getting-support
 uri: https://docs.cloud.google.com/iam/docs/getting-support
 title: Getting support
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Learn about resources to get support for Identity and Access Management (IAM), including Google support packages, Stack Overflow, and Slack. Learn how to file bugs or feature requests.
 data_source: docs.cloud.google.com
 ---
 

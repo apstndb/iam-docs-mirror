@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles
 uri: https://docs.cloud.google.com/iam/docs/setting-limits-on-granting-roles
 title: Set limits on granting roles
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Limit role granting with Identity and Access Management (IAM) Conditions and the iam.googleapis.com/modifiedGrantsByRole API attribute.
 data_source: docs.cloud.google.com
 ---
 

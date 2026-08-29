@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/review-iam-policy-history
 uri: https://docs.cloud.google.com/iam/docs/review-iam-policy-history
 title: Review IAM allow policy history
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Review the history of changes to your IAM allow policies.
 data_source: docs.cloud.google.com
 ---
 

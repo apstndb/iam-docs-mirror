@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/resource-hierarchy-access-control
 uri: https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control
 title: Using resource hierarchy for access control
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Learn how the {{dynamic_data.site_values.cloud_name}} resource hierarchy and policy inheritance impacts access control with IAM.
 data_source: docs.cloud.google.com
 ---
 

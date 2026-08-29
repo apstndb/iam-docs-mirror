@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/service-account-monitoring
 uri: https://docs.cloud.google.com/iam/docs/service-account-monitoring
 title: Monitor usage patterns for service accounts and keys
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Monitor service account and key usage patterns with Cloud Monitoring. View usage metrics to identify anomalies.
 data_source: docs.cloud.google.com
 ---
 

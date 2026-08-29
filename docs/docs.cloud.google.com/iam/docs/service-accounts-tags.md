@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/service-accounts-tags
 uri: https://docs.cloud.google.com/iam/docs/service-accounts-tags
 title: Creating and managing tags for service accounts
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Create and manage tags for your {{dynamic_data.site_values.cloud_name}} service accounts. You can use tags for conditional access control.
 data_source: docs.cloud.google.com
 ---
 

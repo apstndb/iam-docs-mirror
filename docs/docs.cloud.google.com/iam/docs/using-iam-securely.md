@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/using-iam-securely
 uri: https://docs.cloud.google.com/iam/docs/using-iam-securely
 title: Use IAM securely
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Understand Identity and Access Management (IAM) security best practices. Implement least privilege, manage service accounts and keys, and audit policies for secure access.
 data_source: docs.cloud.google.com
 ---
 

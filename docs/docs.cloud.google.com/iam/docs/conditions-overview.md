@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/conditions-overview
 uri: https://docs.cloud.google.com/iam/docs/conditions-overview
 title: Overview of IAM Conditions
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Define attribute-based access control for {{dynamic_data.site_values.cloud_name}}. Use IAM Conditions in allow policies, deny policies, and policy bindings.
 data_source: docs.cloud.google.com
 ---
 

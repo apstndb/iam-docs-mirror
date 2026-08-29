@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workforce-manage-oauth-app
 uri: https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app
 title: Manage OAuth application
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Manage OAuth clients and credentials for {{dynamic_data.site_values.cloud_name}} integrations.
 data_source: docs.cloud.google.com
 ---
 

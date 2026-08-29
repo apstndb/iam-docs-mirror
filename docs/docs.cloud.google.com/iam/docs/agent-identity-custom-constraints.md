@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/agent-identity-custom-constraints
 uri: https://docs.cloud.google.com/iam/docs/agent-identity-custom-constraints
 title: Use custom organization policies for Agent Identity Auth Manager
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: How to use custom organization policies for Agent Identity Auth Manager.
 data_source: docs.cloud.google.com
 ---
 

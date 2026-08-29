@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/restore-iam-policy
 uri: https://docs.cloud.google.com/iam/docs/restore-iam-policy
 title: Restore a previous version of an IAM allow policy
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Restore an IAM allow policy.
 data_source: docs.cloud.google.com
 ---
 

@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim
 uri: https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim
 title: System for Cross-domain Identity Management (SCIM) audit logging
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Audit logs for SCIM.
 data_source: docs.cloud.google.com
 ---
 

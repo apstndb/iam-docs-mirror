@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers
 uri: https://docs.cloud.google.com/iam/docs/manage-workload-identity-pools-providers
 title: Manage workload identity pools and providers
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Manage workload identity pools and providers. Create, list, get, update, delete, and restore them. Use the {{dynamic_data.site_values.cloud_name_short}} console, Google Cloud CLI, or the REST API.
 data_source: docs.cloud.google.com
 ---
 

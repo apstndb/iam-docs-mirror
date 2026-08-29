@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/migrating-to-credentials-api
 uri: https://docs.cloud.google.com/iam/docs/migrating-to-credentials-api
 title: Migrating to the Service Account Credentials API
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Migrate code for signing JWTs and binary blobs from the deprecated methods in the IAM API to the Service Account Credentials API. Update REST, client libraries, and gcloud.
 data_source: docs.cloud.google.com
 ---
 

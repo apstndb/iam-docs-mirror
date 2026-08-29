@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access
 uri: https://docs.cloud.google.com/iam/docs/workload-download-cred-and-grant-access
 title: Download credential configuration and grant access
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Grant workloads access to {{dynamic_data.site_values.cloud_name}} resources using Workload Identity Federation. Download credential configuration.
 data_source: docs.cloud.google.com
 ---
 

@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated
 uri: https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-delegated
 title: Create short-lived credentials for multiple service accounts
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Create short-lived credentials for service accounts with a delegation chain. Generate access tokens, ID tokens, JWTs, or self-signed blobs.
 data_source: docs.cloud.google.com
 ---
 

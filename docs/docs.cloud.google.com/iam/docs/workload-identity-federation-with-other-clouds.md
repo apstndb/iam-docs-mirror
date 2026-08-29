@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds
 uri: https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds
 title: Configure Workload Identity Federation with AWS or Azure VMs
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Authenticate AWS and Azure VMs to {{dynamic_data.site_values.cloud_name}} using Workload Identity Federation, without service account keys.
 data_source: docs.cloud.google.com
 ---
 

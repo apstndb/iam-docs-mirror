@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines
 uri: https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-deployment-pipelines
 title: Configure Workload Identity Federation with deployment pipelines
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Authenticate CI/CD deployment pipelines to {{dynamic_data.site_values.cloud_name}} using Workload Identity Federation.
 data_source: docs.cloud.google.com
 ---
 

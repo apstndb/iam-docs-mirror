@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/groups-in-cloud-console
 uri: https://docs.cloud.google.com/iam/docs/groups-in-cloud-console
 title: Create and manage Google groups in the Google Cloud console
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Manage Google groups in the {{dynamic_data.site_values.cloud_name_short}} console. Create, view, edit, and delete groups.
 data_source: docs.cloud.google.com
 ---
 

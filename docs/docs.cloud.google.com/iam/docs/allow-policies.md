@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/allow-policies
 uri: https://docs.cloud.google.com/iam/docs/allow-policies
 title: Understanding allow policies
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: 'Understand allow policies, also known as Identity and Access Management (IAM) policies, for {{dynamic_data.site_values.cloud_name}} resources: structure, inheritance, versions, and best practices.'
 data_source: docs.cloud.google.com
 ---
 

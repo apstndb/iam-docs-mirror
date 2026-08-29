@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials
 uri: https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials
 title: Credential Access Boundaries for Cloud Storage
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Restrict short-lived credential permissions with Credential Access Boundaries. Use these restricted credentials to control service account access for Cloud Storage.
 data_source: docs.cloud.google.com
 ---
 

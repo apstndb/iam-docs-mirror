@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity
 uri: https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity
 title: Example logs for Workload Identity Federation
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Example audit logs for Workload Identity Federation {{dynamic_data.site_values.cloud_name_short}} IAM.
 data_source: docs.cloud.google.com
 ---
 

@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/testing-permissions
 uri: https://docs.cloud.google.com/iam/docs/testing-permissions
 title: Test permissions for custom user interfaces
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Test a user's permissions to decide which elements to display in custom user interfaces.
 data_source: docs.cloud.google.com
 ---
 

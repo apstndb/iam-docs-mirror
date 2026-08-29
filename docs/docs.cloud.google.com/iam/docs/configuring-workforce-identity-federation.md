@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation
 uri: https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation
 title: Configure Workforce Identity Federation
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Configure workforce identity federation with OIDC or SAML 2.0 identity providers. Create identity pools and providers, manage signing keys, and grant Identity and Access Management (IAM) roles.
 data_source: docs.cloud.google.com
 ---
 

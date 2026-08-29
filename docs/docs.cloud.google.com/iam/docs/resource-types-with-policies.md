@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/resource-types-with-policies
 uri: https://docs.cloud.google.com/iam/docs/resource-types-with-policies
 title: Resource types that accept allow policies
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Identify resource types that accept allow policies. See which services support allow policies for their resources.
 data_source: docs.cloud.google.com
 ---
 

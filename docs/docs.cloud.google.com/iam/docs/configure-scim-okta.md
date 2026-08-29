@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/configure-scim-okta
 uri: https://docs.cloud.google.com/iam/docs/configure-scim-okta
 title: Configure SCIM in Okta
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Learn how to configure Okta as your SCIM identity provider for Workforce Identity Federation to provision and manage users and groups in {{dynamic_data.site_values.cloud_name_short}}.
 data_source: docs.cloud.google.com
 ---
 

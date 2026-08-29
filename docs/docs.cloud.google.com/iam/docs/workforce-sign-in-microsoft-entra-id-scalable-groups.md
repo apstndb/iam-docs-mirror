@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups
 uri: https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups
 title: Configure Workforce Identity Federation with Microsoft Entra ID
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Configure Workforce Identity Federation with Microsoft Entra ID to map a large number of groups from Microsoft Entra ID to {{dynamic_data.site_values.cloud_name}} using Microsoft Graph.
 data_source: docs.cloud.google.com
 ---
 

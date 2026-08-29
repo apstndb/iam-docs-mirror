@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/principal-identifiers
 uri: https://docs.cloud.google.com/iam/docs/principal-identifiers
 title: Principal identifiers
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Understand principal identifier formats for Identity and Access Management (IAM) allow, deny, PAB, and access policies.
 data_source: docs.cloud.google.com
 ---
 

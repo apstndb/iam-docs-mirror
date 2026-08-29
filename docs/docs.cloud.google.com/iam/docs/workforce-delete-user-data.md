@@ -2,7 +2,7 @@
 name: documents/docs.cloud.google.com/iam/docs/workforce-delete-user-data
 uri: https://docs.cloud.google.com/iam/docs/workforce-delete-user-data
 title: Delete Workforce Identity Federation users and their data
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Delete workforce users and their data. Understand soft-deletion, purged states, and required permissions. Restore users during soft-deletion.
 data_source: docs.cloud.google.com
 ---
 
