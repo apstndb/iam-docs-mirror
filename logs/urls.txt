@@ -21,7 +21,7 @@ https://docs.cloud.google.com/iam/docs/audit-logging/examples-workload-identity	
 https://docs.cloud.google.com/iam/docs/auth-agent-own-identity	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/auth-manager-overview	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2	2026-08-28T23:28:38Z
-https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-08-28T23:28:38Z
+https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2	2026-08-29T08:15:06Z
 https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/authenticate-with-auth-libraries	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/authentication	2026-08-27T05:49:17Z
@@ -54,7 +54,7 @@ https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	202
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-08-28T23:28:38Z
-https://docs.cloud.google.com/iam/docs/deny-access	2026-08-28T23:28:38Z
+https://docs.cloud.google.com/iam/docs/deny-access	2026-08-29T08:16:20Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-08-28T23:28:38Z
