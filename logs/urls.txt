@@ -924,6 +924,7 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseauth	2026-08-28
 https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecrash	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedatabase	2026-08-28T23:28:38Z
+https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedataconnect	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/firebasedynamiclinks	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseextensions	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseextensionspublisher	2026-08-28T23:29:19Z
@@ -1100,7 +1101,7 @@ https://docs.cloud.google.com/iam/docs/samples	2026-08-27T05:55:43Z
 https://docs.cloud.google.com/iam/docs/secure-iam-vpc-sc	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/service-account-creds	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/service-account-impersonation	2026-08-28T23:29:01Z
-https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-08-28T23:29:01Z
+https://docs.cloud.google.com/iam/docs/service-account-monitoring	2026-08-31T14:03:57Z
 https://docs.cloud.google.com/iam/docs/service-account-overview	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/service-account-permissions	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/service-account-types	2026-08-28T23:29:01Z
@@ -1128,7 +1129,7 @@ https://docs.cloud.google.com/iam/docs/tutorial-cloud-run-workload-id-federation
 https://docs.cloud.google.com/iam/docs/use-workload-identity-federation-to-let-customers-access-their-cloud-resources	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/user-identities	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/using-iam-securely	2026-08-28T23:29:01Z
-https://docs.cloud.google.com/iam/docs/viewing-grantable-roles	2026-08-31T03:32:03Z
+https://docs.cloud.google.com/iam/docs/viewing-grantable-roles	2026-09-01T06:32:59Z
 https://docs.cloud.google.com/iam/docs/workforce-console-sso	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/workforce-delete-user-data	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation	2026-08-28T23:28:38Z

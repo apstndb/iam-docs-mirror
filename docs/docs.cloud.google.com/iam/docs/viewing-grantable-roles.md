@@ -208,11 +208,13 @@ To authenticate to IAM, set up Application Default Credentials. For more informa
       int count = 0;
       for (auto& role : client.QueryGrantableRoles(resource)) {
         if (!role) throw std::move(role).status();
-        std::cout << "Role successfully retrieve<<d: &qu>ot;  ro<<le-name()  "\n";
+        std::cout << "Role successfully retrieved: " << role->name() << "\n";
         ++count;
       }
-      if (count ==<< 0) {
-        std::cout  "No grantable ro<<les found <<in resource: "  resource  "\n";  }}
+      if (count == 0) {
+        std::cout << "No grantable roles found in resource: " << resource << "\n";
+      }
+    }
 
 ### C\#
 
@@ -249,7 +251,9 @@ To authenticate to IAM, set up Application Default Credentials. For more informa
                 Console.WriteLine("Description: " + role.Description);
                 Console.WriteLine();
             }
-            return response.Roles;    }}
+            return response.Roles;
+        }
+    }
 
 ### Go
 
@@ -270,10 +274,10 @@ To authenticate to IAM, set up Application Default Credentials. For more informa
      ctx := context.Background()
      service, err := iam.NewService(ctx)
      if err != nil {
-         return nil, fmt.Errorf(&qu&ot;iam.NewService: %w", err)
+         return nil, fmt.Errorf("iam.NewService: %w", err)
      }
     
-     request := iam.QueryGrantableRolesRequest{
+     request := &iam.QueryGrantableRolesRequest{
          FullResourceName: fullResourceName,
      }
      response, err := service.Roles.QueryGrantableRoles(request).Do()
@@ -281,7 +285,10 @@ To authenticate to IAM, set up Application Default Credentials. For more informa
          return nil, fmt.Errorf("Roles.QueryGrantableRoles: %w", err)
      }
      for _, role := range response.Roles {
-         fmt.Fprintf(w, "Found grantable role: %v\n", role.Name)   }   return response.Roles, err}
+         fmt.Fprintf(w, "Found grantable role: %v\n", role.Name)
+     }
+     return response.Roles, err
+    }
 
 ### Java
 
@@ -297,7 +304,9 @@ To authenticate to IAM, set up Application Default Credentials. For more informa
     for (Role role : response.getRoles()) {
       System.out.println("Title: " + role.getTitle());
       System.out.println("Name: " + role.getName());
-      System.out.println("Description: " + role.getDescription());  System.out.println();}
+      System.out.println("Description: " + role.getDescription());
+      System.out.println();
+    }
 
 ### Python
 
@@ -316,7 +325,9 @@ To authenticate to IAM, set up Application Default Credentials. For more informa
             if "title" in role:
                 print("Title: " + role["title"])
             print("Name: " + role["name"])
-            if "description" in role:print("Description: "+role["description"])print(" ")
+            if "description" in role:
+                print("Description: " + role["description"])
+            print(" ")
 
 ### REST
 
