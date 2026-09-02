@@ -11,7 +11,7 @@ https://docs.cloud.google.com/iam/docs/attach-service-accounts	2026-08-28T23:29:
 https://docs.cloud.google.com/iam/docs/audit-logging	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-agentidentity	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamcreds	2026-08-28T23:29:01Z
-https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim	2026-08-28T23:28:38Z
+https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim	2026-09-01T13:13:07Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-pam	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-sts	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/audit-logging/examples-oauth-clients	2026-08-28T23:28:38Z
@@ -54,7 +54,7 @@ https://docs.cloud.google.com/iam/docs/create-short-lived-credentials-direct	202
 https://docs.cloud.google.com/iam/docs/creating-custom-roles	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/custom-roles-permissions-support	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/custom-roles-tags	2026-08-28T23:28:38Z
-https://docs.cloud.google.com/iam/docs/deny-access	2026-08-31T03:30:34Z
+https://docs.cloud.google.com/iam/docs/deny-access	2026-09-01T06:33:23Z
 https://docs.cloud.google.com/iam/docs/deny-overview	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/deny-permissions-support	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials	2026-08-28T23:28:38Z
@@ -734,7 +734,7 @@ https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	202
 https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/resources	2026-08-27T05:49:13Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-08-28T23:28:38Z
-https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-08-31T03:30:34Z
+https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-09-01T06:33:08Z
 https://docs.cloud.google.com/iam/docs/retry-strategy	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/review-iam-policy-history	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/review-security-insights	2026-08-28T23:29:01Z
@@ -1024,7 +1024,6 @@ https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager
 https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/privateca	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager	2026-08-28T23:29:01Z
-https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/progressiverollout	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/roles-permissions/publicca	2026-08-28T23:28:38Z
@@ -1133,11 +1132,11 @@ https://docs.cloud.google.com/iam/docs/viewing-grantable-roles	2026-09-01T06:32:
 https://docs.cloud.google.com/iam/docs/workforce-console-sso	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/workforce-delete-user-data	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/workforce-identity-federation	2026-08-28T23:28:38Z
-https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-08-28T23:29:19Z
+https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim	2026-09-01T13:13:07Z
 https://docs.cloud.google.com/iam/docs/workforce-log-in-gcloud	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/workforce-oauth-app	2026-08-28T23:29:19Z
-https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-08-28T23:29:01Z
+https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials	2026-09-01T17:08:00Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id	2026-08-28T23:29:01Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/workforce-sign-in-okta	2026-08-28T23:29:01Z
@@ -1187,6 +1186,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/policy-insights-datasets	
 https://docs.cloud.google.com/policy-intelligence/docs/quotas	2026-08-28T02:48:54Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/asset-inventory	2026-08-28T02:48:37Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/libraries	2026-08-28T02:48:37Z
+https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/mcp/policy-analyzer-mcp	2026-09-01T22:10:37Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest	2025-10-17T21:46:21Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities	2025-10-17T21:46:21Z
 https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/rest/v1/projects.locations.activityTypes.activities/query	2025-10-17T21:46:21Z
@@ -1326,6 +1326,7 @@ https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies	202
 https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies	2026-08-28T02:48:37Z
 https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies	2026-08-28T02:48:37Z
 https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access	2026-08-28T02:48:37Z
+https://docs.cloud.google.com/policy-intelligence/docs/use-policy-analyzer-mcp	2026-09-01T22:10:37Z
 https://docs.cloud.google.com/policy-intelligence/docs/use-policy-troubleshooter-mcp	2026-08-28T02:48:37Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam	2026-08-04T14:40:37Z
 https://docs.cloud.google.com/sdk/gcloud/reference/iam/access-policies	2026-08-04T14:41:12Z
