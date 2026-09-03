@@ -1,14 +1,14 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon
 uri: https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon
-title: Proxmity Beacon roles and permissions
+title: Proximity Beacon roles and permissions
 description: Fine-grained access control and visibility for centrally managing cloud resources.
 data_source: docs.cloud.google.com
 ---
 
-This page lists the IAM roles and permissions for Proxmity Beacon. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
+This page lists the IAM roles and permissions for Proximity Beacon. To search through all roles and permissions, see the [role and permission index](https://docs.cloud.google.com/iam/docs/roles-permissions) .
 
-## Proxmity Beacon roles
+## Proximity Beacon roles
 
 <table>
 <colgroup>
@@ -137,7 +137,7 @@ This page lists the IAM roles and permissions for Proxmity Beacon. To search thr
 </tbody>
 </table>
 
-## Proxmity Beacon permissions
+## Proximity Beacon permissions
 
 <table>
 <colgroup>

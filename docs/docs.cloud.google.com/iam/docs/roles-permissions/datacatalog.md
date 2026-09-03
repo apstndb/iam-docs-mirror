@@ -143,12 +143,16 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.entryGroups.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.create</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.export</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.get</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.import</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.list</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.update</code></li>
@@ -195,10 +199,14 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.entryTypes.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.create</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryTypes.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryTypes.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.get</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.list</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryTypes.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.update</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryTypes.use</code></li>
@@ -321,11 +329,15 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaries.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaries.list</code></p>
@@ -375,11 +387,15 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaries.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaries.list</code></p>
@@ -513,12 +529,16 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.entryGroups.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.create</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.export</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.get</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.import</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.list</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataplex.entryGroups.update</code></li>

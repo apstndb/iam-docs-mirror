@@ -46,6 +46,7 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <li><code dir="ltr" translate="no">datalineage.processes.delete</code></li>
 <li><code dir="ltr" translate="no">datalineage.processes.get</code></li>
 <li><code dir="ltr" translate="no">datalineage.processes.list</code></li>
+<li><code dir="ltr" translate="no">datalineage.  processes.  markAsDeleted</code></li>
 <li><code dir="ltr" translate="no">datalineage.processes.update</code></li>
 <li><code dir="ltr" translate="no">datalineage.runs.create</code></li>
 <li><code dir="ltr" translate="no">datalineage.runs.delete</code></li>
@@ -87,6 +88,7 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <li><code dir="ltr" translate="no">datalineage.processes.delete</code></li>
 <li><code dir="ltr" translate="no">datalineage.processes.get</code></li>
 <li><code dir="ltr" translate="no">datalineage.processes.list</code></li>
+<li><code dir="ltr" translate="no">datalineage.  processes.  markAsDeleted</code></li>
 <li><code dir="ltr" translate="no">datalineage.processes.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">datalineage.runs.*</code></p>
@@ -126,6 +128,7 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <p><code dir="ltr" translate="no">datalineage.  processRevisions.  insert</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.create</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.get</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processes.  markAsDeleted</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.update</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.create</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.get</code></p>
@@ -323,6 +326,15 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="datalineage.processes.markAsDeleted" class="permission-name add-link" data-text="datalineage.processes.markAsDeleted" tabindex="-1"><code dir="ltr" translate="no">datalineage.  processes.  markAsDeleted</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.admin">Data Lineage Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.editor">Data Lineage Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.producer">Data Lineage Events Producer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.producer</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="datalineage.processes.update" class="permission-name add-link" data-text="datalineage.processes.update" tabindex="-1"><code dir="ltr" translate="no">datalineage.processes.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -331,7 +343,7 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.producer">Data Lineage Events Producer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.producer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="datalineage.runs.create" class="permission-name add-link" data-text="datalineage.runs.create" tabindex="-1"><code dir="ltr" translate="no">datalineage.runs.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -340,14 +352,14 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/composer#composer.worker">Composer Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  composer.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.producer">Data Lineage Events Producer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.producer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="datalineage.runs.delete" class="permission-name add-link" data-text="datalineage.runs.delete" tabindex="-1"><code dir="ltr" translate="no">datalineage.runs.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.admin">Data Lineage Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.editor">Data Lineage Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="datalineage.runs.get" class="permission-name add-link" data-text="datalineage.runs.get" tabindex="-1"><code dir="ltr" translate="no">datalineage.runs.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -359,7 +371,7 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datalineage#datalineage.producer">Data Lineage Events Producer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datalineage.producer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="datalineage.runs.list" class="permission-name add-link" data-text="datalineage.runs.list" tabindex="-1"><code dir="ltr" translate="no">datalineage.runs.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -372,7 +384,7 @@ This page lists the IAM roles and permissions for Data Lineage API. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="datalineage.runs.update" class="permission-name add-link" data-text="datalineage.runs.update" tabindex="-1"><code dir="ltr" translate="no">datalineage.runs.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

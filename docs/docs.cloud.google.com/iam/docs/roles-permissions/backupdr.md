@@ -458,6 +458,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <td><p><code dir="ltr" translate="no">backupdr.locations.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  fetch</code></li>
 <li><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  get</code></li>
 <li><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  list</code></li>
 </ul></td>
@@ -3384,7 +3385,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
-<td><h4 id="backupdr.resourceBackupConfigs.get" class="permission-name add-link" data-text="backupdr.resourceBackupConfigs.get" tabindex="-1"><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  get</code></h4></td>
+<td><h4 id="backupdr.resourceBackupConfigs.fetch" class="permission-name add-link" data-text="backupdr.resourceBackupConfigs.fetch" tabindex="-1"><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  fetch</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
@@ -3392,6 +3393,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="backupdr.resourceBackupConfigs.get" class="permission-name add-link" data-text="backupdr.resourceBackupConfigs.get" tabindex="-1"><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.backupConfigViewer">Backup and DR Backup Config Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  backupdr.backupConfigViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="backupdr.resourceBackupConfigs.list" class="permission-name add-link" data-text="backupdr.resourceBackupConfigs.list" tabindex="-1"><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3402,7 +3411,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="backupdr.serviceConfig.initialize" class="permission-name add-link" data-text="backupdr.serviceConfig.initialize" tabindex="-1"><code dir="ltr" translate="no">backupdr.  serviceConfig.  initialize</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3438,14 +3447,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="backupdr.trial.end" class="permission-name add-link" data-text="backupdr.trial.end" tabindex="-1"><code dir="ltr" translate="no">backupdr.trial.end</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.admin">Backup and DR Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  backupdr.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.editor">Backupdr Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  backupdr.editor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="backupdr.trial.get" class="permission-name add-link" data-text="backupdr.trial.get" tabindex="-1"><code dir="ltr" translate="no">backupdr.trial.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -3457,7 +3466,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/backupdr#backupdr.userv2">Backup and DR User V2</a> ( <code class="role-name" dir="ltr" translate="no">roles/  backupdr.userv2</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="backupdr.trial.subscribe" class="permission-name add-link" data-text="backupdr.trial.subscribe" tabindex="-1"><code dir="ltr" translate="no">backupdr.trial.subscribe</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>

@@ -1717,6 +1717,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">dialogflow.  sessions.  detectIntent</code></li>
 <li><code dir="ltr" translate="no">dialogflow.  sessions.  streamingDetectIntent</code></li>
 </ul>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  collections.  list</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  create</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>

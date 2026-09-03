@@ -107,7 +107,7 @@ This page lists the IAM roles and permissions for Agent Identity API. To search 
 <tr class="even">
 <td><h4 id="agentidentity.user" class="role-title add-link" data-text="Agent Identity User" tabindex="-1">Agent Identity User</h4>
 <p>( <code dir="ltr" translate="no">roles/  agentidentity.user</code> )</p>
-<p>Grants access to retrieve credentials from auth providers.</p></td>
+<p>Grants access to retrieve and exchange credentials from auth providers and authorizations.</p></td>
 <td><p><code dir="ltr" translate="no">agentidentity.  authProviders.  retrieveCredentials</code></p></td>
 </tr>
 </tbody>

@@ -37,6 +37,7 @@ This page lists the IAM roles and permissions for Vector Search. To search throu
 <li><code dir="ltr" translate="no">vectorsearch.  collections.  update</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  create</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  delete</code></li>
+<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  export</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  import</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></li>
@@ -46,6 +47,7 @@ This page lists the IAM roles and permissions for Vector Search. To search throu
 <li><code dir="ltr" translate="no">vectorsearch.indexes.delete</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.indexes.get</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.indexes.list</code></li>
+<li><code dir="ltr" translate="no">vectorsearch.indexes.update</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.locations.get</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.locations.list</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.operations.cancel</code></li>
@@ -62,6 +64,7 @@ This page lists the IAM roles and permissions for Vector Search. To search throu
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.collections.get</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.collections.list</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  export</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  search</code></p>
@@ -114,6 +117,7 @@ This page lists the IAM roles and permissions for Vector Search. To search throu
 <ul>
 <li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  create</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  delete</code></li>
+<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  export</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  import</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></li>
@@ -140,6 +144,7 @@ This page lists the IAM roles and permissions for Vector Search. To search throu
 <li><code dir="ltr" translate="no">vectorsearch.indexes.delete</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.indexes.get</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.indexes.list</code></li>
+<li><code dir="ltr" translate="no">vectorsearch.indexes.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">vectorsearch.locations.*</code></p>
 <ul>
@@ -185,7 +190,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">storage.buckets.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.create</code></p>
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>
-<p><code dir="ltr" translate="no">storage.objects.list</code></p></td>
+<p><code dir="ltr" translate="no">storage.objects.list</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  collections.  create</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  collections.  delete</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  create</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  delete</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  import</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  update</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.indexes.delete</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -216,6 +228,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -230,6 +243,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -299,6 +313,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -313,9 +328,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="vectorsearch.dataObjects.export" class="permission-name add-link" data-text="vectorsearch.dataObjects.export" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.  dataObjects.  export</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.admin">Vector Search Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.viewer">Vector Search Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.dataObjectWriter">Vector Search DataObject Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.dataObjectWriter</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="vectorsearch.dataObjects.get" class="permission-name add-link" data-text="vectorsearch.dataObjects.get" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -332,7 +358,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vectorsearch.dataObjects.import" class="permission-name add-link" data-text="vectorsearch.dataObjects.import" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.  dataObjects.  import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -344,9 +370,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="vectorsearch.dataObjects.query" class="permission-name add-link" data-text="vectorsearch.dataObjects.query" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -363,7 +390,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vectorsearch.dataObjects.search" class="permission-name add-link" data-text="vectorsearch.dataObjects.search" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.  dataObjects.  search</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -380,7 +407,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="vectorsearch.dataObjects.update" class="permission-name add-link" data-text="vectorsearch.dataObjects.update" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.  dataObjects.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -392,9 +419,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vectorsearch.indexes.create" class="permission-name add-link" data-text="vectorsearch.indexes.create" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.indexes.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -408,7 +436,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="vectorsearch.indexes.delete" class="permission-name add-link" data-text="vectorsearch.indexes.delete" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.indexes.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -420,9 +448,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.serviceAgent">Vector Search Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vectorsearch.indexes.get" class="permission-name add-link" data-text="vectorsearch.indexes.get" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.indexes.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -439,7 +468,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="vectorsearch.indexes.list" class="permission-name add-link" data-text="vectorsearch.indexes.list" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.indexes.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -458,6 +487,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.ragServiceAgent">Vertex AI RAG Data Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.ragServiceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="vectorsearch.indexes.update" class="permission-name add-link" data-text="vectorsearch.indexes.update" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.indexes.update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.admin">Vector Search Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/vectorsearch#vectorsearch.indexWriter">Vector Search Index Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  vectorsearch.indexWriter</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="vectorsearch.locations.get" class="permission-name add-link" data-text="vectorsearch.locations.get" tabindex="-1"><code dir="ltr" translate="no">vectorsearch.locations.get</code></h4></td>

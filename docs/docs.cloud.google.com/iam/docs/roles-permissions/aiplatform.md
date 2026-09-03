@@ -2232,12 +2232,16 @@ This page lists the IAM roles and permissions for Gemini Enterprise Agent Platfo
 <li><code dir="ltr" translate="no">dataform.repositories.commit</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.create</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.delete</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.get</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.list</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.move</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.readFile</code></li>
@@ -3967,23 +3971,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">vectorsearch.collections.list</code></li>
 <li><code dir="ltr" translate="no">vectorsearch.  collections.  update</code></li>
 </ul>
-<p><code dir="ltr" translate="no">vectorsearch.dataObjects.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  create</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  delete</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  import</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  search</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.  dataObjects.  update</code></li>
-</ul>
-<p><code dir="ltr" translate="no">vectorsearch.indexes.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">vectorsearch.indexes.create</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.indexes.delete</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.indexes.get</code></li>
-<li><code dir="ltr" translate="no">vectorsearch.indexes.list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  create</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  delete</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  import</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  search</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  update</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.indexes.create</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.indexes.delete</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.indexes.get</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.indexes.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.operations.get</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.operations.list</code></p></td>
 </tr>

@@ -53,6 +53,7 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code dir="ltr" translate="no">apptopology.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
@@ -61,6 +62,8 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
 <li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
+<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>

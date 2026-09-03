@@ -800,6 +800,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">cloudkms.keyRings.list</code></p>
 <p><code dir="ltr" translate="no">cloudsecurityscanner.scans.get</code></p>
 <p><code dir="ltr" translate="no">cloudsecurityscanner.  scans.  list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.instances.connect</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.list</code></p>

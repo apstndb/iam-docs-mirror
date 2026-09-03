@@ -578,10 +578,29 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">container.  clusters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">container.  clusters.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">container.  clusters.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.governanceRules.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  deleteTagBinding</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  listTagBindings</code></li>
+</ul>
 <p><code dir="ltr" translate="no">datastore.  databases.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  listEffectiveTags</code></p>
@@ -756,6 +775,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">networkservices.  meshes.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
@@ -784,6 +807,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
@@ -1058,8 +1085,16 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">compute.  vpnTunnels.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">container.  clusters.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">container.  clusters.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  governanceRules.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  governanceRules.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datastore.  databases.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datastream.  connectionProfiles.  listEffectiveTags</code></p>
@@ -1144,6 +1179,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">networkservices.  httpFilters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">privateca.  caPools.  listEffectiveTags</code></p>
@@ -1158,6 +1195,8 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">pubsub.topics.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  listEffectiveTags</code></p>
@@ -1997,6 +2036,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apphub.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.admin">Appliance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  applianceactivation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.viewer">Appliance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  applianceactivation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/artifactregistry#artifactregistry.admin">Artifact Registry Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  artifactregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/artifactregistry#artifactregistry.editor">Artifactregistry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  artifactregistry.editor</code> )</p>
@@ -2491,8 +2531,6 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.viewer">ProdActuation API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
@@ -3609,6 +3647,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.viewer">App Hub Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apphub.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.admin">Appliance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  applianceactivation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/applianceactivation#applianceactivation.viewer">Appliance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  applianceactivation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.admin">App Topology Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apptopology#apptopology.viewer">App Topology Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/artifactregistry#artifactregistry.editor">Artifactregistry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  artifactregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/artifactregistry#artifactregistry.viewer">Artifactregistry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  artifactregistry.viewer</code> )</p>
@@ -4086,8 +4125,6 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.admin">ProdActuation API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/prodactuation#prodactuation.viewer">ProdActuation API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  prodactuation.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>

@@ -943,6 +943,7 @@ This page lists the IAM roles and permissions for Managed Service for Apache Air
 <p><code dir="ltr" translate="no">datalineage.  processRevisions.  insert</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.create</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.get</code></p>
+<p><code dir="ltr" translate="no">datalineage.  processes.  markAsDeleted</code></p>
 <p><code dir="ltr" translate="no">datalineage.processes.update</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.create</code></p>
 <p><code dir="ltr" translate="no">datalineage.runs.get</code></p>
@@ -3671,6 +3672,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>

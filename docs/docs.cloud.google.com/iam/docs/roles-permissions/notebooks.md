@@ -503,12 +503,16 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code dir="ltr" translate="no">notebooks.  executions.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  checkUpgradability</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.create</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.delete</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.diagnose</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.get</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.getHealth</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.list</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.reset</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  setAccelerator</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  setIamPolicy</code></li>
@@ -1029,6 +1033,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">notebooks.instances.getHealth</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.reset</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  setAccelerator</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.setLabels</code></p>
@@ -1548,6 +1554,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">notebooks.instances.getHealth</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">notebooks.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">notebooks.locations.get</code></li>
@@ -2686,12 +2694,16 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <li><code dir="ltr" translate="no">notebooks.  executions.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  checkUpgradability</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.create</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.delete</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.diagnose</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.get</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.getHealth</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.list</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">notebooks.instances.reset</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  setAccelerator</code></li>
 <li><code dir="ltr" translate="no">notebooks.  instances.  setIamPolicy</code></li>
@@ -3201,6 +3213,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">notebooks.instances.getHealth</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">notebooks.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">notebooks.locations.get</code></li>
@@ -3704,6 +3718,8 @@ This page lists the IAM roles and permissions for Notebooks. To search through a
 <p><code dir="ltr" translate="no">notebooks.instances.getHealth</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">notebooks.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">notebooks.locations.get</code></li>
@@ -4485,7 +4501,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">ml.jobs.create</code></p>
 <p><code dir="ltr" translate="no">ml.jobs.get</code></p>
 <p><code dir="ltr" translate="no">ml.jobs.list</code></p>
-<p><code dir="ltr" translate="no">notebooks.*</code></p>
+<p><code dir="ltr" translate="no">notebooks.environments.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">notebooks.environments.create</code></li>
 <li><code dir="ltr" translate="no">notebooks.environments.delete</code></li>
@@ -4493,38 +4509,52 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">notebooks.  environments.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">notebooks.environments.list</code></li>
 <li><code dir="ltr" translate="no">notebooks.  environments.  setIamPolicy</code></li>
+</ul>
+<p><code dir="ltr" translate="no">notebooks.executions.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">notebooks.executions.create</code></li>
 <li><code dir="ltr" translate="no">notebooks.executions.delete</code></li>
 <li><code dir="ltr" translate="no">notebooks.executions.get</code></li>
 <li><code dir="ltr" translate="no">notebooks.  executions.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">notebooks.executions.list</code></li>
 <li><code dir="ltr" translate="no">notebooks.  executions.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  checkUpgradability</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.create</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.delete</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.diagnose</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.get</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.getHealth</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.list</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.reset</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  setAccelerator</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  setIamPolicy</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.setLabels</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  setMachineType</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.start</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.stop</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.update</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  updateConfig</code></li>
-<li><code dir="ltr" translate="no">notebooks.  instances.  updateShieldInstanceConfig</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.upgrade</code></li>
-<li><code dir="ltr" translate="no">notebooks.instances.use</code></li>
+</ul>
+<p><code dir="ltr" translate="no">notebooks.  instances.  checkUpgradability</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.create</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.delete</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.diagnose</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.get</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.getHealth</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.reset</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  setAccelerator</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.setLabels</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  setMachineType</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.start</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.stop</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.update</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  updateConfig</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  updateShieldInstanceConfig</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.upgrade</code></p>
+<p><code dir="ltr" translate="no">notebooks.instances.use</code></p>
+<p><code dir="ltr" translate="no">notebooks.locations.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">notebooks.locations.get</code></li>
 <li><code dir="ltr" translate="no">notebooks.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">notebooks.operations.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">notebooks.operations.cancel</code></li>
 <li><code dir="ltr" translate="no">notebooks.operations.delete</code></li>
 <li><code dir="ltr" translate="no">notebooks.operations.get</code></li>
 <li><code dir="ltr" translate="no">notebooks.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">notebooks.runtimes.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">notebooks.runtimes.create</code></li>
 <li><code dir="ltr" translate="no">notebooks.runtimes.delete</code></li>
 <li><code dir="ltr" translate="no">notebooks.runtimes.diagnose</code></li>
@@ -4538,6 +4568,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">notebooks.runtimes.switch</code></li>
 <li><code dir="ltr" translate="no">notebooks.runtimes.update</code></li>
 <li><code dir="ltr" translate="no">notebooks.runtimes.upgrade</code></li>
+</ul>
+<p><code dir="ltr" translate="no">notebooks.schedules.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">notebooks.schedules.create</code></li>
 <li><code dir="ltr" translate="no">notebooks.schedules.delete</code></li>
 <li><code dir="ltr" translate="no">notebooks.schedules.get</code></li>
@@ -4838,6 +4871,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="notebooks.instances.createTagBinding" class="permission-name add-link" data-text="notebooks.instances.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">notebooks.  instances.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.admin">Notebooks Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyAdmin</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="notebooks.instances.delete" class="permission-name add-link" data-text="notebooks.instances.delete" tabindex="-1"><code dir="ltr" translate="no">notebooks.instances.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -4853,6 +4895,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="notebooks.instances.deleteTagBinding" class="permission-name add-link" data-text="notebooks.instances.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">notebooks.  instances.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.admin">Notebooks Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="notebooks.instances.diagnose" class="permission-name add-link" data-text="notebooks.instances.diagnose" tabindex="-1"><code dir="ltr" translate="no">notebooks.instances.diagnose</code></h4></td>
@@ -4956,6 +5007,56 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="notebooks.instances.listEffectiveTags" class="permission-name add-link" data-text="notebooks.instances.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.admin">Notebooks Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.editor">Notebooks Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.viewer">Notebooks Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyViewer">Notebooks Legacy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.runner">Notebooks Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.runner</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="notebooks.instances.listTagBindings" class="permission-name add-link" data-text="notebooks.instances.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.admin">Notebooks Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.editor">Notebooks Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.viewer">Notebooks Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyAdmin">Notebooks Legacy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.legacyViewer">Notebooks Legacy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.legacyViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.runner">Notebooks Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.runner</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/notebooks#notebooks.serviceAgent">AI Platform Notebooks Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  notebooks.serviceAgent</code> )</li>
 </ul></td>
 </tr>

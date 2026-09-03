@@ -68,12 +68,16 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <li><code dir="ltr" translate="no">dataform.repositories.commit</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.create</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.delete</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.get</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.list</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.move</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.readFile</code></li>
@@ -160,6 +164,8 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.teamFolders.get</code></p>
@@ -230,6 +236,8 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.teamFolders.get</code></p>
@@ -339,11 +347,15 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.commit</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.workspaces.commit</code></p>
@@ -421,12 +433,16 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.commit</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.delete</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.move</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
@@ -493,6 +509,8 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.  workspaces.  fetchFileDiff</code></p>
@@ -548,6 +566,8 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.teamFolders.get</code></p>
@@ -605,11 +625,15 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.commit</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.teamFolders.get</code></p>
@@ -696,12 +720,16 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.commit</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.delete</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.move</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
@@ -767,6 +795,8 @@ This page lists the IAM roles and permissions for Dataform. To search through al
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.teamFolders.get</code></p>
@@ -1925,6 +1955,31 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="dataform.repositories.createTagBinding" class="permission-name add-link" data-text="dataform.repositories.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.admin">BigQuery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.admin">Dataform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseAdmin">Colab Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.colabEnterpriseAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeEditor">Code Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeOwner">Code Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderContributor">Team Folder Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderContributor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderOwner">Team Folder Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
 <td><h4 id="dataform.repositories.delete" class="permission-name add-link" data-text="dataform.repositories.delete" tabindex="-1"><code dir="ltr" translate="no">dataform.repositories.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1934,6 +1989,31 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseAdmin">Colab Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.colabEnterpriseAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeOwner">Code Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeOwner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderOwner">Team Folder Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataform.repositories.deleteTagBinding" class="permission-name add-link" data-text="dataform.repositories.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.admin">BigQuery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.admin">Dataform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseAdmin">Colab Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.colabEnterpriseAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeEditor">Code Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeOwner">Code Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderContributor">Team Folder Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderContributor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderOwner">Team Folder Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
 <p>Service agent roles</p>
@@ -2114,6 +2194,76 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.serviceAgent">DLP API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.serviceAgent">Enterprise Knowledge Graph Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/fleetengine#fleetengine.serviceAgent">FleetEngine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  fleetengine.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="dataform.repositories.listEffectiveTags" class="permission-name add-link" data-text="dataform.repositories.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.admin">BigQuery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.admin">Dataform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.editor">Dataform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.viewer">Dataform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseAdmin">Colab Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.colabEnterpriseAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeEditor">Code Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeOwner">Code Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeViewer">Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderCommenter">Team Folder Commenter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderCommenter</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderContributor">Team Folder Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderContributor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderOwner">Team Folder Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderViewer">Team Folder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="dataform.repositories.listTagBindings" class="permission-name add-link" data-text="dataform.repositories.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.admin">BigQuery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquery#bigquery.studioAdmin">BigQuery Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  bigquery.studioAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.admin">Dataform Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.editor">Dataform Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.viewer">Dataform Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.colabEnterpriseAdmin">Colab Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.colabEnterpriseAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeEditor">Code Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeOwner">Code Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.codeViewer">Code Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.codeViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderCommenter">Team Folder Commenter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderCommenter</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderContributor">Team Folder Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderContributor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderOwner">Team Folder Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataform#dataform.teamFolderViewer">Team Folder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataform.teamFolderViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.databasesAdmin">Databases Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.databasesAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.mlEngineer">ML Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.mlEngineer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataplex#dataplex.serviceAgent">Cloud Dataplex Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataplex.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="odd">

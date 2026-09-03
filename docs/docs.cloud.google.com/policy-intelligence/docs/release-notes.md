@@ -10,6 +10,12 @@ This page documents production updates to Policy Intelligence. Check this page f
 
 You can see the latest product updates for all of Google Cloud on the [Google Cloud](https://docs.cloud.google.com/release-notes) page, browse and filter all release notes in the [Google Cloud console](https://console.cloud.google.com/release-notes) , or programmatically access release notes in [BigQuery](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=google_cloud_release_notes&t=release_notes&page=table) .
 
+## September 01, 2026
+
+Feature
+
+The Policy Analyzer MCP server is [generally available](https://cloud.google.com/products#product-launch-stages) . To learn about using the Policy Analyzer MCP server to let agents and AI applications analyze and audit IAM configurations, see [Use the Policy Analyzer remote MCP server](https://docs.cloud.google.com/policy-intelligence/docs/use-policy-analyzer-mcp) .
+
 ## August 06, 2026
 
 Feature

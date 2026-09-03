@@ -1769,7 +1769,11 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">dataform.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
@@ -1790,6 +1794,21 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.update</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.governanceRules.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  deleteTagBinding</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  listTagBindings</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
@@ -2034,6 +2053,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">networkservices.  meshes.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
@@ -2078,6 +2101,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">recommender.locations.get</code></li>
 <li><code dir="ltr" translate="no">recommender.locations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">redis.  clusters.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
@@ -3461,7 +3488,11 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">dataform.locations.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
@@ -3482,6 +3513,21 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">dataplex.datascans.update</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entries.update</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.governanceRules.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  createTagBinding</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  deleteTagBinding</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataplex.  governanceRules.  listTagBindings</code></li>
+</ul>
 <p><code dir="ltr" translate="no">dataplex.operations.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.operations.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.projects.search</code></p>
@@ -3726,6 +3772,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">networkservices.  meshes.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">networkservices.  meshes.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">parametermanager.  parameters.  listEffectiveTags</code></p>
@@ -3770,6 +3820,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <li><code dir="ltr" translate="no">recommender.locations.get</code></li>
 <li><code dir="ltr" translate="no">recommender.locations.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">redis.  clusters.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
@@ -4319,6 +4373,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>

@@ -933,6 +933,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>
@@ -2596,6 +2597,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>

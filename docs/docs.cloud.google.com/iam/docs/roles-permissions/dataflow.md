@@ -1608,12 +1608,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">dataform.repositories.commit</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.create</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.delete</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.get</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.list</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.move</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.readFile</code></li>
@@ -1777,10 +1781,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">logging.views.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">logging.views.list</code></p>
 <p><code dir="ltr" translate="no">logging.views.update</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  create</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  delete</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
 <p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  update</code></p>
 <p><code dir="ltr" translate="no">monitoring.alerts.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">monitoring.alerts.get</code></li>
@@ -2355,6 +2362,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>

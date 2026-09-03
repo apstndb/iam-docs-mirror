@@ -1383,6 +1383,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">redis.clusters.connect</code></p>
 <p><code dir="ltr" translate="no">redis.clusters.get</code></p>
 <p><code dir="ltr" translate="no">redis.clusters.list</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.instances.get</code></p>
 <p><code dir="ltr" translate="no">redis.instances.list</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
@@ -2585,12 +2587,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">dataform.repositories.commit</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.create</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.delete</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.get</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.list</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.move</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.readFile</code></li>
@@ -3085,9 +3091,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">redis.clusters.backup</code></li>
 <li><code dir="ltr" translate="no">redis.clusters.connect</code></li>
 <li><code dir="ltr" translate="no">redis.clusters.create</code></li>
+<li><code dir="ltr" translate="no">redis.  clusters.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">redis.clusters.delete</code></li>
+<li><code dir="ltr" translate="no">redis.  clusters.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">redis.clusters.get</code></li>
 <li><code dir="ltr" translate="no">redis.clusters.list</code></li>
+<li><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></li>
 <li><code dir="ltr" translate="no">redis.  clusters.  rescheduleMaintenance</code></li>
 <li><code dir="ltr" translate="no">redis.clusters.update</code></li>
 <li><code dir="ltr" translate="no">redis.instances.create</code></li>
@@ -3266,6 +3276,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>
@@ -3345,6 +3356,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <td><p><code dir="ltr" translate="no">apptopology.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
@@ -3353,6 +3365,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
 <li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
+<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>
@@ -6580,6 +6594,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">storage.buckets.setIpFilter</code></li>
 <li><code dir="ltr" translate="no">storage.buckets.update</code></li>
 <li><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></li>
+<li><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.featureConfigs.*</code></p>
 <ul>
@@ -7862,12 +7877,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">dataform.repositories.commit</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  computeAccessTokenStatus</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.create</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.delete</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchHistory</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  fetchRemoteBranches</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.get</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.list</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.move</code></li>
 <li><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></li>
 <li><code dir="ltr" translate="no">dataform.repositories.readFile</code></li>
@@ -10506,6 +10525,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">apptopology.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
@@ -10514,6 +10534,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
 <li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
+<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>
@@ -12471,6 +12493,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataform.releaseConfigs.list</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  teamFolders.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.workflowConfigs.list</code></p>
 <p><code dir="ltr" translate="no">dataform.  workflowInvocations.  list</code></p>
@@ -12542,14 +12566,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.entries.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  environments.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.environments.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaries.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaries.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  governanceRules.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  governanceRules.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.lakeActions.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.lakes.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.lakes.list</code></p>
@@ -13549,6 +13579,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">notebooks.executions.list</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">notebooks.locations.list</code></p>
 <p><code dir="ltr" translate="no">notebooks.operations.list</code></p>
 <p><code dir="ltr" translate="no">notebooks.  runtimes.  getIamPolicy</code></p>
@@ -13657,11 +13689,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.locations.list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.list</code></p>
@@ -13875,6 +13902,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">redis.backupCollections.list</code></p>
 <p><code dir="ltr" translate="no">redis.backups.list</code></p>
 <p><code dir="ltr" translate="no">redis.clusters.list</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.instances.list</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listTagBindings</code></p>
@@ -14390,6 +14419,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <td><p><code dir="ltr" translate="no">apptopology.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
@@ -14398,6 +14428,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
 <li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
+<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>
@@ -16958,6 +16990,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">apptopology.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">apptopology.  applicationTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  devOpsDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.  discoveredResourcesTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.domains.list</code></li>
@@ -16966,6 +16999,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">apptopology.operations.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.operations.list</code></li>
 <li><code dir="ltr" translate="no">apptopology.schemas.get</code></li>
+<li><code dir="ltr" translate="no">apptopology.  securityDomainTopologies.  generate</code></li>
+<li><code dir="ltr" translate="no">apptopology.  sreDomainTopologies.  generate</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>
@@ -17185,6 +17220,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">backupdr.operations.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.*</code></p>
 <ul>
+<li><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  fetch</code></li>
 <li><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  get</code></li>
 <li><code dir="ltr" translate="no">backupdr.  resourceBackupConfigs.  list</code></li>
 </ul>
@@ -19965,6 +20001,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataform.repositories.get</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataform.  repositories.  queryDirectoryContents</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.readFile</code></p>
 <p><code dir="ltr" translate="no">dataform.teamFolders.get</code></p>
@@ -20122,11 +20160,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.entryGroups.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryTypes.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.environments.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  environments.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.environments.list</code></p>
@@ -20138,6 +20180,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.  glossaryCategories.  list</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.glossaryTerms.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  governanceRules.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">dataplex.  governanceRules.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.lakeActions.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.lakes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.lakes.getIamPolicy</code></p>
@@ -22235,6 +22279,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">notebooks.instances.getHealth</code></p>
 <p><code dir="ltr" translate="no">notebooks.  instances.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">notebooks.instances.list</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">notebooks.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">notebooks.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">notebooks.locations.get</code></li>
@@ -22477,21 +22523,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  fetchEffective</code></p>
 <p><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  get</code></p>
-<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.get</code></p>
-<p><code dir="ltr" translate="no">prodactuation.dnsConfigs.list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  get</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  ganpatiGroups.  listMemberships</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  ganpatiMemberships.  get</code></p>
-<p><code dir="ltr" translate="no">prodactuation.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">prodactuation.locations.get</code></li>
-<li><code dir="ltr" translate="no">prodactuation.locations.list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">prodactuation.operations.get</code></p>
-<p><code dir="ltr" translate="no">prodactuation.operations.list</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  get</code></p>
-<p><code dir="ltr" translate="no">prodactuation.  uberProxyServices.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  get</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></p>
 <p><code dir="ltr" translate="no">proximitybeacon.beacons.get</code></p>
@@ -22858,6 +22889,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">redis.backups.list</code></p>
 <p><code dir="ltr" translate="no">redis.clusters.get</code></p>
 <p><code dir="ltr" translate="no">redis.clusters.list</code></p>
+<p><code dir="ltr" translate="no">redis.  clusters.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">redis.clusters.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">redis.instances.get</code></p>
 <p><code dir="ltr" translate="no">redis.instances.list</code></p>
 <p><code dir="ltr" translate="no">redis.  instances.  listEffectiveTags</code></p>
@@ -23399,6 +23432,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">storage.  buckets.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">storage.  buckets.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">storage.  buckets.  viewIntelligenceDetails</code></p>
+<p><code dir="ltr" translate="no">storage.  buckets.  viewSecurityIntelligenceDetails</code></p>
 <p><code dir="ltr" translate="no">storage.folders.get</code></p>
 <p><code dir="ltr" translate="no">storage.folders.list</code></p>
 <p><code dir="ltr" translate="no">storage.hmacKeys.get</code></p>
@@ -23556,6 +23590,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">translationhub.portals.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.collections.get</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.collections.list</code></p>
+<p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  export</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.dataObjects.get</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.dataObjects.query</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  search</code></p>

@@ -7289,15 +7289,15 @@ To get the latest product updates delivered to you, add the URL of this page to 
 <td><p>The Privilegedaccessmanager Editor role ( <code dir="ltr" translate="no">roles/privilegedaccessmanager.editor</code> ) has reached General Availability (GA).</p></td>
 </tr>
 <tr class="even">
-<td>Proxmity Beacon</td>
+<td>Proximity Beacon</td>
 <td><p>The Proximitybeacon Admin role ( <code dir="ltr" translate="no">roles/proximitybeacon.admin</code> ) has reached General Availability (GA).</p></td>
 </tr>
 <tr class="odd">
-<td>Proxmity Beacon</td>
+<td>Proximity Beacon</td>
 <td><p>The Proximitybeacon Editor role ( <code dir="ltr" translate="no">roles/proximitybeacon.editor</code> ) has reached General Availability (GA).</p></td>
 </tr>
 <tr class="even">
-<td>Proxmity Beacon</td>
+<td>Proximity Beacon</td>
 <td><p>The Proximitybeacon Viewer role ( <code dir="ltr" translate="no">roles/proximitybeacon.viewer</code> ) has reached General Availability (GA).</p></td>
 </tr>
 <tr class="odd">
