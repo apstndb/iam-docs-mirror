@@ -8,7 +8,7 @@ data_source: docs.cloud.google.com
 
 This document shows you how to configure Workforce Identity Federation with the Microsoft Entra ID identity provider (IdP) and manage access to Google Cloud. Federated users can then access Google Cloud services that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) . You can use either the OIDC protocol or SAML 2.0 protocol to federate identities.
 
-> **Important:** Using the instructions in this guide, you can map up to 100 groups from Microsoft Entra ID to Google Cloud. If you want to map up to 400 groups from Microsoft Entra ID to Google Cloud, see [Configure Workforce Identity Federation with Microsoft Entra ID and a large number of groups](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups) . The group limits apply to identity federation using OIDC protocol (implicit and code flow) and SAML 2.0 protocol.
+> **Important:** Using the instructions in this guide, you can map up to 150 groups from Microsoft Entra ID to Google Cloud. If you want to map up to 400 groups from Microsoft Entra ID to Google Cloud, see [Configure Workforce Identity Federation with Microsoft Entra ID and a large number of groups](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups) . The group limits apply to identity federation using OIDC protocol (implicit and code flow) and SAML 2.0 protocol.
 
 ## Before you begin
 
