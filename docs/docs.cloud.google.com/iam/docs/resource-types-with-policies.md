@@ -52,7 +52,8 @@ Web service versions</td>
 </tr>
 <tr class="odd">
 <td>Gemini Enterprise Agent Platform</td>
-<td>Datasets<br />
+<td>Agents<br />
+Datasets<br />
 Entity types<br />
 Feature groups<br />
 Feature online stores<br />
@@ -291,7 +292,9 @@ Workflow templates</td>
 </tr>
 <tr class="even">
 <td>Discovery Engine</td>
-<td>Engines</td>
+<td>Collections<br />
+Data stores<br />
+Engines</td>
 </tr>
 <tr class="odd">
 <td>Cloud DNS</td>
@@ -346,7 +349,8 @@ HL7v2 stores</td>
 </tr>
 <tr class="even">
 <td>Identity and Access Management</td>
-<td>Service accounts<br />
+<td>SCIM tenants<br />
+Service accounts<br />
 Workforce identity pools<br />
 Workload identity pools</td>
 </tr>

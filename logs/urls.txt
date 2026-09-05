@@ -731,7 +731,7 @@ https://docs.cloud.google.com/iam/docs/request-missing-permissions	2026-08-28T23
 https://docs.cloud.google.com/iam/docs/resolve-permission-errors	2026-08-28T23:29:19Z
 https://docs.cloud.google.com/iam/docs/resource-hierarchy-access-control	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/resource-types-with-conditional-roles	2026-08-28T23:29:19Z
-https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-09-02T16:07:56Z
+https://docs.cloud.google.com/iam/docs/resource-types-with-policies	2026-09-04T17:32:45Z
 https://docs.cloud.google.com/iam/docs/resources	2026-08-27T05:49:13Z
 https://docs.cloud.google.com/iam/docs/resources-with-built-in-identities	2026-08-28T23:28:38Z
 https://docs.cloud.google.com/iam/docs/restore-iam-policy	2026-09-01T06:33:08Z
