@@ -24,6 +24,12 @@ data_source: docs.cloud.google.com
     
     > **Note:** The Policy Analyzer REST API does not include the `analyzeIamPolicy` or `analyzeIamPolicyLongrunning` methods. Those methods are part of the Cloud Asset API.
 
+  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest)
+    
+    ### Policy Assist REST API
+    
+    Get AI assistance for developing policies and troubleshooting access issues.
+
   - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policysimulator/rest)
     
     ### Policy Simulator REST API

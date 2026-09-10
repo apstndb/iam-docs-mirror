@@ -1,0 +1,96 @@
+---
+name: documents/docs.cloud.google.com/iam/docs/tags-access-control
+uri: https://docs.cloud.google.com/iam/docs/tags-access-control
+title: Tags and conditional access
+description: Fine-grained access control and visibility for centrally managing cloud resources.
+data_source: docs.cloud.google.com
+---
+
+This page describes how to use tags with Identity and Access Management (IAM) to help you control access to your Google Cloud resources.
+
+To learn more about tags, see [Tags overview](https://docs.cloud.google.com/resource-manager/docs/tags/tags-overview) .
+
+<span id="use-cases"></span>
+
+## Overview of tags
+
+A tag is a key-value pair that is attached to a [Google Cloud resource](https://docs.cloud.google.com/resource-manager/docs/tags/tags-supported-services#supported_service_resources) . You can [conditionally grant IAM roles](https://docs.cloud.google.com/iam/docs/conditions-overview) or [conditionally deny IAM permissions](https://docs.cloud.google.com/iam/docs/deny-overview) based on whether a resource has a specific tag.
+
+Resources [inherit tag values](https://docs.cloud.google.com/resource-manager/docs/tags/tags-overview#inheritance) from their parent organization, folders, and project. As a result, you can use tags to manage access to any Google Cloud resource.
+
+These are some common use cases for managing access with tags:
+
+  - **Development, staging, and production environments.** For example, you could add the tags `environment: dev` to your development environment and `environment: prod` to your production environment.
+  - **Component types.** For example, you could add the tags `component: frontend` to front-end resources and `component: batch` to resources for batch processing.
+  - **Project names.** For example, if your team is working on a project with the codename Atlas, you could add the tag `project: atlas` to the team's development resources.
+
+> **Important:** Do not include sensitive information in tags. Sensitive information includes personally identifiable information (PII), such as an individual's name or job title. Tags are not intended to contain sensitive information.
+
+## Tag definitions and identifiers
+
+Before you attach tags to resources, you must define the key for the tag, as well as the values that the tag allows. You can create these definitions at the organization or project level. You use [Resource Manager](https://docs.cloud.google.com/resource-manager/docs) to manage tag definitions. To learn more, see [Creating and defining a new tag](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing#creating) .
+
+Each tag key and value has a few different identifiers:
+
+  - A *permanent ID* , which is globally unique and can never be reused. For example, a tag key could have the permanent ID `tagKeys/123456789012` , and a tag value could have the permanent ID `tagValues/567890123456` .
+  - A *short name* . The short name for each key must be unique within the project or organization under which the key is defined, and the short name for each value must be unique for its associated key. For example, a tag key could have the short name `env` , and a tag value could have the short name `prod` .
+  - A *namespaced name* , which adds your organization's numeric ID or project's ID to the short name of a tag key. For example, a tag key created for an organization could have the namespaced name `123456789012/env` . To learn how to get your organization ID, see [Getting your organization resource ID](https://docs.cloud.google.com/resource-manager/docs/creating-managing-organization#retrieving_your_organization_id) . A tag key created for a project could have the namespaced name `myproject/env` . To learn how to get your project ID, see [Identifying projects](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects) .
+
+As explained on this page, after you attach tags to a resource, you can [write conditions to grant access based on tags](https://docs.cloud.google.com/iam/docs/tags-access-control#control-access) . To write a condition, you must choose which type of identifier to use in the condition. Follow these guidelines to choose between them:
+
+  - **To experiment with tags,** consider using the namespaced name (for keys) and the short name (for values). These identifiers are easier to understand and remember, especially as you get started.
+
+  - **If you manage your configuration declaratively,** using a tool such as Terraform, consider using the namespaced name (for keys) and the short name (for values). You can reuse these identifiers over time, which means that a declarative tool can delete and recreate them, and your conditions will continue to work.
+    
+    This approach comes with a tradeoff: Suppose you delete a tag key or value, then create a new key or value with the same name but a different meaning. If your condition refers to the namespaced name or short name, then the condition continues to apply to the new key or value.
+    
+    In some cases, this behavior might cause principals to get access that you did not intend for them to have.
+
+  - **To help minimize risk,** consider using permanent IDs, which can never be reused.
+    
+    Here's why permanent IDs help minimize risk: Suppose you delete a tag key or value, then create a new key or value with the same name but a different meaning. If your condition refers to the permanent ID, then the condition does not apply to the new key or value. As a result, principals are less likely to get access that you did not intend for them to have.
+    
+    One drawback is that if you delete and recreate keys and values, and you want to preserve principals' access, you must also update your allow policies to refer to the new permanent IDs.
+
+## Access to tagged resources
+
+You can use tags with IAM Conditions to grant a role conditionally, depending on the tags that are attached to or inherited by a resource. If a condition evaluates to `true` , then access is granted; otherwise, access is not granted. To learn more, see the [overview of IAM Conditions](https://docs.cloud.google.com/iam/docs/conditions-overview) .
+
+Certain areas of the Google Cloud console don't recognize allow policy role bindings with tag-based conditions. As a result, if you have a role with a tag-based condition, then the Google Cloud console might incorrectly prevent you from performing certain actions. If you encounter this issue, then use an alternate method, such as the gcloud CLI, to perform the action.
+
+The following sections show examples of condition expressions that check the tags on a resource. The condition calls different functions depending on whether it checks the permanent ID or the short name. To learn more about these functions, see [Resource tags](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource-tags) .
+
+### Conditions that use permanent IDs
+
+This condition grants a role on resources with the tag `tagKeys/123456789012: tagValues/567890123456` :
+
+    resource.matchTagId('tagKeys/123456789012', 'tagValues/567890123456')
+
+This condition grants a role on resources that have any tag with the key `tagKeys/123456789012` , regardless of its value:
+
+    resource.hasTagKeyId('tagKeys/123456789012')
+
+This condition grants a role on resources that have both the tag `tagKeys/123456789012: tagValues/567890123456` , and any tag that uses the key `tagKeys/987654321098` :
+
+    resource.matchTagId('tagKeys/123456789012', 'tagValues/567890123456') &&
+        resource.hasTagKeyId('tagKeys/987654321098')
+
+### Conditions that use namespaced names and short names
+
+This condition grants a role on resources with the tag `env: prod` , indicating that the resource is in a production environment:
+
+    resource.matchTag('123456789012/env', 'prod')
+
+This condition grants a role on resources that have any tag with the key `env` , regardless of its value:
+
+    resource.hasTagKey('123456789012/env')
+
+This condition grants a role on resources that have both the tag `env: prod` and any tag that uses the key `project` :
+
+    resource.matchTag('123456789012/env', 'prod') &&
+        resource.hasTagKey('123456789012/project')
+
+## What's next
+
+  - Learn how to [manage tags and attach tags to resources](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing) .
+  - Get details about [checking tags in a condition](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource-tags) .

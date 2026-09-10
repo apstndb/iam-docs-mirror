@@ -20,7 +20,7 @@ The remediation summary page describes the request details, including the reques
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-remediate-summary.png)
 
-The **Current access state** section summarizes the results for each policy type (specifically, allow policies, deny policies, and principal access boundary policies) and states the overall outcome. The outcome indicates whether the principal can access the resource, according to the relevant policies.
+The **Current access state** section summarizes the results for each policy type (specifically, allow policies, deny policies, and Principal Access Boundary policies) and states the overall outcome. The outcome indicates whether the principal can access the resource, according to the relevant policies.
 
 You can get more information about the policies that are blocking the user's access by clicking **Advanced troubleshooting** .
 
@@ -28,7 +28,7 @@ Click **Remediate** to view options for remediating that user's access issues. T
 
   - [Remediate allow policy permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-allow)
   - [Remediate deny policy permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-deny)
-  - [Remediate principal access boundary permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-pab)
+  - [Remediate Principal Access Boundary permission errors](https://docs.cloud.google.com/policy-intelligence/docs/remediate-requests#remediate-pab)
 
 ## Remediate allow policy
 
@@ -93,23 +93,23 @@ The suggested methods for remediating access requests related to deny policies i
 
   - [Create a tag](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#deny-exclude-resource) to exclude the resource from the deny policy.
 
-## Remediate principal access boundary
+## Remediate Principal Access Boundary
 
-By default, principals are eligible to access any Google Cloud resource. However, if they're subject to any principal access boundary policy, then they're only eligible to access the resources listed in the principal access boundary policies that they're subject to. In these cases, a principal access boundary policy might prevent a principal from accessing a resource.
+By default, principals are eligible to access any Google Cloud resource. However, if they're subject to any Principal Access Boundary policy, then they're only eligible to access the resources listed in the Principal Access Boundary policies that they're subject to. In these cases, a Principal Access Boundary policy might prevent a principal from accessing a resource.
 
-The **Remediate principal access boundary** page shows the principal access boundary policy that prevents the user from accessing the resource and suggests several methods for remediating the user's access.
+The **Remediate Principal Access Boundary** page shows the Principal Access Boundary policy that prevents the user from accessing the resource and suggests several methods for remediating the user's access.
 
-![The policy remediation summary page showing principal access boundary details.](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-remediate-pab.png)
+![The policy remediation summary page showing Principal Access Boundary details.](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-remediate-pab.png)
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-remediate-pab.png)
 
-The suggested methods for remediating access requests related to principal access boundary policies include the following:
+The suggested methods for remediating access requests related to Principal Access Boundary policies include the following:
 
-  - [Add the resource to an existing principal access boundary policy](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) attached to a broader set of identities.
+  - [Add the resource to an existing Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) attached to a broader set of identities.
 
-  - [Add the resource to a principal access boundary policy that's attached to the user who needs access](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) .
+  - [Add the resource to a Principal Access Boundary policy that's attached to the user who needs access](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) .
 
-  - Not recommended: [exempt the identity](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-condition) from principal access boundary enforcement.
+  - Not recommended: [exempt the identity](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-condition) from Principal Access Boundary enforcement.
 
 ## What's next
 
