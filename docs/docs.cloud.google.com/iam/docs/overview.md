@@ -141,7 +141,7 @@ In addition to allow policies, IAM provides the following access control mechani
     
       - **Deny policies** : Deny policies prevent principals from using certain permissions, even if they're granted a role with the permission.
     
-      - **Principal access boundary (PAB) policies** : Principal access boundary policies define and enforce the resources a principal is eligible to access. Principals can't access resources that they're not eligible to access, even if they've been granted a role on the resource.
+      - **Principal Access Boundary (PAB) policies** : Principal Access Boundary policies define and enforce the resources a principal is eligible to access. Principals can't access resources that they're not eligible to access, even if they've been granted a role on the resource.
     
     To learn more about these policies, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
 

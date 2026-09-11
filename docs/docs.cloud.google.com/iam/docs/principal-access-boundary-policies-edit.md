@@ -1,12 +1,12 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit
 uri: https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit
-title: Edit principal access boundary policies
-description: How to edit existing principal access boundary policies.
+title: Edit Principal Access Boundary policies
+description: How to edit existing Principal Access Boundary policies.
 data_source: docs.cloud.google.com
 ---
 
-Principal access boundary (PAB) policies let you limit the resources that a set of principals are eligible to access. This page explains how to edit existing principal access boundary policies, and how to edit policy bindings for principal access boundary policies to change who the policies apply to.
+Principal Access Boundary (PAB) policies let you limit the resources that a set of principals are eligible to access. This page explains how to edit existing Principal Access Boundary policies, and how to edit policy bindings for Principal Access Boundary policies to change who the policies apply to.
 
 ## Before you begin
 
@@ -26,95 +26,95 @@ Principal access boundary (PAB) policies let you limit the resources that a set 
     
     For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
 
-  - Read the [overview of principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
+  - Read the [overview of Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
 
-### Roles required to edit principal access boundary policies
+### Roles required to edit Principal Access Boundary policies
 
-To get the permission that you need to edit principal access boundary policies, ask your administrator to grant you the [Principal Access Boundary Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin) ( `roles/iam.principalAccessBoundaryAdmin` ) IAM role on your organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+To get the permission that you need to edit Principal Access Boundary policies, ask your administrator to grant you the [Principal Access Boundary Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin) ( `roles/iam.principalAccessBoundaryAdmin` ) IAM role on your organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-This predefined role contains the `iam.principalaccessboundarypolicies.update` permission, which is required to edit principal access boundary policies.
+This predefined role contains the `iam.principalaccessboundarypolicies.update` permission, which is required to edit Principal Access Boundary policies.
 
 You might also be able to get this permission with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
-### Roles required to edit principal access boundary policy bindings
+### Roles required to edit Principal Access Boundary policy bindings
 
-The permissions that you need in order to edit policy bindings for principal access boundary policies depends on the principal set that's bound to the policy.
+The permissions that you need in order to edit policy bindings for Principal Access Boundary policies depends on the principal set that's bound to the policy.
 
-To get the permissions that you need to edit policy bindings for principal access boundary policies, ask your administrator to grant you the following IAM roles:
+To get the permissions that you need to edit policy bindings for Principal Access Boundary policies, ask your administrator to grant you the following IAM roles:
 
   - [Principal Access Boundary User](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryUser) ( `roles/iam.principalAccessBoundaryUser` ) on your organization
-  - Edit policy bindings for principal access boundary policies bound to workforce identity pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) on the target workforce identity pool
-  - Edit policy bindings for principal access boundary policies bound to workload identity pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target workload identity pool
+  - Edit policy bindings for Principal Access Boundary policies bound to workforce identity pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` ) on the target workforce identity pool
+  - Edit policy bindings for Principal Access Boundary policies bound to workload identity pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` ) on the project that owns the target workload identity pool
   - Get the status of a long-running operation for editing a binding that references a workload identity pool: [IAM Operation Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.operationViewer) ( `roles/iam.operationViewer` ) on the project that owns the target workload identity pool
-  - Edit policy bindings for principal access boundary policies bound to a Google Workspace domain: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` ) on the organization
-  - Edit policy bindings for principal access boundary policies bound to a project's principal set: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
+  - Edit policy bindings for Principal Access Boundary policies bound to a Google Workspace domain: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` ) on the organization
+  - Edit policy bindings for Principal Access Boundary policies bound to a project's principal set: [Project IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin) ( `roles/resourcemanager.projectIamAdmin` ) on the project
   - Get the status of a long-running operation for editing a binding that references a project's principal set: [IAM Operation Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.operationViewer) ( `roles/iam.operationViewer` ) on the project
-  - Edit policy bindings for principal access boundary policies bound to a folder's principal set: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` ) on the folder
-  - Edit policy bindings for principal access boundary policies bound to an organization's principal set: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
+  - Edit policy bindings for Principal Access Boundary policies bound to a folder's principal set: [Folder IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin) ( `roles/resourcemanager.folderIamAdmin` ) on the folder
+  - Edit policy bindings for Principal Access Boundary policies bound to an organization's principal set: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` ) on the organization
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-These predefined roles contain the permissions required to edit policy bindings for principal access boundary policies. To see the exact permissions that are required, expand the **Required permissions** section:
+These predefined roles contain the permissions required to edit policy bindings for Principal Access Boundary policies. To see the exact permissions that are required, expand the **Required permissions** section:
 
 #### Required permissions
 
-The following permissions are required to edit policy bindings for principal access boundary policies:
+The following permissions are required to edit policy bindings for Principal Access Boundary policies:
 
   - `iam.principalaccessboundarypolicies.bind` on the organization
-  - Edit policy bindings for principal access boundary policies bound to workforce identity pools: `iam.workforcePools.updatePolicyBinding` on the target workforce identity pool
-  - Edit policy bindings for principal access boundary policies bound to workload identity pools: `iam.workloadIdentityPools.updatePolicyBinding` on the project that owns the target workload identity pool
+  - Edit policy bindings for Principal Access Boundary policies bound to workforce identity pools: `iam.workforcePools.updatePolicyBinding` on the target workforce identity pool
+  - Edit policy bindings for Principal Access Boundary policies bound to workload identity pools: `iam.workloadIdentityPools.updatePolicyBinding` on the project that owns the target workload identity pool
   - Get the status of a long-running operation for editing a binding that references a workload identity pool: `iam.operations.get` on the project that owns the target workload identity pool
-  - Edit policy bindings for principal access boundary policies bound to a Google Workspace domain: `iam.workspacePools.updatePolicyBinding` on the organization
-  - Edit policy bindings for principal access boundary policies bound to a project's principal set: `resourcemanager.projects.updatePolicyBinding` on the project
+  - Edit policy bindings for Principal Access Boundary policies bound to a Google Workspace domain: `iam.workspacePools.updatePolicyBinding` on the organization
+  - Edit policy bindings for Principal Access Boundary policies bound to a project's principal set: `resourcemanager.projects.updatePolicyBinding` on the project
   - Get the status of a long-running operation for editing a binding that references a project's principal set: `iam.operations.get` on the project
-  - Edit policy bindings for principal access boundary policies bound to a folder's principal set: `resourcemanager.folders.updatePolicyBinding` on the folder
-  - Edit policy bindings for principal access boundary policies bound to an organization's principal set: `resourcemanager.organizations.updatePolicyBinding` on the organization
+  - Edit policy bindings for Principal Access Boundary policies bound to a folder's principal set: `resourcemanager.folders.updatePolicyBinding` on the folder
+  - Edit policy bindings for Principal Access Boundary policies bound to an organization's principal set: `resourcemanager.organizations.updatePolicyBinding` on the organization
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
-## Edit an existing principal access boundary policy
+## Edit an existing Principal Access Boundary policy
 
-If you want to add rules to a principal access boundary policy, remove rules from a principal access boundary policy, or modify a principal access boundary policy's metadata, edit the principal access boundary policy.
+If you want to add rules to a Principal Access Boundary policy, remove rules from a Principal Access Boundary policy, or modify a Principal Access Boundary policy's metadata, edit the Principal Access Boundary policy.
 
-You can edit a principal access boundary policy using the Google Cloud console, the gcloud CLI, or the IAM REST API.
+You can edit a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI, or the IAM REST API.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that owns the principal access boundary policy that you want to edit.
+2.  Select the organization that owns the Principal Access Boundary policy that you want to edit.
 
-3.  Click the policy ID of the principal access boundary policy that you want to edit.
+3.  Click the policy ID of the Principal Access Boundary policy that you want to edit.
 
 4.  Click edit **Edit policy** .
 
 5.  To edit the policy's rules, do the following:
     
     1.  Click the rule that you want to edit.
-    2.  Edit the rule's description, or the resources included in the rule.
+    2.  Edit the rule's description or the resources included in the rule.
     3.  Click **Done** .
 
 6.  To delete a rule from the policy, click delete **Delete** in that rule's row.
 
 7.  To edit the policy's display name, edit the **Display name** field.
 
-8.  To edit the policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) , click the **Enforcement version** list and choose a new value.
+8.  To edit the policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) , click the **Enforcement version** list and choose a new value.
 
-9.  Optional: To test your changes to the principal access boundary policy with Policy Simulator, click **Test changes** . Review the [simulation results](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#view-results) and update the policy if necessary.
+9.  Optional: To test your changes to the Principal Access Boundary policy with Policy Simulator, click **Test changes** . Review the [simulation results](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#view-results) and update the policy if necessary.
     
-    To learn more about testing principal access boundary policies with Policy Simulator, see [Policy Simulator for principal access boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) .
+    To learn more about testing Principal Access Boundary policies with Policy Simulator, see [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) .
 
 10. Click **Save** .
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies update  ` command updates an existing principal access boundary policy.
+The `  gcloud iam principal-access-boundary-policies update  ` command updates an existing Principal Access Boundary policy.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  PAB_POLICY_ID  ` : The ID of the principal access boundary policy that you want to update—for example, `example-policy` .
+  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to update—for example, `example-policy` .
 
-  - `  ORG_ID  ` : The ID of the organization that owns the principal access boundary policy. Organization IDs are numeric, like `123456789012` .
+  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
 
   - `  FIELD_TO_UPDATE = UPDATED_VALUE  ` : The fields that you want to update and the corresponding updated value.
     
@@ -124,23 +124,23 @@ Before using any of the command data below, make the following replacements:
     
       - ` --details-enforcement-version= ENFORCEMENT_VERSION  ` : Update the policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) to `  ENFORCEMENT_VERSION  ` .
     
-      - `--details-rules= RULES_FILE .json` : Replace the principal access boundary policy's rules with the rules in `  RULES_FILE .json ` . To learn how to format the rules file, see [Create a principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-policy) .
+      - `--details-rules= RULES_FILE .json` : Replace the Principal Access Boundary policy's rules with the rules in `  RULES_FILE .json ` . To learn how to format the rules file, see [Create a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-policy) .
         
         If you use this flag, you can't use the `--add-details-rules` flag.
     
-      - ` --add-details-rules= RULES_FILE  ` : Append the rules in `  RULES_FILE .json ` to the policy's existing rules. To learn how to format the rules file, see [Create a principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-policy) .
+      - ` --add-details-rules= RULES_FILE  ` : Append the rules in `  RULES_FILE .json ` to the policy's existing rules. To learn how to format the rules file, see [Create a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-policy) .
         
         If you use this flag, you can't use `--details-rules` flag.
     
-      - ` --remove-details-rules= RULES_FILE  ` : Remove the rules in `  RULES_FILE .json ` from the policy's existing rules. To learn how to format the rules file, see [Create a principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-policy) . Only rules that exactly match one of the rules in `  RULES_FILE .json ` are removed.
+      - ` --remove-details-rules= RULES_FILE  ` : Remove the rules in `  RULES_FILE .json ` from the policy's existing rules. To learn how to format the rules file, see [Create a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-policy) . Only rules that exactly match one of the rules in `  RULES_FILE .json ` are removed.
         
         If you use this flag, you can't use `--clear-rule-details` flag.
     
-      - `--clear-details-rules` : Clear all rules from the principal access boundary policy.
+      - `--clear-details-rules` : Clear all rules from the Principal Access Boundary policy.
         
         If you use this flag, you can't use `--remove-rule-details` flag.
     
-    For a full list of flags that you can use to update a principal access boundary policy, see the [`gcloud iam principal-access-boundary-policies update` command reference](https://docs.cloud.google.com/sdk/gcloud/reference/iam/principal-access-boundary-policies/update) .
+    For a full list of flags that you can use to update a Principal Access Boundary policy, see the [`gcloud iam principal-access-boundary-policies update` command reference](https://docs.cloud.google.com/sdk/gcloud/reference/iam/principal-access-boundary-policies/update) .
 
   - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
 
@@ -167,7 +167,7 @@ Execute the following command:
         --FIELD_TO_UPDATE=UPDATED_VALUE ^
         --format=FORMAT
 
-The response contains a long-running operation representing your request. After the operation is complete, the response prints the updated principal access boundary policy.
+The response contains a long-running operation representing your request. After the operation is complete, the response prints the updated Principal Access Boundary policy.
 
     Request issued for: [example-policy]
     Waiting for operation [organizations/123456789012/locations/global/operations/operation-1715374208720-6181fae5e2034-2d8a712b-5c92e5b9] to complete...done.
@@ -195,43 +195,43 @@ The response contains a long-running operation representing your request. After 
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.patch  ` method updates an existing principal access boundary policy.
+The `  principalAccessBoundaryPolicies.patch  ` method updates an existing Principal Access Boundary policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the organization that owns the principal access boundary policy. Organization IDs are numeric, like `123456789012` .
+  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
 
-  - `  PAB_POLICY_ID  ` : The ID of the principal access boundary policy that you want to update—for example, `example-policy` .
+  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to update—for example, `example-policy` .
 
   - `  FIELDS_TO_UPDATE  ` : A comma-separated list of fields that you want to update. If you don't specify the fields to update, IAM replaces the existing policy with the content of the request body.
     
     Accepted values are `displayName` , `details` , `details.rules` , `details.rules.description` , `details.rules.resources` , `details.rules.effect` and `details.enforcementVersion` .
 
-  - `  DISPLAY_NAME  ` : Optional. A human-readable description of the principal access boundary policy—for example, `Example policy` . The display name can be a maximum of 63 characters.
+  - `  DISPLAY_NAME  ` : Optional. A human-readable description of the Principal Access Boundary policy—for example, `Example policy` . The display name can be a maximum of 63 characters.
 
-  - `  PAB_RULES  ` : A list of principal access boundary rules, which define the resources that affected principals are eligible to access. A principal access boundary policy can have up to 500 rules. Each rule has the following format:
+  - `  PAB_RULES  ` : A list of Principal Access Boundary rules, which define the resources that affected principals are eligible to access. A Principal Access Boundary policy can have up to 500 rules. Each rule has the following format:
     
         {
-        "description": "DESCRIPTION",
-        "resources": [
-          RESOURCES
-        ],
-        "effect": ALLOW
+          "description": "DESCRIPTION",
+          "resources": [
+            RESOURCES
+          ],
+          "effect": "ALLOW"
         }
     
     Replace the following values:
     
-      - `  DESCRIPTION  ` : Optional. The description of the principal access boundary policy rule. The description can be a maximum of 256 characters.
+      - `  DESCRIPTION  ` : Optional. The description of the Principal Access Boundary policy rule. The description can be a maximum of 256 characters.
     
       - `  RESOURCES  ` : A list of Resource Manager resources (projects, folders, and organizations) that you want principals to be eligible to access. Any principal that is subject to this policy is eligible to access these resources.
         
-        Each principal access boundary policy can reference a maximum of 500 resources across all rules in the policy.
+        Each Principal Access Boundary policy can reference a maximum of 500 resources across all rules in the policy.
 
-  - `  ENFORCEMENT_VERSION  ` : The version of principal access boundary policies that IAM uses when enforcing the policy. The enforcement version determines which permissions IAM enforces the principal access boundary policy for.
+  - `  ENFORCEMENT_VERSION  ` : The version of Principal Access Boundary policies that IAM uses when enforcing the policy. The enforcement version determines which permissions IAM enforces the Principal Access Boundary policy for.
     
     Accepted values are `1` , `2` , `3` , `4` , and `latest` .
     
-    For more information about enforcement versions, see [Principal access boundary enforcement versions](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) .
+    For more information about how to set and manage enforcement versions, see [Enforcement version management](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) .
 
 HTTP method and URL:
 
@@ -294,15 +294,15 @@ The response contains a long-running operation representing your request. To lea
       "done": false
     }
 
-## Change who a principal access boundary policy is enforced for
+## Change who a Principal Access Boundary policy is enforced for
 
-After you create a policy binding for a principal access boundary policy, you can't change the policy ID or the principal set in the binding. As a result, if you want to change who a principal access boundary policy is enforced for, you must do one of the following:
+After you create a policy binding for a Principal Access Boundary policy, you can't change the policy ID or the principal set in the binding. As a result, if you want to change who a Principal Access Boundary policy is enforced for, you must do one of the following:
 
-  - To refine the set of principals that a principal access boundary policy is enforced for, you can modify the conditions in the policy binding. To modify the conditions in a binding, [edit the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-binding) .
-  - To enforce the principal access boundary policy for an additional principal set, [create a new policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-binding) that binds the policy to that principal set.
-  - To remove a principal access boundary policy from a principal set, [delete the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#delete-binding) that binds the policy to the principal set.
+  - To refine the set of principals that a Principal Access Boundary policy is enforced for, you can modify the conditions in the policy binding. To modify the conditions in a binding, [edit the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-binding) .
+  - To enforce the Principal Access Boundary policy for an additional principal set, [create a new policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-binding) that binds the policy to that principal set.
+  - To remove a Principal Access Boundary policy from a principal set, [delete the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove#delete-binding) that binds the policy to the principal set.
 
-### Edit existing policy bindings for principal access boundary policies
+### Edit existing policy bindings for Principal Access Boundary policies
 
 After you [create a policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-binding) , you can edit the binding to modify the conditions in the binding or the display name of the binding.
 
@@ -312,9 +312,9 @@ You can edit a policy binding using the Google Cloud console, the gcloud CLI, or
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that owns the principal access boundary policy that you want to edit.
+2.  Select the organization that owns the Principal Access Boundary policy that you want to edit.
 
-3.  Click the policy ID of the principal access boundary policy whose bindings you want to edit.
+3.  Click the policy ID of the Principal Access Boundary policy whose bindings you want to edit.
 
 4.  Click the **Bindings** tab.
 
@@ -336,9 +336,9 @@ You can edit a policy binding using the Google Cloud console, the gcloud CLI, or
     2.  Update the condition's title, description, or expression.
     3.  Click **Save** .
 
-9.  Optional: To test your changes to the principal access boundary policy binding with Policy Simulator, click **Test changes** . Review the [simulation results](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#view-results) and update the policy binding if necessary.
+9.  Optional: To test your changes to the Principal Access Boundary policy binding with Policy Simulator, click **Test changes** . Review the [simulation results](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#view-results) and update the policy binding if necessary.
     
-    To learn more about testing principal access boundary policies with Policy Simulator, see [Policy Simulator for principal access boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) .
+    To learn more about testing Principal Access Boundary policies with Policy Simulator, see [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) .
 
 10. To save your changes, click **Save** .
 
@@ -432,7 +432,7 @@ Before using any of the request data, make the following replacements:
 
   - `  DISPLAY_NAME  ` : Optional. A human-readable description of the binding—for example, `Example binding` . The display name can be a maximum of 63 characters.
 
-  - `  CONDITION_DETAILS  ` : Optional. A [condition expression](https://docs.cloud.google.com/iam/docs/conditions-overview) that specifies which principals in the principal set the principal access boundary policy is enforced for. Contains the following fields:
+  - `  CONDITION_DETAILS  ` : Optional. A [condition expression](https://docs.cloud.google.com/iam/docs/conditions-overview) that specifies which principals in the principal set the Principal Access Boundary policy is enforced for. Contains the following fields:
     
       - `expression` : A condition expression that uses [Common Expression Language (CEL) syntax](https://github.com/google/cel-spec/blob/master/doc/langdef.md) . The expression must reference the [`principal.type` or `principal.subject` attributes](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) . Other attributes are not supported.
         
@@ -502,9 +502,9 @@ The response contains a long-running operation representing your request. To lea
 
 ## Check the status of a long-running operation
 
-When you use the REST API or the client libraries, any method that changes a principal access boundary policy or binding returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change to the policy or binding is complete.
+When you use the REST API or the client libraries, any method that changes a Principal Access Boundary policy or binding returns a long-running operation (LRO). The long-running operation tracks the status of the request and indicates whether the change to the policy or binding is complete.
 
-> **Note** : When you modify a principal access boundary policy or binding using the gcloud CLI, the gcloud CLI shows a message saying that it's waiting for an operation to complete. However, you must use the REST API or the client libraries to get the operation's status.
+> **Note** : When you modify a Principal Access Boundary policy or binding using the gcloud CLI, the gcloud CLI shows a message saying that it's waiting for an operation to complete. However, you must use the REST API or the client libraries to get the operation's status.
 
 ### REST
 
@@ -578,6 +578,6 @@ If the operation's `done` field is not present, continue to monitor its status b
 
 ## What's next
 
-  - [Create and apply principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create)
-  - [View principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view)
-  - [Remove principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove)
+  - [Create and apply Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create)
+  - [View Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view)
+  - [Remove Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove)

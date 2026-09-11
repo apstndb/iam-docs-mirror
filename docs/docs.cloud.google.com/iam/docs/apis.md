@@ -90,6 +90,14 @@ data_source: docs.cloud.google.com
 
 <!-- end list -->
 
+  - [](https://docs.cloud.google.com/iam/docs/reference/mcp)
+    
+    ### IAM MCP tools
+    
+    Learn about the MCP tools that you can use to inspect and manage IAM policy configurations across your Google Cloud resources.
+
+<!-- end list -->
+
   - [](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference)
     
     ### Conditions attribute reference
@@ -170,9 +178,9 @@ data_source: docs.cloud.google.com
 
   - [](https://docs.cloud.google.com/iam/docs/pab-blocked-permissions)
     
-    ### Permissions that principal access boundary policies can block
+    ### Principal Access Boundary policy enforcement version permissions
     
-    Learn which IAM permissions each version of principal access boundary policies can block.
+    Learn which IAM permissions each version of Principal Access Boundary policies can block.
 
   - [](https://docs.cloud.google.com/iam/docs/principal-identifiers)
     

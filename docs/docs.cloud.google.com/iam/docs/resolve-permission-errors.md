@@ -52,13 +52,13 @@ You can address these requests in the following ways:
 
 If you're an administrator with permission to modify the access-related policies in your organization, then you can use these strategies to resolve permission errors, regardless of the policy type causing the error.
 
-To resolve permission errors, you first need to determine which policies (allow, deny, or principal access boundary) are causing the error. Then, you can resolve the error.
+To resolve permission errors, you first need to determine which policies (allow, deny, or Principal Access Boundary) are causing the error. Then, you can resolve the error.
 
 ### Identify policies causing permission errors
 
 To determine which policies are causing a permission error, use [Policy Troubleshooter](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
 
-Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and principal access boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
+Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and Principal Access Boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
 
 To learn how to troubleshoot access and interpret Policy Troubleshooter results, see [Troubleshoot IAM permissions](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
 
@@ -68,7 +68,7 @@ Error messages in the Google Cloud console contain a link to a Policy Troublesho
 
 After you know which policies are causing a permission error, you can take steps to resolve the error.
 
-Often, resolving an error involves creating or updating allow, deny, or principal access boundary policies.
+Often, resolving an error involves creating or updating allow, deny, or Principal Access Boundary policies.
 
 However, there are other options for resolving errors that don't involve updating policies. For example, you can add the user to a group that has the required permissions or add tags to exempt a resource from a policy.
 
@@ -79,7 +79,7 @@ To learn the different ways that you can resolve permission errors caused by eac
 
 <!-- end list -->
 
-  - [Resolve principal access boundary permission errors](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#resolve-pab)
+  - [Resolve Principal Access Boundary permission errors](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#resolve-pab)
 
 ## Resolve allow policy permission errors
 
@@ -168,46 +168,46 @@ If a deny rule is blocking access to a resource, then you can edit the condition
 
   - To learn how to edit a resource's tags, see [Creating and managing tags](https://docs.cloud.google.com/resource-manager/docs/tags/tags-creating-and-managing) .
 
-## Resolve principal access boundary policy permission errors
+## Resolve Principal Access Boundary policy permission errors
 
-By default, principals are eligible to access any Google Cloud resource. However, if they're subject to any principal access boundary policy, then they're only eligible to access the resources listed in the principal access boundary policies that they're subject to. In these cases, a principal access boundary policy might prevent a principal from accessing a resource.
+By default, principals are eligible to access any Google Cloud resource. However, if they're subject to any Principal Access Boundary policy, then they're only eligible to access the resources listed in the Principal Access Boundary policies that they're subject to. In these cases, a Principal Access Boundary policy might prevent a principal from accessing a resource.
 
-To resolve errors related to principal access boundary policies, do one of the following.
+To resolve errors related to Principal Access Boundary policies, do one of the following.
 
-### Add the resource to a principal access boundary policy
+### Add the resource to a Principal Access Boundary policy
 
-If a resource is included in a principal access boundary policy that a user is subject to, then they're eligible to access that resource.
+If a resource is included in a Principal Access Boundary policy that a user is subject to, then they're eligible to access that resource.
 
-To add a resource to a principal access boundary policy, do one of the following:
+To add a resource to a Principal Access Boundary policy, do one of the following:
 
-  - Create a new principal access boundary policy:
+  - Create a new Principal Access Boundary policy:
     
-    1.  [Create a new principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) that includes the resource.
+    1.  [Create a new Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create) that includes the resource.
     
     2.  [Bind the policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-binding) to a principal set that the user is included in.
         
         To learn more about principal sets, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
-  - Update an existing principal access boundary policy:
+  - Update an existing Principal Access Boundary policy:
     
-    1.  [List the principal access boundary policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policies) for a principal set that the user is included in. Each binding represents a principal access boundary policy that's bound to the principal set.
-    2.  From the list of bindings, identify a principal access boundary policy to modify.
-    3.  Optional: [List the principal access boundary policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policies) for the policy to see which principal sets the policy is bound to. Updating the policy will impact access for all principal sets that the policy is bound to.
-    4.  [Edit the principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit) so that it includes the resource.
+    1.  [List the Principal Access Boundary policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policies) for a principal set that the user is included in. Each binding represents a Principal Access Boundary policy that's bound to the principal set.
+    2.  From the list of bindings, identify a Principal Access Boundary policy to modify.
+    3.  Optional: [List the Principal Access Boundary policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policies) for the policy to see which principal sets the policy is bound to. Updating the policy will impact access for all principal sets that the policy is bound to.
+    4.  [Edit the Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit) so that it includes the resource.
 
 ### Add a condition to exempt specific principals
 
-You can use [conditions in principal access boundary policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) to refine which principals the principal access boundary policy is enforced for.
+You can use [conditions in Principal Access Boundary policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) to refine which principals the Principal Access Boundary policy is enforced for.
 
-If you don't want a user to be subject to principal access boundary policies, then use conditions in principal access boundary policy bindings to exempt the user from principal access boundary policies.
+If you don't want a user to be subject to Principal Access Boundary policies, then use conditions in Principal Access Boundary policy bindings to exempt the user from Principal Access Boundary policies.
 
-For this approach to resolve errors, you must exempt the user from *every* principal access boundary policy that they're subject to. Doing so will make the user eligible to access any Google Cloud resource.
+For this approach to resolve errors, you must exempt the user from *every* Principal Access Boundary policy that they're subject to. Doing so will make the user eligible to access any Google Cloud resource.
 
-We don't recommend this approach. Instead, consider [adding the resource to a principal access boundary policy](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) .
+We don't recommend this approach. Instead, consider [adding the resource to a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/resolve-permission-errors#pab-new-policy) .
 
-To view the principal access boundary policies that a user is subject to, [list the policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policies) for the principal sets that they're included in. Each binding represents a principal access boundary policy that's bound to the principal set.
+To view the Principal Access Boundary policies that a user is subject to, [list the policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policies) for the principal sets that they're included in. Each binding represents a Principal Access Boundary policy that's bound to the principal set.
 
-To learn how to add conditions to principal access boundary policy bindings, see [Edit existing policy bindings for principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-binding) .
+To learn how to add conditions to Principal Access Boundary policy bindings, see [Edit existing policy bindings for principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit#edit-binding) .
 
 ## Disable auto-generated access request emails
 
@@ -227,4 +227,4 @@ To disable auto-generated access requests, do the following:
 
   - [Test role changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies)
   - [Test deny policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-deny-policies)
-  - [Test principal access boundary policy changes](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies)
+  - [Test Principal Access Boundary policy changes](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies)

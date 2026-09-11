@@ -321,9 +321,9 @@ The following table describes the principal identifiers for [deny policies](http
 
 <sup>2</sup> Don't add deleted principals when creating or modifying policies.
 
-## Principal identifiers for principal access boundary policy bindings
+## Principal identifiers for Principal Access Boundary policy bindings
 
-The following table describes the identifiers for the principal sets that you can use in [principal access boundary (PAB) policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . Principal access boundary policy bindings use the IAM `v3` API.
+The following table describes the identifiers for the principal sets that you can use in [Principal Access Boundary (PAB) policy bindings](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . Principal Access Boundary policy bindings use the IAM `v3` API.
 
 To learn which principals are included in each of these principal sets, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 

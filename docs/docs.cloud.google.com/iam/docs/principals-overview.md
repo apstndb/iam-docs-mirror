@@ -74,7 +74,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support Google Accounts:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -89,7 +89,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support service accounts:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -104,7 +104,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support a set of service accounts:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -119,7 +119,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <p>The following policy types don't support a set of service agents:</p>
 <ul>
 <li><strong>Allow</strong></li>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -138,7 +138,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support Google groups:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,7 +154,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -175,7 +175,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <p>The following policy types don't support <code dir="ltr" translate="no">allAuthenticatedUsers</code> :</p>
 <ul>
 <li><strong>Deny</strong></li>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -196,7 +196,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support <code dir="ltr" translate="no">allUsers</code> :</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -211,7 +211,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support a single principal in a workforce identity pool:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -223,7 +223,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -238,7 +238,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support a single principal in a workload identity pool:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -250,7 +250,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <ul>
 <li><strong>Allow</strong></li>
 <li><strong>Deny</strong></li>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -265,7 +265,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <p>The following policy types don't support GKE pods:</p>
 <ul>
 <li><strong>Deny</strong></li>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -280,7 +280,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 </ul>
 <p>The following policy types don't support individual agent identities:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -291,7 +291,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <td><p>The following policy types support a set of agent identities:</p>
 <ul>
 <li><strong>Allow</strong></li>
-<li><strong>Principal access boundary</strong> (only for agent identities in a project)</li>
+<li><strong>Principal Access Boundary</strong> (only for agent identities in a project)</li>
 </ul>
 <p>The following policy types don't support sets of agent identities:</p>
 <ul>
@@ -311,7 +311,7 @@ Google Accounts Service accounts Service agents Google groups Domains allAuthent
 <td>Both</td>
 <td><p>The following policy types support Resource Manager principal sets:</p>
 <ul>
-<li><strong>Principal access boundary</strong></li>
+<li><strong>Principal Access Boundary</strong></li>
 </ul>
 <p>The following policy types don't support Resource Manager principal sets:</p>
 <ul>
@@ -407,7 +407,7 @@ The following examples show how you can identify a domain in different types of 
 
   - **Allow policies** : `domain:example.com`
   - **Deny policies** : `principalSet://goog/cloudIdentityCustomerId/C01Abc35`
-  - **Principal access boundary policies** : `//iam.googleapis.com/locations/global/workspace/C01Abc35`
+  - **Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workspace/C01Abc35`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -472,7 +472,7 @@ The following examples show how you can identify federated workforce identity po
 
   - **A single identity in allow policies** : `principal://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/subject/raha@altostrat.com`
   - **A group of identities in deny policies** : `principalSet://iam.googleapis.com/locations/global/workforcePools/altostrat-contractors/group/administrators-group@altostrat.com`
-  - **A workforce identity pool in Principal access boundary policies** : `//iam.googleapis.com/locations/global/workforcePools/example-workforce-pool`
+  - **A workforce identity pool in Principal Access Boundary policies** : `//iam.googleapis.com/locations/global/workforcePools/example-workforce-pool`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -489,7 +489,7 @@ The following examples show how you can identify federated workload identity poo
 
   - **A single identity in allow policies** : `principal://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/altostrat-contractors/subject/raha@altostrat.com`
   - **A group of identities in deny policies** : `principalSet://iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/altostrat-contractors/group/administrators-group@altostrat.com`
-  - **A workload identity pool in Principal access boundary policies** : `//iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/example-workload-pool`
+  - **A workload identity pool in Principal Access Boundary policies** : `//iam.googleapis.com/projects/123456789012/locations/global/workloadIdentityPools/example-workload-pool`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
@@ -511,7 +511,7 @@ To learn more about principal identifier formats, see [Principal identifiers](ht
 
 An agent identity is a Google-managed identity for agentic workloads. An agent identity is attested and tied to the lifecycle of the agent, which provides a more secure way to manage agent access to Google Cloud resources than using service accounts.
 
-Each agent is automatically provisioned with an agent identity. You can grant or deny access to Google Cloud resources using IAM allow and deny policies. You can also manage access for all agent identities in a project, folder, or organization using allow, deny, and principal access boundary policies.
+Each agent is automatically provisioned with an agent identity. You can grant or deny access to Google Cloud resources using IAM allow and deny policies. You can also manage access for all agent identities in a project, folder, or organization using allow, deny, and Principal Access Boundary policies.
 
 Agent identities can also be grouped into *agent identity pools* .
 
@@ -519,13 +519,13 @@ The following examples show how you can identify agent identities in various typ
 
   - **A single agent identity in an allow policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
   - **All agent identities in a project in a deny policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210`
-  - **All agent identities in a project in a principal access boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.containier/projects/9876543210`
+  - **All agent identities in a project in a Principal Access Boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.containier/projects/9876543210`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
 ### Resource Manager principal sets
 
-Each Resource Manager resource—such as a project, folder, or organization—is associated with a set of principals. When you're creating principal access boundary policy bindings, you can use the principal set for a Resource Manager resource to reference all principals associated with that resource.
+Each Resource Manager resource—such as a project, folder, or organization—is associated with a set of principals. When you're creating Principal Access Boundary policy bindings, you can use the principal set for a Resource Manager resource to reference all principals associated with that resource.
 
 Principal sets for Resource Manager resources contain the following principals:
 
@@ -539,7 +539,7 @@ Principal sets for Resource Manager resources contain the following principals:
       - All workforce identity pools in your organization
       - All service accounts and workload identity pools in any project in the organization
 
-The following example shows how you can identify a project's principal set in a principal access boundary policy:
+The following example shows how you can identify a project's principal set in a Principal Access Boundary policy:
 
     //cloudresourcemanager.googleapis.com/projects/example-project
 

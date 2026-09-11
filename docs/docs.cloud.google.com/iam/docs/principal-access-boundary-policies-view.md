@@ -1,12 +1,12 @@
 ---
 name: documents/docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view
 uri: https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view
-title: View principal access boundary policies
-description: How to get and list existing principal access boundary policies.
+title: View Principal Access Boundary policies
+description: How to get and list existing Principal Access Boundary policies.
 data_source: docs.cloud.google.com
 ---
 
-Principal access boundary (PAB) policies let you limit the resources that a set of principals are eligible to access. This page explains how to view principal access boundary policies and policy bindings for principal access boundary policies.
+Principal Access Boundary (PAB) policies let you limit the resources that a set of principals are eligible to access. This page explains how to view Principal Access Boundary policies and policy bindings for Principal Access Boundary policies.
 
 ## Before you begin
 
@@ -26,20 +26,20 @@ Principal access boundary (PAB) policies let you limit the resources that a set 
     
     For more information, see [Authenticate for using REST](https://docs.cloud.google.com/docs/authentication/rest) in the Google Cloud authentication documentation.
 
-  - Read the [overview of principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
+  - Read the [overview of Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
 
-### Roles required to view principal access boundary policies
+### Roles required to view Principal Access Boundary policies
 
-To get the permissions that you need to view principal access boundary policies, ask your administrator to grant you the [Principal Access Boundary Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryViewer) ( `roles/iam.principalAccessBoundaryViewer` ) IAM role on the organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+To get the permissions that you need to view Principal Access Boundary policies, ask your administrator to grant you the [Principal Access Boundary Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryViewer) ( `roles/iam.principalAccessBoundaryViewer` ) IAM role on the organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-This predefined role contains the permissions required to view principal access boundary policies. To see the exact permissions that are required, expand the **Required permissions** section:
+This predefined role contains the permissions required to view Principal Access Boundary policies. To see the exact permissions that are required, expand the **Required permissions** section:
 
 #### Required permissions
 
-The following permissions are required to view principal access boundary policies:
+The following permissions are required to view Principal Access Boundary policies:
 
-  - View a single principal access boundary policy: `iam.principalaccessboundarypolicies.get`
-  - List principal access boundary policies in an organization: `iam.principalaccessboundarypolicies.list`
+  - View a single Principal Access Boundary policy: `iam.principalaccessboundarypolicies.get`
+  - List Principal Access Boundary policies in an organization: `iam.principalaccessboundarypolicies.list`
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -64,11 +64,11 @@ The following permissions are required to view policy bindings:
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
-### Roles required to view all policy bindings for a principal access boundary policy
+### Roles required to view all policy bindings for a Principal Access Boundary policy
 
-To get the permission that you need to view all policy bindings for a principal access boundary policy, ask your administrator to grant you the [Principal Access Boundary Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryViewer) ( `roles/iam.principalAccessBoundaryViewer` ) IAM role on the organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
+To get the permission that you need to view all policy bindings for a Principal Access Boundary policy, ask your administrator to grant you the [Principal Access Boundary Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryViewer) ( `roles/iam.principalAccessBoundaryViewer` ) IAM role on the organization. For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
-This predefined role contains the `iam.principalaccessboundarypolicies.searchIamPolicyBindings` permission, which is required to view all policy bindings for a principal access boundary policy.
+This predefined role contains the `iam.principalaccessboundarypolicies.searchIamPolicyBindings` permission, which is required to view all policy bindings for a Principal Access Boundary policy.
 
 You might also be able to get this permission with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
@@ -102,27 +102,27 @@ The following permissions are required to view policy bindings:
 
 You might also be able to get these permissions with [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
-## List principal access boundary policies for an organization
+## List Principal Access Boundary policies for an organization
 
-To view all principal access boundary policies created in an organization, list the principal access boundary policies in the organization.
+To view all Principal Access Boundary policies created in an organization, list the Principal Access Boundary policies in the organization.
 
-You can list the principal access boundary policies in an organization using the Google Cloud console, the gcloud CLI or the IAM REST API.
+You can list the Principal Access Boundary policies in an organization using the Google Cloud console, the gcloud CLI or the IAM REST API.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that you want to create principal access boundary policies for.
+2.  Select the organization that you want to create Principal Access Boundary policies for.
 
 The Google Cloud console lists all policies in the organization that you select.
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies list  ` command lists all principal access boundary policies in an organization.
+The `  gcloud iam principal-access-boundary-policies list  ` command lists all Principal Access Boundary policies in an organization.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the Google Cloud organization that you want to list principal access boundary policies for. Organization IDs are numeric, like `123456789012` .
+  - `  ORG_ID  ` : The ID of the Google Cloud organization that you want to list Principal Access Boundary policies for. Organization IDs are numeric, like `123456789012` .
   - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
@@ -142,60 +142,60 @@ Execute the following command:
     gcloud iam principal-access-boundary-policies list --organization=ORG_ID ^
         --location=global  --format=FORMAT
 
-The response contains the principal access boundary policies in the specified organization.
+The response contains the Principal Access Boundary policies in the specified organization.
 
     {
       "principalAccessBoundaryPolicies": [
         {
-          "createTime": "2024-05-07T00:05:48.295209Z",
-          "details": [
-            "enforcementVersion": 1,
-            "rules": {
-              [
-                "description": "Make principals eligible to access resources in example.com",
-                "effect": ALLOW,
-                "resources": {
+          "createTime": "2026-07-07T00:05:48.295209Z",
+          "details": {
+            "enforcementVersion": "4",
+            "rules": [
+              {
+                "description": "Make principals eligible to manage but not delete Compute resources in example.com",
+                "effect": "ALLOW",
+                "resources": [
                   "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-                }
-              ]
-            }
-          ],
+                ]
+              }
+            ]
+          },
           "displayName": "Example policy 1",
           "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
           "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-1",
           "uid": "puid_13364150419245236225",
-          "updateTime": "2024-05-07T00:05:48.295209Z"
+          "updateTime": "2026-07-07T00:05:48.295209Z"
         },
         {
-          "createTime": "2024-02-29T23:25:01.606730Z",
-          "details": [
-            "enforcementVersion": 1,
-            "rules": {
-              [
+          "createTime": "2026-05-29T23:25:01.606730Z",
+          "details": {
+            "enforcementVersion": "4",
+            "rules": [
+              {
                 "description": "Make principals eligible to access resources in example-project",
-                "effect": ALLOW,
-                "resources": {
+                "effect": "ALLOW",
+                "resources": [
                   "//cloudresourcemanager.googleapis.com/projects/example-project"
-                }
-              ]
-            }
-          ],
+                ]
+              }
+            ]
+          },
           "displayName": "Example policy 2",
           "etag": "d6BJBTsk2+oDCygmr5ANxA==",
           "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-2",
           "uid": "puid_13064942519001808897",
-          "updateTime": "2024-02-29T23:25:01.606730Z"
+          "updateTime": "2026-05-29T23:25:01.606730Z"
         }
       ]
     }
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.list  ` method lists all principal access boundary policies in an organization.
+The `  principalAccessBoundaryPolicies.list  ` method lists all Principal Access Boundary policies in an organization.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the Google Cloud organization that you want to list principal access boundary policies for. Organization IDs are numeric, like `123456789012` .
+  - `  ORG_ID  ` : The ID of the Google Cloud organization that you want to list Principal Access Boundary policies for. Organization IDs are numeric, like `123456789012` .
 
 HTTP method and URL:
 
@@ -227,7 +227,7 @@ Execute the following command:
         -Headers $headers `
         -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies" | Select-Object -Expand Content
 
-The response contains the principal access boundary policies in the specified organization.
+The response contains the Principal Access Boundary policies in the specified organization.
 
     {
       "principalAccessBoundaryPolicies": [
@@ -236,68 +236,68 @@ The response contains the principal access boundary policies in the specified or
           "uid": "puid_13364150419245236225",
           "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
           "displayName": "Example policy 1",
-          "createTime": "2024-05-07T00:05:48.295209Z",
-          "updateTime": "2024-05-07T00:05:48.295209Z",
-          "details": [
-            "rules": {
-              [
+          "createTime": "2026-07-07T00:05:48.295209Z",
+          "updateTime": "2026-07-07T00:05:48.295209Z",
+          "details": {
+            "rules": [
+              {
                 "description": "Make principals eligible to access resources in example.com",
-                "resources": {
+                "resources": [
                   "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-                },
-                "effect": ALLOW
-              ]
-            },
-            "enforcementVersion": 1,
-          ]
+                ],
+                "effect": "ALLOW"
+              }
+            ],
+            "enforcementVersion": "4"
+          }
         },
         {
           "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy-2",
           "uid": "puid_13064942519001808897",
           "etag": "d6BJBTsk2+oDCygmr5ANxA==",
           "displayName": "Example policy 2",
-          "createTime": "2024-02-29T23:25:01.606730Z",
-          "updateTime": "2024-02-29T23:25:01.606730Z",
-          "details": [
-            "rules": {
-              [
+          "createTime": "2026-05-29T23:25:01.606730Z",
+          "updateTime": "2026-05-29T23:25:01.606730Z",
+          "details": {
+            "rules": [
+              {
                 "description": "Make principals eligible to access resources in example-project",
-                "resources": {
+                "resources": [
                   "//cloudresourcemanager.googleapis.com/projects/example-project"
-                },
-                "effect": ALLOW
-              ]
-            },
-            "enforcementVersion": 1
-          ]
+                ],
+                "effect": "ALLOW"
+              }
+            ],
+            "enforcementVersion": "4"
+          }
         }
       ]
     }
 
-## Get a single principal access boundary policy
+## Get a single Principal Access Boundary policy
 
-To view the details of a single principal access boundary policy, use the policy's ID to get the policy.
+To view the details of a single Principal Access Boundary policy, use the policy's ID to get the policy.
 
-You can get a principal access boundary policy using the Google Cloud console, the gcloud CLI or the IAM REST API.
+You can get a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI or the IAM REST API.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that you want to create principal access boundary policies for.
+2.  Select the organization that you want to create Principal Access Boundary policies for.
 
-3.  Click the policy ID of the principal access boundary policy that you want to view.
+3.  Click the policy ID of the Principal Access Boundary policy that you want to view.
 
-The Google Cloud console shows the details of the principal access boundary policy that you select.
+The Google Cloud console shows the details of the Principal Access Boundary policy that you select.
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies describe  ` command gets a single principal access boundary policy.
+The `  gcloud iam principal-access-boundary-policies describe  ` command gets a single Principal Access Boundary policy.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  PAB_POLICY_ID  ` : The ID of the principal access boundary policy that you want to get—for example, `example-policy` .
-  - `  ORG_ID  ` : The ID of the organization that owns the principal access boundary policy. Organization IDs are numeric, like `123456789012` .
+  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to get—for example, `example-policy` .
+  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
   - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
@@ -320,37 +320,37 @@ Execute the following command:
         --organization=ORG_ID --location=global ^
         --format=FORMAT
 
-The response contains the principal access boundary policy specified in the request.
+The response contains the Principal Access Boundary policy specified in the request.
 
     {
-      "createTime": "2024-05-07T00:05:48.295209Z",
-      "details": [
-        "enforcementVersion": "1",
-        "rules": {
-          [
-            "description": "Make principals eligible to access example.com",
-            "effect": ALLOW,
-            "resources": {
+      "createTime": "2026-07-07T00:05:48.295209Z",
+      "details": {
+        "enforcementVersion": "4",
+        "rules": [
+          {
+            "description": "Make principals eligible to access resources in example.com",
+            "effect": "ALLOW",
+            "resources": [
               "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-            }
-          ]
-        },
-      ],
+            ]
+          }
+        ]
+      },
       "displayName": "Example policy",
       "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
       "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
       "uid": "puid_13364150419245236225",
-      "updateTime": "2024-05-07T00:05:48.295209Z"
+      "updateTime": "2026-07-07T00:05:48.295209Z"
     }
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.get  ` method gets a single principal access boundary policy.
+The `  principalAccessBoundaryPolicies.get  ` method gets a single Principal Access Boundary policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the organization that owns the principal access boundary policy. Organization IDs are numeric, like `123456789012` .
-  - `  PAB_POLICY_ID  ` : The ID of the principal access boundary policy that you want to get—for example, `example-policy` .
+  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
+  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to get—for example, `example-policy` .
 
 HTTP method and URL:
 
@@ -382,63 +382,63 @@ Execute the following command:
         -Headers $headers `
         -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID" | Select-Object -Expand Content
 
-The response contains the principal access boundary policy specified in the request.
+The response contains the Principal Access Boundary policy specified in the request.
 
     {
       "name": "organizations/123456789012/locations/global/principalAccessBoundaryPolicies/example-policy",
       "uid": "puid_13364150419245236225",
       "etag": "W/\"Gh/PcTdJD/AWHUhPW45kdw==\"",
       "displayName": "Example policy",
-      "createTime": "2024-05-07T00:05:48.295209Z",
-      "updateTime": "2024-05-07T00:05:48.295209Z",
-      "details": [
-        "rules": {
-          [
-            "description": "Make principals eligible to access example.com"
-            "resources": {
+      "createTime": "2026-07-07T00:05:48.295209Z",
+      "updateTime": "2026-07-07T00:05:48.295209Z",
+      "details": {
+        "rules": [
+          {
+            "description": "Make principals eligible to access resources in example.com",
+            "resources": [
               "//cloudresourcemanager.googleapis.com/organizations/123456789012"
-            },
-            "effect": ALLOW
-          ]
-        },
-        "enforcementVersion": "1"
-      ]
+            ],
+            "effect": "ALLOW"
+          }
+        ],
+        "enforcementVersion": "4"
+      }
     }
 
-## List policy bindings for principal access boundary policies
+## List policy bindings for Principal Access Boundary policies
 
-There are several ways that you can list policy bindings for principal access boundary policies:
+There are several ways that you can list policy bindings for Principal Access Boundary policies:
 
-  - [List policy bindings for a principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-policy-bindings)
+  - [List policy bindings for a Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-policy-bindings)
   - [List policy bindings for a principal set](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#search-target-bindings)
   - [List policy bindings for a project, folder, or organization](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#list-policy-bindings-parent)
 
-### List policy bindings for a principal access boundary policy
+### List policy bindings for a Principal Access Boundary policy
 
-To view all policy bindings that include a certain principal access boundary policy, search the bindings for the principal access boundary policy.
+To view all policy bindings that include a certain Principal Access Boundary policy, search the bindings for the Principal Access Boundary policy.
 
-You can view all policy bindings for a principal access boundary policy using the Google Cloud console, the gcloud CLI or the IAM REST API.
+You can view all policy bindings for a Principal Access Boundary policy using the Google Cloud console, the gcloud CLI or the IAM REST API.
 
 ### Console
 
 1.  In the Google Cloud console, go to the **Principal Access Boundary policies** page.
 
-2.  Select the organization that owns the principal access boundary policy that you want to view bindings for.
+2.  Select the organization that owns the Principal Access Boundary policy that you want to view bindings for.
 
-3.  Click the policy ID of the principal access boundary policy that you want to view bindings for.
+3.  Click the policy ID of the Principal Access Boundary policy that you want to view bindings for.
 
 4.  Click the **Bindings** tab.
 
-The **Bindings** tab lists all principal access boundary policy bindings that include the principal access boundary policy.
+The **Bindings** tab lists all Principal Access Boundary policy bindings that include the Principal Access Boundary policy.
 
 ### gcloud
 
-The `  gcloud iam principal-access-boundary-policies search-policy-bindings  ` command lists all policy bindings for the specified principal access boundary policy.
+The `  gcloud iam principal-access-boundary-policies search-policy-bindings  ` command lists all policy bindings for the specified Principal Access Boundary policy.
 
 Before using any of the command data below, make the following replacements:
 
-  - `  PAB_POLICY_ID  ` : The ID of the principal access boundary policy that you want to list policy bindings for—for example, `example-policy` .
-  - `  ORG_ID  ` : The ID of the organization that owns the principal access boundary policy. Organization IDs are numeric, like `123456789012` .
+  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to list policy bindings for—for example, `example-policy` .
+  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
   - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
 
 Execute the following command:
@@ -461,7 +461,7 @@ Execute the following command:
         --organization=ORG_ID --location=global ^
         --format=FORMAT
 
-The response contains the policy bindings for the specified principal access boundary policy.
+The response contains the policy bindings for the specified Principal Access Boundary policy.
 
     {
       "policyBindings": [
@@ -498,12 +498,12 @@ The response contains the policy bindings for the specified principal access bou
 
 ### REST
 
-The `  principalAccessBoundaryPolicies.searchPolicyBindings  ` method lists all policy bindings for the specified principal access boundary policy.
+The `  principalAccessBoundaryPolicies.searchPolicyBindings  ` method lists all policy bindings for the specified Principal Access Boundary policy.
 
 Before using any of the request data, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the organization that owns the principal access boundary policy. Organization IDs are numeric, like `123456789012` .
-  - `  PAB_POLICY_ID  ` : The ID of the principal access boundary policy that you want to list policy bindings for—for example, `example-policy` .
+  - `  ORG_ID  ` : The ID of the organization that owns the Principal Access Boundary policy. Organization IDs are numeric, like `123456789012` .
+  - `  PAB_POLICY_ID  ` : The ID of the Principal Access Boundary policy that you want to list policy bindings for—for example, `example-policy` .
 
 HTTP method and URL:
 
@@ -535,7 +535,7 @@ Execute the following command:
         -Headers $headers `
         -Uri "https://iam.googleapis.com/v3/organizations/ORG_ID/locations/global/principalAccessBoundaryPolicies/PAB_POLICY_ID:searchPolicyBindings" | Select-Object -Expand Content
 
-The response contains the policy bindings for the specified principal access boundary policy.
+The response contains the policy bindings for the specified Principal Access Boundary policy.
 
     {
       "policyBindings": [
@@ -574,13 +574,13 @@ The response contains the policy bindings for the specified principal access bou
 
 To view all policy bindings that include a certain principal set, search the bindings for the principal set.
 
-These bindings contain the IDs of the principal access boundary policies that are bound to the principal set. To see the details of these policies, use the policy ID to [get the principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#get-policy) .
+These bindings contain the IDs of the Principal Access Boundary policies that are bound to the principal set. To see the details of these policies, use the policy ID to [get the Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-view#get-policy) .
 
 You can view all policy bindings for a principal set using the gcloud CLI or the IAM REST API.
 
 ### gcloud
 
-The `  gcloud iam policy-bindings search-target-policy-bindings  ` command gets all principal access boundary policies bound to a principal set.
+The `  gcloud iam policy-bindings search-target-policy-bindings  ` command gets all Principal Access Boundary policies bound to a principal set.
 
 Before using any of the command data below, make the following replacements:
 
@@ -590,7 +590,7 @@ Before using any of the command data below, make the following replacements:
 
   - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  PRINCIPAL_SET  ` : The principal set whose principal access boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+  - `  PRINCIPAL_SET  ` : The principal set whose Principal Access Boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
   - `  FORMAT  ` : The format for the response. Use `json` or `yaml` .
 
@@ -654,7 +654,7 @@ The response contains all policy binidngs that are bound to the target principal
 
 ### REST
 
-The `  SearchTargetPolicyBindings.search  ` method gets all principal access boundary policies bound to a principal set.
+The `  SearchTargetPolicyBindings.search  ` method gets all Principal Access Boundary policies bound to a principal set.
 
 Before using any of the request data, make the following replacements:
 
@@ -664,7 +664,7 @@ Before using any of the request data, make the following replacements:
 
   - `  RESOURCE_ID  ` : The ID of the project, folder, or organization that the target principal set is a child of. Project IDs are alphanumeric strings, like `my-project` . Folder and organization IDs are numeric, like `123456789012` .
 
-  - `  PRINCIPAL_SET  ` : The principal set whose principal access boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
+  - `  PRINCIPAL_SET  ` : The principal set whose Principal Access Boundary policy bindings you want to view. For a list of valid principal types, see [Supported principal sets](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#principal-sets) .
 
 HTTP method and URL:
 
@@ -885,7 +885,7 @@ The response contains the policy bindings that are children of the resource in t
       ]
     }
 
-## Get a policy binding for a principal access boundary policy
+## Get a policy binding for a Principal Access Boundary policy
 
 To view the details of a single policy binding, use the policy binding's ID to get the policy binding.
 
@@ -1007,6 +1007,6 @@ The response contains the policy binding.
 
 ## What's next
 
-  - [Create and apply principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create)
-  - [Edit principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit)
-  - [Remove principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove)
+  - [Create and apply Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create)
+  - [Edit Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-edit)
+  - [Remove Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-remove)

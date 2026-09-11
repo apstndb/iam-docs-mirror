@@ -1,15 +1,1 @@
-200 https://docs.cloud.google.com/iam/docs/reference/mcp
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/create_deny_policy
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/create_role
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/delete_deny_policy
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/delete_role
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_deny_policy
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_deny_policy_status
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/get_role
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/list_deny_policies
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/list_roles
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/undelete_role
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/update_deny_policy
-200 https://docs.cloud.google.com/iam/docs/reference/mcp/tools_list/update_role
-200 https://docs.cloud.google.com/iam/docs/use-iam-mcp
-404 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-use-cases
+200 https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-use-cases

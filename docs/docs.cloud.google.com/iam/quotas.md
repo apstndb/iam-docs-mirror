@@ -46,11 +46,11 @@ Write requests (for example, updating a deny policy)
 
 IAM v3 API
 
-Read requests (for example, getting a principal access boundary policy)
+Read requests (for example, getting a Principal Access Boundary policy)
 
 5 per project per minute
 
-Write requests (for example, updating a principal access boundary policy)
+Write requests (for example, updating a Principal Access Boundary policy)
 
 5 per project per minute
 
@@ -306,21 +306,21 @@ Logic operators in a deny rule's condition expression
 
 12
 
-Principal access boundary policies
+Principal Access Boundary policies
 
-Rules in a single principal access boundary policy
-
-500
-
-Resources in all rules in a single principal access boundary policy
+Rules in a single Principal Access Boundary policy
 
 500
 
-Number of principal access boundary policies that can be bound to a resource
+Resources in all rules in a single Principal Access Boundary policy
+
+500
+
+Number of Principal Access Boundary policies that can be bound to a resource
 
 10
 
-Principal access boundary policies per organization
+Principal Access Boundary policies per organization
 
 1000
 

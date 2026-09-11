@@ -14,7 +14,7 @@ IAM offers the following types of policies:
 
   - Allow policies
   - Deny policies
-  - Principal access boundary (PAB) policies
+  - Principal Access Boundary (PAB) policies
   - Access policies
 
 The following table summarizes the differences between these policy types:
@@ -122,32 +122,27 @@ To learn more about using access policies to control access to Eventarc resource
 
 ## Policies to restrict the resources a principal can access
 
-To restrict the resources that a principal is eligible to access, use a principal access boundary policy. Principal access boundary policies are available in the [IAM v3 API](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/organizations.locations.principalAccessBoundaryPolicies) .
+To restrict the resources that a principal is eligible to access, use a Principal Access Boundary policy. Principal Access Boundary policies are available in the [IAM v3 API](https://docs.cloud.google.com/iam/docs/reference/rest/v3beta/organizations.locations.principalAccessBoundaryPolicies) .
 
-To create and apply a principal access boundary policy, you create a principal access boundary policy, and then create a policy binding to connect that policy to a principal set.
+To create and apply a Principal Access Boundary policy, you create a Principal Access Boundary policy, and then create a policy binding to connect that policy to a principal set.
 
-Principal access boundary policies are always children of your organization. Policy bindings for principal access boundary policies are children of the project, folder, or organization that is closest to the principal set referenced in the policy binding.
+Principal Access Boundary policies are always children of your organization. Policy bindings for Principal Access Boundary policies are children of the project, folder, or organization that is closest to the principal set referenced in the policy binding.
 
-Each policy binding binds one principal access boundary policy to one principal set. A principal access boundary policy can be bound to any number of principal sets. Each principal set can have up to 10 principal access boundary policies bound to it. When a principal access boundary policy is deleted, all of the policy bindings related to that policy are also deleted.
+Each policy binding binds one Principal Access Boundary policy to one principal set. A Principal Access Boundary policy can be bound to any number of principal sets. Each principal set can have up to 10 Principal Access Boundary policies bound to it. When a Principal Access Boundary policy is deleted, all of the policy bindings related to that policy are also deleted.
 
-For more information about principal access boundary policies, see [Principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
+For more information about Principal Access Boundary policies, see [Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
 
 ## Policy evaluation
 
-When a principal tries to access a resource, IAM evaluates all relevant allow, deny, and principal access boundary policies to see if the principal is allowed to access the resource. If any of these policies indicates that the principal shouldn't be able to access the resource, then IAM prevents access.
+When a principal tries to access a resource, IAM evaluates all relevant allow, deny, and Principal Access Boundary policies to see if the principal is allowed to access the resource. If any of these policies indicates that the principal shouldn't be able to access the resource, then IAM prevents access.
 
 In reality, IAM evaluates all policy types simultaneously, then compiles the results to determine whether the principal can access the resource. However, it can be helpful to think of this policy evaluation taking place in the following stages:
 
-1.  IAM checks all relevant principal access boundary policies to see if the principal is eligible to access the resource. A principal access boundary policy is relevant if the following are true:
+1.  IAM [evaluates the Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#policy-evaluation) that the principal is subject to. These policies indicate whether the principal is eligible to access the resource.
     
-      - The policy is bound to a principal set that includes the principal
-      - The principal access boundary policy blocks the permission that the principal is trying to use. The permissions that a principal access boundary policy blocks depends on the principal access boundary policy version. You specify the policy version when you create the principal access boundary policy. For more information, see [Principal access boundary policy versions](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#versions) .
-    
-    After checking the relevant principal access boundary policies, IAM does one of the following:
-    
-      - If the relevant principal access boundary policies don't include the resource that the principal is trying to access, or if IAM [can't evaluate](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#fail-closed) the relevant principal access boundary policies, then IAM prevents them from accessing the resource.
-      - If the relevant principal access boundary policies include the resource that the principal is trying to access, then IAM continues to the next step.
-      - If there are no relevant principal access boundary policies, then IAM continues to the next step.
+      - If the principal isn't eligible to access the resource, then IAM prevents them from accessing the resource.
+      - If the principal is eligible to access the resource, then IAM continues to the next step.
+      - If the principal isn't subject to any Principal Access Boundary policies, then IAM continues to the next step.
 
 2.  IAM checks all relevant deny policies to see if the principal has been denied the permission. Relevant deny policies are the deny policies attached to the resource, as well as any [inherited deny policies](https://docs.cloud.google.com/iam/docs/deny-overview#inheritance) .
     
@@ -173,4 +168,4 @@ The following diagram shows this policy evaluation flow:
 
   - Learn more about [allow policies](https://docs.cloud.google.com/iam/docs/allow-policies) .
   - Learn more about [deny policies](https://docs.cloud.google.com/iam/docs/deny-overview) .
-  - Learn more about [principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .
+  - Learn more about [Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) .

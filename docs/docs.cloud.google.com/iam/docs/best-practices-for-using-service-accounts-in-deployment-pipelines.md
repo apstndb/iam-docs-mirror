@@ -12,7 +12,7 @@ Deployment pipelines differ from interactive tools like the Google Cloud console
 
 Before Google Cloud lets you access a resource, it performs an access check. To perform this check, IAM typically considers:
 
-  - Your identity and any associated principal access boundary policies
+  - Your identity and any associated Principal Access Boundary policies
   - The resource you're trying to access and its IAM allow and deny policies
   - The context of your request (possibly including time and location)
 

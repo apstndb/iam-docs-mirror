@@ -14,7 +14,7 @@ You can use conditions in the following places:
 
   - Allow policy role bindings, including role bindings managed by Privileged Access Manager entitlements
   - Deny policy rules
-  - Policy bindings for principal access boundary policies
+  - Policy bindings for Principal Access Boundary policies
 
 The following sections describe how you can use conditions in each of these places to enforce attribute-based access control.
 
@@ -95,9 +95,9 @@ To learn more about the fields in a condition, see [Condition structure](https:/
 
 To learn how to create and manage deny policies, see [Deny access](https://docs.cloud.google.com/iam/docs/deny-access) .
 
-### Conditions in principal access boundary policy bindings
+### Conditions in Principal Access Boundary policy bindings
 
-You can use conditions in [policy bindings for principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) to refine the principal set that the principal access boundary policy applies to. For example, you could only enforce a policy for service accounts, or exempt `super-admin@example.com` from a policy.
+You can use conditions in [policy bindings for Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) to refine the principal set that the Principal Access Boundary policy applies to. For example, you could only enforce a policy for service accounts, or exempt `super-admin@example.com` from a policy.
 
 Conditions are specified in each policy binding. If a policy binding has a condition, then the policy in the policy binding is enforced only if the condition evaluates to `true` .
 
@@ -119,7 +119,7 @@ To add a condition to a policy binding, you define the `condition` field in the 
 
 To learn more about the fields in a condition, see [Condition structure](https://docs.cloud.google.com/iam/docs/conditions-overview#structure) on this page.
 
-To learn how to create policy bindings for principal access boundary policies, see [Apply a principal access boundary policy to a principal set](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-binding) .
+To learn how to create policy bindings for Principal Access Boundary policies, see [Apply a Principal Access Boundary policy to a principal set](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies-create#create-binding) .
 
 ## Condition structure
 
@@ -203,17 +203,17 @@ The principal attributes let you write conditions based on the principal that is
   - The type of principal in the request
   - The identity of the principal in the request
 
-You can use these attributes in policy bindings for principal access boundary policies.
+You can use these attributes in policy bindings for Principal Access Boundary policies.
 
 For details, see the [conditions attribute reference](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) .
 
 #### Example expressions
 
-In a principal access boundary policy binding, the following condition expression ensures that the policy in the binding is only enforced for service accounts:
+In a Principal Access Boundary policy binding, the following condition expression ensures that the policy in the binding is only enforced for service accounts:
 
     principal.type == 'iam.googleapis.com/ServiceAccount'
 
-In a principal access boundary policy binding, the following condition expression ensures that the policy in the binding isn't enforced for `super-admin@example.com` :
+In a Principal Access Boundary policy binding, the following condition expression ensures that the policy in the binding isn't enforced for `super-admin@example.com` :
 
     principal.subject != 'super-admin@example.com'
 

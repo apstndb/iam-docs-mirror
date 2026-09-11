@@ -152,7 +152,7 @@ The [gcloud auth login](https://docs.cloud.google.com/sdk/gcloud/reference/auth/
 
 > **Caution** : Any user with access to your file system can use the stored access credentials created by `gcloud auth login` . To reduce the consequences of a system being compromised, strictly separate human and workload use, and don't use `gcloud auth login` for automated workloads on remote systems with persistent storage. Where possible, use a secret manager in combination with environment variables instead.
 > 
-> For more guidance on hardening remote systems, see [Mitigating compromised OAuth tokens for Google Cloud CLI](https://docs.cloud.google.com/architecture/bps-for-mitigating-gcloud-oauth-tokens) .
+> For more guidance on hardening remote systems, see [Mitigating compromised OAuth tokens for Google Cloud CLI](https://docs.cloud.google.com/docs/security/bps-for-mitigating-gcloud-oauth-tokens) .
 
 ### Use configuration files for sign-in
 

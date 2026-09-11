@@ -178,7 +178,7 @@ The following attributes relate to the principal making the request.
 <tr class="odd">
 <td><p><strong><a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principal-type">Principal type attribute</a></strong></p></td>
 <td><p>Apply policies based on the type of principal in the request.</p>
-<p>You can use this attribute in policy bindings for principal access boundary policies.</p></td>
+<p>You can use this attribute in policy bindings for Principal Access Boundary policies.</p></td>
 <td><ul>
 <li>Google Accounts</li>
 <li>Workforce identity pool identities</li>
@@ -189,7 +189,7 @@ The following attributes relate to the principal making the request.
 <tr class="even">
 <td><p><strong><a href="https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principal-subject">Principal subject attribute</a></strong></p></td>
 <td><p>Apply policies based on the identity of the principal in the request.</p>
-<p>You can use this attribute in policy bindings for principal access boundary policies.</p></td>
+<p>You can use this attribute in policy bindings for Principal Access Boundary policies.</p></td>
 <td><ul>
 <li>Google Accounts</li>
 <li>Workforce identity pool identities</li>
@@ -1150,13 +1150,13 @@ You can use the following functions to set conditions based on tags:
 
 The principal attributes let you write conditions based on the principal that issued the request. With these attributes, you can refine the principals that a policy is enforced for.
 
-You can use principal attributes in policy bindings for principal access boundary policies.
+You can use principal attributes in policy bindings for Principal Access Boundary policies.
 
 ### `principal.type` attribute
 
-The `principal.type` attribute lets you set a condition based on the type of principal issuing the request. For example, you could add a condition to a policy binding for a principal access boundary policy to ensure that the policy is only enforced for service accounts.
+The `principal.type` attribute lets you set a condition based on the type of principal issuing the request. For example, you could add a condition to a policy binding for a Principal Access Boundary policy to ensure that the policy is only enforced for service accounts.
 
-You can use principal attributes in policy bindings for principal access boundary policies.
+You can use principal attributes in policy bindings for Principal Access Boundary policies.
 
 <table style="width:25%;">
 <colgroup>
@@ -1213,7 +1213,7 @@ You can use principal attributes in policy bindings for principal access boundar
 
 ### `principal.subject` attribute
 
-The `principal.subject` attribute lets you set a condition based on the principal issuing the request. For example, you could add a condition to a policy binding for a principal access boundary policy to ensure that the policy is only enforced for principals whose email addresses end with `@example.com` .
+The `principal.subject` attribute lets you set a condition based on the principal issuing the request. For example, you could add a condition to a policy binding for a Principal Access Boundary policy to ensure that the policy is only enforced for principals whose email addresses end with `@example.com` .
 
 If you use the `principal.subject` attribute in a condition, we recommend also using the [`principal.type`](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principal-type) attribute to control which types of principals the condition applies to. This is because principal identifiers aren't necessarily unique across principal types. For example, the identifier `example-user@example.com` could identify a Google Account or a user in a workforce identity pool.
 
@@ -1224,7 +1224,7 @@ By using the `principal.type` attribute in addition to the `principal.subject` a
 
 > **Note:** Conditions with this attribute evaluate against a principal's primary email address only—they don't evaluate against a principal's aliases.
 
-You can use principal attributes in policy bindings for principal access boundary policies.
+You can use principal attributes in policy bindings for Principal Access Boundary policies.
 
 <table style="width:25%;">
 <colgroup>

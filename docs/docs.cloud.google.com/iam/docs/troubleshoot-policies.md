@@ -6,15 +6,15 @@ description: Overview of the tools you can use to troubleshoot IAM policies.
 data_source: docs.cloud.google.com
 ---
 
-This page describes how to troubleshoot Identity and Access Management (IAM) allow, deny, and principal access boundary policies.
+This page describes how to troubleshoot Identity and Access Management (IAM) allow, deny, and Principal Access Boundary policies.
 
 ## Use Policy Troubleshooter
 
 If you need to troubleshoot access for a specific principal, use Policy Troubleshooter for IAM.
 
-Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and principal access boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
+Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and Principal Access Boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
 
-To learn how to use Policy Troubleshooter to troubleshoot allow policies, deny policies, and principal access boundary policies, see [Troubleshoot IAM permissions](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
+To learn how to use Policy Troubleshooter to troubleshoot allow policies, deny policies, and Principal Access Boundary policies, see [Troubleshoot IAM permissions](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
 
 ## Required roles
 

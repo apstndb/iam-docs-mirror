@@ -10,6 +10,18 @@ This page documents production updates to Policy Intelligence. Check this page f
 
 You can see the latest product updates for all of Google Cloud on the [Google Cloud](https://docs.cloud.google.com/release-notes) page, browse and filter all release notes in the [Google Cloud console](https://console.cloud.google.com/release-notes) , or programmatically access release notes in [BigQuery](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=google_cloud_release_notes&t=release_notes&page=table) .
 
+## September 09, 2026
+
+Feature
+
+The Policy Assist remote MCP server is available in [Preview](https://cloud.google.com/products#product-launch-stages) . To learn about using the Policy Assist remote MCP server to let external AI agents and applications suggest IAM roles, see [Use the Policy Assist remote MCP server](https://docs.cloud.google.com/policy-intelligence/docs/use-policy-assist-mcp) and the [Policy Assist MCP reference](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/mcp) .
+
+Feature
+
+The Policy Assist REST API is available in [Preview](https://cloud.google.com/products#product-launch-stages) . Policy Assist lets you get IAM role suggestions for individual principals with AI assistance.
+
+To learn about using the Policy Assist API to get role suggestions programmatically, see the [Policy Assist REST reference](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/rest) .
+
 ## September 01, 2026
 
 Feature

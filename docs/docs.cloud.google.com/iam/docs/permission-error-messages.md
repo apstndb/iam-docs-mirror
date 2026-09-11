@@ -22,7 +22,7 @@ These error messages can be caused by any of the following:
 
 <!-- end list -->
 
-  - **You aren't eligible to access the resource.** If you're subject to any [principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) , then the resource that you're trying to access must be included in the policies' principal access boundary rules. If it isn't, then Google Cloud displays an error message.
+  - **You aren't eligible to access the resource.** If you're subject to any [Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) , then the resource that you're trying to access must be included in the policies' Principal Access Boundary rules. If it isn't, then Google Cloud displays an error message.
 
 <!-- end list -->
 
