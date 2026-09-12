@@ -124,7 +124,8 @@ When granting access to a new domain in the Google Cloud console, omit the <code
 <tr class="odd">
 <td>Agent identity</td>
 <td><p><code dir="ltr" translate="no">principal://          TRUST_DOMAIN         /resources/          SERVICE         /          RESOURCE_PATH        </code></p>
-<p><strong>Example (Agent Runtime):</strong> <code dir="ltr" translate="no">principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
+<p><strong>Example (Vertex AI Agent Engine in an organization):</strong> <code dir="ltr" translate="no">principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
+<p><strong>Example (Vertex AI Agent Engine in a project without an organization):</strong> <code dir="ltr" translate="no">principal://agents.global.proj-9876543210.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
 <p><strong>Example (Gemini Enterprise):</strong> <code dir="ltr" translate="no">principal://agents.global.org-123456789012.system.id.goog/resources/discoveryengine/projects/9876543210/locations/global/collections/default_collection/engines/my-test-agent</code></p></td>
 </tr>
 <tr class="even">
@@ -281,7 +282,8 @@ The following table describes the principal identifiers for [deny policies](http
 <tr class="even">
 <td>Agent identity</td>
 <td><p><code dir="ltr" translate="no">principal://          TRUST_DOMAIN         /resources/          SERVICE         /          RESOURCE_PATH        </code></p>
-<p><strong>Example (Agent Runtime):</strong> <code dir="ltr" translate="no">principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
+<p><strong>Example (Vertex AI Agent Engine in an organization):</strong> <code dir="ltr" translate="no">principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
+<p><strong>Example (Vertex AI Agent Engine in a project without an organization):</strong> <code dir="ltr" translate="no">principal://agents.global.proj-9876543210.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent</code></p>
 <p><strong>Example (Gemini Enterprise):</strong> <code dir="ltr" translate="no">principal://agents.global.org-123456789012.system.id.goog/resources/discoveryengine/projects/9876543210/locations/global/collections/default_collection/engines/my-test-agent</code></p></td>
 </tr>
 <tr class="odd">
@@ -352,7 +354,7 @@ To learn which principals are included in each of these principal sets, see [Sup
 <tr class="odd">
 <td>All <a href="https://docs.cloud.google.com/iam/docs/principals-overview#agent-identity">agent identities</a> in a project's trust domain</td>
 <td><p><code dir="ltr" translate="no">         PROJECT_TRUST_DOMAIN         /  attribute.container/  projects/           PROJECT_NUMBER        </code></p>
-<p><strong>Example:</strong> <code dir="ltr" translate="no">//agents.global.proj-9876543210.system.id.goog/attribute.containier/projects/9876543210</code></p></td>
+<p><strong>Example:</strong> <code dir="ltr" translate="no">//agents.global.proj-9876543210.system.id.goog/attribute.container/projects/9876543210</code></p></td>
 </tr>
 <tr class="even">
 <td>Google Workspace domain</td>

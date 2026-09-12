@@ -47,3 +47,25 @@ data_source: docs.cloud.google.com
     ### Recommender REST API
     
     Review and apply recommendations, including IAM role recommendations.
+
+<!-- end list -->
+
+  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyanalyzer/mcp/policy-analyzer-mcp)
+    
+    ### Policy Analyzer MCP tools
+    
+    Learn about the MCP tools that let your agents analyze and audit IAM configurations.
+    
+    > **Note:** The Policy Analyzer MCP tools are part of the Cloud Asset Inventory MCP server.
+
+  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policyassist/mcp)
+    
+    ### Policy Assist MCP tools
+    
+    Learn about the MCP tools that let your agents access the IAM role picker to suggest roles for your use case.
+
+  - [](https://docs.cloud.google.com/policy-intelligence/docs/reference/policytroubleshooter/mcp)
+    
+    ### Policy Troubleshooter MCP tools
+    
+    Learn about the MCP tools that let your agents troubleshoot access issues for Google Cloud resources.

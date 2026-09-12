@@ -1283,7 +1283,6 @@ The limitations table is organized in the following way:
 <td>Other:</td>
 <td><ul>
 <li>The Help Assistant isn't supported.</li>
-<li>IAM database authentication for user logins isn't supported for <a href="https://docs.cloud.google.com/sql/docs/mysql/iam-logins">Cloud SQL for MySQL</a> or <a href="https://docs.cloud.google.com/sql/docs/postgres/iam-logins">Cloud SQL for PostgreSQL</a> databases.</li>
 <li>Query Insights isn't supported.</li>
 </ul></td>
 </tr>

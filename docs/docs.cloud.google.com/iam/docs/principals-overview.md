@@ -517,9 +517,10 @@ Agent identities can also be grouped into *agent identity pools* .
 
 The following examples show how you can identify agent identities in various types of policies:
 
-  - **A single agent identity in an allow policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+  - **A single agent identity in an allow policy (in an organization)** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+  - **A single agent identity in an allow policy (in a project without an organization)** : `principal://agents.global.proj-9876543210.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
   - **All agent identities in a project in a deny policy** : `principal://agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210`
-  - **All agent identities in a project in a Principal Access Boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.containier/projects/9876543210`
+  - **All agent identities in a project in a Principal Access Boundary policy** : `//agents.global.org-123456789012.system.id.goog/attribute.container/projects/9876543210`
 
 To learn more about principal identifier formats, see [Principal identifiers](https://docs.cloud.google.com/iam/docs/principal-identifiers) .
 
