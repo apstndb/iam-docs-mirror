@@ -6,7 +6,7 @@ description: Fine-grained access control and visibility for centrally managing c
 data_source: docs.cloud.google.com
 ---
 
-This document describes audit logging for Identity and Access Management. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
+This document lists the audited methods for Identity and Access Management. Google Cloud services generate audit logs that record administrative and access activities within your Google Cloud resources. For more information about Cloud Audit Logs, see the following:
 
   - [Types of audit logs](https://docs.cloud.google.com/logging/docs/audit#types)
   - [Audit log entry structure](https://docs.cloud.google.com/logging/docs/audit#audit_log_entry_structure)
@@ -20,12 +20,16 @@ You can also view examples of [audit log entries for service accounts](https://d
 
 ## Service name
 
-Identity and Access Management audit logs use the service name `iam.googleapis.com` . Filter for this service:
+To view the Identity and Access Management audit logs, do the following:
 
-``` 
-    protoPayload.serviceName="iam.googleapis.com"
-  
-```
+1.  In the Google Cloud console, go to the Logs Explorer page:
+
+2.  Copy and paste the following query into the **Query** field of the Logs Explorer, and then click **Run query** .
+    
+    ``` 
+        protoPayload.serviceName="iam.googleapis.com"
+      
+    ```
 
 ## Methods by permission type
 
@@ -63,7 +67,11 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.GetWorkforcePool</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProvider</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderKey</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderScimTenant</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderScimToken</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderKeys</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderScimTenants</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderScimTokens</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviders</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.ListWorkforcePools</code><br />
 <code dir="ltr" translate="no">google.iam.v1.WorkloadIdentityPools.GetIamPolicy</code><br />
@@ -90,9 +98,13 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.iam.v2beta.Policies.ListPolicies</code><br />
 <code dir="ltr" translate="no">google.iam.v3.PolicyBindings.GetPolicyBinding</code><br />
 <code dir="ltr" translate="no">google.iam.v3.PolicyBindings.ListPolicyBindings</code><br />
+<code dir="ltr" translate="no">google.iam.v3.PolicyBindings.SearchTargetPolicyBindings</code><br />
 <code dir="ltr" translate="no">google.iam.v3.PrincipalAccessBoundaryPolicies.GetPrincipalAccessBoundaryPolicy</code><br />
 <code dir="ltr" translate="no">google.iam.v3.PrincipalAccessBoundaryPolicies.ListPrincipalAccessBoundaryPolicies</code><br />
 <code dir="ltr" translate="no">google.iam.v3.PrincipalAccessBoundaryPolicies.SearchPrincipalAccessBoundaryPolicyBindings</code><br />
+<code dir="ltr" translate="no">google.iam.v3beta.AccessPolicies.GetAccessPolicy</code><br />
+<code dir="ltr" translate="no">google.iam.v3beta.AccessPolicies.ListAccessPolicies</code><br />
+<code dir="ltr" translate="no">google.iam.v3beta.AccessPolicies.SearchAccessPolicyBindings</code><br />
 <code dir="ltr" translate="no">google.iam.v3beta.PolicyBindings.GetPolicyBinding</code><br />
 <code dir="ltr" translate="no">google.iam.v3beta.PolicyBindings.ListPolicyBindings</code><br />
 <code dir="ltr" translate="no">google.iam.v3beta.PolicyBindings.SearchTargetPolicyBindings</code><br />
@@ -130,17 +142,24 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.CreateWorkforcePool</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProvider</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderKey</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderScimTenant</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderScimToken</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.DeleteWorkforcePool</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProvider</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderKey</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderScimTenant</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderScimToken</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolSubject</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.SetIamPolicy</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePool</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProvider</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProviderKey</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProviderScimTenant</code><br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolSubject</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UpdateWorkforcePool</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProvider</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProviderScimTenant</code><br />
+<code dir="ltr" translate="no">google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProviderScimToken</code><br />
 <code dir="ltr" translate="no">google.iam.v1.WorkloadIdentityPools.AddAttestationRule</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolManagedIdentity</code> (LRO)<br />
@@ -187,6 +206,9 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.iam.v3.PrincipalAccessBoundaryPolicies.CreatePrincipalAccessBoundaryPolicy</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v3.PrincipalAccessBoundaryPolicies.DeletePrincipalAccessBoundaryPolicy</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v3.PrincipalAccessBoundaryPolicies.UpdatePrincipalAccessBoundaryPolicy</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.v3beta.AccessPolicies.CreateAccessPolicy</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.v3beta.AccessPolicies.DeleteAccessPolicy</code> (LRO)<br />
+<code dir="ltr" translate="no">google.iam.v3beta.AccessPolicies.UpdateAccessPolicy</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v3beta.PolicyBindings.CreatePolicyBinding</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v3beta.PolicyBindings.DeletePolicyBinding</code> (LRO)<br />
 <code dir="ltr" translate="no">google.iam.v3beta.PolicyBindings.UpdatePolicyBinding</code> (LRO)<br />
@@ -196,8 +218,7 @@ API methods in the following list that are marked with (LRO) are long-running op
 </tr>
 <tr class="odd">
 <td><code dir="ltr" translate="no">OTHER</code></td>
-<td><code dir="ltr" translate="no">google.iam.admin.v1.QueryGrantableRoles</code> : To enable this log, enable <code dir="ltr" translate="no">ADMIN_READ</code> under the service <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com</code> .<br />
-<code dir="ltr" translate="no">google.iam.v3.PolicyBindings.SearchTargetPolicyBindings</code> : To enable this log, enable <code dir="ltr" translate="no">ADMIN_READ</code> under the service <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com</code> .</td>
+<td><code dir="ltr" translate="no">google.iam.admin.v1.QueryGrantableRoles</code> : To enable this log, enable <code dir="ltr" translate="no">ADMIN_READ</code> under the service <code dir="ltr" translate="no">cloudresourcemanager.googleapis.com</code> .</td>
 </tr>
 </tbody>
 </table>
@@ -244,7 +265,6 @@ The following audit logs are associated with methods belonging to `google.iam.ad
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
       - `iam.roles.delete - ADMIN_WRITE`
-      - `iam.roles.list - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.DeleteRole"`  
 
@@ -408,6 +428,7 @@ The following audit logs are associated with methods belonging to `google.iam.ad
   - **Method** : `  google.iam.admin.v1.UndeleteRole  `  
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
+      - `iam.roles.list - ADMIN_READ`
       - `iam.roles.undelete - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.UndeleteRole"`  
@@ -582,6 +603,24 @@ The following audit logs are associated with methods belonging to `google.iam.ad
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderKey"`  
 
+#### `CreateWorkforcePoolProviderScimTenant`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderScimTenant  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTenants.create - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderScimTenant"`  
+
+#### `CreateWorkforcePoolProviderScimToken`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderScimToken  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTokens.create - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.CreateWorkforcePoolProviderScimToken"`  
+
 #### `DeleteWorkforcePool`
 
   - **Method** : `  google.iam.admin.v1.WorkforcePools.DeleteWorkforcePool  `  
@@ -608,6 +647,24 @@ The following audit logs are associated with methods belonging to `google.iam.ad
       - `iam.workforcePoolProviderKeys.delete - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderKey"`  
+
+#### `DeleteWorkforcePoolProviderScimTenant`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderScimTenant  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTenants.delete - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderScimTenant"`  
+
+#### `DeleteWorkforcePoolProviderScimToken`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderScimToken  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTokens.delete - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.DeleteWorkforcePoolProviderScimToken"`  
 
 #### `DeleteWorkforcePoolSubject`
 
@@ -654,6 +711,24 @@ The following audit logs are associated with methods belonging to `google.iam.ad
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderKey"`  
 
+#### `GetWorkforcePoolProviderScimTenant`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderScimTenant  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTenants.get - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderScimTenant"`  
+
+#### `GetWorkforcePoolProviderScimToken`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderScimToken  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTokens.get - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.GetWorkforcePoolProviderScimToken"`  
+
 #### `ListWorkforcePoolProviderKeys`
 
   - **Method** : `  google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderKeys  `  
@@ -662,6 +737,24 @@ The following audit logs are associated with methods belonging to `google.iam.ad
       - `iam.workforcePoolProviderKeys.list - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderKeys"`  
+
+#### `ListWorkforcePoolProviderScimTenants`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderScimTenants  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTenants.list - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderScimTenants"`  
+
+#### `ListWorkforcePoolProviderScimTokens`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderScimTokens  `  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTokens.list - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.ListWorkforcePoolProviderScimTokens"`  
 
 #### `ListWorkforcePoolProviders`
 
@@ -717,6 +810,15 @@ The following audit logs are associated with methods belonging to `google.iam.ad
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProviderKey"`  
 
+#### `UndeleteWorkforcePoolProviderScimTenant`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProviderScimTenant  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTenants.undelete - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolProviderScimTenant"`  
+
 #### `UndeleteWorkforcePoolSubject`
 
   - **Method** : `  google.iam.admin.v1.WorkforcePools.UndeleteWorkforcePoolSubject  `  
@@ -743,6 +845,24 @@ The following audit logs are associated with methods belonging to `google.iam.ad
       - `iam.workforcePoolProviders.update - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProvider"`  
+
+#### `UpdateWorkforcePoolProviderScimTenant`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProviderScimTenant  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTenants.update - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProviderScimTenant"`  
+
+#### `UpdateWorkforcePoolProviderScimToken`
+
+  - **Method** : `  google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProviderScimToken  `  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.workforcePoolProviderScimTokens.update - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.admin.v1.WorkforcePools.UpdateWorkforcePoolProviderScimToken"`  
 
 ### `google.iam.v1.WorkloadIdentityPools`
 
@@ -853,7 +973,6 @@ The following audit logs are associated with methods belonging to `google.iam.v1
   - **Method** : `  google.iam.v1.WorkloadIdentityPools.GetIamPolicy  `  
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
-      - `iam.googleapis.com/workloadIdentityPools.getIamPolicy - ADMIN_READ`
       - `iam.workloadIdentityPools.getIamPolicy - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v1.WorkloadIdentityPools.GetIamPolicy"`  
@@ -983,7 +1102,6 @@ The following audit logs are associated with methods belonging to `google.iam.v1
   - **Method** : `  google.iam.v1.WorkloadIdentityPools.SetIamPolicy  `  
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
-      - `iam.googleapis.com/workloadIdentityPools.setIamPolicy - ADMIN_WRITE`
       - `iam.workloadIdentityPools.setIamPolicy - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v1.WorkloadIdentityPools.SetIamPolicy"`  
@@ -1190,6 +1308,7 @@ The following audit logs are associated with methods belonging to `google.iam.v2
   - **Method** : `  google.iam.v2.Policies.CreatePolicy  `  
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
+      - `iam.googleapis.com/accessboundarypolicies.create - ADMIN_WRITE`
       - `iam.googleapis.com/denypolicies.create - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v2.Policies.CreatePolicy"`  
@@ -1199,6 +1318,7 @@ The following audit logs are associated with methods belonging to `google.iam.v2
   - **Method** : `  google.iam.v2.Policies.DeletePolicy  `  
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
+      - `iam.googleapis.com/accessboundarypolicies.delete - ADMIN_WRITE`
       - `iam.googleapis.com/denypolicies.delete - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v2.Policies.DeletePolicy"`  
@@ -1226,6 +1346,7 @@ The following audit logs are associated with methods belonging to `google.iam.v2
   - **Method** : `  google.iam.v2.Policies.UpdatePolicy  `  
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
+      - `iam.googleapis.com/accessboundarypolicies.update - ADMIN_WRITE`
       - `iam.googleapis.com/denypolicies.update - ADMIN_WRITE`
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v2.Policies.UpdatePolicy"`  
@@ -1377,6 +1498,7 @@ The following audit logs are associated with methods belonging to `google.iam.v3
   - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
   - **Permissions** :
       - `cloudresourcemanager.googleapis.com/projects.searchPolicyBindings - ADMIN_READ`
+      - `iam.googleapis.com/workloadIdentityPools.searchPolicyBindings - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v3.PolicyBindings.SearchTargetPolicyBindings"`  
 
@@ -1448,6 +1570,64 @@ The following audit logs are associated with methods belonging to `google.iam.v3
   - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v3.PrincipalAccessBoundaryPolicies.UpdatePrincipalAccessBoundaryPolicy"`  
 
+### `google.iam.v3beta.AccessPolicies`
+
+The following audit logs are associated with methods belonging to `google.iam.v3beta.AccessPolicies` .
+
+#### `CreateAccessPolicy`
+
+  - **Method** : `google.iam.v3beta.AccessPolicies.CreateAccessPolicy`  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.accesspolicies.create - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.AccessPolicies.CreateAccessPolicy"`  
+
+#### `DeleteAccessPolicy`
+
+  - **Method** : `google.iam.v3beta.AccessPolicies.DeleteAccessPolicy`  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.accesspolicies.delete - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.AccessPolicies.DeleteAccessPolicy"`  
+
+#### `GetAccessPolicy`
+
+  - **Method** : `google.iam.v3beta.AccessPolicies.GetAccessPolicy`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.accesspolicies.get - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.AccessPolicies.GetAccessPolicy"`  
+
+#### `ListAccessPolicies`
+
+  - **Method** : `google.iam.v3beta.AccessPolicies.ListAccessPolicies`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.accesspolicies.list - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.AccessPolicies.ListAccessPolicies"`  
+
+#### `SearchAccessPolicyBindings`
+
+  - **Method** : `google.iam.v3beta.AccessPolicies.SearchAccessPolicyBindings`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `iam.accesspolicies.searchPolicyBindings - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.AccessPolicies.SearchAccessPolicyBindings"`  
+
+#### `UpdateAccessPolicy`
+
+  - **Method** : `google.iam.v3beta.AccessPolicies.UpdateAccessPolicy`  
+  - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
+  - **Permissions** :
+      - `iam.accesspolicies.update - ADMIN_WRITE`
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
+  - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.AccessPolicies.UpdateAccessPolicy"`  
+
 ### `google.iam.v3beta.PolicyBindings`
 
 The following audit logs are associated with methods belonging to `google.iam.v3beta.PolicyBindings` .
@@ -1498,6 +1678,7 @@ The following audit logs are associated with methods belonging to `google.iam.v3
       - `cloudresourcemanager.googleapis.com/folders.searchPolicyBindings - ADMIN_READ`
       - `cloudresourcemanager.googleapis.com/organizations.searchPolicyBindings - ADMIN_READ`
       - `cloudresourcemanager.googleapis.com/projects.searchPolicyBindings - ADMIN_READ`
+      - `iam.googleapis.com/workspacePools.searchPolicyBindings - ADMIN_READ`
   - **Method is a long-running or streaming operation** : No.  
   - **Filter for this method** : `protoPayload.methodName="google.iam.v3beta.PolicyBindings.SearchTargetPolicyBindings"`  
 
