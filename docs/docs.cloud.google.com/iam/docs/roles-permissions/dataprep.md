@@ -306,6 +306,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
+<p><code dir="ltr" translate="no">compute.instances.troubleshoot</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -353,6 +354,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.managedRulesets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.multiMig.get</code></p>
 <p><code dir="ltr" translate="no">compute.multiMig.list</code></p>
@@ -490,6 +496,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
@@ -694,6 +705,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>

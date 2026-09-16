@@ -2687,6 +2687,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">agentregistry.mcpServers.list</code></li>
 <li><code dir="ltr" translate="no">agentregistry.  mcpServers.  search</code></li>
 </ul>
+<p><code dir="ltr" translate="no">agentregistry.operations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">agentregistry.  operations.  cancel</code></li>
+<li><code dir="ltr" translate="no">agentregistry.  operations.  delete</code></li>
+<li><code dir="ltr" translate="no">agentregistry.operations.get</code></li>
+<li><code dir="ltr" translate="no">agentregistry.operations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.agents.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
@@ -2787,6 +2794,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">networkservices.  agentGateways.  use</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">serviceextensions.  callouts.  invoke</code></p>
 <p><code dir="ltr" translate="no">spanner.  databases.  beginReadOnlyTransaction</code></p>
 <p><code dir="ltr" translate="no">spanner.  databases.  partitionQuery</code></p>
 <p><code dir="ltr" translate="no">spanner.databases.select</code></p>
@@ -2796,15 +2804,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">storage.buckets.get</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.setIamPolicy</code></p>
-<p><code dir="ltr" translate="no">storage.managedFolders.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">storage.managedFolders.create</code></li>
-<li><code dir="ltr" translate="no">storage.managedFolders.delete</code></li>
-<li><code dir="ltr" translate="no">storage.managedFolders.get</code></li>
-<li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
-<li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
-<li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
-</ul>
+<p><code dir="ltr" translate="no">storage.managedFolders.create</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
+<p><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">storage.objects.create</code></p>
 <p><code dir="ltr" translate="no">storage.objects.delete</code></p>
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>

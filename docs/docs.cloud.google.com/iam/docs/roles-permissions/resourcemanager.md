@@ -23,6 +23,67 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="resourcemanager.editor" class="role-title add-link" data-text="Resource Manager Editor" tabindex="-1">Resource Manager Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p>Access to manage Resource Manager resources</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.boundaries.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaries.  associateToCapabilityConfig</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaries.  create</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaries.  delete</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.boundaries.get</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaries.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.  get</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.capabilities.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilities.  get</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilities.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  create</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  delete</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  get</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.folders.create</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.folders.delete</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  folders.  undelete</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.folders.update</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  projects.  associateToCapabilityConfig</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  projects.  create</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.move</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  projects.  update</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagHolds.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">resourcemanager.  tagHolds.  create</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.  tagHolds.  delete</code></li>
+<li><code dir="ltr" translate="no">resourcemanager.tagHolds.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.create</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.delete</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.update</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  tagValues.  create</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  tagValues.  delete</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagValues.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagValues.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  tagValues.  update</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="resourcemanager.folderAdmin" class="role-title add-link" data-text="Folder Admin" tabindex="-1">Folder Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p>Provides all available permissions for working with folders.</p>
@@ -85,7 +146,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  updatePolicyBinding</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.organizationAdmin" class="role-title add-link" data-text="Organization Administrator" tabindex="-1">Organization Administrator</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p>Access to manage IAM policies and view organization policies for organizations, folders, and projects.</p>
@@ -142,7 +203,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  updatePolicyBinding</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.projectIamAdmin" class="role-title add-link" data-text="Project IAM Admin" tabindex="-1">Project IAM Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.projectIamAdmin</code> )</p>
 <p>Provides permissions to administer allow policies on projects.</p>
@@ -163,7 +224,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  updatePolicyBinding</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.projectMover" class="role-title add-link" data-text="Project Mover" tabindex="-1">Project Mover</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.projectMover</code> )</p>
 <p>Provides access to update and move projects.</p>
@@ -175,7 +236,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">resourcemanager.projects.move</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  update</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.tagAdmin" class="role-title add-link" data-text="Tag Administrator" tabindex="-1">Tag Administrator</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Access to create, delete, update, and manage access to Tags</p></td>
@@ -206,7 +267,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><code dir="ltr" translate="no">resourcemanager.  tagValues.  update</code></li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.tagUser" class="role-title add-link" data-text="Tag User" tabindex="-1">Tag User</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p>Access to list Tags and manage their associations with resources</p></td>
@@ -586,6 +647,18 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
@@ -852,6 +925,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">storage.  buckets.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">storage.  buckets.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">storage.  buckets.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.createTagBinding</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  listEffectiveTags</code></p>
@@ -860,6 +937,22 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">transcoder.  jobs.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
@@ -897,7 +990,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">workstations.  workstationClusters.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">workstations.  workstationClusters.  listTagBindings</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.tagViewer" class="role-title add-link" data-text="Tag Viewer" tabindex="-1">Tag Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
 <p>Access to list Tags and their associations with resources</p></td>
@@ -1089,6 +1182,12 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">dataform.  repositories.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
@@ -1216,10 +1315,20 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">spanner.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">storage.  buckets.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">storage.  buckets.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  sources.  listEffectiveTags</code></p>
@@ -1238,6 +1347,27 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><code dir="ltr" translate="no">workflows.  workflows.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">workstations.  workstationClusters.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">workstations.  workstationClusters.  listTagBindings</code></p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="resourcemanager.viewer" class="role-title add-link" data-text="Resource Manager Viewer" tabindex="-1">Resource Manager Viewer</h4>
+<p>( <code dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
+<p>Access to view Resource Manager resources</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.boundaries.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilities.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagHolds.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagKeys.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagValues.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.tagValues.list</code></p></td>
 </tr>
 <tr class="even">
 <td><h4 id="resourcemanager.folderCreator" class="role-title add-link" data-text="Folder Creator" tabindex="-1">Folder Creator</h4>
@@ -1408,12 +1538,74 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="resourcemanager.boundaries.associateToCapabilityConfig" class="permission-name add-link" data-text="resourcemanager.boundaries.associateToCapabilityConfig" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaries.  associateToCapabilityConfig</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.boundaries.create" class="permission-name add-link" data-text="resourcemanager.boundaries.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaries.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="resourcemanager.boundaries.delete" class="permission-name add-link" data-text="resourcemanager.boundaries.delete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaries.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.boundaries.get" class="permission-name add-link" data-text="resourcemanager.boundaries.get" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.boundaries.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="resourcemanager.boundaries.list" class="permission-name add-link" data-text="resourcemanager.boundaries.list" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.boundaries.update" class="permission-name add-link" data-text="resourcemanager.boundaries.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaries.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="resourcemanager.boundaryConfigs.get" class="permission-name add-link" data-text="resourcemanager.boundaryConfigs.get" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.boundaryConfigs.update" class="permission-name add-link" data-text="resourcemanager.boundaryConfigs.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="resourcemanager.capabilities.get" class="permission-name add-link" data-text="resourcemanager.capabilities.get" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilities.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderCreator">Folder Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderEditor</code> )</p>
@@ -1423,14 +1615,55 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.capabilities.update" class="permission-name add-link" data-text="resourcemanager.capabilities.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilities.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderEditor</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="resourcemanager.capabilityConfigs.create" class="permission-name add-link" data-text="resourcemanager.capabilityConfigs.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.capabilityConfigs.delete" class="permission-name add-link" data-text="resourcemanager.capabilityConfigs.delete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="resourcemanager.capabilityConfigs.get" class="permission-name add-link" data-text="resourcemanager.capabilityConfigs.get" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.capabilityConfigs.list" class="permission-name add-link" data-text="resourcemanager.capabilityConfigs.list" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="resourcemanager.capabilityConfigs.update" class="permission-name add-link" data-text="resourcemanager.capabilityConfigs.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="resourcemanager.folders.create" class="permission-name add-link" data-text="resourcemanager.folders.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.folders.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderCreator">Folder Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderCreator</code> )</p>
 <p>Service agent roles</p>
@@ -1441,16 +1674,17 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.folders.createPolicyBinding" class="permission-name add-link" data-text="resourcemanager.folders.createPolicyBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  createPolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderIamAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.folders.delete" class="permission-name add-link" data-text="resourcemanager.folders.delete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.folders.delete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderEditor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1460,14 +1694,14 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.folders.deletePolicyBinding" class="permission-name add-link" data-text="resourcemanager.folders.deletePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  deletePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderIamAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.folders.get" class="permission-name add-link" data-text="resourcemanager.folders.get" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.folders.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
@@ -1476,8 +1710,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.admin">Capacityplanner Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/capacityplanner#capacityplanner.viewer">Capacity Planner Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  capacityplanner.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicemanagement#servicemanagement.admin">Service Management Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicemanagement.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.appManagementViewer">App Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apphub.appManagementViewer</code> )</p>
@@ -1522,7 +1758,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.serviceAgent">Security Center Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.folders.getIamPolicy" class="permission-name add-link" data-text="resourcemanager.folders.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1545,7 +1781,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.serviceAgent">Privileged Access Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.folders.list" class="permission-name add-link" data-text="resourcemanager.folders.list" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.folders.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
@@ -1554,8 +1790,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/servicemanagement#servicemanagement.admin">Service Management Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  servicemanagement.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apphub#apphub.appManagementViewer">App Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apphub.appManagementViewer</code> )</p>
@@ -1593,12 +1831,12 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.serviceAgent">Security Center Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.folders.move" class="permission-name add-link" data-text="resourcemanager.folders.move" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.folders.move</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderMover">Folder Mover</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderMover</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.folders.searchPolicyBindings" class="permission-name add-link" data-text="resourcemanager.folders.searchPolicyBindings" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  searchPolicyBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1609,7 +1847,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderIamAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.folders.setIamPolicy" class="permission-name add-link" data-text="resourcemanager.folders.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
@@ -1624,14 +1862,16 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.serviceAgent">Privileged Access Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.folders.undelete" class="permission-name add-link" data-text="resourcemanager.folders.undelete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  undelete</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.folders.update" class="permission-name add-link" data-text="resourcemanager.folders.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.folders.update</code></h4></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderEditor">Folder Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderEditor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -1641,14 +1881,14 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.folders.updatePolicyBinding" class="permission-name add-link" data-text="resourcemanager.folders.updatePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  folders.  updatePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderIamAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.hierarchyNodes.createTagBinding" class="permission-name add-link" data-text="resourcemanager.hierarchyNodes.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1664,7 +1904,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dspm.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.hierarchyNodes.deleteTagBinding" class="permission-name add-link" data-text="resourcemanager.hierarchyNodes.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1680,7 +1920,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dspm.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.hierarchyNodes.listEffectiveTags" class="permission-name add-link" data-text="resourcemanager.hierarchyNodes.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  listEffectiveTags</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1716,7 +1956,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.serviceAgent">Visual Inspection AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.hierarchyNodes.listTagBindings" class="permission-name add-link" data-text="resourcemanager.hierarchyNodes.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  listTagBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1740,17 +1980,17 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dspm#dspm.serviceAgent">DSPM Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dspm.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.organizations.createPolicyBinding" class="permission-name add-link" data-text="resourcemanager.organizations.createPolicyBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  createPolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.organizations.deletePolicyBinding" class="permission-name add-link" data-text="resourcemanager.organizations.deletePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  deletePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.organizations.get" class="permission-name add-link" data-text="resourcemanager.organizations.get" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.admin">Accesscontextmanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accesscontextmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/accesscontextmanager#accesscontextmanager.editor">Accesscontextmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  accesscontextmanager.editor</code> )</p>
@@ -1779,7 +2019,9 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.editor">Networkmanagement Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkmanagement#networkmanagement.viewer">Network Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkmanagement.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policysimulator#policysimulator.orgPolicyAdmin">OrgPolicy Simulator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policysimulator.orgPolicyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.admin">Security Center Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycentermanagement.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.editor">Security Center Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycentermanagement.editor</code> )</p>
@@ -1870,7 +2112,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.serviceAgent">Security Center Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.organizations.getIamPolicy" class="permission-name add-link" data-text="resourcemanager.organizations.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
@@ -1893,7 +2135,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.serviceAgent">Privileged Access Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.organizations.searchPolicyBindings" class="permission-name add-link" data-text="resourcemanager.organizations.searchPolicyBindings" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  searchPolicyBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1901,7 +2143,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="resourcemanager.organizations.setIamPolicy" class="permission-name add-link" data-text="resourcemanager.organizations.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
@@ -1914,15 +2156,22 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.serviceAgent">Privileged Access Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="resourcemanager.organizations.updatePolicyBinding" class="permission-name add-link" data-text="resourcemanager.organizations.updatePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  organizations.  updatePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="resourcemanager.projects.associateToCapabilityConfig" class="permission-name add-link" data-text="resourcemanager.projects.associateToCapabilityConfig" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  projects.  associateToCapabilityConfig</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="resourcemanager.projects.create" class="permission-name add-link" data-text="resourcemanager.projects.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  projects.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.admin">Assured Workloads Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/assuredworkloads#assuredworkloads.editor">Assured Workloads Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  assuredworkloads.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectCreator">Project Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.projectCreator</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -2144,6 +2393,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudkms#cloudkms.viewer">Cloud KMS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudkms.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.admin">Cloudprivatecatalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.viewer">Cloudprivatecatalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
@@ -2554,11 +2804,13 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectIamAdmin">Project IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.projectIamAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectMover">Project Mover</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.projectMover</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.viewer">Retail Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.viewer</code> )</p>
@@ -3750,6 +4002,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.admin">Cloud Location Finder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudlocationfinder#cloudlocationfinder.viewer">Cloud Location Finder Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudlocationfinder.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.admin">Cloudprivatecatalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalog.viewer">Cloudprivatecatalog Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalog.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudprivatecatalog#cloudprivatecatalogproducer.admin">Catalog Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudprivatecatalogproducer.admin</code> )</p>
@@ -4147,8 +4400,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin">Organization Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.organizationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.admin">Retail Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/retail#retail.editor">Retail Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  retail.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
@@ -5071,6 +5326,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.projects.move" class="permission-name add-link" data-text="resourcemanager.projects.move" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.projects.move</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderAdmin">Folder Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectMover">Project Mover</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.projectMover</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderMover">Folder Mover</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderMover</code> )</p>
@@ -5120,6 +5376,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.projects.update" class="permission-name add-link" data-text="resourcemanager.projects.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  projects.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.projectMover">Project Mover</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.projectMover</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securedlandingzone#securedlandingzone.bqdwProjectRemediator">SLZ BQDW Blueprint Project Level Remediator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securedlandingzone.bqdwProjectRemediator</code> )</p>
 <p>Service agent roles</p>
@@ -5159,6 +5416,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagHolds.create" class="permission-name add-link" data-text="resourcemanager.tagHolds.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  tagHolds.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagHoldAdmin">Tag Hold Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagHoldAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -5174,6 +5432,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagHolds.delete" class="permission-name add-link" data-text="resourcemanager.tagHolds.delete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  tagHolds.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagHoldAdmin">Tag Hold Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagHoldAdmin</code> )</p>
 <p>Service agent roles</p>
@@ -5192,8 +5451,10 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagHoldAdmin">Tag Hold Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagHoldAdmin</code> )</p>
@@ -5211,6 +5472,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagKeys.create" class="permission-name add-link" data-text="resourcemanager.tagKeys.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.tagKeys.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -5225,6 +5487,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagKeys.delete" class="permission-name add-link" data-text="resourcemanager.tagKeys.delete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.tagKeys.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -5239,9 +5502,11 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -5283,9 +5548,11 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -5317,6 +5584,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagKeys.update" class="permission-name add-link" data-text="resourcemanager.tagKeys.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.tagKeys.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -5369,6 +5637,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagValues.create" class="permission-name add-link" data-text="resourcemanager.tagValues.create" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  tagValues.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -5383,6 +5652,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagValues.delete" class="permission-name add-link" data-text="resourcemanager.tagValues.delete" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  tagValues.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -5397,9 +5667,11 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
@@ -5449,9 +5721,11 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.viewer">Resource Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
@@ -5476,6 +5750,7 @@ This page lists the IAM roles and permissions for Resource Manager. To search th
 <td><h4 id="resourcemanager.tagValues.update" class="permission-name add-link" data-text="resourcemanager.tagValues.update" tabindex="-1"><code dir="ltr" translate="no">resourcemanager.  tagValues.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.editor">Resource Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagAdmin">Tag Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagAdmin</code> )</p>
 <p>Service agent roles</p>
 <blockquote>

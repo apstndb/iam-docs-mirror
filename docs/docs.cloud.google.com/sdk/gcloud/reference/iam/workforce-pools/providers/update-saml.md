@@ -215,9 +215,9 @@ At most one of these can be specified:
     
     The `scim_usage` and `extended_attributes_oauth2_client` fields are mutually exclusive. A request that enables both fields on the same workforce identity pool provider will produce an error.
     
-    Use `enabled-for-groups` to enable SCIM-managed groups. Use `scim-usage-unspecified` to disable SCIM-managed groups.
+    Use `enabled-for-groups` to enable SCIM-managed groups. Use `enabled-for-users-groups` to enable SCIM-managed user claims and groups. Use `scim-usage-unspecified` to disable SCIM-managed groups.
     
-    `  SCIM_USAGE  ` must be one of: `enabled-for-groups` , `scim-usage-unspecified` .
+    `  SCIM_USAGE  ` must be one of: `enabled-for-groups` , `enabled-for-users-groups` , `scim-usage-unspecified` .
 
 GCLOUD WIDE FLAGS
 

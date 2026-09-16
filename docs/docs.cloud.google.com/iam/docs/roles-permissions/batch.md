@@ -450,6 +450,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  instances.  startWithEncryptionKey</code></p>
 <p><code dir="ltr" translate="no">compute.instances.stop</code></p>
 <p><code dir="ltr" translate="no">compute.instances.suspend</code></p>
+<p><code dir="ltr" translate="no">compute.instances.troubleshoot</code></p>
 <p><code dir="ltr" translate="no">compute.instances.update</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  updateAccessConfig</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  updateDisplayDevice</code></p>

@@ -683,9 +683,22 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  update</code></li>
 <li><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  updateLock</code></li>
 </ul>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">monitoring.timeSeries.create</code></li>
@@ -897,6 +910,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
 <p><code dir="ltr" translate="no">serviceusage.values.test</code></p>
+<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
+<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p>
 <p><code dir="ltr" translate="no">storage.anywhereCaches.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.anywhereCaches.create</code></li>
@@ -964,6 +979,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
@@ -1374,7 +1390,12 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">firebasevertexai.configs.get</code></p>
 <p><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  get</code></p>
 <p><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  list</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
 <p><code dir="ltr" translate="no">oauthconfig.verification.get</code></p>
 <p><code dir="ltr" translate="no">recommender.  cloudFunctionsPerformanceInsights.  get</code></p>
@@ -1703,7 +1724,12 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">firebasevertexai.configs.get</code></p>
 <p><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  get</code></p>
 <p><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  list</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
 <p><code dir="ltr" translate="no">oauthconfig.verification.get</code></p>
 <p><code dir="ltr" translate="no">recommender.  cloudFunctionsPerformanceInsights.  get</code></p>
@@ -2348,8 +2374,16 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebasevertexai.  promptTemplates.  updateLock</code></li>
 </ul>
 <p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">monitoring.timeSeries.create</code></li>
@@ -2561,6 +2595,8 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
 <p><code dir="ltr" translate="no">serviceusage.values.test</code></p>
+<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
+<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p>
 <p><code dir="ltr" translate="no">storage.anywhereCaches.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.anywhereCaches.create</code></li>
@@ -2628,6 +2664,7 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
@@ -3175,6 +3212,11 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <li><code dir="ltr" translate="no">firebaseperformance.  config.  update</code></li>
 <li><code dir="ltr" translate="no">firebaseperformance.data.get</code></li>
 </ul>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  getIamPolicy</code></p>
@@ -3223,6 +3265,11 @@ This page lists the IAM roles and permissions for Firebase. To search through al
 <p><code dir="ltr" translate="no">firebasecrashlytics.  sessions.  get</code></p>
 <p><code dir="ltr" translate="no">firebaseextensions.  configs.  list</code></p>
 <p><code dir="ltr" translate="no">firebaseperformance.data.get</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  projects.  getIamPolicy</code></p>
@@ -3654,6 +3701,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>

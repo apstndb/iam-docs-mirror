@@ -80,6 +80,40 @@ This page lists the IAM roles and permissions for Device Run. To search through 
 </tbody>
 </table>
 
+### Service agent roles
+
+Service agent roles should only be granted to [service agents](https://docs.cloud.google.com/iam/docs/service-agents) .
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h4 id="devicerun.serviceAgent" class="role-title add-link" data-text="Device Run Service Agent" tabindex="-1">Device Run Service Agent</h4>
+<p>( <code dir="ltr" translate="no">roles/  devicerun.serviceAgent</code> )</p>
+<p>Grants Device Run Service Agent permissions required to manage resources in the consumer project.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code dir="ltr" translate="no">pubsub.topics.publish</code></p>
+<p><code dir="ltr" translate="no">storage.buckets.create</code></p>
+<p><code dir="ltr" translate="no">storage.buckets.get</code></p>
+<p><code dir="ltr" translate="no">storage.buckets.list</code></p>
+<p><code dir="ltr" translate="no">storage.objects.create</code></p>
+<p><code dir="ltr" translate="no">storage.objects.delete</code></p>
+<p><code dir="ltr" translate="no">storage.objects.get</code></p></td>
+</tr>
+</tbody>
+</table>
+
 ## Device Run permissions
 
 <table>

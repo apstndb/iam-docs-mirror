@@ -457,6 +457,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  hyperparameterTuningJobs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexEndpoints.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.memories.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  memoryRevisions.  list</code></p>
@@ -718,10 +719,14 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
 <p><code dir="ltr" translate="no">autoscaling.sites.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">autoscaling.sites.setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupPlans.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupVaults.list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvbackups.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvdataSources.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  dataSourceReferences.  list</code></p>
@@ -963,6 +968,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.  sharedPreferenceSets.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.tags.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollections.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  transformerDefinitions.  list</code></p>
@@ -1240,6 +1246,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.machineImages.list</code></p>
 <p><code dir="ltr" translate="no">compute.  machineImages.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.machineTypes.list</code></p>
+<p><code dir="ltr" translate="no">compute.managedRulesets.list</code></p>
 <p><code dir="ltr" translate="no">compute.multiMig.list</code></p>
 <p><code dir="ltr" translate="no">compute.multiMigMembers.list</code></p>
 <p><code dir="ltr" translate="no">compute.  networkAttachments.  getIamPolicy</code></p>
@@ -1293,6 +1300,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.  regionTargetTcpProxies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.regionUrlMaps.list</code></p>
 <p><code dir="ltr" translate="no">compute.regions.list</code></p>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  list</code></p>
@@ -2461,6 +2469,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  remoteTransportProfiles.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  serviceClasses.  list</code></p>
@@ -2578,6 +2587,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">oracledatabase.databases.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbNodes.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.list</code></p>
@@ -2585,6 +2595,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionTypes.  list</code></p>
@@ -2841,6 +2852,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">redis.operations.list</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  instances.  list</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  folders.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  folders.  setIamPolicy</code></p>
@@ -2913,11 +2926,17 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">saasservicemgmt.flags.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.locations.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  rolloutKinds.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.rollouts.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  unitOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.units.list</code></p>
@@ -2994,6 +3013,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">servicedirectory.  services.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.services.list</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.  services.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.artifacts.list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.events.list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.locations.list</code></p>
@@ -3308,6 +3328,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">aiplatform.  hyperparameterTuningJobs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexEndpoints.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.memories.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  memoryRevisions.  list</code></p>
@@ -3549,10 +3570,14 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></p>
 <p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
 <p><code dir="ltr" translate="no">autoscaling.sites.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupPlans.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupVaults.list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvbackups.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvdataSources.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  dataSourceReferences.  list</code></p>
@@ -3768,6 +3793,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">chronicle.  sharedPreferenceSets.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.tags.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollections.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  transformerDefinitions.  list</code></p>
@@ -4012,6 +4038,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.  machineImages.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.machineImages.list</code></p>
 <p><code dir="ltr" translate="no">compute.machineTypes.list</code></p>
+<p><code dir="ltr" translate="no">compute.managedRulesets.list</code></p>
 <p><code dir="ltr" translate="no">compute.multiMig.list</code></p>
 <p><code dir="ltr" translate="no">compute.multiMigMembers.list</code></p>
 <p><code dir="ltr" translate="no">compute.  networkAttachments.  getIamPolicy</code></p>
@@ -4057,6 +4084,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.  regionTargetTcpProxies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.regionUrlMaps.list</code></p>
 <p><code dir="ltr" translate="no">compute.regions.list</code></p>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  list</code></p>
@@ -5072,6 +5100,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">networkconnectivity.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  list</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  remoteTransportProfiles.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  serviceClasses.  list</code></p>
@@ -5176,6 +5205,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">oracledatabase.databases.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbNodes.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.list</code></p>
@@ -5183,6 +5213,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionTypes.  list</code></p>
@@ -5420,6 +5451,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">redis.operations.list</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  instances.  list</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  folders.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  listTagBindings</code></p>
@@ -5480,11 +5513,17 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">saasservicemgmt.flags.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.locations.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  rolloutKinds.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.rollouts.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  unitOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.units.list</code></p>
@@ -5551,6 +5590,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">servicedirectory.  namespaces.  list</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.  services.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.services.list</code></p>
+<p><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.artifacts.list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.events.list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.locations.list</code></p>

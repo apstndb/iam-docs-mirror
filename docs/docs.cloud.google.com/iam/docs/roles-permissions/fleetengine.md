@@ -242,6 +242,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.enable</code></p></td>

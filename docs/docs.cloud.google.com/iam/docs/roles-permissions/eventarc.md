@@ -454,18 +454,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">cloudfunctions.functions.get</code></p>
-<p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  get</code></p>
+<td><p><code dir="ltr" translate="no">compute.  instanceGroupManagers.  get</code></p>
 <p><code dir="ltr" translate="no">compute.networkAttachments.get</code></p>
 <p><code dir="ltr" translate="no">compute.  networkAttachments.  update</code></p>
-<p><code dir="ltr" translate="no">compute.networkAttachments.use</code></p>
 <p><code dir="ltr" translate="no">compute.regionOperations.get</code></p>
 <p><code dir="ltr" translate="no">container.clusters.connect</code></p>
 <p><code dir="ltr" translate="no">container.clusters.get</code></p>
 <p><code dir="ltr" translate="no">container.deployments.create</code></p>
 <p><code dir="ltr" translate="no">container.deployments.delete</code></p>
 <p><code dir="ltr" translate="no">container.deployments.get</code></p>
-<p><code dir="ltr" translate="no">container.deployments.list</code></p>
 <p><code dir="ltr" translate="no">container.deployments.update</code></p>
 <p><code dir="ltr" translate="no">container.namespaces.create</code></p>
 <p><code dir="ltr" translate="no">container.namespaces.delete</code></p>
@@ -474,9 +471,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">container.  serviceAccounts.  create</code></p>
 <p><code dir="ltr" translate="no">container.  serviceAccounts.  delete</code></p>
 <p><code dir="ltr" translate="no">container.serviceAccounts.get</code></p>
-<p><code dir="ltr" translate="no">container.serviceAccounts.list</code></p>
 <p><code dir="ltr" translate="no">container.services.get</code></p>
-<p><code dir="ltr" translate="no">container.services.list</code></p>
 <p><code dir="ltr" translate="no">dns.  networks.  targetWithPeeringZone</code></p>
 <p><code dir="ltr" translate="no">eventarc.channels.publish</code></p>
 <p><code dir="ltr" translate="no">eventarc.messageBuses.publish</code></p>
@@ -484,7 +479,6 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
 <p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p>
 <p><code dir="ltr" translate="no">iam.  serviceAccounts.  getOpenIdToken</code></p>
-<p><code dir="ltr" translate="no">monitoring.timeSeries.create</code></p>
 <p><code dir="ltr" translate="no">pubsub.subscriptions.consume</code></p>
 <p><code dir="ltr" translate="no">pubsub.subscriptions.create</code></p>
 <p><code dir="ltr" translate="no">pubsub.subscriptions.delete</code></p>

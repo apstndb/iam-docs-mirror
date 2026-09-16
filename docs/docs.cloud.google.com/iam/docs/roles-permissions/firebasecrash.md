@@ -39,6 +39,11 @@ This page lists the IAM roles and permissions for Firebase Crashlytics. To searc
 <li><code dir="ltr" translate="no">firebasecrashlytics.  issues.  update</code></li>
 <li><code dir="ltr" translate="no">firebasecrashlytics.  sessions.  get</code></li>
 </ul>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
@@ -54,6 +59,11 @@ This page lists the IAM roles and permissions for Firebase Crashlytics. To searc
 <p><code dir="ltr" translate="no">firebasecrashlytics.issues.get</code></p>
 <p><code dir="ltr" translate="no">firebasecrashlytics.  issues.  list</code></p>
 <p><code dir="ltr" translate="no">firebasecrashlytics.  sessions.  get</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.download</code></p>
+<p><code dir="ltr" translate="no">logging.views.access</code></p>
+<p><code dir="ltr" translate="no">logging.views.listLogs</code></p>
+<p><code dir="ltr" translate="no">logging.views.listResourceKeys</code></p>
+<p><code dir="ltr" translate="no">logging.  views.  listResourceValues</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>

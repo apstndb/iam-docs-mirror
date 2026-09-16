@@ -26,7 +26,28 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <td><h4 id="backupdr.admin" class="role-title add-link" data-text="Backup and DR Admin" tabindex="-1">Backup and DR Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  backupdr.admin</code> )</p>
 <p>Provides full access to all Backup and DR resources.</p></td>
-<td><p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.*</code></p>
+<td><p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  authorize</code></li>
+<li><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  viewMatchingResources</code></li>
+</ul>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  create</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  delete</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  get</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  createForAlloydbCluster</code></li>
 <li><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  createForCloudSqlInstance</code></li>
@@ -91,6 +112,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <li><code dir="ltr" translate="no">backupdr.  backupVaults.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">backupdr.backupVaults.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvbackups.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">backupdr.bvbackups.delete</code></li>
@@ -213,7 +235,28 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <td><h4 id="backupdr.editor" class="role-title add-link" data-text="Backupdr Editor" tabindex="-1">Backupdr Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  backupdr.editor</code> )</p>
 <p>Editor role for backupdr</p></td>
-<td><p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.*</code></p>
+<td><p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  authorize</code></li>
+<li><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  viewMatchingResources</code></li>
+</ul>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  create</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  delete</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  get</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></li>
+<li><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  createForAlloydbCluster</code></li>
 <li><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  createForCloudSqlInstance</code></li>
@@ -273,6 +316,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupVaults.update</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvbackups.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">backupdr.bvbackups.delete</code></li>
@@ -380,7 +424,13 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <td><h4 id="backupdr.viewer" class="role-title add-link" data-text="Backup and DR Viewer" tabindex="-1">Backup and DR Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  backupdr.viewer</code> )</p>
 <p>Provides read-only access to all Backup and DR resources.</p></td>
-<td><p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForAlloydbCluster</code></p>
+<td><p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  viewMatchingResources</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  get</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForAlloydbCluster</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForComputeDisk</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForComputeInstance</code></p>
@@ -402,6 +452,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code dir="ltr" translate="no">backupdr.backupVaults.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForComputeDisk</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForComputeInstance</code></p>
@@ -903,7 +954,13 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <td><h4 id="backupdr.userv2" class="role-title add-link" data-text="Backup and DR User V2" tabindex="-1">Backup and DR User V2</h4>
 <p>( <code dir="ltr" translate="no">roles/  backupdr.userv2</code> )</p>
 <p>Provides full access to Backup and DR resources except deploying and managing backup infrastructure, expiring backups, changing data sensitivity and configuring on-premises billing.</p></td>
-<td><p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.*</code></p>
+<td><p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  viewMatchingResources</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  get</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  createForAlloydbCluster</code></li>
 <li><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  createForCloudSqlInstance</code></li>
@@ -960,6 +1017,7 @@ This page lists the IAM roles and permissions for Backup and Disaster Recovery. 
 <p><code dir="ltr" translate="no">backupdr.backupVaults.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForComputeDisk</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForComputeInstance</code></p>

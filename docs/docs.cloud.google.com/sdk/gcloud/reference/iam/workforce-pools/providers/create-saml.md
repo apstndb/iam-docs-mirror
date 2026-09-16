@@ -144,9 +144,9 @@ OPTIONAL FLAGS
     
     The `scim_usage` and `extended_attributes_oauth2_client` fields are mutually exclusive. A request that enables both fields on the same workforce identity pool provider will produce an error.
     
-    Use `enabled-for-groups` to enable SCIM-managed groups. Use `scim-usage-unspecified` to disable SCIM-managed groups.
+    Use `enabled-for-groups` to enable SCIM-managed groups. Use `enabled-for-users-groups` to enable SCIM-managed user claims and groups. Use `scim-usage-unspecified` to disable SCIM-managed groups.
     
-    `  SCIM_USAGE  ` must be one of: `enabled-for-groups` , `scim-usage-unspecified` .
+    `  SCIM_USAGE  ` must be one of: `enabled-for-groups` , `enabled-for-users-groups` , `scim-usage-unspecified` .
 
   - `--extended-attributes-client-id` = `  EXTENDED_ATTRIBUTES_CLIENT_ID  `  
     The OAuth 2.0 client ID for retrieving extended attributes from the identity provider. Required to get extended group memberships for a subset of Google Cloud products. The --extended-attributes-client-id flag is restricted. We suggest you use [SCIM](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml) instead.

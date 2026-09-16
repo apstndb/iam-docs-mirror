@@ -98,7 +98,7 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 <p><code dir="ltr" translate="no">developerconnect.  gitRepositoryLinks.  gitProxyWrite</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="developerconnect.insightsAdmin" class="role-title add-link" data-text="Developer Connect Insights Admin Beta" tabindex="-1">Developer Connect Insights Admin <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.insightsAdmin" class="role-title add-link" data-text="Developer Connect Insights Admin" tabindex="-1">Developer Connect Insights Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.insightsAdmin</code> )</p>
 <p>Admin access to Developer Connect Insights resources.</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  deploymentEvents.*</code></p>
@@ -125,13 +125,14 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="developerconnect.insightsAgent" class="role-title add-link" data-text="Developer Connect Insights Config Agent Beta" tabindex="-1">Developer Connect Insights Config Agent <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.insightsAgent" class="role-title add-link" data-text="Developer Connect Insights Config Agent" tabindex="-1">Developer Connect Insights Config Agent</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.insightsAgent</code> )</p>
 <p>Allow Developer Connect to access SDLC information.</p></td>
 <td><p><code dir="ltr" translate="no">cloudasset.  assets.  exportResource</code></p>
 <p><code dir="ltr" translate="no">cloudasset.assets.listResource</code></p>
 <p><code dir="ltr" translate="no">cloudasset.  assets.  searchAllResources</code></p>
 <p><code dir="ltr" translate="no">cloudasset.feeds.create</code></p>
+<p><code dir="ltr" translate="no">cloudasset.feeds.delete</code></p>
 <p><code dir="ltr" translate="no">cloudasset.feeds.get</code></p>
 <p><code dir="ltr" translate="no">cloudasset.feeds.update</code></p>
 <p><code dir="ltr" translate="no">containeranalysis.  occurrences.  get</code></p>
@@ -139,7 +140,7 @@ This page lists the IAM roles and permissions for Developer Connect. To search t
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="developerconnect.insightsViewer" class="role-title add-link" data-text="Developer Connect Insights Viewer Beta" tabindex="-1">Developer Connect Insights Viewer <sup>Beta</sup></h4>
+<td><h4 id="developerconnect.insightsViewer" class="role-title add-link" data-text="Developer Connect Insights Viewer" tabindex="-1">Developer Connect Insights Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  developerconnect.insightsViewer</code> )</p>
 <p>Read-only access to Developer Connect Insights resources.</p></td>
 <td><p><code dir="ltr" translate="no">developerconnect.  deploymentEvents.*</code></p>

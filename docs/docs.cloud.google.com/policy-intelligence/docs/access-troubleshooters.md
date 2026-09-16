@@ -16,13 +16,13 @@ To help you understand and remedy access issues, Policy Intelligence offers the 
 
 ## Policy Troubleshooter
 
-> **Preview — Troubleshooting principal access boundary policies**
+> **Preview — Troubleshooting Principal Access Boundary policies**
 > 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and principal access boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
+Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and Principal Access Boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
 
-To learn how to use Policy Troubleshooter to troubleshoot IAM allow policies, deny policies, and principal access boundary (PAB) policies, see [Troubleshooting access](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
+To learn how to use Policy Troubleshooter to troubleshoot IAM allow policies, deny policies, and Principal Access Boundary (PAB) policies for users, service accounts, and [Agent Identities](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , see [Troubleshooting access](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access) .
 
 To learn about the different types of policies that IAM supports, see [Policy types](https://docs.cloud.google.com/iam/docs/policy-types) .
 

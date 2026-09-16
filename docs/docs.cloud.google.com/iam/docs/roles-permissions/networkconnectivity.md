@@ -102,6 +102,13 @@ This page lists the IAM roles and permissions for Network Connectivity Center. T
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  get</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  list</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  create</code></li>
@@ -473,6 +480,13 @@ This page lists the IAM roles and permissions for Network Connectivity Center. T
 <p>Service Automation Producer Admin uses information from a consumer request to manage ServiceClasses and ServiceConnectionMaps</p></td>
 <td><p><code dir="ltr" translate="no">networkconnectivity.  operations.  get</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  create</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  delete</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  get</code></li>
+<li><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">networkconnectivity.  serviceClasses.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">networkconnectivity.  serviceClasses.  create</code></li>
@@ -1759,6 +1773,41 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataflow#dataflow.serviceAgent">Cloud Dataflow Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataflow.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="networkconnectivity.pscAuthorizationPolicies.create" class="permission-name add-link" data-text="networkconnectivity.pscAuthorizationPolicies.create" tabindex="-1"><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.serviceProducerAdmin">Service Automation Service Producer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.serviceProducerAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="networkconnectivity.pscAuthorizationPolicies.delete" class="permission-name add-link" data-text="networkconnectivity.pscAuthorizationPolicies.delete" tabindex="-1"><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.serviceProducerAdmin">Service Automation Service Producer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.serviceProducerAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="networkconnectivity.pscAuthorizationPolicies.get" class="permission-name add-link" data-text="networkconnectivity.pscAuthorizationPolicies.get" tabindex="-1"><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.serviceProducerAdmin">Service Automation Service Producer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.serviceProducerAdmin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="networkconnectivity.pscAuthorizationPolicies.list" class="permission-name add-link" data-text="networkconnectivity.pscAuthorizationPolicies.list" tabindex="-1"><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.editor">Network Connectivity Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkconnectivity#networkconnectivity.serviceProducerAdmin">Service Automation Service Producer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  networkconnectivity.serviceProducerAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="networkconnectivity.regionalEndpoints.create" class="permission-name add-link" data-text="networkconnectivity.regionalEndpoints.create" tabindex="-1"><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  create</code></h4></td>

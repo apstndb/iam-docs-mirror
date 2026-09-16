@@ -719,6 +719,7 @@ These resources within a dataset:
 </ul>
 <p><code dir="ltr" translate="no">dataform.repositories.create</code></p>
 <p><code dir="ltr" translate="no">dataform.repositories.list</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
@@ -931,6 +932,7 @@ Repository
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  setDefault</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  update</code></li>
 </ul>

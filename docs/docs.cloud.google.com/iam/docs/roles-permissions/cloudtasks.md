@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for Cloud Tasks. To search through
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="cloudtasks.admin" class="role-title add-link" data-text="Cloud Tasks Admin Beta" tabindex="-1">Cloud Tasks Admin <sup>Beta</sup></h4>
+<td><h4 id="cloudtasks.admin" class="role-title add-link" data-text="Cloud Tasks Admin" tabindex="-1">Cloud Tasks Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  cloudtasks.admin</code> )</p>
 <p>Full access to queues and tasks.</p></td>
 <td><p><code dir="ltr" translate="no">cloudtasks.*</code></p>
@@ -55,7 +55,7 @@ This page lists the IAM roles and permissions for Cloud Tasks. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudtasks.editor" class="role-title add-link" data-text="Cloud Tasks Editor Beta" tabindex="-1">Cloud Tasks Editor <sup>Beta</sup></h4>
+<td><h4 id="cloudtasks.editor" class="role-title add-link" data-text="Cloud Tasks Editor" tabindex="-1">Cloud Tasks Editor</h4>
 <p>( <code dir="ltr" translate="no">roles/  cloudtasks.editor</code> )</p>
 <p>Editor role for cloudtasks</p></td>
 <td><p><code dir="ltr" translate="no">cloudtasks.cmekConfig.get</code></p>
@@ -87,7 +87,7 @@ This page lists the IAM roles and permissions for Cloud Tasks. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudtasks.viewer" class="role-title add-link" data-text="Cloud Tasks Viewer Beta" tabindex="-1">Cloud Tasks Viewer <sup>Beta</sup></h4>
+<td><h4 id="cloudtasks.viewer" class="role-title add-link" data-text="Cloud Tasks Viewer" tabindex="-1">Cloud Tasks Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  cloudtasks.viewer</code> )</p>
 <p>Get and list access to tasks, queues, and locations.</p></td>
 <td><p><code dir="ltr" translate="no">cloudtasks.cmekConfig.get</code></p>
@@ -117,7 +117,7 @@ This page lists the IAM roles and permissions for Cloud Tasks. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="odd">
-<td><h4 id="cloudtasks.queueAdmin" class="role-title add-link" data-text="Cloud Tasks Queue Admin Beta" tabindex="-1">Cloud Tasks Queue Admin <sup>Beta</sup></h4>
+<td><h4 id="cloudtasks.queueAdmin" class="role-title add-link" data-text="Cloud Tasks Queue Admin" tabindex="-1">Cloud Tasks Queue Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  cloudtasks.queueAdmin</code> )</p>
 <p>Admin access to queues.</p></td>
 <td><p><code dir="ltr" translate="no">cloudtasks.locations.*</code></p>
@@ -142,7 +142,7 @@ This page lists the IAM roles and permissions for Cloud Tasks. To search through
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="cloudtasks.taskDeleter" class="role-title add-link" data-text="Cloud Tasks Task Deleter Beta" tabindex="-1">Cloud Tasks Task Deleter <sup>Beta</sup></h4>
+<td><h4 id="cloudtasks.taskDeleter" class="role-title add-link" data-text="Cloud Tasks Task Deleter" tabindex="-1">Cloud Tasks Task Deleter</h4>
 <p>( <code dir="ltr" translate="no">roles/  cloudtasks.taskDeleter</code> )</p>
 <p>Access to delete tasks.</p></td>
 <td><p><code dir="ltr" translate="no">cloudtasks.tasks.delete</code></p>

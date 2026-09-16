@@ -16,7 +16,7 @@ At a high level, to integrate an OAuth-based application, you do the following:
 2.  [Create an OAuth client credential](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create-credential) .
 3.  In the OAuth client credential, obtain the client secret. To learn about risks associated with storing and accessing the client secret and strategies that can help mitigate them, see [OAuth client and credential security risks and mitigations](https://docs.cloud.google.com/iam/docs/workforce-oauth-app#security) .
 
-After you have completed these steps, the OAuth-based application can access Google Cloud products and data.
+After you have completed these steps, the OAuth-based application can access Google Cloud products and data. You can use the registered OAuth client credentials to exchange authorization codes or refresh tokens with the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) .
 
 ## Before you begin
 
@@ -386,4 +386,6 @@ Replace the following:
 
 ## What's next
 
-  - Learn about [Identity-Aware Proxy with workforce identity federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)
+  - [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens)
+  - [Cloud OAuth API overview](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview)
+  - [Identity-Aware Proxy with workforce identity federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)

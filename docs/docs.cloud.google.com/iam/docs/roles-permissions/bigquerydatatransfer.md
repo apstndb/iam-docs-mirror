@@ -63,6 +63,7 @@ BigQuery Data Transfer Service offers the following service agent roles. Service
 <p><code dir="ltr" translate="no">dataplex.metadataJobs.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.metadataJobs.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.metadataJobs.list</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
 <p><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.route</code></p>

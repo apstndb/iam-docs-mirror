@@ -32,6 +32,8 @@ Flow offers the following service agent roles. Service agent roles should only b
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.create</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>
@@ -44,6 +46,8 @@ Flow offers the following service agent roles. Service agent roles should only b
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.create</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.use</code></p></td>

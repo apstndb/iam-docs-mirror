@@ -49,6 +49,11 @@ This page lists the IAM roles and permissions for Google Cloud Fraud Defense. To
 <li><code dir="ltr" translate="no">recaptchaenterprise.  keys.  update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  metrics.  get</code></p>
+<p><code dir="ltr" translate="no">recaptchaenterprise.policies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">recaptchaenterprise.  policies.  get</code></li>
+<li><code dir="ltr" translate="no">recaptchaenterprise.  policies.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.  get</code></li>
@@ -84,6 +89,11 @@ This page lists the IAM roles and permissions for Google Cloud Fraud Defense. To
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  retrievelegacysecretkey</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  update</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  metrics.  get</code></p>
+<p><code dir="ltr" translate="no">recaptchaenterprise.policies.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">recaptchaenterprise.  policies.  get</code></li>
+<li><code dir="ltr" translate="no">recaptchaenterprise.  policies.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.  get</code></li>
@@ -106,6 +116,7 @@ This page lists the IAM roles and permissions for Google Cloud Fraud Defense. To
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  metrics.  get</code></p>
+<p><code dir="ltr" translate="no">recaptchaenterprise.  policies.  get</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.  get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
@@ -359,6 +370,23 @@ This page lists the IAM roles and permissions for Google Cloud Fraud Defense. To
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.editor">Recaptchaenterprise Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.viewer">reCAPTCHA Enterprise Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="recaptchaenterprise.policies.get" class="permission-name add-link" data-text="recaptchaenterprise.policies.get" tabindex="-1"><code dir="ltr" translate="no">recaptchaenterprise.  policies.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.admin">reCAPTCHA Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.editor">Recaptchaenterprise Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.viewer">reCAPTCHA Enterprise Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="recaptchaenterprise.policies.update" class="permission-name add-link" data-text="recaptchaenterprise.policies.update" tabindex="-1"><code dir="ltr" translate="no">recaptchaenterprise.  policies.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.admin">reCAPTCHA Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/recaptchaenterprise#recaptchaenterprise.editor">Recaptchaenterprise Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  recaptchaenterprise.editor</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="recaptchaenterprise.projectmetadata.get" class="permission-name add-link" data-text="recaptchaenterprise.projectmetadata.get" tabindex="-1"><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.  get</code></h4></td>

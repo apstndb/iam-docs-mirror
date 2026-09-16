@@ -2,18 +2,18 @@
 name: documents/docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials
 uri: https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials
 title: Obtain short-lived tokens for Workforce Identity Federation
-description: Fine-grained access control and visibility for centrally managing cloud resources.
+description: Obtain short-lived tokens using a workforce identity pool and provider to access {{dynamic_data.site_values.cloud_name}} resources.
 data_source: docs.cloud.google.com
 ---
 
-This guide shows you how to use a workforce identity pool and workforce identity pool provider to obtain short-lived tokens from Security Token Service. You can use the tokens to access Google Cloud resources that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) that you have been granted access to.
+This guide shows you how to use a workforce identity pool and workforce identity pool provider to obtain short-lived tokens from Security Token Service or the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) . You can use the tokens to access Google Cloud resources that [support Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/federated-identity-supported-services) and for which you have permissions.
 
 You can use the methods described in this guide on headless machines.
 
 To obtain short-lived tokens, follow this high-level process:
 
 1.  Obtain a credential from the trusted identity provider (IdP).
-2.  Exchange the credential for a token from the Security Token Service.
+2.  Exchange the credential for a token from Security Token Service or the Cloud OAuth API.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ To obtain short-lived tokens, follow this high-level process:
 
 2.  Ensure that every principal for which tokens are exchanged using the Security Token Service has the Identity and Access Management (IAM) permission `serviceusage.services.use` . The least-privileged role that contains this permission is Service Usage Consumer ( `roles/serviceusage.serviceUsageConsumer` ).
 
-3.  Enable the IAM and Security Token Service APIs.
+3.  Enable the IAM, Security Token Service, and the Cloud OAuth API APIs.
     
     **Roles required to enable APIs**
     
@@ -42,7 +42,9 @@ To obtain short-lived tokens, follow this high-level process:
 
 ## Exchange external credentials for a Google Cloud access token
 
-This section shows you how to use [Security Token Service](https://docs.cloud.google.com/iam/docs/reference/sts/rest) to exchange your external credentials for an access token that grants access to Google Cloud. You can do this by using the gcloud CLI, REST API, and Cloud Client Libraries as described later in this guide.
+This section shows you how to use [Security Token Service](https://docs.cloud.google.com/iam/docs/reference/sts/rest) or the [Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-api-overview) to exchange your external credentials for an access token that grants access to Google Cloud. You can do this by using the gcloud CLI, REST API, and Cloud Client Libraries as described later in this guide.
+
+For instructions on how to exchange authorization codes and refresh tokens using the Cloud OAuth API, see [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens) .
 
 If you need long-lived access, you can configure a long-running process to continuously refresh credentials on that machine. Alternatively, you can run a local server in the background with an endpoint that returns the credentials.
 
@@ -623,7 +625,7 @@ You can now execute `gcloud` commands using the gcloud CLI.
 
 If you use a supported client library, you can configure the client library so that it generates Google credentials automatically. When possible, we recommend that you generate credentials automatically, so that you don't need to implement the token-exchange process yourself.
 
-Google Cloud client library support for workforce pools are supported in the following languages: Node.js, Java, Python, Go and C++ (gRPC).
+Google Cloud client libraries support workforce pools in the following languages: Node.js, Java, Python, Go, and C++ (gRPC).
 
 To use client libraries with these services or languages, do the following:
 

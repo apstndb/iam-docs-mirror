@@ -94,6 +94,20 @@ Create/read/update/delete/undelete requests
 
 60 per project per minute
 
+Cloud OAuth API
+
+Token exchange requests ( `cloudoauth.googleapis.com/exchange_token_requests` )
+
+1,000 per organization per minute
+
+User info requests ( `cloudoauth.googleapis.com/fetch_user_info_requests` )
+
+1,000 per organization per minute
+
+Enterprise groups requests ( `cloudoauth.googleapis.com/fetch_groups_requests` )
+
+1,000 per organization per minute
+
 IAM SCIM API
 
 Create/read/update/delete/patch requests to SCIM endpoints

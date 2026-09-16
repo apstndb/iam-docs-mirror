@@ -429,20 +429,12 @@ Service agent for <code dir="ltr" translate="no">storage.googleapis.com</code> .
 <p>Granted on the project.</p></td>
 </tr>
 <tr class="even">
-<td><h4 id="automl-service-agent" class="service-agent-name add-link" data-text="AutoML Service Agent" tabindex="-1">AutoML Service Agent</h4>
-<a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">automl.googleapis.com</code> .
-<p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-automl.iam.gserviceaccount.com</code></p></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/automl#automl.serviceAgent">AutoML Service Agent</a><br />
-( <code dir="ltr" translate="no">roles/automl.serviceAgent</code> )</p>
-<p>Granted on the project.</p></td>
-</tr>
-<tr class="odd">
 <td><h4 id="backup-and-dr-runner-service-agent" class="service-agent-name add-link" data-text="Backup and DR Runner Service Agent" tabindex="-1">Backup and DR Runner Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">backupdr.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-backupdr-run.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="backup-and-dr-service-agent" class="service-agent-name add-link" data-text="Backup and DR Service Agent" tabindex="-1">Backup and DR Service Agent</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">backupdr.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-backupdr.iam.gserviceaccount.com</code></p></td>
@@ -450,13 +442,13 @@ Service agent for <code dir="ltr" translate="no">backupdr.googleapis.com</code> 
 ( <code dir="ltr" translate="no">roles/backupdr.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="backup-and-dr-vault-service-agent" class="service-agent-name add-link" data-text="Backup and DR Vault Service Agent" tabindex="-1">Backup and DR Vault Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">backupdr.googleapis.com</code> .
 <p><code dir="ltr" translate="no">vault-           PROJECT_NUMBER          -           IDENTIFIER          @gcp-sa-backupdr-pr.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="backup-for-gke-service-account" class="service-agent-name add-link" data-text="Backup for GKE Service Account" tabindex="-1">Backup for GKE Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">gkebackup.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-gkebackup.iam.gserviceaccount.com</code></p></td>
@@ -464,7 +456,7 @@ Service agent for <code dir="ltr" translate="no">backupdr.googleapis.com</code> 
 ( <code dir="ltr" translate="no">roles/gkebackup.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="bare-metal-solution-service-account" class="service-agent-name add-link" data-text="Bare Metal Solution Service Account" tabindex="-1">Bare Metal Solution Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">baremetalsolution.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-bms.iam.gserviceaccount.com</code></p></td>
@@ -472,7 +464,7 @@ Service agent for <code dir="ltr" translate="no">backupdr.googleapis.com</code> 
 ( <code dir="ltr" translate="no">roles/baremetalsolution.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="batch-service-account" class="service-agent-name add-link" data-text="Batch Service Account" tabindex="-1">Batch Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">batch.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-cloudbatch.iam.gserviceaccount.com</code></p></td>
@@ -480,16 +472,22 @@ Service agent for <code dir="ltr" translate="no">backupdr.googleapis.com</code> 
 ( <code dir="ltr" translate="no">roles/batch.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="big-query-service-agent" class="service-agent-name add-link" data-text="Big Query Service Agent" tabindex="-1">Big Query Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">bigquery.googleapis.com</code> .
 <p><code dir="ltr" translate="no">bq-           PROJECT_NUMBER          @bigquery-encryption.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="biglake-iceberg-rest-catalog-api-service-agent" class="service-agent-name add-link" data-text="BigLake Iceberg Rest Catalog API Service Agent" tabindex="-1">BigLake Iceberg Rest Catalog API Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">biglake.googleapis.com</code> .
 <p><code dir="ltr" translate="no">blirc-           PROJECT_NUMBER          -           IDENTIFIER          @gcp-sa-biglakerestcatalog.iam.gserviceaccount.com</code></p></td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td><h4 id="biglake-identity-federation-service-agent" class="service-agent-name add-link" data-text="BigLake Identity Federation Service Agent" tabindex="-1">BigLake Identity Federation Service Agent</h4>
+Service agent for <code dir="ltr" translate="no">biglake.googleapis.com</code> .
+<p><code dir="ltr" translate="no">service-org-           ORGANIZATION_NUMBER          @gcp-sa-biglakeidentityfed.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
 <tr class="odd">
@@ -1337,7 +1335,9 @@ Service agent for <code dir="ltr" translate="no">monitoring.googleapis.com</code
 <td><h4 id="device-run-service-agent" class="service-agent-name add-link" data-text="Device Run Service Agent" tabindex="-1">Device Run Service Agent</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">devicerun.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-devicerun.iam.gserviceaccount.com</code></p></td>
-<td>None</td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.serviceAgent">Device Run Service Agent</a><br />
+( <code dir="ltr" translate="no">roles/devicerun.serviceAgent</code> )</p>
+<p>Granted on the project.</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="dialogflow-service-account-for-cmek-(prod)" class="service-agent-name add-link" data-text="Dialogflow Service Account for CMEK (prod)" tabindex="-1">Dialogflow Service Account for CMEK (prod)</h4>
@@ -1916,7 +1916,7 @@ Service agent for <code dir="ltr" translate="no">logging.googleapis.com</code> .
 <td><h4 id="network-actions-service-account" class="service-agent-name add-link" data-text="Network Actions Service Account" tabindex="-1">Network Actions Service Account</h4>
 Service agent for <code dir="ltr" translate="no">networkservices.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-networkactions.iam.gserviceaccount.com</code></p></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/networkactions#networkactions.serviceAgent">Network Actions Service Agent</a><br />
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/serviceextensions#networkactions.serviceAgent">Network Actions Service Agent</a><br />
 ( <code dir="ltr" translate="no">roles/networkactions.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
@@ -2344,6 +2344,12 @@ Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code
 <p>Granted on the project.</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="vertex-ai-session-service-agent" class="service-agent-name add-link" data-text="Vertex AI Session Service Agent" tabindex="-1">Vertex AI Session Service Agent</h4>
+Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code> .
+<p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-vertex-session.iam.gserviceaccount.com</code></p></td>
+<td>None</td>
+</tr>
+<tr class="odd">
 <td><h4 id="vertex-ai-telemetry-service-agent" class="service-agent-name add-link" data-text="Vertex AI Telemetry Service Agent" tabindex="-1">Vertex AI Telemetry Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-vertex-telemetry.iam.gserviceaccount.com</code></p></td>
@@ -2351,19 +2357,19 @@ Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code
 ( <code dir="ltr" translate="no">roles/aiplatform.telemetryServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vertex-ai-training-cluster-service-agent" class="service-agent-name add-link" data-text="Vertex AI Training Cluster Service Agent" tabindex="-1">Vertex AI Training Cluster Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-vertex-vtc.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="vertex-agent-service-agent" class="service-agent-name add-link" data-text="Vertex Agent Service Agent" tabindex="-1">Vertex Agent Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-vertex-agent.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vertex-rag-data-service-agent" class="service-agent-name add-link" data-text="Vertex RAG Data Service Agent" tabindex="-1">Vertex RAG Data Service Agent</h4>
 Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-vertex-rag.iam.gserviceaccount.com</code></p></td>
@@ -2371,13 +2377,13 @@ Service agent for <code dir="ltr" translate="no">aiplatform.googleapis.com</code
 ( <code dir="ltr" translate="no">roles/aiplatform.ragServiceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="virtual-machine-threat-detection-service-account" class="service-agent-name add-link" data-text="Virtual Machine Threat Detection Service Account" tabindex="-1">Virtual Machine Threat Detection Service Account</h4>
 Service agent for <code dir="ltr" translate="no">securitycenter.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-scc-vmtd.iam.gserviceaccount.com</code></p></td>
 <td>None</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="vision-ai-service-account" class="service-agent-name add-link" data-text="Vision AI Service Account" tabindex="-1">Vision AI Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">visionai.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-visionai.iam.gserviceaccount.com</code></p></td>
@@ -2385,7 +2391,7 @@ Service agent for <code dir="ltr" translate="no">securitycenter.googleapis.com</
 ( <code dir="ltr" translate="no">roles/visionai.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="workload-manager-service-account" class="service-agent-name add-link" data-text="Workload Manager Service Account" tabindex="-1">Workload Manager Service Account</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">workloadmanager.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-workloadmanager.iam.gserviceaccount.com</code></p></td>
@@ -2393,7 +2399,7 @@ Service agent for <code dir="ltr" translate="no">securitycenter.googleapis.com</
 ( <code dir="ltr" translate="no">roles/workloadmanager.serviceAgent</code> )</p>
 <p>Granted on the project.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="workstations-vm-default-service-account" class="service-agent-name add-link" data-text="Workstations VM Default Service Account" tabindex="-1">Workstations VM Default Service Account</h4>
 Service agent for <code dir="ltr" translate="no">workstations.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-workstationsvm.iam.gserviceaccount.com</code></p></td>

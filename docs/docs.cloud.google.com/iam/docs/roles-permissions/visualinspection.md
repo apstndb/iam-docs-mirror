@@ -499,6 +499,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.indexes.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.indexes.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.indexes.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  locations.  evaluateInstances</code></li>
 <li><code dir="ltr" translate="no">aiplatform.locations.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.locations.list</code></li>
@@ -575,6 +580,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  setDefault</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimes.  assign</code></li>
@@ -821,8 +827,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">artifactregistry.  yumartifacts.  create</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeTask</code></p>
 <p><code dir="ltr" translate="no">firebase.projects.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">monitoring.timeSeries.create</code></li>
@@ -856,6 +870,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">resourcemanager.  hierarchyNodes.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
+<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p>
 <p><code dir="ltr" translate="no">storage.anywhereCaches.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.anywhereCaches.create</code></li>
@@ -923,6 +939,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>

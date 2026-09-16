@@ -23,6 +23,23 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 </thead>
 <tbody>
 <tr class="odd">
+<td><h4 id="cloudmessaging.editor" class="role-title add-link" data-text="Firebase Cloud Messaging Service Editor" tabindex="-1">Firebase Cloud Messaging Service Editor</h4>
+<p>( <code dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
+<p>Editor of Firebase Cloud Messaging resources</p></td>
+<td><p><code dir="ltr" translate="no">cloudmessaging.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudmessaging.messages.create</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  create</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  delete</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  get</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  list</code></li>
+<li><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">fcmdata.deliverydata.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
 <td><h4 id="firebasecloudmessaging.admin" class="role-title add-link" data-text="Firebase Cloud Messaging API Admin" tabindex="-1">Firebase Cloud Messaging API Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  firebasecloudmessaging.admin</code> )</p>
 <p>Full read/write access to Firebase Cloud Messaging API resources.</p></td>
@@ -39,7 +56,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="firebasecloudmessaging.viewer" class="role-title add-link" data-text="Firebase Cloud Messaging API Viewer" tabindex="-1">Firebase Cloud Messaging API Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  firebasecloudmessaging.viewer</code> )</p>
 <p>Read-only access to Firebase Cloud Messaging API resources.</p></td>
@@ -54,7 +71,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="firebasenotifications.admin" class="role-title add-link" data-text="Firebase Cloud Messaging Admin" tabindex="-1">Firebase Cloud Messaging Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  firebasenotifications.admin</code> )</p>
 <p>Full read/write access to Firebase Cloud Messaging resources.</p></td>
@@ -73,7 +90,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="firebasenotifications.viewer" class="role-title add-link" data-text="Firebase Cloud Messaging Viewer" tabindex="-1">Firebase Cloud Messaging Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  firebasenotifications.viewer</code> )</p>
 <p>Read-only access to Firebase Cloud Messaging resources.</p></td>
@@ -107,6 +124,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <td><h4 id="cloudmessaging.messages.create" class="permission-name add-link" data-text="cloudmessaging.messages.create" tabindex="-1"><code dir="ltr" translate="no">cloudmessaging.messages.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.admin">Firebase Cloud Messaging API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthAdmin</code> )</p>
@@ -123,6 +141,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <td><h4 id="cloudmessaging.topicSubscriptions.create" class="permission-name add-link" data-text="cloudmessaging.topicSubscriptions.create" tabindex="-1"><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.admin">Firebase Cloud Messaging API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthAdmin</code> )</p></td>
@@ -131,6 +150,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <td><h4 id="cloudmessaging.topicSubscriptions.delete" class="permission-name add-link" data-text="cloudmessaging.topicSubscriptions.delete" tabindex="-1"><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.admin">Firebase Cloud Messaging API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthAdmin</code> )</p></td>
@@ -140,6 +160,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
@@ -154,6 +175,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.editor">Firebase Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.viewer">Firebase Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.viewer</code> )</p>
@@ -170,6 +192,7 @@ This page lists the IAM roles and permissions for Firebase Cloud Messaging. To s
 <td><h4 id="cloudmessaging.topicSubscriptions.update" class="permission-name add-link" data-text="cloudmessaging.topicSubscriptions.update" tabindex="-1"><code dir="ltr" translate="no">cloudmessaging.  topicSubscriptions.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#cloudmessaging.editor">Firebase Cloud Messaging Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmessaging.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasecloudmessaging#firebasecloudmessaging.admin">Firebase Cloud Messaging API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasecloudmessaging.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.growthAdmin">Firebase Grow Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.growthAdmin</code> )</p></td>

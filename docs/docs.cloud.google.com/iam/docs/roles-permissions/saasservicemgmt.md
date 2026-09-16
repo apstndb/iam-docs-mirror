@@ -56,6 +56,16 @@ This page lists the IAM roles and permissions for SaaS Service Management. To se
 <li><code dir="ltr" translate="no">saasservicemgmt.  operations.  delete</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.operations.get</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.  operations.  list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  poolKinds.  create</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  poolKinds.  delete</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.poolKinds.get</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  poolKinds.  update</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.pools.create</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.pools.delete</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.pools.get</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.pools.update</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.  releases.  create</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.  releases.  delete</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.releases.get</code></li>
@@ -76,11 +86,31 @@ This page lists the IAM roles and permissions for SaaS Service Management. To se
 <li><code dir="ltr" translate="no">saasservicemgmt.saas.get</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.saas.list</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.saas.update</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  create</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  delete</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  get</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  update</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  create</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  delete</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  get</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  update</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.tenants.create</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.tenants.delete</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.tenants.get</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.tenants.list</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.tenants.update</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  create</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  delete</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  get</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  update</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  create</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  delete</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.unitGroups.get</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></li>
+<li><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  update</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.  unitKinds.  create</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.  unitKinds.  delete</code></li>
 <li><code dir="ltr" translate="no">saasservicemgmt.unitKinds.get</code></li>
@@ -119,6 +149,10 @@ This page lists the IAM roles and permissions for SaaS Service Management. To se
 </ul>
 <p><code dir="ltr" translate="no">saasservicemgmt.operations.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  rolloutKinds.  get</code></p>
@@ -127,8 +161,16 @@ This page lists the IAM roles and permissions for SaaS Service Management. To se
 <p><code dir="ltr" translate="no">saasservicemgmt.rollouts.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.unitGroups.get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  unitOperations.  get</code></p>
@@ -618,6 +660,84 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="saasservicemgmt.poolKinds.create" class="permission-name add-link" data-text="saasservicemgmt.poolKinds.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  poolKinds.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.poolKinds.delete" class="permission-name add-link" data-text="saasservicemgmt.poolKinds.delete" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  poolKinds.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.poolKinds.get" class="permission-name add-link" data-text="saasservicemgmt.poolKinds.get" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.poolKinds.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.poolKinds.list" class="permission-name add-link" data-text="saasservicemgmt.poolKinds.list" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.poolKinds.update" class="permission-name add-link" data-text="saasservicemgmt.poolKinds.update" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  poolKinds.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.pools.create" class="permission-name add-link" data-text="saasservicemgmt.pools.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.pools.create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.pools.delete" class="permission-name add-link" data-text="saasservicemgmt.pools.delete" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.pools.delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.pools.get" class="permission-name add-link" data-text="saasservicemgmt.pools.get" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.pools.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.pools.list" class="permission-name add-link" data-text="saasservicemgmt.pools.list" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.pools.update" class="permission-name add-link" data-text="saasservicemgmt.pools.update" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.pools.update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="saasservicemgmt.releases.create" class="permission-name add-link" data-text="saasservicemgmt.releases.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  releases.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -900,6 +1020,84 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="odd">
+<td><h4 id="saasservicemgmt.saasReleases.create" class="permission-name add-link" data-text="saasservicemgmt.saasReleases.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.saasReleases.delete" class="permission-name add-link" data-text="saasservicemgmt.saasReleases.delete" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.saasReleases.get" class="permission-name add-link" data-text="saasservicemgmt.saasReleases.get" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.saasReleases.list" class="permission-name add-link" data-text="saasservicemgmt.saasReleases.list" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.saasReleases.update" class="permission-name add-link" data-text="saasservicemgmt.saasReleases.update" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.tenantOperations.create" class="permission-name add-link" data-text="saasservicemgmt.tenantOperations.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.tenantOperations.delete" class="permission-name add-link" data-text="saasservicemgmt.tenantOperations.delete" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.tenantOperations.get" class="permission-name add-link" data-text="saasservicemgmt.tenantOperations.get" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.tenantOperations.list" class="permission-name add-link" data-text="saasservicemgmt.tenantOperations.list" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.tenantOperations.update" class="permission-name add-link" data-text="saasservicemgmt.tenantOperations.update" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="saasservicemgmt.tenants.create" class="permission-name add-link" data-text="saasservicemgmt.tenants.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.tenants.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -972,6 +1170,84 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.serviceAgent">SaaS Service Management Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.unitGroupOperations.create" class="permission-name add-link" data-text="saasservicemgmt.unitGroupOperations.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.unitGroupOperations.delete" class="permission-name add-link" data-text="saasservicemgmt.unitGroupOperations.delete" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.unitGroupOperations.get" class="permission-name add-link" data-text="saasservicemgmt.unitGroupOperations.get" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.unitGroupOperations.list" class="permission-name add-link" data-text="saasservicemgmt.unitGroupOperations.list" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.unitGroupOperations.update" class="permission-name add-link" data-text="saasservicemgmt.unitGroupOperations.update" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.unitGroups.create" class="permission-name add-link" data-text="saasservicemgmt.unitGroups.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  create</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.unitGroups.delete" class="permission-name add-link" data-text="saasservicemgmt.unitGroups.delete" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  delete</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.unitGroups.get" class="permission-name add-link" data-text="saasservicemgmt.unitGroups.get" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.unitGroups.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="saasservicemgmt.unitGroups.list" class="permission-name add-link" data-text="saasservicemgmt.unitGroups.list" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.viewer">SaaS Service Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="saasservicemgmt.unitGroups.update" class="permission-name add-link" data-text="saasservicemgmt.unitGroups.update" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  update</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/saasservicemgmt#saasservicemgmt.admin">SaaS Service Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  saasservicemgmt.admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="saasservicemgmt.unitKinds.create" class="permission-name add-link" data-text="saasservicemgmt.unitKinds.create" tabindex="-1"><code dir="ltr" translate="no">saasservicemgmt.  unitKinds.  create</code></h4></td>

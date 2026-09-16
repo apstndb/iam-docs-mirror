@@ -601,6 +601,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  indexEndpoints.  queryVectors</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.memories.get</code></p>
@@ -1778,6 +1780,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
@@ -1933,6 +1947,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listEffectiveTags</code></p>
@@ -2157,6 +2172,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">storage.objects.list</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.createTagBinding</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  listEffectiveTags</code></p>
@@ -2165,6 +2184,22 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">transcoder.  jobs.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
@@ -2320,6 +2355,8 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">aiplatform.  indexEndpoints.  queryVectors</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.memories.get</code></p>
@@ -3497,6 +3534,18 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.create</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.aspectTypes.list</code></p>
@@ -3652,6 +3701,7 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">financialservices.  v1instances.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">gkemulticloud.  attachedClusters.  listEffectiveTags</code></p>
@@ -3876,6 +3926,10 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">storage.objects.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">storage.objects.list</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.createTagBinding</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobTemplates.  listEffectiveTags</code></p>
@@ -3884,6 +3938,22 @@ This page lists the IAM roles and permissions for Sensitive Data Protection. To 
 <p><code dir="ltr" translate="no">transcoder.  jobs.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">transcoder.  jobs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  createTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  deleteTagBinding</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  createTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  deleteTagBinding</code></p>
 <p><code dir="ltr" translate="no">vmmigration.  groups.  listEffectiveTags</code></p>
@@ -4234,8 +4304,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code dir="ltr" translate="no">dlp.kms.encrypt</code></p>
 <p><code dir="ltr" translate="no">firebase.projects.get</code></p>
+<p><code dir="ltr" translate="no">geminidataanalytics.  locations.  chat</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
-<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">monitoring.timeSeries.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">monitoring.timeSeries.create</code></li>
@@ -4337,6 +4416,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
 <p><code dir="ltr" translate="no">serviceusage.services.use</code></p>
 <p><code dir="ltr" translate="no">serviceusage.values.test</code></p>
+<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
+<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p>
 <p><code dir="ltr" translate="no">storage.anywhereCaches.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.anywhereCaches.create</code></li>
@@ -4404,6 +4485,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>

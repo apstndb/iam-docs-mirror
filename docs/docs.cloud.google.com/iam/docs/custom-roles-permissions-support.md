@@ -1517,6 +1517,18 @@ Enter the desired permission name or support level in the text box below:
 | `autoscaling.sites.writeState`                                                 | `SUPPORTED`                |
 | `axt.labels.get`                                                               | `SUPPORTED`                |
 | `axt.labels.set`                                                               | `SUPPORTED`                |
+| `backupdr.appliedAutoProtectionPolicies.authorize`                             | `SUPPORTED`                |
+| `backupdr.appliedAutoProtectionPolicies.list`                                  | `SUPPORTED`                |
+| `backupdr.appliedAutoProtectionPolicies.viewMatchingResources`                 | `SUPPORTED`                |
+| `backupdr.autoProtectionBindings.create`                                       | `SUPPORTED`                |
+| `backupdr.autoProtectionBindings.delete`                                       | `SUPPORTED`                |
+| `backupdr.autoProtectionBindings.get`                                          | `SUPPORTED`                |
+| `backupdr.autoProtectionBindings.list`                                         | `SUPPORTED`                |
+| `backupdr.autoProtectionPolicies.create`                                       | `SUPPORTED`                |
+| `backupdr.autoProtectionPolicies.delete`                                       | `SUPPORTED`                |
+| `backupdr.autoProtectionPolicies.get`                                          | `SUPPORTED`                |
+| `backupdr.autoProtectionPolicies.list`                                         | `SUPPORTED`                |
+| `backupdr.autoProtectionPolicies.update`                                       | `SUPPORTED`                |
 | `backupdr.backupPlanAssociations.create`                                       | `SUPPORTED`                |
 | `backupdr.backupPlanAssociations.createForAlloydbCluster`                      | `SUPPORTED`                |
 | `backupdr.backupPlanAssociations.createForCloudSqlInstance`                    | `SUPPORTED`                |
@@ -1574,6 +1586,7 @@ Enter the desired permission name or support level in the text box below:
 | `backupdr.backupVaults.listEffectiveTags`                                      | `SUPPORTED`                |
 | `backupdr.backupVaults.listTagBindings`                                        | `SUPPORTED`                |
 | `backupdr.backupVaults.update`                                                 | `SUPPORTED`                |
+| `backupdr.bindingMatchingResources.list`                                       | `SUPPORTED`                |
 | `backupdr.bvbackups.delete`                                                    | `SUPPORTED`                |
 | `backupdr.bvbackups.fetchForCloudSqlInstance`                                  | `SUPPORTED`                |
 | `backupdr.bvbackups.fetchForComputeDisk`                                       | `SUPPORTED`                |
@@ -3000,6 +3013,11 @@ Enter the desired permission name or support level in the text box below:
 | `chronicle.tagSubscriptions.get`                                               | `SUPPORTED`                |
 | `chronicle.tagSubscriptions.list`                                              | `SUPPORTED`                |
 | `chronicle.tagSubscriptions.update`                                            | `SUPPORTED`                |
+| `chronicle.tags.create`                                                        | `SUPPORTED`                |
+| `chronicle.tags.delete`                                                        | `SUPPORTED`                |
+| `chronicle.tags.get`                                                           | `SUPPORTED`                |
+| `chronicle.tags.list`                                                          | `SUPPORTED`                |
+| `chronicle.tags.update`                                                        | `SUPPORTED`                |
 | `chronicle.tasks.delete`                                                       | `SUPPORTED`                |
 | `chronicle.tasks.get`                                                          | `SUPPORTED`                |
 | `chronicle.tasks.update`                                                       | `SUPPORTED`                |
@@ -4990,6 +5008,8 @@ Enter the desired permission name or support level in the text box below:
 | `compute.machineImages.useReadOnly`                                            | `SUPPORTED`                |
 | `compute.machineTypes.get`                                                     | `SUPPORTED`                |
 | `compute.machineTypes.list`                                                    | `SUPPORTED`                |
+| `compute.managedRulesets.get`                                                  | `SUPPORTED`                |
+| `compute.managedRulesets.list`                                                 | `SUPPORTED`                |
 | `compute.multiMig.create`                                                      | `SUPPORTED`                |
 | `compute.multiMig.delete`                                                      | `SUPPORTED`                |
 | `compute.multiMig.get`                                                         | `SUPPORTED`                |
@@ -12897,6 +12917,9 @@ Enter the desired permission name or support level in the text box below:
 | `servicedirectory.services.resolve`                                            | `SUPPORTED`                |
 | `servicedirectory.services.setIamPolicy`                                       | `SUPPORTED`                |
 | `servicedirectory.services.update`                                             | `SUPPORTED`                |
+| `serviceextensions.callouts.invoke`                                            | `TESTING`                  |
+| `serviceextensions.locations.get`                                              | `TESTING`                  |
+| `serviceextensions.locations.list`                                             | `TESTING`                  |
 | `servicehealth.artifacts.get`                                                  | `SUPPORTED`                |
 | `servicehealth.artifacts.list`                                                 | `SUPPORTED`                |
 | `servicehealth.events.get`                                                     | `SUPPORTED`                |

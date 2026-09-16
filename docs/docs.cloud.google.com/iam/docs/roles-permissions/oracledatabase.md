@@ -79,6 +79,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 </ul>
 <p><code dir="ltr" translate="no">oracledatabase.dbNodes.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.*</code></p>
@@ -108,6 +109,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <li><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  update</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  use</code></li>
 </ul>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.*</code></p>
 <ul>
@@ -199,6 +201,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 </ul>
 <p><code dir="ltr" translate="no">oracledatabase.dbNodes.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.list</code></p>
@@ -207,6 +210,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  list</code></p>
@@ -319,6 +323,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.locations.*</code></p>
 <ul>
@@ -345,6 +350,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.locations.*</code></p>
 <ul>
@@ -365,6 +371,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.locations.*</code></p>
 <ul>
@@ -471,6 +478,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <li><code dir="ltr" translate="no">oracledatabase.databases.get</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.databases.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.*</code></p>
@@ -508,6 +516,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <li><code dir="ltr" translate="no">oracledatabase.databases.get</code></li>
 <li><code dir="ltr" translate="no">oracledatabase.databases.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.list</code></p>
@@ -1367,6 +1376,20 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.cloudVmClusterAdmin">Oracle Database@Google Cloud VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.cloudVmClusterAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="oracledatabase.dbSystemComputePerformances.list" class="permission-name add-link" data-text="oracledatabase.dbSystemComputePerformances.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.viewer">Oracle Database@Google Cloud viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemViewer">Oracle Database@Google Cloud DB System Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemViewer</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="oracledatabase.dbSystemInitialStorageSizes.list" class="permission-name add-link" data-text="oracledatabase.dbSystemInitialStorageSizes.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1378,7 +1401,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.dbSystemShapes.list" class="permission-name add-link" data-text="oracledatabase.dbSystemShapes.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1401,21 +1424,21 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultUser">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultViewer">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.dbSystems.create" class="permission-name add-link" data-text="oracledatabase.dbSystems.create" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  dbSystems.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.dbSystems.delete" class="permission-name add-link" data-text="oracledatabase.dbSystems.delete" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  dbSystems.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.dbSystems.get" class="permission-name add-link" data-text="oracledatabase.dbSystems.get" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.dbSystems.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1426,7 +1449,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemViewer">Oracle Database@Google Cloud DB System Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.dbSystems.list" class="permission-name add-link" data-text="oracledatabase.dbSystems.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.dbSystems.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1440,14 +1463,14 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemViewer">Oracle Database@Google Cloud DB System Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.dbSystems.update" class="permission-name add-link" data-text="oracledatabase.dbSystems.update" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  dbSystems.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.dbVersions.list" class="permission-name add-link" data-text="oracledatabase.dbVersions.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.dbVersions.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1459,7 +1482,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.dbSystemAdmin">Oracle Database@Google Cloud DB System Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.dbSystemAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.entitlements.list" class="permission-name add-link" data-text="oracledatabase.entitlements.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1495,21 +1518,21 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.odbSubnetViewer">Oracle Database@Google ODB Subnet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.odbSubnetViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.pluggableDatabaseViewer">Oracle Database@Google Cloud Pluggable Database Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.pluggableDatabaseViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.exadbVmClusters.create" class="permission-name add-link" data-text="oracledatabase.exadbVmClusters.create" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.exadbVmClusters.delete" class="permission-name add-link" data-text="oracledatabase.exadbVmClusters.delete" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.exadbVmClusters.get" class="permission-name add-link" data-text="oracledatabase.exadbVmClusters.get" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1520,7 +1543,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterViewer">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.exadbVmClusters.list" class="permission-name add-link" data-text="oracledatabase.exadbVmClusters.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1534,28 +1557,28 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterViewer">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.exadbVmClusters.update" class="permission-name add-link" data-text="oracledatabase.exadbVmClusters.update" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exadbVmClusterAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exadbVmClusterAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.exascaleDbStorageVaults.create" class="permission-name add-link" data-text="oracledatabase.exascaleDbStorageVaults.create" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.exascaleDbStorageVaults.delete" class="permission-name add-link" data-text="oracledatabase.exascaleDbStorageVaults.delete" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.exascaleDbStorageVaults.get" class="permission-name add-link" data-text="oracledatabase.exascaleDbStorageVaults.get" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1568,7 +1591,7 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultUser">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultViewer">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultViewer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.exascaleDbStorageVaults.list" class="permission-name add-link" data-text="oracledatabase.exascaleDbStorageVaults.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1584,20 +1607,35 @@ This page lists the IAM roles and permissions for Oracle Database@Google Cloud. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultUser">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultViewer">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="oracledatabase.exascaleDbStorageVaults.update" class="permission-name add-link" data-text="oracledatabase.exascaleDbStorageVaults.update" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultAdmin">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="oracledatabase.exascaleDbStorageVaults.use" class="permission-name add-link" data-text="oracledatabase.exascaleDbStorageVaults.use" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.cloudVmClusterAdmin">Oracle Database@Google Cloud VM Cluster Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.cloudVmClusterAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.exascaleDbStorageVaultUser">Oracle Database@Google Cloud Exadata Database Service on Exascale Infrastructure Storage Vault User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.exascaleDbStorageVaultUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="oracledatabase.flexComponents.list" class="permission-name add-link" data-text="oracledatabase.flexComponents.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.admin">Oracle Database@Google Cloud admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.viewer">Oracle Database@Google Cloud viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.cloudExadataInfrastructureAdmin">Oracle Database@Google Cloud Exadata Infrastructure Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.cloudExadataInfrastructureAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.cloudExadataInfrastructureUser">Oracle Database@Google Cloud Exadata Infrastructure User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.cloudExadataInfrastructureUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/oracledatabase#oracledatabase.cloudExadataInfrastructureViewer">Oracle Database@Google Cloud Exadata Infrastructure Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  oracledatabase.cloudExadataInfrastructureViewer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="oracledatabase.giVersions.list" class="permission-name add-link" data-text="oracledatabase.giVersions.list" tabindex="-1"><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></h4></td>

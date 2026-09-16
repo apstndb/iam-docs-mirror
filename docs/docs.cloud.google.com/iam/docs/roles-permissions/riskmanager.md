@@ -756,6 +756,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">securitycenter.issues.group</code></p>
 <p><code dir="ltr" translate="no">securitycenter.issues.list</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  issues.  listFilterValues</code></p>
+<p><code dir="ltr" translate="no">securitycenter.issues.retrieve</code></p>
+<p><code dir="ltr" translate="no">securitycenter.issues.search</code></p>
+<p><code dir="ltr" translate="no">securitycenter.  issues.  searchImpactedResources</code></p>
 <p><code dir="ltr" translate="no">securitycenter.muteconfigs.get</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  muteconfigs.  list</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  notificationconfig.  get</code></p>

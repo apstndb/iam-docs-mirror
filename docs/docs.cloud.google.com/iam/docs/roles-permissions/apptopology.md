@@ -23,7 +23,7 @@ This page lists the IAM roles and permissions for App Topology. To search throug
 </thead>
 <tbody>
 <tr class="odd">
-<td><h4 id="apptopology.admin" class="role-title add-link" data-text="App Topology Admin Beta" tabindex="-1">App Topology Admin <sup>Beta</sup></h4>
+<td><h4 id="apptopology.admin" class="role-title add-link" data-text="App Topology Admin" tabindex="-1">App Topology Admin</h4>
 <p>( <code dir="ltr" translate="no">roles/  apptopology.admin</code> )</p>
 <p>Full access to App Topology resources.</p></td>
 <td><p><code dir="ltr" translate="no">apptopology.*</code></p>
@@ -43,11 +43,53 @@ This page lists the IAM roles and permissions for App Topology. To search throug
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">monitoring.alerts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.alerts.get</code></li>
+<li><code dir="ltr" translate="no">monitoring.alerts.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  dashboards.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">monitoring.  dashboards.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
+<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  get</code></p>
+<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.services.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.services.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.slos.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.slos.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.snoozes.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.snoozes.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  get</code></p>
+<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">opsconfigmonitoring.  resourceMetadata.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
+<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="apptopology.viewer" class="role-title add-link" data-text="App Topology Viewer Beta" tabindex="-1">App Topology Viewer <sup>Beta</sup></h4>
+<td><h4 id="apptopology.viewer" class="role-title add-link" data-text="App Topology Viewer" tabindex="-1">App Topology Viewer</h4>
 <p>( <code dir="ltr" translate="no">roles/  apptopology.viewer</code> )</p>
 <p>Readonly access to App Topology resources.</p></td>
 <td><p><code dir="ltr" translate="no">apptopology.*</code></p>
@@ -67,8 +109,50 @@ This page lists the IAM roles and permissions for App Topology. To search throug
 <li><code dir="ltr" translate="no">apptopology.topologyViews.get</code></li>
 <li><code dir="ltr" translate="no">apptopology.topologyViews.list</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudnotifications.  activities.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.alertPolicies.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.alertPolicies.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">monitoring.  alertPolicies.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">monitoring.alerts.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.alerts.get</code></li>
+<li><code dir="ltr" translate="no">monitoring.alerts.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">monitoring.dashboards.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.dashboards.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  dashboards.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">monitoring.  dashboards.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.groups.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
+<p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  monitoredResourceDescriptors.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  get</code></li>
+<li><code dir="ltr" translate="no">monitoring.  notificationChannelDescriptors.  list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  get</code></p>
+<p><code dir="ltr" translate="no">monitoring.  notificationChannels.  list</code></p>
+<p><code dir="ltr" translate="no">monitoring.services.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.services.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.slos.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.slos.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.snoozes.get</code></p>
+<p><code dir="ltr" translate="no">monitoring.snoozes.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
+<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  get</code></p>
+<p><code dir="ltr" translate="no">monitoring.  uptimeCheckConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">opsconfigmonitoring.  resourceMetadata.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
-<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
+<p><code dir="ltr" translate="no">stackdriver.projects.get</code></p>
+<p><code dir="ltr" translate="no">stackdriver.  resourceMetadata.  list</code></p></td>
 </tr>
 </tbody>
 </table>

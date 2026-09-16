@@ -802,6 +802,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  instances.  startWithEncryptionKey</code></li>
 <li><code dir="ltr" translate="no">compute.instances.stop</code></li>
 <li><code dir="ltr" translate="no">compute.instances.suspend</code></li>
+<li><code dir="ltr" translate="no">compute.instances.troubleshoot</code></li>
 <li><code dir="ltr" translate="no">compute.instances.update</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateAccessConfig</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateDisplayDevice</code></li>
@@ -2393,6 +2394,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>

@@ -16,11 +16,12 @@ IAM can generate audit logs when you create and manage workforce pools. To enabl
 
   - Identity and Access Management (IAM) API (enable log type "Admin Read")
 
-To further configure audit logs for the token-exchange process or Google Cloud console (federated) sign in, you must also [enable audit logs for Data Access activity](https://docs.cloud.google.com/iam/docs/audit-logging#enabling_audit_logging) for the following API:
+To configure audit logs for the token exchange process or Google Cloud console (federated) sign-in, you must also [enable audit logs for Data Access activity](https://docs.cloud.google.com/iam/docs/audit-logging#enabling_audit_logging) for the following APIs:
 
-  - Security Token Service API (enable log type "Admin Read")
+  - Security Token Service (enable log type "Admin Read")
+  - Cloud OAuth API (enable log type "Admin Read")
 
-> **Note:** The audit logs are generated at organization level.
+> **Note:** The audit logs are generated at the organization level.
 
 ## Logs for creating a workforce pool
 
@@ -66,9 +67,9 @@ After you enable Cloud Audit Logs for Data Access activity, IAM generates an aud
 
   - `protoPayload.resourceName` : The workforce pool provider that the token is associated with.
 
-### Successful token exchange
+### Successful token exchange with Security Token Service
 
-The following example shows an audit log entry for a request to exchange a token. In this example, an OIDC token is exchanged for a federated token:
+The following example shows an audit log entry for a request to exchange a token using Security Token Service ( `sts.googleapis.com` ). In this example, an OIDC token is exchanged for a federated token:
 
     {
       "logName": "organizations/123456789012/logs/cloudaudit.googleapis.com%2Fdata_access",
@@ -98,7 +99,7 @@ The following example shows an audit log entry for a request to exchange a token
 
 ### Failed token exchange: Too many groups
 
-The following example log describes a token exchange that failed because the number of groups claims exceeded the maximum of 400.
+The following example log describes a token exchange that failed because the number of groups exceeded the maximum of 400.
 
 To log attributes that are received by Workforce Identity Federation, you must enable detailed audit logging when you create your workforce identity pool provider.
 
@@ -205,7 +206,7 @@ The following example shows an audit log entry for a request to list the Cloud S
       }
     }
 
-## Logs for Google Cloud console (federated) sign in
+## Logs for Google Cloud console (federated) sign-in
 
 After you [set up your workforce identity pools](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers) and their IdPs, users can sign in to Google Cloud using [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-console-sso) .
 
@@ -336,7 +337,7 @@ This section provides an example Cloud Audit Logs entry that is logged as a resu
 
 ## Logs for signing in with OAuth flow
 
-After you set up your workforce identity pool and workforce identity pool provider, you can use Google Cloud resources using the OAuth flow.
+After you set up your workforce identity pool and workforce identity pool provider, you can access Google Cloud resources by using the OAuth flow.
 
 After you enable Cloud Audit Logs for Data Access audit logs activity, IAM generates an audit log entry each time a principal uses the OAuth flow to sign in. The log entry includes the following fields:
 

@@ -123,8 +123,12 @@ This page lists the IAM roles and permissions for Security Center Management API
 </ul>
 <p><code dir="ltr" translate="no">securitycentermanagement.  securityCenter.  get</code></p>
 <p><code dir="ltr" translate="no">securitycentermanagement.  securityCenter.  migrate</code></p>
-<p><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.  get</code></p>
-<p><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.  list</code></p>
+<p><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.  get</code></li>
+<li><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.  list</code></li>
+<li><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">securitycentermanagement.  securityCommandCenter.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">securitycentermanagement.  securityCommandCenter.  activate</code></li>
@@ -1028,8 +1032,10 @@ This page lists the IAM roles and permissions for Security Center Management API
 <tr class="odd">
 <td><h4 id="securitycentermanagement.securityCenterServices.update" class="permission-name add-link" data-text="securitycentermanagement.securityCenterServices.update" tabindex="-1"><code dir="ltr" translate="no">securitycentermanagement.  securityCenterServices.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.admin">Security Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.admin">Security Center Management Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycentermanagement.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.editor">Security Center Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycentermanagement.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsAdmin">Security Center Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.settingsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.settingsEditor">Security Center Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.settingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycentermanagement#securitycentermanagement.securityCenterServicesEditor">Security Center Management Services Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycentermanagement.securityCenterServicesEditor</code> )</p>

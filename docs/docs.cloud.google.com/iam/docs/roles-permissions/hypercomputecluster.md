@@ -310,6 +310,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code dir="ltr" translate="no">file.operations.get</code></p>
 <p><code dir="ltr" translate="no">file.operations.list</code></p>
+<p><code dir="ltr" translate="no">hypercomputecluster.  clusters.  update</code></p>
 <p><code dir="ltr" translate="no">hypercomputecluster.  locations.  get</code></p>
 <p><code dir="ltr" translate="no">hypercomputecluster.  machineLearningRuns.*</code></p>
 <ul>
@@ -361,6 +362,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">monitoring.timeSeries.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">servicemanagement.  services.  report</code></p>
 <p><code dir="ltr" translate="no">servicenetworking.  operations.  get</code></p>
 <p><code dir="ltr" translate="no">servicenetworking.  services.  addPeering</code></p>
 <p><code dir="ltr" translate="no">servicenetworking.  services.  deleteConnection</code></p>
@@ -737,6 +739,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </blockquote>
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/aiplatform#aiplatform.serviceAgent">Vertex AI Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  aiplatform.serviceAgent</code> )</li>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/hypercomputecluster#hypercomputecluster.serviceAgent">Cluster Director Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  hypercomputecluster.serviceAgent</code> )</li>
 </ul></td>
 </tr>
 <tr class="even">

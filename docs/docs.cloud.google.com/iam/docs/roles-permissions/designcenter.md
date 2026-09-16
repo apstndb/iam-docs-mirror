@@ -246,6 +246,7 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>
@@ -1149,6 +1150,7 @@ This page lists the IAM roles and permissions for Application Design Center. To 
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>

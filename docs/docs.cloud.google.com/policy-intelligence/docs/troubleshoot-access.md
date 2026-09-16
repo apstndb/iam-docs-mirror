@@ -6,11 +6,11 @@ description: Instructions for using the IAM Policy Troubleshooter to troubleshoo
 data_source: docs.cloud.google.com
 ---
 
-> **Preview — Troubleshooting principal access boundary policies**
+> **Preview — Troubleshooting Principal Access Boundary policies**
 > 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and principal access boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
+Policy Troubleshooter helps you understand whether a principal can access a resource. Given a principal, a resource, and a permission, Policy Troubleshooter examines the allow policies, deny policies, and Principal Access Boundary (PAB) policies that impact the principal's access. Then, it tells you whether, based on those policies, the principal can use the specified permission to access the resource. It also lists the relevant policies and explains how they affect the principal's access.
 
 You can access Policy Troubleshooter using the Google Cloud console, the Google Cloud CLI, or the REST API. For basic queries, using the Google Cloud console is typically fastest. For more complex scenarios, consider the gcloud CLI or the REST API.
 
@@ -30,7 +30,7 @@ To fully troubleshoot your principals' access, you need the following permission
 
 ### Permissions to troubleshoot access for individual principals
 
-Policy Troubleshooter analyzes a principal's access to a resource based on the allow policies, deny policies, principal access boundary policies, and roles that you have permission to view. If you don't have permission to view a policy that applies to a resource, or if you don't have permission to view a custom role, then you might not be able to tell whether a principal has access.
+Policy Troubleshooter analyzes a principal's access to a resource based on the allow policies, deny policies, Principal Access Boundary policies, and roles that you have permission to view. If you don't have permission to view a policy that applies to a resource, or if you don't have permission to view a custom role, then you might not be able to tell whether a principal has access.
 
 #### Permissions to troubleshoot allow and deny policies
 
@@ -49,29 +49,30 @@ You might also be able to get the required permissions through [custom roles](ht
 
 If you don't have permission to view the allow and deny policies for a resource, the access results for those allow and deny policies are `Unknown` .
 
-#### Permissions to troubleshoot principal access boundary policies
+#### Permissions to troubleshoot Principal Access Boundary policies
 
-To troubleshoot principal access boundary policies, you need permissions on the organization whose principal set includes the principal. The way you identify this organization depends on the principal type:
+To troubleshoot Principal Access Boundary policies, you need permissions on the organization whose principal set includes the principal. The way you identify this organization depends on the principal type:
 
   - Google Accounts and Google groups: The organization associated with the Google Workspace domain that includes the principal
   - Federated identities (identities in workforce identity pools or workload identity pools): The organization that contains the identity pool that includes the principal
   - Service accounts: The organization that contains the project where the service account was created
+  - Agent identities: The organization that contains the project where the agent was created
 
-These permissions let you view the principal access boundary policies that control what the principal can access.
+These permissions let you view the Principal Access Boundary policies that control what the principal can access.
 
 To get the permissions that you need to troubleshoot a principal's access, ask your administrator to grant you the following IAM roles on the appropriate organization:
 
   - [Principal Access Boundary Policy Viewer](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryViewer) ( `roles/iam.principalAccessBoundaryViewer` )
-  - Troubleshoot principal access boundary policies bound to a project's, folder's, or organization's principal set: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
-  - Troubleshoot principal access boundary policies bound to Google Workspace domains: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` )
-  - Troubleshoot principal access boundary policies bound to workforce identity pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` )
-  - Troubleshoot principal access boundary policies bound to workload identity pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` )
+  - Troubleshoot Principal Access Boundary policies bound to a project's, folder's, or organization's principal set, or bound to agent identities: [Organization Administrator](https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.organizationAdmin) ( `roles/resourcemanager.organizationAdmin` )
+  - Troubleshoot Principal Access Boundary policies bound to Google Workspace domains: [Workspace Pool IAM Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin) ( `roles/iam.workspacePoolAdmin` )
+  - Troubleshoot Principal Access Boundary policies bound to workforce identity pools: [IAM Workforce Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin) ( `roles/iam.workforcePoolAdmin` )
+  - Troubleshoot Principal Access Boundary policies bound to workload identity pools: [IAM Workload Identity Pool Admin](https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin) ( `roles/iam.workloadIdentityPoolAdmin` )
 
 For more information about granting roles, see [Manage access to projects, folders, and organizations](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) .
 
 You might also be able to get the required permissions through [custom roles](https://docs.cloud.google.com/iam/docs/creating-custom-roles) or other [predefined roles](https://docs.cloud.google.com/iam/docs/roles-overview#predefined) .
 
-If you don't have permission to view the principal access boundary policies that apply to a principal, the access results for principal access boundary policies are `Unknown` .
+If you don't have permission to view the Principal Access Boundary policies that apply to a principal, the access results for Principal Access Boundary policies are `Unknown` .
 
 <span id="troubleshooting_group_membership"></span>
 
@@ -91,13 +92,33 @@ If you don't have these permissions, role bindings and deny rules that contain g
 
 To troubleshoot access, you need the principal, resource, and permission you want to check. This information can be provided by an error ID:
 
-  - **Error ID:** A unique identifier for a [permission error message](https://docs.cloud.google.com/iam/docs/permission-error-messages) . The error ID provides context for the error, including the principal, resource, permission, and supported IAM conditions.
+  - **Error ID:** A unique identifier for a [permission error message](https://docs.cloud.google.com/iam/docs/permission-error-messages) . The error ID provides context for the error, including the principal, resource, permission, and supported IAM conditions. An error ID related to an Agent Identity provides context for the Agent Identity and its claims, such as platform and container.
     
     Supported IAM conditions include `principal.type` and `principal.subject` .
 
 If you don't have an error ID, you can troubleshoot access with the following information:
 
-  - **Principal:** The email address to check. The email address must refer to a user, a single service account, or a [service account principal set](https://docs.cloud.google.com/iam/docs/principal-identifiers#allow-service-account-principal-sets) .
+  - **Principal:** The identity to check. You can enter one of the following:
+    
+      - **An email address:** Must refer to a user, a single service account, or a [service account principal set](https://docs.cloud.google.com/iam/docs/principal-identifiers#allow-service-account-principal-sets) .
+    
+      - **An [Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview) identifier:** Must follow this format: `  TRUST_DOMAIN /resources/ SERVICE / RESOURCE_PATH  ` .
+        
+        Example: `agents.global.org-123456789012.system.id.goog/resources/aiplatform/projects/9876543210/locations/us-central1/reasoningEngines/my-test-agent`
+        
+        Policy Troubleshooter extracts the platform and resource container attributes from the agent's subject string using the standard pattern `resources/{platform}/projects/{project_number}/...` . If an agent uses a non-standard subject format, Policy Troubleshooter cannot derive its attributes, and attribute-based principal set bindings evaluate to `Unknown` .
+        
+        If an agent has no granting allow bindings, Policy Troubleshooter returns an access state of `UNKNOWN_INFO` rather than `NOT_GRANTED` .
+        
+        > **Caution:** Entering a bare SPIFFE URI ( `spiffe://...` ) or an email address for an Agent Identity results in an invalid principal error.
+        
+        The identifiers use the following:
+        
+          - `  TRUST_DOMAIN  ` : Your organization's trust domain (for example, `agents.global.org-123456789012.system.id.goog` )
+        
+          - `  SERVICE  ` : The short name of the Google Cloud service (for example, `aiplatform` or `discoveryengine` )
+        
+          - `  RESOURCE_PATH  ` : The full path to the resource that hosts the agent
     
     Other types of principals, including groups, domains, workforce identities, and workload identities, are not supported.
 
@@ -121,7 +142,7 @@ To troubleshoot access, do the following:
 
 3.  If you don't have an error ID, select **Manual** .
     
-    1.  Enter the email of the principal whose access you want to check.
+    1.  Enter the email address of the principal or the Agent Identity identifier whose access you want to check.
     
     2.  Enter the full resource name of the resource to check.
         
@@ -151,8 +172,8 @@ To find out why a principal has, or doesn't have, an IAM permission, use the `  
 
 Before using any of the command data below, make the following replacements:
 
-  - `  VERSION  ` : Optional. The version of the command to use. To troubleshoot access based on allow and deny policies only, don't specify a version. To troubleshoot access based on allow, deny, and principal access boundary policies, use the version `beta` .
-  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot.
+  - `  VERSION  ` : Optional. The version of the command to use. To troubleshoot access based on allow and deny policies only, don't specify a version. To troubleshoot access based on allow, deny, and Principal Access Boundary policies, use the version `beta` .
+  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot. For an [Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , you must instead provide the principal identifier.
   - `  RESOURCE  ` : The resource on which the permission is granted.
   - `  PERMISSION  ` : The permission that you want to troubleshoot.
 
@@ -609,8 +630,8 @@ To find out why a principal has, or doesn't have, an IAM permission, use the Pol
 
 Before using any of the request data, make the following replacements:
 
-  - `  VERSION  ` : The API version to use for this request. To troubleshoot access based on allow and deny policies only, use `v3` . To troubleshoot access based on allow, deny, and principal access boundary policies, use `v3beta` .
-  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot.
+  - `  VERSION  ` : The API version to use for this request. To troubleshoot access based on allow and deny policies only, use `v3` . To troubleshoot access based on allow, deny, and Principal Access Boundary policies, use `v3beta` .
+  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot. For an [Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , you must instead provide the principal identifier.
   - `  RESOURCE  ` : The resource on which the permission is granted.
   - `  PERMISSION  ` : The permission that you want to troubleshoot.
   - `  PROJECT_ID  ` : The ID of the project that you want to use to make the request. Project IDs are alphanumeric strings, like `my-project` .
@@ -1088,7 +1109,7 @@ The results page contains the following information:
   - [Evaluation details](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#evaluation-details)
   - [Policy details](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#policy-details) , which contains the following:
       - [Access state](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#access-state)
-      - [Principal access boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#pab-policy)
+      - [Principal Access Boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#pab-policy)
       - [Deny policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#deny-policy)
       - [Allow policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#allow-policy)
 
@@ -1102,9 +1123,9 @@ The **Evaluation details** section contains a summary of the access you're troub
 
 **Policy details**
 
-The **Policy details** section contains details about how the relevant allow, deny, and principal access boundary policies affect the principal's access.
+The **Policy details** section contains details about how the relevant allow, deny, and Principal Access Boundary policies affect the principal's access.
 
-Relevant principal access boundary policies include all principal access boundary policies that are [bound to](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) a principal set that includes the principal.
+Relevant Principal Access Boundary policies include all Principal Access Boundary policies that are [bound to](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) a principal set that includes the principal.
 
 Relevant allow and deny policies include the following:
 
@@ -1122,13 +1143,13 @@ Similarly, if an allow policy for a project gives a principal a specific permiss
 The **Policy details** section contains the following sections:
 
   - [Access state](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#access-state)
-  - [Principal access boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#pab-policy)
+  - [Principal Access Boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#pab-policy)
   - [Deny policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#deny-policy)
   - [Allow policy](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#allow-policy)
 
 **Access state**
 
-The **Access state** section summarizes the results for each policy type (principal access boundary policies, deny policies, and allow policies), and states the overall outcome. The outcome indicates whether the principal is able to use the permission to access the resource, according to the relevant policies.
+The **Access state** section summarizes the results for each policy type (Principal Access Boundary policies, deny policies, and allow policies), and states the overall outcome. The outcome indicates whether the principal is able to use the permission to access the resource, according to the relevant policies.
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-access-state.png)
 
@@ -1136,9 +1157,9 @@ The **Access state** section summarizes the results for each policy type (princi
 
 For a user to be able to use the permission to access the resource, all policy types must permit access. For more information, see [Policy evaluation](https://docs.cloud.google.com/iam/docs/policy-types#evaluation) .
 
-**Principal access boundary policy**
+**Principal Access Boundary policy**
 
-In the **Principal access boundary policy** section, you can view all principal access boundary policies that the principal is subject to, and the policy bindings that bind these policies to the principal.
+In the **Principal access boundary policy** section, you can view all Principal Access Boundary policies that the principal is subject to, and the policy bindings that bind these policies to the principal.
 
 The **Policies** pane lists all policies that are bound to a principal set that includes the principal. Next to each policy is an icon indicating how that policy affects the principal's access.
 
@@ -1146,50 +1167,52 @@ The **Policies** pane lists all policies that are bound to a principal set that 
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-pab-policy-list.png)
 
-Principal access boundary policies can affect a principal's access in the following ways:
+Principal Access Boundary policies can affect a principal's access in the following ways:
 
-  - check\_circle **Principal is eligible to access the resource** : The principal access boundary policy applies to the principal, and one of its rules contains the queried resource.
+  - check\_circle **Principal is eligible to access the resource** : The Principal Access Boundary policy applies to the principal, and one of its rules contains the queried resource.
 
-  - error **Principal is ineligible to access the resource** : The principal access boundary policy applies to the principal, but the queried resource isn't in that policy's rules.
+  - error **Principal is ineligible to access the resource** : The Principal Access Boundary policy applies to the principal, but the queried resource isn't in that policy's rules.
 
-  - do\_not\_disturb\_on **Not enforced** : Principal access boundary policies aren't enforced in the following situations:
+  - do\_not\_disturb\_on **Not enforced** : Principal Access Boundary policies aren't enforced in the following situations:
     
-      - IAM doesn't enforce the specified permission at the principal access boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the principal access boundary policy can't block access.
-      - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the principal access boundary policy or binding doesn't apply to the principal.
-      - A principal access boundary policy has no rules.
+      - IAM doesn't enforce the specified permission at the Principal Access Boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the Principal Access Boundary policy can't block access.
+      - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the Principal Access Boundary policy or binding doesn't apply to the principal.
+      - A Principal Access Boundary policy has no rules.
     
-    If a principal access boundary policy isn't enforced, then it can't affect whether the principal can access the resource.
+    If a Principal Access Boundary policy isn't enforced, then it can't affect whether the principal can access the resource.
 
-To view the rules and bindings associated with a principal access boundary policy, click the policy name. The pane adjacent to the **Policies** pane displays the policy's details.
+To view the rules and bindings associated with a Principal Access Boundary policy, click the policy name. The pane adjacent to the **Policies** pane displays the policy's details.
 
-To view the rules in the policy, click the **Boundary rules** tab. This tab displays a table of the relevant principal access boundary policy rules.
+To view the rules in the policy, click the **Boundary rules** tab. This tab displays a table of the relevant Principal Access Boundary policy rules.
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-pab-boundary-rules.png)
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-pab-boundary-rules.png)
 
-A principal access boundary rule is relevant if the rule impacts the overall outcome of the Policy Troubleshooter query. As a result, the relevant rules vary depending on the Policy Troubleshooter results. For example, consider the following situations:
+A Principal Access Boundary rule is relevant if the rule impacts the overall outcome of the Policy Troubleshooter query. As a result, the relevant rules vary depending on the Policy Troubleshooter results. For example, consider the following situations:
 
   - Policy Troubleshooter indicates that the principal can access the resource. As a result, the relevant rules are those that make the principal eligible to access the resource.
-  - Policy Troubleshooter indicates that the principal can't access the resource. However, according to the relevant principal access boundary policies, the principal is eligible to access the resource. As a result, no rules are relevant, because the principal access boundary policies aren't the reason that the principal can't access the resource.
-  - Policy Troubleshooter indicates that the principal can't access the resource. Additionally, according to the relevant principal access boundary policies, the principal isn't eligible to access the resource. As a result, the relevant rules are those that don't make the principal eligible to access the resource.
+  - Policy Troubleshooter indicates that the principal can't access the resource. However, according to the relevant Principal Access Boundary policies, the principal is eligible to access the resource. As a result, no rules are relevant, because the Principal Access Boundary policies aren't the reason that the principal can't access the resource.
+  - Policy Troubleshooter indicates that the principal can't access the resource. Additionally, according to the relevant Principal Access Boundary policies, the principal isn't eligible to access the resource. As a result, the relevant rules are those that don't make the principal eligible to access the resource.
 
-To view all principal access boundary rules in a policy, clear the **Show only relevant rules and bindings** checkbox.
+To view all Principal Access Boundary rules in a policy, clear the **Show only relevant rules and bindings** checkbox.
 
-The **Findings** column in the boundary rules table indicates whether the principal access boundary rule contains the queried resource. To see more details about the rule, click **See rule details** .
+The **Findings** column in the boundary rules table indicates whether the Principal Access Boundary rule contains the queried resource. To see more details about the rule, click **See rule details** .
 
-To view the policy bindings for the policy, click the **Bindings** tab. This tab displays a table of the relevant policy bindings for the selected principal access boundary policy.
-
-![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-pab-bindings.png)
+To view the policy bindings for the policy, click the **Bindings** tab. This tab displays a table of the relevant policy bindings for the selected Principal Access Boundary policy.
 
 ![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-pab-bindings.png)
 
-A policy binding is relevant if it effectively applies the principal access boundary policy to the queried principal. For a policy binding to apply a principal access boundary policy to a principal, the following must be true:
+![](https://docs.cloud.google.com/static/policy-intelligence/img/troubleshooter-pab-bindings.png)
+
+A policy binding is relevant if it effectively applies the Principal Access Boundary policy to the queried principal. For a policy binding to apply a Principal Access Boundary policy to a principal, the following must be true:
 
   - The principal set in the policy binding must include the queried principal
   - Any conditions in the policy binding must evaluate to `true` for the queried principal.
 
 To view all policy bindings with principal sets that include the queried principal, regardless of whether the queried principal meets the condition in the binding, clear the **Show only relevant rules and bindings** checkbox.
+
+For [Agent Identities](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , Policy Troubleshooter evaluates Principal Access Boundary policies associated with the resource hierarchy of the agent's hosting project or container, and evaluates conditions matching the agent's identity type ( `principal.type == 'iam.googleapis.com/AgentPoolIdentity'` ) and subject pattern ( `principal.subject.startsWith(...)` ).
 
 The **Findings** column in the bindings table indicates whether the binding is enforced for the queried principal. To see more details about the policy binding, click **See binding details** .
 
@@ -1227,6 +1250,18 @@ The **Role bindings** pane contains a table of role bindings in the selected res
 
 The **Access** column indicates whether the role binding gives the principal the permission. To see more details about the role binding, click **See binding details** in that role binding's row.
 
+When evaluating allow policies for [agent identities](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , Policy Troubleshooter checks whether the agent matches any of the following principal identifiers:
+
+| Principal identifier              | Example                                                                                                                                                   |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Direct agent identities           | ` principal://           TRUST_DOMAIN          /resources/           SERVICE          /           RESOURCE_PATH          `                                |
+| Trust domain principal sets       | `principalSet://           TRUST_DOMAIN          /*`                                                                                                      |
+| Platform principal sets           | ` principalSet://           TRUST_DOMAIN          /attribute.platform/           SERVICE          `                                                       |
+| Resource container principal sets | ` principalSet://           TRUST_DOMAIN          /attribute.container/projects/           PROJECT_NUMBER          `                                      |
+| Platform container principal sets | ` principalSet://           TRUST_DOMAIN          /attribute.platformContainer/           SERVICE          /projects/           PROJECT_NUMBER          ` |
+
+When you troubleshoot access for a non-agent principal, such as a user or service account, any role bindings for Agent Identities evaluate to `Not matched` .
+
 ### gcloud
 
 The response contains four main sections: a description of the access tuple in the request, the results of the allow policy evaluation, the results of the deny policy evaluation, and the overall access state.
@@ -1253,9 +1288,9 @@ The response contains four main sections: a description of the access tuple in t
       - Whether the principal is listed as an exception in the deny rule.
       - Whether the conditions in the deny rule, if any, are met.
 
-  - `overallAccessState` : Whether the principal is able to use the specified permission to access the specified resource based on the relevant allow policies, deny policies, and principal access boundary policies.
+  - `overallAccessState` : Whether the principal is able to use the specified permission to access the specified resource based on the relevant allow policies, deny policies, and Principal Access Boundary policies.
     
-    Relevant principal access boundary policies include all principal access boundary policies that are [bound to](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) a principal set that includes the principal.
+    Relevant Principal Access Boundary policies include all Principal Access Boundary policies that are [bound to](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) a principal set that includes the principal.
     
     Relevant allow and deny policies include the following:
     
@@ -1272,31 +1307,31 @@ The response contains four main sections: a description of the access tuple in t
     
     For a user to be able to use the permission to access the resource, all policy types must permit access. For more information, see [Policy evaluation](https://docs.cloud.google.com/iam/docs/policy-types#evaluation) .
 
-  - `pabPolicyExplanation` : A summary of whether the relevant principal access boundary policies permit the principal to access the resource, followed by the relevant principal access boundary policy bindings and principal access boundary policies.
+  - `pabPolicyExplanation` : A summary of whether the relevant Principal Access Boundary policies permit the principal to access the resource, followed by the relevant Principal Access Boundary policy bindings and Principal Access Boundary policies.
     
-    Principal access boundary policies can either allow access, not allow access, or not be enforced. Principal access boundary policies aren't enforced in the following situations:
+    Principal Access Boundary policies can either allow access, not allow access, or not be enforced. Principal Access Boundary policies aren't enforced in the following situations:
     
-      - IAM doesn't enforce the specified permission at the principal access boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the principal access boundary policy can't block access.
-      - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the principal access boundary policy or binding doesn't apply to the principal.
-      - A principal access boundary policy has no rules.
+      - IAM doesn't enforce the specified permission at the Principal Access Boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the Principal Access Boundary policy can't block access.
+      - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the Principal Access Boundary policy or binding doesn't apply to the principal.
+      - A Principal Access Boundary policy has no rules.
     
-    If a principal access boundary policy isn't enforced, then it can't affect whether the principal can access the resource.
+    If a Principal Access Boundary policy isn't enforced, then it can't affect whether the principal can access the resource.
     
-    The response also lists all policy bindings that include the principal, and the details of the principal access boundary policy in each of those policy bindings:
+    The response also lists all policy bindings that include the principal, and the details of the Principal Access Boundary policy in each of those policy bindings:
     
-      - For each principal access boundary policy binding, the response prints whether the policy binding is enforced for the principal, then prints the text of the policy binding. A policy binding is enforced if the principal set in the binding includes the queried principal, and if the condition in the policy binding evaluates to `true` for the queried principal. If the policy binding isn't enforced, then the policy can't affect whether the principal can access the resource.
+      - For each Principal Access Boundary policy binding, the response prints whether the policy binding is enforced for the principal, then prints the text of the policy binding. A policy binding is enforced if the principal set in the binding includes the queried principal, and if the condition in the policy binding evaluates to `true` for the queried principal. If the policy binding isn't enforced, then the policy can't affect whether the principal can access the resource.
     
-      - For each principal access boundary policy, the response prints the following:
+      - For each Principal Access Boundary policy, the response prints the following:
         
           - Whether the policy allows access, doesn't allow access, or isn't enforced.
         
-          - The enforcement version of the policy. This version number determines whether IAM enforces this principal access boundary policy for the queried permission. If the permission isn't enforced, then the policy can't affect whether the principal can access the resource.
+          - The enforcement version of the policy. This version number determines whether IAM enforces this Principal Access Boundary policy for the queried permission. If the permission isn't enforced, then the policy can't affect whether the principal can access the resource.
         
-          - The rules in the principal access boundary policy and whether each rule allows access. For each rule, the response indicates whether the queried resource is included in the rule.
+          - The rules in the Principal Access Boundary policy and whether each rule allows access. For each rule, the response indicates whether the queried resource is included in the rule.
             
             A resource is included in a rule if one of the following is true:
             
-              - The resource is listed in the rule. Only Resource Manager resources (projects, folders, and organizations) can be directly listed in principal access boundary rules.
+              - The resource is listed in the rule. Only Resource Manager resources (projects, folders, and organizations) can be directly listed in Principal Access Boundary rules.
               - One of the resource's ancestors (that is, a project, folder, or organization above the resource in the [resource hierarchy](https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy) ) is listed in the rule.
 
 Many objects in the response also have a `relevance` field. The value in this field indicates how much that object contributes to the overall access state. The `relevance` field can have the following values:
@@ -1309,9 +1344,9 @@ Many objects in the response also have a `relevance` field. The value in this fi
 
 The response contains four main sections: the overall access state, a description of the access tuple in the request, the results of the allow policy evaluation, and the results of the deny policy evaluation.
 
-  - `overallAccessState` : Whether the principal is able to use the specified permission to access the specified resource based on the relevant allow policies, deny policies, and principal access boundary policies.
+  - `overallAccessState` : Whether the principal is able to use the specified permission to access the specified resource based on the relevant allow policies, deny policies, and Principal Access Boundary policies.
     
-    Relevant principal access boundary policies include all principal access boundary policies that are [bound to](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) a principal set that includes the principal.
+    Relevant Principal Access Boundary policies include all Principal Access Boundary policies that are [bound to](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) a principal set that includes the principal.
     
     Relevant allow and deny policies include the following:
     
@@ -1350,31 +1385,31 @@ The response contains four main sections: the overall access state, a descriptio
       - Whether the principal is listed as an exception in the deny rule.
       - Whether the conditions in the deny rule, if any, are met.
 
-  - `pabPolicyExplanation` : A summary of whether the relevant principal access boundary policies permit the principal to access the resource, followed by the relevant principal access boundary policy bindings and principal access boundary policies.
+  - `pabPolicyExplanation` : A summary of whether the relevant Principal Access Boundary policies permit the principal to access the resource, followed by the relevant Principal Access Boundary policy bindings and Principal Access Boundary policies.
     
-    Principal access boundary policies can either allow access, not allow access, or not be enforced. Principal access boundary policies aren't enforced in the following situations:
+    Principal Access Boundary policies can either allow access, not allow access, or not be enforced. Principal Access Boundary policies aren't enforced in the following situations:
     
-      - IAM doesn't enforce the specified permission at the principal access boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the principal access boundary policy can't block access.
-      - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the principal access boundary policy or binding doesn't apply to the principal.
-      - A principal access boundary policy has no rules.
+      - IAM doesn't enforce the specified permission at the Principal Access Boundary policy's [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) . As a result, the Principal Access Boundary policy can't block access.
+      - Due to a [condition in the policy binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#conditions) , the Principal Access Boundary policy or binding doesn't apply to the principal.
+      - A Principal Access Boundary policy has no rules.
     
-    If a principal access boundary policy isn't enforced, then it can't affect whether the principal can access the resource.
+    If a Principal Access Boundary policy isn't enforced, then it can't affect whether the principal can access the resource.
     
-    The response also lists all policy bindings that include the principal, and the details of the principal access boundary policy in each of those policy bindings:
+    The response also lists all policy bindings that include the principal, and the details of the Principal Access Boundary policy in each of those policy bindings:
     
-      - For each principal access boundary policy binding, the response prints whether the policy binding is enforced for the principal, then prints the text of the policy binding. A policy binding is enforced if the principal set in the binding includes the queried principal, and if the condition in the policy binding evaluates to `true` for the queried principal. If the policy binding isn't enforced, then the policy can't affect whether the principal can access the resource.
+      - For each Principal Access Boundary policy binding, the response prints whether the policy binding is enforced for the principal, then prints the text of the policy binding. A policy binding is enforced if the principal set in the binding includes the queried principal, and if the condition in the policy binding evaluates to `true` for the queried principal. If the policy binding isn't enforced, then the policy can't affect whether the principal can access the resource.
     
-      - For each principal access boundary policy, the response prints the following:
+      - For each Principal Access Boundary policy, the response prints the following:
         
           - Whether the policy allows access, doesn't allow access, or isn't enforced.
         
-          - The enforcement version of the policy. This version number determines whether IAM enforces this principal access boundary policy for the queried permission. If the permission isn't enforced, then the policy can't affect whether the principal can access the resource.
+          - The enforcement version of the policy. This version number determines whether IAM enforces this Principal Access Boundary policy for the queried permission. If the permission isn't enforced, then the policy can't affect whether the principal can access the resource.
         
-          - The rules in the principal access boundary policy and whether each rule allows access. For each rule, the response indicates whether the queried resource is included in the rule.
+          - The rules in the Principal Access Boundary policy and whether each rule allows access. For each rule, the response indicates whether the queried resource is included in the rule.
             
             A resource is included in a rule if one of the following is true:
             
-              - The resource is listed in the rule. Only Resource Manager resources (projects, folders, and organizations) can be directly listed in principal access boundary rules.
+              - The resource is listed in the rule. Only Resource Manager resources (projects, folders, and organizations) can be directly listed in Principal Access Boundary rules.
               - One of the resource's ancestors (that is, a project, folder, or organization above the resource in the [resource hierarchy](https://docs.cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy) ) is listed in the rule.
 
 Many objects in the response also have a `relevance` field. The value in this field indicates how much that object contributes to the overall access state. The `relevance` field can have the following values:
@@ -1389,7 +1424,7 @@ Many objects in the response also have a `relevance` field. The value in this fi
 > 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-Policy Troubleshooter automatically troubleshoots conditional role bindings and deny rules based on [tags](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource-tags) . It also automatically troubleshoots principal access boundary policy bindings with conditions based on [principals](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) .
+Policy Troubleshooter automatically troubleshoots conditional role bindings and deny rules based on [tags](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#resource-tags) . It also automatically troubleshoots Principal Access Boundary policy bindings with conditions based on [principals](https://docs.cloud.google.com/iam/docs/conditions-attribute-reference#principals) .
 
 To troubleshoot other kinds of [conditional role bindings](https://docs.cloud.google.com/iam/docs/conditions-overview) or conditional deny rules, Policy Troubleshooter needs additional context about the request. For example, to troubleshoot conditions based on date/time attributes, Policy Troubleshooter needs the time of the request.
 
@@ -1436,7 +1471,7 @@ To troubleshoot conditional role bindings and deny rules, use the `  gcloud poli
 
 Before using any of the command data below, make the following replacements:
 
-  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot.
+  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot. For an [Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , you must instead provide the principal identifier.
   - `  RESOURCE  ` : The resource on which the permission is granted.
   - `  PERMISSION  ` : The permission that you want to troubleshoot.
   - `  DESTINATION_IP  ` : Optional. The request destination IP address to use when checking conditional role bindings. For example, `198.1.1.1` .
@@ -1529,7 +1564,7 @@ To troubleshoot conditional role bindings and deny rules, use the Policy Trouble
 
 Before using any of the request data, make the following replacements:
 
-  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot.
+  - `  EMAIL  ` : The email address of the principal whose permissions you want to troubleshoot. For an [Agent Identity](https://docs.cloud.google.com/iam/docs/agent-identity-overview) , you must instead provide the principal identifier.
   - `  RESOURCE  ` : The resource on which the permission is granted.
   - `  PERMISSION  ` : The permission that you want to troubleshoot.
   - `  DESTINATION_IP  ` : Optional. The request destination IP address to use when checking conditional role bindings. For example, `198.1.1.1` .

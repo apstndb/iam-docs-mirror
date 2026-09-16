@@ -35,9 +35,13 @@ This page lists the IAM roles and permissions for Cloud TPU. To search through a
 <li><code dir="ltr" translate="no">tpu.locations.get</code></li>
 <li><code dir="ltr" translate="no">tpu.locations.list</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.create</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.createTagBinding</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.delete</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.get</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.list</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.performMaintenance</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.reimage</code></li>
 <li><code dir="ltr" translate="no">tpu.nodes.reset</code></li>
@@ -59,27 +63,41 @@ This page lists the IAM roles and permissions for Cloud TPU. To search through a
 <p>Editor access to TPU nodes and related resources</p></td>
 <td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p>
-<p><code dir="ltr" translate="no">tpu.*</code></p>
+<p><code dir="ltr" translate="no">tpu.acceleratortypes.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">tpu.acceleratortypes.get</code></li>
 <li><code dir="ltr" translate="no">tpu.acceleratortypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">tpu.locations.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">tpu.locations.get</code></li>
 <li><code dir="ltr" translate="no">tpu.locations.list</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.create</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.delete</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.get</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.list</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.performMaintenance</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.reimage</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.reset</code></li>
-<li><code dir="ltr" translate="no">tpu.  nodes.  simulateMaintenanceEvent</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.start</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.stop</code></li>
-<li><code dir="ltr" translate="no">tpu.nodes.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">tpu.nodes.create</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.delete</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.get</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.performMaintenance</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.reimage</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.reset</code></p>
+<p><code dir="ltr" translate="no">tpu.  nodes.  simulateMaintenanceEvent</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.start</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.stop</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.update</code></p>
+<p><code dir="ltr" translate="no">tpu.operations.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">tpu.operations.get</code></li>
 <li><code dir="ltr" translate="no">tpu.operations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">tpu.runtimeversions.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">tpu.runtimeversions.get</code></li>
 <li><code dir="ltr" translate="no">tpu.runtimeversions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">tpu.tensorflowversions.*</code></p>
+<ul>
 <li><code dir="ltr" translate="no">tpu.tensorflowversions.get</code></li>
 <li><code dir="ltr" translate="no">tpu.tensorflowversions.list</code></li>
 </ul></td>
@@ -102,6 +120,8 @@ This page lists the IAM roles and permissions for Cloud TPU. To search through a
 </ul>
 <p><code dir="ltr" translate="no">tpu.nodes.get</code></p>
 <p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">tpu.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">tpu.operations.get</code></li>
@@ -559,6 +579,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">compute.  instances.  startWithEncryptionKey</code></li>
 <li><code dir="ltr" translate="no">compute.instances.stop</code></li>
 <li><code dir="ltr" translate="no">compute.instances.suspend</code></li>
+<li><code dir="ltr" translate="no">compute.instances.troubleshoot</code></li>
 <li><code dir="ltr" translate="no">compute.instances.update</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateAccessConfig</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateDisplayDevice</code></li>
@@ -1899,6 +1920,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul></td>
 </tr>
 <tr class="even">
+<td><h4 id="tpu.nodes.createTagBinding" class="permission-name add-link" data-text="tpu.nodes.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="tpu.nodes.delete" class="permission-name add-link" data-text="tpu.nodes.delete" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -1911,6 +1940,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="even">
+<td><h4 id="tpu.nodes.deleteTagBinding" class="permission-name add-link" data-text="tpu.nodes.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="tpu.nodes.get" class="permission-name add-link" data-text="tpu.nodes.get" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.get</code></h4></td>
@@ -1948,6 +1985,36 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <ul>
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/container#container.serviceAgent">Kubernetes Engine Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  container.serviceAgent</code> )</li>
 </ul></td>
+</tr>
+<tr class="odd">
+<td><h4 id="tpu.nodes.listEffectiveTags" class="permission-name add-link" data-text="tpu.nodes.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="tpu.nodes.listTagBindings" class="permission-name add-link" data-text="tpu.nodes.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.admin">TPU Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.editor">TPU Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/tpu#tpu.viewer">TPU Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  tpu.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="tpu.nodes.performMaintenance" class="permission-name add-link" data-text="tpu.nodes.performMaintenance" tabindex="-1"><code dir="ltr" translate="no">tpu.nodes.performMaintenance</code></h4></td>

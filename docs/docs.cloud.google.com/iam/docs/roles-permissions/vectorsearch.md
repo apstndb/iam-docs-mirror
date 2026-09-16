@@ -185,7 +185,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <blockquote>
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
-<td><p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
+<td><p><code dir="ltr" translate="no">aiplatform.  batchPredictionJobs.  create</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  batchPredictionJobs.  get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.endpoints.predict</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  rankingConfigs.  rank</code></p>
 <p><code dir="ltr" translate="no">storage.buckets.get</code></p>
 <p><code dir="ltr" translate="no">storage.objects.create</code></p>

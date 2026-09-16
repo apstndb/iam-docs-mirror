@@ -54,7 +54,7 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <p><code dir="ltr" translate="no">telemetry.  consumers.  setIamPolicy</code></p></td>
 </tr>
 <tr class="even">
-<td><h4 id="telemetry.logsWriter" class="role-title add-link" data-text="Cloud Telemetry Logs Writer Beta" tabindex="-1">Cloud Telemetry Logs Writer <sup>Beta</sup></h4>
+<td><h4 id="telemetry.logsWriter" class="role-title add-link" data-text="Cloud Telemetry Logs Writer" tabindex="-1">Cloud Telemetry Logs Writer</h4>
 <p>( <code dir="ltr" translate="no">roles/  telemetry.logsWriter</code> )</p>
 <p>Access to write logs.</p></td>
 <td><p><code dir="ltr" translate="no">logging.logEntries.create</code></p></td>

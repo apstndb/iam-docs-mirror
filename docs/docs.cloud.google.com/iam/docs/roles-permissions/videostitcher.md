@@ -31,16 +31,24 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><code dir="ltr" translate="no">videostitcher.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">videostitcher.cdnKeys.create</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  cdnKeys.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.cdnKeys.delete</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  cdnKeys.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.cdnKeys.get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.cdnKeys.list</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">videostitcher.cdnKeys.update</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  liveAdTagDetails.  get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  liveAdTagDetails.  list</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  liveConfigs.  create</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  liveConfigs.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  liveConfigs.  delete</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  liveConfigs.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.liveConfigs.get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.liveConfigs.list</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  liveSessions.  create</code></li>
 <li><code dir="ltr" translate="no">videostitcher.liveSessions.get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  operations.  cancel</code></li>
@@ -48,16 +56,24 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <li><code dir="ltr" translate="no">videostitcher.operations.get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.operations.list</code></li>
 <li><code dir="ltr" translate="no">videostitcher.slates.create</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  slates.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.slates.delete</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  slates.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.slates.get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.slates.list</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">videostitcher.slates.update</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  vodAdTagDetails.  get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  vodAdTagDetails.  list</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  create</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  createTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  delete</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">videostitcher.vodConfigs.get</code></li>
 <li><code dir="ltr" translate="no">videostitcher.vodConfigs.list</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></li>
+<li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  vodConfigs.  update</code></li>
 <li><code dir="ltr" translate="no">videostitcher.  vodSessions.  create</code></li>
 <li><code dir="ltr" translate="no">videostitcher.vodSessions.get</code></li>
@@ -140,10 +156,26 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="videostitcher.cdnKeys.createTagBinding" class="permission-name add-link" data-text="videostitcher.cdnKeys.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  cdnKeys.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="videostitcher.cdnKeys.delete" class="permission-name add-link" data-text="videostitcher.cdnKeys.delete" tabindex="-1"><code dir="ltr" translate="no">videostitcher.cdnKeys.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="videostitcher.cdnKeys.deleteTagBinding" class="permission-name add-link" data-text="videostitcher.cdnKeys.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  cdnKeys.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="videostitcher.cdnKeys.get" class="permission-name add-link" data-text="videostitcher.cdnKeys.get" tabindex="-1"><code dir="ltr" translate="no">videostitcher.cdnKeys.get</code></h4></td>
@@ -163,6 +195,32 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.viewer">Video Stitcher Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="videostitcher.cdnKeys.listEffectiveTags" class="permission-name add-link" data-text="videostitcher.cdnKeys.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="videostitcher.cdnKeys.listTagBindings" class="permission-name add-link" data-text="videostitcher.cdnKeys.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -200,10 +258,26 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="videostitcher.liveConfigs.createTagBinding" class="permission-name add-link" data-text="videostitcher.liveConfigs.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  liveConfigs.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="videostitcher.liveConfigs.delete" class="permission-name add-link" data-text="videostitcher.liveConfigs.delete" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  liveConfigs.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="videostitcher.liveConfigs.deleteTagBinding" class="permission-name add-link" data-text="videostitcher.liveConfigs.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  liveConfigs.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="videostitcher.liveConfigs.get" class="permission-name add-link" data-text="videostitcher.liveConfigs.get" tabindex="-1"><code dir="ltr" translate="no">videostitcher.liveConfigs.get</code></h4></td>
@@ -223,6 +297,32 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.viewer">Video Stitcher Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="videostitcher.liveConfigs.listEffectiveTags" class="permission-name add-link" data-text="videostitcher.liveConfigs.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="videostitcher.liveConfigs.listTagBindings" class="permission-name add-link" data-text="videostitcher.liveConfigs.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -283,10 +383,26 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="videostitcher.slates.createTagBinding" class="permission-name add-link" data-text="videostitcher.slates.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  slates.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="videostitcher.slates.delete" class="permission-name add-link" data-text="videostitcher.slates.delete" tabindex="-1"><code dir="ltr" translate="no">videostitcher.slates.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="videostitcher.slates.deleteTagBinding" class="permission-name add-link" data-text="videostitcher.slates.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  slates.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="videostitcher.slates.get" class="permission-name add-link" data-text="videostitcher.slates.get" tabindex="-1"><code dir="ltr" translate="no">videostitcher.slates.get</code></h4></td>
@@ -306,6 +422,32 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.viewer">Video Stitcher Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="videostitcher.slates.listEffectiveTags" class="permission-name add-link" data-text="videostitcher.slates.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="videostitcher.slates.listTagBindings" class="permission-name add-link" data-text="videostitcher.slates.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>
@@ -343,10 +485,26 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="videostitcher.vodConfigs.createTagBinding" class="permission-name add-link" data-text="videostitcher.vodConfigs.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  vodConfigs.  createTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="videostitcher.vodConfigs.delete" class="permission-name add-link" data-text="videostitcher.vodConfigs.delete" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  vodConfigs.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="videostitcher.vodConfigs.deleteTagBinding" class="permission-name add-link" data-text="videostitcher.vodConfigs.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  vodConfigs.  deleteTagBinding</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="videostitcher.vodConfigs.get" class="permission-name add-link" data-text="videostitcher.vodConfigs.get" tabindex="-1"><code dir="ltr" translate="no">videostitcher.vodConfigs.get</code></h4></td>
@@ -366,6 +524,32 @@ This page lists the IAM roles and permissions for Video Stitcher API. To search 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.viewer">Video Stitcher Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="videostitcher.vodConfigs.listEffectiveTags" class="permission-name add-link" data-text="videostitcher.vodConfigs.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="videostitcher.vodConfigs.listTagBindings" class="permission-name add-link" data-text="videostitcher.vodConfigs.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/videostitcher#videostitcher.admin">Video Stitcher Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  videostitcher.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
 </tr>

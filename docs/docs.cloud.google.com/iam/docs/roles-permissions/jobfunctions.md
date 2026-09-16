@@ -371,6 +371,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.indexes.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.indexes.update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">aiplatform.interactions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">aiplatform.interactions.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">aiplatform.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  locations.  evaluateInstances</code></li>
@@ -1535,6 +1543,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>
@@ -2215,6 +2224,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
+<p><code dir="ltr" translate="no">compute.instances.troubleshoot</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -2262,6 +2272,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.managedRulesets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.multiMig.get</code></p>
 <p><code dir="ltr" translate="no">compute.multiMig.list</code></p>
@@ -2399,6 +2414,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
@@ -3307,6 +3327,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
@@ -4324,6 +4345,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>
@@ -4723,6 +4745,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  instances.  startWithEncryptionKey</code></li>
 <li><code dir="ltr" translate="no">compute.instances.stop</code></li>
 <li><code dir="ltr" translate="no">compute.instances.suspend</code></li>
+<li><code dir="ltr" translate="no">compute.instances.troubleshoot</code></li>
 <li><code dir="ltr" translate="no">compute.instances.update</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateAccessConfig</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateDisplayDevice</code></li>
@@ -4818,6 +4841,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  machineImages.  useReadOnly</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 <li><code dir="ltr" translate="no">compute.multiMig.create</code></li>
 <li><code dir="ltr" translate="no">compute.multiMig.delete</code></li>
 <li><code dir="ltr" translate="no">compute.multiMig.get</code></li>
@@ -5136,6 +5161,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.regionUrlMaps.validate</code></li>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 <li><code dir="ltr" translate="no">compute.reservationBlocks.get</code></li>
 <li><code dir="ltr" translate="no">compute.reservationBlocks.list</code></li>
 <li><code dir="ltr" translate="no">compute.  reservationBlocks.  performMaintenance</code></li>
@@ -6625,6 +6652,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">storage.  managedFolders.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">storage.managedFolders.list</code></li>
 <li><code dir="ltr" translate="no">storage.  managedFolders.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">storage.managedFolders.update</code></li>
 </ul>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
@@ -6931,6 +6959,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.indexes.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.indexes.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.indexes.update</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.create</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.delete</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.get</code></li>
+<li><code dir="ltr" translate="no">aiplatform.interactions.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  locations.  evaluateInstances</code></li>
 <li><code dir="ltr" translate="no">aiplatform.locations.get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.locations.list</code></li>
@@ -7007,6 +7040,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  list</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  setDefault</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimeTemplates.  update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  notebookRuntimes.  assign</code></li>
@@ -8287,6 +8321,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">storage.managedFolders.delete</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.get</code></p>
 <p><code dir="ltr" translate="no">storage.managedFolders.list</code></p>
+<p><code dir="ltr" translate="no">storage.managedFolders.update</code></p>
 <p><code dir="ltr" translate="no">storage.multipartUploads.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">storage.multipartUploads.abort</code></li>
@@ -8685,6 +8720,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  instances.  startWithEncryptionKey</code></li>
 <li><code dir="ltr" translate="no">compute.instances.stop</code></li>
 <li><code dir="ltr" translate="no">compute.instances.suspend</code></li>
+<li><code dir="ltr" translate="no">compute.instances.troubleshoot</code></li>
 <li><code dir="ltr" translate="no">compute.instances.update</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateAccessConfig</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateDisplayDevice</code></li>
@@ -8780,6 +8816,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  machineImages.  useReadOnly</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 <li><code dir="ltr" translate="no">compute.multiMig.create</code></li>
 <li><code dir="ltr" translate="no">compute.multiMig.delete</code></li>
 <li><code dir="ltr" translate="no">compute.multiMig.get</code></li>
@@ -9098,6 +9136,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.regionUrlMaps.validate</code></li>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 <li><code dir="ltr" translate="no">compute.reservationBlocks.get</code></li>
 <li><code dir="ltr" translate="no">compute.reservationBlocks.list</code></li>
 <li><code dir="ltr" translate="no">compute.  reservationBlocks.  performMaintenance</code></li>
@@ -10318,6 +10358,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.  hyperparameterTuningJobs.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexEndpoints.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.memories.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  memoryRevisions.  list</code></p>
@@ -10655,12 +10696,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">automlrecommendations.  placements.  list</code></p>
 <p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
 <p><code dir="ltr" translate="no">autoscaling.sites.getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupPlans.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.backupVaults.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvbackups.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.bvdataSources.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  dataSourceReferences.  list</code></p>
@@ -10909,6 +10954,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.  sharedPreferenceSets.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.summaryTables.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.tags.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollections.  list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  transformerDefinitions.  list</code></p>
@@ -11873,6 +11919,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
+<p><code dir="ltr" translate="no">compute.instances.troubleshoot</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -11920,6 +11967,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.managedRulesets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.multiMig.get</code></p>
 <p><code dir="ltr" translate="no">compute.multiMig.list</code></p>
@@ -12058,6 +12110,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
@@ -12526,16 +12583,22 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datalineage.runs.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  list</code></p>
 <p><code dir="ltr" translate="no">datamigration.locations.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  mappingrules.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.objects.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.operations.list</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datapipelines.jobs.list</code></p>
 <p><code dir="ltr" translate="no">datapipelines.pipelines.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  aspectTypes.  getIamPolicy</code></p>
@@ -13434,6 +13497,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  get</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  list</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  remoteTransportProfiles.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  serviceClasses.  list</code></p>
@@ -13608,6 +13672,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">oracledatabase.databases.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbNodes.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.list</code></p>
@@ -13615,6 +13680,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">oracledatabase.  entitlements.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionTypes.  list</code></p>
@@ -13911,6 +13977,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">redis.operations.list</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  instances.  list</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  folders.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
@@ -13998,11 +14066,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">saasservicemgmt.flags.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.locations.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  rolloutKinds.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.rollouts.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  unitOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.units.list</code></p>
@@ -14065,6 +14139,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">securitycenter.issues.group</code></p>
 <p><code dir="ltr" translate="no">securitycenter.issues.list</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  issues.  listFilterValues</code></p>
+<p><code dir="ltr" translate="no">securitycenter.issues.retrieve</code></p>
+<p><code dir="ltr" translate="no">securitycenter.issues.search</code></p>
+<p><code dir="ltr" translate="no">securitycenter.  issues.  searchImpactedResources</code></p>
 <p><code dir="ltr" translate="no">securitycenter.muteconfigs.get</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  muteconfigs.  list</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  notificationconfig.  get</code></p>
@@ -14154,6 +14231,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">servicedirectory.  namespaces.  list</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.  services.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.services.list</code></p>
+<p><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.artifacts.list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.events.list</code></p>
 <p><code dir="ltr" translate="no">servicehealth.locations.list</code></p>
@@ -14258,6 +14336,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">tpu.acceleratortypes.list</code></p>
 <p><code dir="ltr" translate="no">tpu.locations.list</code></p>
 <p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">tpu.operations.list</code></p>
 <p><code dir="ltr" translate="no">tpu.runtimeversions.list</code></p>
 <p><code dir="ltr" translate="no">tpu.tensorflowversions.list</code></p>
@@ -14283,12 +14363,20 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">vectorsearch.locations.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.operations.list</code></p>
 <p><code dir="ltr" translate="no">videostitcher.cdnKeys.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.  liveAdTagDetails.  list</code></p>
 <p><code dir="ltr" translate="no">videostitcher.liveConfigs.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.operations.list</code></p>
 <p><code dir="ltr" translate="no">videostitcher.slates.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.  vodAdTagDetails.  list</code></p>
 <p><code dir="ltr" translate="no">videostitcher.vodConfigs.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.  vodStitchDetails.  list</code></p>
 <p><code dir="ltr" translate="no">visionai.analyses.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">visionai.analyses.list</code></p>
@@ -15415,6 +15503,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  instances.  startWithEncryptionKey</code></li>
 <li><code dir="ltr" translate="no">compute.instances.stop</code></li>
 <li><code dir="ltr" translate="no">compute.instances.suspend</code></li>
+<li><code dir="ltr" translate="no">compute.instances.troubleshoot</code></li>
 <li><code dir="ltr" translate="no">compute.instances.update</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateAccessConfig</code></li>
 <li><code dir="ltr" translate="no">compute.  instances.  updateDisplayDevice</code></li>
@@ -15513,6 +15602,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.managedRulesets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.multiMig.*</code></p>
 <ul>
@@ -15684,6 +15778,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
@@ -16513,6 +16612,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">aiplatform.  indexEndpoints.  queryVectors</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.get</code></p>
 <p><code dir="ltr" translate="no">aiplatform.indexes.list</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.interactions.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.  locations.  evaluateInstances</code></li>
@@ -17157,6 +17258,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">automlrecommendations.  recommendations.  list</code></p>
 <p><code dir="ltr" translate="no">autoscaling.sites.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">autoscaling.  sites.  readRecommendations</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  appliedAutoProtectionPolicies.  viewMatchingResources</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  get</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionBindings.  list</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">backupdr.  autoProtectionPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForAlloydbCluster</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupPlanAssociations.  fetchForComputeDisk</code></p>
@@ -17179,6 +17286,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">backupdr.backupVaults.list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">backupdr.  backupVaults.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">backupdr.  bindingMatchingResources.  list</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForCloudSqlInstance</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForComputeDisk</code></p>
 <p><code dir="ltr" translate="no">backupdr.  bvbackups.  fetchForComputeInstance</code></p>
@@ -17754,6 +17862,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.  instances.  logTypeClassifier</code></p>
 <p><code dir="ltr" translate="no">chronicle.  instances.  permitFederationAccess</code></p>
 <p><code dir="ltr" translate="no">chronicle.instances.report</code></p>
+<p><code dir="ltr" translate="no">chronicle.  instances.  suggestQueryFields</code></p>
 <p><code dir="ltr" translate="no">chronicle.  instances.  verifyNonce</code></p>
 <p><code dir="ltr" translate="no">chronicle.  integrationActionRevisions.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  integrationActions.  get</code></p>
@@ -17911,6 +18020,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">chronicle.  systemNotifications.  get</code></p>
 <p><code dir="ltr" translate="no">chronicle.tagSubscriptions.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.  tagSubscriptions.  list</code></p>
+<p><code dir="ltr" translate="no">chronicle.tags.get</code></p>
+<p><code dir="ltr" translate="no">chronicle.tags.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.tasks.get</code></p>
 <p><code dir="ltr" translate="no">chronicle.tenants.list</code></p>
 <p><code dir="ltr" translate="no">chronicle.  threatCollectionFilterSet.  get</code></p>
@@ -19163,6 +19274,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  instances.  listReferrers</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.  instances.  listVmExtensionStates</code></p>
+<p><code dir="ltr" translate="no">compute.instances.troubleshoot</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  get</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  instantSnapshotGroups.  list</code></p>
@@ -19210,6 +19322,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.machineTypes.get</code></li>
 <li><code dir="ltr" translate="no">compute.machineTypes.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.managedRulesets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.multiMig.get</code></p>
 <p><code dir="ltr" translate="no">compute.multiMig.list</code></p>
@@ -19348,6 +19465,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">compute.regions.get</code></li>
 <li><code dir="ltr" translate="no">compute.regions.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">compute.reliabilityRisks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.get</code></li>
+<li><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
@@ -20082,6 +20204,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  connectionprofiles.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  conversionworkspaces.  list</code></p>
@@ -20096,6 +20220,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  migrationjobs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datamigration.  migrationjobs.  verify</code></p>
 <p><code dir="ltr" translate="no">datamigration.objects.*</code></p>
 <ul>
@@ -20107,6 +20233,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  get</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">datamigration.  privateconnections.  list</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">datamigration.  privateconnections.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">datapipelines.jobs.list</code></p>
 <p><code dir="ltr" translate="no">datapipelines.pipelines.get</code></p>
 <p><code dir="ltr" translate="no">datapipelines.pipelines.list</code></p>
@@ -22084,6 +22212,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  get</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  policyBasedRoutes.  list</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  get</code></p>
+<p><code dir="ltr" translate="no">networkconnectivity.  pscAuthorizationPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  get</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  regionalEndpoints.  list</code></p>
 <p><code dir="ltr" translate="no">networkconnectivity.  remoteTransportProfiles.*</code></p>
@@ -22342,6 +22472,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">oracledatabase.dbNodes.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbServers.list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  dbSystemComputePerformances.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemInitialStorageSizes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  dbSystemShapes.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.dbSystems.get</code></p>
@@ -22352,6 +22483,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">oracledatabase.  exadbVmClusters.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  exascaleDbStorageVaults.  list</code></p>
+<p><code dir="ltr" translate="no">oracledatabase.  flexComponents.  list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.giVersions.list</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  get</code></p>
 <p><code dir="ltr" translate="no">oracledatabase.  goldenGateConnectionAssignments.  list</code></p>
@@ -22579,6 +22711,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  keys.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  metrics.  get</code></p>
+<p><code dir="ltr" translate="no">recaptchaenterprise.  policies.  get</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  projectmetadata.  get</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  relatedaccountgroupmemberships.  list</code></p>
 <p><code dir="ltr" translate="no">recaptchaenterprise.  relatedaccountgroups.  list</code></p>
@@ -22909,7 +23042,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">remotebuildexecution.  logstreams.  get</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  get</code></p>
 <p><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.boundaries.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaries.  list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  boundaryConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  capabilities.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.  capabilityConfigs.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.folders.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.  folders.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.folders.list</code></p>
@@ -23087,6 +23225,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">saasservicemgmt.operations.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  operations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.poolKinds.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.pools.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.releases.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  rolloutKinds.  get</code></p>
@@ -23095,8 +23237,16 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">saasservicemgmt.rollouts.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.saas.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  saasReleases.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  tenantOperations.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.tenants.list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroupOperations.  list</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.unitGroups.get</code></p>
+<p><code dir="ltr" translate="no">saasservicemgmt.  unitGroups.  list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.get</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.unitKinds.list</code></p>
 <p><code dir="ltr" translate="no">saasservicemgmt.  unitOperations.  get</code></p>
@@ -23184,6 +23334,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">securitycenter.issues.group</code></p>
 <p><code dir="ltr" translate="no">securitycenter.issues.list</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  issues.  listFilterValues</code></p>
+<p><code dir="ltr" translate="no">securitycenter.issues.retrieve</code></p>
+<p><code dir="ltr" translate="no">securitycenter.issues.search</code></p>
+<p><code dir="ltr" translate="no">securitycenter.  issues.  searchImpactedResources</code></p>
 <p><code dir="ltr" translate="no">securitycenter.muteconfigs.get</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  muteconfigs.  list</code></p>
 <p><code dir="ltr" translate="no">securitycenter.  notificationconfig.  get</code></p>
@@ -23304,6 +23457,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">servicedirectory.  services.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.services.list</code></p>
 <p><code dir="ltr" translate="no">servicedirectory.  services.  resolve</code></p>
+<p><code dir="ltr" translate="no">serviceextensions.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">serviceextensions.  locations.  get</code></li>
+<li><code dir="ltr" translate="no">serviceextensions.  locations.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">servicehealth.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">servicehealth.artifacts.get</code></li>
@@ -23548,6 +23706,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">tpu.nodes.get</code></p>
 <p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">tpu.nodes.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">tpu.operations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">tpu.operations.get</code></li>
@@ -23605,6 +23765,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">vectorsearch.operations.list</code></p>
 <p><code dir="ltr" translate="no">videostitcher.cdnKeys.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.cdnKeys.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  cdnKeys.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.  liveAdTagDetails.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">videostitcher.  liveAdTagDetails.  get</code></li>
@@ -23612,11 +23774,15 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">videostitcher.liveConfigs.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.liveConfigs.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  liveConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.liveSessions.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.operations.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.operations.list</code></p>
 <p><code dir="ltr" translate="no">videostitcher.slates.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.slates.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  slates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.  vodAdTagDetails.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">videostitcher.  vodAdTagDetails.  get</code></li>
@@ -23624,6 +23790,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">videostitcher.vodConfigs.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.vodConfigs.list</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">videostitcher.  vodConfigs.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">videostitcher.vodSessions.get</code></p>
 <p><code dir="ltr" translate="no">videostitcher.  vodStitchDetails.*</code></p>
 <ul>

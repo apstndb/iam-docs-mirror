@@ -815,6 +815,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.instanceGroups.list</code></p>
 <p><code dir="ltr" translate="no">compute.instances.get</code></p>
 <p><code dir="ltr" translate="no">compute.instances.list</code></p>
+<p><code dir="ltr" translate="no">compute.managedRulesets.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">compute.managedRulesets.get</code></li>
+<li><code dir="ltr" translate="no">compute.managedRulesets.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.networks.list</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionTargetHttpProxies.  list</code></p>
