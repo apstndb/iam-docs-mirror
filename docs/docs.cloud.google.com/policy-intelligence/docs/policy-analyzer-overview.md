@@ -56,7 +56,7 @@ Policy Analyzer for allow policies only supports [IAM allow policies](https://do
 Policy Analyzer for allow policies doesn't support the following forms of access control:
 
   - [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
-  - [IAM principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
+  - [IAM Principal Access Boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)
   - [Google Kubernetes Engine role-based access control](https://docs.cloud.google.com/kubernetes-engine/docs/how-to/role-based-access-control)
   - [Cloud Storage access control lists](https://docs.cloud.google.com/storage/docs/access-control/lists)
   - [Cloud Storage public access prevention](https://docs.cloud.google.com/storage/docs/public-access-prevention)

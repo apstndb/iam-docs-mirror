@@ -103,7 +103,7 @@ Policy Simulator limits the number of queries you can run at one time.
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | ----- |
 | Maximum concurrent [allow policy](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview) simulations                     | 50    |
 | Maximum concurrent [deny policy](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview) simulations                     | 50    |
-| Maximum concurrent [principal access boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) simulations | 50    |
+| Maximum concurrent [Principal Access Boundary policy](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) simulations | 50    |
 | Maximum concurrent [organization policy](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview) simulations              | 50    |
 
 ## Policy Simulator quotas

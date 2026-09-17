@@ -13,7 +13,7 @@ This feature only evaluates access based on deny policies.
 To learn how to simulate other types of policies, see the following:
 
   - [Test organization policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
-  - [Test principal access boundary policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies)
+  - [Test Principal Access Boundary policy changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies)
   - [Test role changes with Policy Simulator](https://docs.cloud.google.com/policy-intelligence/docs/simulate-iam-policies)
 
 ## Before you begin

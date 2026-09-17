@@ -12,7 +12,7 @@ This page lists the resource types on which you can set [allow policies](https:/
 
 Select a service to see which of its resource types support allow policies:
 
-All services BigQuery Identity-Aware Proxy Access Context Manager Agent Identity API Gemini Enterprise Agent Platform BigQuery sharing API Gateway Apigee App Hub Artifact Registry AutoML Backup and Disaster Recovery Chrome Enterprise Premium BigLake BigQuery Connection API BigQuery Data Policy BigQuery Reservation API Cloud Bigtable Admin API Binary Authorization Cloud Billing Cloud Build Cloud Deploy Cloud Run functions Cloud Key Management Service Resource Manager Cloud Tasks Compute Engine Infrastructure Manager Customer Experience Insights Artifact Analysis Data Catalog Dataform Cloud Data Fusion Database Migration Service Knowledge Catalog Managed Service for Apache Spark Cloud Deployment Manager Discovery Engine Cloud DNS Cloud Domains Eventarc Backup for GKE GKE Hub Google Distributed Cloud Cloud Healthcare API Identity and Access Management Cloud Logging Managed Service for Microsoft Active Directory Dataproc Metastore AI Platform Network Connectivity Center Network Management API Network Security Network Services Notebooks Certificate Authority Service Pub/Sub Cloud Run Secret Manager Secure Source Manager Security Command Center Service Directory Service Management Spanner Cloud Storage Google Cloud VMware Engine Cloud Workstations
+All services BigQuery Identity-Aware Proxy Access Context Manager Agent Identity API Agent Registry Gemini Enterprise Agent Platform BigQuery sharing API Gateway Apigee App Hub Artifact Registry Backup and Disaster Recovery Chrome Enterprise Premium BigLake BigQuery Connection API BigQuery Data Policy BigQuery Reservation API Cloud Bigtable Admin API Binary Authorization Cloud Billing Cloud Build Cloud Deploy Cloud Run functions Cloud Key Management Service Resource Manager Cloud Tasks Compute Engine Infrastructure Manager Customer Experience Insights Artifact Analysis Data Catalog Dataform Cloud Data Fusion Database Migration Service Knowledge Catalog Managed Service for Apache Spark Cloud Deployment Manager Discovery Engine Cloud DNS Cloud Domains Eventarc Backup for GKE GKE Hub Google Distributed Cloud Cloud Healthcare API Identity and Access Management Cloud Logging Managed Service for Microsoft Active Directory Dataproc Metastore AI Platform Network Connectivity Center Network Management API Network Security Network Services Notebooks Certificate Authority Service Pub/Sub Cloud Run Secret Manager Secure Source Manager Security Command Center Service Directory Service Management Spanner Cloud Storage Google Cloud VMware Engine Cloud Workstations
 
 <table>
 <colgroup>
@@ -51,6 +51,10 @@ Web service versions</td>
 <td>Auth providers</td>
 </tr>
 <tr class="odd">
+<td>Agent Registry</td>
+<td>AI applications</td>
+</tr>
+<tr class="even">
 <td>Gemini Enterprise Agent Platform</td>
 <td>Agents<br />
 Datasets<br />
@@ -63,37 +67,31 @@ Models<br />
 Notebook runtime templates<br />
 Reasoning engines</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>BigQuery sharing</td>
 <td>Data exchanges<br />
 Listings<br />
 Subscriptions</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>API Gateway</td>
 <td>APIs<br />
 Configs<br />
 Gateways</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Apigee</td>
 <td>Deployments<br />
 Environments<br />
 Spaces</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>App Hub</td>
 <td>Applications</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Artifact Registry</td>
 <td>Repositories</td>
-</tr>
-<tr class="odd">
-<td>AutoML</td>
-<td>Datasets<br />
-Locations<br />
-Models</td>
 </tr>
 <tr class="even">
 <td>Backup and Disaster Recovery</td>

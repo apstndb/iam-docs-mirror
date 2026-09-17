@@ -95,7 +95,7 @@ To let you see how a change to an access-related policy might affect your princi
 
   - [Policy Simulator for allow policies](https://docs.cloud.google.com/policy-intelligence/docs/iam-simulator-overview)
   - [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
-  - [Policy Simulator for principal access boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
+  - [Policy Simulator for Principal Access Boundary policies](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview)
 
 Each of these simulators lets you see how a change to a policy of that type would affect access for your principals before you commit to making the change. Each simulator only evaluates one policy type—they don't take into account whether other types of policies would permit or block access.
 

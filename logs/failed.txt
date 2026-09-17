@@ -1,9 +1,1 @@
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/ExchangeTokenResponse
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/common
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/common/groups
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/common/token
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/common/userinfo
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/organizations
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/organizations/token
-200 https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest/v1/organizations/userinfo
+

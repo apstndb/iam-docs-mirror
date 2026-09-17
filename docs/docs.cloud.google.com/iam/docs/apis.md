@@ -74,6 +74,12 @@ data_source: docs.cloud.google.com
     
     Manage auth providers for Agent Identity.
 
+  - [](https://docs.cloud.google.com/iam/docs/reference/cloudoauth/rest)
+    
+    ### Cloud OAuth REST API (Preview)
+    
+    Exchange credentials for short-lived access tokens, revoke tokens, and manage OAuth configurations.
+
 <!-- end list -->
 
   - [](https://docs.cloud.google.com/iam/docs/reference/rpc)

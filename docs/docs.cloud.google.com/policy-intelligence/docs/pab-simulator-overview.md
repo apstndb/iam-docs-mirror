@@ -1,8 +1,8 @@
 ---
 name: documents/docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview
 uri: https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview
-title: Policy Simulator for principal access boundary policies
-description: Overview of Policy Simulator for principal access boundary (PAB) policies, which lets you see how a change to a PAB policy might affect a principal's access.
+title: Policy Simulator for Principal Access Boundary policies
+description: Overview of Policy Simulator for Principal Access Boundary (PAB) policies, which lets you see how a change to a PAB policy might affect a principal's access.
 data_source: docs.cloud.google.com
 ---
 
@@ -10,9 +10,9 @@ data_source: docs.cloud.google.com
 > 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-Policy Simulator for principal access boundary (PAB) policies lets you see how a change to a [principal access boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) or [binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) might affect your principals' access before you commit to making the change. You can use Policy Simulator to help you understand the potential impact of a change to a principal access boundary policy or binding before you apply it.
+Policy Simulator for Principal Access Boundary (PAB) policies lets you see how a change to a [Principal Access Boundary policy](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies) or [binding](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) might affect your principals' access before you commit to making the change. You can use Policy Simulator to help you understand the potential impact of a change to a Principal Access Boundary policy or binding before you apply it.
 
-This feature only evaluates access based on principal access boundary policies and policy bindings.
+This feature only evaluates access based on Principal Access Boundary policies and policy bindings.
 
 To learn how to simulate changes to other policy types, see the following:
 
@@ -20,13 +20,13 @@ To learn how to simulate changes to other policy types, see the following:
   - [Policy Simulator for deny policies](https://docs.cloud.google.com/policy-intelligence/docs/deny-simulator-overview)
   - [Policy Simulator for organization policies](https://docs.cloud.google.com/policy-intelligence/docs/test-organization-policies)
 
-## How Policy Simulator for principal access boundary policies works
+## How Policy Simulator for Principal Access Boundary policies works
 
-Policy Simulator for principal access boundary policies helps you determine how a change to a principal access boundary policy or policy binding affects access for principals in your organization.
+Policy Simulator for Principal Access Boundary policies helps you determine how a change to a Principal Access Boundary policy or policy binding affects access for principals in your organization.
 
-When you run a simulation for a principal access boundary policy or policy binding, Policy Simulator does the following:
+When you run a simulation for a Principal Access Boundary policy or policy binding, Policy Simulator does the following:
 
-  - Reviews access logs from the organization that were generated during the [replay period](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#replay-period) in the context of the current principal access boundary policies and bindings and the simulated principal access boundary policy or binding.
+  - Reviews access logs from the organization that were generated during the [replay period](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#replay-period) in the context of the current Principal Access Boundary policies and bindings and the simulated Principal Access Boundary policy or binding.
 
   - Returns a series of *access changes* . These access changes show which access attempts from the logs are likely to have different results if you applied the simulated policy or binding.
 
@@ -38,7 +38,7 @@ The replay period is the time that Policy Simulator gets access logs for when ru
 
 ## Policy Simulator results
 
-Policy Simulator for principal access boundary reports the impact of a proposed change to a principal access boundary policy or binding as a list of [access changes](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#access-changes) . An access change represents an access attempt from the replay period that would likely have a different result if the simulated policy were applied.
+Policy Simulator for Principal Access Boundary reports the impact of a proposed change to a Principal Access Boundary policy or binding as a list of [access changes](https://docs.cloud.google.com/policy-intelligence/docs/pab-simulator-overview#access-changes) . An access change represents an access attempt from the replay period that would likely have a different result if the simulated policy were applied.
 
 For each access change, Policy Simulator also reports the following information:
 
@@ -48,70 +48,70 @@ For each access change, Policy Simulator also reports the following information:
 
 ### Access changes
 
-An access change indicates that, based on the relevant principal access boundary policies, a user's access is likely to change if you apply the simulated policy or binding. Access changes can either be *access gained* or *access revoked* .
+An access change indicates that, based on the relevant Principal Access Boundary policies, a user's access is likely to change if you apply the simulated policy or binding. Access changes can either be *access gained* or *access revoked* .
 
-When calculating access changes, Policy Simulator for principal access boundary only evaluates principal access boundary policies and bindings. It doesn't evaluate other policy types.
+When calculating access changes, Policy Simulator for Principal Access Boundary only evaluates Principal Access Boundary policies and bindings. It doesn't evaluate other policy types.
 
 Policy Simulator calculates access changes using the following information:
 
   - The result of the most recent access attempt
-  - The impact of the current principal access boundary policies and bindings
-  - The impact of the proposed principal access boundary policies and bindings
+  - The impact of the current Principal Access Boundary policies and bindings
+  - The impact of the proposed Principal Access Boundary policies and bindings
 
 For access to be *gained* , all of the following must be true:
 
   - The most recent access attempt was blocked
-  - Access is blocked by the current principal access boundary policies and bindings
-  - Access is not blocked by the proposed principal access boundary policies and bindings
+  - Access is blocked by the current Principal Access Boundary policies and bindings
+  - Access is not blocked by the proposed Principal Access Boundary policies and bindings
 
 For access to be *revoked* , all of the following must be true:
 
   - The most recent access attempt was not blocked
-  - Access is not blocked by the current principal access boundary policies and bindings
-  - Access is blocked by the proposed principal access boundary policies and bindings
+  - Access is not blocked by the current Principal Access Boundary policies and bindings
+  - Access is blocked by the proposed Principal Access Boundary policies and bindings
 
-A set of principal access boundary policies and bindings block a principal's access if *all* of the following are true:
+A set of Principal Access Boundary policies and bindings block a principal's access if *all* of the following are true:
 
-  - Principal access boundary policies do affect the principal's access. In other words, the principal is subject to at least one principal access boundary policy that has an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
-  - None of the principal access boundary policies that the principal is subject to include the resource.
+  - Principal Access Boundary policies do affect the principal's access. In other words, the principal is subject to at least one Principal Access Boundary policy that has an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
+  - None of the Principal Access Boundary policies that the principal is subject to include the resource.
 
-A set of principal access boundary policies and bindings don't block principal's access if *any* of the following are true:
+A set of Principal Access Boundary policies and bindings don't block a principal's access if *any* of the following are true:
 
-  - Principal access boundary policies don't affect the principal's access. In other words, the principal isn't subject to any principal access boundary policies that that have an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
-  - At least one of the principal access boundary policies that the principal is subject to includes the resource.
+  - Principal Access Boundary policies don't affect the principal's access. In other words, the principal isn't subject to any Principal Access Boundary policies that have an [enforcement version](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#blocked-permissions) that supports the permission in the request.
+  - At least one of the Principal Access Boundary policies that the principal is subject to includes the resource.
 
 ## Errors
 
 The following errors can cause a simulation to fail:
 
   - **Timeout** : The simulation took too long to run and timed out. To resolve, try running the simulation again.
-  - **Invalid simulation construction** : The proposed principal access boundary policy or principal access boundary policy binding is invalid. For example, the proposed policy has an invalid condition expression, or the proposed binding is for a principal set that is already bound to the [maximum number of policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) . To resolve, correct the policy or binding and try again.
+  - **Invalid simulation construction** : The proposed Principal Access Boundary policy or Principal Access Boundary policy binding is invalid. For example, the proposed policy has an invalid condition expression, or the proposed binding is for a principal set that is already bound to the [maximum number of policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies#binding) . To resolve, correct the policy or binding and try again.
   - **Permission denied** : You don't have permission to run a simulation. To resolve, ensure that you're granted the [required roles](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies#required-roles) and try again.
 
 ## Supported principal types
 
-Policy Simulator for principal access boundary policies only reviews access logs for the following types of principals:
+Policy Simulator for Principal Access Boundary policies only reviews access logs for the following types of principals:
 
   - Google Accounts
   - Service accounts
 
-When simulating principal access boundary policies and bindings, Policy Simulator doesn't review access logs for any other principal types. As a result, it doesn't report whether the proposed changes to your policies or bindings will affect those principals' access.
+When simulating Principal Access Boundary policies and bindings, Policy Simulator doesn't review access logs for any other principal types. As a result, it doesn't report whether the proposed changes to your policies or bindings will affect those principals' access.
 
 ### Simulating Credential Access Boundaries
 
 You can use Credential Access Boundaries to *downscope* , or restrict, the IAM permissions that a short-lived credential can use to access Cloud Storage resources. To downscope permissions, a user or service account (the token broker) defines the available permissions on a set of resources in a downscoped access token and then provides the access token to another user or service account (the token consumer).
 
-The token broker must have a role that includes the permissions granted to the token consumer with a downscoped access token. Blocking the user from accessing that resource using a principal access boundary also blocks access for the token consumer. However, Policy Simulator doesn't evaluate how changes to the token broker's permissions affect the token consumer's access.
+The token broker must have a role that includes the permissions granted to the token consumer with a downscoped access token. Blocking the user from accessing that resource using a Principal Access Boundary also blocks access for the token consumer. However, Policy Simulator doesn't evaluate how changes to the token broker's permissions affect the token consumer's access.
 
 For example, consider a user who has been granted the **Storage Legacy Bucket Reader** ( `roles/storage.legacyBucketReader` ) role on a resource using a downscoped access token created with a Credential Access Boundary.
 
-  - If you simulate blocking the **Storage Legacy Bucket Reader** role from that user using a principal access boundary, Policy Simulator fails to report a loss of access.
+  - If you simulate blocking the **Storage Legacy Bucket Reader** role from that user using a Principal Access Boundary, Policy Simulator fails to report a loss of access.
 
-  - If you simulate blocking the **Storage Legacy Bucket Reader** role from the token broker using a principal access boundary, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
+  - If you simulate blocking the **Storage Legacy Bucket Reader** role from the token broker using a Principal Access Boundary, Policy Simulator fails to report a loss of access for the user. Similarly, if the token broker's access isn't used within 90 days, their access isn't included in the simulation.
 
 For more information, see [Credential Access Boundaries for Cloud Storage](https://docs.cloud.google.com/iam/docs/downscoping-short-lived-credentials) .
 
 ## What's next
 
-  - Learn how to [simulate a change to a principal access boundary policy or binding](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies) .
+  - Learn how to [simulate a change to a Principal Access Boundary policy or binding](https://docs.cloud.google.com/policy-intelligence/docs/simulate-pab-policies) .
   - Explore other [Policy Intelligence tools](https://docs.cloud.google.com/policy-intelligence/docs/overview) .

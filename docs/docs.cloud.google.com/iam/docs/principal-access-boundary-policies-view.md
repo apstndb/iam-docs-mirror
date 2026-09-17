@@ -759,18 +759,21 @@ Execute the following command:
 
     gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID \
         --location=global \
+        --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
         --format=FORMAT
 
 #### Windows (PowerShell)
 
     gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID `
         --location=global `
+        --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
         --format=FORMAT
 
 #### Windows (cmd.exe)
 
     gcloud iam policy-bindings list --RESOURCE_TYPE=RESOURCE_ID ^
         --location=global ^
+        --filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
         --format=FORMAT
 
 The response contains the policy bindings that are children of the resource in the command.
@@ -822,7 +825,7 @@ Before using any of the request data, make the following replacements:
 
 HTTP method and URL:
 
-    GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings
+    GET https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY
 
 To send your request, expand one of these options:
 
@@ -834,7 +837,7 @@ Execute the following command:
 
     curl -X GET \
          -H "Authorization: Bearer $(gcloud auth print-access-token)" \
-         "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings"
+         "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY"
 
 #### PowerShell (Windows)
 
@@ -848,7 +851,7 @@ Execute the following command:
     Invoke-WebRequest `
         -Method GET `
         -Headers $headers `
-        -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings" | Select-Object -Expand Content
+        -Uri "https://iam.googleapis.com/v3/RESOURCE_TYPE/RESOURCE_ID/locations/global/policyBindings?filter=policyKind:PRINCIPAL_ACCESS_BOUNDARY" | Select-Object -Expand Content
 
 The response contains the policy bindings that are children of the resource in the request.
 

@@ -10,6 +10,12 @@ This page documents production updates to Policy Intelligence. Check this page f
 
 You can see the latest product updates for all of Google Cloud on the [Google Cloud](https://docs.cloud.google.com/release-notes) page, browse and filter all release notes in the [Google Cloud console](https://console.cloud.google.com/release-notes) , or programmatically access release notes in [BigQuery](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=google_cloud_release_notes&t=release_notes&page=table) .
 
+## September 15, 2026
+
+Feature
+
+Policy Troubleshooter now supports troubleshooting access for [agent identities](https://docs.cloud.google.com/iam/docs/agent-identity-overview) . You can troubleshoot IAM allow policies, deny policies, and principal access boundary policies for agents acting under their own authority by entering the agent's principal identifier or by troubleshooting with an error ID from an access denial event. To learn more, see [Troubleshooting access](https://docs.cloud.google.com/policy-intelligence/docs/troubleshoot-access#troubleshoot-access) .
+
 ## September 09, 2026
 
 Feature
