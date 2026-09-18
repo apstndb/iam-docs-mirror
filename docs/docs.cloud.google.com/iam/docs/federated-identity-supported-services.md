@@ -476,6 +476,8 @@ The limitations table is organized in the following way:
 <li><a href="https://docs.cloud.google.com/bigquery/docs/external-data-drive">Google Drive</a></li>
 <li><a href="https://docs.cloud.google.com/bigquery/docs/recommendation-overview">Recommendations</a></li>
 <li><a href="https://docs.cloud.google.com/bigquery/docs/slot-estimator">Slot estimator</a></li>
+<li><a href="https://docs.cloud.google.com/bigquery/docs/write-sql-gemini#generate_a_sql_query">SQL generation with Gemini</a></li>
+<li><a href="https://docs.cloud.google.com/bigquery/docs/write-sql-gemini#generate_python_code">Python code generation with Gemini</a></li>
 </ul></li>
 <li>The following operations don't support Workforce Identity Federation:
 <ul>

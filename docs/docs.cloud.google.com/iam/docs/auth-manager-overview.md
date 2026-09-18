@@ -32,9 +32,34 @@ The following flow diagram illustrates the high-level architecture and credentia
 5.  The third-party service validates the credential and returns the requested data to the agent.
 6.  The agent uses the returned data to generate and deliver the final response to the user.
 
+## Sample third-party integrations
+
+The auth manager supports standard OAuth 2.0 and API key patterns, making it compatible with many third-party services.
+
+The following table lists some verified third-party services, their supported authentication methods, and setup documentation.
+
+> **Note:** This list is not exhaustive.
+
+| Service        | Supported authentication methods                                                                                                                        | Credential setup documentation                                                                                                                        |
+| :------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Atlassian Jira | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) , [API key](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)      | [Jira OAuth 2.0 guide](https://developer.atlassian.com/cloud/jira/software/oauth-2-3lo-apps/)                                                         |
+| Dropbox        | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)                                                                               | [Dropbox OAuth guide](https://developers.dropbox.com/oauth-guide)                                                                                     |
+| GitHub         | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) \*                                                                            | [GitHub OAuth Apps](https://docs.github.com/en/apps/oauth-apps)                                                                                       |
+| GitLab         | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)                                                                               | [GitLab OAuth provider](https://docs.gitlab.com/integration/oauth_provider/)                                                                          |
+| Microsoft      | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) \*                                                                            | [Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/)                                                             |
+| Salesforce     | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) , [2-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)   | [Salesforce Connected Apps](https://help.salesforce.com/s/articleView?id=sf.connected_app_overview.htm)                                               |
+| ServiceNow     | [3-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2) \*, [2-legged OAuth](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2) | [ServiceNow OAuth setup](https://docs.servicenow.com/bundle/washingtondc-platform-security/page/administer/security/concept/c_OAuthApplications.html) |
+
+\* For details on service limitations and requirements, see [Service-specific considerations](https://docs.cloud.google.com/iam/docs/auth-manager-overview#service-considerations) .
+
+### Service-specific considerations
+
+  - **GitHub and Microsoft** : The auth manager supports single-scope integrations for GitHub and Microsoft. The auth manager doesn't support requesting multiple scopes. For more information, see [GitHub or Microsoft multiple scopes error](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#multiple-scopes-error) .
+  - **ServiceNow** : In ServiceNow, administrators configure allowed scopes at the application level. Regardless of what an agent requests, ServiceNow grants only these configured scopes. If an agent requires a scope that isn't configured, authentication might fail or enter a request loop. Ensure that the ServiceNow application configuration includes all of the scopes that your agent requires. For more information, see [ServiceNow authentication loop or unexpected scopes](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager#servicenow-scopes) .
+
 ## Locations
 
-Agent Identity auth manager is available in regions across the Americas, Europe, and Asia Pacific. For a list of supported regions, see [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations) .
+The Agent Identity auth manager is available in regions across the Americas, Europe, and Asia Pacific. For a list of supported regions, see [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations) .
 
 ## What's next
 
@@ -44,3 +69,4 @@ Agent Identity auth manager is available in regions across the Americas, Europe,
   - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
   - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)
   - [Agent Identity locations](https://docs.cloud.google.com/iam/docs/agent-identity-locations)
+  - [Troubleshoot Agent Identity auth manager](https://docs.cloud.google.com/iam/docs/troubleshoot-auth-manager)

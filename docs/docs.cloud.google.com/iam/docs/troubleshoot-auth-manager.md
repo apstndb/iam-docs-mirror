@@ -10,7 +10,9 @@ data_source: docs.cloud.google.com
 > 
 > This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
-This document describes how to resolve common [Authentication using Agent Identity with auth manager](https://docs.cloud.google.com/iam/docs/manage-auth-providers) errors.
+This document describes how to resolve common errors when using the Agent Identity auth manager.
+
+For instructions about configuring auth providers, see [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2) .
 
 ## Redirect URI mismatch
 
@@ -134,10 +136,36 @@ To resolve this error, do the following:
 3.  Check the Python traceback to identify syntax errors or trace missing packages.
 4.  Ensure that all required packages are listed in your `requirements.txt` file.
 
+## ServiceNow authentication loop or unexpected scopes
+
+When an agent authenticates to ServiceNow using 3-legged OAuth, the authentication flow might fail or the agent might enter a request loop.
+
+This issue occurs because ServiceNow determines granted scopes at the application level rather than from the scopes requested by the agent. If an administrator configures specific scopes on the ServiceNow application (for example, `useraccount` ), ServiceNow returns tokens containing only those configured scopes, even if the agent requested different scopes (such as `mcp_server` ). If the agent strictly expects or validates the requested scopes, it rejects the received token and might re-request credentials in a loop.
+
+To resolve this issue, do the following:
+
+1.  Sign in to your ServiceNow instance as an administrator.
+2.  Go to the ServiceNow OAuth application configuration.
+3.  Ensure that all scopes required by your agent are explicitly added to the allowed scopes list for the application.
+4.  Configure your agent to request only the scopes enabled in ServiceNow.
+
+For more information, see [Supported third-party services](https://docs.cloud.google.com/iam/docs/auth-manager-overview#supported-services) .
+
+## GitHub or Microsoft multiple scopes error
+
+When configuring an auth provider for GitHub or Microsoft, authentication fails if you request multiple OAuth scopes.
+
+The auth manager supports single-scope integrations for GitHub and Microsoft. The auth manager doesn't support requesting multiple scopes simultaneously.
+
+To resolve this issue, configure your agent or auth provider to request only a single scope needed for the integration.
+
+For more information, see [Supported third-party services](https://docs.cloud.google.com/iam/docs/auth-manager-overview#supported-services) .
+
 ## What's next
 
+  - [Agent Identity auth manager overview](https://docs.cloud.google.com/iam/docs/auth-manager-overview)
   - [Agent Identity overview](https://docs.cloud.google.com/iam/docs/agent-identity-overview)
-  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo)
-  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo)
-  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key)
-  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers)
+  - [Authenticate using 3-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2)
+  - [Authenticate using 2-legged OAuth with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2)
+  - [Authenticate using API key with auth manager](https://docs.cloud.google.com/iam/docs/auth-with-api-key-v2)
+  - [Manage Agent Identity auth providers](https://docs.cloud.google.com/iam/docs/manage-auth-providers-v2)

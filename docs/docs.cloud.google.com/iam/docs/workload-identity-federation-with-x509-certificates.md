@@ -539,6 +539,8 @@ To create credential and certificate configuration files for direct resource acc
 
 8.  Click **Dismiss** .
 
+If you want to use the Security Token Service regional endpoints—for example, `https://sts.us-central1.rep.mtls.googleapis.com` , see [Using regional Security Token Service endpoints for better reliability](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) .
+
 ### gcloud
 
 1.  To create credential and certificate configuration files for direct resource access by using [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) , run the following command:
@@ -548,6 +550,7 @@ To create credential and certificate configuration files for direct resource acc
             --credential-cert-path=CLIENT_CERT_PATH \
             --credential-cert-private-key-path=CLIENT_PRIVATE_KEY_PATH \
             --credential-cert-trust-chain-path=TRUST_CHAIN_PATH \
+            --sts-location=REGION \
             --output-file=FILEPATH.json
     
     Replace the following:
@@ -558,6 +561,7 @@ To create credential and certificate configuration files for direct resource acc
       - `  CLIENT_CERT_PATH  ` : The path of the client certificate file.
       - `  CLIENT_PRIVATE_KEY_PATH  ` : The path of the client certificate private key file.
       - `  TRUST_CHAIN_PATH  ` : Optional. The path of the trust chain file that contains the client certificate and any intermediate certificates that are required for certificate lookup but are not configured in the X.509 provider.
+      - `  REGION  ` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
       - `  FILEPATH  ` : The file to save the configuration to.
     
     Running this command will also create a certificate configuration file and store it at the default gcloud CLI location:
@@ -594,6 +598,8 @@ To create credential and certificate configuration files with service account im
 
 9.  Click **Dismiss** .
 
+If you want to use the Security Token Service regional endpoints—for example, `https://sts.us-central1.rep.mtls.googleapis.com` , see [Using regional Security Token Service endpoints for better reliability](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) .
+
 ### gcloud
 
 1.  To create credential and certificate configuration files with service account impersonation by using [`gcloud iam workload-identity-pools create-cred-config`](https://docs.cloud.google.com/sdk/gcloud/reference/iam/workload-identity-pools/create-cred-config) , run the following command:
@@ -605,6 +611,7 @@ To create credential and certificate configuration files with service account im
             --credential-cert-path=CLIENT_CERT_PATH \
             --credential-cert-private-key-path=CLIENT_PRIVATE_KEY_PATH \
             --credential-cert-trust-chain-path=TRUST_CHAIN_PATH \
+            --sts-location=REGION \
             --output-file=FILEPATH.json
     
     Replace the following:
@@ -617,6 +624,7 @@ To create credential and certificate configuration files with service account im
       - `  CLIENT_CERT_PATH  ` : The path of the client certificate file.
       - `  CLIENT_PRIVATE_KEY_PATH  ` : The path of the client certificate private key file.
       - `  TRUST_CHAIN_PATH  ` : Optional. The path of the trust chain file that contains the client certificate and any intermediate certificates that are required for certificate lookup but are not configured in the X.509 provider.
+      - `  REGION  ` : Optional. Specify the region of the [regional Security Token Service endpoints](https://docs.cloud.google.com/iam/docs/best-practices-for-using-workload-identity-federation#sts-regional-endpoints) , if they are available.
       - `  FILEPATH  ` : The file to save configuration to.
     
     Running this command will also create a certificate configuration file and store it at the default Google Cloud CLI location:
@@ -751,6 +759,14 @@ To obtain the access token, do the following:
         ` //iam.googleapis.com/projects/ PROJECT_NUMBER /locations/global/workloadIdentityPools/ POOL_ID /providers/ PROVIDER_ID  `
     
       - `  TRUST_CHAIN  ` : The trust chain needed to verify the leaf certificate, must at least include `  CLIENT_CERT  ` as the first item. If you followed instructions in [Format the certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#formatting) section, replace `  TRUST_CHAIN  ` with `'"${TRUST_CHAIN}"'`
+    
+    To use regional Security Token Service endpoints, replace `https://sts.mtls.googleapis.com/v1/token` with the following:
+    
+    ``` 
+     https://sts.REGION.rep.mtls.googleapis.com/v1/token 
+    ```
+    
+    Replace `  REGION  ` with a [Google Cloud location](https://cloud.google.com/about/locations) , for example, `us-central1` or `europe-west4` .
 
 2.  Optional: If you use service account impersonation, call the [`generateAccessToken` method](https://docs.cloud.google.com/iam/docs/reference/credentials/rest/v1/projects.serviceAccounts/generateAccessToken) of the [IAM Service Account Credentials API](https://docs.cloud.google.com/iam/docs/reference/credentials/rest) with the token from Security Token Service to get an access token.
     

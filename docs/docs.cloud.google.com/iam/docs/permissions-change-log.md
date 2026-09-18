@@ -16,6 +16,870 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-09-15
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Agent Platform Administrator role ( <code dir="ltr" translate="no">roles/aiplatform.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Colab Enterprise Admin role ( <code dir="ltr" translate="no">roles/aiplatform.colabEnterpriseAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Notebook Runtime Admin role ( <code dir="ltr" translate="no">roles/aiplatform.notebookRuntimeAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added to the Vertex AI Service Agent role ( <code dir="ltr" translate="no">roles/aiplatform.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentregistry.agents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.agents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.endpoints.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.endpoints.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.mcpServers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.mcpServers.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>BigQuery</td>
+<td><p>The following permissions have been added to the BigQuery Studio Admin role ( <code dir="ltr" translate="no">roles/bigquery.studioAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added to the Chronicle API Restricted Data Access Viewer role ( <code dir="ltr" translate="no">roles/chronicle.restrictedDataAccessViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.environmentGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.integrations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySoarAdvancedReports.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.legacySoarUsers.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettings.rebranding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.moduleSettingsProperties.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.socRoles.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userLocalizations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">chronicle.userNotifications.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Cloud Messaging</td>
+<td><p>The Firebase Cloud Messaging Service Editor role ( <code dir="ltr" translate="no">roles/cloudmessaging.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The Cloud Tasks Admin role ( <code dir="ltr" translate="no">roles/cloudtasks.admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Tasks</td>
+<td><p>The Cloud Tasks Editor role ( <code dir="ltr" translate="no">roles/cloudtasks.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The Cloud Tasks Queue Admin role ( <code dir="ltr" translate="no">roles/cloudtasks.queueAdmin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Tasks</td>
+<td><p>The Cloud Tasks Task Deleter role ( <code dir="ltr" translate="no">roles/cloudtasks.taskDeleter</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The Cloud Tasks Viewer role ( <code dir="ltr" translate="no">roles/cloudtasks.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Insights Admin role ( <code dir="ltr" translate="no">roles/developerconnect.insightsAdmin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Insights Config Agent role ( <code dir="ltr" translate="no">roles/developerconnect.insightsAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Developer Connect</td>
+<td><p>The Developer Connect Insights Viewer role ( <code dir="ltr" translate="no">roles/developerconnect.insightsViewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The following permissions have been added to the Developer Connect Insights Config Agent role ( <code dir="ltr" translate="no">roles/developerconnect.insightsAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudasset.feeds.delete</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Device Run</td>
+<td><p>The Device Run Service Agent role ( <code dir="ltr" translate="no">roles/devicerun.serviceAgent</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine Service Agent role ( <code dir="ltr" translate="no">roles/discoveryengine.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.operations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Editor role ( <code dir="ltr" translate="no">roles/editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase</td>
+<td><p>The following permissions have been added to the Firebase Admin role ( <code dir="ltr" translate="no">roles/firebase.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase</td>
+<td><p>The following permissions have been added to the Firebase Editor role ( <code dir="ltr" translate="no">roles/firebase.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase</td>
+<td><p>The following permissions have been added to the Firebase Quality Admin role ( <code dir="ltr" translate="no">roles/firebase.qualityAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase</td>
+<td><p>The following permissions have been added to the Firebase Quality Viewer role ( <code dir="ltr" translate="no">roles/firebase.qualityViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase</td>
+<td><p>The following permissions have been added to the Firebase Viewer role ( <code dir="ltr" translate="no">roles/firebase.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Firebase Crashlytics</td>
+<td><p>The following permissions have been added to the Firebase Crashlytics Admin role ( <code dir="ltr" translate="no">roles/firebasecrashlytics.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Firebase Crashlytics</td>
+<td><p>The following permissions have been added to the Firebase Crashlytics Viewer role ( <code dir="ltr" translate="no">roles/firebasecrashlytics.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">logging.logEntries.download</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.access</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listLogs</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceKeys</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">logging.views.listResourceValues</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">hypercomputecluster.clusters.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the ML Engineer role ( <code dir="ltr" translate="no">roles/iam.mlEngineer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Admin role ( <code dir="ltr" translate="no">roles/iam.securityAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Auditor role ( <code dir="ltr" translate="no">roles/iam.securityAuditor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Security Reviewer role ( <code dir="ltr" translate="no">roles/iam.securityReviewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Identity and Access Management</td>
+<td><p>The following permissions have been added to the Support User role ( <code dir="ltr" translate="no">roles/iam.supportUser</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have been added to the Oracle Database@Google Cloud admin role ( <code dir="ltr" translate="no">roles/oracledatabase.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have been added to the Oracle Database@Google Cloud DB System Admin role ( <code dir="ltr" translate="no">roles/oracledatabase.dbSystemAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have been added to the Oracle Database@Google Cloud DB System Viewer role ( <code dir="ltr" translate="no">roles/oracledatabase.dbSystemViewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have been added to the Oracle Database@Google Cloud viewer role ( <code dir="ltr" translate="no">roles/oracledatabase.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Owner role ( <code dir="ltr" translate="no">roles/owner</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Resource Manager</td>
+<td><p>The Resource Manager Editor role ( <code dir="ltr" translate="no">roles/resourcemanager.editor</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="odd">
+<td>Resource Manager</td>
+<td><p>The Resource Manager Viewer role ( <code dir="ltr" translate="no">roles/resourcemanager.viewer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>SaaS Service Management</td>
+<td><p>The following permissions have been added to the SaaS Service Management Admin role ( <code dir="ltr" translate="no">roles/saasservicemgmt.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>SaaS Service Management</td>
+<td><p>The following permissions have been added to the SaaS Service Management Viewer role ( <code dir="ltr" translate="no">roles/saasservicemgmt.viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Security Center Management API</td>
+<td><p>The following permissions have been added to the Security Center Management Editor role ( <code dir="ltr" translate="no">roles/securitycentermanagement.editor</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The following permissions have been added to the Viewer role ( <code dir="ltr" translate="no">roles/viewer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Visual Inspection AI</td>
+<td><p>The following permissions have been added to the Visual Inspection AI Service Agent role ( <code dir="ltr" translate="no">roles/visualinspection.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.interactions.cancel</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.interactions.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.interactions.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.interactions.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.interactions.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.notebookRuntimeTemplates.setDefault</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>BigLake</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">biglake.namespaces.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Security Operations</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.instances.suggestQueryFields</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Security Operations</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">chronicle.instances.suggestQueryFields</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud Tasks</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.pause</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.purge</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.resume</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.fullView</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.run</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Tasks</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.operations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.pause</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.purge</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.resume</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.queues.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.fullView</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudtasks.tasks.run</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.instances.troubleshoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reliabilityRisks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reliabilityRisks.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Compute Engine</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.instances.troubleshoot</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reliabilityRisks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reliabilityRisks.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Compute Engine</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.reliabilityRisks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.reliabilityRisks.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Database Migration Service</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Database Migration Service</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionProfiles.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.connectionprofiles.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationJobs.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.migrationjobs.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateConnections.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">datamigration.privateconnections.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Developer Connect</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">developerconnect.deploymentEvents.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.deploymentEvents.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.insightsConfigs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.insightsConfigs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.insightsConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.insightsConfigs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">developerconnect.insightsConfigs.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Discovery Engine</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.collections.setIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.getIamPolicy</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.setIamPolicy</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Network Connectivity Center</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Network Connectivity Center</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Network Connectivity Center</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">networkconnectivity.pscAuthorizationPolicies.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.flexComponents.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.flexComponents.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Oracle Database@Google Cloud</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.dbSystemComputePerformances.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">oracledatabase.flexComponents.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Cloud Fraud Defense</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.policies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.policies.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Google Cloud Fraud Defense</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.policies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.policies.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Google Cloud Fraud Defense</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.policies.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recaptchaenterprise.policies.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Resource Manager</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.associateToCapabilityConfig</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaryConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaryConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.projects.associateToCapabilityConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Resource Manager</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.associateToCapabilityConfig</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaryConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaryConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.projects.associateToCapabilityConfig</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Resource Manager</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.associateToCapabilityConfig</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaries.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaryConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.boundaryConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.capabilityConfigs.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">resourcemanager.projects.associateToCapabilityConfig</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>SaaS Service Management</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Security Command Center</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.retrieve</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.searchImpactedResources</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Security Command Center</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.retrieve</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.searchImpactedResources</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Security Command Center</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.retrieve</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.search</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycenter.issues.searchImpactedResources</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Storage</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">storage.managedFolders.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud TPU</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud TPU</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">tpu.nodes.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Video Stitcher API</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Video Stitcher API</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.cdnKeys.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.liveConfigs.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.slates.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">videostitcher.vodConfigs.listTagBindings</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-09-08
 
 <table>

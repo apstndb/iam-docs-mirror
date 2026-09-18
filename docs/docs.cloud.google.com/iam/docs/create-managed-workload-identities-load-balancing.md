@@ -12,6 +12,8 @@ data_source: docs.cloud.google.com
 
 This document explains how to configure a managed workload identity on the backend service of a load balancer. After you assign a managed identity, the load balancer and its backends can mutually authenticate each other by using backend mTLS.
 
+## Process overview
+
 To configure backend mTLS using a managed workload identity, you must have a configured workload identity pool.
 
 If you don't have a configured workload identity pool, you need to set up a workload identity pool and then attach the managed workload identity to the backend service of the load balancer.
@@ -96,13 +98,17 @@ You might also be able to get the required permissions through [custom roles](ht
 
 ## Configure CA Service to issue certificates for managed workload identities
 
-You can use [CA pools](https://docs.cloud.google.com/certificate-authority-service/docs/ca-pool) to set up a root CA. The CA pool issues the X.509 certificates to managed workload identities.
+You can use [CA pools](https://docs.cloud.google.com/certificate-authority-service/docs/ca-pool) to set up a root CA. A CA pool issues the X.509 certificates to managed workload identities.
 
-> **Note:** For the global backend service, the CA pool can be in any region.
+Note the following CA pool location requirements:
 
-### Create the root CA pool
+  - For a global backend service, a CA pool can be in any region as there are no global CA pools.
 
-Create the root CA pool in the *Enterprise* tier using the [`gcloud privateca pools create` command](https://docs.cloud.google.com/sdk/gcloud/reference/privateca/pools/create) . This tier is meant for long-lived, low-volume certificate issuance.
+  - For a regional backend service, a CA pool must be in the same region as the backend service.
+
+### Create a root CA pool
+
+To create a root CA pool in the *Enterprise* tier, use the [`gcloud privateca pools create` command](https://docs.cloud.google.com/sdk/gcloud/reference/privateca/pools/create) . This tier is meant for long-lived, low-volume certificate issuance.
 
     gcloud privateca pools create ROOT_CA_POOL_ID \
         --location=REGION \
@@ -422,11 +428,11 @@ This output includes the following values:
 
 If `inlineCertificateIssuanceConfig` or `inlineTrustConfig` isn't present in the output, verify that you've correctly configured your gcloud CLI to use the correct project for billing and quota. You might need to update to a newer version of the gcloud CLI.
 
-## Authorize managed workload identities to request certificates from the CA pool
+## Authorize managed workload identities to request X.509 certificates from the CA pool
 
-After you bind the CA to the workload identity pool, you need to authorize managed workload identities to request certificates from the CA pool.
+After you bind the CA to the workload identity pool, grant the necessary IAM permissions to its trust domain. This allows the managed workload identities to request X.509 certificates from the CA pool.
 
-1.  Grant the [CA Service Workload Certificate Requester role](https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.workloadCertificateRequester) ( `roles/privateca.workloadCertificateRequester` ) to the trust domain. This role authorizes the trust domain to request certificates from the CA Service certificate chains.
+1.  Grant the [CA Service Workload Certificate Requester role](https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.workloadCertificateRequester) ( `roles/privateca.workloadCertificateRequester` ) to the trust domain. This role authorizes the trust domain to request new certificates for its workloads from the CA Service.
     
         gcloud privateca pools add-iam-policy-binding ROOT_CA_POOL_ID \
             --location=REGION \
@@ -450,7 +456,7 @@ After you bind the CA to the workload identity pool, you need to authorize manag
     
       - `  PROJECT_ID  ` : the project ID
 
-2.  Grant the [CA Service Pool Reader role](https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.poolReader) ( `roles/privateca.poolReader` ) to the trust domain. This role authorizes the trust domain to get the signed X.509 certificates from the CA's certificate chains.
+2.  Grant the [CA Service Pool Reader role](https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.poolReader) ( `roles/privateca.poolReader` ) to the trust domain. This role authorizes the trust domain to download the signed X.509 certificate chain, establishing the CA's trust anchor.
     
         gcloud privateca pools add-iam-policy-binding ROOT_CA_POOL_ID \
             --location=REGION \
@@ -472,7 +478,17 @@ Managed identity can only be assigned when creating the backend service.
 
 The steps in this section only pertain to assigning a managed identity to the backend service of the load balancer. This is part of the *backend configuration* of the load balancer.
 
-To set up a global external Application Load Balancer load balancer, follow the steps in [Set up a global external Application Load Balancer with VM instance group backends](https://docs.cloud.google.com/load-balancing/docs/https/setup-global-ext-https-compute) . At the stage where you are setting up the *backend service* of the load balancer, you need to additionally do the following:
+To set up an Application Load Balancer, you can follow the steps as defined in one of the following setup pages:
+
+  - [Set up a global external Application Load Balancer with VM instance group backends](https://docs.cloud.google.com/load-balancing/docs/https/setup-global-ext-https-compute) .
+
+  - [Set up a regional external Application Load Balancer with VM instance group backends](https://docs.cloud.google.com/load-balancing/docs/tcp/set-up-ext-reg-tcp-proxy-migs) .
+
+  - [Set up a cross-region internal Application Load Balancer with VM instance group backends](https://docs.cloud.google.com/load-balancing/docs/tcp/setup-cross-reg-proxy-migs) .
+
+  - [Set up a regional internal Application Load Balancer with VM instance group backends](https://docs.cloud.google.com/load-balancing/docs/tcp/set-up-int-tcp-proxy-migs) .
+
+At the stage where you are setting up the *backend service* of the load balancer, you need to additionally do the following:
 
 ### Console
 
@@ -488,18 +504,24 @@ To set up a global external Application Load Balancer load balancer, follow the 
 
 6.  Click **Create** .
 
-7.  Continue the steps as outlined in [Set up the load balancer](https://docs.cloud.google.com/load-balancing/docs/https/setup-global-ext-https-compute#load-balancer) to finish configuring the load balancer.
+7.  To finish configuring the load balancer, continue the steps as outlined in one of the aforementioned setup pages.
 
 ### gcloud
 
-1.  To assign a managed identity to the backend service, add the `--identity` flag while using the [`gcloud beta compute backend-services create` command](https://docs.cloud.google.com/sdk/gcloud/reference/beta/compute/backend-services/create) .
+1.  To assign a managed identity to the backend service, add the `--identity` flag while using the [`gcloud compute backend-services create` command](https://docs.cloud.google.com/sdk/gcloud/reference/compute/backend-services/create) .
     
-        gcloud beta compute backend-services create BACKEND_SERVICE_NAME \
-            --load-balancing-scheme=EXTERNAL_MANAGED \
-            --protocol=HTTPS \
-            --health-checks=HEALTH_CHECK_NAME \
-            --identity='//WORKLOAD_IDENTITY_POOL_ID.global.PROJECT_NUMBER.workload.id.goog/ns/NAMESPACE_ID/sa/MANAGED_IDENTITY_ID' \
-            --global
+    ### global
+    
+    For global external Application Load Balancers and cross-region internal Application Load Balancers, use the `--global` flag.
+    
+    ``` 
+      gcloud compute backend-services create BACKEND_SERVICE_NAME \
+          --load-balancing-scheme=EXTERNAL_MANAGED \
+          --protocol=HTTPS \
+          --health-checks=HEALTH_CHECK_NAME \
+          --identity='//WORKLOAD_IDENTITY_POOL_ID.global.PROJECT_NUMBER.workload.id.goog/ns/NAMESPACE_ID/sa/MANAGED_IDENTITY_ID' \
+          --global
+    ```
     
     Replace the following:
     
@@ -509,6 +531,29 @@ To set up a global external Application Load Balancer load balancer, follow the 
       - `  PROJECT_NUMBER  ` : the project number
       - `  NAMESPACE_ID  ` : the namespace ID
       - `  MANAGED_IDENTITY_ID  ` : the managed identity ID
+    
+    ### regional
+    
+    For regional external Application Load Balancers and regional internal Application Load Balancers, use the `--region` flag.
+    
+    ``` 
+      gcloud compute backend-services create BACKEND_SERVICE_NAME \
+          --load-balancing-scheme=EXTERNAL_MANAGED \
+          --protocol=HTTPS \
+          --health-checks=HEALTH_CHECK_NAME \
+          --identity='//WORKLOAD_IDENTITY_POOL_ID.global.PROJECT_NUMBER.workload.id.goog/ns/NAMESPACE_ID/sa/MANAGED_IDENTITY_ID' \
+          --region=REGION
+    ```
+    
+    Replace the following:
+    
+      - `  BACKEND_SERVICE_NAME  ` : the name of the backend service
+      - `  HEALTH_CHECK_NAME  ` : the name of the health check
+      - `  WORKLOAD_IDENTITY_POOL_ID  ` : workload identity pool ID
+      - `  PROJECT_NUMBER  ` : the project number
+      - `  NAMESPACE_ID  ` : the namespace ID
+      - `  MANAGED_IDENTITY_ID  ` : the managed identity ID
+      - `  REGION  ` : the name of the Google Cloud region where the backend service is located
 
 ## Automatically created resources
 
@@ -528,9 +573,9 @@ The automatically created resources have an `mi` prefix, which indicates that th
 
 ### Verify the creation of the backend authentication config and managed identity
 
-To verify the creation of the backend authentication config and managed identity, use the [`gcloud beta compute backend-services describe` command](https://docs.cloud.google.com/sdk/gcloud/reference/beta/compute/backend-services/describe) to describe the backend service.
+To verify the creation of the backend authentication config and managed identity, use the [`gcloud compute backend-services describe` command](https://docs.cloud.google.com/sdk/gcloud/reference/compute/backend-services/describe) to describe the backend service.
 
-    gcloud beta compute backend-services describe BACKEND_SERVICE_NAME --global
+    gcloud compute backend-services describe BACKEND_SERVICE_NAME --global
 
 The output is similar to the following:
 
@@ -542,7 +587,7 @@ The output is similar to the following:
     enableCDN: false
     fingerprint: lTZwas8aylg=
     healthChecks:
-    - https://www.googleapis.com/compute/beta/projects/PROJECT_ID/global/healthChecks/HEALTH_CHECK_NAME
+    - https://www.googleapis.com/compute/v1/projects/PROJECT_ID/global/healthChecks/HEALTH_CHECK_NAME
     id: '719352032'
     kind: compute#backendService
     loadBalancingScheme: EXTERNAL_MANAGED
@@ -550,7 +595,7 @@ The output is similar to the following:
     port: 80
     portName: PORT_NAME
     protocol: HTTPS
-    selfLink: https://www.googleapis.com/compute/beta/projects/PROJECT_ID/global/backendServices/BACKEND_SERVICE_NAME
+    selfLink: https://www.googleapis.com/compute/v1/projects/PROJECT_ID/global/backendServices/BACKEND_SERVICE_NAME
     sessionAffinity: NONE
     timeoutSec: 30
     tlsSettings:
@@ -629,9 +674,11 @@ This output includes the following values:
   - `  MANAGED_IDENTITY_ID  ` : the managed identity ID
   - `  CERTIFICATE_MATERIAL  ` : the X.509-SVID in a PEM-encoded format
 
-The Certificate Manager managed identity certificate has a `managedIdentity` property, which identifies it as a managed identity certificate. The Certificate Manager managed identity certificate resource stores the X.509-SVID in a PEM-encoded format.
+The Certificate Manager managed identity certificate has a `managedIdentity` property, which identifies it as a managed identity certificate. If the state of the managed identity certificate is `FAILED` , verify that the [attestation policy](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing#create-attestation-policy) and the necessary [IAM permissions](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing#authorize) are correctly configured.
 
 The scope of the Certificate Manager managed identity certificate is `CLIENT_AUTH` , which indicates that this certificate is used as a client certificate in backend mTLS.
+
+The Certificate Manager managed identity certificate resource stores the X.509-SVID in a PEM-encoded format.
 
 ### Verify that the SPIFFE ID is a part of the SAN in the X.509-SVID
 
@@ -671,7 +718,7 @@ This output includes the following values:
 
 ### Verify that the Certificate Manager trust config contains the `spiffeTrustStores` field
 
-The Certificate Manager trust config contains a field called `spiffeTrustStores` . The `spiffeTrustStores` field contains the trust bundle associated with the trust domain of the workload identity pool (represented by `  WORKLOAD_IDENTITY_POOL_ID  ` .global. `  PROJECT_NUMBER  ` .workload.id.goog in the output) and any additional trust bundles specified by the [`additionalTrustBundles` field](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools#inlinetrustconfig) in the workload identity pool's inline trust config.
+The Certificate Manager trust config contains a field called `spiffeTrustStores` . The `spiffeTrustStores` field contains the trust bundle associated with the trust domain of the workload identity pool (represented by `  WORKLOAD_IDENTITY_POOL_ID  ` .global. `  PROJECT_NUMBER  ` .workload.id.goog in the output) and any additional trust bundles specified by the [`additionalTrustBundles` field in the workload identity pool's inline trust config](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing#create-inline-trust-config) .
 
 To view the details of the Certificate Manager trust config, use the [`gcloud certificate-manager trust-configs describe` command](https://docs.cloud.google.com/sdk/gcloud/reference/certificate-manager/trust-configs/describe) .
 
@@ -680,6 +727,8 @@ To view the details of the Certificate Manager trust config, use the [`gcloud ce
 Replace `  MI_TRUST_CONFIG_ID  ` with the trust config automatically created by managed identity.
 
 In the following example output, the host `example.com` is the additional trust domain to which trust is extended.
+
+If the `spiffeTrustStores` field doesn't contain the expected trust bundles, verify that the [attestation policy](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing#create-attestation-policy) and the necessary [IAM permissions](https://docs.cloud.google.com/iam/docs/create-managed-workload-identities-load-balancing#authorize) are correctly configured.
 
     createTime: '2025-11-06T10:15:50.048030758Z'
     etag: kDoKfm5W6Il2HPvduKZWpuYpyrKrNVq4jqMEICE-6rQ

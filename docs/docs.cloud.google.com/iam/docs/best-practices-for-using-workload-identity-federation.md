@@ -69,7 +69,7 @@ To generate a credential configuration file that uses a regional STS endpoint, u
 To update an existing credential configuration file, do the following:
 
 1.  Open the credential configuration file.
-2.  In the `token_url` field, replace `https://sts.googleapis.com` with `https://sts. REGION .rep.googleapis.com` .
+2.  In the `token_url` field, replace `https://sts.googleapis.com` with `https://sts. REGION .rep.googleapis.com` , or if you use mTLS, replace `https://sts.mtls.googleapis.com` with `https://sts. REGION .rep.mtls.googleapis.com` .
 
 To use regional endpoints over Private Service Connect, see [About accessing regional endpoints through Private Service Connect endpoints](https://docs.cloud.google.com/vpc/docs/about-accessing-regional-google-apis-endpoints) .
 
