@@ -142,7 +142,7 @@ If only a subset of your organization's users need Google Workspace, add both a 
 #### Benefits
 
   - Users can authenticate to Google services, regardless of whether those services use IAM or not. In the Cloud Identity account or in the Google Workspace account, control which Google services users are permitted to use.
-  - You can limit single sign-on (SSO) and ahead-of-time provisioning to a subset of users, and continue to manage specific users, such as [emergency access users](https://docs.cloud.google.com/architecture/security/best-practices-continuous-access-to-google-cloud#provide_authentication_alternatives_for_critical_users) , directly in Cloud Identity or in Google Workspace.
+  - You can limit single sign-on (SSO) and ahead-of-time provisioning to a subset of users, and continue to manage specific users, such as [emergency access users](https://docs.cloud.google.com/docs/security/best-practices-continuous-access-to-google-cloud#auth-alternatives) , directly in Cloud Identity or in Google Workspace.
   - You can provision groups from your external IdP, manage groups locally in your Cloud Identity account or in your Google Workspace account, [or combine both approaches](https://docs.cloud.google.com/iam/docs/groups-best-practices#avoid-external-source-access) .
 
 #### Limitations

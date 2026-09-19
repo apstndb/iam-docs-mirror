@@ -543,7 +543,7 @@ To mitigate these risks, use Cloud Identity or Google Workspace for emergency-ac
   - Exclude these users from single sign-on and let them authenticate using a username and password.
   - Secure these users by enrolling them in two-step verification with a security key.
 
-For more information on emergency-access users, see [Best practices for continuous access to Google Cloud](https://docs.cloud.google.com/architecture/security/best-practices-continuous-access-to-google-cloud) .
+For more information on emergency-access users, see [Best practices for continuous access to Google Cloud](https://docs.cloud.google.com/docs/security/best-practices-continuous-access-to-google-cloud) .
 
 ### Use Cloud Identity for highly-privileged access
 
