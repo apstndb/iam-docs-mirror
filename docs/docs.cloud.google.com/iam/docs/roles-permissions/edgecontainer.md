@@ -723,7 +723,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.apikeys.delete" class="permission-name add-link" data-text="edgecontainer.apikeys.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.apikeys.delete</code></h4></td>
@@ -731,7 +733,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.apikeys.get" class="permission-name add-link" data-text="edgecontainer.apikeys.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.apikeys.get</code></h4></td>
@@ -741,9 +745,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyViewer">Edge Container API Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.apikeys.list" class="permission-name add-link" data-text="edgecontainer.apikeys.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.apikeys.list</code></h4></td>
@@ -755,24 +762,31 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyViewer">Edge Container API Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.clusters.create" class="permission-name add-link" data-text="edgecontainer.clusters.create" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.clusters.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.clusters.delete" class="permission-name add-link" data-text="edgecontainer.clusters.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.clusters.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.clusters.generateAccessToken" class="permission-name add-link" data-text="edgecontainer.clusters.generateAccessToken" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  clusters.  generateAccessToken</code></h4></td>
@@ -782,12 +796,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.clusters.generateOfflineCredential" class="permission-name add-link" data-text="edgecontainer.clusters.generateOfflineCredential" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  clusters.  generateOfflineCredential</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.offlineCredentialUser">Edge Container Cluster offline Credential User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.offlineCredentialUser</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -798,7 +816,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.clusters.getIamPolicy" class="permission-name add-link" data-text="edgecontainer.clusters.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  clusters.  getIamPolicy</code></h4></td>
@@ -810,8 +831,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.clusters.list" class="permission-name add-link" data-text="edgecontainer.clusters.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.clusters.list</code></h4></td>
@@ -823,28 +847,36 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.clusters.setIamPolicy" class="permission-name add-link" data-text="edgecontainer.clusters.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  clusters.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.clusters.update" class="permission-name add-link" data-text="edgecontainer.clusters.update" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.clusters.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.clusters.upgrade" class="permission-name add-link" data-text="edgecontainer.clusters.upgrade" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.clusters.upgrade</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.identityproviders.create" class="permission-name add-link" data-text="edgecontainer.identityproviders.create" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  identityproviders.  create</code></h4></td>
@@ -852,7 +884,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.identityproviders.delete" class="permission-name add-link" data-text="edgecontainer.identityproviders.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  identityproviders.  delete</code></h4></td>
@@ -860,7 +894,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.identityproviders.get" class="permission-name add-link" data-text="edgecontainer.identityproviders.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  identityproviders.  get</code></h4></td>
@@ -870,9 +906,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderViewer">Edge Container Identity Provider Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.identityproviders.list" class="permission-name add-link" data-text="edgecontainer.identityproviders.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  identityproviders.  list</code></h4></td>
@@ -884,10 +923,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderViewer">Edge Container Identity Provider Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.locations.get" class="permission-name add-link" data-text="edgecontainer.locations.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.locations.get</code></h4></td>
@@ -897,6 +939,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyViewer">Edge Container API Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p>
@@ -911,7 +954,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneIamViewer">Edge Container Zone Iam Policy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneIamViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneRolesViewer">Edge Container Roles Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneRolesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneViewer">Edge Container Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.locations.list" class="permission-name add-link" data-text="edgecontainer.locations.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.locations.list</code></h4></td>
@@ -923,6 +968,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyViewer">Edge Container API Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.identityProviderAdmin">Edge Container Identity Provider Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.identityProviderAdmin</code> )</p>
@@ -938,21 +984,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneRolesViewer">Edge Container Roles Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneRolesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneViewer">Edge Container Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.machines.create" class="permission-name add-link" data-text="edgecontainer.machines.create" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.machines.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.machines.delete" class="permission-name add-link" data-text="edgecontainer.machines.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.machines.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.machines.get" class="permission-name add-link" data-text="edgecontainer.machines.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.machines.get</code></h4></td>
@@ -962,8 +1014,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.machineUser">Edge Container Machine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.machineUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.machines.getIamPolicy" class="permission-name add-link" data-text="edgecontainer.machines.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  machines.  getIamPolicy</code></h4></td>
@@ -975,9 +1030,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.machineUser">Edge Container Machine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.machineUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.machines.list" class="permission-name add-link" data-text="edgecontainer.machines.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.machines.list</code></h4></td>
@@ -989,22 +1047,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.machineUser">Edge Container Machine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.machineUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.machines.setIamPolicy" class="permission-name add-link" data-text="edgecontainer.machines.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  machines.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.machines.update" class="permission-name add-link" data-text="edgecontainer.machines.update" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.machines.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.machines.use" class="permission-name add-link" data-text="edgecontainer.machines.use" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.machines.use</code></h4></td>
@@ -1012,21 +1076,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.machineUser">Edge Container Machine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.machineUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.machineUser">Edge Container Machine User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.machineUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.nodePools.create" class="permission-name add-link" data-text="edgecontainer.nodePools.create" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.nodePools.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.nodePools.delete" class="permission-name add-link" data-text="edgecontainer.nodePools.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.nodePools.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.nodePools.get" class="permission-name add-link" data-text="edgecontainer.nodePools.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.nodePools.get</code></h4></td>
@@ -1036,7 +1106,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.nodePools.getIamPolicy" class="permission-name add-link" data-text="edgecontainer.nodePools.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  nodePools.  getIamPolicy</code></h4></td>
@@ -1048,8 +1121,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.nodePools.list" class="permission-name add-link" data-text="edgecontainer.nodePools.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.nodePools.list</code></h4></td>
@@ -1061,21 +1137,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.nodePools.setIamPolicy" class="permission-name add-link" data-text="edgecontainer.nodePools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  nodePools.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.nodePools.update" class="permission-name add-link" data-text="edgecontainer.nodePools.update" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.nodePools.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.operations.cancel" class="permission-name add-link" data-text="edgecontainer.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  operations.  cancel</code></h4></td>
@@ -1083,9 +1165,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.operations.delete" class="permission-name add-link" data-text="edgecontainer.operations.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  operations.  delete</code></h4></td>
@@ -1093,9 +1177,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.operations.get" class="permission-name add-link" data-text="edgecontainer.operations.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.operations.get</code></h4></td>
@@ -1105,6 +1191,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyViewer">Edge Container API Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
@@ -1112,7 +1199,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceViewer">Edge Container Zonal Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneViewer">Edge Container Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.operations.list" class="permission-name add-link" data-text="edgecontainer.operations.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.operations.list</code></h4></td>
@@ -1124,6 +1213,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyAdmin">Edge Container API Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.apiKeyViewer">Edge Container API Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.apiKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
@@ -1132,7 +1222,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceViewer">Edge Container Zonal Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneViewer">Edge Container Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.serverconfig.get" class="permission-name add-link" data-text="edgecontainer.serverconfig.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.serverconfig.get</code></h4></td>
@@ -1142,7 +1234,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.serviceaccounts.create" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.create" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  create</code></h4></td>
@@ -1150,7 +1245,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountAdmin">Edge Container Service Account Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountAdmin">Edge Container Service Account Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.serviceaccounts.delete" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  delete</code></h4></td>
@@ -1158,7 +1255,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountAdmin">Edge Container Service Account Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountAdmin">Edge Container Service Account Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.serviceaccounts.describekey" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.describekey" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  describekey</code></h4></td>
@@ -1168,9 +1267,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyViewer">Edge Container Service Account Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.serviceaccounts.disablekey" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.disablekey" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  disablekey</code></h4></td>
@@ -1178,7 +1280,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.serviceaccounts.generatekey" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.generatekey" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  generatekey</code></h4></td>
@@ -1188,8 +1292,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.serviceaccounts.get" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  get</code></h4></td>
@@ -1199,11 +1306,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountAdmin">Edge Container Service Account Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyViewer">Edge Container Service Account Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountViewer">Edge Container Service Account Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.serviceaccounts.list" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  list</code></h4></td>
@@ -1215,12 +1325,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountAdmin">Edge Container Service Account Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyViewer">Edge Container Service Account Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountViewer">Edge Container Service Account Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.serviceaccounts.listkeys" class="permission-name add-link" data-text="edgecontainer.serviceaccounts.listkeys" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  serviceaccounts.  listkeys</code></h4></td>
@@ -1230,23 +1343,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyAdmin">Edge Container Service Account Key Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.serviceAccountKeyViewer">Edge Container Service Account Key Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.serviceAccountKeyViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.vpnConnections.create" class="permission-name add-link" data-text="edgecontainer.vpnConnections.create" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.vpnConnections.delete" class="permission-name add-link" data-text="edgecontainer.vpnConnections.delete" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.vpnConnections.get" class="permission-name add-link" data-text="edgecontainer.vpnConnections.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  get</code></h4></td>
@@ -1256,7 +1376,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.vpnConnections.getIamPolicy" class="permission-name add-link" data-text="edgecontainer.vpnConnections.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  getIamPolicy</code></h4></td>
@@ -1268,8 +1391,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.vpnConnections.list" class="permission-name add-link" data-text="edgecontainer.vpnConnections.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  list</code></h4></td>
@@ -1281,21 +1407,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.vpnConnections.setIamPolicy" class="permission-name add-link" data-text="edgecontainer.vpnConnections.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.vpnConnections.update" class="permission-name add-link" data-text="edgecontainer.vpnConnections.update" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  vpnConnections.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zonalProjects.disable" class="permission-name add-link" data-text="edgecontainer.zonalProjects.disable" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalProjects.  disable</code></h4></td>
@@ -1303,7 +1435,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.zonalProjects.enable" class="permission-name add-link" data-text="edgecontainer.zonalProjects.enable" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalProjects.  enable</code></h4></td>
@@ -1311,7 +1445,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zonalProjects.get" class="permission-name add-link" data-text="edgecontainer.zonalProjects.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalProjects.  get</code></h4></td>
@@ -1321,9 +1457,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectViewer">Edge Container Zonal Project Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.zonalProjects.list" class="permission-name add-link" data-text="edgecontainer.zonalProjects.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalProjects.  list</code></h4></td>
@@ -1335,10 +1474,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectViewer">Edge Container Zonal Project Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zonalservices.disable" class="permission-name add-link" data-text="edgecontainer.zonalservices.disable" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalservices.  disable</code></h4></td>
@@ -1346,7 +1488,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.zonalservices.enable" class="permission-name add-link" data-text="edgecontainer.zonalservices.enable" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalservices.  enable</code></h4></td>
@@ -1354,7 +1498,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zonalservices.get" class="permission-name add-link" data-text="edgecontainer.zonalservices.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalservices.  get</code></h4></td>
@@ -1364,9 +1510,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceViewer">Edge Container Zonal Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.zonalservices.list" class="permission-name add-link" data-text="edgecontainer.zonalservices.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zonalservices.  list</code></h4></td>
@@ -1378,10 +1527,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceAdmin">Edge Container Zonal Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalServiceViewer">Edge Container Zonal Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalServiceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zones.get" class="permission-name add-link" data-text="edgecontainer.zones.get" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.zones.get</code></h4></td>
@@ -1391,10 +1543,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectViewer">Edge Container Zonal Project Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneViewer">Edge Container Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.zones.getZoneIamPolicy" class="permission-name add-link" data-text="edgecontainer.zones.getZoneIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zones.  getZoneIamPolicy</code></h4></td>
@@ -1404,9 +1559,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneIamAdmin">Edge Container Zone Iam Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneIamAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneIamViewer">Edge Container Zone Iam Policy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneIamViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zones.list" class="permission-name add-link" data-text="edgecontainer.zones.list" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.zones.list</code></h4></td>
@@ -1418,11 +1576,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectAdmin">Edge Container Zonal Project Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zonalProjectViewer">Edge Container Zonal Project Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zonalProjectViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneViewer">Edge Container Zone Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="edgecontainer.zones.listRoles" class="permission-name add-link" data-text="edgecontainer.zones.listRoles" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.zones.listRoles</code></h4></td>
@@ -1432,14 +1593,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.editor">Edgecontainer Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.viewer">Edge Container Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneIamAdmin">Edge Container Zone Iam Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneIamAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneRolesViewer">Edge Container Roles Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneRolesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="edgecontainer.zones.setZoneIamPolicy" class="permission-name add-link" data-text="edgecontainer.zones.setZoneIamPolicy" tabindex="-1"><code dir="ltr" translate="no">edgecontainer.  zones.  setZoneIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.admin">Edge Container Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/edgecontainer#edgecontainer.zoneIamAdmin">Edge Container Zone Iam Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  edgecontainer.zoneIamAdmin</code> )</p></td>
 </tr>
 </tbody>

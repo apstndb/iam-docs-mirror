@@ -109,14 +109,18 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ids.endpoints.delete" class="permission-name add-link" data-text="ids.endpoints.delete" tabindex="-1"><code dir="ltr" translate="no">ids.endpoints.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ids.endpoints.get" class="permission-name add-link" data-text="ids.endpoints.get" tabindex="-1"><code dir="ltr" translate="no">ids.endpoints.get</code></h4></td>
@@ -126,7 +130,10 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ids.endpoints.getIamPolicy" class="permission-name add-link" data-text="ids.endpoints.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">ids.endpoints.getIamPolicy</code></h4></td>
@@ -138,8 +145,11 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ids.endpoints.list" class="permission-name add-link" data-text="ids.endpoints.list" tabindex="-1"><code dir="ltr" translate="no">ids.endpoints.list</code></h4></td>
@@ -151,21 +161,27 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ids.endpoints.setIamPolicy" class="permission-name add-link" data-text="ids.endpoints.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">ids.endpoints.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ids.endpoints.update" class="permission-name add-link" data-text="ids.endpoints.update" tabindex="-1"><code dir="ltr" translate="no">ids.endpoints.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ids.locations.get" class="permission-name add-link" data-text="ids.locations.get" tabindex="-1"><code dir="ltr" translate="no">ids.locations.get</code></h4></td>
@@ -175,7 +191,10 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ids.locations.list" class="permission-name add-link" data-text="ids.locations.list" tabindex="-1"><code dir="ltr" translate="no">ids.locations.list</code></h4></td>
@@ -187,22 +206,29 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ids.operations.cancel" class="permission-name add-link" data-text="ids.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">ids.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ids.operations.delete" class="permission-name add-link" data-text="ids.operations.delete" tabindex="-1"><code dir="ltr" translate="no">ids.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ids.operations.get" class="permission-name add-link" data-text="ids.operations.get" tabindex="-1"><code dir="ltr" translate="no">ids.operations.get</code></h4></td>
@@ -212,7 +238,10 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ids.operations.list" class="permission-name add-link" data-text="ids.operations.list" tabindex="-1"><code dir="ltr" translate="no">ids.operations.list</code></h4></td>
@@ -224,8 +253,11 @@ This page lists the IAM roles and permissions for Cloud Intrusion Detection Syst
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.admin">Cloud IDS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.editor">Cloud IDS Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ids#ids.viewer">Cloud IDS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ids.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

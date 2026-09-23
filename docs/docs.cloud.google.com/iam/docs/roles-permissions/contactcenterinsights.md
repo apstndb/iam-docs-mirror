@@ -837,6 +837,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -852,6 +854,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -870,6 +874,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -878,6 +883,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -898,6 +905,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -907,6 +915,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -922,6 +932,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -937,6 +949,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -955,6 +969,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -963,6 +978,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -983,6 +1000,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -992,6 +1010,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1007,6 +1027,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1021,7 +1043,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.assessmentRules.delete" class="permission-name add-link" data-text="contactcenterinsights.assessmentRules.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessmentRules.  delete</code></h4></td>
@@ -1029,7 +1053,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.assessmentRules.get" class="permission-name add-link" data-text="contactcenterinsights.assessmentRules.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessmentRules.  get</code></h4></td>
@@ -1041,6 +1067,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1048,7 +1075,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.assessmentRules.list" class="permission-name add-link" data-text="contactcenterinsights.assessmentRules.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessmentRules.  list</code></h4></td>
@@ -1062,6 +1091,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1070,7 +1100,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.assessmentRules.update" class="permission-name add-link" data-text="contactcenterinsights.assessmentRules.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessmentRules.  update</code></h4></td>
@@ -1078,7 +1110,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.assessments.appeal" class="permission-name add-link" data-text="contactcenterinsights.assessments.appeal" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  appeal</code></h4></td>
@@ -1086,7 +1120,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.assessments.create" class="permission-name add-link" data-text="contactcenterinsights.assessments.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  create</code></h4></td>
@@ -1094,7 +1130,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.assessments.delete" class="permission-name add-link" data-text="contactcenterinsights.assessments.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  delete</code></h4></td>
@@ -1102,7 +1140,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.assessments.finalize" class="permission-name add-link" data-text="contactcenterinsights.assessments.finalize" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  finalize</code></h4></td>
@@ -1110,7 +1150,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.assessments.get" class="permission-name add-link" data-text="contactcenterinsights.assessments.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  get</code></h4></td>
@@ -1122,6 +1164,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1129,7 +1172,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.assessments.list" class="permission-name add-link" data-text="contactcenterinsights.assessments.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  list</code></h4></td>
@@ -1143,6 +1188,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1151,7 +1197,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.assessments.publish" class="permission-name add-link" data-text="contactcenterinsights.assessments.publish" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  assessments.  publish</code></h4></td>
@@ -1159,7 +1207,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedAnalyses.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedAnalyses.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAnalyses.  create</code></h4></td>
@@ -1168,7 +1218,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedAnalyses.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedAnalyses.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAnalyses.  delete</code></h4></td>
@@ -1177,7 +1229,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedAnalyses.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedAnalyses.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAnalyses.  get</code></h4></td>
@@ -1189,6 +1243,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1198,7 +1253,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedAnalyses.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedAnalyses.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAnalyses.  list</code></h4></td>
@@ -1212,6 +1269,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1222,7 +1280,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedAssessments.appeal" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.appeal" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  appeal</code></h4></td>
@@ -1231,7 +1291,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedAssessments.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  create</code></h4></td>
@@ -1240,7 +1302,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedAssessments.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  delete</code></h4></td>
@@ -1249,7 +1313,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedAssessments.finalize" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.finalize" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  finalize</code></h4></td>
@@ -1258,7 +1324,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedAssessments.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  get</code></h4></td>
@@ -1270,6 +1338,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1279,7 +1348,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedAssessments.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  list</code></h4></td>
@@ -1293,6 +1364,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1303,7 +1375,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedAssessments.publish" class="permission-name add-link" data-text="contactcenterinsights.authorizedAssessments.publish" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedAssessments.  publish</code></h4></td>
@@ -1312,7 +1386,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedConversations.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  create</code></h4></td>
@@ -1321,7 +1397,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedConversations.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  delete</code></h4></td>
@@ -1330,7 +1408,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedConversations.generateSignedAudio" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.generateSignedAudio" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  generateSignedAudio</code></h4></td>
@@ -1342,6 +1422,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1351,7 +1432,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedConversations.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  get</code></h4></td>
@@ -1363,6 +1446,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1372,7 +1456,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedConversations.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  list</code></h4></td>
@@ -1386,6 +1472,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1396,7 +1483,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedConversations.update" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  update</code></h4></td>
@@ -1405,7 +1494,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedConversations.upload" class="permission-name add-link" data-text="contactcenterinsights.authorizedConversations.upload" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedConversations.  upload</code></h4></td>
@@ -1414,7 +1505,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  create</code></h4></td>
@@ -1423,7 +1516,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  delete</code></h4></td>
@@ -1432,7 +1527,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.download" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.download" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  download</code></h4></td>
@@ -1441,7 +1538,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  get</code></h4></td>
@@ -1453,6 +1552,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1462,7 +1562,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  list</code></h4></td>
@@ -1476,6 +1578,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1486,7 +1589,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.update" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  update</code></h4></td>
@@ -1495,7 +1600,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedFeedbackLabels.upload" class="permission-name add-link" data-text="contactcenterinsights.authorizedFeedbackLabels.upload" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedFeedbackLabels.  upload</code></h4></td>
@@ -1504,7 +1611,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedNotes.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedNotes.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedNotes.  create</code></h4></td>
@@ -1513,7 +1622,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedNotes.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedNotes.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedNotes.  delete</code></h4></td>
@@ -1522,7 +1633,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedNotes.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedNotes.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedNotes.  list</code></h4></td>
@@ -1536,6 +1649,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1546,7 +1660,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedNotes.update" class="permission-name add-link" data-text="contactcenterinsights.authorizedNotes.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedNotes.  update</code></h4></td>
@@ -1555,7 +1671,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedOperations.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedOperations.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedOperations.  get</code></h4></td>
@@ -1567,6 +1685,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1576,7 +1695,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedOperations.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedOperations.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedOperations.  list</code></h4></td>
@@ -1590,6 +1711,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1600,7 +1722,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedViewSets.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedViewSets.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViewSets.  create</code></h4></td>
@@ -1608,7 +1732,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedViewSets.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedViewSets.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViewSets.  delete</code></h4></td>
@@ -1616,7 +1742,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedViewSets.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedViewSets.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViewSets.  get</code></h4></td>
@@ -1628,6 +1756,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1637,7 +1766,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedViewSets.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedViewSets.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViewSets.  list</code></h4></td>
@@ -1651,6 +1782,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1661,7 +1793,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedViewSets.update" class="permission-name add-link" data-text="contactcenterinsights.authorizedViewSets.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViewSets.  update</code></h4></td>
@@ -1669,7 +1803,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedViews.create" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  create</code></h4></td>
@@ -1677,7 +1813,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedViews.delete" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  delete</code></h4></td>
@@ -1685,7 +1823,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedViews.get" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  get</code></h4></td>
@@ -1697,6 +1837,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1706,7 +1847,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedViews.getIamPolicy" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  getIamPolicy</code></h4></td>
@@ -1717,8 +1860,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedViews.list" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  list</code></h4></td>
@@ -1732,6 +1878,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1742,14 +1889,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedEditor">Contact Center AI Insights authorized editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.authorizedViewer">Contact Center AI Insights authorized viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.authorizedViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.authorizedViews.setIamPolicy" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.authorizedViews.update" class="permission-name add-link" data-text="contactcenterinsights.authorizedViews.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  authorizedViews.  update</code></h4></td>
@@ -1757,7 +1907,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.conversations.create" class="permission-name add-link" data-text="contactcenterinsights.conversations.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  create</code></h4></td>
@@ -1765,7 +1917,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.conversations.delete" class="permission-name add-link" data-text="contactcenterinsights.conversations.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  delete</code></h4></td>
@@ -1773,7 +1927,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.conversations.export" class="permission-name add-link" data-text="contactcenterinsights.conversations.export" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  export</code></h4></td>
@@ -1781,7 +1937,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.conversations.generateSignedAudio" class="permission-name add-link" data-text="contactcenterinsights.conversations.generateSignedAudio" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  generateSignedAudio</code></h4></td>
@@ -1793,6 +1951,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1800,7 +1959,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.conversations.get" class="permission-name add-link" data-text="contactcenterinsights.conversations.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  get</code></h4></td>
@@ -1812,6 +1973,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1819,7 +1981,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.conversations.list" class="permission-name add-link" data-text="contactcenterinsights.conversations.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  list</code></h4></td>
@@ -1833,6 +1997,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1841,7 +2006,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.conversations.update" class="permission-name add-link" data-text="contactcenterinsights.conversations.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  update</code></h4></td>
@@ -1849,7 +2016,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.conversations.upload" class="permission-name add-link" data-text="contactcenterinsights.conversations.upload" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  conversations.  upload</code></h4></td>
@@ -1857,7 +2026,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetAnalyses.create" class="permission-name add-link" data-text="contactcenterinsights.datasetAnalyses.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetAnalyses.  create</code></h4></td>
@@ -1866,6 +2037,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1880,7 +2053,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetAnalyses.get" class="permission-name add-link" data-text="contactcenterinsights.datasetAnalyses.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetAnalyses.  get</code></h4></td>
@@ -1892,6 +2067,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1900,6 +2076,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1920,6 +2098,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1929,6 +2108,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1943,7 +2124,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetConversations.delete" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  delete</code></h4></td>
@@ -1951,7 +2134,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetConversations.export" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.export" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  export</code></h4></td>
@@ -1959,7 +2144,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetConversations.generateSignedAudio" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.generateSignedAudio" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  generateSignedAudio</code></h4></td>
@@ -1971,6 +2158,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1978,7 +2166,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetConversations.get" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  get</code></h4></td>
@@ -1990,6 +2180,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -1997,7 +2188,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetConversations.list" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  list</code></h4></td>
@@ -2011,6 +2204,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2019,7 +2213,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetConversations.update" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  update</code></h4></td>
@@ -2027,7 +2223,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetConversations.upload" class="permission-name add-link" data-text="contactcenterinsights.datasetConversations.upload" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetConversations.  upload</code></h4></td>
@@ -2035,7 +2233,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.create" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  create</code></h4></td>
@@ -2043,7 +2243,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.delete" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  delete</code></h4></td>
@@ -2051,7 +2253,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.download" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.download" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  download</code></h4></td>
@@ -2059,7 +2263,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.get" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  get</code></h4></td>
@@ -2071,6 +2277,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2078,7 +2285,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.list" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  list</code></h4></td>
@@ -2092,6 +2301,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2100,7 +2310,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.update" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  update</code></h4></td>
@@ -2108,7 +2320,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasetFeedbackLabels.upload" class="permission-name add-link" data-text="contactcenterinsights.datasetFeedbackLabels.upload" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasetFeedbackLabels.  upload</code></h4></td>
@@ -2116,7 +2330,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasets.create" class="permission-name add-link" data-text="contactcenterinsights.datasets.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasets.  create</code></h4></td>
@@ -2124,7 +2340,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasets.delete" class="permission-name add-link" data-text="contactcenterinsights.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasets.  delete</code></h4></td>
@@ -2132,7 +2350,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasets.get" class="permission-name add-link" data-text="contactcenterinsights.datasets.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasets.  get</code></h4></td>
@@ -2144,6 +2364,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2151,7 +2372,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.datasets.list" class="permission-name add-link" data-text="contactcenterinsights.datasets.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasets.  list</code></h4></td>
@@ -2165,6 +2388,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2173,7 +2397,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.datasets.update" class="permission-name add-link" data-text="contactcenterinsights.datasets.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  datasets.  update</code></h4></td>
@@ -2181,7 +2407,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.diagnostics.create" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  create</code></h4></td>
@@ -2189,7 +2417,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.diagnostics.delete" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  delete</code></h4></td>
@@ -2197,7 +2427,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.diagnostics.get" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  get</code></h4></td>
@@ -2209,6 +2441,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2216,7 +2449,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.diagnostics.list" class="permission-name add-link" data-text="contactcenterinsights.diagnostics.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  diagnostics.  list</code></h4></td>
@@ -2230,6 +2465,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2238,7 +2474,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.discoveries.delete" class="permission-name add-link" data-text="contactcenterinsights.discoveries.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  delete</code></h4></td>
@@ -2246,7 +2484,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.discoveries.generate" class="permission-name add-link" data-text="contactcenterinsights.discoveries.generate" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveries.  generate</code></h4></td>
@@ -2255,6 +2495,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2273,6 +2515,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2281,6 +2524,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2301,6 +2546,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2310,6 +2556,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2324,7 +2572,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.discoveryResults.get" class="permission-name add-link" data-text="contactcenterinsights.discoveryResults.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.  get</code></h4></td>
@@ -2336,6 +2586,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2343,7 +2594,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.discoveryResults.list" class="permission-name add-link" data-text="contactcenterinsights.discoveryResults.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryResults.  list</code></h4></td>
@@ -2357,6 +2610,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2365,7 +2619,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.discoveryRevisions.create" class="permission-name add-link" data-text="contactcenterinsights.discoveryRevisions.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryRevisions.  create</code></h4></td>
@@ -2373,7 +2629,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.discoveryRevisions.get" class="permission-name add-link" data-text="contactcenterinsights.discoveryRevisions.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryRevisions.  get</code></h4></td>
@@ -2385,6 +2643,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2392,7 +2651,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.discoveryRevisions.list" class="permission-name add-link" data-text="contactcenterinsights.discoveryRevisions.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryRevisions.  list</code></h4></td>
@@ -2406,6 +2667,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2414,7 +2676,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.discoveryWorkspaces.delete" class="permission-name add-link" data-text="contactcenterinsights.discoveryWorkspaces.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryWorkspaces.  delete</code></h4></td>
@@ -2422,7 +2686,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.discoveryWorkspaces.deploy" class="permission-name add-link" data-text="contactcenterinsights.discoveryWorkspaces.deploy" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryWorkspaces.  deploy</code></h4></td>
@@ -2430,7 +2696,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.discoveryWorkspaces.fetchTree" class="permission-name add-link" data-text="contactcenterinsights.discoveryWorkspaces.fetchTree" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryWorkspaces.  fetchTree</code></h4></td>
@@ -2442,6 +2710,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2449,7 +2718,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.discoveryWorkspaces.get" class="permission-name add-link" data-text="contactcenterinsights.discoveryWorkspaces.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  discoveryWorkspaces.  get</code></h4></td>
@@ -2461,6 +2732,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2469,6 +2741,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2489,6 +2763,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2498,6 +2773,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2512,7 +2789,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.encryptionSpecs.get" class="permission-name add-link" data-text="contactcenterinsights.encryptionSpecs.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  encryptionSpecs.  get</code></h4></td>
@@ -2524,6 +2803,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2531,7 +2811,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.encryptionSpecs.initialize" class="permission-name add-link" data-text="contactcenterinsights.encryptionSpecs.initialize" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  encryptionSpecs.  initialize</code></h4></td>
@@ -2539,7 +2821,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.faqEntries.delete" class="permission-name add-link" data-text="contactcenterinsights.faqEntries.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  faqEntries.  delete</code></h4></td>
@@ -2547,7 +2831,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.faqEntries.get" class="permission-name add-link" data-text="contactcenterinsights.faqEntries.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  faqEntries.  get</code></h4></td>
@@ -2559,6 +2845,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2566,7 +2853,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.faqEntries.list" class="permission-name add-link" data-text="contactcenterinsights.faqEntries.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  faqEntries.  list</code></h4></td>
@@ -2580,6 +2869,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2588,7 +2878,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.faqEntries.update" class="permission-name add-link" data-text="contactcenterinsights.faqEntries.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  faqEntries.  update</code></h4></td>
@@ -2596,7 +2888,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.faqModels.create" class="permission-name add-link" data-text="contactcenterinsights.faqModels.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  faqModels.  create</code></h4></td>
@@ -2605,6 +2899,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2619,7 +2915,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.faqModels.get" class="permission-name add-link" data-text="contactcenterinsights.faqModels.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  faqModels.  get</code></h4></td>
@@ -2631,6 +2929,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2639,6 +2938,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2659,6 +2960,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2668,6 +2970,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2682,7 +2986,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.feedbackLabels.create" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  create</code></h4></td>
@@ -2690,7 +2996,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.feedbackLabels.delete" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  delete</code></h4></td>
@@ -2698,7 +3006,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.feedbackLabels.download" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.download" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  download</code></h4></td>
@@ -2709,13 +3019,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.evalsEditor">Gemini Enterprise for Customer Experience Evals Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.evalsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.feedbackLabels.get" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  get</code></h4></td>
@@ -2727,6 +3039,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2734,7 +3047,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.feedbackLabels.list" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  list</code></h4></td>
@@ -2748,6 +3063,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2756,7 +3072,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.feedbackLabels.update" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  update</code></h4></td>
@@ -2764,7 +3082,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.feedbackLabels.upload" class="permission-name add-link" data-text="contactcenterinsights.feedbackLabels.upload" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  feedbackLabels.  upload</code></h4></td>
@@ -2772,7 +3092,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issueModels.create" class="permission-name add-link" data-text="contactcenterinsights.issueModels.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  create</code></h4></td>
@@ -2780,7 +3102,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issueModels.delete" class="permission-name add-link" data-text="contactcenterinsights.issueModels.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  delete</code></h4></td>
@@ -2788,7 +3112,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issueModels.deploy" class="permission-name add-link" data-text="contactcenterinsights.issueModels.deploy" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  deploy</code></h4></td>
@@ -2796,7 +3122,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issueModels.export" class="permission-name add-link" data-text="contactcenterinsights.issueModels.export" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  export</code></h4></td>
@@ -2804,7 +3132,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issueModels.get" class="permission-name add-link" data-text="contactcenterinsights.issueModels.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  get</code></h4></td>
@@ -2816,6 +3146,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2823,7 +3154,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issueModels.import" class="permission-name add-link" data-text="contactcenterinsights.issueModels.import" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  import</code></h4></td>
@@ -2831,7 +3164,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issueModels.list" class="permission-name add-link" data-text="contactcenterinsights.issueModels.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  list</code></h4></td>
@@ -2845,6 +3180,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2853,7 +3189,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issueModels.undeploy" class="permission-name add-link" data-text="contactcenterinsights.issueModels.undeploy" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  undeploy</code></h4></td>
@@ -2861,7 +3199,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issueModels.update" class="permission-name add-link" data-text="contactcenterinsights.issueModels.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issueModels.  update</code></h4></td>
@@ -2869,7 +3209,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issues.create" class="permission-name add-link" data-text="contactcenterinsights.issues.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issues.  create</code></h4></td>
@@ -2877,7 +3219,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issues.delete" class="permission-name add-link" data-text="contactcenterinsights.issues.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issues.  delete</code></h4></td>
@@ -2885,7 +3229,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issues.get" class="permission-name add-link" data-text="contactcenterinsights.issues.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issues.  get</code></h4></td>
@@ -2897,6 +3243,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2904,7 +3251,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.issues.list" class="permission-name add-link" data-text="contactcenterinsights.issues.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issues.  list</code></h4></td>
@@ -2918,6 +3267,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2926,7 +3276,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.issues.update" class="permission-name add-link" data-text="contactcenterinsights.issues.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  issues.  update</code></h4></td>
@@ -2934,7 +3286,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.notes.create" class="permission-name add-link" data-text="contactcenterinsights.notes.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  notes.  create</code></h4></td>
@@ -2942,7 +3296,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.notes.delete" class="permission-name add-link" data-text="contactcenterinsights.notes.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  notes.  delete</code></h4></td>
@@ -2950,7 +3306,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.notes.list" class="permission-name add-link" data-text="contactcenterinsights.notes.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  notes.  list</code></h4></td>
@@ -2964,6 +3322,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -2972,7 +3331,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.notes.update" class="permission-name add-link" data-text="contactcenterinsights.notes.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  notes.  update</code></h4></td>
@@ -2980,7 +3341,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.operations.cancel" class="permission-name add-link" data-text="contactcenterinsights.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  operations.  cancel</code></h4></td>
@@ -2988,7 +3351,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.operations.get" class="permission-name add-link" data-text="contactcenterinsights.operations.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  operations.  get</code></h4></td>
@@ -3000,6 +3365,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3008,6 +3374,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3028,6 +3396,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3037,6 +3406,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3051,7 +3422,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.phraseMatchers.delete" class="permission-name add-link" data-text="contactcenterinsights.phraseMatchers.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  phraseMatchers.  delete</code></h4></td>
@@ -3059,7 +3432,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.phraseMatchers.get" class="permission-name add-link" data-text="contactcenterinsights.phraseMatchers.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  phraseMatchers.  get</code></h4></td>
@@ -3071,6 +3446,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3078,7 +3454,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.phraseMatchers.list" class="permission-name add-link" data-text="contactcenterinsights.phraseMatchers.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  phraseMatchers.  list</code></h4></td>
@@ -3092,6 +3470,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3100,7 +3479,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.phraseMatchers.update" class="permission-name add-link" data-text="contactcenterinsights.phraseMatchers.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  phraseMatchers.  update</code></h4></td>
@@ -3108,7 +3489,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.qaQuestionTags.create" class="permission-name add-link" data-text="contactcenterinsights.qaQuestionTags.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaQuestionTags.  create</code></h4></td>
@@ -3116,7 +3499,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.qaQuestionTags.delete" class="permission-name add-link" data-text="contactcenterinsights.qaQuestionTags.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaQuestionTags.  delete</code></h4></td>
@@ -3124,7 +3509,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.qaQuestionTags.get" class="permission-name add-link" data-text="contactcenterinsights.qaQuestionTags.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaQuestionTags.  get</code></h4></td>
@@ -3136,6 +3523,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3143,7 +3531,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.qaQuestionTags.list" class="permission-name add-link" data-text="contactcenterinsights.qaQuestionTags.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaQuestionTags.  list</code></h4></td>
@@ -3157,6 +3547,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3165,7 +3556,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.qaQuestionTags.update" class="permission-name add-link" data-text="contactcenterinsights.qaQuestionTags.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaQuestionTags.  update</code></h4></td>
@@ -3173,7 +3566,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.qaQuestions.create" class="permission-name add-link" data-text="contactcenterinsights.qaQuestions.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaQuestions.  create</code></h4></td>
@@ -3182,6 +3577,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3197,6 +3594,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3215,6 +3614,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3223,6 +3623,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3243,6 +3645,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3252,6 +3655,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3267,6 +3672,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3281,7 +3688,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.qaScorecardRevisions.create" class="permission-name add-link" data-text="contactcenterinsights.qaScorecardRevisions.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  qaScorecardRevisions.  create</code></h4></td>
@@ -3290,6 +3699,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3305,6 +3716,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3320,6 +3733,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3338,6 +3753,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3346,6 +3762,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3366,6 +3784,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3375,6 +3794,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3390,6 +3811,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3405,6 +3828,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3420,6 +3845,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3435,6 +3862,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3453,6 +3882,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3461,6 +3891,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3481,6 +3913,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3490,6 +3923,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3505,6 +3940,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3523,6 +3960,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3530,7 +3968,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.settings.update" class="permission-name add-link" data-text="contactcenterinsights.settings.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  settings.  update</code></h4></td>
@@ -3538,7 +3978,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.views.create" class="permission-name add-link" data-text="contactcenterinsights.views.create" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  views.  create</code></h4></td>
@@ -3546,7 +3988,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.views.delete" class="permission-name add-link" data-text="contactcenterinsights.views.delete" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  views.  delete</code></h4></td>
@@ -3554,7 +3998,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.views.get" class="permission-name add-link" data-text="contactcenterinsights.views.get" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  views.  get</code></h4></td>
@@ -3566,6 +4012,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3573,7 +4020,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.guardrailsEditor">Gemini Enterprise for Customer Experience Guardrails Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.guardrailsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.views.list" class="permission-name add-link" data-text="contactcenterinsights.views.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  views.  list</code></h4></td>
@@ -3587,6 +4036,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3595,7 +4045,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="contactcenterinsights.views.update" class="permission-name add-link" data-text="contactcenterinsights.views.update" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  views.  update</code></h4></td>
@@ -3603,7 +4055,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.admin">Gemini Enterprise for Customer Experience Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.admin">Contact Center AI Insights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.editor">Contact Center AI Insights editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="contactcenterinsights.visibilityLabels.list" class="permission-name add-link" data-text="contactcenterinsights.visibilityLabels.list" tabindex="-1"><code dir="ltr" translate="no">contactcenterinsights.  visibilityLabels.  list</code></h4></td>
@@ -3617,6 +4071,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/contactcenterinsights#contactcenterinsights.viewer">Contact Center AI Insights viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  contactcenterinsights.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.agentEditor">Gemini Enterprise for Customer Experience Agent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.agentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.appEditor">Gemini Enterprise for Customer Experience App Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.appEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.deploymentEditor">Gemini Enterprise for Customer Experience Deployment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.deploymentEditor</code> )</p>
@@ -3625,7 +4080,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.securitySettingsEditor">Gemini Enterprise for Customer Experience Security Settings Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.securitySettingsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ces#ces.toolsEditor">Gemini Enterprise for Customer Experience Tools Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ces.toolsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -10,6 +10,8 @@ This guide shows you how to manage OAuth-based application integrations with Goo
 
 > **Important:** OAuth application integration works only with Identity-Aware Proxy.
 
+> **Note:** These steps and the `projects.locations.oauthClients` API are only for [Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation) . To create and manage standard OAuth 2.0 client IDs for Google Cloud users or services, go to the Google Cloud console, then go to [**APIs & Services \> Credentials**](https://console.cloud.google.com/apis/credentials) .
+
 At a high level, to integrate an OAuth-based application, you do the following:
 
 1.  [Create an OAuth client](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app#create) .

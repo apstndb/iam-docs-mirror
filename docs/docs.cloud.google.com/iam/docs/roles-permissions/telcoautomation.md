@@ -432,7 +432,9 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.blueprints.create" class="permission-name add-link" data-text="telcoautomation.blueprints.create" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  blueprints.  create</code></h4></td>
@@ -440,7 +442,9 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.blueprints.delete" class="permission-name add-link" data-text="telcoautomation.blueprints.delete" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  blueprints.  delete</code></h4></td>
@@ -448,7 +452,9 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.blueprints.get" class="permission-name add-link" data-text="telcoautomation.blueprints.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.blueprints.get</code></h4></td>
@@ -458,12 +464,15 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.blueprints.list" class="permission-name add-link" data-text="telcoautomation.blueprints.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  blueprints.  list</code></h4></td>
@@ -475,13 +484,16 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.blueprints.propose" class="permission-name add-link" data-text="telcoautomation.blueprints.propose" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  blueprints.  propose</code></h4></td>
@@ -489,7 +501,9 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.blueprints.update" class="permission-name add-link" data-text="telcoautomation.blueprints.update" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  blueprints.  update</code></h4></td>
@@ -497,7 +511,9 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.deployments.apply" class="permission-name add-link" data-text="telcoautomation.deployments.apply" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  apply</code></h4></td>
@@ -505,9 +521,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.deployments.computeStatus" class="permission-name add-link" data-text="telcoautomation.deployments.computeStatus" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  computeStatus</code></h4></td>
@@ -517,12 +535,15 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.deployments.create" class="permission-name add-link" data-text="telcoautomation.deployments.create" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  create</code></h4></td>
@@ -530,9 +551,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.deployments.delete" class="permission-name add-link" data-text="telcoautomation.deployments.delete" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  delete</code></h4></td>
@@ -540,9 +563,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.deployments.get" class="permission-name add-link" data-text="telcoautomation.deployments.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  get</code></h4></td>
@@ -552,12 +577,15 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.deployments.list" class="permission-name add-link" data-text="telcoautomation.deployments.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  list</code></h4></td>
@@ -569,13 +597,16 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.deployments.rollback" class="permission-name add-link" data-text="telcoautomation.deployments.rollback" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  rollback</code></h4></td>
@@ -583,9 +614,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.deployments.update" class="permission-name add-link" data-text="telcoautomation.deployments.update" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  deployments.  update</code></h4></td>
@@ -593,19 +626,23 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.edgeSlms.create" class="permission-name add-link" data-text="telcoautomation.edgeSlms.create" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  edgeSlms.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.edgeSlms.delete" class="permission-name add-link" data-text="telcoautomation.edgeSlms.delete" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  edgeSlms.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.edgeSlms.get" class="permission-name add-link" data-text="telcoautomation.edgeSlms.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.edgeSlms.get</code></h4></td>
@@ -615,7 +652,10 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.edgeSlms.list" class="permission-name add-link" data-text="telcoautomation.edgeSlms.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.edgeSlms.list</code></h4></td>
@@ -627,8 +667,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.hydratedDeployments.apply" class="permission-name add-link" data-text="telcoautomation.hydratedDeployments.apply" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  hydratedDeployments.  apply</code></h4></td>
@@ -636,9 +679,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.hydratedDeployments.get" class="permission-name add-link" data-text="telcoautomation.hydratedDeployments.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  hydratedDeployments.  get</code></h4></td>
@@ -648,12 +693,15 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.hydratedDeployments.list" class="permission-name add-link" data-text="telcoautomation.hydratedDeployments.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  hydratedDeployments.  list</code></h4></td>
@@ -665,13 +713,16 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.hydratedDeployments.update" class="permission-name add-link" data-text="telcoautomation.hydratedDeployments.update" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  hydratedDeployments.  update</code></h4></td>
@@ -679,9 +730,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.locations.get" class="permission-name add-link" data-text="telcoautomation.locations.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.locations.get</code></h4></td>
@@ -691,7 +744,10 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.locations.list" class="permission-name add-link" data-text="telcoautomation.locations.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.locations.list</code></h4></td>
@@ -703,22 +759,29 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.operations.cancel" class="permission-name add-link" data-text="telcoautomation.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.operations.delete" class="permission-name add-link" data-text="telcoautomation.operations.delete" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.operations.get" class="permission-name add-link" data-text="telcoautomation.operations.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.operations.get</code></h4></td>
@@ -728,7 +791,10 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.operations.list" class="permission-name add-link" data-text="telcoautomation.operations.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  operations.  list</code></h4></td>
@@ -740,20 +806,26 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.orchestrationClusters.create" class="permission-name add-link" data-text="telcoautomation.orchestrationClusters.create" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  orchestrationClusters.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.orchestrationClusters.delete" class="permission-name add-link" data-text="telcoautomation.orchestrationClusters.delete" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  orchestrationClusters.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.orchestrationClusters.get" class="permission-name add-link" data-text="telcoautomation.orchestrationClusters.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  orchestrationClusters.  get</code></h4></td>
@@ -763,12 +835,15 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.orchestrationClusters.list" class="permission-name add-link" data-text="telcoautomation.orchestrationClusters.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  orchestrationClusters.  list</code></h4></td>
@@ -780,13 +855,16 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.deploymentAdmin">Telco Automation Deployment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.deploymentAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.serviceOrchestrator">Telco Automation Service Orchestrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.serviceOrchestrator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="telcoautomation.publicBlueprints.get" class="permission-name add-link" data-text="telcoautomation.publicBlueprints.get" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  publicBlueprints.  get</code></h4></td>
@@ -796,8 +874,11 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telcoautomation.publicBlueprints.list" class="permission-name add-link" data-text="telcoautomation.publicBlueprints.list" tabindex="-1"><code dir="ltr" translate="no">telcoautomation.  publicBlueprints.  list</code></h4></td>
@@ -809,9 +890,12 @@ This page lists the IAM roles and permissions for Telco Automation API. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.editor">Telcoautomation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.viewer">Telcoautomation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.blueprintDesigner">Telco Automation Blueprint Designer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.blueprintDesigner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -156,7 +156,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.viewer">Enterprise Knowledge Graph Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterpriseknowledgegraph.cloudKnowledgeGraphEntities.search" class="permission-name add-link" data-text="enterpriseknowledgegraph.cloudKnowledgeGraphEntities.search" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  cloudKnowledgeGraphEntities.  search</code></h4></td>
@@ -166,28 +169,37 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.viewer">Enterprise Knowledge Graph Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterpriseknowledgegraph.entityReconciliationJobs.cancel" class="permission-name add-link" data-text="enterpriseknowledgegraph.entityReconciliationJobs.cancel" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterpriseknowledgegraph.entityReconciliationJobs.create" class="permission-name add-link" data-text="enterpriseknowledgegraph.entityReconciliationJobs.create" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterpriseknowledgegraph.entityReconciliationJobs.delete" class="permission-name add-link" data-text="enterpriseknowledgegraph.entityReconciliationJobs.delete" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterpriseknowledgegraph.entityReconciliationJobs.get" class="permission-name add-link" data-text="enterpriseknowledgegraph.entityReconciliationJobs.get" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  get</code></h4></td>
@@ -197,7 +209,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.viewer">Enterprise Knowledge Graph Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterpriseknowledgegraph.entityReconciliationJobs.list" class="permission-name add-link" data-text="enterpriseknowledgegraph.entityReconciliationJobs.list" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  list</code></h4></td>
@@ -209,8 +224,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.viewer">Enterprise Knowledge Graph Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterpriseknowledgegraph.publicKnowledgeGraphEntities.lookup" class="permission-name add-link" data-text="enterpriseknowledgegraph.publicKnowledgeGraphEntities.lookup" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  publicKnowledgeGraphEntities.  lookup</code></h4></td>
@@ -220,7 +238,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.viewer">Enterprise Knowledge Graph Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterpriseknowledgegraph.publicKnowledgeGraphEntities.search" class="permission-name add-link" data-text="enterpriseknowledgegraph.publicKnowledgeGraphEntities.search" tabindex="-1"><code dir="ltr" translate="no">enterpriseknowledgegraph.  publicKnowledgeGraphEntities.  search</code></h4></td>
@@ -230,7 +251,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.admin">Enterprise Knowledge Graph Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.editor">Enterprise Knowledge Graph Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterpriseknowledgegraph#enterpriseknowledgegraph.viewer">Enterprise Knowledge Graph Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterpriseknowledgegraph.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

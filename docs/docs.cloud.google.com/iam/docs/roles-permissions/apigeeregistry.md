@@ -175,14 +175,18 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.apis.delete" class="permission-name add-link" data-text="apigeeregistry.apis.delete" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.apis.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.apis.get" class="permission-name add-link" data-text="apigeeregistry.apis.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.apis.get</code></h4></td>
@@ -192,8 +196,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.apis.getIamPolicy" class="permission-name add-link" data-text="apigeeregistry.apis.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  apis.  getIamPolicy</code></h4></td>
@@ -204,8 +211,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.apis.list" class="permission-name add-link" data-text="apigeeregistry.apis.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.apis.list</code></h4></td>
@@ -217,15 +227,19 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.apis.setIamPolicy" class="permission-name add-link" data-text="apigeeregistry.apis.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  apis.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.apis.update" class="permission-name add-link" data-text="apigeeregistry.apis.update" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.apis.update</code></h4></td>
@@ -233,7 +247,9 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.artifacts.create" class="permission-name add-link" data-text="apigeeregistry.artifacts.create" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  artifacts.  create</code></h4></td>
@@ -241,7 +257,9 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.artifacts.delete" class="permission-name add-link" data-text="apigeeregistry.artifacts.delete" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  artifacts.  delete</code></h4></td>
@@ -249,7 +267,9 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.artifacts.get" class="permission-name add-link" data-text="apigeeregistry.artifacts.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.artifacts.get</code></h4></td>
@@ -259,8 +279,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.artifacts.getIamPolicy" class="permission-name add-link" data-text="apigeeregistry.artifacts.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  artifacts.  getIamPolicy</code></h4></td>
@@ -271,8 +294,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.artifacts.list" class="permission-name add-link" data-text="apigeeregistry.artifacts.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.artifacts.list</code></h4></td>
@@ -284,15 +310,19 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.artifacts.setIamPolicy" class="permission-name add-link" data-text="apigeeregistry.artifacts.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  artifacts.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.artifacts.update" class="permission-name add-link" data-text="apigeeregistry.artifacts.update" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  artifacts.  update</code></h4></td>
@@ -300,21 +330,27 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.deployments.create" class="permission-name add-link" data-text="apigeeregistry.deployments.create" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  deployments.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.deployments.delete" class="permission-name add-link" data-text="apigeeregistry.deployments.delete" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  deployments.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.deployments.get" class="permission-name add-link" data-text="apigeeregistry.deployments.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.deployments.get</code></h4></td>
@@ -324,8 +360,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.deployments.list" class="permission-name add-link" data-text="apigeeregistry.deployments.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  deployments.  list</code></h4></td>
@@ -337,9 +376,12 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.deployments.update" class="permission-name add-link" data-text="apigeeregistry.deployments.update" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  deployments.  update</code></h4></td>
@@ -347,7 +389,9 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.instances.get" class="permission-name add-link" data-text="apigeeregistry.instances.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.instances.get</code></h4></td>
@@ -355,13 +399,18 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.instances.update" class="permission-name add-link" data-text="apigeeregistry.instances.update" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  instances.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.locations.get" class="permission-name add-link" data-text="apigeeregistry.locations.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.locations.get</code></h4></td>
@@ -369,7 +418,10 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.locations.list" class="permission-name add-link" data-text="apigeeregistry.locations.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.locations.list</code></h4></td>
@@ -379,20 +431,27 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.operations.cancel" class="permission-name add-link" data-text="apigeeregistry.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.operations.delete" class="permission-name add-link" data-text="apigeeregistry.operations.delete" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.operations.get" class="permission-name add-link" data-text="apigeeregistry.operations.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.operations.get</code></h4></td>
@@ -400,7 +459,10 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.operations.list" class="permission-name add-link" data-text="apigeeregistry.operations.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.operations.list</code></h4></td>
@@ -410,22 +472,29 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.specs.create" class="permission-name add-link" data-text="apigeeregistry.specs.create" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.specs.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.specs.delete" class="permission-name add-link" data-text="apigeeregistry.specs.delete" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.specs.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.specs.get" class="permission-name add-link" data-text="apigeeregistry.specs.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.specs.get</code></h4></td>
@@ -435,8 +504,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.specs.getIamPolicy" class="permission-name add-link" data-text="apigeeregistry.specs.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  specs.  getIamPolicy</code></h4></td>
@@ -447,8 +519,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.specs.list" class="permission-name add-link" data-text="apigeeregistry.specs.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.specs.list</code></h4></td>
@@ -460,15 +535,19 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.specs.setIamPolicy" class="permission-name add-link" data-text="apigeeregistry.specs.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  specs.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.specs.update" class="permission-name add-link" data-text="apigeeregistry.specs.update" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.specs.update</code></h4></td>
@@ -476,21 +555,27 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.versions.create" class="permission-name add-link" data-text="apigeeregistry.versions.create" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.versions.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.versions.delete" class="permission-name add-link" data-text="apigeeregistry.versions.delete" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.versions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.versions.get" class="permission-name add-link" data-text="apigeeregistry.versions.get" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.versions.get</code></h4></td>
@@ -500,8 +585,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.versions.getIamPolicy" class="permission-name add-link" data-text="apigeeregistry.versions.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  versions.  getIamPolicy</code></h4></td>
@@ -512,8 +600,11 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.versions.list" class="permission-name add-link" data-text="apigeeregistry.versions.list" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.versions.list</code></h4></td>
@@ -525,15 +616,19 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.viewer">Cloud Apigee Registry Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="apigeeregistry.versions.setIamPolicy" class="permission-name add-link" data-text="apigeeregistry.versions.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.  versions.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="apigeeregistry.versions.update" class="permission-name add-link" data-text="apigeeregistry.versions.update" tabindex="-1"><code dir="ltr" translate="no">apigeeregistry.versions.update</code></h4></td>
@@ -541,7 +636,9 @@ This page lists the IAM roles and permissions for Apigee Registry. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.admin">Cloud Apigee Registry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.editor">Cloud Apigee Registry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/apigeeregistry#apigeeregistry.worker">Cloud Apigee Registry Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  apigeeregistry.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

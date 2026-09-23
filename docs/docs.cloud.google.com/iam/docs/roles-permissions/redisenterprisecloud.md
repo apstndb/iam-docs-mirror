@@ -74,13 +74,17 @@ This page lists the IAM roles and permissions for Redis Enterprise Cloud. To sea
 <td><h4 id="gcp.redisenterprise.com_databases.create" class="permission-name add-link" data-text="gcp.redisenterprise.com/databases.create" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="gcp.redisenterprise.com_databases.delete" class="permission-name add-link" data-text="gcp.redisenterprise.com/databases.delete" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="gcp.redisenterprise.com_databases.get" class="permission-name add-link" data-text="gcp.redisenterprise.com/databases.get" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  get</code></h4></td>
@@ -89,7 +93,10 @@ This page lists the IAM roles and permissions for Redis Enterprise Cloud. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.viewer">Redis Enterprise Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="gcp.redisenterprise.com_databases.list" class="permission-name add-link" data-text="gcp.redisenterprise.com/databases.list" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  list</code></h4></td>
@@ -100,26 +107,35 @@ This page lists the IAM roles and permissions for Redis Enterprise Cloud. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.viewer">Redis Enterprise Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="gcp.redisenterprise.com_databases.update" class="permission-name add-link" data-text="gcp.redisenterprise.com/databases.update" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/databases.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="gcp.redisenterprise.com_subscriptions.create" class="permission-name add-link" data-text="gcp.redisenterprise.com/subscriptions.create" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="gcp.redisenterprise.com_subscriptions.delete" class="permission-name add-link" data-text="gcp.redisenterprise.com/subscriptions.delete" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="gcp.redisenterprise.com_subscriptions.get" class="permission-name add-link" data-text="gcp.redisenterprise.com/subscriptions.get" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  get</code></h4></td>
@@ -128,7 +144,10 @@ This page lists the IAM roles and permissions for Redis Enterprise Cloud. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.viewer">Redis Enterprise Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="gcp.redisenterprise.com_subscriptions.list" class="permission-name add-link" data-text="gcp.redisenterprise.com/subscriptions.list" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  list</code></h4></td>
@@ -139,14 +158,19 @@ This page lists the IAM roles and permissions for Redis Enterprise Cloud. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.viewer">Redis Enterprise Cloud Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="gcp.redisenterprise.com_subscriptions.update" class="permission-name add-link" data-text="gcp.redisenterprise.com/subscriptions.update" tabindex="-1"><code dir="ltr" translate="no">gcp.redisenterprise.  com/subscriptions.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/redisenterprisecloud#redisenterprisecloud.admin">Redis Enterprise Cloud Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  redisenterprisecloud.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

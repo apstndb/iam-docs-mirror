@@ -837,8 +837,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.controlScoreBreakdowns.list" class="permission-name add-link" data-text="riskmanager.controlScoreBreakdowns.list" tabindex="-1"><code dir="ltr" translate="no">riskmanager.  controlScoreBreakdowns.  list</code></h4></td>
@@ -850,16 +853,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.operations.delete" class="permission-name add-link" data-text="riskmanager.operations.delete" tabindex="-1"><code dir="ltr" translate="no">riskmanager.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.operations.get" class="permission-name add-link" data-text="riskmanager.operations.get" tabindex="-1"><code dir="ltr" translate="no">riskmanager.operations.get</code></h4></td>
@@ -869,8 +877,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.operations.list" class="permission-name add-link" data-text="riskmanager.operations.list" tabindex="-1"><code dir="ltr" translate="no">riskmanager.operations.list</code></h4></td>
@@ -882,9 +893,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.policies.get" class="permission-name add-link" data-text="riskmanager.policies.get" tabindex="-1"><code dir="ltr" translate="no">riskmanager.policies.get</code></h4></td>
@@ -894,7 +908,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.policies.list" class="permission-name add-link" data-text="riskmanager.policies.list" tabindex="-1"><code dir="ltr" translate="no">riskmanager.policies.list</code></h4></td>
@@ -906,22 +923,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.reports.create" class="permission-name add-link" data-text="riskmanager.reports.create" tabindex="-1"><code dir="ltr" translate="no">riskmanager.reports.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.reports.delete" class="permission-name add-link" data-text="riskmanager.reports.delete" tabindex="-1"><code dir="ltr" translate="no">riskmanager.reports.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.reports.get" class="permission-name add-link" data-text="riskmanager.reports.get" tabindex="-1"><code dir="ltr" translate="no">riskmanager.reports.get</code></h4></td>
@@ -931,8 +955,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.reports.list" class="permission-name add-link" data-text="riskmanager.reports.list" tabindex="-1"><code dir="ltr" translate="no">riskmanager.reports.list</code></h4></td>
@@ -944,29 +971,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.reports.review" class="permission-name add-link" data-text="riskmanager.reports.review" tabindex="-1"><code dir="ltr" translate="no">riskmanager.reports.review</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.reviewer">Risk Manager Report Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.reviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.reports.share" class="permission-name add-link" data-text="riskmanager.reports.share" tabindex="-1"><code dir="ltr" translate="no">riskmanager.reports.share</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.serviceAccount.create" class="permission-name add-link" data-text="riskmanager.serviceAccount.create" tabindex="-1"><code dir="ltr" translate="no">riskmanager.  serviceAccount.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="riskmanager.settings.get" class="permission-name add-link" data-text="riskmanager.settings.get" tabindex="-1"><code dir="ltr" translate="no">riskmanager.settings.get</code></h4></td>
@@ -976,14 +1012,19 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.viewer">Risk Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="riskmanager.settings.update" class="permission-name add-link" data-text="riskmanager.settings.update" tabindex="-1"><code dir="ltr" translate="no">riskmanager.settings.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.admin">Risk Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/riskmanager#riskmanager.editor">Risk Manager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  riskmanager.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

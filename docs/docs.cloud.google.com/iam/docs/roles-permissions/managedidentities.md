@@ -433,8 +433,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.backups.delete" class="permission-name add-link" data-text="managedidentities.backups.delete" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  backups.  delete</code></h4></td>
@@ -442,8 +444,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.backups.get" class="permission-name add-link" data-text="managedidentities.backups.get" tabindex="-1"><code dir="ltr" translate="no">managedidentities.backups.get</code></h4></td>
@@ -453,10 +457,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.backups.getIamPolicy" class="permission-name add-link" data-text="managedidentities.backups.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  backups.  getIamPolicy</code></h4></td>
@@ -468,11 +475,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.backups.list" class="permission-name add-link" data-text="managedidentities.backups.list" tabindex="-1"><code dir="ltr" translate="no">managedidentities.backups.list</code></h4></td>
@@ -484,17 +494,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.backups.setIamPolicy" class="permission-name add-link" data-text="managedidentities.backups.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  backups.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
 </tr>
@@ -504,8 +518,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.attachTrust" class="permission-name add-link" data-text="managedidentities.domains.attachTrust" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  attachTrust</code></h4></td>
@@ -513,7 +529,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.checkMigrationPermission" class="permission-name add-link" data-text="managedidentities.domains.checkMigrationPermission" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  checkMigrationPermission</code></h4></td>
@@ -522,21 +540,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.create" class="permission-name add-link" data-text="managedidentities.domains.create" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.createTagBinding" class="permission-name add-link" data-text="managedidentities.domains.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
@@ -547,13 +571,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.deleteTagBinding" class="permission-name add-link" data-text="managedidentities.domains.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
@@ -564,7 +591,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.disableMigration" class="permission-name add-link" data-text="managedidentities.domains.disableMigration" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  disableMigration</code></h4></td>
@@ -572,7 +601,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.domainJoinMachine" class="permission-name add-link" data-text="managedidentities.domains.domainJoinMachine" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  domainJoinMachine</code></h4></td>
@@ -580,8 +611,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainJoin">Google Cloud Managed Identities Domain Join</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainJoin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainJoin">Google Cloud Managed Identities Domain Join</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainJoin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.enableMigration" class="permission-name add-link" data-text="managedidentities.domains.enableMigration" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  enableMigration</code></h4></td>
@@ -589,7 +622,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.extendSchema" class="permission-name add-link" data-text="managedidentities.domains.extendSchema" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  extendSchema</code></h4></td>
@@ -597,7 +632,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.get" class="permission-name add-link" data-text="managedidentities.domains.get" tabindex="-1"><code dir="ltr" translate="no">managedidentities.domains.get</code></h4></td>
@@ -607,11 +644,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainJoin">Google Cloud Managed Identities Domain Join</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainJoin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainJoin">Google Cloud Managed Identities Domain Join</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainJoin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.getIamPolicy" class="permission-name add-link" data-text="managedidentities.domains.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  getIamPolicy</code></h4></td>
@@ -623,9 +663,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.list" class="permission-name add-link" data-text="managedidentities.domains.list" tabindex="-1"><code dir="ltr" translate="no">managedidentities.domains.list</code></h4></td>
@@ -637,8 +680,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.listEffectiveTags" class="permission-name add-link" data-text="managedidentities.domains.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  listEffectiveTags</code></h4></td>
@@ -650,11 +696,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.listTagBindings" class="permission-name add-link" data-text="managedidentities.domains.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  listTagBindings</code></h4></td>
@@ -666,11 +715,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.reconfigureTrust" class="permission-name add-link" data-text="managedidentities.domains.reconfigureTrust" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  reconfigureTrust</code></h4></td>
@@ -678,7 +730,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.resetpassword" class="permission-name add-link" data-text="managedidentities.domains.resetpassword" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  resetpassword</code></h4></td>
@@ -686,7 +740,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.restore" class="permission-name add-link" data-text="managedidentities.domains.restore" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  restore</code></h4></td>
@@ -694,13 +750,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.setIamPolicy" class="permission-name add-link" data-text="managedidentities.domains.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.update" class="permission-name add-link" data-text="managedidentities.domains.update" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  update</code></h4></td>
@@ -708,7 +767,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.domains.updateLDAPSSettings" class="permission-name add-link" data-text="managedidentities.domains.updateLDAPSSettings" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  updateLDAPSSettings</code></h4></td>
@@ -716,7 +777,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.domains.validateTrust" class="permission-name add-link" data-text="managedidentities.domains.validateTrust" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  domains.  validateTrust</code></h4></td>
@@ -725,8 +788,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.locations.get" class="permission-name add-link" data-text="managedidentities.locations.get" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  locations.  get</code></h4></td>
@@ -736,12 +802,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.locations.list" class="permission-name add-link" data-text="managedidentities.locations.list" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  locations.  list</code></h4></td>
@@ -753,13 +822,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.operations.cancel" class="permission-name add-link" data-text="managedidentities.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  operations.  cancel</code></h4></td>
@@ -767,8 +839,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.operations.delete" class="permission-name add-link" data-text="managedidentities.operations.delete" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  operations.  delete</code></h4></td>
@@ -776,8 +850,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.operations.get" class="permission-name add-link" data-text="managedidentities.operations.get" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  operations.  get</code></h4></td>
@@ -787,12 +863,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.operations.list" class="permission-name add-link" data-text="managedidentities.operations.list" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  operations.  list</code></h4></td>
@@ -804,13 +883,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupAdmin">Google Cloud Managed Identities Backup Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.backupViewer">Google Cloud Managed Identities Backup Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.backupViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.peerings.create" class="permission-name add-link" data-text="managedidentities.peerings.create" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  peerings.  create</code></h4></td>
@@ -818,7 +900,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.peerings.delete" class="permission-name add-link" data-text="managedidentities.peerings.delete" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  peerings.  delete</code></h4></td>
@@ -826,7 +910,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.peerings.get" class="permission-name add-link" data-text="managedidentities.peerings.get" tabindex="-1"><code dir="ltr" translate="no">managedidentities.peerings.get</code></h4></td>
@@ -836,9 +922,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.peerings.getIamPolicy" class="permission-name add-link" data-text="managedidentities.peerings.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  peerings.  getIamPolicy</code></h4></td>
@@ -850,10 +939,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.peerings.list" class="permission-name add-link" data-text="managedidentities.peerings.list" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  peerings.  list</code></h4></td>
@@ -865,16 +957,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringViewer">Google Cloud Managed Identities Peering Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.peerings.setIamPolicy" class="permission-name add-link" data-text="managedidentities.peerings.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  peerings.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -883,7 +979,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.peeringAdmin">Google Cloud Managed Identities Peering Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.peeringAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedidentities.sqlintegrations.get" class="permission-name add-link" data-text="managedidentities.sqlintegrations.get" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  sqlintegrations.  get</code></h4></td>
@@ -893,8 +991,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedidentities.sqlintegrations.list" class="permission-name add-link" data-text="managedidentities.sqlintegrations.list" tabindex="-1"><code dir="ltr" translate="no">managedidentities.  sqlintegrations.  list</code></h4></td>
@@ -906,9 +1007,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.admin">Google Cloud Managed Identities Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.editor">Google Cloud Managed Identities Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.viewer">Google Cloud Managed Identities Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedidentities#managedidentities.domainAdmin">Google Cloud Managed Identities Domain Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedidentities.domainAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

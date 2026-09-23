@@ -110,9 +110,12 @@ This page lists the IAM roles and permissions for Policy Remediator Manager. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.viewer">Policyremediatormanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="policyremediatormanager.locations.list" class="permission-name add-link" data-text="policyremediatormanager.locations.list" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  locations.  list</code></h4></td>
@@ -123,24 +126,31 @@ This page lists the IAM roles and permissions for Policy Remediator Manager. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.viewer">Policyremediatormanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="policyremediatormanager.operations.cancel" class="permission-name add-link" data-text="policyremediatormanager.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="policyremediatormanager.operations.delete" class="permission-name add-link" data-text="policyremediatormanager.operations.delete" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="policyremediatormanager.operations.get" class="permission-name add-link" data-text="policyremediatormanager.operations.get" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  operations.  get</code></h4></td>
@@ -149,9 +159,12 @@ This page lists the IAM roles and permissions for Policy Remediator Manager. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.viewer">Policyremediatormanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="policyremediatormanager.operations.list" class="permission-name add-link" data-text="policyremediatormanager.operations.list" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  operations.  list</code></h4></td>
@@ -162,24 +175,31 @@ This page lists the IAM roles and permissions for Policy Remediator Manager. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.viewer">Policyremediatormanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="policyremediatormanager.remediatorServices.disable" class="permission-name add-link" data-text="policyremediatormanager.remediatorServices.disable" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  remediatorServices.  disable</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="policyremediatormanager.remediatorServices.enable" class="permission-name add-link" data-text="policyremediatormanager.remediatorServices.enable" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  remediatorServices.  enable</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="policyremediatormanager.remediatorServices.get" class="permission-name add-link" data-text="policyremediatormanager.remediatorServices.get" tabindex="-1"><code dir="ltr" translate="no">policyremediatormanager.  remediatorServices.  get</code></h4></td>
@@ -188,9 +208,12 @@ This page lists the IAM roles and permissions for Policy Remediator Manager. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.admin">Policyremediatormanager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.viewer">Policyremediatormanager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorAdmin">Policy Remediator Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyremediatormanager#policyremediatormanager.policyRemediatorReader">Policy Remediator Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyremediatormanager.policyRemediatorReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

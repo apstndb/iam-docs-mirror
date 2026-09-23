@@ -85,12 +85,14 @@ This page lists the IAM roles and permissions for Maps Analytics. To search thro
 <td><h4 id="mapsanalytics.metricData.query" class="permission-name add-link" data-text="mapsanalytics.metricData.query" tabindex="-1"><code dir="ltr" translate="no">mapsanalytics.metricData.query</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.admin">Mapsanalytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.viewer">Maps Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.viewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.viewer">Maps Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mapsanalytics.metricData.queryMobilitySolutionsOverageData" class="permission-name add-link" data-text="mapsanalytics.metricData.queryMobilitySolutionsOverageData" tabindex="-1"><code dir="ltr" translate="no">mapsanalytics.  metricData.  queryMobilitySolutionsOverageData</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.admin">Mapsanalytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.mobilitySolutionsOverageViewer">Mobility Solutions Overages Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.mobilitySolutionsOverageViewer</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -100,6 +102,7 @@ This page lists the IAM roles and permissions for Maps Analytics. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.admin">Mapsanalytics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mapsanalytics#mapsanalytics.viewer">Maps Analytics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mapsanalytics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 </tbody>

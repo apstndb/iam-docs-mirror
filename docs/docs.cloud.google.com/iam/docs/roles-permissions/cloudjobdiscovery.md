@@ -142,13 +142,17 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <td><h4 id="cloudjobdiscovery.companies.create" class="permission-name add-link" data-text="cloudjobdiscovery.companies.create" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  companies.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.companies.delete" class="permission-name add-link" data-text="cloudjobdiscovery.companies.delete" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  companies.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.companies.get" class="permission-name add-link" data-text="cloudjobdiscovery.companies.get" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  companies.  get</code></h4></td>
@@ -156,9 +160,12 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsViewer">Cloud Talent Solution Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.companies.list" class="permission-name add-link" data-text="cloudjobdiscovery.companies.list" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  companies.  list</code></h4></td>
@@ -168,35 +175,46 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsViewer">Cloud Talent Solution Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.companies.update" class="permission-name add-link" data-text="cloudjobdiscovery.companies.update" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  companies.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.events.create" class="permission-name add-link" data-text="cloudjobdiscovery.events.create" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  events.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.jobs.create" class="permission-name add-link" data-text="cloudjobdiscovery.jobs.create" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.jobs.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.jobs.delete" class="permission-name add-link" data-text="cloudjobdiscovery.jobs.delete" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.jobs.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.jobs.get" class="permission-name add-link" data-text="cloudjobdiscovery.jobs.get" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.jobs.get</code></h4></td>
@@ -204,9 +222,12 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsViewer">Cloud Talent Solution Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.jobs.search" class="permission-name add-link" data-text="cloudjobdiscovery.jobs.search" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.jobs.search</code></h4></td>
@@ -214,27 +235,36 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsViewer">Cloud Talent Solution Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.jobs.update" class="permission-name add-link" data-text="cloudjobdiscovery.jobs.update" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.jobs.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.profiles.create" class="permission-name add-link" data-text="cloudjobdiscovery.profiles.create" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  profiles.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.profiles.delete" class="permission-name add-link" data-text="cloudjobdiscovery.profiles.delete" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  profiles.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.profiles.get" class="permission-name add-link" data-text="cloudjobdiscovery.profiles.get" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.profiles.get</code></h4></td>
@@ -242,9 +272,12 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesViewer">Cloud Talent Solution Profile Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.profiles.search" class="permission-name add-link" data-text="cloudjobdiscovery.profiles.search" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  profiles.  search</code></h4></td>
@@ -252,29 +285,38 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesViewer">Cloud Talent Solution Profile Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.profiles.update" class="permission-name add-link" data-text="cloudjobdiscovery.profiles.update" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  profiles.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.tenants.create" class="permission-name add-link" data-text="cloudjobdiscovery.tenants.create" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  tenants.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.tenants.delete" class="permission-name add-link" data-text="cloudjobdiscovery.tenants.delete" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  tenants.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.tenants.get" class="permission-name add-link" data-text="cloudjobdiscovery.tenants.get" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.tenants.get</code></h4></td>
@@ -282,24 +324,31 @@ This page lists the IAM roles and permissions for Talent Solution. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.viewer">Cloud Talent Solution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsViewer">Cloud Talent Solution Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesViewer">Cloud Talent Solution Profile Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudjobdiscovery.tenants.update" class="permission-name add-link" data-text="cloudjobdiscovery.tenants.update" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.  tenants.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.jobsEditor">Cloud Talent Solution Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.jobsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.profilesEditor">Cloud Talent Solution Profile Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.profilesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudjobdiscovery.tools.access" class="permission-name add-link" data-text="cloudjobdiscovery.tools.access" tabindex="-1"><code dir="ltr" translate="no">cloudjobdiscovery.tools.access</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.admin">Cloud Talent Solution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudjobdiscovery#cloudjobdiscovery.admin">Cloud Talent Solution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudjobdiscovery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

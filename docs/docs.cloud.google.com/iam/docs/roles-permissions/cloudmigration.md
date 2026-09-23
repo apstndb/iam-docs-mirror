@@ -162,6 +162,7 @@ This page lists the IAM roles and permissions for Migrate to Virtual Machines. T
 <tr class="odd">
 <td><h4 id="cloudmigration.velostrataendpoints.connect" class="permission-name add-link" data-text="cloudmigration.velostrataendpoints.connect" tabindex="-1"><code dir="ltr" translate="no">cloudmigration.  velostrataendpoints.  connect</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration#cloudmigration.inframanager">Velostrata Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmigration.inframanager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudmigration#cloudmigration.velostrataconnect">Velostrata Manager Connection Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudmigration.velostrataconnect</code> )</p></td>
 </tr>

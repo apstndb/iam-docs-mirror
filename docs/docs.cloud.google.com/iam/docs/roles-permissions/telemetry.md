@@ -128,6 +128,7 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.consumerAdmin">Consumer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.consumerAdmin</code> )</p></td>
 </tr>
@@ -136,12 +137,14 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.consumerAdmin">Consumer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.consumerAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="telemetry.consumers.writeLogs" class="permission-name add-link" data-text="telemetry.consumers.writeLogs" tabindex="-1"><code dir="ltr" translate="no">telemetry.consumers.writeLogs</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceLogsWriter">Integrated Service Telemetry Logs Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.serviceLogsWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTelemetryWriter">Integrated Service Telemetry Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.serviceTelemetryWriter</code> )</p></td>
 </tr>
@@ -149,6 +152,7 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <td><h4 id="telemetry.consumers.writeMetrics" class="permission-name add-link" data-text="telemetry.consumers.writeMetrics" tabindex="-1"><code dir="ltr" translate="no">telemetry.  consumers.  writeMetrics</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceMetricsWriter">Integrated Service Telemetry Metrics Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.serviceMetricsWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTelemetryWriter">Integrated Service Telemetry Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.serviceTelemetryWriter</code> )</p></td>
 </tr>
@@ -156,6 +160,7 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <td><h4 id="telemetry.consumers.writeTraces" class="permission-name add-link" data-text="telemetry.consumers.writeTraces" tabindex="-1"><code dir="ltr" translate="no">telemetry.  consumers.  writeTraces</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTelemetryWriter">Integrated Service Telemetry Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.serviceTelemetryWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.serviceTracesWriter">Integrated Service Telemetry Traces Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.serviceTracesWriter</code> )</p></td>
 </tr>
@@ -166,10 +171,12 @@ This page lists the IAM roles and permissions for Telemetry API. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtrace#cloudtrace.admin">Cloud Trace Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtrace.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.admin">Telemetry Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.editor">Telemetry Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudtrace#cloudtrace.agent">Cloud Trace Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudtrace.agent</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebaseapphosting#firebaseapphosting.computeRunner">Firebase App Hosting Compute Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebaseapphosting.computeRunner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.tracesWriter">Cloud Telemetry Traces Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.tracesWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telemetry#telemetry.writer">Cloud Telemetry Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telemetry.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

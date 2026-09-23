@@ -324,8 +324,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.datasources.get" class="permission-name add-link" data-text="datastudio.datasources.get" tabindex="-1"><code dir="ltr" translate="no">datastudio.datasources.get</code></h4></td>
@@ -335,12 +337,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.viewer">Data Studio Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.workspaceViewer">Data Studio Workspace Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.workspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.datasources.getIamPolicy" class="permission-name add-link" data-text="datastudio.datasources.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datastudio.  datasources.  getIamPolicy</code></h4></td>
@@ -351,31 +356,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.datasources.move" class="permission-name add-link" data-text="datastudio.datasources.move" tabindex="-1"><code dir="ltr" translate="no">datastudio.datasources.move</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.datasources.restoreTrash" class="permission-name add-link" data-text="datastudio.datasources.restoreTrash" tabindex="-1"><code dir="ltr" translate="no">datastudio.  datasources.  restoreTrash</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.datasources.search" class="permission-name add-link" data-text="datastudio.datasources.search" tabindex="-1"><code dir="ltr" translate="no">datastudio.datasources.search</code></h4></td>
@@ -385,18 +397,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.viewer">Data Studio Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.workspaceViewer">Data Studio Workspace Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.workspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.datasources.setIamPolicy" class="permission-name add-link" data-text="datastudio.datasources.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datastudio.  datasources.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
 </tr>
@@ -404,6 +420,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="datastudio.datasources.settingsShare" class="permission-name add-link" data-text="datastudio.datasources.settingsShare" tabindex="-1"><code dir="ltr" translate="no">datastudio.  datasources.  settingsShare</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
@@ -413,6 +430,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="datastudio.datasources.share" class="permission-name add-link" data-text="datastudio.datasources.share" tabindex="-1"><code dir="ltr" translate="no">datastudio.datasources.share</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
@@ -423,9 +441,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.datasources.update" class="permission-name add-link" data-text="datastudio.datasources.update" tabindex="-1"><code dir="ltr" translate="no">datastudio.datasources.update</code></h4></td>
@@ -433,18 +453,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.reports.delete" class="permission-name add-link" data-text="datastudio.reports.delete" tabindex="-1"><code dir="ltr" translate="no">datastudio.reports.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.reports.get" class="permission-name add-link" data-text="datastudio.reports.get" tabindex="-1"><code dir="ltr" translate="no">datastudio.reports.get</code></h4></td>
@@ -454,12 +478,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.viewer">Data Studio Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.workspaceViewer">Data Studio Workspace Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.workspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.reports.getIamPolicy" class="permission-name add-link" data-text="datastudio.reports.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datastudio.  reports.  getIamPolicy</code></h4></td>
@@ -470,31 +497,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.reports.move" class="permission-name add-link" data-text="datastudio.reports.move" tabindex="-1"><code dir="ltr" translate="no">datastudio.reports.move</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.reports.restoreTrash" class="permission-name add-link" data-text="datastudio.reports.restoreTrash" tabindex="-1"><code dir="ltr" translate="no">datastudio.  reports.  restoreTrash</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.reports.search" class="permission-name add-link" data-text="datastudio.reports.search" tabindex="-1"><code dir="ltr" translate="no">datastudio.reports.search</code></h4></td>
@@ -504,18 +538,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.viewer">Data Studio Asset Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.workspaceViewer">Data Studio Workspace Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.workspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.reports.setIamPolicy" class="permission-name add-link" data-text="datastudio.reports.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datastudio.  reports.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
 </tr>
@@ -523,6 +561,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="datastudio.reports.settingsShare" class="permission-name add-link" data-text="datastudio.reports.settingsShare" tabindex="-1"><code dir="ltr" translate="no">datastudio.  reports.  settingsShare</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
@@ -532,6 +571,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="datastudio.reports.share" class="permission-name add-link" data-text="datastudio.reports.share" tabindex="-1"><code dir="ltr" translate="no">datastudio.reports.share</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
@@ -542,9 +582,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.reports.update" class="permission-name add-link" data-text="datastudio.reports.update" tabindex="-1"><code dir="ltr" translate="no">datastudio.reports.update</code></h4></td>
@@ -552,28 +594,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.editor">Data Studio Asset Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.workspaces.createUnder" class="permission-name add-link" data-text="datastudio.workspaces.createUnder" tabindex="-1"><code dir="ltr" translate="no">datastudio.  workspaces.  createUnder</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.workspaces.delete" class="permission-name add-link" data-text="datastudio.workspaces.delete" tabindex="-1"><code dir="ltr" translate="no">datastudio.workspaces.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.workspaces.get" class="permission-name add-link" data-text="datastudio.workspaces.get" tabindex="-1"><code dir="ltr" translate="no">datastudio.workspaces.get</code></h4></td>
@@ -581,12 +629,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.workspaceViewer">Data Studio Workspace Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.workspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.workspaces.getIamPolicy" class="permission-name add-link" data-text="datastudio.workspaces.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datastudio.  workspaces.  getIamPolicy</code></h4></td>
@@ -596,38 +647,47 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.workspaces.moveIn" class="permission-name add-link" data-text="datastudio.workspaces.moveIn" tabindex="-1"><code dir="ltr" translate="no">datastudio.workspaces.moveIn</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.workspaces.moveOut" class="permission-name add-link" data-text="datastudio.workspaces.moveOut" tabindex="-1"><code dir="ltr" translate="no">datastudio.workspaces.moveOut</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.workspaces.restoreTrash" class="permission-name add-link" data-text="datastudio.workspaces.restoreTrash" tabindex="-1"><code dir="ltr" translate="no">datastudio.  workspaces.  restoreTrash</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datastudio.workspaces.search" class="permission-name add-link" data-text="datastudio.workspaces.search" tabindex="-1"><code dir="ltr" translate="no">datastudio.workspaces.search</code></h4></td>
@@ -635,18 +695,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contentManager">Data Studio Workspace Content Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contentManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.contributor">Data Studio Workspace Contributor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.contributor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.workspaceViewer">Data Studio Workspace Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.workspaceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.workspaces.setIamPolicy" class="permission-name add-link" data-text="datastudio.workspaces.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datastudio.  workspaces.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
 </tr>
@@ -655,20 +719,25 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datastudio.workspaces.update" class="permission-name add-link" data-text="datastudio.workspaces.update" tabindex="-1"><code dir="ltr" translate="no">datastudio.workspaces.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.admin">Data Studio Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#datastudio.manager">Data Studio Workspace Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datastudio.manager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.lookerAdmin">Looker Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.lookerAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="lookerstudio.pro.manage" class="permission-name add-link" data-text="lookerstudio.pro.manage" tabindex="-1"><code dir="ltr" translate="no">lookerstudio.pro.manage</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datastudio#lookerstudio.proManager">Looker Studio Pro Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lookerstudio.proManager</code> )</p></td>
 </tr>
 </tbody>

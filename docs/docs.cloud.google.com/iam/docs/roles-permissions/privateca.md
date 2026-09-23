@@ -360,13 +360,16 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.caPools.createTagBinding" class="permission-name add-link" data-text="privateca.caPools.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">privateca.  caPools.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
@@ -377,13 +380,16 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.caPools.deleteTagBinding" class="permission-name add-link" data-text="privateca.caPools.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">privateca.  caPools.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
@@ -396,11 +402,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.poolReader">CA Service Pool Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.poolReader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -419,11 +428,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.caPools.list" class="permission-name add-link" data-text="privateca.caPools.list" tabindex="-1"><code dir="ltr" translate="no">privateca.caPools.list</code></h4></td>
@@ -435,11 +447,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.caPools.listEffectiveTags" class="permission-name add-link" data-text="privateca.caPools.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">privateca.  caPools.  listEffectiveTags</code></h4></td>
@@ -451,12 +466,15 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.caPools.listTagBindings" class="permission-name add-link" data-text="privateca.caPools.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">privateca.  caPools.  listTagBindings</code></h4></td>
@@ -468,18 +486,22 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.caPools.setIamPolicy" class="permission-name add-link" data-text="privateca.caPools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.caPools.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.caPools.update" class="permission-name add-link" data-text="privateca.caPools.update" tabindex="-1"><code dir="ltr" translate="no">privateca.caPools.update</code></h4></td>
@@ -487,14 +509,18 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.caPools.use" class="permission-name add-link" data-text="privateca.caPools.use" tabindex="-1"><code dir="ltr" translate="no">privateca.caPools.use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateAuthorities.create" class="permission-name add-link" data-text="privateca.certificateAuthorities.create" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  create</code></h4></td>
@@ -502,7 +528,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateAuthorities.delete" class="permission-name add-link" data-text="privateca.certificateAuthorities.delete" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  delete</code></h4></td>
@@ -510,7 +538,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateAuthorities.get" class="permission-name add-link" data-text="privateca.certificateAuthorities.get" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  get</code></h4></td>
@@ -520,10 +550,13 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateAuthorities.getIamPolicy" class="permission-name add-link" data-text="privateca.certificateAuthorities.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  getIamPolicy</code></h4></td>
@@ -535,11 +568,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateAuthorities.list" class="permission-name add-link" data-text="privateca.certificateAuthorities.list" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  list</code></h4></td>
@@ -551,17 +587,21 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateAuthorities.setIamPolicy" class="permission-name add-link" data-text="privateca.certificateAuthorities.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateAuthorities.update" class="permission-name add-link" data-text="privateca.certificateAuthorities.update" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateAuthorities.  update</code></h4></td>
@@ -569,14 +609,18 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateRevocationLists.create" class="permission-name add-link" data-text="privateca.certificateRevocationLists.create" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateRevocationLists.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateRevocationLists.get" class="permission-name add-link" data-text="privateca.certificateRevocationLists.get" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateRevocationLists.  get</code></h4></td>
@@ -586,10 +630,13 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateRevocationLists.getIamPolicy" class="permission-name add-link" data-text="privateca.certificateRevocationLists.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateRevocationLists.  getIamPolicy</code></h4></td>
@@ -601,11 +648,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateRevocationLists.list" class="permission-name add-link" data-text="privateca.certificateRevocationLists.list" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateRevocationLists.  list</code></h4></td>
@@ -617,17 +667,21 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateRevocationLists.setIamPolicy" class="permission-name add-link" data-text="privateca.certificateRevocationLists.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateRevocationLists.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateRevocationLists.update" class="permission-name add-link" data-text="privateca.certificateRevocationLists.update" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateRevocationLists.  update</code></h4></td>
@@ -635,7 +689,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateTemplates.create" class="permission-name add-link" data-text="privateca.certificateTemplates.create" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  create</code></h4></td>
@@ -643,13 +699,16 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateTemplates.createTagBinding" class="permission-name add-link" data-text="privateca.certificateTemplates.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
@@ -660,13 +719,16 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateTemplates.deleteTagBinding" class="permission-name add-link" data-text="privateca.certificateTemplates.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
@@ -679,11 +741,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.templateUser">CA Service Certificate Template User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.templateUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.templateUser">CA Service Certificate Template User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.templateUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateTemplates.getIamPolicy" class="permission-name add-link" data-text="privateca.certificateTemplates.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  getIamPolicy</code></h4></td>
@@ -695,11 +760,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateTemplates.list" class="permission-name add-link" data-text="privateca.certificateTemplates.list" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  list</code></h4></td>
@@ -711,12 +779,15 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.templateUser">CA Service Certificate Template User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.templateUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.templateUser">CA Service Certificate Template User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.templateUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateTemplates.listEffectiveTags" class="permission-name add-link" data-text="privateca.certificateTemplates.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  listEffectiveTags</code></h4></td>
@@ -728,12 +799,15 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateTemplates.listTagBindings" class="permission-name add-link" data-text="privateca.certificateTemplates.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  listTagBindings</code></h4></td>
@@ -745,18 +819,22 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateTemplates.setIamPolicy" class="permission-name add-link" data-text="privateca.certificateTemplates.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificateTemplates.update" class="permission-name add-link" data-text="privateca.certificateTemplates.update" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  update</code></h4></td>
@@ -764,7 +842,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificateTemplates.use" class="permission-name add-link" data-text="privateca.certificateTemplates.use" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificateTemplates.  use</code></h4></td>
@@ -774,8 +854,11 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.templateUser">CA Service Certificate Template User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.templateUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.templateUser">CA Service Certificate Template User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.templateUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificates.create" class="permission-name add-link" data-text="privateca.certificates.create" tabindex="-1"><code dir="ltr" translate="no">privateca.certificates.create</code></h4></td>
@@ -783,8 +866,10 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateRequester">CA Service Certificate Requester</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateRequester</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateRequester">CA Service Certificate Requester</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateRequester</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificates.createForSelf" class="permission-name add-link" data-text="privateca.certificates.createForSelf" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificates.  createForSelf</code></h4></td>
@@ -792,7 +877,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.workloadCertificateRequester">CA Service Workload Certificate Requester</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.workloadCertificateRequester</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.workloadCertificateRequester">CA Service Workload Certificate Requester</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.workloadCertificateRequester</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificates.get" class="permission-name add-link" data-text="privateca.certificates.get" tabindex="-1"><code dir="ltr" translate="no">privateca.certificates.get</code></h4></td>
@@ -802,10 +889,13 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.certificates.getIamPolicy" class="permission-name add-link" data-text="privateca.certificates.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificates.  getIamPolicy</code></h4></td>
@@ -817,11 +907,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificates.list" class="permission-name add-link" data-text="privateca.certificates.list" tabindex="-1"><code dir="ltr" translate="no">privateca.certificates.list</code></h4></td>
@@ -833,11 +926,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -851,7 +947,8 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <td><h4 id="privateca.certificates.setIamPolicy" class="permission-name add-link" data-text="privateca.certificates.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  certificates.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.certificates.update" class="permission-name add-link" data-text="privateca.certificates.update" tabindex="-1"><code dir="ltr" translate="no">privateca.certificates.update</code></h4></td>
@@ -859,7 +956,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.locations.get" class="permission-name add-link" data-text="privateca.locations.get" tabindex="-1"><code dir="ltr" translate="no">privateca.locations.get</code></h4></td>
@@ -869,10 +968,13 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.locations.list" class="permission-name add-link" data-text="privateca.locations.list" tabindex="-1"><code dir="ltr" translate="no">privateca.locations.list</code></h4></td>
@@ -884,25 +986,32 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.operations.cancel" class="permission-name add-link" data-text="privateca.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">privateca.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.operations.delete" class="permission-name add-link" data-text="privateca.operations.delete" tabindex="-1"><code dir="ltr" translate="no">privateca.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.operations.get" class="permission-name add-link" data-text="privateca.operations.get" tabindex="-1"><code dir="ltr" translate="no">privateca.operations.get</code></h4></td>
@@ -912,10 +1021,13 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.operations.list" class="permission-name add-link" data-text="privateca.operations.list" tabindex="-1"><code dir="ltr" translate="no">privateca.operations.list</code></h4></td>
@@ -927,11 +1039,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.reusableConfigs.create" class="permission-name add-link" data-text="privateca.reusableConfigs.create" tabindex="-1"><code dir="ltr" translate="no">privateca.  reusableConfigs.  create</code></h4></td>
@@ -939,7 +1054,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.reusableConfigs.delete" class="permission-name add-link" data-text="privateca.reusableConfigs.delete" tabindex="-1"><code dir="ltr" translate="no">privateca.  reusableConfigs.  delete</code></h4></td>
@@ -947,7 +1064,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.reusableConfigs.get" class="permission-name add-link" data-text="privateca.reusableConfigs.get" tabindex="-1"><code dir="ltr" translate="no">privateca.reusableConfigs.get</code></h4></td>
@@ -957,10 +1076,13 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.reusableConfigs.getIamPolicy" class="permission-name add-link" data-text="privateca.reusableConfigs.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  reusableConfigs.  getIamPolicy</code></h4></td>
@@ -972,11 +1094,14 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.reusableConfigs.list" class="permission-name add-link" data-text="privateca.reusableConfigs.list" tabindex="-1"><code dir="ltr" translate="no">privateca.reusableConfigs.list</code></h4></td>
@@ -988,17 +1113,21 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.viewer">CA Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.auditor">CA Service Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.auditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.certificateManager">CA Service Certificate Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.certificateManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privateca.reusableConfigs.setIamPolicy" class="permission-name add-link" data-text="privateca.reusableConfigs.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privateca.  reusableConfigs.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privateca.reusableConfigs.update" class="permission-name add-link" data-text="privateca.reusableConfigs.update" tabindex="-1"><code dir="ltr" translate="no">privateca.  reusableConfigs.  update</code></h4></td>
@@ -1006,7 +1135,9 @@ This page lists the IAM roles and permissions for Certificate Authority Service.
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.admin">CA Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.editor">CA Service Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privateca#privateca.caManager">CA Service Operation Manager</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privateca.caManager</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

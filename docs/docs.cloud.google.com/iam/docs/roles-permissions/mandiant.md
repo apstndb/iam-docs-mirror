@@ -198,14 +198,18 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericAttackSurfaceManagements.delete" class="permission-name add-link" data-text="mandiant.genericAttackSurfaceManagements.delete" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericAttackSurfaceManagements.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericAttackSurfaceManagements.get" class="permission-name add-link" data-text="mandiant.genericAttackSurfaceManagements.get" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericAttackSurfaceManagements.  get</code></h4></td>
@@ -214,22 +218,29 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.viewer">Mandiant Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementViewer">Mandiant Attack Surface Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementViewer">Mandiant Attack Surface Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericAttackSurfaceManagements.update" class="permission-name add-link" data-text="mandiant.genericAttackSurfaceManagements.update" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericAttackSurfaceManagements.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericDigitalThreatMonitorings.create" class="permission-name add-link" data-text="mandiant.genericDigitalThreatMonitorings.create" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericDigitalThreatMonitorings.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringEditor">Mandiant Digital Threat Monitoring Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringEditor">Mandiant Digital Threat Monitoring Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericDigitalThreatMonitorings.get" class="permission-name add-link" data-text="mandiant.genericDigitalThreatMonitorings.get" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericDigitalThreatMonitorings.  get</code></h4></td>
@@ -238,29 +249,38 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.viewer">Mandiant Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringViewer">Mandiant Digital Threat Monitoring Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringViewer">Mandiant Digital Threat Monitoring Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericDigitalThreatMonitorings.update" class="permission-name add-link" data-text="mandiant.genericDigitalThreatMonitorings.update" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericDigitalThreatMonitorings.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringEditor">Mandiant Digital Threat Monitoring Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringEditor">Mandiant Digital Threat Monitoring Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericExpertiseOnDemands.create" class="permission-name add-link" data-text="mandiant.genericExpertiseOnDemands.create" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericExpertiseOnDemands.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericExpertiseOnDemands.delete" class="permission-name add-link" data-text="mandiant.genericExpertiseOnDemands.delete" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericExpertiseOnDemands.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericExpertiseOnDemands.get" class="permission-name add-link" data-text="mandiant.genericExpertiseOnDemands.get" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericExpertiseOnDemands.  get</code></h4></td>
@@ -269,36 +289,45 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.viewer">Mandiant Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandViewer">Mandiant Expertise On Demand Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandViewer">Mandiant Expertise On Demand Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericExpertiseOnDemands.update" class="permission-name add-link" data-text="mandiant.genericExpertiseOnDemands.update" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericExpertiseOnDemands.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericPlatforms.create" class="permission-name add-link" data-text="mandiant.genericPlatforms.create" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericPlatforms.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringEditor">Mandiant Digital Threat Monitoring Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericPlatforms.delete" class="permission-name add-link" data-text="mandiant.genericPlatforms.delete" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericPlatforms.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericPlatforms.get" class="permission-name add-link" data-text="mandiant.genericPlatforms.get" tabindex="-1"><code dir="ltr" translate="no">mandiant.genericPlatforms.get</code></h4></td>
@@ -307,37 +336,46 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.viewer">Mandiant Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementViewer">Mandiant Attack Surface Management Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringViewer">Mandiant Digital Threat Monitoring Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandViewer">Mandiant Expertise On Demand Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelViewer">Mandiant Threat Intel Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationViewer">Mandiant Validation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationViewer">Mandiant Validation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericPlatforms.update" class="permission-name add-link" data-text="mandiant.genericPlatforms.update" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericPlatforms.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.attackSurfaceManagementEditor">Mandiant Attack Surface Management Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.attackSurfaceManagementEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.digitalThreatMonitoringEditor">Mandiant Digital Threat Monitoring Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.digitalThreatMonitoringEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.expertiseOnDemandEditor">Mandiant Expertise On Demand Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.expertiseOnDemandEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericThreatIntels.create" class="permission-name add-link" data-text="mandiant.genericThreatIntels.create" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericThreatIntels.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericThreatIntels.delete" class="permission-name add-link" data-text="mandiant.genericThreatIntels.delete" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericThreatIntels.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericThreatIntels.get" class="permission-name add-link" data-text="mandiant.genericThreatIntels.get" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericThreatIntels.  get</code></h4></td>
@@ -346,29 +384,38 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.viewer">Mandiant Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelViewer">Mandiant Threat Intel Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelViewer">Mandiant Threat Intel Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericThreatIntels.update" class="permission-name add-link" data-text="mandiant.genericThreatIntels.update" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericThreatIntels.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.threatIntelEditor">Mandiant Threat Intel Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.threatIntelEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericValidations.create" class="permission-name add-link" data-text="mandiant.genericValidations.create" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericValidations.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericValidations.delete" class="permission-name add-link" data-text="mandiant.genericValidations.delete" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericValidations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="mandiant.genericValidations.get" class="permission-name add-link" data-text="mandiant.genericValidations.get" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericValidations.  get</code></h4></td>
@@ -377,15 +424,20 @@ This page lists the IAM roles and permissions for Mandiant. To search through al
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.viewer">Mandiant Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationViewer">Mandiant Validation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationViewer">Mandiant Validation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="mandiant.genericValidations.update" class="permission-name add-link" data-text="mandiant.genericValidations.update" tabindex="-1"><code dir="ltr" translate="no">mandiant.  genericValidations.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.admin">Mandiant Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/mandiant#mandiant.validationEditor">Mandiant Validation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  mandiant.validationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

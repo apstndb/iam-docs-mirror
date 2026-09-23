@@ -184,8 +184,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -200,26 +203,34 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.config.update" class="permission-name add-link" data-text="speech.config.update" tabindex="-1"><code dir="ltr" translate="no">speech.config.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.customClasses.create" class="permission-name add-link" data-text="speech.customClasses.create" tabindex="-1"><code dir="ltr" translate="no">speech.customClasses.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.customClasses.delete" class="permission-name add-link" data-text="speech.customClasses.delete" tabindex="-1"><code dir="ltr" translate="no">speech.customClasses.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.customClasses.get" class="permission-name add-link" data-text="speech.customClasses.get" tabindex="-1"><code dir="ltr" translate="no">speech.customClasses.get</code></h4></td>
@@ -228,8 +239,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -248,9 +262,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -264,14 +281,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.customClasses.update" class="permission-name add-link" data-text="speech.customClasses.update" tabindex="-1"><code dir="ltr" translate="no">speech.customClasses.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.locations.get" class="permission-name add-link" data-text="speech.locations.get" tabindex="-1"><code dir="ltr" translate="no">speech.locations.get</code></h4></td>
@@ -280,8 +301,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.locations.list" class="permission-name add-link" data-text="speech.locations.list" tabindex="-1"><code dir="ltr" translate="no">speech.locations.list</code></h4></td>
@@ -292,23 +316,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.operations.cancel" class="permission-name add-link" data-text="speech.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">speech.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.operations.delete" class="permission-name add-link" data-text="speech.operations.delete" tabindex="-1"><code dir="ltr" translate="no">speech.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.operations.get" class="permission-name add-link" data-text="speech.operations.get" tabindex="-1"><code dir="ltr" translate="no">speech.operations.get</code></h4></td>
@@ -317,8 +348,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -336,9 +370,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.operations.wait" class="permission-name add-link" data-text="speech.operations.wait" tabindex="-1"><code dir="ltr" translate="no">speech.operations.wait</code></h4></td>
@@ -347,22 +384,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.phraseSets.create" class="permission-name add-link" data-text="speech.phraseSets.create" tabindex="-1"><code dir="ltr" translate="no">speech.phraseSets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.phraseSets.delete" class="permission-name add-link" data-text="speech.phraseSets.delete" tabindex="-1"><code dir="ltr" translate="no">speech.phraseSets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.phraseSets.get" class="permission-name add-link" data-text="speech.phraseSets.get" tabindex="-1"><code dir="ltr" translate="no">speech.phraseSets.get</code></h4></td>
@@ -371,8 +415,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -391,9 +438,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -407,14 +457,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="speech.phraseSets.update" class="permission-name add-link" data-text="speech.phraseSets.update" tabindex="-1"><code dir="ltr" translate="no">speech.phraseSets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.recognizers.create" class="permission-name add-link" data-text="speech.recognizers.create" tabindex="-1"><code dir="ltr" translate="no">speech.recognizers.create</code></h4></td>
@@ -422,6 +476,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -435,7 +491,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.recognizers.get" class="permission-name add-link" data-text="speech.recognizers.get" tabindex="-1"><code dir="ltr" translate="no">speech.recognizers.get</code></h4></td>
@@ -444,8 +502,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -464,9 +525,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -482,8 +546,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.client">Cloud Speech Client</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.client</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -497,7 +564,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="speech.recognizers.update" class="permission-name add-link" data-text="speech.recognizers.update" tabindex="-1"><code dir="ltr" translate="no">speech.recognizers.update</code></h4></td>
@@ -505,6 +574,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.admin">Cloud Speech Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/speech#speech.editor">Cloud Speech Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  speech.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .

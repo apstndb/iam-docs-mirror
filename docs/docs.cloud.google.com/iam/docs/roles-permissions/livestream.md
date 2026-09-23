@@ -227,14 +227,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.assets.delete" class="permission-name add-link" data-text="livestream.assets.delete" tabindex="-1"><code dir="ltr" translate="no">livestream.assets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.assets.get" class="permission-name add-link" data-text="livestream.assets.get" tabindex="-1"><code dir="ltr" translate="no">livestream.assets.get</code></h4></td>
@@ -244,7 +248,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.assets.list" class="permission-name add-link" data-text="livestream.assets.list" tabindex="-1"><code dir="ltr" translate="no">livestream.assets.list</code></h4></td>
@@ -256,15 +263,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.channels.create" class="permission-name add-link" data-text="livestream.channels.create" tabindex="-1"><code dir="ltr" translate="no">livestream.channels.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.channels.createTagBinding" class="permission-name add-link" data-text="livestream.channels.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">livestream.  channels.  createTagBinding</code></h4></td>
@@ -272,6 +284,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -280,7 +293,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.channels.deleteTagBinding" class="permission-name add-link" data-text="livestream.channels.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">livestream.  channels.  deleteTagBinding</code></h4></td>
@@ -288,6 +303,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -299,7 +315,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.channels.list" class="permission-name add-link" data-text="livestream.channels.list" tabindex="-1"><code dir="ltr" translate="no">livestream.channels.list</code></h4></td>
@@ -311,8 +330,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.channels.listEffectiveTags" class="permission-name add-link" data-text="livestream.channels.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">livestream.  channels.  listEffectiveTags</code></h4></td>
@@ -324,10 +346,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.channels.listTagBindings" class="permission-name add-link" data-text="livestream.channels.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">livestream.  channels.  listTagBindings</code></h4></td>
@@ -339,45 +364,58 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.channels.start" class="permission-name add-link" data-text="livestream.channels.start" tabindex="-1"><code dir="ltr" translate="no">livestream.channels.start</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.channels.stop" class="permission-name add-link" data-text="livestream.channels.stop" tabindex="-1"><code dir="ltr" translate="no">livestream.channels.stop</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.channels.update" class="permission-name add-link" data-text="livestream.channels.update" tabindex="-1"><code dir="ltr" translate="no">livestream.channels.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.clips.create" class="permission-name add-link" data-text="livestream.clips.create" tabindex="-1"><code dir="ltr" translate="no">livestream.clips.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.clips.delete" class="permission-name add-link" data-text="livestream.clips.delete" tabindex="-1"><code dir="ltr" translate="no">livestream.clips.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.clips.get" class="permission-name add-link" data-text="livestream.clips.get" tabindex="-1"><code dir="ltr" translate="no">livestream.clips.get</code></h4></td>
@@ -387,7 +425,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.clips.list" class="permission-name add-link" data-text="livestream.clips.list" tabindex="-1"><code dir="ltr" translate="no">livestream.clips.list</code></h4></td>
@@ -399,22 +440,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.dvrSessions.create" class="permission-name add-link" data-text="livestream.dvrSessions.create" tabindex="-1"><code dir="ltr" translate="no">livestream.dvrSessions.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.dvrSessions.delete" class="permission-name add-link" data-text="livestream.dvrSessions.delete" tabindex="-1"><code dir="ltr" translate="no">livestream.dvrSessions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.dvrSessions.get" class="permission-name add-link" data-text="livestream.dvrSessions.get" tabindex="-1"><code dir="ltr" translate="no">livestream.dvrSessions.get</code></h4></td>
@@ -424,7 +472,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.dvrSessions.list" class="permission-name add-link" data-text="livestream.dvrSessions.list" tabindex="-1"><code dir="ltr" translate="no">livestream.dvrSessions.list</code></h4></td>
@@ -436,29 +487,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.dvrSessions.update" class="permission-name add-link" data-text="livestream.dvrSessions.update" tabindex="-1"><code dir="ltr" translate="no">livestream.dvrSessions.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.events.create" class="permission-name add-link" data-text="livestream.events.create" tabindex="-1"><code dir="ltr" translate="no">livestream.events.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.events.delete" class="permission-name add-link" data-text="livestream.events.delete" tabindex="-1"><code dir="ltr" translate="no">livestream.events.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.events.get" class="permission-name add-link" data-text="livestream.events.get" tabindex="-1"><code dir="ltr" translate="no">livestream.events.get</code></h4></td>
@@ -468,7 +528,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.events.list" class="permission-name add-link" data-text="livestream.events.list" tabindex="-1"><code dir="ltr" translate="no">livestream.events.list</code></h4></td>
@@ -480,15 +543,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.inputs.create" class="permission-name add-link" data-text="livestream.inputs.create" tabindex="-1"><code dir="ltr" translate="no">livestream.inputs.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.inputs.createTagBinding" class="permission-name add-link" data-text="livestream.inputs.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">livestream.  inputs.  createTagBinding</code></h4></td>
@@ -496,6 +564,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -504,7 +573,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.inputs.deleteTagBinding" class="permission-name add-link" data-text="livestream.inputs.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">livestream.  inputs.  deleteTagBinding</code></h4></td>
@@ -512,6 +583,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -523,7 +595,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.inputs.list" class="permission-name add-link" data-text="livestream.inputs.list" tabindex="-1"><code dir="ltr" translate="no">livestream.inputs.list</code></h4></td>
@@ -535,8 +610,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.inputs.listEffectiveTags" class="permission-name add-link" data-text="livestream.inputs.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">livestream.  inputs.  listEffectiveTags</code></h4></td>
@@ -548,10 +626,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.inputs.listTagBindings" class="permission-name add-link" data-text="livestream.inputs.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">livestream.  inputs.  listTagBindings</code></h4></td>
@@ -563,17 +644,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.inputs.update" class="permission-name add-link" data-text="livestream.inputs.update" tabindex="-1"><code dir="ltr" translate="no">livestream.inputs.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.locations.get" class="permission-name add-link" data-text="livestream.locations.get" tabindex="-1"><code dir="ltr" translate="no">livestream.locations.get</code></h4></td>
@@ -583,7 +669,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.locations.list" class="permission-name add-link" data-text="livestream.locations.list" tabindex="-1"><code dir="ltr" translate="no">livestream.locations.list</code></h4></td>
@@ -595,22 +684,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.operations.cancel" class="permission-name add-link" data-text="livestream.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">livestream.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.operations.delete" class="permission-name add-link" data-text="livestream.operations.delete" tabindex="-1"><code dir="ltr" translate="no">livestream.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.operations.get" class="permission-name add-link" data-text="livestream.operations.get" tabindex="-1"><code dir="ltr" translate="no">livestream.operations.get</code></h4></td>
@@ -620,7 +716,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.operations.list" class="permission-name add-link" data-text="livestream.operations.list" tabindex="-1"><code dir="ltr" translate="no">livestream.operations.list</code></h4></td>
@@ -632,8 +731,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.pools.createTagBinding" class="permission-name add-link" data-text="livestream.pools.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">livestream.  pools.  createTagBinding</code></h4></td>
@@ -641,6 +743,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -650,6 +753,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -661,7 +765,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.pools.listEffectiveTags" class="permission-name add-link" data-text="livestream.pools.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">livestream.  pools.  listEffectiveTags</code></h4></td>
@@ -673,10 +780,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="livestream.pools.listTagBindings" class="permission-name add-link" data-text="livestream.pools.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">livestream.  pools.  listTagBindings</code></h4></td>
@@ -688,17 +798,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.viewer">Live Stream Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="livestream.pools.update" class="permission-name add-link" data-text="livestream.pools.update" tabindex="-1"><code dir="ltr" translate="no">livestream.pools.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.admin">Live Stream Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/livestream#livestream.editor">Live Stream Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  livestream.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

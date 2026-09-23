@@ -201,12 +201,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.entitlements.create" class="permission-name add-link" data-text="privilegedaccessmanager.entitlements.create" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  entitlements.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.entitlements.delete" class="permission-name add-link" data-text="privilegedaccessmanager.entitlements.delete" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  entitlements.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.entitlements.get" class="permission-name add-link" data-text="privilegedaccessmanager.entitlements.get" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  entitlements.  get</code></h4></td>
@@ -216,7 +218,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.entitlements.list" class="permission-name add-link" data-text="privilegedaccessmanager.entitlements.list" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  entitlements.  list</code></h4></td>
@@ -228,19 +233,24 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.entitlements.setIamPolicy" class="permission-name add-link" data-text="privilegedaccessmanager.entitlements.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  entitlements.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.entitlements.update" class="permission-name add-link" data-text="privilegedaccessmanager.entitlements.update" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  entitlements.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.grants.get" class="permission-name add-link" data-text="privilegedaccessmanager.grants.get" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  get</code></h4></td>
@@ -250,7 +260,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.grants.list" class="permission-name add-link" data-text="privilegedaccessmanager.grants.list" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  list</code></h4></td>
@@ -262,18 +275,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.grants.revoke" class="permission-name add-link" data-text="privilegedaccessmanager.grants.revoke" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  grants.  revoke</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.locations.checkOnboardingStatus" class="permission-name add-link" data-text="privilegedaccessmanager.locations.checkOnboardingStatus" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  checkOnboardingStatus</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.locations.get" class="permission-name add-link" data-text="privilegedaccessmanager.locations.get" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  get</code></h4></td>
@@ -283,7 +301,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.locations.list" class="permission-name add-link" data-text="privilegedaccessmanager.locations.list" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  locations.  list</code></h4></td>
@@ -295,13 +316,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.operations.delete" class="permission-name add-link" data-text="privilegedaccessmanager.operations.delete" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.operations.get" class="permission-name add-link" data-text="privilegedaccessmanager.operations.get" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  get</code></h4></td>
@@ -311,8 +336,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsAdmin">Privileged Access Manager Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsAdmin">Privileged Access Manager Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.operations.list" class="permission-name add-link" data-text="privilegedaccessmanager.operations.list" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  operations.  list</code></h4></td>
@@ -324,8 +352,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.settings.fetchEffective" class="permission-name add-link" data-text="privilegedaccessmanager.settings.fetchEffective" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  fetchEffective</code></h4></td>
@@ -335,9 +366,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsAdmin">Privileged Access Manager Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsViewer">Privileged Access Manager Settings Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsViewer">Privileged Access Manager Settings Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="privilegedaccessmanager.settings.get" class="permission-name add-link" data-text="privilegedaccessmanager.settings.get" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  get</code></h4></td>
@@ -347,9 +381,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.admin">Privileged Access Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.editor">Privilegedaccessmanager Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.viewer">Privileged Access Manager Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsAdmin">Privileged Access Manager Settings Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsViewer">Privileged Access Manager Settings Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.settingsViewer">Privileged Access Manager Settings Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.settingsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="privilegedaccessmanager.settings.update" class="permission-name add-link" data-text="privilegedaccessmanager.settings.update" tabindex="-1"><code dir="ltr" translate="no">privilegedaccessmanager.  settings.  update</code></h4></td>

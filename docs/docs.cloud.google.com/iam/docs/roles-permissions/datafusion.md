@@ -1187,14 +1187,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.artifacts.delete" class="permission-name add-link" data-text="datafusion.artifacts.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.artifacts.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.artifacts.get" class="permission-name add-link" data-text="datafusion.artifacts.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.artifacts.get</code></h4></td>
@@ -1203,9 +1207,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.artifacts.list" class="permission-name add-link" data-text="datafusion.artifacts.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.artifacts.list</code></h4></td>
@@ -1216,29 +1223,37 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.artifacts.update" class="permission-name add-link" data-text="datafusion.artifacts.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.artifacts.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.instances.create" class="permission-name add-link" data-text="datafusion.instances.create" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.createTagBinding" class="permission-name add-link" data-text="datafusion.instances.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">datafusion.  instances.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -1246,13 +1261,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="datafusion.instances.delete" class="permission-name add-link" data-text="datafusion.instances.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.deleteTagBinding" class="permission-name add-link" data-text="datafusion.instances.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">datafusion.  instances.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -1263,10 +1281,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.accessor">Cloud Data Fusion Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.accessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.getIamPolicy" class="permission-name add-link" data-text="datafusion.instances.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datafusion.  instances.  getIamPolicy</code></h4></td>
@@ -1277,11 +1298,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.accessor">Cloud Data Fusion Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.accessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.instances.list" class="permission-name add-link" data-text="datafusion.instances.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.list</code></h4></td>
@@ -1292,11 +1316,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.accessor">Cloud Data Fusion Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.accessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.listEffectiveTags" class="permission-name add-link" data-text="datafusion.instances.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">datafusion.  instances.  listEffectiveTags</code></h4></td>
@@ -1307,13 +1334,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.accessor">Cloud Data Fusion Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.accessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.instances.listTagBindings" class="permission-name add-link" data-text="datafusion.instances.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">datafusion.  instances.  listTagBindings</code></h4></td>
@@ -1324,44 +1354,56 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.accessor">Cloud Data Fusion Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.accessor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.restart" class="permission-name add-link" data-text="datafusion.instances.restart" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.restart</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.instances.runtime" class="permission-name add-link" data-text="datafusion.instances.runtime" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.runtime</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.runner">Cloud Data Fusion Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.runner">Cloud Data Fusion Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.setIamPolicy" class="permission-name add-link" data-text="datafusion.instances.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datafusion.  instances.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.instances.update" class="permission-name add-link" data-text="datafusion.instances.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.instances.upgrade" class="permission-name add-link" data-text="datafusion.instances.upgrade" tabindex="-1"><code dir="ltr" translate="no">datafusion.instances.upgrade</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.locations.get" class="permission-name add-link" data-text="datafusion.locations.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.locations.get</code></h4></td>
@@ -1370,9 +1412,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.locations.list" class="permission-name add-link" data-text="datafusion.locations.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.locations.list</code></h4></td>
@@ -1383,22 +1428,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.create" class="permission-name add-link" data-text="datafusion.namespaces.create" tabindex="-1"><code dir="ltr" translate="no">datafusion.namespaces.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.namespaces.delete" class="permission-name add-link" data-text="datafusion.namespaces.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.namespaces.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.get" class="permission-name add-link" data-text="datafusion.namespaces.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.namespaces.get</code></h4></td>
@@ -1407,9 +1459,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.namespaces.getIamPolicy" class="permission-name add-link" data-text="datafusion.namespaces.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  getIamPolicy</code></h4></td>
@@ -1420,10 +1475,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.list" class="permission-name add-link" data-text="datafusion.namespaces.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.namespaces.list</code></h4></td>
@@ -1434,81 +1492,103 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.namespaces.provisionCredential" class="permission-name add-link" data-text="datafusion.namespaces.provisionCredential" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  provisionCredential</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.readRepository" class="permission-name add-link" data-text="datafusion.namespaces.readRepository" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  readRepository</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.namespaces.setIamPolicy" class="permission-name add-link" data-text="datafusion.namespaces.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.setServiceAccount" class="permission-name add-link" data-text="datafusion.namespaces.setServiceAccount" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  setServiceAccount</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.namespaces.unsetServiceAccount" class="permission-name add-link" data-text="datafusion.namespaces.unsetServiceAccount" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  unsetServiceAccount</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.update" class="permission-name add-link" data-text="datafusion.namespaces.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.namespaces.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.namespaces.updateRepositoryMetadata" class="permission-name add-link" data-text="datafusion.namespaces.updateRepositoryMetadata" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  updateRepositoryMetadata</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.namespaces.writeRepository" class="permission-name add-link" data-text="datafusion.namespaces.writeRepository" tabindex="-1"><code dir="ltr" translate="no">datafusion.  namespaces.  writeRepository</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.operations.cancel" class="permission-name add-link" data-text="datafusion.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">datafusion.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.operations.delete" class="permission-name add-link" data-text="datafusion.operations.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.operations.get" class="permission-name add-link" data-text="datafusion.operations.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.operations.get</code></h4></td>
@@ -1517,9 +1597,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.operations.list" class="permission-name add-link" data-text="datafusion.operations.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.operations.list</code></h4></td>
@@ -1530,22 +1613,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelineConnections.create" class="permission-name add-link" data-text="datafusion.pipelineConnections.create" tabindex="-1"><code dir="ltr" translate="no">datafusion.  pipelineConnections.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.pipelineConnections.delete" class="permission-name add-link" data-text="datafusion.pipelineConnections.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.  pipelineConnections.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelineConnections.get" class="permission-name add-link" data-text="datafusion.pipelineConnections.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.  pipelineConnections.  get</code></h4></td>
@@ -1554,9 +1644,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.pipelineConnections.list" class="permission-name add-link" data-text="datafusion.pipelineConnections.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.  pipelineConnections.  list</code></h4></td>
@@ -1567,48 +1660,61 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelineConnections.update" class="permission-name add-link" data-text="datafusion.pipelineConnections.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.  pipelineConnections.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.pipelineConnections.use" class="permission-name add-link" data-text="datafusion.pipelineConnections.use" tabindex="-1"><code dir="ltr" translate="no">datafusion.  pipelineConnections.  use</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelines.create" class="permission-name add-link" data-text="datafusion.pipelines.create" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.pipelines.delete" class="permission-name add-link" data-text="datafusion.pipelines.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelines.execute" class="permission-name add-link" data-text="datafusion.pipelines.execute" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.execute</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.pipelines.get" class="permission-name add-link" data-text="datafusion.pipelines.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.get</code></h4></td>
@@ -1617,9 +1723,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelines.list" class="permission-name add-link" data-text="datafusion.pipelines.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.list</code></h4></td>
@@ -1630,39 +1739,50 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.pipelines.preview" class="permission-name add-link" data-text="datafusion.pipelines.preview" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.preview</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.pipelines.update" class="permission-name add-link" data-text="datafusion.pipelines.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.pipelines.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.profiles.create" class="permission-name add-link" data-text="datafusion.profiles.create" tabindex="-1"><code dir="ltr" translate="no">datafusion.profiles.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.profiles.delete" class="permission-name add-link" data-text="datafusion.profiles.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.profiles.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.profiles.get" class="permission-name add-link" data-text="datafusion.profiles.get" tabindex="-1"><code dir="ltr" translate="no">datafusion.profiles.get</code></h4></td>
@@ -1671,9 +1791,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.profiles.list" class="permission-name add-link" data-text="datafusion.profiles.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.profiles.list</code></h4></td>
@@ -1684,41 +1807,52 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.profiles.update" class="permission-name add-link" data-text="datafusion.profiles.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.profiles.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.secureKeys.create" class="permission-name add-link" data-text="datafusion.secureKeys.create" tabindex="-1"><code dir="ltr" translate="no">datafusion.secureKeys.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.secureKeys.delete" class="permission-name add-link" data-text="datafusion.secureKeys.delete" tabindex="-1"><code dir="ltr" translate="no">datafusion.secureKeys.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.secureKeys.getSecret" class="permission-name add-link" data-text="datafusion.secureKeys.getSecret" tabindex="-1"><code dir="ltr" translate="no">datafusion.  secureKeys.  getSecret</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="datafusion.secureKeys.list" class="permission-name add-link" data-text="datafusion.secureKeys.list" tabindex="-1"><code dir="ltr" translate="no">datafusion.secureKeys.list</code></h4></td>
@@ -1729,18 +1863,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.viewer">Cloud Data Fusion Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="datafusion.secureKeys.update" class="permission-name add-link" data-text="datafusion.secureKeys.update" tabindex="-1"><code dir="ltr" translate="no">datafusion.secureKeys.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.admin">Cloud Data Fusion Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.developer">Cloud Data Fusion Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/datafusion#datafusion.operator">Cloud Data Fusion Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  datafusion.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

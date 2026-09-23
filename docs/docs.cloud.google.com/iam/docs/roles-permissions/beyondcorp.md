@@ -256,13 +256,16 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnections.createTagBinding" class="permission-name add-link" data-text="beyondcorp.appConnections.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -271,13 +274,16 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnections.deleteTagBinding" class="permission-name add-link" data-text="beyondcorp.appConnections.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -289,7 +295,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnections.getIamPolicy" class="permission-name add-link" data-text="beyondcorp.appConnections.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  getIamPolicy</code></h4></td>
@@ -301,8 +310,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnections.list" class="permission-name add-link" data-text="beyondcorp.appConnections.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.appConnections.list</code></h4></td>
@@ -314,8 +326,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnections.listEffectiveTags" class="permission-name add-link" data-text="beyondcorp.appConnections.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  listEffectiveTags</code></h4></td>
@@ -327,10 +342,13 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnections.listTagBindings" class="permission-name add-link" data-text="beyondcorp.appConnections.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  listTagBindings</code></h4></td>
@@ -342,36 +360,45 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnections.setIamPolicy" class="permission-name add-link" data-text="beyondcorp.appConnections.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnections.update" class="permission-name add-link" data-text="beyondcorp.appConnections.update" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnections.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnectors.create" class="permission-name add-link" data-text="beyondcorp.appConnectors.create" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnectors.createTagBinding" class="permission-name add-link" data-text="beyondcorp.appConnectors.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -380,13 +407,16 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnectors.deleteTagBinding" class="permission-name add-link" data-text="beyondcorp.appConnectors.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -398,7 +428,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnectors.getIamPolicy" class="permission-name add-link" data-text="beyondcorp.appConnectors.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  getIamPolicy</code></h4></td>
@@ -410,8 +443,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnectors.list" class="permission-name add-link" data-text="beyondcorp.appConnectors.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.appConnectors.list</code></h4></td>
@@ -423,8 +459,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnectors.listEffectiveTags" class="permission-name add-link" data-text="beyondcorp.appConnectors.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  listEffectiveTags</code></h4></td>
@@ -436,10 +475,13 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnectors.listTagBindings" class="permission-name add-link" data-text="beyondcorp.appConnectors.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  listTagBindings</code></h4></td>
@@ -451,43 +493,54 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnectors.reportStatus" class="permission-name add-link" data-text="beyondcorp.appConnectors.reportStatus" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  reportStatus</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appConnectors.setIamPolicy" class="permission-name add-link" data-text="beyondcorp.appConnectors.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appConnectors.update" class="permission-name add-link" data-text="beyondcorp.appConnectors.update" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appConnectors.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appGateways.create" class="permission-name add-link" data-text="beyondcorp.appGateways.create" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.appGateways.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appGateways.createTagBinding" class="permission-name add-link" data-text="beyondcorp.appGateways.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appGateways.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -496,13 +549,16 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appGateways.deleteTagBinding" class="permission-name add-link" data-text="beyondcorp.appGateways.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appGateways.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
 </tr>
@@ -514,7 +570,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appGateways.getIamPolicy" class="permission-name add-link" data-text="beyondcorp.appGateways.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appGateways.  getIamPolicy</code></h4></td>
@@ -526,8 +585,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appGateways.list" class="permission-name add-link" data-text="beyondcorp.appGateways.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.appGateways.list</code></h4></td>
@@ -539,8 +601,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appGateways.listEffectiveTags" class="permission-name add-link" data-text="beyondcorp.appGateways.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appGateways.  listEffectiveTags</code></h4></td>
@@ -552,10 +617,13 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appGateways.listTagBindings" class="permission-name add-link" data-text="beyondcorp.appGateways.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appGateways.  listTagBindings</code></h4></td>
@@ -567,23 +635,29 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.appGateways.setIamPolicy" class="permission-name add-link" data-text="beyondcorp.appGateways.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  appGateways.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.appGateways.update" class="permission-name add-link" data-text="beyondcorp.appGateways.update" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.appGateways.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.locations.get" class="permission-name add-link" data-text="beyondcorp.locations.get" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.locations.get</code></h4></td>
@@ -593,7 +667,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.locations.list" class="permission-name add-link" data-text="beyondcorp.locations.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.locations.list</code></h4></td>
@@ -605,22 +682,29 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.operations.cancel" class="permission-name add-link" data-text="beyondcorp.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.operations.delete" class="permission-name add-link" data-text="beyondcorp.operations.delete" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.operations.get" class="permission-name add-link" data-text="beyondcorp.operations.get" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.operations.get</code></h4></td>
@@ -630,7 +714,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.operations.list" class="permission-name add-link" data-text="beyondcorp.operations.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.operations.list</code></h4></td>
@@ -642,22 +729,29 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.securityGateways.create" class="permission-name add-link" data-text="beyondcorp.securityGateways.create" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.securityGateways.delete" class="permission-name add-link" data-text="beyondcorp.securityGateways.delete" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.securityGateways.get" class="permission-name add-link" data-text="beyondcorp.securityGateways.get" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  get</code></h4></td>
@@ -667,7 +761,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.securityGateways.getIamPolicy" class="permission-name add-link" data-text="beyondcorp.securityGateways.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  getIamPolicy</code></h4></td>
@@ -679,8 +776,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.securityGateways.list" class="permission-name add-link" data-text="beyondcorp.securityGateways.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  list</code></h4></td>
@@ -692,35 +792,45 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.securityGateways.setIamPolicy" class="permission-name add-link" data-text="beyondcorp.securityGateways.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.securityGateways.update" class="permission-name add-link" data-text="beyondcorp.securityGateways.update" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  securityGateways.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.sgApplications.create" class="permission-name add-link" data-text="beyondcorp.sgApplications.create" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  sgApplications.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.sgApplications.delete" class="permission-name add-link" data-text="beyondcorp.sgApplications.delete" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  sgApplications.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.sgApplications.get" class="permission-name add-link" data-text="beyondcorp.sgApplications.get" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.sgApplications.get</code></h4></td>
@@ -730,7 +840,10 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.sgApplications.getIamPolicy" class="permission-name add-link" data-text="beyondcorp.sgApplications.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  sgApplications.  getIamPolicy</code></h4></td>
@@ -742,8 +855,11 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.sgApplications.list" class="permission-name add-link" data-text="beyondcorp.sgApplications.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.sgApplications.list</code></h4></td>
@@ -755,21 +871,27 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.sgApplications.setIamPolicy" class="permission-name add-link" data-text="beyondcorp.sgApplications.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  sgApplications.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.sgApplications.update" class="permission-name add-link" data-text="beyondcorp.sgApplications.update" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  sgApplications.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.subscriptions.create" class="permission-name add-link" data-text="beyondcorp.subscriptions.create" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  subscriptions.  create</code></h4></td>
@@ -777,7 +899,9 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.subscriptions.get" class="permission-name add-link" data-text="beyondcorp.subscriptions.get" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.subscriptions.get</code></h4></td>
@@ -787,9 +911,12 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionViewer">Cloud BeyondCorp Subscription Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.subscriptions.list" class="permission-name add-link" data-text="beyondcorp.subscriptions.list" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.subscriptions.list</code></h4></td>
@@ -801,10 +928,13 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.viewer">Cloud BeyondCorp Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionViewer">Cloud BeyondCorp Subscription Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="beyondcorp.subscriptions.terminate" class="permission-name add-link" data-text="beyondcorp.subscriptions.terminate" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  subscriptions.  terminate</code></h4></td>
@@ -812,7 +942,9 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="beyondcorp.subscriptions.update" class="permission-name add-link" data-text="beyondcorp.subscriptions.update" tabindex="-1"><code dir="ltr" translate="no">beyondcorp.  subscriptions.  update</code></h4></td>
@@ -820,7 +952,9 @@ This page lists the IAM roles and permissions for Chrome Enterprise Premium. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.admin">Cloud BeyondCorp Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.editor">Cloud BeyondCorp Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/beyondcorp#beyondcorp.subscriptionAdmin">Cloud BeyondCorp Subscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  beyondcorp.subscriptionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -70,40 +70,53 @@ This page lists the IAM roles and permissions for Roads Management Insights. To 
 <td><h4 id="roads.selectedRoutes.batchCreate" class="permission-name add-link" data-text="roads.selectedRoutes.batchCreate" tabindex="-1"><code dir="ltr" translate="no">roads.  selectedRoutes.  batchCreate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="roads.selectedRoutes.batchDelete" class="permission-name add-link" data-text="roads.selectedRoutes.batchDelete" tabindex="-1"><code dir="ltr" translate="no">roads.  selectedRoutes.  batchDelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="roads.selectedRoutes.batchUpdate" class="permission-name add-link" data-text="roads.selectedRoutes.batchUpdate" tabindex="-1"><code dir="ltr" translate="no">roads.  selectedRoutes.  batchUpdate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="roads.selectedRoutes.create" class="permission-name add-link" data-text="roads.selectedRoutes.create" tabindex="-1"><code dir="ltr" translate="no">roads.selectedRoutes.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="roads.selectedRoutes.delete" class="permission-name add-link" data-text="roads.selectedRoutes.delete" tabindex="-1"><code dir="ltr" translate="no">roads.selectedRoutes.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="roads.selectedRoutes.get" class="permission-name add-link" data-text="roads.selectedRoutes.get" tabindex="-1"><code dir="ltr" translate="no">roads.selectedRoutes.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionViewer">Roads Selection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionViewer">Roads Selection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="roads.selectedRoutes.list" class="permission-name add-link" data-text="roads.selectedRoutes.list" tabindex="-1"><code dir="ltr" translate="no">roads.selectedRoutes.list</code></h4></td>
@@ -112,16 +125,21 @@ This page lists the IAM roles and permissions for Roads Management Insights. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionViewer">Roads Selection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionViewer">Roads Selection Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="roads.selectedRoutes.update" class="permission-name add-link" data-text="roads.selectedRoutes.update" tabindex="-1"><code dir="ltr" translate="no">roads.selectedRoutes.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/roads#roads.roadsSelectionAdmin">Roads Selection Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  roads.roadsSelectionAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

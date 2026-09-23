@@ -1187,10 +1187,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1204,8 +1206,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1221,11 +1225,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1243,6 +1250,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1251,6 +1259,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1264,10 +1274,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1281,10 +1293,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1298,8 +1312,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1315,11 +1331,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1337,6 +1356,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1345,6 +1365,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1358,10 +1380,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1379,6 +1403,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1387,6 +1412,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1401,10 +1428,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1418,10 +1447,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1435,12 +1466,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationDeployerRole">Apigee Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationDeployerRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationDeployer">Application Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationDeployer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1456,6 +1489,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationDeployerRole">Apigee Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationDeployerRole</code> )</p>
@@ -1467,6 +1501,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1485,6 +1521,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1497,6 +1534,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1511,10 +1550,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1528,12 +1569,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationInvokerRole">Apigee Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationInvokerRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1551,6 +1594,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1563,6 +1607,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1576,10 +1622,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1593,8 +1641,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1610,11 +1660,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1632,6 +1685,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1640,6 +1694,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1653,10 +1709,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1670,10 +1728,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1687,8 +1747,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1704,11 +1766,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1726,6 +1791,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1734,6 +1800,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1747,10 +1815,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1764,10 +1834,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeSuspensionResolver">Apigee Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeSuspensionResolver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.suspensionResolver">Application Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.suspensionResolver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1785,12 +1857,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeSuspensionResolver">Apigee Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeSuspensionResolver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.suspensionResolver">Application Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.suspensionResolver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1804,10 +1879,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeSuspensionResolver">Apigee Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeSuspensionResolver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.suspensionResolver">Application Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.suspensionResolver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1821,10 +1898,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1838,8 +1917,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1855,6 +1936,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -1862,6 +1944,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1879,6 +1963,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -1887,6 +1972,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1900,10 +1987,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1917,8 +2006,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1932,8 +2023,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1949,6 +2042,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -1957,6 +2051,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1974,12 +2070,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationsViewer">Apigee Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -1993,8 +2092,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2008,9 +2109,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.executions.get" class="permission-name add-link" data-text="integrations.executions.get" tabindex="-1"><code dir="ltr" translate="no">integrations.executions.get</code></h4></td>
@@ -2019,6 +2122,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -2027,7 +2131,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.executions.list" class="permission-name add-link" data-text="integrations.executions.list" tabindex="-1"><code dir="ltr" translate="no">integrations.executions.list</code></h4></td>
@@ -2038,6 +2144,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -2048,6 +2155,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2061,19 +2170,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.integrationVersions.create" class="permission-name add-link" data-text="integrations.integrationVersions.create" tabindex="-1"><code dir="ltr" translate="no">integrations.  integrationVersions.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2087,10 +2200,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2104,12 +2219,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationDeployerRole">Apigee Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationDeployerRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationDeployer">Application Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationDeployer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2125,6 +2242,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationDeployerRole">Apigee Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationDeployerRole</code> )</p>
@@ -2136,6 +2254,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2152,8 +2272,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationInvokerRole">Apigee Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationInvokerRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2171,6 +2293,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -2183,6 +2306,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2197,10 +2322,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2214,10 +2341,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2231,8 +2360,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2246,10 +2377,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationDeployerRole">Apigee Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationDeployerRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationDeployer">Application Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationDeployer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2265,10 +2398,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2285,6 +2421,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationDeployerRole">Apigee Integration Deployer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationDeployerRole</code> )</p>
@@ -2296,6 +2433,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2311,12 +2450,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationInvokerRole">Apigee Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationInvokerRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2336,6 +2477,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -2348,6 +2490,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2362,10 +2506,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2379,14 +2525,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityAuthConfigs.delete" class="permission-name add-link" data-text="integrations.securityAuthConfigs.delete" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityAuthConfigs.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.securityAuthConfigs.get" class="permission-name add-link" data-text="integrations.securityAuthConfigs.get" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityAuthConfigs.  get</code></h4></td>
@@ -2395,8 +2545,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityAuthConfigs.list" class="permission-name add-link" data-text="integrations.securityAuthConfigs.list" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityAuthConfigs.  list</code></h4></td>
@@ -2407,23 +2560,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.securityAuthConfigs.update" class="permission-name add-link" data-text="integrations.securityAuthConfigs.update" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityAuthConfigs.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityExecutions.cancel" class="permission-name add-link" data-text="integrations.securityExecutions.cancel" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityExecutions.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2439,8 +2599,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityExecutions.list" class="permission-name add-link" data-text="integrations.securityExecutions.list" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityExecutions.  list</code></h4></td>
@@ -2451,9 +2614,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2467,7 +2633,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityIntegTempVers.get" class="permission-name add-link" data-text="integrations.securityIntegTempVers.get" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegTempVers.  get</code></h4></td>
@@ -2476,8 +2644,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.securityIntegTempVers.list" class="permission-name add-link" data-text="integrations.securityIntegTempVers.list" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegTempVers.  list</code></h4></td>
@@ -2488,30 +2659,39 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityIntegrationVers.create" class="permission-name add-link" data-text="integrations.securityIntegrationVers.create" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrationVers.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.securityIntegrationVers.delete" class="permission-name add-link" data-text="integrations.securityIntegrationVers.delete" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrationVers.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityIntegrationVers.deploy" class="permission-name add-link" data-text="integrations.securityIntegrationVers.deploy" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrationVers.  deploy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.securityIntegrationVers.get" class="permission-name add-link" data-text="integrations.securityIntegrationVers.get" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrationVers.  get</code></h4></td>
@@ -2520,8 +2700,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityIntegrationVers.list" class="permission-name add-link" data-text="integrations.securityIntegrationVers.list" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrationVers.  list</code></h4></td>
@@ -2532,23 +2715,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.securityIntegrationVers.update" class="permission-name add-link" data-text="integrations.securityIntegrationVers.update" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrationVers.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.securityIntegrations.invoke" class="permission-name add-link" data-text="integrations.securityIntegrations.invoke" tabindex="-1"><code dir="ltr" translate="no">integrations.  securityIntegrations.  invoke</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2566,21 +2756,26 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.securityIntegrationAdmin">Security Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.securityIntegrationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.sfdcChannels.create" class="permission-name add-link" data-text="integrations.sfdcChannels.create" tabindex="-1"><code dir="ltr" translate="no">integrations.  sfdcChannels.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2594,11 +2789,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2614,6 +2811,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -2622,6 +2820,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceViewer">Application Integration SFDC Instance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2639,6 +2839,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -2650,6 +2851,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceViewer">Application Integration SFDC Instance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2663,12 +2866,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2682,12 +2887,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2701,11 +2908,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2721,6 +2930,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
@@ -2729,6 +2939,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceViewer">Application Integration SFDC Instance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2746,6 +2958,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
@@ -2757,6 +2970,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceViewer">Application Integration SFDC Instance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2770,12 +2985,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationEditorRole">Apigee Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationEditorRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceAdmin">Application Integration SFDC Instance Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.sfdcInstanceEditor">Application Integration SFDC Instance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.sfdcInstanceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2789,10 +3006,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeSuspensionResolver">Apigee Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeSuspensionResolver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.suspensionResolver">Application Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.suspensionResolver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2810,12 +3029,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeSuspensionResolver">Apigee Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeSuspensionResolver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.suspensionResolver">Application Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.suspensionResolver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2829,10 +3051,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeIntegrationAdminRole">Apigee Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeIntegrationAdminRole</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.apigeeSuspensionResolver">Apigee Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.apigeeSuspensionResolver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.suspensionResolver">Application Integration Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.suspensionResolver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2846,16 +3070,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.templates.delete" class="permission-name add-link" data-text="integrations.templates.delete" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.templates.get" class="permission-name add-link" data-text="integrations.templates.get" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.get</code></h4></td>
@@ -2864,10 +3092,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.templates.list" class="permission-name add-link" data-text="integrations.templates.list" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.list</code></h4></td>
@@ -2878,11 +3109,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.templates.share" class="permission-name add-link" data-text="integrations.templates.share" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.share</code></h4></td>
@@ -2891,9 +3125,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.templates.unshare" class="permission-name add-link" data-text="integrations.templates.unshare" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.unshare</code></h4></td>
@@ -2902,17 +3139,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.templates.update" class="permission-name add-link" data-text="integrations.templates.update" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.templates.use" class="permission-name add-link" data-text="integrations.templates.use" tabindex="-1"><code dir="ltr" translate="no">integrations.templates.use</code></h4></td>
@@ -2921,25 +3163,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.testCases.create" class="permission-name add-link" data-text="integrations.testCases.create" tabindex="-1"><code dir="ltr" translate="no">integrations.testCases.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="integrations.testCases.delete" class="permission-name add-link" data-text="integrations.testCases.delete" tabindex="-1"><code dir="ltr" translate="no">integrations.testCases.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="integrations.testCases.get" class="permission-name add-link" data-text="integrations.testCases.get" tabindex="-1"><code dir="ltr" translate="no">integrations.testCases.get</code></h4></td>
@@ -2948,11 +3197,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2966,9 +3218,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -2986,12 +3240,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.viewer">Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationInvoker">Application Integration Invoker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationInvoker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationViewer">Application Integration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -3005,8 +3262,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.admin">Integrations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationAdmin">Application Integration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/integrations#integrations.integrationEditor">Application Integration Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  integrations.integrationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

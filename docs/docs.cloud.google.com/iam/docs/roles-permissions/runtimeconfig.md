@@ -125,7 +125,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -141,7 +143,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -159,8 +163,11 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -175,6 +182,7 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -188,9 +196,12 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -203,7 +214,8 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <td><h4 id="runtimeconfig.configs.setIamPolicy" class="permission-name add-link" data-text="runtimeconfig.configs.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.  configs.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runtimeconfig.configs.update" class="permission-name add-link" data-text="runtimeconfig.configs.update" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.configs.update</code></h4></td>
@@ -212,7 +224,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -230,8 +244,11 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runtimeconfig.operations.list" class="permission-name add-link" data-text="runtimeconfig.operations.list" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.operations.list</code></h4></td>
@@ -244,9 +261,12 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runtimeconfig.variables.create" class="permission-name add-link" data-text="runtimeconfig.variables.create" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.variables.create</code></h4></td>
@@ -255,7 +275,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -271,7 +293,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -289,8 +313,11 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -305,6 +332,7 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="even">
@@ -318,9 +346,12 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -333,7 +364,8 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <td><h4 id="runtimeconfig.variables.setIamPolicy" class="permission-name add-link" data-text="runtimeconfig.variables.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.  variables.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runtimeconfig.variables.update" class="permission-name add-link" data-text="runtimeconfig.variables.update" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.variables.update</code></h4></td>
@@ -342,7 +374,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -360,8 +394,11 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runtimeconfig.waiters.create" class="permission-name add-link" data-text="runtimeconfig.waiters.create" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.waiters.create</code></h4></td>
@@ -370,7 +407,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -386,7 +425,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -404,8 +445,11 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -420,6 +464,7 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="even">
@@ -433,9 +478,12 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.viewer">Runtimeconfig Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -448,7 +496,8 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <td><h4 id="runtimeconfig.waiters.setIamPolicy" class="permission-name add-link" data-text="runtimeconfig.waiters.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.  waiters.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runtimeconfig.waiters.update" class="permission-name add-link" data-text="runtimeconfig.waiters.update" tabindex="-1"><code dir="ltr" translate="no">runtimeconfig.waiters.update</code></h4></td>
@@ -457,7 +506,9 @@ This page lists the IAM roles and permissions for Cloud Runtime Configuration AP
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.admin">Firebase Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.admin">Cloud RuntimeConfig Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runtimeconfig#runtimeconfig.editor">Runtimeconfig Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runtimeconfig.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebase#firebase.developAdmin">Firebase Develop Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebase.developAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

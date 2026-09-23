@@ -86,16 +86,21 @@ This page lists the IAM roles and permissions for Google Earth. To search throug
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.admin">Earth Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.viewer">Earth Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.subscriptionsAdmin">Earth Subscriptions Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.subscriptionsAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.subscriptionsViewer">Earth Subscriptions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.subscriptionsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earth.subscriptions.update" class="permission-name add-link" data-text="earth.subscriptions.update" tabindex="-1"><code dir="ltr" translate="no">earth.subscriptions.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.admin">Earth Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.subscriptionsAdmin">Earth Subscriptions Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.subscriptionsAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earth#earth.subscriptionsAdmin">Earth Subscriptions Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earth.subscriptionsAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -151,7 +151,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.locations.list" class="permission-name add-link" data-text="marketplacesolutions.locations.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  locations.  list</code></h4></td>
@@ -163,20 +166,27 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.operations.cancel" class="permission-name add-link" data-text="marketplacesolutions.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.operations.delete" class="permission-name add-link" data-text="marketplacesolutions.operations.delete" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.operations.get" class="permission-name add-link" data-text="marketplacesolutions.operations.get" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  operations.  get</code></h4></td>
@@ -186,7 +196,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.operations.list" class="permission-name add-link" data-text="marketplacesolutions.operations.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  operations.  list</code></h4></td>
@@ -198,8 +211,11 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerImages.get" class="permission-name add-link" data-text="marketplacesolutions.powerImages.get" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerImages.  get</code></h4></td>
@@ -209,7 +225,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerImages.list" class="permission-name add-link" data-text="marketplacesolutions.powerImages.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerImages.  list</code></h4></td>
@@ -221,26 +240,35 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerInstances.applyPowerAction" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.applyPowerAction" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  applyPowerAction</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerInstances.create" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.create" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerInstances.delete" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.delete" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerInstances.get" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.get" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  get</code></h4></td>
@@ -250,7 +278,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerInstances.list" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  list</code></h4></td>
@@ -262,21 +293,28 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerInstances.reset" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.reset" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  reset</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerInstances.update" class="permission-name add-link" data-text="marketplacesolutions.powerInstances.update" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerInstances.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerNetworks.get" class="permission-name add-link" data-text="marketplacesolutions.powerNetworks.get" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerNetworks.  get</code></h4></td>
@@ -286,7 +324,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerNetworks.list" class="permission-name add-link" data-text="marketplacesolutions.powerNetworks.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerNetworks.  list</code></h4></td>
@@ -298,8 +339,11 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerSshKeys.get" class="permission-name add-link" data-text="marketplacesolutions.powerSshKeys.get" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerSshKeys.  get</code></h4></td>
@@ -309,7 +353,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerSshKeys.list" class="permission-name add-link" data-text="marketplacesolutions.powerSshKeys.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerSshKeys.  list</code></h4></td>
@@ -321,8 +368,11 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="marketplacesolutions.powerVolumes.get" class="permission-name add-link" data-text="marketplacesolutions.powerVolumes.get" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerVolumes.  get</code></h4></td>
@@ -332,7 +382,10 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="marketplacesolutions.powerVolumes.list" class="permission-name add-link" data-text="marketplacesolutions.powerVolumes.list" tabindex="-1"><code dir="ltr" translate="no">marketplacesolutions.  powerVolumes.  list</code></h4></td>
@@ -344,8 +397,11 @@ This page lists the IAM roles and permissions for Marketplace Solutions API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.admin">Marketplace Solutions Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.editor">Marketplace Solutions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/marketplacesolutions#marketplacesolutions.viewer">Marketplace Solutions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  marketplacesolutions.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

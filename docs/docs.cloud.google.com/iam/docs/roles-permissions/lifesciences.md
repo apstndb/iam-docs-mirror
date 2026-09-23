@@ -1403,14 +1403,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="genomics.datasets.delete" class="permission-name add-link" data-text="genomics.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">genomics.datasets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="genomics.datasets.get" class="permission-name add-link" data-text="genomics.datasets.get" tabindex="-1"><code dir="ltr" translate="no">genomics.datasets.get</code></h4></td>
@@ -1420,7 +1424,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.viewer">Genomics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="genomics.datasets.getIamPolicy" class="permission-name add-link" data-text="genomics.datasets.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">genomics.datasets.getIamPolicy</code></h4></td>
@@ -1428,6 +1435,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -1440,21 +1448,27 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.viewer">Genomics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="genomics.datasets.setIamPolicy" class="permission-name add-link" data-text="genomics.datasets.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">genomics.datasets.setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="genomics.datasets.update" class="permission-name add-link" data-text="genomics.datasets.update" tabindex="-1"><code dir="ltr" translate="no">genomics.datasets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="genomics.operations.cancel" class="permission-name add-link" data-text="genomics.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">genomics.operations.cancel</code></h4></td>
@@ -1462,7 +1476,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.pipelinesRunner">Genomics Pipelines Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.pipelinesRunner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.pipelinesRunner">Genomics Pipelines Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.pipelinesRunner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="genomics.operations.create" class="permission-name add-link" data-text="genomics.operations.create" tabindex="-1"><code dir="ltr" translate="no">genomics.operations.create</code></h4></td>
@@ -1470,7 +1486,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.pipelinesRunner">Genomics Pipelines Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.pipelinesRunner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.pipelinesRunner">Genomics Pipelines Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.pipelinesRunner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="genomics.operations.get" class="permission-name add-link" data-text="genomics.operations.get" tabindex="-1"><code dir="ltr" translate="no">genomics.operations.get</code></h4></td>
@@ -1480,8 +1498,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.admin">Genomics Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.editor">Genomics Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.viewer">Genomics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.pipelinesRunner">Genomics Pipelines Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.pipelinesRunner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="genomics.operations.list" class="permission-name add-link" data-text="genomics.operations.list" tabindex="-1"><code dir="ltr" translate="no">genomics.operations.list</code></h4></td>
@@ -1493,9 +1514,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.viewer">Genomics Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#genomics.pipelinesRunner">Genomics Pipelines Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  genomics.pipelinesRunner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="lifesciences.operations.cancel" class="permission-name add-link" data-text="lifesciences.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">lifesciences.operations.cancel</code></h4></td>
@@ -1503,7 +1527,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.admin">Cloud Life Sciences Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.editor">Cloud Life Sciences Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="lifesciences.operations.get" class="permission-name add-link" data-text="lifesciences.operations.get" tabindex="-1"><code dir="ltr" translate="no">lifesciences.operations.get</code></h4></td>
@@ -1513,8 +1539,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.admin">Cloud Life Sciences Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.editor">Cloud Life Sciences Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.viewer">Cloud Life Sciences Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="lifesciences.operations.list" class="permission-name add-link" data-text="lifesciences.operations.list" tabindex="-1"><code dir="ltr" translate="no">lifesciences.operations.list</code></h4></td>
@@ -1526,9 +1555,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.admin">Cloud Life Sciences Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.editor">Cloud Life Sciences Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.viewer">Cloud Life Sciences Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="lifesciences.workflows.run" class="permission-name add-link" data-text="lifesciences.workflows.run" tabindex="-1"><code dir="ltr" translate="no">lifesciences.workflows.run</code></h4></td>
@@ -1536,7 +1568,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.admin">Cloud Life Sciences Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.editor">Cloud Life Sciences Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/lifesciences#lifesciences.workflowsRunner">Cloud Life Sciences Workflows Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  lifesciences.workflowsRunner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

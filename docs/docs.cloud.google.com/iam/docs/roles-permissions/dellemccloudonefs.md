@@ -96,14 +96,18 @@ This page lists the IAM roles and permissions for Dell EMC Cloud OneFS. To searc
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudonefs.isiloncloud.com_clusters.delete" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/clusters.delete" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/clusters.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudonefs.isiloncloud.com_clusters.get" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/clusters.get" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/clusters.  get</code></h4></td>
@@ -112,8 +116,11 @@ This page lists the IAM roles and permissions for Dell EMC Cloud OneFS. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.viewer">Dell EMC Cloud OneFS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudonefs.isiloncloud.com_clusters.list" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/clusters.list" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/clusters.  list</code></h4></td>
@@ -124,36 +131,47 @@ This page lists the IAM roles and permissions for Dell EMC Cloud OneFS. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.viewer">Dell EMC Cloud OneFS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudonefs.isiloncloud.com_clusters.update" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/clusters.update" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/clusters.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudonefs.isiloncloud.com_clusters.updateAdvancedSettings" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/clusters.updateAdvancedSettings" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/clusters.  updateAdvancedSettings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudonefs.isiloncloud.com_fileshares.create" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/fileshares.create" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/fileshares.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudonefs.isiloncloud.com_fileshares.delete" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/fileshares.delete" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/fileshares.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudonefs.isiloncloud.com_fileshares.get" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/fileshares.get" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/fileshares.  get</code></h4></td>
@@ -162,8 +180,11 @@ This page lists the IAM roles and permissions for Dell EMC Cloud OneFS. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.viewer">Dell EMC Cloud OneFS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="cloudonefs.isiloncloud.com_fileshares.list" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/fileshares.list" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/fileshares.  list</code></h4></td>
@@ -174,16 +195,21 @@ This page lists the IAM roles and permissions for Dell EMC Cloud OneFS. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.viewer">Dell EMC Cloud OneFS Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="cloudonefs.isiloncloud.com_fileshares.update" class="permission-name add-link" data-text="cloudonefs.isiloncloud.com/fileshares.update" tabindex="-1"><code dir="ltr" translate="no">cloudonefs.isiloncloud.  com/fileshares.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.admin">Dell EMC Cloud OneFS Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dellemccloudonefs#dellemccloudonefs.user">Dell EMC Cloud OneFS User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dellemccloudonefs.user</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

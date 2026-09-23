@@ -561,7 +561,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.automationRuns.get" class="permission-name add-link" data-text="clouddeploy.automationRuns.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.automationRuns.get</code></h4></td>
@@ -571,10 +573,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.automationRuns.list" class="permission-name add-link" data-text="clouddeploy.automationRuns.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  automationRuns.  list</code></h4></td>
@@ -586,11 +591,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.automations.create" class="permission-name add-link" data-text="clouddeploy.automations.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.automations.create</code></h4></td>
@@ -598,7 +606,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.automations.delete" class="permission-name add-link" data-text="clouddeploy.automations.delete" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.automations.delete</code></h4></td>
@@ -606,7 +616,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.automations.get" class="permission-name add-link" data-text="clouddeploy.automations.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.automations.get</code></h4></td>
@@ -616,10 +628,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.automations.list" class="permission-name add-link" data-text="clouddeploy.automations.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.automations.list</code></h4></td>
@@ -631,11 +646,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.automations.update" class="permission-name add-link" data-text="clouddeploy.automations.update" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.automations.update</code></h4></td>
@@ -643,7 +661,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.config.get" class="permission-name add-link" data-text="clouddeploy.config.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.config.get</code></h4></td>
@@ -653,6 +673,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
@@ -660,7 +681,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.customTargetTypes.create" class="permission-name add-link" data-text="clouddeploy.customTargetTypes.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  customTargetTypes.  create</code></h4></td>
@@ -668,7 +691,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.customTargetTypes.delete" class="permission-name add-link" data-text="clouddeploy.customTargetTypes.delete" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  customTargetTypes.  delete</code></h4></td>
@@ -676,7 +701,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.customTargetTypes.get" class="permission-name add-link" data-text="clouddeploy.customTargetTypes.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  customTargetTypes.  get</code></h4></td>
@@ -686,10 +713,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.customTargetTypes.getIamPolicy" class="permission-name add-link" data-text="clouddeploy.customTargetTypes.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  customTargetTypes.  getIamPolicy</code></h4></td>
@@ -701,10 +731,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.customTargetTypes.list" class="permission-name add-link" data-text="clouddeploy.customTargetTypes.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  customTargetTypes.  list</code></h4></td>
@@ -716,16 +749,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.customTargetTypes.setIamPolicy" class="permission-name add-link" data-text="clouddeploy.customTargetTypes.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  customTargetTypes.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -734,7 +771,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.customTargetTypeAdmin">Cloud Deploy Custom Target Type Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.customTargetTypeAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deliveryPipelines.create" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  create</code></h4></td>
@@ -742,15 +781,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deliveryPipelines.createTagBinding" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
@@ -763,15 +805,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deliveryPipelines.deleteTagBinding" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
@@ -786,11 +831,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deliveryPipelines.getIamPolicy" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  getIamPolicy</code></h4></td>
@@ -802,11 +850,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deliveryPipelines.list" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  list</code></h4></td>
@@ -818,11 +869,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deliveryPipelines.listEffectiveTags" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  listEffectiveTags</code></h4></td>
@@ -834,13 +888,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deliveryPipelines.listTagBindings" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  listTagBindings</code></h4></td>
@@ -852,19 +909,23 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deliveryPipelines.setIamPolicy" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deliveryPipelines.update" class="permission-name add-link" data-text="clouddeploy.deliveryPipelines.update" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deliveryPipelines.  update</code></h4></td>
@@ -872,9 +933,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deployPolicies.create" class="permission-name add-link" data-text="clouddeploy.deployPolicies.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deployPolicies.  create</code></h4></td>
@@ -882,7 +945,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deployPolicies.delete" class="permission-name add-link" data-text="clouddeploy.deployPolicies.delete" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deployPolicies.  delete</code></h4></td>
@@ -890,7 +955,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deployPolicies.get" class="permission-name add-link" data-text="clouddeploy.deployPolicies.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.deployPolicies.get</code></h4></td>
@@ -900,12 +967,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deployPolicies.getIamPolicy" class="permission-name add-link" data-text="clouddeploy.deployPolicies.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deployPolicies.  getIamPolicy</code></h4></td>
@@ -917,10 +987,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deployPolicies.list" class="permission-name add-link" data-text="clouddeploy.deployPolicies.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deployPolicies.  list</code></h4></td>
@@ -932,13 +1005,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.deployPolicies.override" class="permission-name add-link" data-text="clouddeploy.deployPolicies.override" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deployPolicies.  override</code></h4></td>
@@ -946,14 +1022,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.deployPolicies.setIamPolicy" class="permission-name add-link" data-text="clouddeploy.deployPolicies.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  deployPolicies.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -962,7 +1041,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.jobRuns.get" class="permission-name add-link" data-text="clouddeploy.jobRuns.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.jobRuns.get</code></h4></td>
@@ -972,12 +1053,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.jobRuns.list" class="permission-name add-link" data-text="clouddeploy.jobRuns.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.jobRuns.list</code></h4></td>
@@ -989,13 +1073,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.jobRuns.terminate" class="permission-name add-link" data-text="clouddeploy.jobRuns.terminate" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.jobRuns.terminate</code></h4></td>
@@ -1003,7 +1090,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.locations.get" class="permission-name add-link" data-text="clouddeploy.locations.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.locations.get</code></h4></td>
@@ -1013,6 +1102,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
@@ -1020,7 +1110,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.locations.list" class="permission-name add-link" data-text="clouddeploy.locations.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.locations.list</code></h4></td>
@@ -1032,6 +1124,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
@@ -1040,7 +1133,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.operations.cancel" class="permission-name add-link" data-text="clouddeploy.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.operations.cancel</code></h4></td>
@@ -1048,13 +1143,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.operations.delete" class="permission-name add-link" data-text="clouddeploy.operations.delete" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.operations.delete</code></h4></td>
@@ -1062,13 +1159,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyAdmin">Cloud Deploy Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.operations.get" class="permission-name add-link" data-text="clouddeploy.operations.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.operations.get</code></h4></td>
@@ -1078,6 +1177,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
@@ -1085,7 +1185,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.policyOverrider">Cloud Deploy Policy Overrider</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.policyOverrider</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.operations.list" class="permission-name add-link" data-text="clouddeploy.operations.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.operations.list</code></h4></td>
@@ -1097,6 +1199,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
@@ -1105,7 +1208,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.releases.abandon" class="permission-name add-link" data-text="clouddeploy.releases.abandon" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.releases.abandon</code></h4></td>
@@ -1113,9 +1218,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.releases.create" class="permission-name add-link" data-text="clouddeploy.releases.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.releases.create</code></h4></td>
@@ -1123,10 +1230,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.releases.get" class="permission-name add-link" data-text="clouddeploy.releases.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.releases.get</code></h4></td>
@@ -1136,11 +1245,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.releases.list" class="permission-name add-link" data-text="clouddeploy.releases.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.releases.list</code></h4></td>
@@ -1152,12 +1264,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.rollouts.advance" class="permission-name add-link" data-text="clouddeploy.rollouts.advance" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.advance</code></h4></td>
@@ -1165,8 +1280,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.rollouts.approve" class="permission-name add-link" data-text="clouddeploy.rollouts.approve" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.approve</code></h4></td>
@@ -1174,7 +1291,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.rollouts.cancel" class="permission-name add-link" data-text="clouddeploy.rollouts.cancel" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.cancel</code></h4></td>
@@ -1182,8 +1301,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.rollouts.create" class="permission-name add-link" data-text="clouddeploy.rollouts.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.create</code></h4></td>
@@ -1191,8 +1312,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.rollouts.get" class="permission-name add-link" data-text="clouddeploy.rollouts.get" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.get</code></h4></td>
@@ -1202,12 +1325,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.rollouts.ignoreJob" class="permission-name add-link" data-text="clouddeploy.rollouts.ignoreJob" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.ignoreJob</code></h4></td>
@@ -1215,7 +1341,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.rollouts.list" class="permission-name add-link" data-text="clouddeploy.rollouts.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.list</code></h4></td>
@@ -1227,13 +1355,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.approver">Cloud Deploy Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.developer">Cloud Deploy Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.rollouts.retryJob" class="permission-name add-link" data-text="clouddeploy.rollouts.retryJob" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.retryJob</code></h4></td>
@@ -1241,7 +1372,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.rollouts.rollback" class="permission-name add-link" data-text="clouddeploy.rollouts.rollback" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.rollouts.rollback</code></h4></td>
@@ -1249,8 +1382,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.targets.create" class="permission-name add-link" data-text="clouddeploy.targets.create" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.targets.create</code></h4></td>
@@ -1258,13 +1393,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.targets.createTagBinding" class="permission-name add-link" data-text="clouddeploy.targets.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  targets.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
@@ -1275,13 +1413,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.targets.deleteTagBinding" class="permission-name add-link" data-text="clouddeploy.targets.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  targets.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p></td>
@@ -1294,9 +1435,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.releaser">Cloud Deploy Releaser</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.releaser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.targets.getIamPolicy" class="permission-name add-link" data-text="clouddeploy.targets.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  targets.  getIamPolicy</code></h4></td>
@@ -1308,9 +1452,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.targets.list" class="permission-name add-link" data-text="clouddeploy.targets.list" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.targets.list</code></h4></td>
@@ -1322,9 +1469,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.targets.listEffectiveTags" class="permission-name add-link" data-text="clouddeploy.targets.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  targets.  listEffectiveTags</code></h4></td>
@@ -1336,11 +1486,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.targets.listTagBindings" class="permission-name add-link" data-text="clouddeploy.targets.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  targets.  listTagBindings</code></h4></td>
@@ -1352,17 +1505,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.viewer">Cloud Deploy Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagUser">Tag User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.tagViewer">Tag Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.tagViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.orgdriver">DLP Organization Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.orgdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="clouddeploy.targets.setIamPolicy" class="permission-name add-link" data-text="clouddeploy.targets.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.  targets.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="clouddeploy.targets.update" class="permission-name add-link" data-text="clouddeploy.targets.update" tabindex="-1"><code dir="ltr" translate="no">clouddeploy.targets.update</code></h4></td>
@@ -1370,7 +1527,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.admin">Cloud Deploy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.editor">Cloud Deploy Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/clouddeploy#clouddeploy.operator">Cloud Deploy Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploy.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -1059,7 +1059,9 @@ In contrast, writing data to the IAM API is sequentially consistent. In other wo
 
 ## OauthClients
 
-Manages `  OauthClient  ` s. An `  OauthClient  ` represents a third-party application that can access Google Cloud resources.
+Manages `  OauthClient  ` s for Workforce Identity Federation. An `  OauthClient  ` represents a third-party application that can access Google Cloud resources on behalf of a workforce identity user.
+
+NOTE: These APIs are only for [Workforce Identity Federation](https://cloud.google.com/iam/docs/workforce-identity-federation) . To manage standard Google Cloud OAuth 2.0 client IDs, go to the Google Cloud console, then go to APIs & Services \> Credentials.
 
 <table>
 <colgroup>

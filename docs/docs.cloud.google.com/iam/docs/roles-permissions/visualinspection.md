@@ -608,6 +608,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputRevisions.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  changeScope</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  list</code></li>
@@ -1004,14 +1005,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotationSets.delete" class="permission-name add-link" data-text="visualinspection.annotationSets.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSets.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.annotationSets.get" class="permission-name add-link" data-text="visualinspection.annotationSets.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSets.  get</code></h4></td>
@@ -1021,7 +1026,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotationSets.list" class="permission-name add-link" data-text="visualinspection.annotationSets.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSets.  list</code></h4></td>
@@ -1033,29 +1041,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.annotationSets.update" class="permission-name add-link" data-text="visualinspection.annotationSets.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSets.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotationSpecs.create" class="permission-name add-link" data-text="visualinspection.annotationSpecs.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSpecs.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.annotationSpecs.delete" class="permission-name add-link" data-text="visualinspection.annotationSpecs.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSpecs.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotationSpecs.get" class="permission-name add-link" data-text="visualinspection.annotationSpecs.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSpecs.  get</code></h4></td>
@@ -1065,7 +1082,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.annotationSpecs.list" class="permission-name add-link" data-text="visualinspection.annotationSpecs.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotationSpecs.  list</code></h4></td>
@@ -1077,22 +1097,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotations.create" class="permission-name add-link" data-text="visualinspection.annotations.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotations.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.annotations.delete" class="permission-name add-link" data-text="visualinspection.annotations.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotations.get" class="permission-name add-link" data-text="visualinspection.annotations.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotations.  get</code></h4></td>
@@ -1102,7 +1129,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.annotations.list" class="permission-name add-link" data-text="visualinspection.annotations.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotations.  list</code></h4></td>
@@ -1114,29 +1144,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.annotations.update" class="permission-name add-link" data-text="visualinspection.annotations.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  annotations.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.datasets.create" class="permission-name add-link" data-text="visualinspection.datasets.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  datasets.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.datasets.delete" class="permission-name add-link" data-text="visualinspection.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  datasets.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.datasets.export" class="permission-name add-link" data-text="visualinspection.datasets.export" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  datasets.  export</code></h4></td>
@@ -1146,7 +1185,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.datasets.get" class="permission-name add-link" data-text="visualinspection.datasets.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.datasets.get</code></h4></td>
@@ -1156,14 +1198,19 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.datasets.import" class="permission-name add-link" data-text="visualinspection.datasets.import" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  datasets.  import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.datasets.list" class="permission-name add-link" data-text="visualinspection.datasets.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.datasets.list</code></h4></td>
@@ -1175,22 +1222,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.datasets.update" class="permission-name add-link" data-text="visualinspection.datasets.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  datasets.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.images.delete" class="permission-name add-link" data-text="visualinspection.images.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.images.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.images.get" class="permission-name add-link" data-text="visualinspection.images.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.images.get</code></h4></td>
@@ -1200,7 +1254,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.images.list" class="permission-name add-link" data-text="visualinspection.images.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.images.list</code></h4></td>
@@ -1212,15 +1269,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.images.update" class="permission-name add-link" data-text="visualinspection.images.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.images.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.locations.get" class="permission-name add-link" data-text="visualinspection.locations.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.locations.get</code></h4></td>
@@ -1230,7 +1292,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.locations.list" class="permission-name add-link" data-text="visualinspection.locations.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  locations.  list</code></h4></td>
@@ -1242,15 +1307,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.locations.reportUsageMetrics" class="permission-name add-link" data-text="visualinspection.locations.reportUsageMetrics" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  locations.  reportUsageMetrics</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.usageMetricsReporter">Visual Inspection AI Usage Metrics Reporter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.usageMetricsReporter</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.usageMetricsReporter">Visual Inspection AI Usage Metrics Reporter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.usageMetricsReporter</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.modelEvaluations.get" class="permission-name add-link" data-text="visualinspection.modelEvaluations.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  modelEvaluations.  get</code></h4></td>
@@ -1260,7 +1330,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.modelEvaluations.list" class="permission-name add-link" data-text="visualinspection.modelEvaluations.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  modelEvaluations.  list</code></h4></td>
@@ -1272,22 +1345,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.models.create" class="permission-name add-link" data-text="visualinspection.models.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.models.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.models.delete" class="permission-name add-link" data-text="visualinspection.models.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.models.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.models.get" class="permission-name add-link" data-text="visualinspection.models.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.models.get</code></h4></td>
@@ -1297,7 +1377,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.models.list" class="permission-name add-link" data-text="visualinspection.models.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.models.list</code></h4></td>
@@ -1309,36 +1392,47 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.models.update" class="permission-name add-link" data-text="visualinspection.models.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.models.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.models.writePrediction" class="permission-name add-link" data-text="visualinspection.models.writePrediction" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  models.  writePrediction</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.modules.create" class="permission-name add-link" data-text="visualinspection.modules.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  modules.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.modules.delete" class="permission-name add-link" data-text="visualinspection.modules.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  modules.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.modules.get" class="permission-name add-link" data-text="visualinspection.modules.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.modules.get</code></h4></td>
@@ -1348,7 +1442,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.modules.list" class="permission-name add-link" data-text="visualinspection.modules.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.modules.list</code></h4></td>
@@ -1360,15 +1457,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.modules.update" class="permission-name add-link" data-text="visualinspection.modules.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  modules.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.operations.get" class="permission-name add-link" data-text="visualinspection.operations.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  operations.  get</code></h4></td>
@@ -1378,7 +1480,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.operations.list" class="permission-name add-link" data-text="visualinspection.operations.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  operations.  list</code></h4></td>
@@ -1390,22 +1495,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.solutionArtifacts.create" class="permission-name add-link" data-text="visualinspection.solutionArtifacts.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutionArtifacts.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.solutionArtifacts.delete" class="permission-name add-link" data-text="visualinspection.solutionArtifacts.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutionArtifacts.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.solutionArtifacts.get" class="permission-name add-link" data-text="visualinspection.solutionArtifacts.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutionArtifacts.  get</code></h4></td>
@@ -1415,7 +1527,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.solutionArtifacts.list" class="permission-name add-link" data-text="visualinspection.solutionArtifacts.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutionArtifacts.  list</code></h4></td>
@@ -1427,8 +1542,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.solutionArtifacts.predict" class="permission-name add-link" data-text="visualinspection.solutionArtifacts.predict" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutionArtifacts.  predict</code></h4></td>
@@ -1438,28 +1556,37 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.solutionArtifacts.update" class="permission-name add-link" data-text="visualinspection.solutionArtifacts.update" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutionArtifacts.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.solutions.create" class="permission-name add-link" data-text="visualinspection.solutions.create" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutions.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.solutions.delete" class="permission-name add-link" data-text="visualinspection.solutions.delete" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutions.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="visualinspection.solutions.get" class="permission-name add-link" data-text="visualinspection.solutions.get" tabindex="-1"><code dir="ltr" translate="no">visualinspection.solutions.get</code></h4></td>
@@ -1469,7 +1596,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="visualinspection.solutions.list" class="permission-name add-link" data-text="visualinspection.solutions.list" tabindex="-1"><code dir="ltr" translate="no">visualinspection.  solutions.  list</code></h4></td>
@@ -1481,8 +1611,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.admin">Visual Inspection AI Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.editor">Visual Inspection AI Solution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/visualinspection#visualinspection.viewer">Visual Inspection AI Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  visualinspection.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

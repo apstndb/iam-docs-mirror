@@ -535,9 +535,7 @@ Service agent for <code dir="ltr" translate="no">bigquery.googleapis.com</code> 
 <td><h4 id="bigquery-migration-service-agent" class="service-agent-name add-link" data-text="BigQuery Migration Service Agent" tabindex="-1">BigQuery Migration Service Agent</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">bigquerymigration.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-bqms.iam.gserviceaccount.com</code></p></td>
-<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/bigquerymigration#bigquerymigration.serviceAgent">BigQuery Migration Service Agent</a><br />
-( <code dir="ltr" translate="no">roles/bigquerymigration.serviceAgent</code> )</p>
-<p>Granted on the project.</p></td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td><h4 id="bigquery-omni-service-agent" class="service-agent-name add-link" data-text="BigQuery Omni Service Agent" tabindex="-1">BigQuery Omni Service Agent</h4>

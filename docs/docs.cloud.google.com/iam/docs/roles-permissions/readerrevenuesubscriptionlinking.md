@@ -75,20 +75,27 @@ This page lists the IAM roles and permissions for Subscription Linking. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.admin">Subscription Linking Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.viewer">Subscription Linking Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.entitlementsViewer">Subscription Linking Entitlements Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.entitlementsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.entitlementsViewer">Subscription Linking Entitlements Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.entitlementsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="readerrevenuesubscriptionlinking.readerEntitlements.update" class="permission-name add-link" data-text="readerrevenuesubscriptionlinking.readerEntitlements.update" tabindex="-1"><code dir="ltr" translate="no">readerrevenuesubscriptionlinking.  readerEntitlements.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.admin">Subscription Linking Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.admin">Subscription Linking Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="readerrevenuesubscriptionlinking.readers.delete" class="permission-name add-link" data-text="readerrevenuesubscriptionlinking.readers.delete" tabindex="-1"><code dir="ltr" translate="no">readerrevenuesubscriptionlinking.  readers.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.admin">Subscription Linking Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.admin">Subscription Linking Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="readerrevenuesubscriptionlinking.readers.get" class="permission-name add-link" data-text="readerrevenuesubscriptionlinking.readers.get" tabindex="-1"><code dir="ltr" translate="no">readerrevenuesubscriptionlinking.  readers.  get</code></h4></td>
@@ -97,7 +104,10 @@ This page lists the IAM roles and permissions for Subscription Linking. To searc
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.admin">Subscription Linking Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/readerrevenuesubscriptionlinking#readerrevenuesubscriptionlinking.viewer">Subscription Linking Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  readerrevenuesubscriptionlinking.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

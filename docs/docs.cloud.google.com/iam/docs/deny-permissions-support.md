@@ -1120,6 +1120,8 @@ Gemini Enterprise Agent Platform
 
 `aiplatform.googleapis.com/provisionedThroughputs.cancel`
 
+`aiplatform.googleapis.com/provisionedThroughputs.changeScope`
+
 `aiplatform.googleapis.com/provisionedThroughputs.create`
 
 `aiplatform.googleapis.com/provisionedThroughputs.get`
@@ -7398,6 +7400,18 @@ Cloud SQL
 
 `cloudsql.googleapis.com/users.update`
 
+`cloudsql.googleapis.com/workloadCaptures.*`
+
+`cloudsql.googleapis.com/workloadCaptures.list`
+
+`cloudsql.googleapis.com/workloadCaptures.start`
+
+`cloudsql.googleapis.com/workloadCaptures.startReplay`
+
+`cloudsql.googleapis.com/workloadCaptures.stop`
+
+`cloudsql.googleapis.com/workloadCaptures.stopReplay`
+
 Cloud Trace
 
 `cloudtrace.googleapis.com/traceScopes.*`
@@ -9924,13 +9938,21 @@ Infrastructure Manager
 
 `config.googleapis.com/deploymentgroups.create`
 
+`config.googleapis.com/deploymentgroups.createTagBinding`
+
 `config.googleapis.com/deploymentgroups.delete`
+
+`config.googleapis.com/deploymentgroups.deleteTagBinding`
 
 `config.googleapis.com/deploymentgroups.deprovision`
 
 `config.googleapis.com/deploymentgroups.get`
 
 `config.googleapis.com/deploymentgroups.list`
+
+`config.googleapis.com/deploymentgroups.listEffectiveTags`
+
+`config.googleapis.com/deploymentgroups.listTagBindings`
 
 `config.googleapis.com/deploymentgroups.provision`
 
@@ -9940,9 +9962,13 @@ Infrastructure Manager
 
 `config.googleapis.com/deployments.create`
 
+`config.googleapis.com/deployments.createTagBinding`
+
 `config.googleapis.com/deployments.delete`
 
 `config.googleapis.com/deployments.deleteState`
+
+`config.googleapis.com/deployments.deleteTagBinding`
 
 `config.googleapis.com/deployments.get`
 
@@ -9953,6 +9979,10 @@ Infrastructure Manager
 `config.googleapis.com/deployments.getState`
 
 `config.googleapis.com/deployments.list`
+
+`config.googleapis.com/deployments.listEffectiveTags`
+
+`config.googleapis.com/deployments.listTagBindings`
 
 `config.googleapis.com/deployments.lock`
 
@@ -9982,13 +10012,21 @@ Infrastructure Manager
 
 `config.googleapis.com/previews.create`
 
+`config.googleapis.com/previews.createTagBinding`
+
 `config.googleapis.com/previews.delete`
+
+`config.googleapis.com/previews.deleteTagBinding`
 
 `config.googleapis.com/previews.export`
 
 `config.googleapis.com/previews.get`
 
 `config.googleapis.com/previews.list`
+
+`config.googleapis.com/previews.listEffectiveTags`
+
+`config.googleapis.com/previews.listTagBindings`
 
 `config.googleapis.com/resourcechanges.*`
 
@@ -20651,6 +20689,26 @@ Cloud Service Mesh
 `trafficdirector.googleapis.com/networks.getConfigs`
 
 `trafficdirector.googleapis.com/networks.reportMetrics`
+
+Universal Ledger
+
+`universalledger.googleapis.com/*.*`
+
+`universalledger.googleapis.com/endpoints.*`
+
+`universalledger.googleapis.com/endpoints.get`
+
+`universalledger.googleapis.com/endpoints.list`
+
+`universalledger.googleapis.com/endpoints.readNetwork`
+
+`universalledger.googleapis.com/endpoints.submit`
+
+`universalledger.googleapis.com/locations.*`
+
+`universalledger.googleapis.com/locations.get`
+
+`universalledger.googleapis.com/locations.list`
 
 Vector Search
 

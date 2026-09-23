@@ -838,40 +838,53 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="healthcare.annotationStores.create" class="permission-name add-link" data-text="healthcare.annotationStores.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotationStores.delete" class="permission-name add-link" data-text="healthcare.annotationStores.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotationStores.evaluate" class="permission-name add-link" data-text="healthcare.annotationStores.evaluate" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  evaluate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotationStores.export" class="permission-name add-link" data-text="healthcare.annotationStores.export" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  export</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotationStores.get" class="permission-name add-link" data-text="healthcare.annotationStores.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreViewer">Healthcare Annotation Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotationStores.getIamPolicy" class="permission-name add-link" data-text="healthcare.annotationStores.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  getIamPolicy</code></h4></td>
@@ -880,15 +893,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotationStores.import" class="permission-name add-link" data-text="healthcare.annotationStores.import" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotationStores.list" class="permission-name add-link" data-text="healthcare.annotationStores.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  list</code></h4></td>
@@ -897,45 +915,58 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreViewer">Healthcare Annotation Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotationStores.setIamPolicy" class="permission-name add-link" data-text="healthcare.annotationStores.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotationStores.update" class="permission-name add-link" data-text="healthcare.annotationStores.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.  annotationStores.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotations.create" class="permission-name add-link" data-text="healthcare.annotations.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.annotations.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotations.delete" class="permission-name add-link" data-text="healthcare.annotations.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.annotations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotations.get" class="permission-name add-link" data-text="healthcare.annotations.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.annotations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.annotations.list" class="permission-name add-link" data-text="healthcare.annotations.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.annotations.list</code></h4></td>
@@ -944,37 +975,49 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.annotations.update" class="permission-name add-link" data-text="healthcare.annotations.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.annotations.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.attributeDefinitions.create" class="permission-name add-link" data-text="healthcare.attributeDefinitions.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  attributeDefinitions.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.attributeDefinitions.delete" class="permission-name add-link" data-text="healthcare.attributeDefinitions.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  attributeDefinitions.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.attributeDefinitions.get" class="permission-name add-link" data-text="healthcare.attributeDefinitions.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.  attributeDefinitions.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.attributeDefinitions.list" class="permission-name add-link" data-text="healthcare.attributeDefinitions.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.  attributeDefinitions.  list</code></h4></td>
@@ -983,39 +1026,51 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.attributeDefinitions.update" class="permission-name add-link" data-text="healthcare.attributeDefinitions.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.  attributeDefinitions.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentArtifacts.create" class="permission-name add-link" data-text="healthcare.consentArtifacts.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentArtifacts.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactEditor">Healthcare Consent Artifact Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactEditor">Healthcare Consent Artifact Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentArtifacts.delete" class="permission-name add-link" data-text="healthcare.consentArtifacts.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentArtifacts.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentArtifacts.get" class="permission-name add-link" data-text="healthcare.consentArtifacts.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentArtifacts.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactEditor">Healthcare Consent Artifact Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactReader">Healthcare Consent Artifact Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentArtifacts.list" class="permission-name add-link" data-text="healthcare.consentArtifacts.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentArtifacts.  list</code></h4></td>
@@ -1024,17 +1079,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactEditor">Healthcare Consent Artifact Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactReader">Healthcare Consent Artifact Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentStores.checkDataAccess" class="permission-name add-link" data-text="healthcare.consentStores.checkDataAccess" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  checkDataAccess</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
@@ -1046,25 +1105,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreViewer">Healthcare Consent Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentStores.create" class="permission-name add-link" data-text="healthcare.consentStores.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentStores.delete" class="permission-name add-link" data-text="healthcare.consentStores.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentStores.evaluateUserConsents" class="permission-name add-link" data-text="healthcare.consentStores.evaluateUserConsents" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  evaluateUserConsents</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
@@ -1076,13 +1142,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreViewer">Healthcare Consent Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentStores.get" class="permission-name add-link" data-text="healthcare.consentStores.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.consentStores.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
@@ -1094,7 +1163,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreViewer">Healthcare Consent Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentStores.getIamPolicy" class="permission-name add-link" data-text="healthcare.consentStores.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  getIamPolicy</code></h4></td>
@@ -1103,9 +1174,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentStores.list" class="permission-name add-link" data-text="healthcare.consentStores.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.consentStores.list</code></h4></td>
@@ -1114,6 +1188,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
@@ -1126,13 +1201,16 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentStores.queryAccessibleData" class="permission-name add-link" data-text="healthcare.consentStores.queryAccessibleData" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  queryAccessibleData</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionEditor">Healthcare Attribute Definition Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.attributeDefinitionReader">Healthcare Attribute Definition Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.attributeDefinitionReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentArtifactAdmin">Healthcare Consent Artifact Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentArtifactAdmin</code> )</p>
@@ -1144,46 +1222,60 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreViewer">Healthcare Consent Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consentStores.setIamPolicy" class="permission-name add-link" data-text="healthcare.consentStores.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consentStores.update" class="permission-name add-link" data-text="healthcare.consentStores.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.  consentStores.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentStoreAdmin">Healthcare Consent Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consents.activate" class="permission-name add-link" data-text="healthcare.consents.activate" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.activate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consents.create" class="permission-name add-link" data-text="healthcare.consents.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consents.delete" class="permission-name add-link" data-text="healthcare.consents.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consents.get" class="permission-name add-link" data-text="healthcare.consents.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentReader">Healthcare Consent Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consents.list" class="permission-name add-link" data-text="healthcare.consents.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.list</code></h4></td>
@@ -1192,52 +1284,68 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentReader">Healthcare Consent Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consents.reject" class="permission-name add-link" data-text="healthcare.consents.reject" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.reject</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.consents.revoke" class="permission-name add-link" data-text="healthcare.consents.revoke" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.revoke</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.consents.update" class="permission-name add-link" data-text="healthcare.consents.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.consents.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.consentEditor">Healthcare Consent Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.consentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.datasets.create" class="permission-name add-link" data-text="healthcare.datasets.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.datasets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.datasets.deidentify" class="permission-name add-link" data-text="healthcare.datasets.deidentify" tabindex="-1"><code dir="ltr" translate="no">healthcare.datasets.deidentify</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.datasets.delete" class="permission-name add-link" data-text="healthcare.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.datasets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.datasets.get" class="permission-name add-link" data-text="healthcare.datasets.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.datasets.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
@@ -1268,7 +1376,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreViewer">Healthcare HL7v2 Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.datasets.getIamPolicy" class="permission-name add-link" data-text="healthcare.datasets.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  datasets.  getIamPolicy</code></h4></td>
@@ -1277,9 +1387,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.datasets.list" class="permission-name add-link" data-text="healthcare.datasets.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.datasets.list</code></h4></td>
@@ -1288,6 +1401,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
@@ -1319,85 +1433,111 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.datasets.setIamPolicy" class="permission-name add-link" data-text="healthcare.datasets.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  datasets.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.datasets.update" class="permission-name add-link" data-text="healthcare.datasets.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.datasets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.create" class="permission-name add-link" data-text="healthcare.dicomStores.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.deidentify" class="permission-name add-link" data-text="healthcare.dicomStores.deidentify" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  deidentify</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.delete" class="permission-name add-link" data-text="healthcare.dicomStores.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.dicomWebDelete" class="permission-name add-link" data-text="healthcare.dicomStores.dicomWebDelete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  dicomWebDelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.dicomWebRead" class="permission-name add-link" data-text="healthcare.dicomStores.dicomWebRead" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  dicomWebRead</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomViewer">Healthcare DICOM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.dicomWebUpdate" class="permission-name add-link" data-text="healthcare.dicomStores.dicomWebUpdate" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  dicomWebUpdate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.dicomWebWrite" class="permission-name add-link" data-text="healthcare.dicomStores.dicomWebWrite" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  dicomWebWrite</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.export" class="permission-name add-link" data-text="healthcare.dicomStores.export" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.export</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomViewer">Healthcare DICOM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.get" class="permission-name add-link" data-text="healthcare.dicomStores.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreViewer">Healthcare DICOM Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomViewer">Healthcare DICOM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.getIamPolicy" class="permission-name add-link" data-text="healthcare.dicomStores.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  getIamPolicy</code></h4></td>
@@ -1406,15 +1546,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.import" class="permission-name add-link" data-text="healthcare.dicomStores.import" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.list" class="permission-name add-link" data-text="healthcare.dicomStores.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.list</code></h4></td>
@@ -1423,158 +1568,209 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreViewer">Healthcare DICOM Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomViewer">Healthcare DICOM Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.dicomStores.setIamPolicy" class="permission-name add-link" data-text="healthcare.dicomStores.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  dicomStores.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.dicomStores.update" class="permission-name add-link" data-text="healthcare.dicomStores.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.dicomStores.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirResources.create" class="permission-name add-link" data-text="healthcare.fhirResources.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirResources.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirResources.delete" class="permission-name add-link" data-text="healthcare.fhirResources.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirResources.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirResources.get" class="permission-name add-link" data-text="healthcare.fhirResources.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirResources.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceReader">Healthcare FHIR Resource Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirResources.patch" class="permission-name add-link" data-text="healthcare.fhirResources.patch" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirResources.patch</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirResources.purge" class="permission-name add-link" data-text="healthcare.fhirResources.purge" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirResources.purge</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirResources.translateConceptMap" class="permission-name add-link" data-text="healthcare.fhirResources.translateConceptMap" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirResources.  translateConceptMap</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceReader">Healthcare FHIR Resource Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirResources.update" class="permission-name add-link" data-text="healthcare.fhirResources.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirResources.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.applyConsents" class="permission-name add-link" data-text="healthcare.fhirStores.applyConsents" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  applyConsents</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.bulkDelete" class="permission-name add-link" data-text="healthcare.fhirStores.bulkDelete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  bulkDelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.configureSearch" class="permission-name add-link" data-text="healthcare.fhirStores.configureSearch" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  configureSearch</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.create" class="permission-name add-link" data-text="healthcare.fhirStores.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.deidentify" class="permission-name add-link" data-text="healthcare.fhirStores.deidentify" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  deidentify</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.delete" class="permission-name add-link" data-text="healthcare.fhirStores.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.deleteFhirOperation" class="permission-name add-link" data-text="healthcare.fhirStores.deleteFhirOperation" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  deleteFhirOperation</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.executeBundle" class="permission-name add-link" data-text="healthcare.fhirStores.executeBundle" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  executeBundle</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceReader">Healthcare FHIR Resource Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.explainDataAccess" class="permission-name add-link" data-text="healthcare.fhirStores.explainDataAccess" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  explainDataAccess</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.export" class="permission-name add-link" data-text="healthcare.fhirStores.export" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.export</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.get" class="permission-name add-link" data-text="healthcare.fhirStores.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceReader">Healthcare FHIR Resource Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreViewer">Healthcare FHIR Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.getFhirOperation" class="permission-name add-link" data-text="healthcare.fhirStores.getFhirOperation" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  getFhirOperation</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.getIamPolicy" class="permission-name add-link" data-text="healthcare.fhirStores.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  getIamPolicy</code></h4></td>
@@ -1583,15 +1779,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.import" class="permission-name add-link" data-text="healthcare.fhirStores.import" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.list" class="permission-name add-link" data-text="healthcare.fhirStores.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.list</code></h4></td>
@@ -1600,68 +1801,88 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceReader">Healthcare FHIR Resource Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreViewer">Healthcare FHIR Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.rollback" class="permission-name add-link" data-text="healthcare.fhirStores.rollback" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.rollback</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.searchResources" class="permission-name add-link" data-text="healthcare.fhirStores.searchResources" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  searchResources</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceReader">Healthcare FHIR Resource Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.fhirStores.setIamPolicy" class="permission-name add-link" data-text="healthcare.fhirStores.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  fhirStores.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.fhirStores.update" class="permission-name add-link" data-text="healthcare.fhirStores.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.fhirStores.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Messages.create" class="permission-name add-link" data-text="healthcare.hl7V2Messages.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Messages.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Consumer">Healthcare HL7v2 Message Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Consumer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Messages.delete" class="permission-name add-link" data-text="healthcare.hl7V2Messages.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Messages.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Messages.get" class="permission-name add-link" data-text="healthcare.hl7V2Messages.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Messages.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Consumer">Healthcare HL7v2 Message Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Consumer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Messages.ingest" class="permission-name add-link" data-text="healthcare.hl7V2Messages.ingest" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Messages.  ingest</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Ingest">Healthcare HL7v2 Message Ingest</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Ingest</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Ingest">Healthcare HL7v2 Message Ingest</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Ingest</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Messages.list" class="permission-name add-link" data-text="healthcare.hl7V2Messages.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Messages.list</code></h4></td>
@@ -1670,49 +1891,64 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Consumer">Healthcare HL7v2 Message Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Consumer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Messages.update" class="permission-name add-link" data-text="healthcare.hl7V2Messages.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Messages.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Consumer">Healthcare HL7v2 Message Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Consumer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Stores.create" class="permission-name add-link" data-text="healthcare.hl7V2Stores.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Stores.delete" class="permission-name add-link" data-text="healthcare.hl7V2Stores.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Stores.export" class="permission-name add-link" data-text="healthcare.hl7V2Stores.export" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.export</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Stores.get" class="permission-name add-link" data-text="healthcare.hl7V2Stores.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Consumer">Healthcare HL7v2 Message Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Consumer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Ingest">Healthcare HL7v2 Message Ingest</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Ingest</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreViewer">Healthcare HL7v2 Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Stores.getIamPolicy" class="permission-name add-link" data-text="healthcare.hl7V2Stores.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Stores.  getIamPolicy</code></h4></td>
@@ -1721,15 +1957,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Stores.import" class="permission-name add-link" data-text="healthcare.hl7V2Stores.import" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.import</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Stores.list" class="permission-name add-link" data-text="healthcare.hl7V2Stores.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.list</code></h4></td>
@@ -1738,37 +1979,46 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Consumer">Healthcare HL7v2 Message Consumer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Consumer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Ingest">Healthcare HL7v2 Message Ingest</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Ingest</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreViewer">Healthcare HL7v2 Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Stores.rollback" class="permission-name add-link" data-text="healthcare.hl7V2Stores.rollback" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Stores.  rollback</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.hl7V2Stores.setIamPolicy" class="permission-name add-link" data-text="healthcare.hl7V2Stores.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">healthcare.  hl7V2Stores.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.hl7V2Stores.update" class="permission-name add-link" data-text="healthcare.hl7V2Stores.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.hl7V2Stores.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.locations.get" class="permission-name add-link" data-text="healthcare.locations.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.locations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
@@ -1800,7 +2050,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.nlpServiceViewer">Healthcare NLP Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.nlpServiceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.locations.list" class="permission-name add-link" data-text="healthcare.locations.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.locations.list</code></h4></td>
@@ -1809,6 +2061,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
@@ -1841,33 +2094,41 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.nlpservice.analyzeEntities" class="permission-name add-link" data-text="healthcare.nlpservice.analyzeEntities" tabindex="-1"><code dir="ltr" translate="no">healthcare.  nlpservice.  analyzeEntities</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.nlpServiceViewer">Healthcare NLP Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.nlpServiceViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.operations.cancel" class="permission-name add-link" data-text="healthcare.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">healthcare.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomEditor">Healthcare DICOM Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.dicomStoreAdmin">Healthcare DICOM Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.dicomStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirResourceEditor">Healthcare FHIR Resource Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirResourceEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.fhirStoreAdmin">Healthcare FHIR Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.fhirStoreAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2Editor">Healthcare HL7v2 Message Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2Editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreAdmin">Healthcare HL7v2 Store Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.operations.get" class="permission-name add-link" data-text="healthcare.operations.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.operations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationEditor">Healthcare Annotation Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationReader">Healthcare Annotation Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.annotationStoreAdmin">Healthcare Annotation Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.annotationStoreAdmin</code> )</p>
@@ -1898,7 +2159,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.hl7V2StoreViewer">Healthcare HL7v2 Store Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.hl7V2StoreViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.operations.list" class="permission-name add-link" data-text="healthcare.operations.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.operations.list</code></h4></td>
@@ -1907,36 +2170,48 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.datasetAdmin">Healthcare Dataset Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.datasetAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.userDataMappings.archive" class="permission-name add-link" data-text="healthcare.userDataMappings.archive" tabindex="-1"><code dir="ltr" translate="no">healthcare.  userDataMappings.  archive</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.userDataMappings.create" class="permission-name add-link" data-text="healthcare.userDataMappings.create" tabindex="-1"><code dir="ltr" translate="no">healthcare.  userDataMappings.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.userDataMappings.delete" class="permission-name add-link" data-text="healthcare.userDataMappings.delete" tabindex="-1"><code dir="ltr" translate="no">healthcare.  userDataMappings.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.userDataMappings.get" class="permission-name add-link" data-text="healthcare.userDataMappings.get" tabindex="-1"><code dir="ltr" translate="no">healthcare.  userDataMappings.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="healthcare.userDataMappings.list" class="permission-name add-link" data-text="healthcare.userDataMappings.list" tabindex="-1"><code dir="ltr" translate="no">healthcare.  userDataMappings.  list</code></h4></td>
@@ -1945,16 +2220,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingReader">Healthcare User Data Mapping Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingReader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="healthcare.userDataMappings.update" class="permission-name add-link" data-text="healthcare.userDataMappings.update" tabindex="-1"><code dir="ltr" translate="no">healthcare.  userDataMappings.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/healthcare#healthcare.userDataMappingEditor">Healthcare User Data Mapping Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  healthcare.userDataMappingEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

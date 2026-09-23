@@ -70,13 +70,17 @@ This page lists the IAM roles and permissions for On-Demand Scanning API. To sea
 <td><h4 id="ondemandscanning.operations.cancel" class="permission-name add-link" data-text="ondemandscanning.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ondemandscanning.operations.delete" class="permission-name add-link" data-text="ondemandscanning.operations.delete" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ondemandscanning.operations.get" class="permission-name add-link" data-text="ondemandscanning.operations.get" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  operations.  get</code></h4></td>
@@ -85,7 +89,10 @@ This page lists the IAM roles and permissions for On-Demand Scanning API. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.viewer">On-Demand Scanning Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ondemandscanning.operations.list" class="permission-name add-link" data-text="ondemandscanning.operations.list" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  operations.  list</code></h4></td>
@@ -96,8 +103,11 @@ This page lists the IAM roles and permissions for On-Demand Scanning API. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.viewer">On-Demand Scanning Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ondemandscanning.operations.wait" class="permission-name add-link" data-text="ondemandscanning.operations.wait" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  operations.  wait</code></h4></td>
@@ -106,13 +116,18 @@ This page lists the IAM roles and permissions for On-Demand Scanning API. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.viewer">On-Demand Scanning Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ondemandscanning.scans.analyzePackages" class="permission-name add-link" data-text="ondemandscanning.scans.analyzePackages" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  scans.  analyzePackages</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="ondemandscanning.scans.listVulnerabilities" class="permission-name add-link" data-text="ondemandscanning.scans.listVulnerabilities" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.  scans.  listVulnerabilities</code></h4></td>
@@ -121,13 +136,18 @@ This page lists the IAM roles and permissions for On-Demand Scanning API. To sea
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.viewer">On-Demand Scanning Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="ondemandscanning.scans.scan" class="permission-name add-link" data-text="ondemandscanning.scans.scan" tabindex="-1"><code dir="ltr" translate="no">ondemandscanning.scans.scan</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/ondemandscanning#ondemandscanning.admin">On-Demand Scanning Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  ondemandscanning.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

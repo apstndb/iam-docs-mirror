@@ -80,13 +80,17 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <td><h4 id="blockchainvalidatormanager.blockchainValidatorConfigs.create" class="permission-name add-link" data-text="blockchainvalidatormanager.blockchainValidatorConfigs.create" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  blockchainValidatorConfigs.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="blockchainvalidatormanager.blockchainValidatorConfigs.delete" class="permission-name add-link" data-text="blockchainvalidatormanager.blockchainValidatorConfigs.delete" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  blockchainValidatorConfigs.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="blockchainvalidatormanager.blockchainValidatorConfigs.get" class="permission-name add-link" data-text="blockchainvalidatormanager.blockchainValidatorConfigs.get" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  blockchainValidatorConfigs.  get</code></h4></td>
@@ -95,7 +99,10 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.viewer">Blockchain Validator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="blockchainvalidatormanager.blockchainValidatorConfigs.list" class="permission-name add-link" data-text="blockchainvalidatormanager.blockchainValidatorConfigs.list" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  blockchainValidatorConfigs.  list</code></h4></td>
@@ -106,14 +113,19 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.viewer">Blockchain Validator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="blockchainvalidatormanager.blockchainValidatorConfigs.update" class="permission-name add-link" data-text="blockchainvalidatormanager.blockchainValidatorConfigs.update" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  blockchainValidatorConfigs.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="blockchainvalidatormanager.locations.get" class="permission-name add-link" data-text="blockchainvalidatormanager.locations.get" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  locations.  get</code></h4></td>
@@ -122,7 +134,10 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.viewer">Blockchain Validator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="blockchainvalidatormanager.locations.list" class="permission-name add-link" data-text="blockchainvalidatormanager.locations.list" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  locations.  list</code></h4></td>
@@ -133,20 +148,27 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.viewer">Blockchain Validator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="blockchainvalidatormanager.operations.cancel" class="permission-name add-link" data-text="blockchainvalidatormanager.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="blockchainvalidatormanager.operations.delete" class="permission-name add-link" data-text="blockchainvalidatormanager.operations.delete" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="blockchainvalidatormanager.operations.get" class="permission-name add-link" data-text="blockchainvalidatormanager.operations.get" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  operations.  get</code></h4></td>
@@ -155,7 +177,10 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.admin">Blockchain Validator Manager Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.viewer">Blockchain Validator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="blockchainvalidatormanager.operations.list" class="permission-name add-link" data-text="blockchainvalidatormanager.operations.list" tabindex="-1"><code dir="ltr" translate="no">blockchainvalidatormanager.  operations.  list</code></h4></td>
@@ -166,8 +191,11 @@ This page lists the IAM roles and permissions for Blockchain Validator Manager. 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/blockchainvalidatormanager#blockchainvalidatormanager.viewer">Blockchain Validator Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  blockchainvalidatormanager.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

@@ -70,8 +70,11 @@ This page lists the IAM roles and permissions for Subscribe with Google. To sear
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/subscribewithgoogledeveloper#subscribewithgoogledeveloper.admin">Subscribewithgoogledeveloper Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  subscribewithgoogledeveloper.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/subscribewithgoogledeveloper#subscribewithgoogledeveloper.viewer">Subscribewithgoogledeveloper Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  subscribewithgoogledeveloper.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/subscribewithgoogledeveloper#subscribewithgoogledeveloper.developer">Subscribe with Google Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  subscribewithgoogledeveloper.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/subscribewithgoogledeveloper#subscribewithgoogledeveloper.developer">Subscribe with Google Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  subscribewithgoogledeveloper.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

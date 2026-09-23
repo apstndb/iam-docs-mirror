@@ -157,7 +157,9 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.attachments.delete" class="permission-name add-link" data-text="proximitybeacon.attachments.delete" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  attachments.  delete</code></h4></td>
@@ -165,7 +167,9 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.attachments.get" class="permission-name add-link" data-text="proximitybeacon.attachments.get" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  attachments.  get</code></h4></td>
@@ -175,9 +179,12 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentViewer">Beacon Attachment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentViewer">Beacon Attachment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.attachments.list" class="permission-name add-link" data-text="proximitybeacon.attachments.list" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  attachments.  list</code></h4></td>
@@ -189,10 +196,13 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentViewer">Beacon Attachment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentViewer">Beacon Attachment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.beacons.attach" class="permission-name add-link" data-text="proximitybeacon.beacons.attach" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.beacons.attach</code></h4></td>
@@ -200,7 +210,9 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentPublisher">Beacon Attachment Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentPublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentPublisher">Beacon Attachment Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentPublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.beacons.create" class="permission-name add-link" data-text="proximitybeacon.beacons.create" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.beacons.create</code></h4></td>
@@ -208,7 +220,9 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.beacons.get" class="permission-name add-link" data-text="proximitybeacon.beacons.get" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.beacons.get</code></h4></td>
@@ -218,10 +232,13 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentPublisher">Beacon Attachment Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentPublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.beacons.getIamPolicy" class="permission-name add-link" data-text="proximitybeacon.beacons.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  beacons.  getIamPolicy</code></h4></td>
@@ -229,6 +246,7 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="odd">
@@ -241,17 +259,21 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentPublisher">Beacon Attachment Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentPublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.beacons.setIamPolicy" class="permission-name add-link" data-text="proximitybeacon.beacons.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  beacons.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.beacons.update" class="permission-name add-link" data-text="proximitybeacon.beacons.update" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.beacons.update</code></h4></td>
@@ -259,21 +281,27 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.beaconEditor">Beacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.beaconEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.namespaces.create" class="permission-name add-link" data-text="proximitybeacon.namespaces.create" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  namespaces.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.namespaces.delete" class="permission-name add-link" data-text="proximitybeacon.namespaces.delete" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  namespaces.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.namespaces.get" class="permission-name add-link" data-text="proximitybeacon.namespaces.get" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.namespaces.get</code></h4></td>
@@ -283,7 +311,10 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.namespaces.getIamPolicy" class="permission-name add-link" data-text="proximitybeacon.namespaces.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  namespaces.  getIamPolicy</code></h4></td>
@@ -291,6 +322,7 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p></td>
 </tr>
 <tr class="even">
@@ -303,22 +335,28 @@ This page lists the IAM roles and permissions for Proximity Beacon. To search th
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.viewer">Proximitybeacon Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.attachmentEditor">Beacon Attachment Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.attachmentEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="proximitybeacon.namespaces.setIamPolicy" class="permission-name add-link" data-text="proximitybeacon.namespaces.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  namespaces.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="proximitybeacon.namespaces.update" class="permission-name add-link" data-text="proximitybeacon.namespaces.update" tabindex="-1"><code dir="ltr" translate="no">proximitybeacon.  namespaces.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.admin">Proximitybeacon Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/proximitybeacon#proximitybeacon.editor">Proximitybeacon Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  proximitybeacon.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

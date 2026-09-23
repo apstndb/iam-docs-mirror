@@ -86,14 +86,18 @@ This page lists the IAM roles and permissions for Google Health. To search throu
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="health.subscribers.delete" class="permission-name add-link" data-text="health.subscribers.delete" tabindex="-1"><code dir="ltr" translate="no">health.subscribers.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="health.subscribers.list" class="permission-name add-link" data-text="health.subscribers.list" tabindex="-1"><code dir="ltr" translate="no">health.subscribers.list</code></h4></td>
@@ -105,29 +109,38 @@ This page lists the IAM roles and permissions for Google Health. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.viewer">Google Health API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="health.subscribers.update" class="permission-name add-link" data-text="health.subscribers.update" tabindex="-1"><code dir="ltr" translate="no">health.subscribers.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="health.subscriptions.create" class="permission-name add-link" data-text="health.subscriptions.create" tabindex="-1"><code dir="ltr" translate="no">health.subscriptions.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="health.subscriptions.delete" class="permission-name add-link" data-text="health.subscriptions.delete" tabindex="-1"><code dir="ltr" translate="no">health.subscriptions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="health.subscriptions.get" class="permission-name add-link" data-text="health.subscriptions.get" tabindex="-1"><code dir="ltr" translate="no">health.subscriptions.get</code></h4></td>
@@ -137,7 +150,10 @@ This page lists the IAM roles and permissions for Google Health. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.viewer">Google Health API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="health.subscriptions.list" class="permission-name add-link" data-text="health.subscriptions.list" tabindex="-1"><code dir="ltr" translate="no">health.subscriptions.list</code></h4></td>
@@ -149,15 +165,20 @@ This page lists the IAM roles and permissions for Google Health. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.viewer">Google Health API Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="health.subscriptions.update" class="permission-name add-link" data-text="health.subscriptions.update" tabindex="-1"><code dir="ltr" translate="no">health.subscriptions.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.admin">Google Health API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/health#health.editor">Google Health API Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  health.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

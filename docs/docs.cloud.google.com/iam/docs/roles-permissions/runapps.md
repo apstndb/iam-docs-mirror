@@ -214,14 +214,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.applications.delete" class="permission-name add-link" data-text="runapps.applications.delete" tabindex="-1"><code dir="ltr" translate="no">runapps.applications.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.applications.get" class="permission-name add-link" data-text="runapps.applications.get" tabindex="-1"><code dir="ltr" translate="no">runapps.applications.get</code></h4></td>
@@ -230,9 +234,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.applications.getStatus" class="permission-name add-link" data-text="runapps.applications.getStatus" tabindex="-1"><code dir="ltr" translate="no">runapps.applications.getStatus</code></h4></td>
@@ -241,9 +248,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.applications.list" class="permission-name add-link" data-text="runapps.applications.list" tabindex="-1"><code dir="ltr" translate="no">runapps.applications.list</code></h4></td>
@@ -254,24 +264,31 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.applications.update" class="permission-name add-link" data-text="runapps.applications.update" tabindex="-1"><code dir="ltr" translate="no">runapps.applications.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.deployments.create" class="permission-name add-link" data-text="runapps.deployments.create" tabindex="-1"><code dir="ltr" translate="no">runapps.deployments.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.deployments.get" class="permission-name add-link" data-text="runapps.deployments.get" tabindex="-1"><code dir="ltr" translate="no">runapps.deployments.get</code></h4></td>
@@ -280,9 +297,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.deployments.list" class="permission-name add-link" data-text="runapps.deployments.list" tabindex="-1"><code dir="ltr" translate="no">runapps.deployments.list</code></h4></td>
@@ -293,10 +313,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.locations.get" class="permission-name add-link" data-text="runapps.locations.get" tabindex="-1"><code dir="ltr" translate="no">runapps.locations.get</code></h4></td>
@@ -305,9 +328,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.locations.list" class="permission-name add-link" data-text="runapps.locations.list" tabindex="-1"><code dir="ltr" translate="no">runapps.locations.list</code></h4></td>
@@ -318,26 +344,33 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.operations.cancel" class="permission-name add-link" data-text="runapps.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">runapps.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.operations.delete" class="permission-name add-link" data-text="runapps.operations.delete" tabindex="-1"><code dir="ltr" translate="no">runapps.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="runapps.operations.get" class="permission-name add-link" data-text="runapps.operations.get" tabindex="-1"><code dir="ltr" translate="no">runapps.operations.get</code></h4></td>
@@ -346,9 +379,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="runapps.operations.list" class="permission-name add-link" data-text="runapps.operations.list" tabindex="-1"><code dir="ltr" translate="no">runapps.operations.list</code></h4></td>
@@ -359,10 +395,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.admin">Runapps Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.viewer">Serverless Integrations Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.developer">Serverless Integrations Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.developer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/runapps#runapps.operator">Serverless Integrations Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  runapps.operator</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

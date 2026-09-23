@@ -97,7 +97,9 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <td><h4 id="enterprisepurchasing.gcveCuds.create" class="permission-name add-link" data-text="enterprisepurchasing.gcveCuds.create" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterprisepurchasing.gcveCuds.get" class="permission-name add-link" data-text="enterprisepurchasing.gcveCuds.get" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  get</code></h4></td>
@@ -107,7 +109,10 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.editor">Enterprise Purchasing Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterprisepurchasing.gcveCuds.list" class="permission-name add-link" data-text="enterprisepurchasing.gcveCuds.list" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  list</code></h4></td>
@@ -119,8 +124,11 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterprisepurchasing.gcveNodePricingInfo.list" class="permission-name add-link" data-text="enterprisepurchasing.gcveNodePricingInfo.list" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  gcveNodePricingInfo.  list</code></h4></td>
@@ -132,8 +140,11 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterprisepurchasing.locations.get" class="permission-name add-link" data-text="enterprisepurchasing.locations.get" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  locations.  get</code></h4></td>
@@ -143,7 +154,10 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.editor">Enterprise Purchasing Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterprisepurchasing.locations.list" class="permission-name add-link" data-text="enterprisepurchasing.locations.list" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  locations.  list</code></h4></td>
@@ -155,20 +169,27 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterprisepurchasing.operations.cancel" class="permission-name add-link" data-text="enterprisepurchasing.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterprisepurchasing.operations.delete" class="permission-name add-link" data-text="enterprisepurchasing.operations.delete" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="enterprisepurchasing.operations.get" class="permission-name add-link" data-text="enterprisepurchasing.operations.get" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  operations.  get</code></h4></td>
@@ -178,7 +199,10 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.admin">Enterprise Purchasing Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.editor">Enterprise Purchasing Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="enterprisepurchasing.operations.list" class="permission-name add-link" data-text="enterprisepurchasing.operations.list" tabindex="-1"><code dir="ltr" translate="no">enterprisepurchasing.  operations.  list</code></h4></td>
@@ -190,8 +214,11 @@ This page lists the IAM roles and permissions for Enterprise Purchasing API. To 
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/enterprisepurchasing#enterprisepurchasing.viewer">Enterprise Purchasing Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  enterprisepurchasing.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

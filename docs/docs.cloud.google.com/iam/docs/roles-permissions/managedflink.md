@@ -179,13 +179,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><h4 id="managedflink.deployments.create" class="permission-name add-link" data-text="managedflink.deployments.create" tabindex="-1"><code dir="ltr" translate="no">managedflink.  deployments.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.deployments.delete" class="permission-name add-link" data-text="managedflink.deployments.delete" tabindex="-1"><code dir="ltr" translate="no">managedflink.  deployments.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.deployments.get" class="permission-name add-link" data-text="managedflink.deployments.get" tabindex="-1"><code dir="ltr" translate="no">managedflink.deployments.get</code></h4></td>
@@ -194,8 +198,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.deployments.list" class="permission-name add-link" data-text="managedflink.deployments.list" tabindex="-1"><code dir="ltr" translate="no">managedflink.deployments.list</code></h4></td>
@@ -206,29 +213,38 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.deployments.update" class="permission-name add-link" data-text="managedflink.deployments.update" tabindex="-1"><code dir="ltr" translate="no">managedflink.  deployments.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.jobs.create" class="permission-name add-link" data-text="managedflink.jobs.create" tabindex="-1"><code dir="ltr" translate="no">managedflink.jobs.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.jobs.delete" class="permission-name add-link" data-text="managedflink.jobs.delete" tabindex="-1"><code dir="ltr" translate="no">managedflink.jobs.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.jobs.get" class="permission-name add-link" data-text="managedflink.jobs.get" tabindex="-1"><code dir="ltr" translate="no">managedflink.jobs.get</code></h4></td>
@@ -237,8 +253,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.jobs.list" class="permission-name add-link" data-text="managedflink.jobs.list" tabindex="-1"><code dir="ltr" translate="no">managedflink.jobs.list</code></h4></td>
@@ -249,16 +268,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.jobs.update" class="permission-name add-link" data-text="managedflink.jobs.update" tabindex="-1"><code dir="ltr" translate="no">managedflink.jobs.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.locations.get" class="permission-name add-link" data-text="managedflink.locations.get" tabindex="-1"><code dir="ltr" translate="no">managedflink.locations.get</code></h4></td>
@@ -267,8 +291,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.locations.list" class="permission-name add-link" data-text="managedflink.locations.list" tabindex="-1"><code dir="ltr" translate="no">managedflink.locations.list</code></h4></td>
@@ -279,21 +306,28 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.operations.cancel" class="permission-name add-link" data-text="managedflink.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">managedflink.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.operations.delete" class="permission-name add-link" data-text="managedflink.operations.delete" tabindex="-1"><code dir="ltr" translate="no">managedflink.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.operations.get" class="permission-name add-link" data-text="managedflink.operations.get" tabindex="-1"><code dir="ltr" translate="no">managedflink.operations.get</code></h4></td>
@@ -302,8 +336,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.operations.list" class="permission-name add-link" data-text="managedflink.operations.list" tabindex="-1"><code dir="ltr" translate="no">managedflink.operations.list</code></h4></td>
@@ -314,23 +351,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.sessions.create" class="permission-name add-link" data-text="managedflink.sessions.create" tabindex="-1"><code dir="ltr" translate="no">managedflink.sessions.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.sessions.delete" class="permission-name add-link" data-text="managedflink.sessions.delete" tabindex="-1"><code dir="ltr" translate="no">managedflink.sessions.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.sessions.get" class="permission-name add-link" data-text="managedflink.sessions.get" tabindex="-1"><code dir="ltr" translate="no">managedflink.sessions.get</code></h4></td>
@@ -339,8 +383,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="managedflink.sessions.list" class="permission-name add-link" data-text="managedflink.sessions.list" tabindex="-1"><code dir="ltr" translate="no">managedflink.sessions.list</code></h4></td>
@@ -351,16 +398,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.viewer">Managed Flink Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="managedflink.sessions.update" class="permission-name add-link" data-text="managedflink.sessions.update" tabindex="-1"><code dir="ltr" translate="no">managedflink.sessions.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.admin">Managed Flink Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/managedflink#managedflink.developer">Managed Flink Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  managedflink.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

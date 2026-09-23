@@ -83,9 +83,12 @@ This page lists the IAM roles and permissions for Policy Analyzer. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.admin">Policyanalyzer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.viewer">Policyanalyzer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.denyAdmin">Deny Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.denyAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.activityAnalysisViewer">Activity Analysis Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.activityAnalysisViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.activityAnalysisViewer">Activity Analysis Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.activityAnalysisViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="policyanalyzer.serviceAccountKeyLastAuthenticationActivities.query" class="permission-name add-link" data-text="policyanalyzer.serviceAccountKeyLastAuthenticationActivities.query" tabindex="-1"><code dir="ltr" translate="no">policyanalyzer.  serviceAccountKeyLastAuthenticationActivities.  query</code></h4></td>
@@ -94,8 +97,11 @@ This page lists the IAM roles and permissions for Policy Analyzer. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.admin">Policyanalyzer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.viewer">Policyanalyzer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.activityAnalysisViewer">Activity Analysis Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.activityAnalysisViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.activityAnalysisViewer">Activity Analysis Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.activityAnalysisViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="policyanalyzer.serviceAccountLastAuthenticationActivities.query" class="permission-name add-link" data-text="policyanalyzer.serviceAccountLastAuthenticationActivities.query" tabindex="-1"><code dir="ltr" translate="no">policyanalyzer.  serviceAccountLastAuthenticationActivities.  query</code></h4></td>
@@ -104,8 +110,11 @@ This page lists the IAM roles and permissions for Policy Analyzer. To search thr
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.admin">Policyanalyzer Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.viewer">Policyanalyzer Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.activityAnalysisViewer">Activity Analysis Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.activityAnalysisViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/policyanalyzer#policyanalyzer.activityAnalysisViewer">Activity Analysis Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  policyanalyzer.activityAnalysisViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

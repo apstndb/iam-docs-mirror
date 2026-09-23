@@ -232,7 +232,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.assets.delete" class="permission-name add-link" data-text="earthengine.assets.delete" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.delete</code></h4></td>
@@ -240,7 +242,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.assets.get" class="permission-name add-link" data-text="earthengine.assets.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.get</code></h4></td>
@@ -250,8 +254,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.assets.getIamPolicy" class="permission-name add-link" data-text="earthengine.assets.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">earthengine.  assets.  getIamPolicy</code></h4></td>
@@ -263,9 +270,12 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.assets.list" class="permission-name add-link" data-text="earthengine.assets.list" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.list</code></h4></td>
@@ -277,15 +287,19 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.assets.setIamPolicy" class="permission-name add-link" data-text="earthengine.assets.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">earthengine.  assets.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.assets.update" class="permission-name add-link" data-text="earthengine.assets.update" tabindex="-1"><code dir="ltr" translate="no">earthengine.assets.update</code></h4></td>
@@ -293,7 +307,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.computations.create" class="permission-name add-link" data-text="earthengine.computations.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  computations.  create</code></h4></td>
@@ -302,7 +318,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.config.get" class="permission-name add-link" data-text="earthengine.config.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.config.get</code></h4></td>
@@ -312,8 +330,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.config.update" class="permission-name add-link" data-text="earthengine.config.update" tabindex="-1"><code dir="ltr" translate="no">earthengine.config.update</code></h4></td>
@@ -321,7 +342,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.exports.create" class="permission-name add-link" data-text="earthengine.exports.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.exports.create</code></h4></td>
@@ -329,7 +352,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.featureviews.create" class="permission-name add-link" data-text="earthengine.featureviews.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  featureviews.  create</code></h4></td>
@@ -337,7 +362,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.filmstripthumbnails.create" class="permission-name add-link" data-text="earthengine.filmstripthumbnails.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  create</code></h4></td>
@@ -345,7 +372,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.filmstripthumbnails.get" class="permission-name add-link" data-text="earthengine.filmstripthumbnails.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.  filmstripthumbnails.  get</code></h4></td>
@@ -355,8 +384,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.imports.create" class="permission-name add-link" data-text="earthengine.imports.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.imports.create</code></h4></td>
@@ -364,7 +396,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.maps.create" class="permission-name add-link" data-text="earthengine.maps.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.maps.create</code></h4></td>
@@ -372,7 +406,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.maps.get" class="permission-name add-link" data-text="earthengine.maps.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.maps.get</code></h4></td>
@@ -382,8 +418,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.operations.delete" class="permission-name add-link" data-text="earthengine.operations.delete" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.delete</code></h4></td>
@@ -391,7 +430,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.operations.get" class="permission-name add-link" data-text="earthengine.operations.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.get</code></h4></td>
@@ -401,8 +442,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.operations.list" class="permission-name add-link" data-text="earthengine.operations.list" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.list</code></h4></td>
@@ -414,9 +458,12 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.operations.update" class="permission-name add-link" data-text="earthengine.operations.update" tabindex="-1"><code dir="ltr" translate="no">earthengine.operations.update</code></h4></td>
@@ -424,7 +471,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.tables.create" class="permission-name add-link" data-text="earthengine.tables.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.tables.create</code></h4></td>
@@ -432,7 +481,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.tables.get" class="permission-name add-link" data-text="earthengine.tables.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.tables.get</code></h4></td>
@@ -442,8 +493,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.thumbnails.create" class="permission-name add-link" data-text="earthengine.thumbnails.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.thumbnails.create</code></h4></td>
@@ -451,7 +505,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.thumbnails.get" class="permission-name add-link" data-text="earthengine.thumbnails.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.thumbnails.get</code></h4></td>
@@ -461,8 +517,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="earthengine.videothumbnails.create" class="permission-name add-link" data-text="earthengine.videothumbnails.create" tabindex="-1"><code dir="ltr" translate="no">earthengine.  videothumbnails.  create</code></h4></td>
@@ -470,7 +529,9 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="earthengine.videothumbnails.get" class="permission-name add-link" data-text="earthengine.videothumbnails.get" tabindex="-1"><code dir="ltr" translate="no">earthengine.  videothumbnails.  get</code></h4></td>
@@ -480,8 +541,11 @@ This page lists the IAM roles and permissions for Google Earth Engine. To search
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.admin">Earth Engine Resource Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.editor">Earthengine Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.viewer">Earth Engine Resource Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.writer">Earth Engine Resource Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.writer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

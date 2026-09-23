@@ -817,14 +817,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.jobs.delete" class="permission-name add-link" data-text="batch.jobs.delete" tabindex="-1"><code dir="ltr" translate="no">batch.jobs.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.jobs.get" class="permission-name add-link" data-text="batch.jobs.get" tabindex="-1"><code dir="ltr" translate="no">batch.jobs.get</code></h4></td>
@@ -833,9 +837,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.jobs.list" class="permission-name add-link" data-text="batch.jobs.list" tabindex="-1"><code dir="ltr" translate="no">batch.jobs.list</code></h4></td>
@@ -846,10 +853,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.locations.get" class="permission-name add-link" data-text="batch.locations.get" tabindex="-1"><code dir="ltr" translate="no">batch.locations.get</code></h4></td>
@@ -858,11 +868,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.locations.list" class="permission-name add-link" data-text="batch.locations.list" tabindex="-1"><code dir="ltr" translate="no">batch.locations.list</code></h4></td>
@@ -873,12 +886,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.operations.get" class="permission-name add-link" data-text="batch.operations.get" tabindex="-1"><code dir="ltr" translate="no">batch.operations.get</code></h4></td>
@@ -887,11 +903,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.operations.list" class="permission-name add-link" data-text="batch.operations.list" tabindex="-1"><code dir="ltr" translate="no">batch.operations.list</code></h4></td>
@@ -902,26 +921,33 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.resourceAllowances.create" class="permission-name add-link" data-text="batch.resourceAllowances.create" tabindex="-1"><code dir="ltr" translate="no">batch.  resourceAllowances.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.resourceAllowances.delete" class="permission-name add-link" data-text="batch.resourceAllowances.delete" tabindex="-1"><code dir="ltr" translate="no">batch.  resourceAllowances.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.resourceAllowances.get" class="permission-name add-link" data-text="batch.resourceAllowances.get" tabindex="-1"><code dir="ltr" translate="no">batch.resourceAllowances.get</code></h4></td>
@@ -930,9 +956,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.resourceAllowances.list" class="permission-name add-link" data-text="batch.resourceAllowances.list" tabindex="-1"><code dir="ltr" translate="no">batch.resourceAllowances.list</code></h4></td>
@@ -943,23 +972,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesViewer">Batch ResourceAllowance Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.resourceAllowances.update" class="permission-name add-link" data-text="batch.resourceAllowances.update" tabindex="-1"><code dir="ltr" translate="no">batch.  resourceAllowances.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.resourceAllowancesEditor">Batch ResourceAllowance Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.resourceAllowancesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.states.report" class="permission-name add-link" data-text="batch.states.report" tabindex="-1"><code dir="ltr" translate="no">batch.states.report</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.agentReporter">Batch Agent Reporter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.agentReporter</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.agentReporter">Batch Agent Reporter</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.agentReporter</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="batch.tasks.get" class="permission-name add-link" data-text="batch.tasks.get" tabindex="-1"><code dir="ltr" translate="no">batch.tasks.get</code></h4></td>
@@ -968,9 +1004,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.admin">Batch Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="batch.tasks.list" class="permission-name add-link" data-text="batch.tasks.list" tabindex="-1"><code dir="ltr" translate="no">batch.tasks.list</code></h4></td>
@@ -981,10 +1020,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.viewer">Batch Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsEditor">Batch Job Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/batch#batch.jobsViewer">Batch Job Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  batch.jobsViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

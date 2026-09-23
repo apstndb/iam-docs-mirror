@@ -104,7 +104,10 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.viewer">Chronicle Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="chroniclesm.contracts.update" class="permission-name add-link" data-text="chroniclesm.contracts.update" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.contracts.update</code></h4></td>
@@ -112,17 +115,21 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/billing#billing.admin">Billing Account Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  billing.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chroniclesm.gcpAssociations.create" class="permission-name add-link" data-text="chroniclesm.gcpAssociations.create" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  gcpAssociations.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="chroniclesm.gcpAssociations.delete" class="permission-name add-link" data-text="chroniclesm.gcpAssociations.delete" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  gcpAssociations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chroniclesm.gcpAssociations.get" class="permission-name add-link" data-text="chroniclesm.gcpAssociations.get" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  gcpAssociations.  get</code></h4></td>
@@ -132,7 +139,10 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.viewer">Chronicle Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="chroniclesm.gcpAssociations.list" class="permission-name add-link" data-text="chroniclesm.gcpAssociations.list" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  gcpAssociations.  list</code></h4></td>
@@ -144,8 +154,11 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.viewer">Chronicle Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chroniclesm.gcpLogFlowFilters.get" class="permission-name add-link" data-text="chroniclesm.gcpLogFlowFilters.get" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  gcpLogFlowFilters.  get</code></h4></td>
@@ -155,14 +168,19 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.viewer">Chronicle Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="chroniclesm.gcpLogFlowFilters.update" class="permission-name add-link" data-text="chroniclesm.gcpLogFlowFilters.update" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  gcpLogFlowFilters.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chroniclesm.gcpSettings.get" class="permission-name add-link" data-text="chroniclesm.gcpSettings.get" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.gcpSettings.get</code></h4></td>
@@ -172,14 +190,19 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.viewer">Chronicle Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.viewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="chroniclesm.gcpSettings.update" class="permission-name add-link" data-text="chroniclesm.gcpSettings.update" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.gcpSettings.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.admin">Chronicle Service Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.editor">Chroniclesm Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="chroniclesm.soarRoleScripts.list" class="permission-name add-link" data-text="chroniclesm.soarRoleScripts.list" tabindex="-1"><code dir="ltr" translate="no">chroniclesm.  soarRoleScripts.  list</code></h4></td>
@@ -191,8 +214,11 @@ This page lists the IAM roles and permissions for Google Security Operations Ser
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chroniclesm#chroniclesm.viewer">Chronicle Service Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chroniclesm.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

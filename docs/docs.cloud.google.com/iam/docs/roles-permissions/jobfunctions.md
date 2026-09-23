@@ -2093,6 +2093,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">cloudsql.users.get</code></li>
 <li><code dir="ltr" translate="no">cloudsql.users.list</code></li>
 <li><code dir="ltr" translate="no">cloudsql.users.update</code></li>
+<li><code dir="ltr" translate="no">cloudsql.workloadCaptures.list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  workloadCaptures.  start</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  workloadCaptures.  startReplay</code></li>
+<li><code dir="ltr" translate="no">cloudsql.workloadCaptures.stop</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  workloadCaptures.  stopReplay</code></li>
 </ul>
 <p><code dir="ltr" translate="no">compute.acceleratorTypes.*</code></p>
 <ul>
@@ -3635,6 +3640,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.sslCerts.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.workloadCaptures.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudsql.workloadCaptures.list</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  workloadCaptures.  start</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  workloadCaptures.  startReplay</code></li>
+<li><code dir="ltr" translate="no">cloudsql.workloadCaptures.stop</code></li>
+<li><code dir="ltr" translate="no">cloudsql.  workloadCaptures.  stopReplay</code></li>
+</ul>
 <p><code dir="ltr" translate="no">compute.  disks.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.disks.listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.firewalls.create</code></p>
@@ -7068,6 +7081,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputRevisions.  list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  cancel</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  changeScope</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  create</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  get</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  provisionedThroughputs.  list</code></li>
@@ -11722,6 +11736,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.sslCerts.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.workloadCaptures.list</code></p>
 <p><code dir="ltr" translate="no">cloudsupport.  accounts.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">cloudsupport.accounts.list</code></p>
 <p><code dir="ltr" translate="no">cloudsupport.techCases.list</code></p>
@@ -12244,11 +12259,17 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">confidentialcomputing.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">config.  deploymentgrouprevisions.  list</code></p>
 <p><code dir="ltr" translate="no">config.deploymentgroups.list</code></p>
+<p><code dir="ltr" translate="no">config.  deploymentgroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  deploymentgroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.  deployments.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">config.deployments.list</code></p>
+<p><code dir="ltr" translate="no">config.  deployments.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  deployments.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.locations.list</code></p>
 <p><code dir="ltr" translate="no">config.operations.list</code></p>
 <p><code dir="ltr" translate="no">config.previews.list</code></p>
+<p><code dir="ltr" translate="no">config.  previews.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  previews.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.resourcechanges.list</code></p>
 <p><code dir="ltr" translate="no">config.resourcedrifts.list</code></p>
 <p><code dir="ltr" translate="no">config.resources.list</code></p>
@@ -13863,6 +13884,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">recommender.  computeDiskIdleResourceInsights.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeDiskIdleResourceRecommendations.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsights.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceInsights.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommendations.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceInsights.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceRecommendations.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeInstanceCpuUsageInsights.  list</code></p>
@@ -14358,6 +14381,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">transferappliance.orders.list</code></p>
 <p><code dir="ltr" translate="no">transferappliance.  savedAddresses.  list</code></p>
 <p><code dir="ltr" translate="no">translationhub.portals.list</code></p>
+<p><code dir="ltr" translate="no">universalledger.endpoints.list</code></p>
+<p><code dir="ltr" translate="no">universalledger.locations.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.collections.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.indexes.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.locations.list</code></p>
@@ -15228,6 +15253,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.sslCerts.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.workloadCaptures.list</code></p>
 <p><code dir="ltr" translate="no">cloudtrace.insights.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">cloudtrace.insights.get</code></li>
@@ -18947,6 +18973,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.sslCerts.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.users.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.workloadCaptures.list</code></p>
 <p><code dir="ltr" translate="no">cloudsupport.accounts.get</code></p>
 <p><code dir="ltr" translate="no">cloudsupport.  accounts.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">cloudsupport.  accounts.  getUserRoles</code></p>
@@ -19610,9 +19637,13 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">config.deploymentgroups.get</code></p>
 <p><code dir="ltr" translate="no">config.deploymentgroups.list</code></p>
+<p><code dir="ltr" translate="no">config.  deploymentgroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  deploymentgroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.deployments.get</code></p>
 <p><code dir="ltr" translate="no">config.  deployments.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">config.deployments.list</code></p>
+<p><code dir="ltr" translate="no">config.  deployments.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  deployments.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">config.locations.get</code></li>
@@ -19622,6 +19653,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">config.operations.list</code></p>
 <p><code dir="ltr" translate="no">config.previews.get</code></p>
 <p><code dir="ltr" translate="no">config.previews.list</code></p>
+<p><code dir="ltr" translate="no">config.  previews.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  previews.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.resources.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">config.resources.get</code></li>
@@ -22829,6 +22862,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsightTypeConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsights.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsights.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceInsights.  get</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceInsights.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommendations.  get</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommendations.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommenderConfig.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceInsights.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceInsights.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceRecommendations.  get</code></p>
@@ -23748,6 +23786,14 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">transferappliance.  savedAddresses.  list</code></p>
 <p><code dir="ltr" translate="no">translationhub.portals.get</code></p>
 <p><code dir="ltr" translate="no">translationhub.portals.list</code></p>
+<p><code dir="ltr" translate="no">universalledger.endpoints.get</code></p>
+<p><code dir="ltr" translate="no">universalledger.endpoints.list</code></p>
+<p><code dir="ltr" translate="no">universalledger.  endpoints.  readNetwork</code></p>
+<p><code dir="ltr" translate="no">universalledger.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">universalledger.locations.get</code></li>
+<li><code dir="ltr" translate="no">universalledger.locations.list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">vectorsearch.collections.get</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.collections.list</code></p>
 <p><code dir="ltr" translate="no">vectorsearch.  dataObjects.  export</code></p>

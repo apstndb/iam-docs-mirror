@@ -98,7 +98,7 @@ Training and tutorials
 
 In this training course, you will learn about a variety of Google Cloud security controls and techniques. You'll explore the components of Google Cloud and deploy a secure solution on the platform. You'll also learn how to mitigate attacks at several points in a Google Cloud-based infrastructure, including distributed denial-of-service attacks, phishing attacks, and threats involving content classification and use.
 
-Use case
+Article
 
 Use cases
 

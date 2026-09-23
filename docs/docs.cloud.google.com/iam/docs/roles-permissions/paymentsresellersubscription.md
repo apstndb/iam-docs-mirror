@@ -158,11 +158,14 @@ This page lists the IAM roles and permissions for Payments Reseller Subscription
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.viewer">Paymentsresellersubscription Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerViewer">Payments Reseller Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.productViewer">Payments Reseller Products Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.productViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.productViewer">Payments Reseller Products Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.productViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="paymentsresellersubscription.promotions.list" class="permission-name add-link" data-text="paymentsresellersubscription.promotions.list" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  promotions.  list</code></h4></td>
@@ -173,35 +176,44 @@ This page lists the IAM roles and permissions for Payments Reseller Subscription
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.viewer">Paymentsresellersubscription Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerViewer">Payments Reseller Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.promotionViewer">Payments Reseller Promotions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.promotionViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.promotionViewer">Payments Reseller Promotions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.promotionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="paymentsresellersubscription.subscriptionLineItems.update" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptionLineItems.update" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptionLineItems.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="paymentsresellersubscription.subscriptions.cancel" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.cancel" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="paymentsresellersubscription.subscriptions.extend" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.extend" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  extend</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="paymentsresellersubscription.subscriptions.get" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.get" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  get</code></h4></td>
@@ -210,51 +222,64 @@ This page lists the IAM roles and permissions for Payments Reseller Subscription
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.viewer">Paymentsresellersubscription Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerViewer">Payments Reseller Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionViewer">Payments Reseller Subscriptions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionViewer">Payments Reseller Subscriptions Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="paymentsresellersubscription.subscriptions.provision" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.provision" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  provision</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="paymentsresellersubscription.subscriptions.resume" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.resume" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  resume</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="paymentsresellersubscription.subscriptions.suspend" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.suspend" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  suspend</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="paymentsresellersubscription.subscriptions.undoCancel" class="permission-name add-link" data-text="paymentsresellersubscription.subscriptions.undoCancel" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  subscriptions.  undoCancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.subscriptionEditor">Payments Reseller Subscriptions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.subscriptionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="paymentsresellersubscription.userSessions.generate" class="permission-name add-link" data-text="paymentsresellersubscription.userSessions.generate" tabindex="-1"><code dir="ltr" translate="no">paymentsresellersubscription.  userSessions.  generate</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.admin">Paymentsresellersubscription Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.partnerAdmin">Payments Reseller Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.partnerAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.userSessionEditor">Payments Partner UserSessions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.userSessionEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/paymentsresellersubscription#paymentsresellersubscription.userSessionEditor">Payments Partner UserSessions Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  paymentsresellersubscription.userSessionEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

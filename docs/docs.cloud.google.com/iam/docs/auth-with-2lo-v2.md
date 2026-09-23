@@ -137,6 +137,8 @@ Replace the following:
 
 To authenticate your agent, you can use the ADK.
 
+> **Note:** The following samples register the auth provider at the module level, which works when you run the agent locally or deploy it with the Agent CLI. If you deploy with the Vertex AI Python SDK, register the auth provider in `set_up()` instead so that it runs in the deployed container. For more information, see [Deploy the agent](https://docs.cloud.google.com/iam/docs/auth-with-2lo-v2#python-sdk) .
+
 ### ADK
 
 Reference the auth provider in your agent's code by using the MCP toolset in the ADK.
@@ -153,7 +155,11 @@ Reference the auth provider in your agent's code using an authenticated function
 
 Reference the auth provider in your agent's code using the Agent Registry MCP toolset in the ADK.
 
-    from google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProviderfrom google.adk.integrations.agent_identity importGcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfigfrom google.adk.integrations.agent_registry importAgentRegistry# First, register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# Create Google Cloud auth provider scheme# Note: If using the legacy V1 API, the resource name uses 'connectors'# instead of 'authProviders': projects/.../connectors/...auth_scheme=GcpAuthProviderScheme(name=("projects/PROJECT_ID/locations/""LOCATION/authProviders/""AUTH_PROVIDER_NAME"))# Set Agent Registryregistry=AgentRegistry(project_id="PROJECT_ID",location="global")toolset=registry.get_mcp_toolset(mcp_server_name=("projects/PROJECT_ID/locations/""global/mcpServers/""agentregistry-00000000-0000-0000-0000-000000000000"),auth_scheme=auth_scheme,)# Example MCP tooltoolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="MCP_URL"),auth_scheme=auth_scheme,)agent=Agent(name="AGENT_NAME",model="MODEL_NAME",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
+You don't construct an auth scheme for this flow. The MCP server's outbound binding already records which auth provider to use.
+
+> **Caution:** Use the same region for the auth provider, the MCP server, and the Agent Registry client. Auth providers aren't available in the `global` location, so if you set `location="global"` , creating the outbound binding fails with the error `Location of auth provider does not match location of binding` .
+
+    from google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProviderfrom google.adk.integrations.agent_registry importAgentRegistry# First, register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# Set Agent Registry. LOCATION must be the same region as the auth provider.registry=AgentRegistry(project_id="PROJECT_ID",location="LOCATION")# The auth provider is resolved from the MCP server's outbound binding.toolset=registry.get_mcp_toolset(mcp_server_name=("projects/PROJECT_ID/locations/""LOCATION/mcpServers/""agentregistry-00000000-0000-0000-0000-000000000000"),)agent=Agent(name="AGENT_NAME",model="MODEL_NAME",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
 
 ## Install dependencies for local testing
 
@@ -194,7 +200,9 @@ If you're using the Agent Development Kit (ADK) and the Agent CLI, do the follow
 
 If you're deploying programmatically using the Vertex AI Python SDK, use the `identity_type=AGENT_IDENTITY` flag:
 
-    import vertexaifrom vertexai importtypesfrom vertexai.agent_engines importAdkApp# Initialize the Vertex AI client with v1beta1 API for Agent Identity supportclient=vertexai.Client(project="PROJECT_ID",location="LOCATION",http_options=dict(api_version="v1beta1"))# Use the proper wrapper class for your Agent Framework (e.g., AdkApp)app=AdkApp(agent=agent)# Deploy the agent with Agent Identity enabledremote_app=client.agent_engines.create(agent=app,config={"identity_type":types.IdentityType.AGENT_IDENTITY,"requirements":["google-cloud-aiplatform[agent_engines,adk]","google-adk[agent-identity,mcp]>=2.7.1",],},)
+> **Caution:** The SDK serializes your app object, so the `CredentialManager.register_auth_provider()` call that your local script runs at import time doesn't run in the deployed container. Instead, register the auth provider in your app's `set_up()` method, which the runtime calls when the container starts. Otherwise, the agent fails at query time with `No auth provider registered for custom auth scheme 'gcpAuthProviderScheme'` . For more information, see [Deployment considerations](https://docs.cloud.google.com/gemini-enterprise-agent-platform/build/runtime/create-a-custom-agent#deployment-considerations) .
+
+    import vertexaifrom vertexai importtypesfrom vertexai.agent_engines importAdkAppfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider# Initialize the Vertex AI client with v1beta1 API for Agent Identity supportclient=vertexai.Client(project="PROJECT_ID",location="LOCATION",http_options=dict(api_version="v1beta1"))# Register the auth provider in set_up() so that it runs in the deployed# container. Use the proper wrapper class for your Agent Framework (for example, AdkApp).class AuthenticatedAdkApp(AdkApp):def set_up(self):CredentialManager.register_auth_provider(GcpAuthProvider())super().set_up()app=AuthenticatedAdkApp(agent=agent)# Deploy the agent with Agent Identity enabledremote_app=client.agent_engines.create(agent=app,config={"identity_type":types.IdentityType.AGENT_IDENTITY,"requirements":["google-cloud-aiplatform[agent_engines,adk]","google-adk[agent-identity,mcp]>=2.7.1",],},)
 
 Replace the following:
 

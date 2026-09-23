@@ -292,9 +292,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.reservationAdmin">Remote Build Execution Reservation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.reservationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.reservationAdmin">Remote Build Execution Reservation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.reservationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="remotebuildexecution.actions.delete" class="permission-name add-link" data-text="remotebuildexecution.actions.delete" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  actions.  delete</code></h4></td>
@@ -302,8 +304,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.reservationAdmin">Remote Build Execution Reservation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.reservationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.reservationAdmin">Remote Build Execution Reservation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.reservationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.actions.get" class="permission-name add-link" data-text="remotebuildexecution.actions.get" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  actions.  get</code></h4></td>
@@ -313,11 +317,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactViewer">Remote Build Execution Artifact Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.reservationAdmin">Remote Build Execution Reservation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.reservationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.reservationAdmin">Remote Build Execution Reservation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.reservationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="remotebuildexecution.actions.set" class="permission-name add-link" data-text="remotebuildexecution.actions.set" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  actions.  set</code></h4></td>
@@ -329,7 +336,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -344,10 +353,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.actionCacheWriter">Remote Build Execution Action Cache Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.actionCacheWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -372,6 +383,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.approver">Cloud Build Approver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.approver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.editor">Cloud Build Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudbuild#cloudbuild.builds.viewer">Cloud Build Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudbuild.builds.viewer</code> )</p>
@@ -384,12 +396,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactViewer">Remote Build Execution Artifact Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceDeveloper">Cloud Run Source Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceDeveloper</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.sourceViewer">Cloud Run Source Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.sourceViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -409,7 +423,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -424,7 +440,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -439,12 +457,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.instances.delete" class="permission-name add-link" data-text="remotebuildexecution.instances.delete" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  instances.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -455,9 +476,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.instances.list" class="permission-name add-link" data-text="remotebuildexecution.instances.list" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  instances.  list</code></h4></td>
@@ -469,10 +493,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="remotebuildexecution.instances.update" class="permission-name add-link" data-text="remotebuildexecution.instances.update" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  instances.  update</code></h4></td>
@@ -480,7 +507,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.logstreams.create" class="permission-name add-link" data-text="remotebuildexecution.logstreams.create" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  logstreams.  create</code></h4></td>
@@ -488,10 +517,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.logstreamWriter">Remote Build Execution Logstream Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.logstreamWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -508,10 +539,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactViewer">Remote Build Execution Artifact Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactViewer">Remote Build Execution Artifact Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.logstreams.update" class="permission-name add-link" data-text="remotebuildexecution.logstreams.update" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  logstreams.  update</code></h4></td>
@@ -519,10 +553,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactAdmin">Remote Build Execution Artifact Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.artifactCreator">Remote Build Execution Artifact Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.artifactCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.logstreamWriter">Remote Build Execution Logstream Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.logstreamWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.worker">Remote Build Execution Worker</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.worker</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -537,12 +573,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.workerpools.delete" class="permission-name add-link" data-text="remotebuildexecution.workerpools.delete" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p></td>
 </tr>
 <tr class="even">
@@ -553,9 +592,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="remotebuildexecution.workerpools.list" class="permission-name add-link" data-text="remotebuildexecution.workerpools.list" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  list</code></h4></td>
@@ -567,10 +609,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.viewer">Remotebuildexecution Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationViewer">Remote Build Execution Configuration Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="remotebuildexecution.workerpools.update" class="permission-name add-link" data-text="remotebuildexecution.workerpools.update" tabindex="-1"><code dir="ltr" translate="no">remotebuildexecution.  workerpools.  update</code></h4></td>
@@ -578,7 +623,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.admin">Remotebuildexecution Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.editor">Remotebuildexecution Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/remotebuildexecution#remotebuildexecution.configurationAdmin">Remote Build Execution Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  remotebuildexecution.configurationAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

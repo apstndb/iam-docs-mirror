@@ -122,16 +122,20 @@ This page lists the IAM roles and permissions for Timeseries Insights API. To se
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="timeseriesinsights.datasets.delete" class="permission-name add-link" data-text="timeseriesinsights.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  datasets.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="timeseriesinsights.datasets.evaluate" class="permission-name add-link" data-text="timeseriesinsights.datasets.evaluate" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  datasets.  evaluate</code></h4></td>
@@ -140,10 +144,13 @@ This page lists the IAM roles and permissions for Timeseries Insights API. To se
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.viewer">Timeseriesinsights Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="timeseriesinsights.datasets.list" class="permission-name add-link" data-text="timeseriesinsights.datasets.list" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  datasets.  list</code></h4></td>
@@ -154,11 +161,14 @@ This page lists the IAM roles and permissions for Timeseries Insights API. To se
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.viewer">Timeseriesinsights Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="timeseriesinsights.datasets.query" class="permission-name add-link" data-text="timeseriesinsights.datasets.query" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  datasets.  query</code></h4></td>
@@ -167,18 +177,23 @@ This page lists the IAM roles and permissions for Timeseries Insights API. To se
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.viewer">Timeseriesinsights Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="timeseriesinsights.datasets.update" class="permission-name add-link" data-text="timeseriesinsights.datasets.update" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  datasets.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="timeseriesinsights.locations.get" class="permission-name add-link" data-text="timeseriesinsights.locations.get" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  locations.  get</code></h4></td>
@@ -187,10 +202,13 @@ This page lists the IAM roles and permissions for Timeseries Insights API. To se
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.viewer">Timeseriesinsights Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="timeseriesinsights.locations.list" class="permission-name add-link" data-text="timeseriesinsights.locations.list" tabindex="-1"><code dir="ltr" translate="no">timeseriesinsights.  locations.  list</code></h4></td>
@@ -201,11 +219,14 @@ This page lists the IAM roles and permissions for Timeseries Insights API. To se
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.admin">Timeseriesinsights Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.viewer">Timeseriesinsights Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsEditor">Timeseries Insights DataSet Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsEditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsOwner">Timeseries Insights DataSet Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsOwner</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/timeseriesinsights#timeseriesinsights.datasetsViewer">Timeseries Insights DataSet Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  timeseriesinsights.datasetsViewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

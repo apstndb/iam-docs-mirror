@@ -284,7 +284,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.analyticsViews.delete" class="permission-name add-link" data-text="observability.analyticsViews.delete" tabindex="-1"><code dir="ltr" translate="no">observability.  analyticsViews.  delete</code></h4></td>
@@ -292,7 +294,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.analyticsViews.get" class="permission-name add-link" data-text="observability.analyticsViews.get" tabindex="-1"><code dir="ltr" translate="no">observability.  analyticsViews.  get</code></h4></td>
@@ -302,8 +306,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.analyticsViews.list" class="permission-name add-link" data-text="observability.analyticsViews.list" tabindex="-1"><code dir="ltr" translate="no">observability.  analyticsViews.  list</code></h4></td>
@@ -315,9 +322,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.analyticsViews.update" class="permission-name add-link" data-text="observability.analyticsViews.update" tabindex="-1"><code dir="ltr" translate="no">observability.  analyticsViews.  update</code></h4></td>
@@ -325,20 +335,26 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.buckets.create" class="permission-name add-link" data-text="observability.buckets.create" tabindex="-1"><code dir="ltr" translate="no">observability.buckets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.buckets.delete" class="permission-name add-link" data-text="observability.buckets.delete" tabindex="-1"><code dir="ltr" translate="no">observability.buckets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.buckets.get" class="permission-name add-link" data-text="observability.buckets.get" tabindex="-1"><code dir="ltr" translate="no">observability.buckets.get</code></h4></td>
@@ -348,8 +364,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.buckets.list" class="permission-name add-link" data-text="observability.buckets.list" tabindex="-1"><code dir="ltr" translate="no">observability.buckets.list</code></h4></td>
@@ -361,35 +380,46 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.buckets.undelete" class="permission-name add-link" data-text="observability.buckets.undelete" tabindex="-1"><code dir="ltr" translate="no">observability.buckets.undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.buckets.update" class="permission-name add-link" data-text="observability.buckets.update" tabindex="-1"><code dir="ltr" translate="no">observability.buckets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.datasets.create" class="permission-name add-link" data-text="observability.datasets.create" tabindex="-1"><code dir="ltr" translate="no">observability.datasets.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.datasets.delete" class="permission-name add-link" data-text="observability.datasets.delete" tabindex="-1"><code dir="ltr" translate="no">observability.datasets.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.datasets.get" class="permission-name add-link" data-text="observability.datasets.get" tabindex="-1"><code dir="ltr" translate="no">observability.datasets.get</code></h4></td>
@@ -399,8 +429,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.datasets.list" class="permission-name add-link" data-text="observability.datasets.list" tabindex="-1"><code dir="ltr" translate="no">observability.datasets.list</code></h4></td>
@@ -412,22 +445,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.datasets.undelete" class="permission-name add-link" data-text="observability.datasets.undelete" tabindex="-1"><code dir="ltr" translate="no">observability.  datasets.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.datasets.update" class="permission-name add-link" data-text="observability.datasets.update" tabindex="-1"><code dir="ltr" translate="no">observability.datasets.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.links.create" class="permission-name add-link" data-text="observability.links.create" tabindex="-1"><code dir="ltr" translate="no">observability.links.create</code></h4></td>
@@ -435,6 +475,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -449,6 +491,8 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -465,8 +509,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -485,9 +532,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -502,7 +552,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.locations.get" class="permission-name add-link" data-text="observability.locations.get" tabindex="-1"><code dir="ltr" translate="no">observability.locations.get</code></h4></td>
@@ -512,8 +564,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.locations.list" class="permission-name add-link" data-text="observability.locations.list" tabindex="-1"><code dir="ltr" translate="no">observability.locations.list</code></h4></td>
@@ -525,23 +580,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.operations.cancel" class="permission-name add-link" data-text="observability.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">observability.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.operations.delete" class="permission-name add-link" data-text="observability.operations.delete" tabindex="-1"><code dir="ltr" translate="no">observability.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.operations.get" class="permission-name add-link" data-text="observability.operations.get" tabindex="-1"><code dir="ltr" translate="no">observability.operations.get</code></h4></td>
@@ -551,8 +613,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -571,9 +636,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -597,6 +665,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.admin">Telco Automation Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudhub#cloudhub.operator">Cloud Hub Operator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudhub.operator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dataproc#dataproc.hubAgent">Dataproc Hub Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dataproc.hubAgent</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
@@ -612,8 +681,10 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/logging#logging.configWriter">Logs Configuration Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  logging.configWriter</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier1">Telco Automation Tier 1 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier1</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/telcoautomation#telcoautomation.opsAdminTier4">Telco Automation Tier 4 Operations Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  telcoautomation.opsAdminTier4</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
 <strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
@@ -629,7 +700,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.settings.get" class="permission-name add-link" data-text="observability.settings.get" tabindex="-1"><code dir="ltr" translate="no">observability.settings.get</code></h4></td>
@@ -639,15 +712,20 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.settings.update" class="permission-name add-link" data-text="observability.settings.update" tabindex="-1"><code dir="ltr" translate="no">observability.settings.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.traceScopes.create" class="permission-name add-link" data-text="observability.traceScopes.create" tabindex="-1"><code dir="ltr" translate="no">observability.  traceScopes.  create</code></h4></td>
@@ -658,9 +736,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.traceScopes.delete" class="permission-name add-link" data-text="observability.traceScopes.delete" tabindex="-1"><code dir="ltr" translate="no">observability.  traceScopes.  delete</code></h4></td>
@@ -671,9 +751,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.traceScopes.get" class="permission-name add-link" data-text="observability.traceScopes.get" tabindex="-1"><code dir="ltr" translate="no">observability.traceScopes.get</code></h4></td>
@@ -686,11 +768,14 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.traceScopes.list" class="permission-name add-link" data-text="observability.traceScopes.list" tabindex="-1"><code dir="ltr" translate="no">observability.traceScopes.list</code></h4></td>
@@ -705,12 +790,15 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.traceScopes.update" class="permission-name add-link" data-text="observability.traceScopes.update" tabindex="-1"><code dir="ltr" translate="no">observability.  traceScopes.  update</code></h4></td>
@@ -721,14 +809,17 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.admin">Discovery Engine Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/discoveryengine#discoveryengine.agentspaceAdmin">Gemini Enterprise Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  discoveryengine.agentspaceAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.siteReliabilityEngineer">Site Reliability Engineer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.siteReliabilityEngineer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.scopesEditor">Observability Scopes Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.scopesEditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.views.access" class="permission-name add-link" data-text="observability.views.access" tabindex="-1"><code dir="ltr" translate="no">observability.views.access</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewAccessor">Observability View Accessor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewAccessor</code> )</p>
 <p>Service agent roles</p>
 <blockquote>
@@ -743,14 +834,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.views.delete" class="permission-name add-link" data-text="observability.views.delete" tabindex="-1"><code dir="ltr" translate="no">observability.views.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.views.get" class="permission-name add-link" data-text="observability.views.get" tabindex="-1"><code dir="ltr" translate="no">observability.views.get</code></h4></td>
@@ -760,8 +855,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="observability.views.list" class="permission-name add-link" data-text="observability.views.list" tabindex="-1"><code dir="ltr" translate="no">observability.views.list</code></h4></td>
@@ -773,16 +871,21 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.viewer">Observability Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.analyticsUser">Observability Analytics User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.analyticsUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="observability.views.update" class="permission-name add-link" data-text="observability.views.update" tabindex="-1"><code dir="ltr" translate="no">observability.views.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.admin">Observability Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/observability#observability.editor">Observability Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  observability.editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

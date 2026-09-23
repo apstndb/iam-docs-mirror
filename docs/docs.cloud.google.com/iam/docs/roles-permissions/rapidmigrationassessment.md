@@ -149,7 +149,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="rma.annotations.get" class="permission-name add-link" data-text="rma.annotations.get" tabindex="-1"><code dir="ltr" translate="no">rma.annotations.get</code></h4></td>
@@ -160,22 +162,29 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="rma.collectors.create" class="permission-name add-link" data-text="rma.collectors.create" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="rma.collectors.delete" class="permission-name add-link" data-text="rma.collectors.delete" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="rma.collectors.get" class="permission-name add-link" data-text="rma.collectors.get" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.get</code></h4></td>
@@ -186,8 +195,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="rma.collectors.list" class="permission-name add-link" data-text="rma.collectors.list" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.list</code></h4></td>
@@ -200,9 +212,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="rma.collectors.update" class="permission-name add-link" data-text="rma.collectors.update" tabindex="-1"><code dir="ltr" translate="no">rma.collectors.update</code></h4></td>
@@ -210,7 +225,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="rma.locations.get" class="permission-name add-link" data-text="rma.locations.get" tabindex="-1"><code dir="ltr" translate="no">rma.locations.get</code></h4></td>
@@ -221,8 +238,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="rma.locations.list" class="permission-name add-link" data-text="rma.locations.list" tabindex="-1"><code dir="ltr" translate="no">rma.locations.list</code></h4></td>
@@ -235,23 +255,30 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="rma.operations.cancel" class="permission-name add-link" data-text="rma.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">rma.operations.cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="rma.operations.delete" class="permission-name add-link" data-text="rma.operations.delete" tabindex="-1"><code dir="ltr" translate="no">rma.operations.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.admin">Migration Center Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="rma.operations.get" class="permission-name add-link" data-text="rma.operations.get" tabindex="-1"><code dir="ltr" translate="no">rma.operations.get</code></h4></td>
@@ -262,8 +289,11 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="rma.operations.list" class="permission-name add-link" data-text="rma.operations.list" tabindex="-1"><code dir="ltr" translate="no">rma.operations.list</code></h4></td>
@@ -276,9 +306,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/migrationcenter#migrationcenter.viewer">Migration Center Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  migrationcenter.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.admin">Rapid Migration Assessment Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.viewer">Rapid Migration Assessment Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/rapidmigrationassessment#rma.runner">Rapid Migration Assessment Runner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  rma.runner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>

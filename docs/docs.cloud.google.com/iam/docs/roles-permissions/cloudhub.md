@@ -727,9 +727,13 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 </ul>
 <p><code dir="ltr" translate="no">config.deploymentgroups.get</code></p>
 <p><code dir="ltr" translate="no">config.deploymentgroups.list</code></p>
+<p><code dir="ltr" translate="no">config.  deploymentgroups.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  deploymentgroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.deployments.get</code></p>
 <p><code dir="ltr" translate="no">config.  deployments.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">config.deployments.list</code></p>
+<p><code dir="ltr" translate="no">config.  deployments.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  deployments.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">config.locations.get</code></li>
@@ -739,6 +743,8 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code dir="ltr" translate="no">config.operations.list</code></p>
 <p><code dir="ltr" translate="no">config.previews.get</code></p>
 <p><code dir="ltr" translate="no">config.previews.list</code></p>
+<p><code dir="ltr" translate="no">config.  previews.  listEffectiveTags</code></p>
+<p><code dir="ltr" translate="no">config.  previews.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">config.resources.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">config.resources.get</code></li>
@@ -1000,6 +1006,11 @@ This page lists the IAM roles and permissions for Cloud Hub. To search through a
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsightTypeConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsights.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeFirewallInsights.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceInsights.  get</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceInsights.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommendations.  get</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommendations.  list</code></p>
+<p><code dir="ltr" translate="no">recommender.  computeIdleResourceRecommenderConfig.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceInsights.  get</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceInsights.  list</code></p>
 <p><code dir="ltr" translate="no">recommender.  computeImageIdleResourceRecommendations.  get</code></p>

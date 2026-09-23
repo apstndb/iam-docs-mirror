@@ -278,14 +278,18 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.fleetPackages.delete" class="permission-name add-link" data-text="configdelivery.fleetPackages.delete" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  fleetPackages.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.fleetPackages.get" class="permission-name add-link" data-text="configdelivery.fleetPackages.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  fleetPackages.  get</code></h4></td>
@@ -294,9 +298,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.fleetPackages.list" class="permission-name add-link" data-text="configdelivery.fleetPackages.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  fleetPackages.  list</code></h4></td>
@@ -307,17 +314,22 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.fleetPackages.update" class="permission-name add-link" data-text="configdelivery.fleetPackages.update" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  fleetPackages.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.locations.get" class="permission-name add-link" data-text="configdelivery.locations.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.locations.get</code></h4></td>
@@ -326,10 +338,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.locations.list" class="permission-name add-link" data-text="configdelivery.locations.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.locations.list</code></h4></td>
@@ -340,25 +355,32 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.operations.cancel" class="permission-name add-link" data-text="configdelivery.operations.cancel" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  operations.  cancel</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.operations.delete" class="permission-name add-link" data-text="configdelivery.operations.delete" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  operations.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.operations.get" class="permission-name add-link" data-text="configdelivery.operations.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.operations.get</code></h4></td>
@@ -367,10 +389,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.operations.list" class="permission-name add-link" data-text="configdelivery.operations.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.operations.list</code></h4></td>
@@ -381,26 +406,33 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.releases.create" class="permission-name add-link" data-text="configdelivery.releases.create" tabindex="-1"><code dir="ltr" translate="no">configdelivery.releases.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.releases.delete" class="permission-name add-link" data-text="configdelivery.releases.delete" tabindex="-1"><code dir="ltr" translate="no">configdelivery.releases.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.releases.get" class="permission-name add-link" data-text="configdelivery.releases.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.releases.get</code></h4></td>
@@ -409,10 +441,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.releases.list" class="permission-name add-link" data-text="configdelivery.releases.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.releases.list</code></h4></td>
@@ -423,34 +458,43 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.releases.update" class="permission-name add-link" data-text="configdelivery.releases.update" tabindex="-1"><code dir="ltr" translate="no">configdelivery.releases.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.resourceBundles.create" class="permission-name add-link" data-text="configdelivery.resourceBundles.create" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  resourceBundles.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.resourceBundles.delete" class="permission-name add-link" data-text="configdelivery.resourceBundles.delete" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  resourceBundles.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.resourceBundles.get" class="permission-name add-link" data-text="configdelivery.resourceBundles.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  resourceBundles.  get</code></h4></td>
@@ -459,10 +503,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.resourceBundles.list" class="permission-name add-link" data-text="configdelivery.resourceBundles.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  resourceBundles.  list</code></h4></td>
@@ -473,26 +520,33 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.resourceBundles.update" class="permission-name add-link" data-text="configdelivery.resourceBundles.update" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  resourceBundles.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.rollouts.abort" class="permission-name add-link" data-text="configdelivery.rollouts.abort" tabindex="-1"><code dir="ltr" translate="no">configdelivery.rollouts.abort</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.rollouts.get" class="permission-name add-link" data-text="configdelivery.rollouts.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.rollouts.get</code></h4></td>
@@ -501,9 +555,12 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.rollouts.list" class="permission-name add-link" data-text="configdelivery.rollouts.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.rollouts.list</code></h4></td>
@@ -514,39 +571,50 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.rollouts.resume" class="permission-name add-link" data-text="configdelivery.rollouts.resume" tabindex="-1"><code dir="ltr" translate="no">configdelivery.rollouts.resume</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.rollouts.suspend" class="permission-name add-link" data-text="configdelivery.rollouts.suspend" tabindex="-1"><code dir="ltr" translate="no">configdelivery.  rollouts.  suspend</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.variants.create" class="permission-name add-link" data-text="configdelivery.variants.create" tabindex="-1"><code dir="ltr" translate="no">configdelivery.variants.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.variants.delete" class="permission-name add-link" data-text="configdelivery.variants.delete" tabindex="-1"><code dir="ltr" translate="no">configdelivery.variants.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.variants.get" class="permission-name add-link" data-text="configdelivery.variants.get" tabindex="-1"><code dir="ltr" translate="no">configdelivery.variants.get</code></h4></td>
@@ -555,10 +623,13 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="configdelivery.variants.list" class="permission-name add-link" data-text="configdelivery.variants.list" tabindex="-1"><code dir="ltr" translate="no">configdelivery.variants.list</code></h4></td>
@@ -569,19 +640,24 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.viewer">Configdelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.viewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryViewer">ConfigDelivery Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="configdelivery.variants.update" class="permission-name add-link" data-text="configdelivery.variants.update" tabindex="-1"><code dir="ltr" translate="no">configdelivery.variants.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.admin">Configdelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.configDeliveryAdmin">ConfigDelivery Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.configDeliveryAdmin</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/configdelivery#configdelivery.resourceBundlePublisher">Config Delivery Resource Bundle Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  configdelivery.resourceBundlePublisher</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>
 </table>
