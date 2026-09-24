@@ -48,7 +48,7 @@ If one service account provides all of the permissions you need, you should use 
 
 ## Before you begin
 
-  - Enable the IAM and Service Account Credentials APIs.
+  - Enable the IAM and Service Account Credentials APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

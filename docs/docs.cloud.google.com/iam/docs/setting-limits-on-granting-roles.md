@@ -12,7 +12,7 @@ You can set limits on the roles that a principal can grant and revoke with Ident
 
 ## Before you begin
 
-  - Enable the Resource Manager API.
+  - Enable the Resource Manager API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

@@ -21,7 +21,7 @@ The migration workflow includes the following tasks:
 
 To start the migration, enable the new Agent Identity API in your project.
 
-Enable the Agent Identity API.
+Enable the Agent Identity API, if it is not already enabled.
 
 **Roles required to enable APIs**
 

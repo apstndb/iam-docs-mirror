@@ -74,7 +74,7 @@ Make sure that you have the following role or roles on the project: Project IAM 
 
 ### Enable the APIs
 
-Enable the IAM and Resource Manager APIs.
+Enable the IAM and Resource Manager APIs, if any are not already enabled.
 
 **Roles required to enable APIs**
 

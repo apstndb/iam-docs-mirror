@@ -25,7 +25,7 @@ After you use a service account or service account key, usage metrics are usuall
 
 ## Before you begin
 
-  - Enable the IAM and Cloud Monitoring APIs.
+  - Enable the IAM and Cloud Monitoring APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

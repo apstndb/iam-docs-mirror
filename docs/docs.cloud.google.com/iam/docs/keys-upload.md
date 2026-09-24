@@ -12,7 +12,7 @@ This page explains how to upload a public key for a service account. After you u
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

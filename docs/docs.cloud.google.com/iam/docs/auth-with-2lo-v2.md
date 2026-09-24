@@ -20,7 +20,7 @@ By managing credentials and tokens, 2-legged OAuth auth providers remove the nee
 
 1.  [Verify that you have chosen the correct authentication method](https://docs.cloud.google.com/iam/docs/agent-identity-overview#auth-models) .
 
-2.  Enable the Agent Identity API.
+2.  Enable the Agent Identity API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

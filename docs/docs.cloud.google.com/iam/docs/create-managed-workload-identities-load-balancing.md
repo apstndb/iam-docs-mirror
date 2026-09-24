@@ -61,7 +61,7 @@ If you already have an existing workload identity pool, you can adhere to the fo
 
 3.  Learn about certificate issuance using [Certificate Authority Service](https://docs.cloud.google.com/certificate-authority-service) .
 
-4.  Enable the IAM, Certificate Authority Service, Compute Engine, Certificate Manager, and Network Security APIs:
+4.  Enable the IAM, Certificate Authority Service, Compute Engine, Certificate Manager, and Network Security APIs, if any are not already enabled:
     
     **Roles required to enable APIs**
     

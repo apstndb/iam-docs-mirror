@@ -87,7 +87,7 @@ Google Cloud resources that you use in this document, such as GKE clusters, the 
       - `  CLUSTER_NAME  ` : the name of the GKE cluster to register with the GKE fleet
       - `  PROJECT_ID  ` : the GKE fleet host project ID
 
-5.  Enable the IAM and Certificate Authority Service APIs.
+5.  Enable the IAM and Certificate Authority Service APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

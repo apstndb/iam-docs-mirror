@@ -21,7 +21,7 @@ After you trigger service agent creation, you must grant the service agents the 
 
 ## Before you begin
 
-  - Enable the Resource Manager and Workload Identity APIs.
+  - Enable the Resource Manager and Workload Identity APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

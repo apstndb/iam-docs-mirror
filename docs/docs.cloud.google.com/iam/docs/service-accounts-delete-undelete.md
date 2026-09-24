@@ -10,7 +10,7 @@ This page explains how to delete and undelete service accounts using the Identit
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

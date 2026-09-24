@@ -12,7 +12,7 @@ This page explains how to create and delete service account keys using the Googl
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

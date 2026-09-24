@@ -12,7 +12,7 @@ If your system architecture requires you to use a series of token generation cal
 
 ## Before you begin
 
-  - Enable the IAM and Service Account Credentials APIs:
+  - Enable the IAM and Service Account Credentials APIs, if any are not already enabled:
     
     **Roles required to enable APIs**
     

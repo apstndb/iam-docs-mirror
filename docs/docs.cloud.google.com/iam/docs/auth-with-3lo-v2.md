@@ -24,7 +24,7 @@ By managing credentials and tokens, 3-legged OAuth auth providers remove the nee
 
 1.  [Verify that you have chosen the correct authentication method](https://docs.cloud.google.com/iam/docs/agent-identity-overview#auth-models) .
 
-2.  Enable the Agent Identity API.
+2.  Enable the Agent Identity API, if it is not already enabled.
     
     **Roles required to enable APIs**
     
@@ -101,10 +101,8 @@ To create a 3-legged auth provider, use the Google Cloud console or the Google C
       - **Client ID**
       - **Client Secret**
       - **Token URL**
-    
-    <!-- end list -->
-    
       - **Authorization URL**
+      - **Default continue URI** : Optional. Enter a default redirect URI to redirect users to after they grant consent, if no continue URI is provided at runtime.
 
 12. Click **Add provider config** .
 
@@ -116,7 +114,18 @@ The newly created auth provider appears in the **Auth Providers** list.
 
 2.  Create the auth provider using your client credentials:
     
-        gcloud agent-identity auth-providers create AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --three-legged-oauth-client-id="CLIENT_ID" \    --three-legged-oauth-client-secret="CLIENT_SECRET" \    --three-legged-oauth-authorization-url="AUTHORIZATION_URL" \    --three-legged-oauth-token-url="TOKEN_URL"
+        gcloud agent-identity auth-providers create AUTH_PROVIDER_NAME \    --project="PROJECT_ID" \    --location="LOCATION" \    --three-legged-oauth-client-id="CLIENT_ID" \    --three-legged-oauth-client-secret="CLIENT_SECRET" \    --three-legged-oauth-authorization-url="AUTHORIZATION_URL" \    --three-legged-oauth-token-url="TOKEN_URL" \    --three-legged-oauth-default-continue-uri="DEFAULT_CONTINUE_URI"
+    
+    Replace the following:
+    
+      - `  AUTH_PROVIDER_NAME  ` : The name of your auth provider.
+      - `  PROJECT_ID  ` : Your Google Cloud project ID.
+      - `  LOCATION  ` : The region where the auth provider is created.
+      - `  CLIENT_ID  ` : The client ID of your OAuth client application.
+      - `  CLIENT_SECRET  ` : The client secret of your OAuth client application.
+      - `  AUTHORIZATION_URL  ` : The authorization server endpoint where users are redirected to grant consent.
+      - `  TOKEN_URL  ` : The token exchange endpoint on the authorization server.
+      - `  DEFAULT_CONTINUE_URI  ` : Optional. The default redirect URI where users are sent after granting consent, used if no continue URI is provided at runtime.
 
 3.  Verify that your auth provider appears in the list and its state is `ENABLED` :
     
@@ -196,11 +205,13 @@ To authenticate your agent, you can use the ADK or call the Agent Identity API d
 
 > **Note:** The following samples register the auth provider at the module level, which works when you run the agent locally or deploy it with the Agent CLI. If you deploy with the Vertex AI Python SDK, register the auth provider in `set_up()` instead so that it runs in the deployed container. For more information, see [Deploy the agent](https://docs.cloud.google.com/iam/docs/auth-with-3lo-v2#python-sdk) .
 
+When requesting credentials, your application specifies a `continue_uri` where users are redirected after granting consent. If you configured a `default_continue_uri` when creating the auth provider, specifying `continue_uri` in your agent code is optional.
+
 ### ADK
 
 Reference the auth provider in your agent's code using the MCP toolset in the ADK.
 
-    from google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider,GcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfig# Register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is granted.CONTINUE_URI="https://YOUR_FRONTEND_URL/validateUserId"# Create auth provider scheme# Note: If using the legacy V1 API, the resource name uses 'connectors'# instead of 'authProviders': projects/.../connectors/...auth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI)# Configure an MCP tool with the authentication scheme.toolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="https://YOUR_MCP_SERVER_URL"),auth_scheme=auth_scheme,)# Initialize the agent with the authenticated tools.agent=Agent(name="AGENT_NAME",model="MODEL_NAME (ex. gemini-2.5-flash)",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
+    from google.adk.agents importAgentfrom google.adk.auth.credential_manager importCredentialManagerfrom google.adk.integrations.agent_identity importGcpAuthProvider,GcpAuthProviderSchemefrom google.adk.tools.mcp_tool.mcp_session_manager importStreamableHTTPConnectionParamsfrom google.adk.tools.mcp_tool.mcp_toolset importMcpToolsetfrom google.adk.auth.auth_tool importAuthConfig# Register Google Cloud auth providerCredentialManager.register_auth_provider(GcpAuthProvider())# The URI to redirect the user to after consent is granted.# Optional if default_continue_uri is configured on the auth provider.CONTINUE_URI="https://YOUR_FRONTEND_URL/validateUserId"# Create auth provider scheme# Note: If using the legacy V1 API, the resource name uses 'connectors'# instead of 'authProviders': projects/.../connectors/...auth_scheme=GcpAuthProviderScheme(name="projects/PROJECT_ID/locations/LOCATION/authProviders/AUTH_PROVIDER_NAME",continue_uri=CONTINUE_URI)# Configure an MCP tool with the authentication scheme.toolset=McpToolset(connection_params=StreamableHTTPConnectionParams(url="https://YOUR_MCP_SERVER_URL"),auth_scheme=auth_scheme,)# Initialize the agent with the authenticated tools.agent=Agent(name="AGENT_NAME",model="MODEL_NAME (ex. gemini-2.5-flash)",instruction="AGENT_INSTRUCTIONS",tools=[toolset],)
 
 #### Example: Connecting to BigQuery MCP
 

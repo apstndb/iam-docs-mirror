@@ -16,7 +16,7 @@ This page explains how to update your existing code to use the Service Account C
 
 ## Before you begin
 
-  - Enable the Service Account Credentials API.
+  - Enable the Service Account Credentials API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

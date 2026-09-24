@@ -117,7 +117,7 @@ To use the gcloud CLI to grant IAM roles on a resource in a project, do the foll
 
 1.  To create a service account for the external workload, do the following:
     
-    1.  Enable the IAM, Security Token Service, and Service Account Credentials APIs.
+    1.  Enable the IAM, Security Token Service, and Service Account Credentials APIs, if any are not already enabled.
         
         **Roles required to enable APIs**
         

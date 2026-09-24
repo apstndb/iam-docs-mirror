@@ -251,10 +251,7 @@ The following example shows how to get the allow policy for a project. To learn 
           GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
                   .setResource(ProjectName.of(projectId).toString())
                   .build();
-          return projectsClient.getIamPolicy(request);
-        }
-      }
-    }
+          return projectsClient.getIamPolicy(request);    }  }}
 
 ### Python
 
@@ -281,9 +278,7 @@ The following example shows how to get the allow policy for a project. To learn 
         request.resource = f"projects/{project_id}"
     
         policy = client.get_iam_policy(request)
-        print(f"Policy retrieved: {policy}")
-    
-        return policy
+        print(f"Policy retrieved: {policy}")returnpolicy
 
 ### REST
 
@@ -615,15 +610,15 @@ Execute the following command:
 
 #### Linux, macOS, or Cloud Shell
 
-    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT &gt; PATH
 
 #### Windows (PowerShell)
 
-    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT &gt; PATH
 
 #### Windows (cmd.exe)
 
-    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT > PATH
+    gcloud RESOURCE_TYPE get-iam-policy RESOURCE_ID --format=FORMAT &gt; PATH
 
 For example, the following command gets the allow policy for the project `my-project` and saves it to your home directory in JSON format:
 
@@ -690,10 +685,7 @@ The following example shows how to get the allow policy for a project. To learn 
           GetIamPolicyRequest request = GetIamPolicyRequest.newBuilder()
                   .setResource(ProjectName.of(projectId).toString())
                   .build();
-          return projectsClient.getIamPolicy(request);
-        }
-      }
-    }
+          return projectsClient.getIamPolicy(request);    }  }}
 
 ### Python
 
@@ -718,9 +710,7 @@ The following example shows how to get the allow policy for a project. To learn 
         request.resource = f"projects/{project_id}"
     
         policy = client.get_iam_policy(request)
-        print(f"Policy retrieved: {policy}")
-    
-        return policy
+        print(f"Policy retrieved: {policy}")returnpolicy
 
 ### REST
 
@@ -810,11 +800,11 @@ To edit the roles that an allow policy grants, you need to edit the role binding
 
     {
       "role": "ROLE_NAME",
-      "members": [
-        "PRINCIPAL_1",
+      "members&quot;: [
+        &quot;PRINCIPAL_1",
         "PRINCIPAL_2",
         ...
-        "PRINCIPAL_N"
+        &quot;PRINCIPAL_N"
       ],
       "conditions:" {
         CONDITIONS
@@ -855,18 +845,14 @@ For example, imagine the allow policy contains the following role binding, which
 
     {
       "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com"
-      ]
-    }
+      "members&quotxample-pool/subject/kai@example.com"
+      ]}
 
 To grant that same role to Raha, add Raha's principal identifier to the existing role binding:
 
     {
       "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
+      "members&quotxample-pool/subject/kai@exampcePools/example-pool/subject/raha@example.com"
       ]
     }
 
@@ -919,8 +905,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
          fmt.Fprintf(w, "Role %q found. Member added.\n", role)
          return
      }
-     fmt.Fprintf(w, "Role %q not found. Member not added.\n", role)
-    }
+     fmt.Fprintf(w, "Role %q not found. Member not added.\n", role)}
 
 ### Java
 
@@ -948,8 +933,8 @@ To learn how to install and use the client library for Resource Manager, see [Re
       }
     
       // Adds a principal to a pre-existing role.
-      public static Policy addMember(Policy policy, String role, String member) {
-        List<Binding> newBindingsList = new ArrayList<>();
+      public static Policy addMember(Policy policy, String role, Strin<g membe>r) {
+        ListBinding newBindings<>List = new ArrayList();
     
         for (Binding b : policy.getBindingsList()) {
           if (b.getRole().equals(role)) {
@@ -967,9 +952,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
     
         System.out.println("Added principal: " + updatedPolicy.getBindingsList());
     
-        return updatedPolicy;
-      }
-    }
+     return updatedPolicy;  }}
 
 ### Python
 
@@ -1000,7 +983,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
                 bind.members.append(principal)
                 break
     
-        return set_project_policy(project_id, policy)
+        return set_project_policy(project_id,policy)
 
 ### REST
 
@@ -1010,18 +993,14 @@ For example, imagine the allow policy contains the following role binding, which
 
     {
       "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com"
-      ]
-    }
+      "members&quotxample-pool/subject/kai@example.com"
+      ]}
 
 To grant that same role to Raha, add Raha's principal identifier to the existing role binding:
 
     {
       "role": "roles/iam.securityReviewer",
-      "members": [
-        "user:kai@example.com",
-        "user:raha@example.com"
+      "members&quotxample-pool/subject/kai@exampcePools/example-pool/subject/raha@example.com"
       ]
     }
 
@@ -1035,10 +1014,8 @@ For example, to grant the Compute Storage Admin role ( `roles/compute.storageAdm
 
     {
       "role": "roles/compute.storageAdmin",
-      "members": [
-        "user:raha@example.com"
-      ]
-    }
+      "members"ample-pool/subject/raha@example.com"
+      ]}
 
 ### C\#
 
@@ -1090,14 +1067,14 @@ To learn how to install and use the client library for Resource Manager, see [Re
         // TODO: Replace with your role.
         String role = "roles/role-to-add";
         // TODO: Replace with your principals.
-        // For examples, see https://cloud.google.com/iam/docs/principal-identifiers
-        List<String> members = Collections.singletonList("principal-id");
+        // For examples, see https://cloud.google.com/iam/docs/principal-identifier<s
+        >ListString members = Collections.singletonList("principal-id");
     
         addBinding(policy, role, members);
       }
     
       // Adds a principals to a role.
-      public static Policy addBinding(Policy policy, String role, List<String> members) {
+      public static Policy addBinding(Policy polic<y, Str>ing role, ListString members) {
         Binding binding = Binding.newBuilder()
                 .setRole(role)
                 .addAllMembers(members)
@@ -1108,9 +1085,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
     
         System.out.println("Added binding: " + updatedPolicy.getBindingsList());
     
-        return updatedPolicy;
-      }
-    }
+     return updatedPolicy;  }}
 
 ### Python
 
@@ -1126,9 +1101,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
         """Adds a new role binding to a policy."""
     
         binding = {"role": role, "members": [principal]}
-        policy["bindings"].append(binding)
-        print(policy)
-        return policy
+        policy["bindings"].append(binding)print(policy)returnpolicy
 
 ### REST
 
@@ -1138,10 +1111,8 @@ For example, to grant the Compute Storage Admin role ( `roles/compute.storageAdm
 
     {
       "role": "roles/compute.storageAdmin",
-      "members": [
-        "user:raha@example.com"
-      ]
-    }
+      "members"ample-pool/subject/raha@example.com"
+      ]}
 
 You can only grant roles related to activated API services. If a service, such as Compute Engine, is not active, you cannot grant roles exclusively related to Compute Engine. For more information, see [Enable and disable APIs](https://support.google.com/cloud/answer/6158841) .
 
@@ -1193,9 +1164,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
             {
                 System.Diagnostics.Debug.WriteLine("Role does not exist in policy: \n" + e.ToString());
                 return policy;
-            }
-        }
-    }
+           }    }}
 
 ### Go
 
@@ -1250,9 +1219,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
     }
     
     // removeIdx removes arr[idx] from arr.
-    func removeIdx[T any](arr []T, idx int) []T {
-     return append(arr[:idx], arr[idx+1:]...)
-    }
+    func removeIdx[T any](arr []T, idx int) []T {  return append(arr[:idx], arr[idx+1:]...)}
 
 ### Java
 
@@ -1298,8 +1265,8 @@ To learn how to install and use the client library for Resource Manager, see [Re
           }
         }
     
-        if (binding != null && binding.getMembersList().contains(member)) {
-          List<String> newMemberList = new ArrayList<>(binding.getMembersList());
+        &&if (binding != null  binding.getMembersList().contains(m<ember)>) {
+          ListString newMember<>List = new ArrayList(binding.getMembersList());
           // Removing principal from the role
           newMemberList.remove(member);
     
@@ -1308,10 +1275,10 @@ To learn how to install and use the client library for Resource Manager, see [Re
           // Adding all remaining principals to create new binding
           Binding newBinding = binding.toBuilder()
                   .clearMembers()
-                  .addAllMembers(newMemberList)
-                  .build();
+                  .addAllMembers(newMemberL<ist)
+      >            .build();
     
-          List<Binding> newBindingList = new ArrayList<>(policyBuilder.getBindingsList());
+          Li<>stBinding newBindingList = new ArrayList(policyBuilder.getBindingsList());
     
           // Removing old binding to replace with new one
           newBindingList.remove(binding);
@@ -1328,11 +1295,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
     
         Policy updatedPolicy = policyBuilder.build();
     
-        System.out.println("Exising principals: " + updatedPolicy.getBindingsList());
-    
-        return updatedPolicy;
-      }
-    }
+        System.out.println("Exising principals: " + updatedPolicy.getBindingsList());    return updatedPolicy;  }}
 
 ### Python
 
@@ -1368,7 +1331,7 @@ To learn how to install and use the client library for Resource Manager, see [Re
                     bind.members.remove(principal)
                 break
     
-        return set_project_policy(project_id, policy, False)
+        return set_project_policy(project_id,policy,False)
 
 ### REST
 
@@ -1465,7 +1428,7 @@ The following example shows how to set the allow policy for a project. To learn 
         // TODO(developer): Replace the variables before running the sample.
         // TODO: Replace with your project ID.
         String projectId = "your-project-id";
-        // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).
+        // TODO: Replace with your policy, GetPolicy.getPolicy(projectId, serviceAccount).</span>
         Policy policy = Policy.newBuilder().build();
     
         setProjectPolicy(policy, projectId);
@@ -1477,22 +1440,19 @@ The following example shows how to set the allow policy for a project. To learn 
     
         // Initialize client that will be used to send requests.
         // This client only needs to be created once, and can be reused for multiple requests.
-        try (ProjectsClient projectsClient = ProjectsClient.create()) {
-          List<String> paths = Arrays.asList("bindings", "etag");
+        try (ProjectsClient projectsClient = ProjectsClient.create()<) {
+      >    ListString paths = Arrays.asList("bindings", "etag");
           SetIamPolicyRequest request = SetIamPolicyRequest.newBuilder()
                   .setResource(ProjectName.of(projectId).toString())
                   .setPolicy(policy)
                   // A FieldMask specifying which fields of the policy to modify. Only
                   // the fields in the mask will be modified. If no mask is provided, the
                   // following default mask is used:
-                  // `paths: "bindings, etag"`
+                  // `paths: "bindings, etag&quot;`
                   .setUpdateMask(FieldMask.newBuilder().addAllPaths(paths).build())
                   .build();
     
-          return projectsClient.setIamPolicy(request);
-        }
-      }
-    }
+          return projectsClient.setIamPolicy(request);    }  }}
 
 ### Python
 
@@ -1511,7 +1471,7 @@ The following example shows how to set the allow policy for a project. To learn 
     ) -> policy_pb2.Policy:
         """
         Set policy for project. Pay attention that previous state will be completely rewritten.
-        If you want to update only part of the policy follow the approach read->modify->write.
+        If you want to update only part of the policy follow the> approa>ch read-modify-write.
         For more details about policies check out https://cloud.google.com/iam/docs/policies
     
         project_id: ID or number of the Google Cloud project you want to use.
@@ -1519,7 +1479,7 @@ The following example shows how to set the allow policy for a project. To learn 
         merge: The strategy to be used forming the request. CopyFrom is clearing both mutable and immutable fields,
         when MergeFrom is replacing only immutable fields and extending mutable.
         https://googleapis.dev/python/protobuf/latest/google/protobuf/message.html#google.protobuf.message.Message.CopyFrom
-        """
+        &quot;""span>
         client = resourcemanager_v3.ProjectsClient()
     
         request = iam_policy_pb2.GetIamPolicyRequest()
@@ -1541,8 +1501,7 @@ The following example shows how to set the allow policy for a project. To learn 
         # to be sure policy has been updated.
         request.policy.CopyFrom(current_policy)
     
-        policy = client.set_iam_policy(request)
-        return policy
+       policy=client.set_iam_policy(request)returnpolicy
 
 ### REST
 

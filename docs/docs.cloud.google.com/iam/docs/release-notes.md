@@ -14,6 +14,22 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/feeds/iam-release-notes.xml) directly.
 
+## September 21, 2026
+
+Feature
+
+You can use System for Cross-domain Identity Management (SCIM) data as the source for both user and group claims in the OAuth sign-in workflows for Looker. You can also use Extended Session Length (ESL) when using SCIM.
+
+This feature is in [Preview](https://cloud.google.com/products#product-launch-stages) .
+
+For more information, see the following:
+
+  - [SCIM provisioning for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim)
+  - [Configure SCIM with Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra)
+  - [Configure SCIM with Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta)
+  - [Configure SCIM with OIDC or SAML](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml)
+  - [Troubleshoot SCIM provisioning and synchronization](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-signin-users-groups-fail)
+
 ## September 16, 2026
 
 Feature

@@ -29,7 +29,7 @@ Before you use Credential Access Boundaries, make sure you meet the following re
 
 Also, you must enable the required APIs:
 
-  - Enable the IAM and Security Token Service APIs.
+  - Enable the IAM and Security Token Service APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

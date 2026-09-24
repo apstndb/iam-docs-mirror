@@ -17,7 +17,7 @@ For authentication, you can obtain external credentials using the following meth
 
 ## Before you begin
 
-1.  Enable the required APIs.
+1.  Enable the required APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

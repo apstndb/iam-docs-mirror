@@ -18,7 +18,7 @@ The `testIamPermissions()` method is intended for third-party graphical user int
 
 ## Before you begin
 
-  - Enable the Resource Manager API.
+  - Enable the Resource Manager API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

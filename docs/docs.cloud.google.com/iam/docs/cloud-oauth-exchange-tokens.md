@@ -18,7 +18,7 @@ This guide describes how to exchange external credentials, authorization codes, 
 
 2.  Register an OAuth client and create client credentials. For more information, see [Manage OAuth applications](https://docs.cloud.google.com/iam/docs/workforce-manage-oauth-app) .
 
-3.  Enable the Cloud OAuth API.
+3.  Enable the Cloud OAuth API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

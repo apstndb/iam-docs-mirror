@@ -12,7 +12,7 @@ This page describes how to configure service accounts so that you can attach the
 
 ## Before you begin
 
-  - Enable the IAM and Resource Manager APIs.
+  - Enable the IAM and Resource Manager APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

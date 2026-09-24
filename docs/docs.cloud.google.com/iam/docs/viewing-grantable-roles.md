@@ -10,7 +10,7 @@ Before you grant an Identity and Access Management (IAM) role to a user for a re
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

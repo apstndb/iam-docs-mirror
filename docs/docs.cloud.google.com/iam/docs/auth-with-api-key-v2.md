@@ -20,7 +20,7 @@ API key auth providers use the agent's identity and don't require user consent. 
 
 1.  [Verify that you have chosen the correct authentication method](https://docs.cloud.google.com/iam/docs/agent-identity-overview#auth-models) .
 
-2.  Enable the Agent Identity API.
+2.  Enable the Agent Identity API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

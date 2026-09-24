@@ -163,7 +163,7 @@ In this example, you might see the following error:
 
 To resolve this issue, perform the following steps:
 
-1.  [Describe the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#describe_a_provider) that was used to sign in, and identify the IdP attribute that is set in the `attributeMapping` . Check the attribute against the attribute presented in the error message. In the previous example, an IdP attribute called `userRole` is mapped to the `role` attribute and the `role` attribute appears in the error sample above.
+1.  [Describe the provider](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers#describe_a_provider) that was used to sign in, and identify the IdP attribute that is set in the `attributeMapping` . Check the attribute against the attribute presented in the error message. In the previous example, an IdP attribute called `userRole` is mapped to the `role` attribute and the `role` attribute appears in the error sample.
 
 2.  When updating the attribute mapping, consider the following:
     
@@ -220,19 +220,6 @@ This error includes the following values:
 This error occurs when the number of groups emitted by the IdP exceeds Google Cloud's limit. Groups are mapped to Google Cloud using the attribute `google.groups` .
 
 To resolve this issue, ask your administrator to reduce the number of groups that your IdP emits. Your IdP only needs to emit groups that are used to federate users to Google Cloud. Learn more about groups-related limits in [attribute mappings](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#attribute-mappings) .
-
-#### SCIM tenant couldn't be found
-
-This error occurs when a user tries to sign in using a workforce identity pool provider that's configured to use SCIM, but no SCIM tenant is configured for that provider.
-
-When this occurs, users get the following error when they try to sign in:
-
-`There was an issue signing in with your identity provider.`
-
-To resolve this error, do the following:
-
-1.  [Configure a SCIM tenant and token on Google Cloud](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups?group_type=extended#configure-scim-tenant-token-gcp) .
-2.  [Link the provider to a SCIM tenant](https://docs.cloud.google.com/iam/docs/workforce-sign-in-microsoft-entra-id-scalable-groups?group_type=extended#update-provider-enable-scim) .
 
 #### 400\. That's an error
 
@@ -361,6 +348,45 @@ To resolve this error, perform the following steps:
 
 Follow the steps in [inspect the IdP response](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#inspect-idp-response) to see the response returned by the IdP and the `AudienceRestriction` s that are set on it.
 
+### SCIM sign-in errors
+
+This section describes how to resolve SCIM-specific errors that a Workforce Identity Federation user might encounter when they sign in.
+
+#### SCIM tenant couldn't be found
+
+This error occurs when a user tries to sign in using a workforce identity pool provider that's configured to use SCIM, but no SCIM tenant is configured for that provider.
+
+When this occurs, users get the following error when they try to sign in:
+
+`There was an issue signing in with your identity provider.`
+
+To resolve this error, do the following:
+
+1.  [Configure a SCIM tenant and token on Google Cloud](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml#configure-scim-tenant-token-gcp) .
+2.  [Link the provider to a SCIM tenant](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml#update-provider-enable-scim) .
+
+#### Sign-in fails when SCIM usage is enabled for users and groups ( [Preview](https://cloud.google.com/products#product-launch-stages) )
+
+When `--scim-usage` is set to `enabled-for-users-groups` , sign-in attempts might fail with specific error messages:
+
+  - **SCIM user not found or inactive:**
+    
+      - **Error:** `The workforce identity pool provider is configured to use identity information that is provided using SCIM, but a SCIM User could not be associated with the google.subject from the given credential.` or `... the SCIM User associated with the google.subject from the given credential is not active.`
+      - **Cause:** The user hasn't synced to Google Cloud by using SCIM, the mapped `google.subject` in the provider does not match the SCIM user mapping, or the user is marked `active: false` in the IdP.
+      - **Resolution:** In your IdP, verify that the user is provisioned by using SCIM, ensure their status is active, and verify that the provider attribute mapping and SCIM tenant claim mapping for `google.subject` refer to the same identity.
+
+  - **CEL evaluation or claim mapping error:**
+    
+      - **Error:** `Failed to map attributes from the given credential with SCIM Tenant config.`
+      - **Cause:** A CEL expression in `--claim-mapping` is invalid or failed during evaluation.
+      - **Resolution:** Review your SCIM tenant's `--claim-mapping` expressions to ensure valid CEL syntax and supported attribute names.
+
+  - **Mapped attribute size limits exceeded:**
+    
+      - **Error:** `The size of SCIM mapped attribute google.display_name exceeds the 100 bytes limit.` or `The size of entire SCIM mapped attributes exceeds the 16 kB limit.`
+      - **Cause:** An individual mapped attribute exceeded its size limit (for example, 100 bytes for `google.display_name` , 32 bytes for `google.posix_username` , 127 bytes for `google.subject` ), or the total serialized mapped claims exceeded 16 kB.
+      - **Resolution:** Adjust your SCIM tenant claim mappings or update IdP attribute values to remain within the allowed limits.
+
 ## SCIM provisioning and synchronization errors
 
 This section describes how to resolve issues with SCIM provisioning and synchronization in Workforce Identity Federation.
@@ -444,7 +470,7 @@ To resolve this issue, do the following:
     
     Replace `  SCIM_TENANT_ID  ` with the ID of the SCIM tenant.
 
-4.  Ensure that `--claim-mapping` uses only supported CEL expressions. For more information, see [Map token and SCIM attributes](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#mapping-examples) .
+4.  Ensure that `--claim-mapping` uses only supported CEL expressions. For more information, see [Claim mapping](https://docs.cloud.google.com/iam/docs/workforce-identity-federation-scim#mapping-examples) .
 
 ### SCIM token creation fails
 
@@ -594,6 +620,17 @@ To resolve this issue, configure your IdP attribute mapping to send only the pri
 This error occurs when group updates fail because the client uses HTTP `PUT` , which isn't supported. The Google Cloud SCIM API supports only HTTP `PATCH` for group updates.
 
 To resolve this issue, configure your IdP or custom client to use HTTP `PATCH` for group updates.
+
+### Provider update fails with mutually exclusive configurations
+
+This error occurs when provider creation or update fails with one of the following messages:
+
+  - `Select one of scim_usage - ENABLED_FOR_USERS_GROUPS or extra_attributes_oauth2_client, but not both.`
+  - `Select one of scim_usage or extended_attributes_oauth2_client, but not both.`
+
+Setting `--scim-usage=enabled-for-users-groups` ( [Preview](https://cloud.google.com/products#product-launch-stages) ) is mutually exclusive with Extra Attributes ( `extra_attributes_oauth2_client` ) and Extended Attributes ( `extended_attributes_oauth2_client` ).
+
+To resolve this issue, remove the conflicting Extra or Extended Attributes configuration from the provider, or change the `--scim-usage` setting.
 
 ## Cloud OAuth API token exchange errors
 

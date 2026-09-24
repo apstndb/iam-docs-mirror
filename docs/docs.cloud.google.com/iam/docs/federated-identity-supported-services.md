@@ -1506,7 +1506,13 @@ The limitations table is organized in the following way:
 <tr class="even">
 <td>Google Cloud API:</td>
 <td><ul>
-<li>Image import from and export to a Cloud Storage bucket requires <a href="https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access">uniform bucket-level access</a> to be enabled for the bucket.</li>
+<li>Importing and exporting images and disks with a Cloud Storage bucket requires <a href="https://docs.cloud.google.com/storage/docs/uniform-bucket-level-access">uniform bucket-level access</a> to be enabled for the bucket. To work around this limitation, use one of the following options:
+<ul>
+<li>If you don't need fine-grained object access control lists (ACLs), <a href="https://docs.cloud.google.com/storage/docs/using-uniform-bucket-level-access">enable uniform bucket-level access</a> on the affected Cloud Storage bucket:<br />
+<code dir="ltr" translate="no">gcloud storage buckets update gs://                   BUCKET_NAME                  --uniform-bucket-level-access</code></li>
+<li>Use <a href="https://docs.cloud.google.com/docs/authentication/use-service-account-impersonation">service account impersonation</a> to import and export images and disks with buckets that don't have uniform bucket-level access enabled. Google service accounts are first-party credentials and aren't subject to identity federation limitations. To impersonate a service account, run the following command:<br />
+<code dir="ltr" translate="no">gcloud config set auth/impersonate_service_account                   SERVICE_ACCOUNT_EMAIL                 </code></li>
+</ul></li>
 <li><a href="https://docs.cloud.google.com/bare-metal/docs">Bare Metal Solution</a> isn't supported.</li>
 </ul></td>
 </tr>

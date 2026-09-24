@@ -54,7 +54,7 @@ To update the description or authentication details of an auth provider, use the
 
 1.  To update an auth provider, run the following command:
     
-        gcloud agent-identity auth-providers update AUTH_PROVIDER_NAME \    --location="LOCATION" \    --description="NEW_DESCRIPTION" \    --three-legged-oauth-client-id="NEW_CLIENT_ID" \    --three-legged-oauth-client-secret="NEW_CLIENT_SECRET" \    --three-legged-oauth-authorization-url="NEW_ENDPOINT"
+        gcloud agent-identity auth-providers update AUTH_PROVIDER_NAME \    --location="LOCATION" \    --description="NEW_DESCRIPTION" \    --three-legged-oauth-client-id="NEW_CLIENT_ID" \    --three-legged-oauth-client-secret="NEW_CLIENT_SECRET" \    --three-legged-oauth-authorization-url="NEW_ENDPOINT" \    --three-legged-oauth-default-continue-uri="NEW_DEFAULT_CONTINUE_URI"
     
     Replace the following:
     
@@ -64,6 +64,7 @@ To update the description or authentication details of an auth provider, use the
       - `  NEW_CLIENT_ID  ` : A new client ID from your third-party application.
       - `  NEW_CLIENT_SECRET  ` : A new client secret from your third-party application.
       - `  NEW_ENDPOINT  ` : A new URL of the third-party authorization server.
+      - `  NEW_DEFAULT_CONTINUE_URI  ` : Optional. A new default redirect URI where users are sent after granting consent.
 
 ## Enable or disable an auth provider
 

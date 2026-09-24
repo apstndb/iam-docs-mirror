@@ -16,7 +16,7 @@ You can manage deny policies with the Google Cloud console, Google Cloud CLI, or
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

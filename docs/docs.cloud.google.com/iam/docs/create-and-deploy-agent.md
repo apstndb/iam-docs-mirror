@@ -16,7 +16,7 @@ Agent Identity assigns a secure SPIFFE identity to your deployed agent. The agen
 
 ## Before you begin
 
-1.  Enable the Agent Identity API, Agent Platform API, Agent Registry API, and App Hub API APIs.
+1.  Enable the Agent Identity API, Agent Platform API, Agent Registry API, and App Hub API APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

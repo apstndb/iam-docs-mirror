@@ -22,7 +22,7 @@ The `/groups` endpoint serves as a distributed claims endpoint for OpenID Connec
 
 2.  Register an OAuth client and exchange an authorization code for an access token. For more information, see [Exchange tokens with the Cloud OAuth API](https://docs.cloud.google.com/iam/docs/cloud-oauth-exchange-tokens) .
 
-3.  Enable the Cloud OAuth API.
+3.  Enable the Cloud OAuth API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

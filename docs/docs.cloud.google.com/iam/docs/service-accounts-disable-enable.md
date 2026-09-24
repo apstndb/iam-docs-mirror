@@ -10,7 +10,7 @@ This page explains how to disable and enable service accounts using the Identity
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

@@ -37,7 +37,7 @@ This document describes how to configure [managed workload identities](https://d
 
 4.  Learn how to [authenticate Compute Engine workloads using managed workload identities](https://docs.cloud.google.com/compute/docs/access/authenticate-workloads-over-mtls) .
 
-5.  Enable the IAM and Certificate Authority Service APIs:
+5.  Enable the IAM and Certificate Authority Service APIs, if any are not already enabled:
     
     **Roles required to enable APIs**
     

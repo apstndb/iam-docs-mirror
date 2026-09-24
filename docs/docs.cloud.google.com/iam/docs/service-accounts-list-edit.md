@@ -10,7 +10,7 @@ This page explains how to list and edit service accounts using the Identity and 
 
 ## Before you begin
 
-  - Enable the IAM API.
+  - Enable the IAM API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

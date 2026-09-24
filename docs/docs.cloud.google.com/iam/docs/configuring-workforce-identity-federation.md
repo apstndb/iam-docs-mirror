@@ -25,7 +25,7 @@ For IdP-specific instructions, see the following:
     
     > **Note:** If you installed the gcloud CLI previously, make sure you have the latest version by running `gcloud components update` .
 
-3.  Enable the Identity and Access Management (IAM) and Resource Manager APIs.
+3.  Enable the Identity and Access Management (IAM) and Resource Manager APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

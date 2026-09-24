@@ -26,7 +26,7 @@ To obtain short-lived tokens, follow this high-level process:
 
 2.  Ensure that every principal for which tokens are exchanged using the Security Token Service has the Identity and Access Management (IAM) permission `serviceusage.services.use` . The least-privileged role that contains this permission is Service Usage Consumer ( `roles/serviceusage.serviceUsageConsumer` ).
 
-3.  Enable the IAM, Security Token Service, and the Cloud OAuth API APIs.
+3.  Enable the IAM, Security Token Service, and the Cloud OAuth API APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

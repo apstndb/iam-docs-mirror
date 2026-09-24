@@ -22,7 +22,7 @@ This guide describes how to retrieve OpenID Connect (OIDC) standard claims, cust
 
 3.  Ensure your access token includes the `openid` scope.
 
-4.  Enable the Cloud OAuth API.
+4.  Enable the Cloud OAuth API, if it is not already enabled.
     
     **Roles required to enable APIs**
     
