@@ -767,7 +767,6 @@ You might see resources continue to be associated with a user that was deleted. 
 
 ## What's next
 
-  - [Configure SCIM in OIDC or SAML IdP](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml)
   - [Obtain short-lived credentials for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/workforce-obtaining-short-lived-credentials)
   - [Manage workforce identity pool providers](https://docs.cloud.google.com/iam/docs/manage-workforce-identity-pools-providers)
   - [Delete Workforce Identity Federation users and their data](https://docs.cloud.google.com/iam/docs/workforce-delete-user-data)

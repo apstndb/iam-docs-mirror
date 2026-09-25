@@ -255,6 +255,7 @@ The following table details the support for the enterprise user schema extension
 
 ## What's next
 
-  - [Configure SCIM support for Workforce Identity Federation](https://docs.cloud.google.com/iam/docs/configuring-workforce-identity-federation#configure-scim)
+  - [Configure SCIM in Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra)
+  - [Configure SCIM in Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta)
   - [Troubleshoot SCIM provisioning](https://docs.cloud.google.com/iam/docs/troubleshooting-workforce-identity-federation#scim-provisioning-errors)
   - [IAM SCIM audit logging](https://docs.cloud.google.com/iam/docs/audit-logging/audit-logging-iamscim)

@@ -3014,7 +3014,7 @@ The limitations table is organized in the following way:
 </tr>
 <tr class="even">
 <td><h3 id="service-directory" data-text="Service Directory" tabindex="-1"><a href="https://docs.cloud.google.com/service-directory/docs">Service Directory</a></h3></td>
-<td><a href="https://cloud.google.com/products/#product-launch-stages">Preview</a></td>
+<td><a href="https://cloud.google.com/products/#product-launch-stages">GA</a></td>
 <td><table>
 <tbody>
 <tr class="odd">

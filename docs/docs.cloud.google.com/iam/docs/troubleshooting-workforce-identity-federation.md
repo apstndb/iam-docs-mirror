@@ -360,10 +360,10 @@ When this occurs, users get the following error when they try to sign in:
 
 `There was an issue signing in with your identity provider.`
 
-To resolve this error, do the following:
+To resolve this error, do the following for your identity provider:
 
-1.  [Configure a SCIM tenant and token on Google Cloud](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml#configure-scim-tenant-token-gcp) .
-2.  [Link the provider to a SCIM tenant](https://docs.cloud.google.com/iam/docs/configure-scim-oidc-saml#update-provider-enable-scim) .
+1.  Configure a SCIM tenant and token on Google Cloud ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#configure-scim-tenant-token-gcp) | [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#configure-scim-tenant-token-gcp) ).
+2.  Link the provider to a SCIM tenant ( [Microsoft Entra ID](https://docs.cloud.google.com/iam/docs/configure-scim-ms-entra#update-provider-enable-scim) | [Okta](https://docs.cloud.google.com/iam/docs/configure-scim-okta#update-provider-enable-scim) ).
 
 #### Sign-in fails when SCIM usage is enabled for users and groups ( [Preview](https://cloud.google.com/products#product-launch-stages) )
 
