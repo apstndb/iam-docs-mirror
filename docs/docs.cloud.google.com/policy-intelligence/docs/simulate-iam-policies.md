@@ -18,7 +18,7 @@ To learn how to simulate changes to other types of policies, see the following:
 
 ## Before you begin
 
-  - Enable the Policy Simulator and Resource Manager APIs.
+  - Enable the Policy Simulator and Resource Manager APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

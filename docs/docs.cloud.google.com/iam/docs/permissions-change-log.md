@@ -16,6 +16,286 @@ You can see the latest product updates for all of Google Cloud on the [Google Cl
 
 To get the latest product updates delivered to you, add the URL of this page to your [feed reader](https://wikipedia.org/wiki/Comparison_of_feed_aggregators) , or add the [feed URL](https://docs.cloud.google.com/static/feeds/cloud-iam-permissions-change-log.xml) directly.
 
+## IAM changes for the week of 2026-09-22
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Service</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The Admin role ( <code dir="ltr" translate="no">roles/admin</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>App Engine</td>
+<td><p>The following permissions have been added to the App Engine Admin role ( <code dir="ltr" translate="no">roles/appengine.appAdmin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">artifactregistry.tags.get</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>App Engine</td>
+<td><p>The following permissions have been added to the App Engine Deployer role ( <code dir="ltr" translate="no">roles/appengine.deployer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">artifactregistry.tags.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Audit Manager</td>
+<td><p>The following permissions have been added to the Audit Manager Auditing Service Agent role ( <code dir="ltr" translate="no">roles/auditmanager.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Business AI Code</td>
+<td><p>The following permissions have been added to the Business AI Code Service Agent role ( <code dir="ltr" translate="no">roles/businessaicode.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.projects.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud Security Compliance</td>
+<td><p>The following permissions have been added to the Cloud Security Compliance Service Agent role ( <code dir="ltr" translate="no">roles/cloudsecuritycompliance.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">discoveryengine.dataStores.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Managed Service for Apache Airflow</td>
+<td><p>The following permissions have been added to the Cloud Composer API Service Agent role ( <code dir="ltr" translate="no">roles/composer.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">artifactregistry.tags.get</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Discovery Engine</td>
+<td><p>The following permissions have been added to the Discovery Engine Service Agent role ( <code dir="ltr" translate="no">roles/discoveryengine.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentidentity.authProviders.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.bindings.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.bindings.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.bindings.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">agentregistry.bindings.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud DNS</td>
+<td><p>The following permissions have been added to the Cloud DNS Service Agent role ( <code dir="ltr" translate="no">roles/dns.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.createInternal</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.deleteInternal</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.use</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.addresses.useInternal</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.networks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.networks.use</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.subnetworks.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.subnetworks.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">compute.subnetworks.use</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cluster Director</td>
+<td><p>The following permissions have been added to the Cluster Director Service Agent role ( <code dir="ltr" translate="no">roles/hypercomputecluster.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.endpoints.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.endpoints.predict</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">aiplatform.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The Reader role ( <code dir="ltr" translate="no">roles/reader</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>SaaS Service Management</td>
+<td><p>The following permissions have been added to the SaaS Service Management Service Agent role ( <code dir="ltr" translate="no">roles/saasservicemgmt.serviceAgent</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.poolKinds.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.pools.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.saasReleases.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.tenantOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroupOperations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.create</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.delete</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">saasservicemgmt.unitGroups.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Security Posture API</td>
+<td><p>The following permissions have been added to the Security Posture Admin role ( <code dir="ltr" translate="no">roles/securityposture.admin</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Security Posture API</td>
+<td><p>The following permissions have been added to the Security Posture Deployer role ( <code dir="ltr" translate="no">roles/securityposture.postureDeployer</code> ):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">securitycentermanagement.securityCenterServices.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Basic Role</td>
+<td><p>The Writer role ( <code dir="ltr" translate="no">roles/writer</code> ) has reached General Availability (GA).</p></td>
+</tr>
+<tr class="even">
+<td>Gemini Enterprise Agent Platform</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">aiplatform.provisionedThroughputs.changeScope</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud SQL</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.startReplay</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.stopReplay</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Cloud SQL</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.startReplay</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.stopReplay</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Cloud SQL</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.start</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.startReplay</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.stop</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">cloudsql.workloadCaptures.stopReplay</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Infrastructure Manager</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Infrastructure Manager</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deploymentgroups.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.deployments.listTagBindings</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.createTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.deleteTagBinding</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.listEffectiveTags</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">config.previews.listTagBindings</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Recommender</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommenderConfig.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommenderConfig.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Recommender</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommenderConfig.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommenderConfig.update</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Recommender</td>
+<td><p>The following permissions have reached General Availability (GA):</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceInsights.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommendations.update</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommenderConfig.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">recommender.computeIdleResourceRecommenderConfig.update</code><br />
+</p></td>
+</tr>
+<tr class="odd">
+<td>Universal Ledger</td>
+<td><p>The following permissions have been added:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.readNetwork</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.submit</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.locations.list</code><br />
+</p></td>
+</tr>
+<tr class="even">
+<td>Universal Ledger</td>
+<td><p>The following permissions are supported in custom roles:</p>
+<p><code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.list</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.readNetwork</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.endpoints.submit</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.locations.get</code><br />
+<code dir="ltr" style="font-weight:normal" translate="no">universalledger.locations.list</code><br />
+</p></td>
+</tr>
+</tbody>
+</table>
+
 ## IAM changes for the week of 2026-09-15
 
 <table>

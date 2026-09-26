@@ -18,7 +18,7 @@ To learn how to simulate other types of policies, see the following:
 
 ## Before you begin
 
-  - Enable the Policy Simulator and Identity and Access Management APIs.
+  - Enable the Policy Simulator and Identity and Access Management APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

@@ -20,7 +20,7 @@ We recommend cross referencing service account insights with Cloud Monitoring se
 
 ## Before you begin
 
-  - Enable the Recommender API.
+  - Enable the Recommender API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

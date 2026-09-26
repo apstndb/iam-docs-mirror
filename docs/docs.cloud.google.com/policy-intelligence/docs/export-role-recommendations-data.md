@@ -14,7 +14,7 @@ If you want to export a snapshot of your insights and recommendations, see [Expo
 
 ## Before you begin
 
-  - Enable the IAM, Resource Manager, Recommender, BigQuery, BigQuery Data Transfer Service, and Pub/Sub APIs.
+  - Enable the IAM, Resource Manager, Recommender, BigQuery, BigQuery Data Transfer Service, and Pub/Sub APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

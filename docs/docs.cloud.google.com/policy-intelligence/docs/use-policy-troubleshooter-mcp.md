@@ -85,7 +85,7 @@ In your AI application, look for a way to add or connect to a remote MCP server.
   - **Server name** : Policy Troubleshooter MCP server
   - **Server URL** or **Endpoint** : `https://policytroubleshooter.googleapis.com/mcp`
   - **Transport** : [Streamable HTTP](https://modelcontextprotocol.io/specification/latest/basic/transports/streamable-http)
-  - **Authentication details** : Depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
+  - **Authentication details** : depending on how you want to authenticate, you can enter your Google Cloud credentials, your OAuth Client ID and secret, or an agent identity and credentials. For more information about authentication, see [Authenticate to MCP servers](https://docs.cloud.google.com/mcp/authenticate-mcp) .
   - **OAuth scope** : To access the Policy Troubleshooter MCP server, use the `https://www.googleapis.com/auth/cloud-policytroubleshooter.readonly` [OAuth 2.0 scope](https://developers.google.com/identity/protocols/oauth2/scopes) .
 
 For application-specific guidance about setting up and connecting to MCP server, see [Client-specific guidance](https://docs.cloud.google.com/mcp/configure-mcp-ai-application#client-specific-guidance) .
@@ -103,14 +103,33 @@ To view details of available MCP tools and their descriptions for the Policy Tro
 
 Use the [MCP inspector](https://modelcontextprotocol.io/docs/tools/inspector) to list tools, or send a `tools/list` HTTP request directly to the Policy Troubleshooter remote MCP server. The `tools/list` method doesn't require authentication.
 
-    POST /mcp HTTP/1.1
-    Host: policytroubleshooter.googleapis.com
-    Content-Type: application/json
-    
-    {
-      "jsonrpc": "2.0",
-      "method": "tools/list",
-    }
+    curl -X POST https://policytroubleshooter.googleapis.com/TOOLSET_ENDPOINT \
+        -H 'Content-Type: application/json' \
+        -H 'Accept: application/json' \
+        -H 'MCP-Protocol-Version: MCP_PROTOCOL_VERSION' \
+        -H 'Mcp-Method: tools/list' \
+        -d '{
+          "jsonrpc": "2.0",
+          "id": 1,
+          "method": "tools/list",
+          "params": {
+            "_meta": {
+              "io.modelcontextprotocol/protocolVersion": "MCP_PROTOCOL_VERSION",
+              "io.modelcontextprotocol/clientCapabilities": {
+                "extensions": {
+                  "io.modelcontextprotocol/ui": {
+                    "mimeTypes": ["text/html;profile=mcp-app"]
+                  }
+                }
+              }
+            }
+          }
+        }'
+
+Replace the following:
+
+  - `TOOLSET_ENDPOINT` : the remainder of the MCP endpoint after the service name. For example, for Policy Troubleshooter, this might be `mcp/toolset-name` .
+  - `MCP_PROTOCOL_VERSION` : the MCP protocol version. For example, `2026-07-28` .
 
 ## Example use cases
 
@@ -143,7 +162,7 @@ You must enable Model Armor APIs before you can use Model Armor.
 
 ### Console
 
-1.  Enable the Model Armor API.
+1.  Enable the Model Armor API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

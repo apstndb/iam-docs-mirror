@@ -14,7 +14,7 @@ This page explains how to view, understand, and apply organization policy recomm
 
 ## Before you begin
 
-  - Enable the Organization Policy and Recommender APIs.
+  - Enable the Organization Policy and Recommender APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

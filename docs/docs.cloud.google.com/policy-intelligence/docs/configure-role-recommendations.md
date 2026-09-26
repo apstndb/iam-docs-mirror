@@ -12,7 +12,7 @@ Though the IAM recommender generates role recommendations for a variety of resou
 
 ## Before you begin
 
-  - Enable the Recommender API.
+  - Enable the Recommender API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

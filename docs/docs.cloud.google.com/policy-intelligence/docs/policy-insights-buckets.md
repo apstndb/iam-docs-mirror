@@ -19,7 +19,7 @@ Bucket-level policy insights are sometimes linked to [role recommendations](http
 
 ## Before you begin
 
-  - Enable the Recommender API.
+  - Enable the Recommender API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

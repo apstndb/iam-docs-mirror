@@ -22,7 +22,7 @@ To learn how to simulate changes to other policy types, see the following:
 
 ## Before you begin
 
-  - Enable the Cloud Asset Inventory, Identity and Access Management, Policy Analyzer, and Policy Simulator APIs.
+  - Enable the Cloud Asset Inventory, Identity and Access Management, Policy Analyzer, and Policy Simulator APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

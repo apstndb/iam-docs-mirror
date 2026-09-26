@@ -10,7 +10,7 @@ This page explains how to analyze Identity and Access Management (IAM) policies 
 
 ## Before you begin
 
-Enable the Cloud Asset API.
+Enable the Cloud Asset API, if it is not already enabled.
 
 **Roles required to enable APIs**
 

@@ -22,7 +22,7 @@ An analysis query is composed of a scope and a constraint.
 
 ## Before you begin
 
-  - Enable the Cloud Asset API.
+  - Enable the Cloud Asset API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

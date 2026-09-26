@@ -18,7 +18,7 @@ This page describes how to test a change to an organization policy using Policy 
     
     Replace `  PROJECT_ID  ` with the name or ID of the project.
 
-  - Enable the Policy Simulator and Resource Manager APIs.
+  - Enable the Policy Simulator and Resource Manager APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

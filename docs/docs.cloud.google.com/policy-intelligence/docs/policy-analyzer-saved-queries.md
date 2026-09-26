@@ -10,7 +10,7 @@ This page shows you how to create, manage, and run saved [Policy Analyzer querie
 
 ## Before you begin
 
-1.  Enable the Cloud Asset API.
+1.  Enable the Cloud Asset API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

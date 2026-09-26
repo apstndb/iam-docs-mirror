@@ -18,7 +18,7 @@ You can access Policy Troubleshooter using the Google Cloud console, the Google 
 
 ## Before you begin
 
-  - Enable the Policy Troubleshooter API.
+  - Enable the Policy Troubleshooter API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

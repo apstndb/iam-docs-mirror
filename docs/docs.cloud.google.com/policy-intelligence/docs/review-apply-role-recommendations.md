@@ -10,7 +10,7 @@ This page explains how to view, understand, and apply role recommendations for p
 
 ## Before you begin
 
-  - Enable the IAM and Recommender APIs.
+  - Enable the IAM and Recommender APIs, if any are not already enabled.
     
     **Roles required to enable APIs**
     

@@ -26,7 +26,7 @@ Cross reference Activity Analyzer results with Cloud Monitoring service account 
 
   - Understand [authentication activities](https://docs.cloud.google.com/policy-intelligence/docs/service-account-usage-tools#understand-authn) .
 
-  - Enable the Policy Analyzer API.
+  - Enable the Policy Analyzer API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

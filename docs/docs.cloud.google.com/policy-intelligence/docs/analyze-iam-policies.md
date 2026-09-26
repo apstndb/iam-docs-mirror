@@ -22,7 +22,7 @@ The examples on this page show how to run a Policy Analysis query and immediatel
 
 ## Before you begin
 
-  - Enable the Cloud Asset API.
+  - Enable the Cloud Asset API, if it is not already enabled.
     
     **Roles required to enable APIs**
     

@@ -19,7 +19,7 @@ Policy insights are sometimes linked to [role recommendations](https://docs.clou
 
 ## Before you begin
 
-  - Enable the Recommender API.
+  - Enable the Recommender API, if it is not already enabled.
     
     **Roles required to enable APIs**
     
