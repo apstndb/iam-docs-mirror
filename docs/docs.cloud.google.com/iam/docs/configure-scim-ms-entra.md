@@ -420,13 +420,25 @@ To force delete a SCIM tenant, do the following:
 
 1.  If `--scim-usage=enabled-for-groups` or `--scim-usage=enabled-for-users-groups` is set for your provider, disable it from the provider configuration:
     
-    ``` 
-              gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
-                  --workforce-pool=WORKFORCE_POOL_ID \
-                  --location=LOCATION \
-                  --scim-usage=SCIM_USAGE_UNSPECIFIED
-            
-    ```
+    ### OIDC
+    
+        gcloud iam workforce-pools providers update-oidc PROVIDER_ID \
+            --workforce-pool=WORKFORCE_POOL_ID \
+            --location=LOCATION \
+            --scim-usage=SCIM_USAGE_UNSPECIFIED
+    
+    Replace the following:
+    
+      - `  PROVIDER_ID  ` : the ID of the workforce identity pool provider
+      - `  WORKFORCE_POOL_ID  ` : the ID of the workforce pool
+      - `  LOCATION  ` : the location of the workforce pool
+    
+    ### SAML
+    
+        gcloud iam workforce-pools providers update-saml PROVIDER_ID \
+            --workforce-pool=WORKFORCE_POOL_ID \
+            --location=LOCATION \
+            --scim-usage=SCIM_USAGE_UNSPECIFIED
     
     Replace the following:
     
@@ -436,13 +448,11 @@ To force delete a SCIM tenant, do the following:
 
 2.  Delete the SCIM tenant:
     
-    ``` 
-      gcloud iam workforce-pools providers scim-tenants delete SCIM_TENANT_ID \
-          --workforce-pool=WORKFORCE_POOL_ID \
-          --provider=PROVIDER_ID \
-          --hard-delete \
-          --location=global
-    ```
+        gcloud iam workforce-pools providers scim-tenants delete SCIM_TENANT_ID \
+            --workforce-pool=WORKFORCE_POOL_ID \
+            --provider=PROVIDER_ID \
+            --hard-delete \
+            --location=global
     
     Replace the following:
     
