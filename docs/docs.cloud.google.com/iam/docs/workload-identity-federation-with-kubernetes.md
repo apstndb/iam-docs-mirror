@@ -256,8 +256,8 @@ To create a Kubernetes ServiceAccount and grant it a role, do the following:
     
     Replace the following:
     
-      - `  KSA_NAME  ` : A name of the ServiceAccount.
-      - `  NAMESPACE  ` : The namespace in which to create the ServiceAccount.
+      - `  KSA_NAME  ` : a name for the ServiceAccount.
+      - `  NAMESPACE  ` : the namespace in which to create the ServiceAccount.
 
 2.  Grant IAM access to the Kubernetes ServiceAccount for a Google Cloud resource.
     
@@ -272,11 +272,10 @@ To create a Kubernetes ServiceAccount and grant it a role, do the following:
     
     Replace the following:
     
-      - `  PROJECT_NUMBER  ` : the numerical Google Cloud project number that is associated with your project ID.
-    
-      - `  POOL_ID  ` : the workload identity pool ID.
-    
-      - `  MAPPED_SUBJECT  ` : the Kubernetes ServiceAccount from the claim in your ID token that you mapped to `google.subject` . For example, if you mapped `google.subject=assertions.sub` and your ID token contains `"sub": "system:serviceaccount:default:my-kubernetes-serviceaccount"` , then `  MAPPED_SUBJECT  ` is `system:serviceaccount:default:my-kubernetes-serviceaccount` .
+      - `  PROJECT_ID  ` : the ID of the Google Cloud project on which to grant access.
+      - `  PROJECT_NUMBER  ` : the [project number](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects) of the project that contains the workload identity pool.
+      - `  POOL_ID  ` : the ID of the workload identity pool.
+      - `  MAPPED_SUBJECT  ` : the Kubernetes ServiceAccount from the claim in your ID token that you mapped to `google.subject` . For example, if you mapped `google.subject=assertion.sub` and your ID token contains `"sub": "system:serviceaccount:default:my-kubernetes-serviceaccount"` , then `  MAPPED_SUBJECT  ` is `system:serviceaccount:default:my-kubernetes-serviceaccount` .
     
     You can grant roles on any Google Cloud resource that supports IAM allow policies. The syntax of the principal identifier depends on the Kubernetes resource. For a list of supported identifiers, see [Principal identifiers for Workload Identity Federation for GKE](https://docs.cloud.google.com/kubernetes-engine/docs/concepts/workload-identity#principal-id-examples) .
 
@@ -292,8 +291,8 @@ To configure your Kubernetes ServiceAccount to use IAM service account impersona
     
     Replace the following:
     
-      - `  KSA_NAME  ` : a name for the ServiceAccount
-      - `  NAMESPACE  ` : the namespace in which to create the ServiceAccount
+      - `  KSA_NAME  ` : a name for the ServiceAccount.
+      - `  NAMESPACE  ` : the namespace in which to create the ServiceAccount.
 
 2.  Create an IAM [service account](https://docs.cloud.google.com/iam/docs/creating-managing-service-accounts#creating) that represents the workload.
     
@@ -304,8 +303,8 @@ To configure your Kubernetes ServiceAccount to use IAM service account impersona
     
     Replace the following:
     
-      - `  IAM_SA_NAME  ` : the name of the service account
-      - `  IAM_SA_PROJECT_ID  ` : the project ID of the service account
+      - `  IAM_SA_NAME  ` : the name of the service account.
+      - `  IAM_SA_PROJECT_ID  ` : the project ID of the service account.
 
 3.  [Grant your IAM service account access](https://docs.cloud.google.com/iam/docs/granting-changing-revoking-access) to the specific Google Cloud resources that you want the Kubernetes workload to access.
     
@@ -315,9 +314,9 @@ To configure your Kubernetes ServiceAccount to use IAM service account impersona
     
     Replace the following:
     
-      - `  IAM_SA_PROJECT_ID  ` : the ID of the project where you created your service account
-      - `  IAM_SA_NAME  ` : the name of the service account
-      - `  ROLE  ` : with the name of the role—for example, `roles/container.clusterViewer`
+      - `  IAM_SA_PROJECT_ID  ` : the ID of the project where you created your service account.
+      - `  IAM_SA_NAME  ` : the name of the service account.
+      - `  ROLE  ` : the name of the role to grant—for example, `roles/container.clusterViewer` .
 
 4.  Grant the Kubernetes ServiceAccount access to impersonate the IAM service account:
     
@@ -328,13 +327,11 @@ To configure your Kubernetes ServiceAccount to use IAM service account impersona
 
     Replace the following:
     
-      - `  IAM_SA_NAME  ` : the name of the service account
-      - `  PROJECT_ID  ` : the ID of the project where you run Kubernetes
-      - `  IAM_SA_PROJECT_NUMBER  ` : the [project number](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects) of the project where you created your service account
-      - `  POOL_ID  ` : the workload identity pool ID.
-      - `  MAPPED_SUBJECT  ` : the Kubernetes ServiceAccount from the claim in your ID token that you mapped to `google.subject` . For example, if you mapped `google.subject=assertions.sub` and your ID token contains `"sub": "system:serviceaccount:default:my-kubernetes-serviceaccount"` , then `  MAPPED_SUBJECT  ` is `system:serviceaccount:default:my-kubernetes-serviceaccount` .
-    
-    > **Note:** You must use the project number in the member identifier. Using the project ID is not supported.
+      - `  IAM_SA_NAME  ` : the name of the service account.
+      - `  IAM_SA_PROJECT_ID  ` : the ID of the project where you created your service account.
+      - `  PROJECT_NUMBER  ` : the [project number](https://docs.cloud.google.com/resource-manager/docs/creating-managing-projects) of the project that contains the workload identity pool.
+      - `  POOL_ID  ` : the ID of the workload identity pool.
+      - `  MAPPED_SUBJECT  ` : the Kubernetes ServiceAccount from the claim in your ID token that you mapped to `google.subject` . For example, if you mapped `google.subject=assertion.sub` and your ID token contains `"sub": "system:serviceaccount:default:my-kubernetes-serviceaccount"` , then `  MAPPED_SUBJECT  ` is `system:serviceaccount:default:my-kubernetes-serviceaccount` .
     
     For information on authorizing IAM service accounts to access Google Cloud APIs, see [Understanding service accounts](https://docs.cloud.google.com/iam/docs/understanding-service-accounts) .
 

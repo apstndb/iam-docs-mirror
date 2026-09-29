@@ -54,6 +54,9 @@ API methods in the following list that are marked with (LRO) are long-running op
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.Simulator.GetReplay</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.Simulator.ListReplayResults</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.AccessPolicySimulator.ListAccessPolicySimulationResults</code><br />
+<code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GetOrgPolicyViolationsPreview</code><br />
+<code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations</code><br />
+<code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolationsPreviews</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.Simulator.GetReplay</code><br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.Simulator.ListReplayResults</code></td>
 </tr>
@@ -62,7 +65,7 @@ API methods in the following list that are marked with (LRO) are long-running op
 <td><code dir="ltr" translate="no">google.cloud.policysimulator.v1.OrgPolicyViolationsPreviewService.CreateOrgPolicyViolationsPreview</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1.Simulator.CreateReplay</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.CreateOrgPolicyViolationsPreview</code> (LRO)<br />
-<code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GenerateOrgPolicyViolationsPreview</code><br />
+<code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GenerateOrgPolicyViolationsPreview</code> (LRO)<br />
 <code dir="ltr" translate="no">google.cloud.policysimulator.v1beta.Simulator.CreateReplay</code> (LRO)</td>
 </tr>
 </tbody>
@@ -186,8 +189,35 @@ The following audit logs are associated with methods belonging to `google.cloud.
   - **Audit log type** : [Admin activity](https://docs.cloud.google.com/logging/docs/audit#admin-activity)  
   - **Permissions** :
       - `policysimulator.orgPolicyViolationsPreviews.create - ADMIN_WRITE`
-  - **Method is a long-running or streaming operation** : No.  
+  - **Method is a long-running or streaming operation** : [**Long-running operation**](https://docs.cloud.google.com/logging/docs/audit/understanding-audit-logs#lro)  
   - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GenerateOrgPolicyViolationsPreview"`  
+
+#### `GetOrgPolicyViolationsPreview`
+
+  - **Method** : `google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GetOrgPolicyViolationsPreview`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `policysimulator.orgPolicyViolationsPreviews.get - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.GetOrgPolicyViolationsPreview"`  
+
+#### `ListOrgPolicyViolations`
+
+  - **Method** : `google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `policysimulator.orgPolicyViolations.list - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolations"`  
+
+#### `ListOrgPolicyViolationsPreviews`
+
+  - **Method** : `google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolationsPreviews`  
+  - **Audit log type** : [Data access](https://docs.cloud.google.com/logging/docs/audit#data-access)  
+  - **Permissions** :
+      - `policysimulator.orgPolicyViolationsPreviews.list - ADMIN_READ`
+  - **Method is a long-running or streaming operation** : No.  
+  - **Filter for this method** : `protoPayload.methodName="google.cloud.policysimulator.v1beta.OrgPolicyViolationsPreviewService.ListOrgPolicyViolationsPreviews"`  
 
 ### `google.cloud.policysimulator.v1beta.Simulator`
 

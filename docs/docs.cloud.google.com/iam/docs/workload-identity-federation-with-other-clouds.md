@@ -826,7 +826,7 @@ If you can't use the client libraries, you can follow these steps to let an exte
           "headers": [
             {
               "key": "Authorization",
-              "value" : "AWS4-HMAC-SHA256 Credential=AKIASOZTBDV4D7ABCDEDF/20200228/us-east-1/sts/aws4_request, SignedHeaders=host;x-amz-date,Signature=abcedefdfedfd"
+              "value": "AWS4-HMAC-SHA256 Credential=AKIASOZTBDV4D7ABCDEDF/20200228/us-east-1/sts/aws4_request, SignedHeaders=host;x-amz-date;x-goog-cloud-target-resource, Signature=abcedefdfedfd"
             },
             {
               "key": "host",
@@ -858,7 +858,7 @@ If you can't use the client libraries, you can follow these steps to let an exte
         
           - `x-amz-date` : The time you will send the request, formatted as an [ISO 8601 Basic](https://docs.aws.amazon.com/general/latest/gr/sigv4_elements.html#sigv4_elements_date) string. This value is typically set to the current time and is used to help prevent replay attacks.
         
-          - `x-goog-cloud-target-resource` : The full resource name of the IdP without a `https:` prefix. For example:
+          - `x-goog-cloud-target-resource` : The full resource name of the IdP without an `https:` prefix. To help ensure data integrity, we recommend that you include this header in the `SignedHeaders` field of the signed request. For example:
             
                 //iam.googleapis.com/projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL_ID/providers/PROVIDER_ID
         

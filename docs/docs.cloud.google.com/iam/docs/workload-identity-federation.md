@@ -87,19 +87,28 @@ The following list provides attribute mapping examples:
     
         attribute.aws_role=assertion.arn.contains('assumed-role') ? assertion.arn.extract('{account_arn}assumed-role/') + 'assumed-role/' + assertion.arn.extract('assumed-role/{role_name}/') : assertion.arn
 
-  - Use the [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) splits a string on the provided separator value. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` and using the first string, use the following attribute mapping:
+  - Use the [`split` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-split) to split a string on a specified separator. For example, to extract the attribute `username` from an email address attribute by splitting its value at the `@` symbol and using the first string, use the following attribute mapping:
     
         attribute.username=assertion.email.split("@")[0]
 
-  - [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) joins a list of strings on the provided separator value. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
+  - Use the [`join` function](https://pkg.go.dev/github.com/google/cel-go/ext#readme-join) to join a list of strings on a specified separator. For example, to populate the custom attribute `department` by concatenating a list of strings with `.` as a separator, use the following attribute mapping:
     
         attribute.department=assertion.department.join(".")
 
-When you use X.509 client certificates, Google provides default mappings from certificate attributes.
+When you use [X.509 client certificates](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-x509-certificates#mappings-and-conditions) , Workload Identity Federation maps `google.subject` to the client certificate subject common name ( `assertion.subject.dn.cn` ) by default:
 
-For AWS, Google provides default mappings, which cover most common scenarios. You can also supply custom mappings.
+    google.subject=assertion.subject.dn.cn
 
-For OIDC providers, you supply the mappings. To construct the mapping, consult the provider's documentation for a list of attributes on their credentials.
+You can also map additional attributes from the leaf and intermediate certificates.
+
+For [AWS](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#mappings-and-conditions) , if you don't specify an attribute mapping, Google applies the following default mapping, which covers most common scenarios:
+
+    google.subject=assertion.arn
+    attribute.aws_role=assertion.arn.contains('assumed-role') ? assertion.arn.extract('{account_arn}assumed-role/') + 'assumed-role/' + assertion.arn.extract('assumed-role/{role_name}/') : assertion.arn
+
+This mapping sets `google.subject` to the caller's ARN and sets `attribute.aws_role` to the assumed role ARN (without the session name) if a role is assumed, or to the caller's ARN otherwise. You can also supply custom mappings.
+
+For OIDC and SAML providers, you must supply the attribute mappings. To construct the mapping, consult the provider's documentation for a list of attributes on their credentials.
 
 For more details, see the API documentation for the [`attributeMapping` field](https://docs.cloud.google.com/iam/docs/reference/rest/v1/projects.locations.workloadIdentityPools.providers#WorkloadIdentityPoolProvider.FIELDS.attribute_mapping) .
 

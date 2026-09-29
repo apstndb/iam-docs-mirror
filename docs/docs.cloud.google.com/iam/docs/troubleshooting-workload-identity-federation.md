@@ -71,6 +71,25 @@ This error usually occurs because the endpoints aren't configured to be reachabl
 
 If you still receive the error, check that the token issuer, the `iss` claim in the token correct.
 
+## The given AWS request doesn't contain all the required headers
+
+If you receive the following error while requesting a token from the [`SecurityTokenService`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/TopLevel/token) API, it's because the `headers` field in your AWS `GetCallerIdentity` token is missing a required header or includes unsupported headers:
+
+    {
+      "error": "invalid_grant",
+      "error_description": "The given AWS request doesn't contain all the required headers."
+    }
+
+The `headers` field of a `GetCallerIdentity` token must include only the following HTTP request headers:
+
+  - `Authorization` : The [request signature](https://docs.aws.amazon.com/general/latest/gr/signature-version-4.html) .
+  - `host` : The hostname of the `url` field; for example, `sts.amazonaws.com` .
+  - `x-amz-date` : The time that you send the request, formatted as an [ISO 8601 Basic](https://docs.aws.amazon.com/general/latest/gr/sigv4_elements.html#sigv4_elements_date) string.
+  - `x-goog-cloud-target-resource` : The full resource name of the workload identity pool provider.
+  - `x-amz-security-token` : The session token. Only required if you are using [temporary security credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html) .
+
+This error also occurs if your Signature Version 4 signer includes additional headers, such as `x-amz-content-sha256` , in the signed request. To resolve this issue, make sure that your `GetCallerIdentity` request has an empty body and that both the `headers` field and the `SignedHeaders` field of the signed request include only the supported headers. For more information, see [Authenticate a workload using the REST API](https://docs.cloud.google.com/iam/docs/workload-identity-federation-with-other-clouds#rest) .
+
 ## Mapped google.subject claim exceeds the 127 bytes limit
 
 If you receive the following error, it's because the incoming credentials received by the [`SecurityTokenService`](https://docs.cloud.google.com/iam/docs/reference/sts/rest/v1/TopLevel/token) API generate a `google.subject` claim that exceeds the character limit:
