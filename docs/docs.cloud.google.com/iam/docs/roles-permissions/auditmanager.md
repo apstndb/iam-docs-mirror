@@ -836,6 +836,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.zones.list</code></p>
 <p><code dir="ltr" translate="no">container.clusters.get</code></p>
 <p><code dir="ltr" translate="no">container.clusters.list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.dataStores.get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  dataStores.  list</code></p>
 <p><code dir="ltr" translate="no">dlp.inspectTemplates.list</code></p>
 <p><code dir="ltr" translate="no">dlp.jobTriggers.list</code></p>

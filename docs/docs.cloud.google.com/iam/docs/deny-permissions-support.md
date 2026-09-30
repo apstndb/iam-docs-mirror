@@ -258,9 +258,13 @@ Agent Registry
 
 `agentregistry.googleapis.com/skills.get`
 
+`agentregistry.googleapis.com/skills.getIamPolicy`
+
 `agentregistry.googleapis.com/skills.list`
 
 `agentregistry.googleapis.com/skills.search`
+
+`agentregistry.googleapis.com/skills.setIamPolicy`
 
 `agentregistry.googleapis.com/skills.update`
 
@@ -999,6 +1003,8 @@ Gemini Enterprise Agent Platform
 `aiplatform.googleapis.com/models.upload`
 
 `aiplatform.googleapis.com/monitoredAgents.*`
+
+`aiplatform.googleapis.com/monitoredAgents.clearTrainingData`
 
 `aiplatform.googleapis.com/monitoredAgents.disable`
 
@@ -5106,6 +5112,18 @@ Gemini for Google Cloud API
 
 `cloudaicompanion.googleapis.com/geminiGcpEnablementSettings.update`
 
+`cloudaicompanion.googleapis.com/gibqObservabilitySettings.*`
+
+`cloudaicompanion.googleapis.com/gibqObservabilitySettings.create`
+
+`cloudaicompanion.googleapis.com/gibqObservabilitySettings.delete`
+
+`cloudaicompanion.googleapis.com/gibqObservabilitySettings.get`
+
+`cloudaicompanion.googleapis.com/gibqObservabilitySettings.list`
+
+`cloudaicompanion.googleapis.com/gibqObservabilitySettings.update`
+
 `cloudaicompanion.googleapis.com/instances.*`
 
 `cloudaicompanion.googleapis.com/instances.completeCode`
@@ -5221,6 +5239,18 @@ Gemini for Google Cloud API
 `cloudaicompanion.googleapis.com/settingBindings.geminiGcpEnablementSettingsUpdate`
 
 `cloudaicompanion.googleapis.com/settingBindings.geminiGcpEnablementSettingsUse`
+
+`cloudaicompanion.googleapis.com/settingBindings.gibqObservabilitySettingsCreate`
+
+`cloudaicompanion.googleapis.com/settingBindings.gibqObservabilitySettingsDelete`
+
+`cloudaicompanion.googleapis.com/settingBindings.gibqObservabilitySettingsGet`
+
+`cloudaicompanion.googleapis.com/settingBindings.gibqObservabilitySettingsList`
+
+`cloudaicompanion.googleapis.com/settingBindings.gibqObservabilitySettingsUpdate`
+
+`cloudaicompanion.googleapis.com/settingBindings.gibqObservabilitySettingsUse`
 
 `cloudaicompanion.googleapis.com/settingBindings.loggingSettingsCreate`
 
@@ -8482,6 +8512,8 @@ Compute Engine
 
 `compute.googleapis.com/interconnects.setLabels`
 
+`compute.googleapis.com/interconnects.setName`
+
 `compute.googleapis.com/interconnects.update`
 
 `compute.googleapis.com/interconnects.use`
@@ -9126,6 +9158,8 @@ Compute Engine
 
 `compute.googleapis.com/regionSslPolicies.get`
 
+`compute.googleapis.com/regionSslPolicies.getIamPolicy`
+
 `compute.googleapis.com/regionSslPolicies.list`
 
 `compute.googleapis.com/regionSslPolicies.listAvailableFeatures`
@@ -9133,6 +9167,8 @@ Compute Engine
 `compute.googleapis.com/regionSslPolicies.listEffectiveTags`
 
 `compute.googleapis.com/regionSslPolicies.listTagBindings`
+
+`compute.googleapis.com/regionSslPolicies.setIamPolicy`
 
 `compute.googleapis.com/regionSslPolicies.update`
 
@@ -9253,6 +9289,10 @@ Compute Engine
 `compute.googleapis.com/reservationBlocks.list`
 
 `compute.googleapis.com/reservationBlocks.performMaintenance`
+
+`compute.googleapis.com/reservationConsumedInstances.*`
+
+`compute.googleapis.com/reservationConsumedInstances.list`
 
 `compute.googleapis.com/reservationSlots.*`
 
@@ -9514,6 +9554,8 @@ Compute Engine
 
 `compute.googleapis.com/sslPolicies.get`
 
+`compute.googleapis.com/sslPolicies.getIamPolicy`
+
 `compute.googleapis.com/sslPolicies.list`
 
 `compute.googleapis.com/sslPolicies.listAvailableFeatures`
@@ -9521,6 +9563,8 @@ Compute Engine
 `compute.googleapis.com/sslPolicies.listEffectiveTags`
 
 `compute.googleapis.com/sslPolicies.listTagBindings`
+
+`compute.googleapis.com/sslPolicies.setIamPolicy`
 
 `compute.googleapis.com/sslPolicies.update`
 
@@ -11698,6 +11742,8 @@ Knowledge Catalog
 
 `dataplex.googleapis.com/entryGroups.useGraphProfileAspect`
 
+`dataplex.googleapis.com/entryGroups.useManagedConnectorTypes`
+
 `dataplex.googleapis.com/entryGroups.useMySQLConnectorTypes`
 
 `dataplex.googleapis.com/entryGroups.useOracleConnectorTypes`
@@ -11729,6 +11775,24 @@ Knowledge Catalog
 `dataplex.googleapis.com/entryGroups.useStorageAspect`
 
 `dataplex.googleapis.com/entryGroups.useSynonymEntryLink`
+
+`dataplex.googleapis.com/entryLinkTypes.*`
+
+`dataplex.googleapis.com/entryLinkTypes.create`
+
+`dataplex.googleapis.com/entryLinkTypes.delete`
+
+`dataplex.googleapis.com/entryLinkTypes.get`
+
+`dataplex.googleapis.com/entryLinkTypes.getIamPolicy`
+
+`dataplex.googleapis.com/entryLinkTypes.list`
+
+`dataplex.googleapis.com/entryLinkTypes.setIamPolicy`
+
+`dataplex.googleapis.com/entryLinkTypes.update`
+
+`dataplex.googleapis.com/entryLinkTypes.use`
 
 `dataplex.googleapis.com/entryLinks.*`
 
@@ -12500,6 +12564,12 @@ Device Run
 
 `devicerun.googleapis.com/sessions.list`
 
+`devicerun.googleapis.com/softwareVersions.*`
+
+`devicerun.googleapis.com/softwareVersions.get`
+
+`devicerun.googleapis.com/softwareVersions.list`
+
 Device Streaming API
 
 `devicestreaming.googleapis.com/*.*`
@@ -13029,6 +13099,8 @@ Discovery Engine
 `discoveryengine.googleapis.com/licenseConfigs.update`
 
 `discoveryengine.googleapis.com/locations.*`
+
+`discoveryengine.googleapis.com/locations.buildAuthorizationUrl`
 
 `discoveryengine.googleapis.com/locations.completeExternalIdentities`
 
@@ -13799,6 +13871,16 @@ Enterprise Purchasing API
 `enterprisepurchasing.googleapis.com/gcveNodePricingInfo.*`
 
 `enterprisepurchasing.googleapis.com/gcveNodePricingInfo.list`
+
+`enterprisepurchasing.googleapis.com/licenseKeys.*`
+
+`enterprisepurchasing.googleapis.com/licenseKeys.create`
+
+`enterprisepurchasing.googleapis.com/licenseKeys.delete`
+
+`enterprisepurchasing.googleapis.com/licenseKeys.get`
+
+`enterprisepurchasing.googleapis.com/licenseKeys.list`
 
 `enterprisepurchasing.googleapis.com/locations.*`
 
@@ -15589,6 +15671,8 @@ Identity and Access Management
 `iam.googleapis.com/workforcePoolSubjects.*`
 
 `iam.googleapis.com/workforcePoolSubjects.delete`
+
+`iam.googleapis.com/workforcePoolSubjects.revokeSessions`
 
 `iam.googleapis.com/workforcePoolSubjects.undelete`
 

@@ -471,6 +471,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></p>
@@ -504,6 +505,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  get</code></p>
@@ -556,6 +558,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></p>

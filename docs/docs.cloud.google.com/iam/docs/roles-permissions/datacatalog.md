@@ -171,6 +171,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericEntry</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useGraphProfileAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useManagedConnectorTypes</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useMySQLConnectorTypes</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useOracleConnectorTypes</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useOverviewAspect</code></li>
@@ -187,6 +188,17 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useSecondaryIndexesAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useStorageAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useSynonymEntryLink</code></li>
+</ul>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">dataplex.entryLinkTypes.create</code></li>
+<li><code dir="ltr" translate="no">dataplex.entryLinkTypes.delete</code></li>
+<li><code dir="ltr" translate="no">dataplex.entryLinkTypes.get</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></li>
+<li><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  setIamPolicy</code></li>
+<li><code dir="ltr" translate="no">dataplex.entryLinkTypes.update</code></li>
+<li><code dir="ltr" translate="no">dataplex.entryLinkTypes.use</code></li>
 </ul>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.*</code></p>
 <ul>
@@ -332,6 +344,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
@@ -390,6 +405,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
@@ -557,6 +575,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericEntry</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useGraphProfileAspect</code></li>
+<li><code dir="ltr" translate="no">dataplex.  entryGroups.  useManagedConnectorTypes</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useMySQLConnectorTypes</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useOracleConnectorTypes</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useOverviewAspect</code></li>
@@ -574,6 +593,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useStorageAspect</code></li>
 <li><code dir="ltr" translate="no">dataplex.  entryGroups.  useSynonymEntryLink</code></li>
 </ul>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entryLinks.create</code></li>
@@ -650,6 +672,7 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useGenericEntry</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useGraphProfileAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useManagedConnectorTypes</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useMySQLConnectorTypes</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useOracleConnectorTypes</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useOverviewAspect</code></p>
@@ -666,6 +689,9 @@ This page lists the IAM roles and permissions for Data Catalog. To search throug
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useSecondaryIndexesAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useStorageAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useSynonymEntryLink</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.use</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">dataplex.entryLinks.create</code></li>

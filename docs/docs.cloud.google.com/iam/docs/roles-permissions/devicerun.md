@@ -41,6 +41,8 @@ This page lists the IAM roles and permissions for Device Run. To search through 
 <li><code dir="ltr" translate="no">devicerun.sessions.delete</code></li>
 <li><code dir="ltr" translate="no">devicerun.sessions.get</code></li>
 <li><code dir="ltr" translate="no">devicerun.sessions.list</code></li>
+<li><code dir="ltr" translate="no">devicerun.softwareVersions.get</code></li>
+<li><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">devicestreaming.*</code></p>
 <ul>
@@ -72,6 +74,11 @@ This page lists the IAM roles and permissions for Device Run. To search through 
 <p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.get</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.softwareVersions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">devicerun.softwareVersions.get</code></li>
+<li><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  get</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
@@ -255,6 +262,33 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 </tr>
 <tr class="even">
 <td><h4 id="devicerun.sessions.list" class="permission-name add-link" data-text="devicerun.sessions.list" tabindex="-1"><code dir="ltr" translate="no">devicerun.sessions.list</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.viewer">Device Run Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+</tr>
+<tr class="odd">
+<td><h4 id="devicerun.softwareVersions.get" class="permission-name add-link" data-text="devicerun.softwareVersions.get" tabindex="-1"><code dir="ltr" translate="no">devicerun.softwareVersions.get</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.admin">Device Run Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/devicerun#devicerun.viewer">Device Run Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  devicerun.viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="devicerun.softwareVersions.list" class="permission-name add-link" data-text="devicerun.softwareVersions.list" tabindex="-1"><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>

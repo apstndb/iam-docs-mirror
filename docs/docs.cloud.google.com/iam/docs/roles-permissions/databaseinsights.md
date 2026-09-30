@@ -178,6 +178,107 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 </tbody>
 </table>
 
+### Service agent roles
+
+Service agent roles should only be granted to [service agents](https://docs.cloud.google.com/iam/docs/service-agents) .
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h4 id="databaseinsights.serviceAgent" class="role-title add-link" data-text="Database Insights Service Agent" tabindex="-1">Database Insights Service Agent</h4>
+<p>( <code dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</p>
+<p>Default role for the Database Insights service agent.</p>
+<blockquote>
+<strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote></td>
+<td><p><code dir="ltr" translate="no">alloydb.clusters.get</code></p>
+<p><code dir="ltr" translate="no">alloydb.clusters.list</code></p>
+<p><code dir="ltr" translate="no">alloydb.databases.list</code></p>
+<p><code dir="ltr" translate="no">alloydb.instances.get</code></p>
+<p><code dir="ltr" translate="no">alloydb.instances.list</code></p>
+<p><code dir="ltr" translate="no">alloydb.locations.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">alloydb.locations.get</code></li>
+<li><code dir="ltr" translate="no">alloydb.locations.list</code></li>
+</ul>
+<p><code dir="ltr" translate="no">alloydb.operations.get</code></p>
+<p><code dir="ltr" translate="no">alloydb.operations.list</code></p>
+<p><code dir="ltr" translate="no">alloydb.  supportedDatabaseFlags.  list</code></p>
+<p><code dir="ltr" translate="no">bigtable.appProfiles.list</code></p>
+<p><code dir="ltr" translate="no">bigtable.backups.list</code></p>
+<p><code dir="ltr" translate="no">bigtable.clusters.get</code></p>
+<p><code dir="ltr" translate="no">bigtable.clusters.list</code></p>
+<p><code dir="ltr" translate="no">bigtable.instances.get</code></p>
+<p><code dir="ltr" translate="no">bigtable.instances.list</code></p>
+<p><code dir="ltr" translate="no">bigtable.locations.list</code></p>
+<p><code dir="ltr" translate="no">bigtable.tables.get</code></p>
+<p><code dir="ltr" translate="no">bigtable.tables.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.backupRuns.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
+<p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
+<p><code dir="ltr" translate="no">cloudsql.instances.list</code></p>
+<p><code dir="ltr" translate="no">cloudtrace.traces.patch</code></p>
+<p><code dir="ltr" translate="no">databasecenter.  databaseGroups.  list</code></p>
+<p><code dir="ltr" translate="no">databasecenter.fleetStats.list</code></p>
+<p><code dir="ltr" translate="no">databasecenter.userLabels.list</code></p>
+<p><code dir="ltr" translate="no">databasecenter.userTags.list</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  databaseIssues.  troubleshoot</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  dbCenter.  query</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  dbPerformance.  query</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  indexRecommendations.  query</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  queryMetrics.  fetch</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  queryStats.  fetch</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  queryTimeSeries.  fetch</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  systemMetrics.  fetch</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  virtualDbxAgent.  query</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  waitEventStats.  fetch</code></p>
+<p><code dir="ltr" translate="no">databaseinsights.  waitEventTimeSeries.  fetch</code></p>
+<p><code dir="ltr" translate="no">datastore.backupSchedules.list</code></p>
+<p><code dir="ltr" translate="no">datastore.  databases.  getMetadata</code></p>
+<p><code dir="ltr" translate="no">datastore.databases.list</code></p>
+<p><code dir="ltr" translate="no">datastore.locations.list</code></p>
+<p><code dir="ltr" translate="no">datastore.operations.get</code></p>
+<p><code dir="ltr" translate="no">datastore.operations.list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  collections.  get</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  acquireAccessToken</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  dataConnectors.  get</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.list</code></p>
+<p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
+<p><code dir="ltr" translate="no">monitoring.metricsScopes.link</code></p>
+<p><code dir="ltr" translate="no">monitoring.timeSeries.list</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">serviceusage.operations.get</code></p>
+<p><code dir="ltr" translate="no">serviceusage.services.get</code></p>
+<p><code dir="ltr" translate="no">serviceusage.services.list</code></p>
+<p><code dir="ltr" translate="no">serviceusage.services.use</code></p>
+<p><code dir="ltr" translate="no">spanner.backupOperations.list</code></p>
+<p><code dir="ltr" translate="no">spanner.  databaseOperations.  list</code></p>
+<p><code dir="ltr" translate="no">spanner.databaseRoles.list</code></p>
+<p><code dir="ltr" translate="no">spanner.databases.get</code></p>
+<p><code dir="ltr" translate="no">spanner.databases.list</code></p>
+<p><code dir="ltr" translate="no">spanner.instanceConfigs.get</code></p>
+<p><code dir="ltr" translate="no">spanner.instanceConfigs.list</code></p>
+<p><code dir="ltr" translate="no">spanner.  instanceOperations.  list</code></p>
+<p><code dir="ltr" translate="no">spanner.  instancePartitions.  list</code></p>
+<p><code dir="ltr" translate="no">spanner.instances.get</code></p>
+<p><code dir="ltr" translate="no">spanner.instances.list</code></p>
+<p><code dir="ltr" translate="no">telemetry.traces.write</code></p></td>
+</tr>
+</tbody>
+</table>
+
 ## Database Insights permissions
 
 <table>
@@ -275,7 +376,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="databaseinsights.dbCenter.query" class="permission-name add-link" data-text="databaseinsights.dbCenter.query" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  dbCenter.  query</code></h4></td>
@@ -288,7 +396,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="databaseinsights.dbPerformance.query" class="permission-name add-link" data-text="databaseinsights.dbPerformance.query" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  dbPerformance.  query</code></h4></td>
@@ -301,7 +416,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="databaseinsights.indexRecommendations.query" class="permission-name add-link" data-text="databaseinsights.indexRecommendations.query" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  indexRecommendations.  query</code></h4></td>
@@ -315,7 +437,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.recommendationViewer">Database Insights recommendation viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.recommendationViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="databaseinsights.instanceEvents.query" class="permission-name add-link" data-text="databaseinsights.instanceEvents.query" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  instanceEvents.  query</code></h4></td>
@@ -397,7 +526,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="databaseinsights.queryStats.fetch" class="permission-name add-link" data-text="databaseinsights.queryStats.fetch" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  queryStats.  fetch</code></h4></td>
@@ -411,7 +547,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="databaseinsights.queryTimeSeries.fetch" class="permission-name add-link" data-text="databaseinsights.queryTimeSeries.fetch" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  queryTimeSeries.  fetch</code></h4></td>
@@ -425,7 +568,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="databaseinsights.recommendations.query" class="permission-name add-link" data-text="databaseinsights.recommendations.query" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  recommendations.  query</code></h4></td>
@@ -464,7 +614,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.intelligenceViewer">Database Insights intelligence viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.intelligenceViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="databaseinsights.timeSeries.query" class="permission-name add-link" data-text="databaseinsights.timeSeries.query" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  timeSeries.  query</code></h4></td>
@@ -490,7 +647,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.virtualDbxViewer">Database Insights virtual Dbx viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.virtualDbxViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="databaseinsights.waitEventStats.fetch" class="permission-name add-link" data-text="databaseinsights.waitEventStats.fetch" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  waitEventStats.  fetch</code></h4></td>
@@ -504,7 +668,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="odd">
 <td><h4 id="databaseinsights.waitEventTimeSeries.fetch" class="permission-name add-link" data-text="databaseinsights.waitEventTimeSeries.fetch" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  waitEventTimeSeries.  fetch</code></h4></td>
@@ -518,7 +689,14 @@ This page lists the IAM roles and permissions for Database Insights. To search t
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.monitoringViewer">Database Insights monitoring viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.monitoringViewer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
-<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p>
+<p>Service agent roles</p>
+<blockquote>
+<strong>Warning:</strong> Don't grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
+</blockquote>
+<ul>
+<li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  databaseinsights.serviceAgent</code> )</li>
+</ul></td>
 </tr>
 <tr class="even">
 <td><h4 id="databaseinsights.workloadRecommendations.fetch" class="permission-name add-link" data-text="databaseinsights.workloadRecommendations.fetch" tabindex="-1"><code dir="ltr" translate="no">databaseinsights.  workloadRecommendations.  fetch</code></h4></td>

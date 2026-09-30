@@ -116,9 +116,9 @@ The `  gcloud iam principal-access-boundary-policies create  ` command creates a
 
 Before using any of the command data below, make the following replacements:
 
-  - `  ORG_ID  ` : The ID of the organization that you want to create the Principal Access Boundary policy in. Organization IDs are numeric, like `123456789012` .
+  - `  PAB_POLICY_ID  ` : A unique ID for the Principal Access Boundary policy—for example, `example-policy` .
 
-  - `  PAB_POLICY_ID  ` : A unique ID for the Principal Access Boundary policy—for example, `example-policy` . :
+  - `  ORG_ID  ` : The ID of the organization that you want to create the Principal Access Boundary policy in. Organization IDs are numeric, like `123456789012` .
 
   - `  DISPLAY_NAME  ` : Optional. A human-readable description of the Principal Access Boundary policy—for example, `Example policy` . The display name can be a maximum of 63 characters.
 

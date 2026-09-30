@@ -465,13 +465,10 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.models.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.upload</code></li>
 </ul>
-<p><code dir="ltr" translate="no">aiplatform.monitoredAgents.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></li>
-<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></li>
-<li><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></li>
-<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></li>
-</ul>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></p>
+<p><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></p>
+<p><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.nasJobs.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">aiplatform.nasJobs.cancel</code></li>
@@ -2394,6 +2391,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></p>
@@ -2427,6 +2425,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  get</code></p>
@@ -2479,6 +2478,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></p>
@@ -4823,6 +4823,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  interconnects.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  interconnects.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">compute.  interconnects.  setLabels</code></li>
+<li><code dir="ltr" translate="no">compute.interconnects.setName</code></li>
 <li><code dir="ltr" translate="no">compute.interconnects.update</code></li>
 <li><code dir="ltr" translate="no">compute.interconnects.use</code></li>
 <li><code dir="ltr" translate="no">compute.licenseCodes.get</code></li>
@@ -5122,10 +5123,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  delete</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></li>
+<li><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  regionSslPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">compute.regionSslPolicies.use</code></li>
 <li><code dir="ltr" translate="no">compute.  regionTargetHttpProxies.  create</code></li>
@@ -5179,6 +5182,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.reservationBlocks.get</code></li>
 <li><code dir="ltr" translate="no">compute.reservationBlocks.list</code></li>
 <li><code dir="ltr" translate="no">compute.  reservationBlocks.  performMaintenance</code></li>
+<li><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></li>
 <li><code dir="ltr" translate="no">compute.reservationSlots.get</code></li>
 <li><code dir="ltr" translate="no">compute.reservationSlots.list</code></li>
 <li><code dir="ltr" translate="no">compute.  reservationSlots.  update</code></li>
@@ -5303,10 +5307,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.sslPolicies.delete</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.get</code></li>
+<li><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.list</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  sslPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.update</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.use</code></li>
 <li><code dir="ltr" translate="no">compute.storagePools.create</code></li>
@@ -7032,6 +7038,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">aiplatform.models.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.upload</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  clearTrainingData</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></li>
 <li><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></li>
@@ -8799,6 +8806,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  interconnects.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  interconnects.  listTagBindings</code></li>
 <li><code dir="ltr" translate="no">compute.  interconnects.  setLabels</code></li>
+<li><code dir="ltr" translate="no">compute.interconnects.setName</code></li>
 <li><code dir="ltr" translate="no">compute.interconnects.update</code></li>
 <li><code dir="ltr" translate="no">compute.interconnects.use</code></li>
 <li><code dir="ltr" translate="no">compute.licenseCodes.get</code></li>
@@ -9098,10 +9106,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  delete</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></li>
+<li><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  regionSslPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.  regionSslPolicies.  update</code></li>
 <li><code dir="ltr" translate="no">compute.regionSslPolicies.use</code></li>
 <li><code dir="ltr" translate="no">compute.  regionTargetHttpProxies.  create</code></li>
@@ -9155,6 +9165,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.reservationBlocks.get</code></li>
 <li><code dir="ltr" translate="no">compute.reservationBlocks.list</code></li>
 <li><code dir="ltr" translate="no">compute.  reservationBlocks.  performMaintenance</code></li>
+<li><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></li>
 <li><code dir="ltr" translate="no">compute.reservationSlots.get</code></li>
 <li><code dir="ltr" translate="no">compute.reservationSlots.list</code></li>
 <li><code dir="ltr" translate="no">compute.  reservationSlots.  update</code></li>
@@ -9279,10 +9290,12 @@ This page lists the predefined roles that are designed to be granted to users wi
 <li><code dir="ltr" translate="no">compute.sslPolicies.delete</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  deleteTagBinding</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.get</code></li>
+<li><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.list</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></li>
 <li><code dir="ltr" translate="no">compute.  sslPolicies.  listTagBindings</code></li>
+<li><code dir="ltr" translate="no">compute.  sslPolicies.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.update</code></li>
 <li><code dir="ltr" translate="no">compute.sslPolicies.use</code></li>
 <li><code dir="ltr" translate="no">compute.storagePools.create</code></li>
@@ -10317,6 +10330,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">agentregistry.publishers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skills.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
@@ -10985,6 +10999,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></p>
@@ -11720,7 +11735,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
-<p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
@@ -12100,6 +12114,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></p>
@@ -12133,6 +12148,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  get</code></p>
@@ -12185,6 +12201,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></p>
@@ -12652,6 +12669,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  listEffectiveTags</code></p>
@@ -12781,6 +12800,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">devicerun.locations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.answerrecords.list</code></p>
@@ -12971,6 +12991,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveNodePricingInfo.  list</code></p>
+<p><code dir="ltr" translate="no">enterprisepurchasing.  licenseKeys.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">errorreporting.  applications.  list</code></p>
@@ -14354,8 +14375,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">threatintelligence.alerts.list</code></p>
 <p><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></p>
 <p><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  datasets.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">tpu.acceleratortypes.list</code></p>
 <p><code dir="ltr" translate="no">tpu.locations.list</code></p>
 <p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
@@ -15237,7 +15256,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.  blueGreenDeployments.  list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
-<p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
@@ -15779,6 +15797,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></p>
@@ -15812,6 +15831,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">compute.reservationSlots.get</code></li>
@@ -15895,6 +15915,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></p>
@@ -16518,6 +16539,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  get</code></p>
 <p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.skills.get</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skills.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.skills.search</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  get</code></p>
@@ -18101,6 +18123,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudaicompanion.  entitlements.  get</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  get</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
@@ -18129,6 +18153,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  dataSharingWithGoogleSettingsList</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsGet</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsList</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  releaseChannelSettingsGet</code></p>
@@ -18956,7 +18982,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">cloudsql.databases.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.databases.list</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  createBackupDrBackup</code></p>
-<p><code dir="ltr" translate="no">cloudsql.instances.export</code></p>
 <p><code dir="ltr" translate="no">cloudsql.instances.get</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getAgentSession</code></p>
 <p><code dir="ltr" translate="no">cloudsql.  instances.  getDiskShrinkConfig</code></p>
@@ -19467,6 +19492,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslPolicies.  listEffectiveTags</code></p>
@@ -19500,6 +19526,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 </ul>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.get</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  get</code></p>
@@ -19553,6 +19580,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">compute.  sslCertificates.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.get</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listAvailableFeatures</code></p>
 <p><code dir="ltr" translate="no">compute.  sslPolicies.  listEffectiveTags</code></p>
@@ -20324,6 +20352,9 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listEffectiveTags</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  listTagBindings</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  requestChanges</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.get</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryLinks.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.get</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
@@ -20596,6 +20627,11 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.get</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.softwareVersions.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">devicerun.softwareVersions.get</code></li>
+<li><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></li>
+</ul>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  get</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.export</code></p>
@@ -20763,6 +20799,7 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">discoveryengine.  identityMappingStores.  listIdentityMappings</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  licenseConfigs.  get</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  licenseConfigs.  list</code></p>
+<p><code dir="ltr" translate="no">discoveryengine.  locations.  buildAuthorizationUrl</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  locations.  completeExternalIdentities</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  locations.  estimateDataSize</code></p>
 <p><code dir="ltr" translate="no">discoveryengine.  locations.  exchangeAuthCredentials</code></p>
@@ -21053,6 +21090,8 @@ This page lists the predefined roles that are designed to be granted to users wi
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  get</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveNodePricingInfo.  list</code></p>
+<p><code dir="ltr" translate="no">enterprisepurchasing.  licenseKeys.  get</code></p>
+<p><code dir="ltr" translate="no">enterprisepurchasing.  licenseKeys.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  locations.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">enterprisepurchasing.  locations.  get</code></li>
@@ -23723,14 +23762,6 @@ This page lists the predefined roles that are designed to be granted to users wi
 <ul>
 <li><code dir="ltr" translate="no">threatintelligence.  findings.  get</code></li>
 <li><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></li>
-</ul>
-<p><code dir="ltr" translate="no">timeseriesinsights.  datasets.  evaluate</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  datasets.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  datasets.  query</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.locations.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">timeseriesinsights.  locations.  get</code></li>
-<li><code dir="ltr" translate="no">timeseriesinsights.  locations.  list</code></li>
 </ul>
 <p><code dir="ltr" translate="no">tpu.acceleratortypes.*</code></p>
 <ul>

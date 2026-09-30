@@ -1167,6 +1167,14 @@ Repository
 <li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></li>
 <li><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  update</code></li>
 </ul>
+<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  create</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  delete</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  get</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">cloudaicompanion.instances.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">cloudaicompanion.  instances.  completeCode</code></li>
@@ -1221,6 +1229,12 @@ Repository
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsList</code></li>
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUpdate</code></li>
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  geminiGcpEnablementSettingsUse</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsCreate</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsDelete</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsGet</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsList</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUpdate</code></li>
+<li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  gibqObservabilitySettingsUse</code></li>
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsCreate</code></li>
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsDelete</code></li>
 <li><code dir="ltr" translate="no">cloudaicompanion.  settingBindings.  loggingSettingsGet</code></li>

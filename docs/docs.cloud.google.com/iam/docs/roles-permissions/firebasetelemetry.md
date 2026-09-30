@@ -32,8 +32,20 @@ Firebase Telemetry offers the following service agent roles. Service agent roles
 <strong>Warning:</strong> Do not grant service agent roles to any principals except <a href="https://docs.cloud.google.com/iam/docs/service-agents">service agents</a> .
 </blockquote></td>
 <td><p><code dir="ltr" translate="no">cloudtrace.traces.patch</code></p>
+<p><code dir="ltr" translate="no">logging.buckets.create</code></p>
+<p><code dir="ltr" translate="no">logging.buckets.get</code></p>
+<p><code dir="ltr" translate="no">logging.buckets.list</code></p>
+<p><code dir="ltr" translate="no">logging.buckets.update</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.create</code></p>
 <p><code dir="ltr" translate="no">logging.logEntries.route</code></p>
+<p><code dir="ltr" translate="no">logging.sinks.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">logging.sinks.create</code></li>
+<li><code dir="ltr" translate="no">logging.sinks.delete</code></li>
+<li><code dir="ltr" translate="no">logging.sinks.get</code></li>
+<li><code dir="ltr" translate="no">logging.sinks.list</code></li>
+<li><code dir="ltr" translate="no">logging.sinks.update</code></li>
+</ul>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  create</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  get</code></p>
 <p><code dir="ltr" translate="no">monitoring.  metricDescriptors.  list</code></p>

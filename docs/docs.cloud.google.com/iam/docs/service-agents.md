@@ -1277,7 +1277,9 @@ Service agent for <code dir="ltr" translate="no">datastudio.googleapis.com</code
 <td><h4 id="database-insights-service-agent" class="service-agent-name add-link" data-text="Database Insights Service Agent" tabindex="-1">Database Insights Service Agent</h4>
 <a href="https://docs.cloud.google.com/iam/docs/service-account-types#primary">Primary service agent</a> for <code dir="ltr" translate="no">databaseinsights.googleapis.com</code> .
 <p><code dir="ltr" translate="no">service-           PROJECT_NUMBER          @gcp-sa-dbinsights.iam.gserviceaccount.com</code></p></td>
-<td>None</td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/databaseinsights#databaseinsights.serviceAgent">Database Insights Service Agent</a><br />
+( <code dir="ltr" translate="no">roles/databaseinsights.serviceAgent</code> )</p>
+<p>Granted on the project.</p></td>
 </tr>
 <tr class="even">
 <td><h4 id="dataform-service-account" class="service-agent-name add-link" data-text="Dataform Service Account" tabindex="-1">Dataform Service Account</h4>

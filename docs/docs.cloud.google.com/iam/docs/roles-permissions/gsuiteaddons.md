@@ -56,7 +56,12 @@ This page lists the IAM roles and permissions for Google Workspace add-ons. To s
 <td><h4 id="gsuiteaddons.developer" class="role-title add-link" data-text="Google Workspace Add-ons Developer" tabindex="-1">Google Workspace Add-ons Developer</h4>
 <p>( <code dir="ltr" translate="no">roles/  gsuiteaddons.developer</code> )</p>
 <p>Full access to Google Workspace Add-ons resources</p></td>
-<td><p><code dir="ltr" translate="no">gsuiteaddons.*</code></p>
+<td><p><code dir="ltr" translate="no">chat.*</code></p>
+<ul>
+<li><code dir="ltr" translate="no">chat.bots.get</code></li>
+<li><code dir="ltr" translate="no">chat.bots.update</code></li>
+</ul>
+<p><code dir="ltr" translate="no">gsuiteaddons.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">gsuiteaddons.  authorizations.  get</code></li>
 <li><code dir="ltr" translate="no">gsuiteaddons.  deployments.  create</code></li>
@@ -76,7 +81,8 @@ This page lists the IAM roles and permissions for Google Workspace add-ons. To s
 <td><h4 id="gsuiteaddons.reader" class="role-title add-link" data-text="Google Workspace Add-ons Reader" tabindex="-1">Google Workspace Add-ons Reader</h4>
 <p>( <code dir="ltr" translate="no">roles/  gsuiteaddons.reader</code> )</p>
 <p>Read-only access to Google Workspace Add-ons resources</p></td>
-<td><p><code dir="ltr" translate="no">gsuiteaddons.  authorizations.  get</code></p>
+<td><p><code dir="ltr" translate="no">chat.bots.get</code></p>
+<p><code dir="ltr" translate="no">gsuiteaddons.  authorizations.  get</code></p>
 <p><code dir="ltr" translate="no">gsuiteaddons.deployments.get</code></p>
 <p><code dir="ltr" translate="no">gsuiteaddons.deployments.list</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>

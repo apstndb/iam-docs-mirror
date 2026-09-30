@@ -559,6 +559,7 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <li><code dir="ltr" translate="no">aiplatform.models.list</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.update</code></li>
 <li><code dir="ltr" translate="no">aiplatform.models.upload</code></li>
+<li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  clearTrainingData</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  disable</code></li>
 <li><code dir="ltr" translate="no">aiplatform.  monitoredAgents.  enable</code></li>
 <li><code dir="ltr" translate="no">aiplatform.monitoredAgents.get</code></li>

@@ -86,6 +86,8 @@ This page lists the IAM roles and permissions for Hangouts Chat. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workspacemarketplace#appmetadata.workspaceMarketplaceAppConfigurationAdmin">Workspace Marketplace App Configuration Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  appmetadata.workspaceMarketplaceAppConfigurationAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chat#chat.owner">Chat Apps Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chat.owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chat#chat.reader">Chat Apps Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chat.reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gsuiteaddons#gsuiteaddons.developer">Google Workspace Add-ons Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gsuiteaddons.developer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gsuiteaddons#gsuiteaddons.reader">Google Workspace Add-ons Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gsuiteaddons.reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
@@ -97,6 +99,7 @@ This page lists the IAM roles and permissions for Hangouts Chat. To search throu
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chat#chat.admin">Chat Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chat.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chat#chat.owner">Chat Apps Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chat.owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/gsuiteaddons#gsuiteaddons.developer">Google Workspace Add-ons Developer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  gsuiteaddons.developer</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 </tbody>

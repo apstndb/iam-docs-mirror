@@ -42,7 +42,7 @@ If you're configuring permissions in a development or test environment—but not
 
 ## Create a Microsoft Entra ID application
 
-This section shows you how to create a Microsoft Entra ID application using the Microsoft Entra admin portal. Alternatively, you can update your existing application. For additional details, see [Establish applications in the Microsoft Entra ID ecosystem](https://learn.microsoft.com/en-us/entra/architecture/establish-applications) .
+This section shows you how to create a Microsoft Entra ID application using the Microsoft Entra admin center. Alternatively, you can update your existing application. For additional details, see [Establish applications in the Microsoft Entra ID ecosystem](https://learn.microsoft.com/en-us/entra/architecture/establish-applications) .
 
 Workforce identity pools support federation using both OIDC and SAML protocols.
 
@@ -50,13 +50,11 @@ Workforce identity pools support federation using both OIDC and SAML protocols.
 
 To create a Microsoft Entra ID application registration that uses the OIDC protocol, do the following:
 
-1.  Sign in to the Microsoft Entra administrator center.
+1.  Sign in to the Microsoft Entra admin center.
 
-2.  Go to the **Overview** page of your Microsoft Entra ID application registration.
+2.  Go to **Entra ID** \> **App registrations** .
 
-3.  Navigate to **Entra ID \> App registrations** .
-
-4.  To begin configuring the application registration, do the following:
+3.  To begin configuring the application registration, do the following:
     
     1.  Click **New registration** .
     
@@ -66,15 +64,15 @@ To create a Microsoft Entra ID application registration that uses the OIDC proto
     
     4.  In the **Redirect URI** section, in the **Select a platform** drop-down list, select **Web** .
     
-    5.  In the text field, enter a redirect URL. Your users are redirected to this URL after they successfully sign in. If you are configuring access to the [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#google_cloud_workforce_identity_federation_console) , use the following URL format:
+    5.  In the text field, enter a redirect URL. Your users are redirected to this URL after they successfully sign in. If you are configuring access to the [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#console-federated) , use the following URL format:
         
             https://auth.cloud.google/signin-callback/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID
         
         Replace the following:
         
-          - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you will use when creating the workforce identity pool later in this document—for example: `entra-id-oidc-pool`
+          - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you use when creating the workforce identity pool later in this document—for example, `entra-id-oidc-pool` .
         
-          - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you will use when you create the workforce identity pool provider later in this document—for example: `entra-id-oidc-pool-provider`
+          - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you use when creating the workforce identity pool provider later in this document—for example, `entra-id-oidc-pool-provider` .
             
             For information on formatting the ID, see the [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers/create#query-parameters) section in the API documentation.
     
@@ -96,9 +94,9 @@ Recommended: As a [security best practice](https://docs.cloud.google.com/iam/doc
 
 To create a Microsoft Entra ID application registration that uses the SAML protocol, do the following:
 
-1.  Sign in to the Microsoft Entra administrator portal.
+1.  Sign in to the Microsoft Entra admin center.
 
-2.  In the left-hand navigation menu, go to **Entra ID \> Enterprise Apps** .
+2.  Go to **Entra ID** \> **Enterprise applications** .
 
 3.  To begin configuring the enterprise application, do the following:
     
@@ -118,9 +116,9 @@ To create a Microsoft Entra ID application registration that uses the SAML proto
             
             Replace the following:
             
-              - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you will use when creating the workforce identity pool later in this document—for example: `entra-id-saml-pool`
+              - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you use when creating the workforce identity pool later in this document—for example, `entra-id-saml-pool` .
             
-              - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you will use when you create the workforce identity pool provider later in this document—for example: `entra-id-saml-pool-provider`
+              - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you use when creating the workforce identity pool provider later in this document—for example, `entra-id-saml-pool-provider` .
                 
                 For information on formatting the ID, see the [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers/create#query-parameters) section in the API documentation.
         
@@ -130,8 +128,8 @@ To create a Microsoft Entra ID application registration that uses the SAML proto
             
             Replace the following:
             
-              - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID
-              - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity provider ID
+              - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
+              - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
         
         3.  To enable IdP-initiated sign-on, set the **Relay State** field to the following value:
             
@@ -207,15 +205,17 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
 1.  To get the issuer URI for your Microsoft Entra ID application, do the following:
     
     1.  Go to the **Overview** page of your Microsoft Entra ID application registration.
+    
     2.  Click **Endpoints** .
-    3.  Open the **OpenID Connect metadata document** in a new tab.
-    4.  In the JSON, copy the value of `issuer` .
+    
+    3.  Find the **OpenID Connect metadata document** endpoint. The issuer URI is the OpenID Connect metadata document URI, omitting the trailing `/.well-known/openid-configuration` .
+        
+        For example, if the OpenID Connect metadata document URI is `https://login.microsoftonline.com/d41ad248-019e-49e5-b3de-4bdfe1fapple/v2.0/.well-known/openid-configuration` , the issuer URI is `https://login.microsoftonline.com/d41ad248-019e-49e5-b3de-4bdfe1fapple/v2.0/` . Alternatively, you can copy the **OpenID Connect metadata document** URL, open it in a browser tab, and copy the value of `issuer` from the JSON response.
 
 2.  To get the client ID for your Microsoft Entra ID application, do the following:
     
     1.  Go to the **Overview** page of your Microsoft Entra ID application registration.
-    2.  Click **Endpoints** .
-    3.  In **Application (client) ID** , copy the value.
+    2.  In **Application (client) ID** , copy the value.
 
 3.  To create an OIDC workforce identity pool provider for web-based sign-in, do the following:
     
@@ -243,7 +243,7 @@ To create a workforce identity pool provider for your Microsoft Entra ID applica
         
         7.  In the **Value** column for your new client secret, click *content\_copy* **Copy** .
     
-    2.  In the Google Cloud console, to create an OIDC provider that uses code flow, do the following:
+    2.  To create the provider, run the following command:
         
             gcloud iam workforce-pools providers create-oidc WORKFORCE_PROVIDER_ID \
                 --workforce-pool=WORKFORCE_POOL_ID \

@@ -50,6 +50,7 @@ BigQuery Data Transfer Service offers the following service agent roles. Service
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useContactsAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDataProfileAspect</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useDatabaseDataPolicyAspect</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryGroups.  useManagedConnectorTypes</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useMySQLConnectorTypes</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useOracleConnectorTypes</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  useOverviewAspect</code></p>

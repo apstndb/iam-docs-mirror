@@ -1198,7 +1198,9 @@ Service agent roles should only be granted to [service agents](https://docs.clou
 <p><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.get</code></p>
 <p><code dir="ltr" translate="no">iam.serviceAccounts.list</code></p>
+<p><code dir="ltr" translate="no">netapp.ontap.get</code></p>
 <p><code dir="ltr" translate="no">netapp.operations.get</code></p>
+<p><code dir="ltr" translate="no">netapp.storagePools.get</code></p>
 <p><code dir="ltr" translate="no">netapp.  volumes.  createCrossProjectBackup</code></p>
 <p><code dir="ltr" translate="no">netapp.volumes.get</code></p>
 <p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>

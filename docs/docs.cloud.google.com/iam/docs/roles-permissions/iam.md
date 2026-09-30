@@ -163,6 +163,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">iam.workforcePoolSubjects.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  delete</code></li>
+<li><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  revokeSessions</code></li>
 <li><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  undelete</code></li>
 </ul>
 <p><code dir="ltr" translate="no">iam.workforcePools.*</code></p>
@@ -402,7 +403,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">agentregistry.publishers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skills.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skills.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agents.list</code></p>
@@ -984,6 +987,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></p>
@@ -1295,7 +1299,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.  regionOperations.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSecurityPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  list</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  regionTargetHttpProxies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionTargetHttpsProxies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionTargetTcpProxies.  list</code></p>
@@ -1303,6 +1309,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.regions.list</code></p>
 <p><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservations.list</code></p>
@@ -1324,7 +1331,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslCertificates.list</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.  storagePools.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.storagePools.list</code></p>
 <p><code dir="ltr" translate="no">compute.  storagePools.  setIamPolicy</code></p>
@@ -1662,6 +1671,9 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  setIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  setIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  setIamPolicy</code></p>
@@ -1786,6 +1798,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">devicerun.locations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.answerrecords.list</code></p>
@@ -1953,6 +1966,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveNodePricingInfo.  list</code></p>
+<p><code dir="ltr" translate="no">enterprisepurchasing.  licenseKeys.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">errorreporting.  applications.  list</code></p>
@@ -3107,8 +3121,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">threatintelligence.alerts.list</code></p>
 <p><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></p>
 <p><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  datasets.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">tpu.acceleratortypes.list</code></p>
 <p><code dir="ltr" translate="no">tpu.locations.list</code></p>
 <p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
@@ -3284,6 +3296,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">agentregistry.publishers.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.services.list</code></p>
 <p><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.  skills.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.  agentAnomalyDetectionScopes.  list</code></p>
 <p><code dir="ltr" translate="no">aiplatform.agentExamples.list</code></p>
@@ -3814,6 +3827,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">cloudaicompanion.  codeToolsSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  dataSharingWithGoogleSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  geminiGcpEnablementSettings.  list</code></p>
+<p><code dir="ltr" translate="no">cloudaicompanion.  gibqObservabilitySettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  loggingSettings.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">cloudaicompanion.  releaseChannelSettings.  list</code></p>
@@ -4084,6 +4098,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.regionOperations.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSecurityPolicies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionSslCertificates.  list</code></p>
+<p><code dir="ltr" translate="no">compute.  regionSslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.regionSslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionTargetHttpProxies.  list</code></p>
 <p><code dir="ltr" translate="no">compute.  regionTargetHttpsProxies.  list</code></p>
@@ -4092,6 +4107,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.regions.list</code></p>
 <p><code dir="ltr" translate="no">compute.reliabilityRisks.list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationBlocks.list</code></p>
+<p><code dir="ltr" translate="no">compute.  reservationConsumedInstances.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservationSlots.list</code></p>
 <p><code dir="ltr" translate="no">compute.  reservationSubBlocks.  list</code></p>
 <p><code dir="ltr" translate="no">compute.reservations.list</code></p>
@@ -4109,6 +4125,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">compute.snapshots.getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.snapshots.list</code></p>
 <p><code dir="ltr" translate="no">compute.sslCertificates.list</code></p>
+<p><code dir="ltr" translate="no">compute.  sslPolicies.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.sslPolicies.list</code></p>
 <p><code dir="ltr" translate="no">compute.  storagePools.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">compute.storagePools.list</code></p>
@@ -4406,6 +4423,8 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">dataplex.entries.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryGroups.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryGroups.list</code></p>
+<p><code dir="ltr" translate="no">dataplex.  entryLinkTypes.  getIamPolicy</code></p>
+<p><code dir="ltr" translate="no">dataplex.entryLinkTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  entryTypes.  getIamPolicy</code></p>
 <p><code dir="ltr" translate="no">dataplex.entryTypes.list</code></p>
 <p><code dir="ltr" translate="no">dataplex.  environments.  getIamPolicy</code></p>
@@ -4510,6 +4529,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">devicerun.locations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.operations.list</code></p>
 <p><code dir="ltr" translate="no">devicerun.sessions.list</code></p>
+<p><code dir="ltr" translate="no">devicerun.  softwareVersions.  list</code></p>
 <p><code dir="ltr" translate="no">devicestreaming.  deviceSessions.  list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.agents.list</code></p>
 <p><code dir="ltr" translate="no">dialogflow.answerrecords.list</code></p>
@@ -4660,6 +4680,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">enterpriseknowledgegraph.  entityReconciliationJobs.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveCuds.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  gcveNodePricingInfo.  list</code></p>
+<p><code dir="ltr" translate="no">enterprisepurchasing.  licenseKeys.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">enterprisepurchasing.  operations.  list</code></p>
 <p><code dir="ltr" translate="no">errorreporting.  applications.  list</code></p>
@@ -5679,8 +5700,6 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">threatintelligence.alerts.list</code></p>
 <p><code dir="ltr" translate="no">threatintelligence.  configurations.  list</code></p>
 <p><code dir="ltr" translate="no">threatintelligence.  findings.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  datasets.  list</code></p>
-<p><code dir="ltr" translate="no">timeseriesinsights.  locations.  list</code></p>
 <p><code dir="ltr" translate="no">tpu.acceleratortypes.list</code></p>
 <p><code dir="ltr" translate="no">tpu.locations.list</code></p>
 <p><code dir="ltr" translate="no">tpu.nodes.list</code></p>
@@ -6254,6 +6273,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><code dir="ltr" translate="no">iam.workforcePoolSubjects.*</code></p>
 <ul>
 <li><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  delete</code></li>
+<li><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  revokeSessions</code></li>
 <li><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  undelete</code></li>
 </ul>
 <p><code dir="ltr" translate="no">iam.workforcePools.*</code></p>
@@ -6959,41 +6979,48 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
 <tr class="even">
+<td><h4 id="iam.googleapis.com_workforcePoolSubjects.revokeSessions" class="permission-name add-link" data-text="iam.googleapis.com/workforcePoolSubjects.revokeSessions" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  revokeSessions</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
+</tr>
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePoolSubjects.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workforcePoolSubjects.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePoolSubjects.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workforcePools.create" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.create" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePools.createPolicyBinding" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.createPolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  createPolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workforcePools.delete" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.delete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePools.deletePolicyBinding" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.deletePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  deletePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workforcePools.get" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.get" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7009,7 +7036,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePools.getIamPolicy" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7026,7 +7053,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workforcePools.list" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.list" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7045,7 +7072,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePools.searchPolicyBindings" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.searchPolicyBindings" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  searchPolicyBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7059,7 +7086,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workforcePools.setIamPolicy" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7067,14 +7094,14 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePools.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workforcePools.update" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.update" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7082,28 +7109,28 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolEditor">IAM Workforce Pool Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolEditor</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workforcePools.updatePolicyBinding" class="permission-name add-link" data-text="iam.googleapis.com/workforcePools.updatePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workforcePools.  updatePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workforcePoolAdmin">IAM Workforce Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workforcePoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.create" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.create" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.delete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.delete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.get" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.get" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7118,7 +7145,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.getAttestationRules" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.getAttestationRules" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  getAttestationRules</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7133,7 +7160,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.list" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.list" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7151,42 +7178,42 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.setAttestationRules" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.setAttestationRules" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  setAttestationRules</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolManagedIdentities.update" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolManagedIdentities.update" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolManagedIdentities.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolNamespaces.create" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolNamespaces.create" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolNamespaces.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolNamespaces.delete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolNamespaces.delete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolNamespaces.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolNamespaces.get" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolNamespaces.get" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolNamespaces.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7201,7 +7228,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolNamespaces.list" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolNamespaces.list" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolNamespaces.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7219,35 +7246,35 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolNamespaces.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolNamespaces.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolNamespaces.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolNamespaces.update" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolNamespaces.update" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolNamespaces.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviderKeys.create" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviderKeys.create" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviderKeys.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviderKeys.delete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviderKeys.delete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviderKeys.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviderKeys.get" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviderKeys.get" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviderKeys.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7262,7 +7289,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviderKeys.list" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviderKeys.list" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviderKeys.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7280,28 +7307,28 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviderKeys.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviderKeys.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviderKeys.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviders.create" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviders.create" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviders.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviders.delete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviders.delete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviders.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviders.get" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviders.get" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviders.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7316,7 +7343,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviders.list" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviders.list" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviders.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7342,35 +7369,35 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.serviceAgent">Security Center Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviders.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviders.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviders.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPoolProviders.update" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPoolProviders.update" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPoolProviders.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.create" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.create" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.delete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.delete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.get" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.get" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7385,7 +7412,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.getAttestationRules" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.getAttestationRules" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  getAttestationRules</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7400,7 +7427,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.getIamPolicy" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7418,7 +7445,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.list" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.list" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7444,14 +7471,14 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securitycenter#securitycenter.serviceAgent">Security Center Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securitycenter.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.setAttestationRules" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.setAttestationRules" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  setAttestationRules</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.setIamPolicy" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7459,35 +7486,35 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.undelete" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workloadIdentityPools.update" class="permission-name add-link" data-text="iam.googleapis.com/workloadIdentityPools.update" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workloadIdentityPools.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workspacePools.createPolicyBinding" class="permission-name add-link" data-text="iam.googleapis.com/workspacePools.createPolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workspacePools.  createPolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin">Workspace Pool IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workspacePoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workspacePools.deletePolicyBinding" class="permission-name add-link" data-text="iam.googleapis.com/workspacePools.deletePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workspacePools.  deletePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin">Workspace Pool IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workspacePoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.googleapis.com_workspacePools.searchPolicyBindings" class="permission-name add-link" data-text="iam.googleapis.com/workspacePools.searchPolicyBindings" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workspacePools.  searchPolicyBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7501,21 +7528,21 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.googleapis.com_workspacePools.updatePolicyBinding" class="permission-name add-link" data-text="iam.googleapis.com/workspacePools.updatePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.googleapis.  com/workspacePools.  updatePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workspacePoolAdmin">Workspace Pool IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workspacePoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.operations.get" class="permission-name add-link" data-text="iam.operations.get" tabindex="-1"><code dir="ltr" translate="no">iam.operations.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.operationViewer">IAM Operation Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.operationViewer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.policybindings.get" class="permission-name add-link" data-text="iam.policybindings.get" tabindex="-1"><code dir="ltr" translate="no">iam.policybindings.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7532,7 +7559,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderIamAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.policybindings.list" class="permission-name add-link" data-text="iam.policybindings.list" tabindex="-1"><code dir="ltr" translate="no">iam.policybindings.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7552,20 +7579,20 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/resourcemanager#resourcemanager.folderIamAdmin">Folder IAM Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  resourcemanager.folderIamAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.principalaccessboundarypolicies.bind" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.bind" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  bind</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin">Principal Access Boundary Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryUser">Principal Access Boundary Policy User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.principalaccessboundarypolicies.create" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.create" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin">Principal Access Boundary Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.principalaccessboundarypolicies.delete" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.delete" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin">Principal Access Boundary Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.principalaccessboundarypolicies.get" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.get" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7582,7 +7609,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.principalaccessboundarypolicies.list" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.list" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7601,7 +7628,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.principalaccessboundarypolicies.searchPolicyBindings" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.searchPolicyBindings" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  searchPolicyBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7617,16 +7644,16 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.principalaccessboundarypolicies.unbind" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.unbind" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  unbind</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin">Principal Access Boundary Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryUser">Principal Access Boundary Policy User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryUser</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.principalaccessboundarypolicies.update" class="permission-name add-link" data-text="iam.principalaccessboundarypolicies.update" tabindex="-1"><code dir="ltr" translate="no">iam.  principalaccessboundarypolicies.  update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.principalAccessBoundaryAdmin">Principal Access Boundary Policy Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.principalAccessBoundaryAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.roles.create" class="permission-name add-link" data-text="iam.roles.create" tabindex="-1"><code dir="ltr" translate="no">iam.roles.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7641,7 +7668,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.roles.createTagBinding" class="permission-name add-link" data-text="iam.roles.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">iam.roles.createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7652,7 +7679,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleAdmin">Organization Role Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.organizationRoleAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.roles.delete" class="permission-name add-link" data-text="iam.roles.delete" tabindex="-1"><code dir="ltr" translate="no">iam.roles.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7667,7 +7694,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.roles.deleteTagBinding" class="permission-name add-link" data-text="iam.roles.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">iam.roles.deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7678,7 +7705,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleAdmin">Organization Role Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.organizationRoleAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.roles.get" class="permission-name add-link" data-text="iam.roles.get" tabindex="-1"><code dir="ltr" translate="no">iam.roles.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7713,7 +7740,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/privilegedaccessmanager#privilegedaccessmanager.serviceAgent">Privileged Access Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  privilegedaccessmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.roles.list" class="permission-name add-link" data-text="iam.roles.list" tabindex="-1"><code dir="ltr" translate="no">iam.roles.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7741,7 +7768,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.roles.listEffectiveTags" class="permission-name add-link" data-text="iam.roles.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">iam.roles.listEffectiveTags</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7764,7 +7791,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.roles.listTagBindings" class="permission-name add-link" data-text="iam.roles.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">iam.roles.listTagBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7787,7 +7814,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.roles.undelete" class="permission-name add-link" data-text="iam.roles.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.roles.undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7795,7 +7822,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.organizationRoleAdmin">Organization Role Administrator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.organizationRoleAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.roles.update" class="permission-name add-link" data-text="iam.roles.update" tabindex="-1"><code dir="ltr" translate="no">iam.roles.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -7810,7 +7837,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccountApiKeyBindings.create" class="permission-name add-link" data-text="iam.serviceAccountApiKeyBindings.create" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccountApiKeyBindings.  create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7822,7 +7849,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountApiKeyBindingAdmin">Service Account API Key Binding Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountApiKeyBindingAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccountApiKeyBindings.delete" class="permission-name add-link" data-text="iam.serviceAccountApiKeyBindings.delete" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccountApiKeyBindings.  delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7834,7 +7861,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountApiKeyBindingAdmin">Service Account API Key Binding Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountApiKeyBindingAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccountApiKeyBindings.undelete" class="permission-name add-link" data-text="iam.serviceAccountApiKeyBindings.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccountApiKeyBindings.  undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7846,7 +7873,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountApiKeyBindingAdmin">Service Account API Key Binding Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountApiKeyBindingAdmin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccountKeys.create" class="permission-name add-link" data-text="iam.serviceAccountKeys.create" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccountKeys.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7858,7 +7885,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccountKeys.delete" class="permission-name add-link" data-text="iam.serviceAccountKeys.delete" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccountKeys.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7875,7 +7902,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccountKeys.disable" class="permission-name add-link" data-text="iam.serviceAccountKeys.disable" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccountKeys.disable</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7885,7 +7912,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccountKeys.enable" class="permission-name add-link" data-text="iam.serviceAccountKeys.enable" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccountKeys.enable</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7895,7 +7922,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccountKeys.get" class="permission-name add-link" data-text="iam.serviceAccountKeys.get" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccountKeys.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7917,7 +7944,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccountKeys.list" class="permission-name add-link" data-text="iam.serviceAccountKeys.list" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccountKeys.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7942,7 +7969,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/auditmanager#auditmanager.serviceAgent">Audit Manager Auditing Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  auditmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.actAs" class="permission-name add-link" data-text="iam.serviceAccounts.actAs" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.actAs</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -7998,7 +8025,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.serviceAgent">Workstations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workstations.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.create" class="permission-name add-link" data-text="iam.serviceAccounts.create" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.create</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8023,7 +8050,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/firebasemods#firebasemods.serviceAgent">Firebase Extensions API Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  firebasemods.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.createTagBinding" class="permission-name add-link" data-text="iam.serviceAccounts.createTagBinding" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  createTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -8034,7 +8061,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.delete" class="permission-name add-link" data-text="iam.serviceAccounts.delete" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.delete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8053,7 +8080,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.deleteTagBinding" class="permission-name add-link" data-text="iam.serviceAccounts.deleteTagBinding" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  deleteTagBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -8064,7 +8091,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/dlp#dlp.projectdriver">DLP Project Data Profiles Driver</a> ( <code class="role-name" dir="ltr" translate="no">roles/  dlp.projectdriver</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.disable" class="permission-name add-link" data-text="iam.serviceAccounts.disable" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.disable</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8083,7 +8110,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/chronicle#chronicle.soarServiceAgent">Chronicle SOAR Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  chronicle.soarServiceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.enable" class="permission-name add-link" data-text="iam.serviceAccounts.enable" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.enable</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8095,7 +8122,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.get" class="permission-name add-link" data-text="iam.serviceAccounts.get" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.get</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8157,7 +8184,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.serviceAgent">Workstations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workstations.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.getAccessToken" class="permission-name add-link" data-text="iam.serviceAccounts.getAccessToken" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  getAccessToken</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountTokenCreator">Service Account Token Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountTokenCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityUser">Workload Identity User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityUser</code> )</p>
@@ -8198,7 +8225,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workflows#workflows.serviceAgent">Cloud Workflows Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workflows.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.getIamPolicy" class="permission-name add-link" data-text="iam.serviceAccounts.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  getIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8227,7 +8254,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/cloudsecuritycompliance#cloudsecuritycompliance.serviceAgent">Cloud Security Compliance Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  cloudsecuritycompliance.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.getOpenIdToken" class="permission-name add-link" data-text="iam.serviceAccounts.getOpenIdToken" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  getOpenIdToken</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountTokenCreator">Service Account Token Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountTokenCreator</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityUser">Workload Identity User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityUser</code> )</p>
@@ -8258,7 +8285,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workflows#workflows.serviceAgent">Cloud Workflows Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workflows.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.implicitDelegation" class="permission-name add-link" data-text="iam.serviceAccounts.implicitDelegation" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  implicitDelegation</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountTokenCreator">Service Account Token Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountTokenCreator</code> )</p>
 <p>Service agent roles</p>
@@ -8274,7 +8301,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/pubsub#pubsub.serviceAgent">Cloud Pub/Sub Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  pubsub.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.list" class="permission-name add-link" data-text="iam.serviceAccounts.list" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8329,7 +8356,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/workstations#workstations.serviceAgent">Workstations Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  workstations.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.listEffectiveTags" class="permission-name add-link" data-text="iam.serviceAccounts.listEffectiveTags" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  listEffectiveTags</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8350,7 +8377,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.listTagBindings" class="permission-name add-link" data-text="iam.serviceAccounts.listTagBindings" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  listTagBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8371,7 +8398,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.setIamPolicy" class="permission-name add-link" data-text="iam.serviceAccounts.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">iam.  serviceAccounts.  setIamPolicy</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -8382,7 +8409,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/earthengine#earthengine.appsPublisher">Earth Engine Apps Publisher</a> ( <code class="role-name" dir="ltr" translate="no">roles/  earthengine.appsPublisher</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.signBlob" class="permission-name add-link" data-text="iam.serviceAccounts.signBlob" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.signBlob</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountTokenCreator">Service Account Token Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountTokenCreator</code> )</p>
 <p>Service agent roles</p>
@@ -8400,7 +8427,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/run#run.serviceAgent">Cloud Run Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  run.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.signJwt" class="permission-name add-link" data-text="iam.serviceAccounts.signJwt" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.signJwt</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.serviceAccountTokenCreator">Service Account Token Creator</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.serviceAccountTokenCreator</code> )</p>
 <p>Service agent roles</p>
@@ -8417,7 +8444,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/securesourcemanager#securesourcemanager.serviceAgent">Secure Source Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  securesourcemanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.serviceAccounts.undelete" class="permission-name add-link" data-text="iam.serviceAccounts.undelete" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.undelete</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
@@ -8425,7 +8452,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.devOps">Dev Ops</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.devOps</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.serviceAccounts.update" class="permission-name add-link" data-text="iam.serviceAccounts.update" tabindex="-1"><code dir="ltr" translate="no">iam.serviceAccounts.update</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8443,21 +8470,21 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <li><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/deploymentmanager#clouddeploymentmanager.serviceAgent">Cloud Deployment Manager Service Agent</a> ( <code class="role-name" dir="ltr" translate="no">roles/  clouddeploymentmanager.serviceAgent</code> )</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.workloadIdentityPools.createPolicyBinding" class="permission-name add-link" data-text="iam.workloadIdentityPools.createPolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.  workloadIdentityPools.  createPolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.workloadIdentityPools.deletePolicyBinding" class="permission-name add-link" data-text="iam.workloadIdentityPools.deletePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.  workloadIdentityPools.  deletePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.workloadIdentityPoolAdmin">IAM Workload Identity Pool Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.workloadIdentityPoolAdmin</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="iam.workloadIdentityPools.searchPolicyBindings" class="permission-name add-link" data-text="iam.workloadIdentityPools.searchPolicyBindings" tabindex="-1"><code dir="ltr" translate="no">iam.  workloadIdentityPools.  searchPolicyBindings</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -8471,7 +8498,7 @@ This page lists the IAM roles and permissions for Identity and Access Management
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><h4 id="iam.workloadIdentityPools.updatePolicyBinding" class="permission-name add-link" data-text="iam.workloadIdentityPools.updatePolicyBinding" tabindex="-1"><code dir="ltr" translate="no">iam.  workloadIdentityPools.  updatePolicyBinding</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.admin">Iam Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.admin</code> )</p>

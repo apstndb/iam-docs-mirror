@@ -10,7 +10,38 @@ This page lists the IAM roles and permissions for Flow. To search through all ro
 
 ## Flow roles
 
-Flow offers the following service agent roles. Service agent roles should only be granted to [service agents](https://docs.cloud.google.com/iam/docs/service-agents) .
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Permissions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><h4 id="flow.admin" class="role-title add-link" data-text="Flow Admin Beta" tabindex="-1">Flow Admin <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  flow.admin</code> )</p>
+<p>Full access to all Flow resources. Intended for project administrators.</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+<tr class="even">
+<td><h4 id="flow.editor" class="role-title add-link" data-text="Flow Editor Beta" tabindex="-1">Flow Editor <sup>Beta</sup></h4>
+<p>( <code dir="ltr" translate="no">roles/  flow.editor</code> )</p>
+<p>Create and manage Flow generated media. Intended for content creators.</p></td>
+<td><p><code dir="ltr" translate="no">resourcemanager.projects.get</code></p>
+<p><code dir="ltr" translate="no">resourcemanager.projects.list</code></p></td>
+</tr>
+</tbody>
+</table>
+
+### Service agent roles
+
+Service agent roles should only be granted to [service agents](https://docs.cloud.google.com/iam/docs/service-agents) .
 
 <table>
 <colgroup>

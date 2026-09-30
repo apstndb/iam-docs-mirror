@@ -62,8 +62,10 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code dir="ltr" translate="no">agentregistry.skills.create</code></li>
 <li><code dir="ltr" translate="no">agentregistry.skills.delete</code></li>
 <li><code dir="ltr" translate="no">agentregistry.skills.get</code></li>
+<li><code dir="ltr" translate="no">agentregistry.  skills.  getIamPolicy</code></li>
 <li><code dir="ltr" translate="no">agentregistry.skills.list</code></li>
 <li><code dir="ltr" translate="no">agentregistry.skills.search</code></li>
+<li><code dir="ltr" translate="no">agentregistry.  skills.  setIamPolicy</code></li>
 <li><code dir="ltr" translate="no">agentregistry.skills.update</code></li>
 </ul></td>
 </tr>
@@ -123,15 +125,12 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code dir="ltr" translate="no">agentregistry.  skillRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">agentregistry.skills.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">agentregistry.skills.create</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.delete</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.get</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.list</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.search</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.update</code></li>
-</ul></td>
+<p><code dir="ltr" translate="no">agentregistry.skills.create</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.delete</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.get</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.search</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.update</code></p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="agentregistry.viewer" class="role-title add-link" data-text="Agent Registry API Viewer Beta" tabindex="-1">Agent Registry API Viewer <sup>Beta</sup></h4>
@@ -222,15 +221,12 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <li><code dir="ltr" translate="no">agentregistry.  skillRevisions.  get</code></li>
 <li><code dir="ltr" translate="no">agentregistry.  skillRevisions.  list</code></li>
 </ul>
-<p><code dir="ltr" translate="no">agentregistry.skills.*</code></p>
-<ul>
-<li><code dir="ltr" translate="no">agentregistry.skills.create</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.delete</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.get</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.list</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.search</code></li>
-<li><code dir="ltr" translate="no">agentregistry.skills.update</code></li>
-</ul></td>
+<p><code dir="ltr" translate="no">agentregistry.skills.create</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.delete</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.get</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.list</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.search</code></p>
+<p><code dir="ltr" translate="no">agentregistry.skills.update</code></p></td>
 </tr>
 </tbody>
 </table>
@@ -828,6 +824,20 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
 <tr class="odd">
+<td><h4 id="agentregistry.skills.getIamPolicy" class="permission-name add-link" data-text="agentregistry.skills.getIamPolicy" tabindex="-1"><code dir="ltr" translate="no">agentregistry.  skills.  getIamPolicy</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Viewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  viewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityReviewer">Security Reviewer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityReviewer</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.securityAuditor">Security Auditor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAuditor</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+</tr>
+<tr class="even">
 <td><h4 id="agentregistry.skills.list" class="permission-name add-link" data-text="agentregistry.skills.list" tabindex="-1"><code dir="ltr" translate="no">agentregistry.skills.list</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -844,7 +854,7 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><h4 id="agentregistry.skills.search" class="permission-name add-link" data-text="agentregistry.skills.search" tabindex="-1"><code dir="ltr" translate="no">agentregistry.skills.search</code></h4></td>
 <td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Editor</a> ( <code class="role-name" dir="ltr" translate="no">roles/  editor</code> )</p>
@@ -857,6 +867,13 @@ This page lists the IAM roles and permissions for Agent Registry. To search thro
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/jobfunctions#iam.supportUser">Support User</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.supportUser</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Reader</a> ( <code class="role-name" dir="ltr" translate="no">roles/  reader</code> )</p>
 <p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Writer</a> ( <code class="role-name" dir="ltr" translate="no">roles/  writer</code> )</p></td>
+</tr>
+<tr class="even">
+<td><h4 id="agentregistry.skills.setIamPolicy" class="permission-name add-link" data-text="agentregistry.skills.setIamPolicy" tabindex="-1"><code dir="ltr" translate="no">agentregistry.  skills.  setIamPolicy</code></h4></td>
+<td><p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Owner</a> ( <code class="role-name" dir="ltr" translate="no">roles/  owner</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/agentregistry#agentregistry.admin">Agent Registry API Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  agentregistry.admin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-permissions/iam#iam.securityAdmin">Security Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  iam.securityAdmin</code> )</p>
+<p><a href="https://docs.cloud.google.com/iam/docs/roles-overview#basic">Admin</a> ( <code class="role-name" dir="ltr" translate="no">roles/  admin</code> )</p></td>
 </tr>
 <tr class="odd">
 <td><h4 id="agentregistry.skills.update" class="permission-name add-link" data-text="agentregistry.skills.update" tabindex="-1"><code dir="ltr" translate="no">agentregistry.skills.update</code></h4></td>

@@ -74,7 +74,7 @@ If you're configuring permissions in a development or test environment—but not
 
 ## Create a Microsoft Entra ID application
 
-This section shows you how to create a Microsoft Entra ID application using the Microsoft Entra admin portal. Alternatively, you can update your existing application. For additional details, see [Establish applications in the Microsoft Entra ID ecosystem](https://learn.microsoft.com/en-us/entra/architecture/establish-applications) .
+This section shows you how to create a Microsoft Entra ID application using the Microsoft Entra admin center. Alternatively, you can update your existing application. For additional details, see [Establish applications in the Microsoft Entra ID ecosystem](https://learn.microsoft.com/en-us/entra/architecture/establish-applications) .
 
 Workforce identity pools support federation using both OIDC and SAML protocols.
 
@@ -82,13 +82,11 @@ Workforce identity pools support federation using both OIDC and SAML protocols.
 
 To create a Microsoft Entra ID application registration that uses the OIDC protocol, do the following:
 
-1.  Sign in to the Microsoft Entra administrator center.
+1.  Sign in to the Microsoft Entra admin center.
 
-2.  Go to the **Overview** page of your Microsoft Entra ID application registration.
+2.  Go to **Entra ID** \> **App registrations** .
 
-3.  Navigate to **Entra ID \> App registrations** .
-
-4.  To begin configuring the application registration, do the following:
+3.  To begin configuring the application registration, do the following:
     
     1.  Click **New registration** .
     
@@ -98,15 +96,15 @@ To create a Microsoft Entra ID application registration that uses the OIDC proto
     
     4.  In the **Redirect URI** section, in the **Select a platform** drop-down list, select **Web** .
     
-    5.  In the text field, enter a redirect URL. Your users are redirected to this URL after they successfully sign in. If you are configuring access to the [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#google_cloud_workforce_identity_federation_console) , use the following URL format:
+    5.  In the text field, enter a redirect URL. Your users are redirected to this URL after they successfully sign in. If you are configuring access to the [console (federated)](https://docs.cloud.google.com/iam/docs/workforce-identity-federation#console-federated) , use the following URL format:
         
             https://auth.cloud.google/signin-callback/locations/global/workforcePools/WORKFORCE_POOL_ID/providers/WORKFORCE_PROVIDER_ID
         
         Replace the following:
         
-          - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you will use when creating the workforce identity pool later in this document—for example: `entra-id-oidc-pool`
+          - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you use when creating the workforce identity pool later in this document—for example, `entra-id-oidc-pool` .
         
-          - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you will use when you create the workforce identity pool provider later in this document—for example: `entra-id-oidc-pool-provider`
+          - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you use when creating the workforce identity pool provider later in this document—for example, `entra-id-oidc-pool-provider` .
             
             For information on formatting the ID, see the [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers/create#query-parameters) section in the API documentation.
     
@@ -118,9 +116,9 @@ To create a Microsoft Entra ID application registration that uses the OIDC proto
 
 To create a Microsoft Entra ID application registration that uses the SAML protocol, do the following:
 
-1.  Sign in to the Microsoft Entra administrator portal.
+1.  Sign in to the Microsoft Entra admin center.
 
-2.  In the left-hand navigation menu, go to **Entra ID \> Enterprise Apps** .
+2.  Go to **Entra ID** \> **Enterprise applications** .
 
 3.  To begin configuring the enterprise application, do the following:
     
@@ -140,9 +138,9 @@ To create a Microsoft Entra ID application registration that uses the SAML proto
             
             Replace the following:
             
-              - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you will use when creating the workforce identity pool later in this document—for example: `entra-id-saml-pool`
+              - `  WORKFORCE_POOL_ID  ` : a workforce identity pool ID that you use when creating the workforce identity pool later in this document—for example, `entra-id-saml-pool` .
             
-              - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you will use when you create the workforce identity pool provider later in this document—for example: `entra-id-saml-pool-provider`
+              - `  WORKFORCE_PROVIDER_ID  ` : a workforce identity pool provider ID that you use when creating the workforce identity pool provider later in this document—for example, `entra-id-saml-pool-provider` .
                 
                 For information on formatting the ID, see the [Query parameters](https://docs.cloud.google.com/iam/docs/reference/rest/v1/locations.workforcePools.providers/create#query-parameters) section in the API documentation.
         
@@ -152,8 +150,8 @@ To create a Microsoft Entra ID application registration that uses the SAML proto
             
             Replace the following:
             
-              - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID
-              - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity provider ID
+              - `  WORKFORCE_POOL_ID  ` : the workforce identity pool ID.
+              - `  WORKFORCE_PROVIDER_ID  ` : the workforce identity pool provider ID.
         
         3.  To enable IdP-initiated sign-on, set the **Relay State** field to the following value:
             
@@ -181,10 +179,7 @@ You can configure an existing Microsoft Entra ID application or create a new one
     
       - To register a new application, follow the instructions in [Register a new application](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#register-a-new-application) .
       - To update an existing application, do the following:
-          - Go to the **Overview** page of your Microsoft Entra ID application registration.
-        
-          - Navigate to **Entra ID \> App registrations** .
-        
+          - Go to **Entra ID** \> **App registrations** .
           - Select the application that you want to update.
 
 2.  Create a new client secret in the application by following the instructions in [Certificates & secrets](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#certificates--secrets) . Make sure that you record the client secret value because it's displayed only once.
@@ -432,10 +427,7 @@ You can configure an existing Microsoft Entra ID application or create a new one
     
       - To register a new application, follow the instructions in [Register a new application](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#register-a-new-application) .
       - To update an existing application, do the following:
-          - Go to the **Overview** page of your Microsoft Entra ID application registration.
-        
-          - Navigate to **Entra ID \> App registrations** .
-        
+          - Go to **Entra ID** \> **App registrations** .
           - Select the application that you want to update.
 
 2.  Create a new client secret in the application by following the instructions in [Certificates & secrets](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#certificates--secrets) . Make sure that you record the client secret value because it's displayed only once.
@@ -687,10 +679,7 @@ You can configure an existing Microsoft Entra ID application or create a new one
     
       - To register a new application, follow the instructions in [Register a new application](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#register-a-new-application) .
       - To update an existing application, do the following:
-          - Go to the **Overview** page of your Microsoft Entra ID application registration.
-        
-          - Navigate to **Entra ID \> App registrations** .
-        
+          - Go to **Entra ID** \> **App registrations** .
           - Select the application that you want to update.
 
 2.  Create a new client secret in the application by following the instructions in [Certificates & secrets](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#certificates--secrets) . Make sure that you record the client secret value because it's displayed only once.
