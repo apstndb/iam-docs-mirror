@@ -6,10 +6,6 @@ description: Review pricing, quotas and limits, release notes, and more
 data_source: docs.cloud.google.com
 ---
 
-> **Preview — visualizing Policy Analyzer for allow policies query results**
-> 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
-
   - [](https://docs.cloud.google.com/policy-intelligence/docs/getting-support)
     
     ### Getting support

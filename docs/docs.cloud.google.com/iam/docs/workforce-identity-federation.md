@@ -113,19 +113,18 @@ The attributes are as follows:
     
       - [SSH-in-browser](https://docs.cloud.google.com/compute/docs/ssh-in-browser) .
     
-    \+ [OS Login with Workforce Identity Federation](https://docs.cloud.google.com/compute/docs/oslogin/manage-oslogin-in-an-org#use_workforce_identity_federation_with_os_login) ( [Preview](https://cloud.google.com/products/#product-launch-stages) ).
+      - [OS Login with Workforce Identity Federation](https://docs.cloud.google.com/compute/docs/oslogin/manage-oslogin-in-an-org#use_workforce_identity_federation_with_os_login) ( [Preview](https://cloud.google.com/products/#product-launch-stages) ).
     
     This attribute can't be used in IAM allow policies or in the attribute condition. The maximum length is 32 characters.
 
-\* `google.email` (Optional): an attribute that is used to map email addresses of signed-in, federated users from the IdP to products that you integrate using [Workforce Identity Federation OAuth client integration](https://docs.cloud.google.com/iam/docs/workforce-oauth-app) . This attribute can't be used in IAM allow policies or in the attribute condition.
-
-For example, to map email addresses from Okta using the OIDC protocol, include `google.email=assertion.email` in your attribute mapping.
-
-Example Google Cloud products that support OAuth client integration include the following:
-
-  - [Identity-Aware Proxy with Workforce Identity Federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)
-
-  - [Secure Source Manager with Workforce Identity Federation](https://docs.cloud.google.com/secure-source-manager/docs/create-instance-federated-identities)
+  - `google.email` (Optional): an attribute that is used to map email addresses of signed-in, federated users from the IdP to products that you integrate using [Workforce Identity Federation OAuth client integration](https://docs.cloud.google.com/iam/docs/workforce-oauth-app) . This attribute can't be used in IAM allow policies or in the attribute condition.
+    
+    For example, to map email addresses from Okta using the OIDC protocol, include `google.email=assertion.email` in your attribute mapping.
+    
+    Example Google Cloud products that support OAuth client integration include the following:
+    
+      - [Identity-Aware Proxy with Workforce Identity Federation](https://docs.cloud.google.com/iap/docs/use-workforce-identity-federation)
+      - [Secure Source Manager with Workforce Identity Federation](https://docs.cloud.google.com/secure-source-manager/docs/create-instance-federated-identities)
 
   - ` attribute. KEY  ` (Optional): an external IdP-defined attribute that is present in a user's IdP token. You can use the custom attribute to define your authorization strategy in an IAM allow policy.
     

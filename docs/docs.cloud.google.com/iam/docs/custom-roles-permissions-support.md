@@ -129,8 +129,10 @@ Enter the desired permission name or support level in the text box below:
 | `agentregistry.skills.create`                                                  | `SUPPORTED`                |
 | `agentregistry.skills.delete`                                                  | `SUPPORTED`                |
 | `agentregistry.skills.get`                                                     | `SUPPORTED`                |
+| `agentregistry.skills.getIamPolicy`                                            | `SUPPORTED`                |
 | `agentregistry.skills.list`                                                    | `SUPPORTED`                |
 | `agentregistry.skills.search`                                                  | `SUPPORTED`                |
+| `agentregistry.skills.setIamPolicy`                                            | `SUPPORTED`                |
 | `agentregistry.skills.update`                                                  | `SUPPORTED`                |
 | `aiplatform.agentAnomalyDetectionScopes.create`                                | `SUPPORTED`                |
 | `aiplatform.agentAnomalyDetectionScopes.delete`                                | `SUPPORTED`                |
@@ -445,6 +447,7 @@ Enter the desired permission name or support level in the text box below:
 | `aiplatform.models.list`                                                       | `SUPPORTED`                |
 | `aiplatform.models.update`                                                     | `SUPPORTED`                |
 | `aiplatform.models.upload`                                                     | `SUPPORTED`                |
+| `aiplatform.monitoredAgents.clearTrainingData`                                 | `SUPPORTED`                |
 | `aiplatform.monitoredAgents.disable`                                           | `SUPPORTED`                |
 | `aiplatform.monitoredAgents.enable`                                            | `SUPPORTED`                |
 | `aiplatform.monitoredAgents.get`                                               | `SUPPORTED`                |
@@ -3132,6 +3135,11 @@ Enter the desired permission name or support level in the text box below:
 | `cloudaicompanion.geminiGcpEnablementSettings.get`                             | `SUPPORTED`                |
 | `cloudaicompanion.geminiGcpEnablementSettings.list`                            | `SUPPORTED`                |
 | `cloudaicompanion.geminiGcpEnablementSettings.update`                          | `SUPPORTED`                |
+| `cloudaicompanion.gibqObservabilitySettings.create`                            | `SUPPORTED`                |
+| `cloudaicompanion.gibqObservabilitySettings.delete`                            | `SUPPORTED`                |
+| `cloudaicompanion.gibqObservabilitySettings.get`                               | `SUPPORTED`                |
+| `cloudaicompanion.gibqObservabilitySettings.list`                              | `SUPPORTED`                |
+| `cloudaicompanion.gibqObservabilitySettings.update`                            | `SUPPORTED`                |
 | `cloudaicompanion.instances.completeCode`                                      | `SUPPORTED`                |
 | `cloudaicompanion.instances.completeTask`                                      | `SUPPORTED`                |
 | `cloudaicompanion.instances.exportMetrics`                                     | `SUPPORTED`                |
@@ -3186,6 +3194,12 @@ Enter the desired permission name or support level in the text box below:
 | `cloudaicompanion.settingBindings.geminiGcpEnablementSettingsList`             | `SUPPORTED`                |
 | `cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUpdate`           | `SUPPORTED`                |
 | `cloudaicompanion.settingBindings.geminiGcpEnablementSettingsUse`              | `SUPPORTED`                |
+| `cloudaicompanion.settingBindings.gibqObservabilitySettingsCreate`             | `SUPPORTED`                |
+| `cloudaicompanion.settingBindings.gibqObservabilitySettingsDelete`             | `SUPPORTED`                |
+| `cloudaicompanion.settingBindings.gibqObservabilitySettingsGet`                | `SUPPORTED`                |
+| `cloudaicompanion.settingBindings.gibqObservabilitySettingsList`               | `SUPPORTED`                |
+| `cloudaicompanion.settingBindings.gibqObservabilitySettingsUpdate`             | `SUPPORTED`                |
+| `cloudaicompanion.settingBindings.gibqObservabilitySettingsUse`                | `SUPPORTED`                |
 | `cloudaicompanion.settingBindings.loggingSettingsCreate`                       | `SUPPORTED`                |
 | `cloudaicompanion.settingBindings.loggingSettingsDelete`                       | `SUPPORTED`                |
 | `cloudaicompanion.settingBindings.loggingSettingsGet`                          | `SUPPORTED`                |
@@ -4991,6 +5005,7 @@ Enter the desired permission name or support level in the text box below:
 | `compute.interconnects.listEffectiveTags`                                      | `SUPPORTED`                |
 | `compute.interconnects.listTagBindings`                                        | `SUPPORTED`                |
 | `compute.interconnects.setLabels`                                              | `TESTING`                  |
+| `compute.interconnects.setName`                                                | `SUPPORTED`                |
 | `compute.interconnects.update`                                                 | `TESTING`                  |
 | `compute.interconnects.use`                                                    | `TESTING`                  |
 | `compute.licenseCodes.get`                                                     | `TESTING`                  |
@@ -5290,10 +5305,12 @@ Enter the desired permission name or support level in the text box below:
 | `compute.regionSslPolicies.delete`                                             | `SUPPORTED`                |
 | `compute.regionSslPolicies.deleteTagBinding`                                   | `SUPPORTED`                |
 | `compute.regionSslPolicies.get`                                                | `SUPPORTED`                |
+| `compute.regionSslPolicies.getIamPolicy`                                       | `SUPPORTED`                |
 | `compute.regionSslPolicies.list`                                               | `SUPPORTED`                |
 | `compute.regionSslPolicies.listAvailableFeatures`                              | `SUPPORTED`                |
 | `compute.regionSslPolicies.listEffectiveTags`                                  | `SUPPORTED`                |
 | `compute.regionSslPolicies.listTagBindings`                                    | `SUPPORTED`                |
+| `compute.regionSslPolicies.setIamPolicy`                                       | `SUPPORTED`                |
 | `compute.regionSslPolicies.update`                                             | `SUPPORTED`                |
 | `compute.regionSslPolicies.use`                                                | `SUPPORTED`                |
 | `compute.regionTargetHttpProxies.create`                                       | `SUPPORTED`                |
@@ -5347,6 +5364,7 @@ Enter the desired permission name or support level in the text box below:
 | `compute.reservationBlocks.get`                                                | `SUPPORTED`                |
 | `compute.reservationBlocks.list`                                               | `SUPPORTED`                |
 | `compute.reservationBlocks.performMaintenance`                                 | `SUPPORTED`                |
+| `compute.reservationConsumedInstances.list`                                    | `SUPPORTED`                |
 | `compute.reservationSlots.get`                                                 | `SUPPORTED`                |
 | `compute.reservationSlots.list`                                                | `SUPPORTED`                |
 | `compute.reservationSlots.update`                                              | `SUPPORTED`                |
@@ -5471,10 +5489,12 @@ Enter the desired permission name or support level in the text box below:
 | `compute.sslPolicies.delete`                                                   | `TESTING`                  |
 | `compute.sslPolicies.deleteTagBinding`                                         | `SUPPORTED`                |
 | `compute.sslPolicies.get`                                                      | `TESTING`                  |
+| `compute.sslPolicies.getIamPolicy`                                             | `SUPPORTED`                |
 | `compute.sslPolicies.list`                                                     | `TESTING`                  |
 | `compute.sslPolicies.listAvailableFeatures`                                    | `TESTING`                  |
 | `compute.sslPolicies.listEffectiveTags`                                        | `SUPPORTED`                |
 | `compute.sslPolicies.listTagBindings`                                          | `SUPPORTED`                |
+| `compute.sslPolicies.setIamPolicy`                                             | `SUPPORTED`                |
 | `compute.sslPolicies.update`                                                   | `TESTING`                  |
 | `compute.sslPolicies.use`                                                      | `TESTING`                  |
 | `compute.storagePools.create`                                                  | `SUPPORTED`                |
@@ -7115,6 +7135,7 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.entryGroups.useGenericAspect`                                        | `SUPPORTED`                |
 | `dataplex.entryGroups.useGenericEntry`                                         | `SUPPORTED`                |
 | `dataplex.entryGroups.useGraphProfileAspect`                                   | `SUPPORTED`                |
+| `dataplex.entryGroups.useManagedConnectorTypes`                                | `SUPPORTED`                |
 | `dataplex.entryGroups.useMySQLConnectorTypes`                                  | `SUPPORTED`                |
 | `dataplex.entryGroups.useOracleConnectorTypes`                                 | `SUPPORTED`                |
 | `dataplex.entryGroups.useOverviewAspect`                                       | `SUPPORTED`                |
@@ -7131,6 +7152,14 @@ Enter the desired permission name or support level in the text box below:
 | `dataplex.entryGroups.useSecondaryIndexesAspect`                               | `SUPPORTED`                |
 | `dataplex.entryGroups.useStorageAspect`                                        | `SUPPORTED`                |
 | `dataplex.entryGroups.useSynonymEntryLink`                                     | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.create`                                               | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.delete`                                               | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.get`                                                  | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.getIamPolicy`                                         | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.list`                                                 | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.setIamPolicy`                                         | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.update`                                               | `SUPPORTED`                |
+| `dataplex.entryLinkTypes.use`                                                  | `SUPPORTED`                |
 | `dataplex.entryLinks.create`                                                   | `SUPPORTED`                |
 | `dataplex.entryLinks.delete`                                                   | `SUPPORTED`                |
 | `dataplex.entryLinks.get`                                                      | `SUPPORTED`                |
@@ -7635,6 +7664,8 @@ Enter the desired permission name or support level in the text box below:
 | `devicerun.sessions.delete`                                                    | `SUPPORTED`                |
 | `devicerun.sessions.get`                                                       | `SUPPORTED`                |
 | `devicerun.sessions.list`                                                      | `SUPPORTED`                |
+| `devicerun.softwareVersions.get`                                               | `SUPPORTED`                |
+| `devicerun.softwareVersions.list`                                              | `SUPPORTED`                |
 | `devicestreaming.deviceSessions.cancel`                                        | `SUPPORTED`                |
 | `devicestreaming.deviceSessions.create`                                        | `SUPPORTED`                |
 | `devicestreaming.deviceSessions.get`                                           | `SUPPORTED`                |
@@ -7989,6 +8020,7 @@ Enter the desired permission name or support level in the text box below:
 | `discoveryengine.licenseConfigs.get`                                           | `SUPPORTED`                |
 | `discoveryengine.licenseConfigs.list`                                          | `SUPPORTED`                |
 | `discoveryengine.licenseConfigs.update`                                        | `SUPPORTED`                |
+| `discoveryengine.locations.buildAuthorizationUrl`                              | `SUPPORTED`                |
 | `discoveryengine.locations.completeExternalIdentities`                         | `SUPPORTED`                |
 | `discoveryengine.locations.estimateDataSize`                                   | `SUPPORTED`                |
 | `discoveryengine.locations.exchangeAuthCredentials`                            | `SUPPORTED`                |
@@ -8480,6 +8512,10 @@ Enter the desired permission name or support level in the text box below:
 | `enterprisepurchasing.gcveCuds.get`                                            | `SUPPORTED`                |
 | `enterprisepurchasing.gcveCuds.list`                                           | `SUPPORTED`                |
 | `enterprisepurchasing.gcveNodePricingInfo.list`                                | `SUPPORTED`                |
+| `enterprisepurchasing.licenseKeys.create`                                      | `SUPPORTED`                |
+| `enterprisepurchasing.licenseKeys.delete`                                      | `SUPPORTED`                |
+| `enterprisepurchasing.licenseKeys.get`                                         | `SUPPORTED`                |
+| `enterprisepurchasing.licenseKeys.list`                                        | `SUPPORTED`                |
 | `enterprisepurchasing.locations.get`                                           | `SUPPORTED`                |
 | `enterprisepurchasing.locations.list`                                          | `SUPPORTED`                |
 | `enterprisepurchasing.operations.cancel`                                       | `SUPPORTED`                |
@@ -9543,6 +9579,7 @@ Enter the desired permission name or support level in the text box below:
 | `iam.googleapis.com/workforcePoolProviders.undelete`                           | `SUPPORTED`                |
 | `iam.googleapis.com/workforcePoolProviders.update`                             | `SUPPORTED`                |
 | `iam.googleapis.com/workforcePoolSubjects.delete`                              | `SUPPORTED`                |
+| `iam.googleapis.com/workforcePoolSubjects.revokeSessions`                      | `SUPPORTED`                |
 | `iam.googleapis.com/workforcePoolSubjects.undelete`                            | `SUPPORTED`                |
 | `iam.googleapis.com/workforcePools.create`                                     | `SUPPORTED`                |
 | `iam.googleapis.com/workforcePools.createPolicyBinding`                        | `SUPPORTED`                |
@@ -9681,6 +9718,7 @@ Enter the desired permission name or support level in the text box below:
 | `iam.workforcePoolProviders.undelete`                                          | `SUPPORTED`                |
 | `iam.workforcePoolProviders.update`                                            | `SUPPORTED`                |
 | `iam.workforcePoolSubjects.delete`                                             | `SUPPORTED`                |
+| `iam.workforcePoolSubjects.revokeSessions`                                     | `SUPPORTED`                |
 | `iam.workforcePoolSubjects.undelete`                                           | `SUPPORTED`                |
 | `iam.workforcePools.create`                                                    | `SUPPORTED`                |
 | `iam.workforcePools.createPolicyBinding`                                       | `SUPPORTED`                |
@@ -13452,14 +13490,6 @@ Enter the desired permission name or support level in the text box below:
 | `threatintelligence.configurations.update`                                     | `SUPPORTED`                |
 | `threatintelligence.findings.get`                                              | `SUPPORTED`                |
 | `threatintelligence.findings.list`                                             | `SUPPORTED`                |
-| `timeseriesinsights.datasets.create`                                           | `SUPPORTED`                |
-| `timeseriesinsights.datasets.delete`                                           | `SUPPORTED`                |
-| `timeseriesinsights.datasets.evaluate`                                         | `SUPPORTED`                |
-| `timeseriesinsights.datasets.list`                                             | `SUPPORTED`                |
-| `timeseriesinsights.datasets.query`                                            | `SUPPORTED`                |
-| `timeseriesinsights.datasets.update`                                           | `SUPPORTED`                |
-| `timeseriesinsights.locations.get`                                             | `SUPPORTED`                |
-| `timeseriesinsights.locations.list`                                            | `SUPPORTED`                |
 | `tpu.acceleratortypes.get`                                                     | `SUPPORTED`                |
 | `tpu.acceleratortypes.list`                                                    | `SUPPORTED`                |
 | `tpu.locations.get`                                                            | `SUPPORTED`                |

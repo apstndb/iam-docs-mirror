@@ -124,11 +124,11 @@ Allowed operations for `principal.type` :
 
 Supported principal types are workspace, workforce pool, workload pool, service account, and agent identity. Allowed string must be one of:
 
-  - iam.googleapis.com/WorkspaceIdentity
-  - iam.googleapis.com/WorkforcePoolIdentity
-  - iam.googleapis.com/WorkloadPoolIdentity
-  - iam.googleapis.com/ServiceAccount
-  - iam.googleapis.com/AgentPoolIdentity (available in Preview)
+  - `iam.googleapis.com/WorkspaceIdentity`
+  - `iam.googleapis.com/WorkforcePoolIdentity`
+  - `iam.googleapis.com/WorkloadPoolIdentity`
+  - `iam.googleapis.com/ServiceAccount`
+  - `iam.googleapis.com/AgentPoolIdentity`
 
 `createTime`
 

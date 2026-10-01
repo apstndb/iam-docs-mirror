@@ -32,9 +32,9 @@ To learn how to use Policy Analyzer for allow policies, see [Analyzing IAM polic
 
 ### Analyze organization policies
 
-> **Preview — visualizing Policy Analyzer for allow policies query results**
+> **Preview**
 > 
-> This feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
+> This product or feature is subject to the "Pre-GA Offerings Terms" in the General Service Terms section of the [Service Specific Terms](https://docs.cloud.google.com/terms/service-terms#1) . Pre-GA products and features are available "as is" and might have limited support. For more information, see the [launch stage descriptions](https://cloud.google.com/products/#product-launch-stages) .
 
 Policy Intelligence provides Policy Analyzer for Organization Policy, which you can use to create an analysis query to get information on both custom and predefined organization policies.
 

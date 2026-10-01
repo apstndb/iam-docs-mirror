@@ -721,7 +721,9 @@ Required. Attributes that are used to determine whether this rule applies to a r
 Optional. The conditions that determine whether this rule applies to a request. Conditions are identified by their key, which is the FQDN of the service that they are relevant to. For example:
 
     "conditions": {
-     "iam.googleapis.com": <cel expression>
+     "iam.googleapis.com": {
+      "expression": <cel expression>
+     }
     }
 
 Each rule is evaluated independently. If this rule does not apply to a request, other rules might still apply. Currently supported keys are as follows:
@@ -1345,7 +1347,7 @@ Supported principal types are workspace, workforce pool, workload pool, service 
   - `iam.googleapis.com/WorkforcePoolIdentity`
   - `iam.googleapis.com/WorkloadPoolIdentity`
   - `iam.googleapis.com/ServiceAccount`
-  - `iam.googleapis.com/AgentPoolIdentity` (available in Preview)
+  - `iam.googleapis.com/AgentPoolIdentity`
 
 `create_time`
 

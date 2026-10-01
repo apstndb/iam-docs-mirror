@@ -244,7 +244,7 @@ If you can't use dynamic groups, consider using Terraform or some other Infrastr
 
 ### Use enforcement groups for mandatory access control and authentication controls
 
-Use access groups to enforce [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) . Google Cloud supports mandatory access control with a number of services and tools, including the following:
+Use enforcement groups to enforce [mandatory access control](https://en.wikipedia.org/wiki/Mandatory_access_control) . Google Cloud supports mandatory access control with a number of services and tools, including the following:
 
   - [IAM deny policies](https://docs.cloud.google.com/iam/docs/deny-overview)
   - [IAM principal access boundary policies](https://docs.cloud.google.com/iam/docs/principal-access-boundary-policies)

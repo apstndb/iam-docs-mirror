@@ -22,7 +22,7 @@ EXAMPLES
 
 The following command creates a disabled AWS workload identity pool provider in the default project with the ID `  my-workload-identity-pool  ` . Explicit values for all required and optional parameters are provided.
 
-    gcloud iam workload-identity-pools providers create-aws my-workload-identity-pool-provider --location="global" --workload-identity-pool="my-workload-identity-pool&quot; --display-name="My workload pool provider" --description="My workload pool provider description" --disabled --attribute-mapping="google.subject=assertion.arn" --attribute-condition="true" --account-id=1234567890
+    gcloud iam workload-identity-pools providers create-aws my-workload-identity-pool-provider --location="global" --workload-identity-pool="my-workload-identity-pool" --display-name="My workload pool provider" --description="My workload pool provider description" --disabled --attribute-mapping="google.subject=assertion.arn" --attribute-condition="true" --account-id=1234567890
 
 POSITIONAL ARGUMENTS
 

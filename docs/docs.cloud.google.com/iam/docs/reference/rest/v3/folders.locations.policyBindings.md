@@ -131,7 +131,7 @@ Supported principal types are workspace, workforce pool, workload pool, service 
   - `iam.googleapis.com/WorkforcePoolIdentity`
   - `iam.googleapis.com/WorkloadPoolIdentity`
   - `iam.googleapis.com/ServiceAccount`
-  - `iam.googleapis.com/AgentPoolIdentity` (available in Preview)
+  - `iam.googleapis.com/AgentPoolIdentity`
 
 `createTime`
 

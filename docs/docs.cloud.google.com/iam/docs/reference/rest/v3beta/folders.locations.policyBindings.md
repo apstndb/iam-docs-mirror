@@ -131,7 +131,7 @@ Supported principal types are workspace, workforce pool, workload pool, service 
   - `iam.googleapis.com/WorkforcePoolIdentity`
   - `iam.googleapis.com/WorkloadPoolIdentity`
   - `iam.googleapis.com/ServiceAccount`
-  - `iam.googleapis.com/AgentPoolIdentity` (available in Preview)
+  - `iam.googleapis.com/AgentPoolIdentity`
 
 `createTime`
 
@@ -164,14 +164,21 @@ The full resource name of the resource to which the policy will be bound. Immuta
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{// Union field target can be only one of the following:&quot;principalSet&quot;: string,&quot;resource&quot;: string// End of list of possible types for union field target.}</code></pre></td>
+<td><pre dir="ltr" data-is-upgraded="" style="border: 0;margin: 0;" translate="no"><code>{
+
+  // The following is a list of mutually exclusive fields. At most one of the
+  // fields will be set in a response:
+  &quot;principalSet&quot;: string,
+  &quot;resource&quot;: string
+  // End of mutually exclusive fields.
+}</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 Fields
 
-Union field `target` . The different types of targets that can be bound to a policy. `target` can be only one of the following:
+The different types of targets that can be bound to a policy. The following is a list of mutually exclusive fields. At most one of the fields will be set in a response:
 
 `principalSet`
 
@@ -206,6 +213,8 @@ Examples:
   - Project:
       - `//cloudresourcemanager.googleapis.com/projects/PROJECT_NUMBER`
       - `//cloudresourcemanager.googleapis.com/projects/PROJECT_ID`
+
+End of mutually exclusive fields.
 
 ### PolicyKind
 

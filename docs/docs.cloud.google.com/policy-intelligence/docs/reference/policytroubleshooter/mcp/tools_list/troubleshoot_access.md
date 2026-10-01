@@ -33,8 +33,7 @@ The following sample demonstrate how to use `curl` to invoke the `troubleshoot_a
 </thead>
 <tbody>
 <tr class="odd">
-<td><pre dir="ltr" data-is-upgraded="" data-syntax="Bash" translate="no"><code>                  
-curl --location &#39;https://policytroubleshooter.googleapis.com/mcp&#39; \
+<td><pre dir="ltr" data-is-upgraded="" data-syntax="Bash" translate="no"><code>curl --location &#39;https://policytroubleshooter.googleapis.com/mcp&#39; \
 --header &#39;content-type: application/json&#39; \
 --header &#39;accept: application/json, text/event-stream&#39; \
 --data &#39;{
@@ -2566,7 +2565,7 @@ Supported principal types are workspace, workforce pool, workload pool, service 
   - `iam.googleapis.com/WorkforcePoolIdentity`
   - `iam.googleapis.com/WorkloadPoolIdentity`
   - `iam.googleapis.com/ServiceAccount`
-  - `iam.googleapis.com/AgentPoolIdentity` (available in Preview)
+  - `iam.googleapis.com/AgentPoolIdentity`
 
 `createTime`
 
